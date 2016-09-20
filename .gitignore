@@ -154,4 +154,23 @@ nosetests.xml
 .project
 .pydevproject
 
+#########
+# EAGLE #
+########
 
+# lbr temp files
+*.l#*
+
+# dru temp files
+*.d#*
+
+# epf file
+eagle.epf
+
+# save
+*.*.*.lck
+*.lck
+.*.*.lck
+
+# backup sch/brd files
+**/*.[b,s,l]#*
