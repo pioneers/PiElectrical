@@ -614,6 +614,18 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <pinref part="JP2" gate="G$1" pin="3"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND@0"/>
+<wire x1="91.44" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND@1"/>
+<wire x1="91.44" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND@2"/>
+<wire x1="119.38" y1="109.22" x2="124.46" y2="109.22" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
