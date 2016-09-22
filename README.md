@@ -6,7 +6,7 @@ Establish during Electrical Y9 by Seiya Ono to simplify the workspace for people
 
 ```
 (c) Pioneers In Engineering
-Design by: YOUR\_NAMES\_HERE
+Design by: YOUR NAMES HERE
 This design is open source hardware.
 For more information, visit pioneers.berkeley.edu/opensource
 ```
