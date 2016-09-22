@@ -10227,9 +10227,7 @@ Drawings &lt;/a&gt;</description>
 <text x="17.78" y="3.175" size="1.27" layer="21" font="vector" ratio="15" rot="SR90" align="bottom-center">P9</text>
 </package>
 <package name="4PIN_SCREW">
-<description>&lt;b&gt;4 Pin Screw Terminal&lt;/b&gt;
-
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8432"&gt;Spark Fun Page&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;b&gt;4 Pin Screw Terminal&lt;/b&gt;</description>
 <wire x1="0" y1="0" x2="20" y2="0" width="0.127" layer="21"/>
 <wire x1="20" y1="0" x2="20" y2="7.5" width="0.127" layer="21"/>
 <wire x1="20" y1="7.5" x2="0" y2="7.5" width="0.127" layer="21"/>
@@ -10240,9 +10238,7 @@ Drawings &lt;/a&gt;</description>
 <wire x1="0" y1="7.5" x2="0" y2="0" width="0.127" layer="21"/>
 </package>
 <package name="3PIN_SCREW">
-<description>&lt;b&gt;3 Pin Screw Terminal&lt;/b&gt;
-
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8433"&gt;Sparkfun Page&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;b&gt;3 Pin Screw Terminal&lt;/b&gt;</description>
 <wire x1="0.6" y1="0" x2="15.6" y2="0" width="0.127" layer="21"/>
 <wire x1="15.6" y1="0" x2="15.6" y2="7.5" width="0.127" layer="21"/>
 <wire x1="15.6" y1="7.5" x2="0.6" y2="7.5" width="0.127" layer="21"/>
@@ -10258,9 +10254,7 @@ Drawings &lt;/a&gt;</description>
 <wire x1="16.2" y1="0" x2="15.6" y2="0" width="0.127" layer="21"/>
 </package>
 <package name="2PIN_SCREW">
-<description>&lt;b&gt;2 Pin Screw Terminal&lt;/b&gt;
-
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8432"&gt;Sparkfun Page&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;b&gt;2 Pin Screw Terminal&lt;/b&gt;</description>
 <wire x1="0" y1="0" x2="0.6" y2="0" width="0.127" layer="21"/>
 <wire x1="0.6" y1="0" x2="10.6" y2="0" width="0.127" layer="21"/>
 <wire x1="10.6" y1="0" x2="11.1" y2="0" width="0.127" layer="21"/>
@@ -10275,11 +10269,7 @@ Drawings &lt;/a&gt;</description>
 <pad name="P$2" x="8.1" y="3.3" drill="1.35"/>
 </package>
 <package name="6PIN_SCREW">
-<description>&lt;b&gt;6 Pin Screw Terminal&lt;/b&gt;
-
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8433"&gt;Sparkfun Page&lt;/a&gt;&lt;/p&gt;
-
-The 2 and 3 Pins Screw Terminals can be linked together seamlessly.</description>
+<description>&lt;b&gt;6 Pin Screw Terminal&lt;/b&gt;</description>
 <wire x1="0" y1="0" x2="0.6" y2="0" width="0.127" layer="21"/>
 <wire x1="0.6" y1="0" x2="30.6" y2="0" width="0.127" layer="21"/>
 <wire x1="30.6" y1="0" x2="31.2" y2="0" width="0.127" layer="21"/>
@@ -16079,7 +16069,9 @@ Standard 8.5x11 US Letter frame</description>
 
 &lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8432"&gt;Sparkfun Page&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;The 2 and 3 Pins Screw Terminals can be linked together seamlessly.&lt;/p&gt;</description>
+&lt;p&gt;5mm Pitch&lt;/p&gt;
+
+The 2 and 3 Pins Screw Terminals can be linked together seamlessly.</description>
 <gates>
 <gate name="G$1" symbol="4PIN_SCREW_TERM" x="0" y="0"/>
 </gates>
@@ -16100,7 +16092,9 @@ Standard 8.5x11 US Letter frame</description>
 <deviceset name="3PIN_SCREW">
 <description>&lt;b&gt;3 Pin Screw Terminal&lt;/b&gt;
 
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8433"&gt;Sparkfun Page&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8433"&gt;Sparkfun Page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;5mm Pitch&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="3PIN_SCREW_TERM" x="0" y="-2.54"/>
 </gates>
@@ -16120,7 +16114,9 @@ Standard 8.5x11 US Letter frame</description>
 <deviceset name="2PIN_SCREW">
 <description>&lt;b&gt;2 Pin Screw Terminal&lt;/b&gt;
 
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8432"&gt;Sparkfun Page&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8432"&gt;Sparkfun Page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;5mm Pitch&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="2PIN_SCREW_TERM" x="0" y="-2.54"/>
 </gates>
@@ -16140,6 +16136,8 @@ Standard 8.5x11 US Letter frame</description>
 <description>&lt;b&gt;6 Pin Screw Terminal&lt;/b&gt;
 
 &lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8433"&gt;Sparkfun Page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;5mm Pitch&lt;/p&gt;
 
 The 2 and 3 Pins Screw Terminals can be linked together seamlessly.</description>
 <gates>
