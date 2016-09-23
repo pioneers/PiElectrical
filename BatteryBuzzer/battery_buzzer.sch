@@ -5073,9 +5073,9 @@ will get regulated on the arduino.</text>
 <label x="50.8" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="UC1" gate="G$1" pin="A3"/>
-<wire x1="180.34" y1="66.04" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
-<label x="193.04" y="66.04" size="1.778" layer="95"/>
+<pinref part="UC1" gate="G$1" pin="TXO"/>
+<wire x1="152.4" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
+<label x="132.08" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="F" class="0">
@@ -5212,9 +5212,9 @@ will get regulated on the arduino.</text>
 <junction x="109.22" y="10.16"/>
 </segment>
 <segment>
-<pinref part="UC1" gate="G$1" pin="TXO"/>
-<wire x1="152.4" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
-<label x="132.08" y="76.2" size="1.778" layer="95"/>
+<pinref part="UC1" gate="G$1" pin="A3"/>
+<wire x1="180.34" y1="66.04" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
+<label x="193.04" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BGND" class="0">

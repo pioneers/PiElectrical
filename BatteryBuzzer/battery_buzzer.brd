@@ -883,8 +883,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="DP">
 <contactref element="DISP" pad="7"/>
-<contactref element="UC1" pad="A3"/>
-<wire x1="-15.24" y1="20.32" x2="-26.67" y2="39.37" width="0" layer="19" extent="1-1"/>
+<contactref element="UC1" pad="TXO"/>
+<wire x1="-30.48" y1="30.48" x2="-26.67" y2="39.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="F">
 <contactref element="DISP" pad="11"/>
@@ -945,13 +945,13 @@ design rules under a new name.</description>
 <wire x1="-30.48" y1="10.16" x2="-49.95" y2="83.82" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CALIB">
-<contactref element="UC1" pad="TXO"/>
 <contactref element="S2" pad="P2'"/>
 <contactref element="S2" pad="P1'"/>
 <contactref element="R16" pad="1"/>
+<contactref element="UC1" pad="A3"/>
 <wire x1="-90.98" y1="1.23" x2="-90.98" y2="-3.77" width="0" layer="19" extent="1-1"/>
 <wire x1="-74.51" y1="-3.81" x2="-90.98" y2="-3.77" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.48" y1="30.48" x2="-74.51" y2="-3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.24" y1="20.32" x2="-74.51" y2="-3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BGND">
 <contactref element="JP1" pad="1"/>
