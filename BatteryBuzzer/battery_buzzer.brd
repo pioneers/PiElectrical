@@ -916,22 +916,25 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <signal name="DIG_1">
 <contactref element="R14" pad="2"/>
 <contactref element="UC1" pad="6"/>
-<wire x1="18.122" y1="11.938" x2="23.622" y2="21.844" width="0" layer="19" extent="1-1"/>
+<wire x1="18.122" y1="11.938" x2="18.9484" y2="11.938" width="0.254" layer="1"/>
+<wire x1="18.9484" y1="11.938" x2="20.8788" y2="13.8684" width="0.254" layer="1"/>
+<wire x1="20.8788" y1="13.8684" x2="20.8788" y2="19.1008" width="0.254" layer="1"/>
+<wire x1="20.8788" y1="19.1008" x2="23.622" y2="21.844" width="0.254" layer="1"/>
 </signal>
 <signal name="D">
 <contactref element="DISP" pad="3"/>
-<contactref element="UC1" pad="RXI"/>
-<wire x1="12.446" y1="17.018" x2="23.622" y2="39.624" width="0" layer="19" extent="1-1"/>
+<contactref element="UC1" pad="2"/>
+<wire x1="12.446" y1="17.018" x2="23.622" y2="32.004" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="E">
 <contactref element="DISP" pad="5"/>
-<contactref element="UC1" pad="TXO"/>
-<wire x1="12.446" y1="22.098" x2="23.622" y2="42.164" width="0" layer="19" extent="1-1"/>
+<contactref element="UC1" pad="RXI"/>
+<wire x1="12.446" y1="22.098" x2="23.622" y2="39.624" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DP">
 <contactref element="DISP" pad="7"/>
-<contactref element="UC1" pad="2"/>
-<wire x1="12.446" y1="27.178" x2="23.622" y2="32.004" width="0" layer="19" extent="1-1"/>
+<contactref element="UC1" pad="TXO"/>
+<wire x1="12.446" y1="27.178" x2="23.622" y2="42.164" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="F">
 <contactref element="DISP" pad="11"/>
@@ -944,7 +947,10 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <signal name="A">
 <contactref element="DISP" pad="14"/>
 <contactref element="UC1" pad="7"/>
-<wire x1="2.286" y1="17.018" x2="23.622" y2="19.304" width="0" layer="19" extent="1-1"/>
+<wire x1="23.622" y1="19.304" x2="14.4272" y2="19.304" width="0.254" layer="16"/>
+<wire x1="14.4272" y1="19.304" x2="13.4112" y2="18.288" width="0.254" layer="16"/>
+<wire x1="13.4112" y1="18.288" x2="3.556" y2="18.288" width="0.254" layer="16"/>
+<wire x1="3.556" y1="18.288" x2="2.286" y2="17.018" width="0.254" layer="16"/>
 </signal>
 <signal name="G">
 <contactref element="DISP" pad="15"/>
@@ -954,7 +960,10 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <signal name="B">
 <contactref element="DISP" pad="16"/>
 <contactref element="UC1" pad="8"/>
-<wire x1="2.286" y1="11.938" x2="23.622" y2="16.764" width="0" layer="19" extent="1-1"/>
+<wire x1="23.622" y1="16.764" x2="14.7828" y2="16.764" width="0.254" layer="16"/>
+<wire x1="14.7828" y1="16.764" x2="13.716" y2="15.6972" width="0.254" layer="16"/>
+<wire x1="13.716" y1="15.6972" x2="6.0452" y2="15.6972" width="0.254" layer="16"/>
+<wire x1="6.0452" y1="15.6972" x2="2.286" y2="11.938" width="0.254" layer="16"/>
 </signal>
 <signal name="N$8">
 <contactref element="R12" pad="1"/>
@@ -979,17 +988,20 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <signal name="DIG_2">
 <contactref element="R12" pad="2"/>
 <contactref element="UC1" pad="5"/>
-<wire x1="18.122" y1="14.478" x2="23.622" y2="24.384" width="0" layer="19" extent="1-1"/>
+<wire x1="18.122" y1="14.478" x2="18.122" y2="18.884" width="0.254" layer="1"/>
+<wire x1="18.122" y1="18.884" x2="23.622" y2="24.384" width="0.254" layer="1"/>
 </signal>
 <signal name="DIG_3">
 <contactref element="R13" pad="2"/>
 <contactref element="UC1" pad="4"/>
-<wire x1="18.122" y1="24.638" x2="23.622" y2="26.924" width="0" layer="19" extent="1-1"/>
+<wire x1="18.122" y1="24.638" x2="21.336" y2="24.638" width="0.254" layer="1"/>
+<wire x1="21.336" y1="24.638" x2="23.622" y2="26.924" width="0.254" layer="1"/>
 </signal>
 <signal name="DIG_4">
 <contactref element="R17" pad="2"/>
 <contactref element="UC1" pad="3"/>
-<wire x1="18.122" y1="29.718" x2="23.622" y2="29.464" width="0" layer="19" extent="1-1"/>
+<wire x1="18.122" y1="29.718" x2="23.368" y2="29.718" width="0.254" layer="1"/>
+<wire x1="23.368" y1="29.718" x2="23.622" y2="29.464" width="0.254" layer="1"/>
 </signal>
 <signal name="CALIB">
 <contactref element="S2" pad="P2'"/>
