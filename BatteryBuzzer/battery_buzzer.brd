@@ -9,7 +9,7 @@
 <grid distance="0.006" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -159,7 +159,15 @@
 <wire x1="40.2336" y1="17.526" x2="52.8828" y2="17.526" width="0.254" layer="27"/>
 <wire x1="52.8828" y1="17.526" x2="52.8828" y2="27.2796" width="0.254" layer="27"/>
 <wire x1="52.8828" y1="27.2796" x2="40.2336" y2="27.2796" width="0.254" layer="27"/>
-<text x="40.8432" y="27.5844" size="1.27" layer="27">HIGH PRECISION</text>
+<text x="40.386" y="27.5844" size="1.27" layer="27">HIGH PRECISION</text>
+<wire x1="53.7972" y1="27.432" x2="66.294" y2="27.432" width="0.254" layer="27"/>
+<wire x1="66.294" y1="27.432" x2="66.294" y2="25.4508" width="0.254" layer="27"/>
+<wire x1="66.294" y1="25.4508" x2="60.3504" y2="25.4508" width="0.254" layer="27"/>
+<wire x1="60.3504" y1="25.4508" x2="60.3504" y2="14.478" width="0.254" layer="27"/>
+<wire x1="60.3504" y1="14.478" x2="53.7972" y2="14.478" width="0.254" layer="27"/>
+<wire x1="53.7972" y1="14.478" x2="53.7972" y2="27.432" width="0.254" layer="27"/>
+<text x="54.4068" y="0.762" size="1.27" layer="27">SECONDARY
+POWER</text>
 </plain>
 <libraries>
 <library name="pie">
@@ -656,9 +664,11 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </pass>
 </autorouter>
 <elements>
-<element name="JP1" library="pie" package="XH_CONNECTOR_4POS_2.5MM" value="XH_CONN" x="63.9572" y="19.304" rot="R90">
+<element name="JP1" library="pie" package="XH_CONNECTOR_4POS_2.5MM" value="XH_CONN" x="63.9572" y="19.304" smashed="yes" rot="R90">
 <attribute name="PIE_DIGIKEY-PN" value="455-2249-ND" x="104.5972" y="78.994" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PIE-INT-REF-NUM" value="XH-4POS" x="104.5972" y="78.994" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="61.976" y="9.4488" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="63.6778" y="4.572" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R2" library="pie" package="R0603" value="10k" x="48.768" y="18.288" smashed="yes">
 <attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="90.678" y="-60.452" size="1.778" layer="27" display="off"/>
@@ -687,9 +697,11 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="NAME" x="40.64" y="23.8252" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="43.3832" y="25.5016" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="LS1" library="pie" package="BUZZER_MAGNETIC_5V_12MM_RADIAL" value="BUZZER" x="58.9788" y="36.0172" rot="R180">
+<element name="LS1" library="pie" package="BUZZER_MAGNETIC_5V_12MM_RADIAL" value="BUZZER" x="58.9788" y="36.0172" smashed="yes" rot="R180">
 <attribute name="PIE_DIGIKEY-PN" value="102-1269-ND" x="19.6088" y="44.9072" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PIE-INT-REF-NUM" value="BUZZER" x="19.6088" y="44.9072" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="56.3118" y="44.2722" size="1.27" layer="21" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="64.6938" y="44.2722" size="1.27" layer="21" font="vector" rot="R180"/>
 </element>
 <element name="R9" library="pie" package="R0603" value="100" x="48.26" y="36.576" smashed="yes">
 <attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="69.85" y="-42.164" size="1.778" layer="27" display="off"/>
@@ -712,26 +724,31 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="PIE-DIGIKEY-PN-PRI" value="IRLML6402PBFCT-ND" x="95.3008" y="-46.228" size="1.778" layer="27" display="off"/>
 <attribute name="PIE-INT-REF-NUM" value="PMOS" x="95.3008" y="-46.228" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="57.8612" y="24.2062" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="VALUE" x="54.6608" y="21.717" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="Q4" library="pie" package="SOT23-3" value="P-CHANNEL-MOSFETSOT23-3" x="55.9308" y="20.828" smashed="yes">
 <attribute name="PIE-DIGIKEY-PN-PRI" value="IRLML6402PBFCT-ND" x="95.3008" y="-42.672" size="1.778" layer="27" display="off"/>
 <attribute name="PIE-INT-REF-NUM" value="PMOS" x="95.3008" y="-42.672" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="57.8612" y="20.447" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="VALUE" x="54.6608" y="17.653" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="Q3" library="pie" package="SOT23-3" value="P-CHANNEL-MOSFETSOT23-3" x="55.9308" y="16.764" smashed="yes">
+<element name="Q3" library="pie" package="SOT23-3" value="PMOSFET" x="55.9308" y="16.764" smashed="yes">
 <attribute name="PIE-DIGIKEY-PN-PRI" value="IRLML6402PBFCT-ND" x="95.3008" y="-39.116" size="1.778" layer="27" display="off"/>
 <attribute name="PIE-INT-REF-NUM" value="PMOS" x="95.3008" y="-39.116" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="58.0136" y="16.383" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="VALUE" x="54.6608" y="13.589" size="1.27" layer="27" font="vector"/>
+<attribute name="VALUE" x="57.8612" y="25.781" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="Q2" library="pie" package="SOT23-3" value="IRFML8244" x="48.768" y="14.478"/>
-<element name="R1" library="pie" package="R0603" value="10k" x="55.9308" y="28.702">
+<element name="Q2" library="pie" package="SOT23-3" value="IRFML8244" x="48.768" y="14.478" smashed="yes">
+<attribute name="NAME" x="50.8508" y="14.5542" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="VALUE" x="50.8508" y="12.827" size="1.27" layer="27" font="vector"/>
+</element>
+<element name="R1" library="pie" package="R0603" value="10k" x="55.9308" y="28.702" smashed="yes">
 <attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="92.7608" y="-50.038" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="53.7464" y="29.5148" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="VALUE" x="57.8612" y="28.2956" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="R8" library="pie" package="R0603" value="10k" x="43.434" y="13.462" rot="R180">
+<element name="R8" library="pie" package="R0603" value="10k" x="43.434" y="13.462" smashed="yes" rot="R180">
 <attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="-18.796" y="92.202" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="42.8752" y="16.002" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="46.5328" y="16.002" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="Q1" library="pie" package="SOT23-3" value="IRFML8244" x="43.688" y="42.926"/>
 <element name="UC1" library="pie" package="ARDUINO_PRO_MICRO" value="ARDUINO_PRO_MICRO" x="22.352" y="12.954"/>
@@ -763,10 +780,11 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="NAME" x="19.9016" y="1.4228" size="1.27" layer="21" rot="R90"/>
 </element>
 <element name="S1" library="pie" package="C&amp;K_SWITCH" value="DPST_SWITCH" x="48.514" y="6.35" smashed="yes" rot="R180">
-<attribute name="NAME" x="56.7432" y="4.56" size="1.27" layer="21" rot="R180"/>
+<attribute name="NAME" x="56.5908" y="5.6268" size="1.27" layer="21" rot="R180"/>
 </element>
-<element name="SJ1" library="pie" package="SJ_2S-NO" value="SOLDERJUMPERNO" x="56.388" y="8.382" rot="R270">
+<element name="SJ1" library="pie" package="SJ_2S-NO" value="GND to BGND" x="56.388" y="8.382" smashed="yes" rot="R270">
 <attribute name="PIE-INT-REF-NUM" value="DNL" x="56.388" y="8.382" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="55.2704" y="9.8044" size="1.27" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="JP2" library="pie" package="1X02" value="" x="37.9476" y="2.6416">
 <attribute name="PIE-INT-REF-NUM" value="BULK-STOCK" x="37.9476" y="2.6416" size="1.778" layer="27" display="off"/>
@@ -1125,4 +1143,10 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

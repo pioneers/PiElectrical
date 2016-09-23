@@ -4547,7 +4547,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY13" library="pie" deviceset="GND" device=""/>
 <part name="Q5" library="pie" deviceset="P-CHANNEL-MOSFET" device="SOT23-3"/>
 <part name="Q4" library="pie" deviceset="P-CHANNEL-MOSFET" device="SOT23-3"/>
-<part name="Q3" library="pie" deviceset="P-CHANNEL-MOSFET" device="SOT23-3"/>
+<part name="Q3" library="pie" deviceset="P-CHANNEL-MOSFET" device="SOT23-3" value="PMOSFET"/>
 <part name="Q2" library="pie" deviceset="N-CHANNEL-MOSFET" device="SOT23-3" value="IRFML8244"/>
 <part name="R1" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
@@ -4568,7 +4568,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY6" library="pie" deviceset="GND" device=""/>
 <part name="S2" library="pie" deviceset="DPST_SWITCH" device=""/>
 <part name="S1" library="pie" deviceset="DPST_SWITCH" device=""/>
-<part name="SJ1" library="pie" deviceset="SOLDERJUMPER" device="NO"/>
+<part name="SJ1" library="pie" deviceset="SOLDERJUMPER" device="NO" value="GND to BGND"/>
 <part name="JP2" library="pie" deviceset="M02" device="PTH"/>
 <part name="SUPPLY7" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="pie" deviceset="GND" device=""/>
