@@ -4961,14 +4961,14 @@ will get regulated on the arduino.</text>
 <label x="55.88" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="UC1" gate="G$1" pin="3"/>
-<wire x1="152.4" y1="63.5" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
-<label x="132.08" y="63.5" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="210.82" y1="78.74" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
 <label x="211.074" y="76.962" size="1.778" layer="95"/>
 <pinref part="R11" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="UC1" gate="G$1" pin="RXI"/>
+<wire x1="152.4" y1="73.66" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
+<label x="132.08" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -5004,9 +5004,9 @@ will get regulated on the arduino.</text>
 <junction x="109.22" y="142.24"/>
 </segment>
 <segment>
-<pinref part="UC1" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="66.04" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
-<label x="132.08" y="66.04" size="1.778" layer="95"/>
+<pinref part="UC1" gate="G$1" pin="TXO"/>
+<wire x1="152.4" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
+<label x="132.08" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -5037,9 +5037,9 @@ will get regulated on the arduino.</text>
 <wire x1="55.88" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="UC1" gate="G$1" pin="RXI"/>
-<wire x1="152.4" y1="73.66" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
-<label x="132.08" y="73.66" size="1.778" layer="95"/>
+<pinref part="UC1" gate="G$1" pin="3"/>
+<wire x1="152.4" y1="63.5" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
+<label x="132.08" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D" class="0">
@@ -5073,9 +5073,9 @@ will get regulated on the arduino.</text>
 <label x="50.8" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="UC1" gate="G$1" pin="TXO"/>
-<wire x1="152.4" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
-<label x="132.08" y="76.2" size="1.778" layer="95"/>
+<pinref part="UC1" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="66.04" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
+<label x="132.08" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="F" class="0">
