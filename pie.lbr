@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9906,12 +9906,12 @@ Drawings &lt;/a&gt;</description>
 <text x="39.878" y="15.367" size="0.381" layer="21" font="vector" rot="SR180">D1TX</text>
 </package>
 <package name="ARDUINO_PRO_MICRO">
-<wire x1="0" y1="0" x2="0" y2="33.02" width="0.127" layer="25"/>
-<wire x1="0" y1="33.02" x2="4.826" y2="33.02" width="0.127" layer="25"/>
+<wire x1="-0.508" y1="-0.508" x2="-0.508" y2="33.02" width="0.127" layer="25"/>
+<wire x1="-0.508" y1="33.02" x2="4.826" y2="33.02" width="0.127" layer="25"/>
 <wire x1="4.826" y1="33.02" x2="12.954" y2="33.02" width="0.127" layer="25"/>
-<wire x1="12.954" y1="33.02" x2="17.78" y2="33.02" width="0.127" layer="25"/>
-<wire x1="17.78" y1="33.02" x2="17.78" y2="0" width="0.127" layer="25"/>
-<wire x1="17.78" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
+<wire x1="12.954" y1="33.02" x2="18.288" y2="33.02" width="0.127" layer="25"/>
+<wire x1="18.288" y1="33.02" x2="18.288" y2="-0.508" width="0.127" layer="25"/>
+<wire x1="18.288" y1="-0.508" x2="-0.508" y2="-0.508" width="0.127" layer="25"/>
 <pad name="9" x="1.27" y="1.27" drill="1" diameter="2.286"/>
 <pad name="8" x="1.27" y="3.81" drill="1" diameter="2.286"/>
 <pad name="7" x="1.27" y="6.35" drill="1" diameter="2.286"/>
