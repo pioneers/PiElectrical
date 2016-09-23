@@ -11,7 +11,7 @@ This design is open source hardware.
 For more information, visit pioneers.berkeley.edu/opensource
 ```
 
-The Revisoin number should be REV YEAR REV_LETTER ex: REV 9A for Revision A Year 9
+The revision number should be REV YEAR REV_LETTER ex: REV 9A for Revision A Year 9
 
 Arduino Pro Micro Pinouts
 
