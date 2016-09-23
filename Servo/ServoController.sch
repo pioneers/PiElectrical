@@ -568,7 +568,7 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <parts>
 <part name="FRAME1" library="pie" deviceset="FRAME-LETTER" device="">
 <attribute name="AUTHOR" value="Seiya"/>
-<attribute name="REVISION" value="A"/>
+<attribute name="REVISION" value="9A"/>
 <attribute name="TITLE" value="Servo Controller"/>
 </part>
 <part name="U$1" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
