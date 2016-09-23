@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10334,6 +10334,25 @@ Drawings &lt;/a&gt;</description>
 <text x="-5.3048" y="-4.9476" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-5.6858" y="-7.4622" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 </package>
+<package name="C&amp;K_SWITCH">
+<description>Layout for a P&amp;K Micro switch.
+
+specifically used for  401-1133-ND, but could be used for others.</description>
+<pad name="P1" x="-3" y="2.5" drill="0.9"/>
+<pad name="P1'" x="3" y="2.5" drill="0.9"/>
+<pad name="P2" x="-3" y="-2.5" drill="0.9"/>
+<pad name="P2'" x="3" y="-2.5" drill="0.9"/>
+<wire x1="-5.5" y1="5.5" x2="5.5" y2="5.5" width="0.127" layer="21"/>
+<wire x1="5.5" y1="5.5" x2="5.5" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="5.5" y1="-5.5" x2="-5.5" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="-5.5" x2="-5.5" y2="5.5" width="0.127" layer="21"/>
+<text x="-3.2" y="5.6" size="1.27" layer="21">&gt;Name</text>
+<rectangle x1="-5" y1="-5" x2="5" y2="5" layer="39"/>
+<rectangle x1="-4" y1="1.5" x2="-2" y2="3.5" layer="40"/>
+<rectangle x1="-4" y1="-3.5" x2="-2" y2="-1.5" layer="40"/>
+<rectangle x1="2" y1="-3.5" x2="4" y2="-1.5" layer="40"/>
+<rectangle x1="2" y1="1.5" x2="4" y2="3.5" layer="40"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SJ">
@@ -12240,6 +12259,25 @@ BREAKER</text>
 <text x="-5.08" y="-2.54" size="2.54" layer="94">X</text>
 <text x="-5.08" y="10.16" size="2.54" layer="94">&gt;NAME</text>
 <wire x1="2.54" y1="7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="DPST_SWITCH">
+<description>Generic Double-Pole single throw switch, normally open.</description>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<pin name="P1'" x="7.62" y="0" length="middle" rot="R180"/>
+<pin name="P2'" x="7.62" y="-5.08" length="middle" rot="R180"/>
+<pin name="P1" x="-7.62" y="0" length="middle"/>
+<pin name="P2" x="-7.62" y="-5.08" length="middle"/>
+<text x="-5.08" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -16155,6 +16193,27 @@ and &lt;a href="http://www.digikey.com/product-detail/en/keystone-electronics/35
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="18M7116" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DPST_SWITCH">
+<description>Double Throw, single pole normally open pushbutton switch.
+
+ 401-1133-ND</description>
+<gates>
+<gate name="G$1" symbol="DPST_SWITCH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C&amp;K_SWITCH">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P1'" pad="P1'"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P2'" pad="P2'"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
