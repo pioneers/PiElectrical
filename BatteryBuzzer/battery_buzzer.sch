@@ -5037,9 +5037,9 @@ will get regulated on the arduino.</text>
 <wire x1="55.88" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="UC1" gate="G$1" pin="3"/>
-<wire x1="152.4" y1="63.5" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
-<label x="132.08" y="63.5" size="1.778" layer="95"/>
+<pinref part="UC1" gate="G$1" pin="6"/>
+<wire x1="152.4" y1="55.88" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
+<label x="132.08" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D" class="0">
@@ -5168,9 +5168,9 @@ will get regulated on the arduino.</text>
 <label x="86.36" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="UC1" gate="G$1" pin="4"/>
-<wire x1="152.4" y1="60.96" x2="142.24" y2="60.96" width="0.1524" layer="91"/>
-<label x="132.08" y="60.96" size="1.778" layer="95"/>
+<pinref part="UC1" gate="G$1" pin="5"/>
+<wire x1="152.4" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
+<label x="132.08" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIG_3" class="0">
@@ -5180,9 +5180,9 @@ will get regulated on the arduino.</text>
 <label x="86.36" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="UC1" gate="G$1" pin="5"/>
-<wire x1="152.4" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
-<label x="132.08" y="58.42" size="1.778" layer="95"/>
+<pinref part="UC1" gate="G$1" pin="4"/>
+<wire x1="152.4" y1="60.96" x2="142.24" y2="60.96" width="0.1524" layer="91"/>
+<label x="132.08" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIG_4" class="0">
@@ -5192,9 +5192,9 @@ will get regulated on the arduino.</text>
 <label x="86.36" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="UC1" gate="G$1" pin="6"/>
-<wire x1="152.4" y1="55.88" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
-<label x="132.08" y="55.88" size="1.778" layer="95"/>
+<pinref part="UC1" gate="G$1" pin="3"/>
+<wire x1="152.4" y1="63.5" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
+<label x="132.08" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CALIB" class="0">

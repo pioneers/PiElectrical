@@ -892,7 +892,8 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="45.72" y1="14.6304" x2="43.7524" y2="14.6304" width="0.254" layer="1"/>
 <wire x1="43.7524" y1="14.6304" x2="42.584" y2="13.462" width="0.254" layer="1"/>
 <contactref element="UC1" pad="16"/>
-<wire x1="38.862" y1="16.764" x2="42.584" y2="13.462" width="0" layer="19" extent="1-1"/>
+<wire x1="38.862" y1="16.764" x2="39.282" y2="16.764" width="0.254" layer="1"/>
+<wire x1="39.282" y1="16.764" x2="42.584" y2="13.462" width="0.254" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="Q3" pad="3"/>
@@ -914,8 +915,8 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </signal>
 <signal name="DIG_1">
 <contactref element="R14" pad="2"/>
-<contactref element="UC1" pad="3"/>
-<wire x1="18.122" y1="11.938" x2="23.622" y2="29.464" width="0" layer="19" extent="1-1"/>
+<contactref element="UC1" pad="6"/>
+<wire x1="18.122" y1="11.938" x2="23.622" y2="21.844" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D">
 <contactref element="DISP" pad="3"/>
@@ -977,18 +978,18 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </signal>
 <signal name="DIG_2">
 <contactref element="R12" pad="2"/>
-<contactref element="UC1" pad="4"/>
-<wire x1="18.122" y1="14.478" x2="23.622" y2="26.924" width="0" layer="19" extent="1-1"/>
+<contactref element="UC1" pad="5"/>
+<wire x1="18.122" y1="14.478" x2="23.622" y2="24.384" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIG_3">
 <contactref element="R13" pad="2"/>
-<contactref element="UC1" pad="5"/>
-<wire x1="18.122" y1="24.638" x2="23.622" y2="24.384" width="0" layer="19" extent="1-1"/>
+<contactref element="UC1" pad="4"/>
+<wire x1="18.122" y1="24.638" x2="23.622" y2="26.924" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIG_4">
 <contactref element="R17" pad="2"/>
-<contactref element="UC1" pad="6"/>
-<wire x1="23.622" y1="21.844" x2="18.122" y2="29.718" width="0" layer="19" extent="1-1"/>
+<contactref element="UC1" pad="3"/>
+<wire x1="18.122" y1="29.718" x2="23.622" y2="29.464" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CALIB">
 <contactref element="S2" pad="P2'"/>
@@ -998,7 +999,10 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="30.94" y1="8.85" x2="36.194" y2="8.85" width="0.254" layer="1"/>
 <wire x1="36.194" y1="8.85" x2="36.234" y2="8.89" width="0.254" layer="1"/>
 <contactref element="UC1" pad="10"/>
-<wire x1="36.234" y1="8.89" x2="38.862" y2="14.224" width="0" layer="19" extent="1-1"/>
+<wire x1="38.862" y1="14.224" x2="38.862" y2="13.5636" width="0.254" layer="1"/>
+<wire x1="38.862" y1="13.5636" x2="36.2712" y2="10.9728" width="0.254" layer="1"/>
+<wire x1="36.2712" y1="10.9728" x2="36.2712" y2="8.9272" width="0.254" layer="1"/>
+<wire x1="36.2712" y1="8.9272" x2="36.234" y2="8.89" width="0.254" layer="1"/>
 </signal>
 <signal name="BGND">
 <contactref element="JP1" pad="1"/>
