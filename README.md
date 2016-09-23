@@ -8,7 +8,8 @@ Establish during Electrical Y9 by Seiya Ono to simplify the workspace for people
 (c) Pioneers In Engineering
 Design by: YOUR NAMES HERE
 This design is open source hardware.
-For more information, visit pioneers.berkeley.edu/opensource
+For more information,
+visit pioneers.berkeley.edu/opensource
 ```
 
 The revision number should be REV 9A for Revision A Year 9
