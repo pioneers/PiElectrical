@@ -158,6 +158,7 @@ For more information, visit
 pioneers.berkeley.edu/opensource</text>
 <text x="19.304" y="12.954" size="0.762" layer="25" font="vector" rot="R270">TO 5</text>
 <text x="19.304" y="4.064" size="0.762" layer="25" font="vector" rot="R270">TO 6</text>
+<text x="28.956" y="28.956" size="0.762" layer="25" font="vector" rot="R270">REV 9A</text>
 </plain>
 <libraries>
 <library name="pie">
@@ -217,12 +218,12 @@ Vertical
 <rectangle x1="-3.81" y1="-2.54" x2="3.81" y2="3.302" layer="39"/>
 </package>
 <package name="ARDUINO_PRO_MICRO">
-<wire x1="0" y1="0" x2="0" y2="33.02" width="0.127" layer="25"/>
-<wire x1="0" y1="33.02" x2="4.826" y2="33.02" width="0.127" layer="25"/>
+<wire x1="-0.508" y1="-0.508" x2="-0.508" y2="33.02" width="0.127" layer="25"/>
+<wire x1="-0.508" y1="33.02" x2="4.826" y2="33.02" width="0.127" layer="25"/>
 <wire x1="4.826" y1="33.02" x2="12.954" y2="33.02" width="0.127" layer="25"/>
-<wire x1="12.954" y1="33.02" x2="17.78" y2="33.02" width="0.127" layer="25"/>
-<wire x1="17.78" y1="33.02" x2="17.78" y2="0" width="0.127" layer="25"/>
-<wire x1="17.78" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
+<wire x1="12.954" y1="33.02" x2="18.288" y2="33.02" width="0.127" layer="25"/>
+<wire x1="18.288" y1="33.02" x2="18.288" y2="-0.508" width="0.127" layer="25"/>
+<wire x1="18.288" y1="-0.508" x2="-0.508" y2="-0.508" width="0.127" layer="25"/>
 <pad name="9" x="1.27" y="1.27" drill="1" diameter="2.286"/>
 <pad name="8" x="1.27" y="3.81" drill="1" diameter="2.286"/>
 <pad name="7" x="1.27" y="6.35" drill="1" diameter="2.286"/>
@@ -251,6 +252,9 @@ Vertical
 <wire x1="12.954" y1="33.02" x2="12.954" y2="34.29" width="0.127" layer="25"/>
 <text x="5.08" y="31.75" size="1.016" layer="25" font="vector">Micro USB</text>
 <text x="8.89" y="6.35" size="1.524" layer="25" font="vector" rot="R90">ARUINO MICRO PRO</text>
+<wire x1="4.826" y1="33.02" x2="4.826" y2="29.0576" width="0.127" layer="21"/>
+<wire x1="4.826" y1="29.0576" x2="12.954" y2="29.0576" width="0.127" layer="21"/>
+<wire x1="12.954" y1="29.0576" x2="12.954" y2="33.02" width="0.127" layer="21"/>
 </package>
 <package name="PIE-LOGO-SMALL">
 <polygon width="0" layer="21">

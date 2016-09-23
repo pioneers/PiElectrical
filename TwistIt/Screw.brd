@@ -157,6 +157,7 @@ Design by: Mohammed Hossain, Seiya Ono
 This design is open source hardware.
 For more information, visit
 pioneers.berkeley.edu/opensource</text>
+<text x="27.432" y="0.508" size="1.016" layer="25" font="vector">REV 9A</text>
 </plain>
 <libraries>
 <library name="jumper">
