@@ -4532,8 +4532,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R3" library="pie" deviceset="R-US_" device="R0603" value="30k"/>
 <part name="R4" library="pie" deviceset="R-US_" device="R0603" value="51k"/>
 <part name="R5" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R6" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R7" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="R8" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY8" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="pie" deviceset="GND" device=""/>
@@ -4551,17 +4551,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Q2" library="pie" deviceset="N-CHANNEL-MOSFET" device="SOT23-3" value="IRFML8244"/>
 <part name="R1" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
-<part name="R6" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R8" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY5" library="pie" deviceset="GND" device=""/>
 <part name="Q1" library="pie" deviceset="N-CHANNEL-MOSFET" device="SOT23-3" value="IRFML8244"/>
 <part name="UC1" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
 <part name="SUPPLY3" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="pie" deviceset="GND" device=""/>
-<part name="DISP" library="SparkFun-Displays" deviceset="7-SEGMENT-4DIGIT" device=""/>
-<part name="R12" library="pie" deviceset="R-US_" device="R0603" value="330"/>
+<part name="DISP" library="SparkFun-Displays" deviceset="7-SEGMENT-4DIGIT" device="" value="7-SEG-4DIG"/>
 <part name="R13" library="pie" deviceset="R-US_" device="R0603" value="330"/>
 <part name="R14" library="pie" deviceset="R-US_" device="R0603" value="330"/>
-<part name="R17" library="pie" deviceset="R-US_" device="R0603" value="330"/>
+<part name="R12" library="pie" deviceset="R-US_" device="R0603" value="330"/>
+<part name="R15" library="pie" deviceset="R-US_" device="R0603" value="330"/>
 <part name="U$1" library="pie" deviceset="5V" device=""/>
 <part name="R16" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY2" library="pie" deviceset="GND" device=""/>
@@ -4634,11 +4634,11 @@ will get regulated on the arduino.</text>
 <attribute name="NAME" x="132.08" y="119.38" size="1.778" layer="95"/>
 <attribute name="VALUE" x="132.08" y="115.57" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="162.56" y="116.84" smashed="yes" rot="R90">
+<instance part="R6" gate="G$1" x="162.56" y="116.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="167.64" y="119.4054" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="167.64" y="116.84" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R8" gate="G$1" x="195.58" y="116.84" smashed="yes" rot="R90">
+<instance part="R7" gate="G$1" x="195.58" y="116.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="200.66" y="119.4054" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="200.66" y="116.84" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -4682,7 +4682,7 @@ will get regulated on the arduino.</text>
 <attribute name="VALUE" x="124.46" y="172.72" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="119.38" y="106.68"/>
-<instance part="R6" gate="G$1" x="109.22" y="132.08" smashed="yes" rot="R90">
+<instance part="R8" gate="G$1" x="109.22" y="132.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="114.3" y="134.6454" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="114.3" y="132.08" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -4694,19 +4694,19 @@ will get regulated on the arduino.</text>
 <instance part="SUPPLY3" gate="GND" x="121.92" y="66.04"/>
 <instance part="SUPPLY4" gate="GND" x="187.96" y="81.28"/>
 <instance part="DISP" gate="G$1" x="20.32" y="40.64" rot="R270"/>
-<instance part="R12" gate="G$1" x="76.2" y="58.42" smashed="yes">
+<instance part="R13" gate="G$1" x="76.2" y="58.42" smashed="yes">
 <attribute name="NAME" x="71.12" y="60.96" size="1.778" layer="95"/>
 <attribute name="VALUE" x="78.74" y="62.23" size="1.778" layer="96"/>
 </instance>
-<instance part="R13" gate="G$1" x="76.2" y="48.26" smashed="yes">
+<instance part="R14" gate="G$1" x="76.2" y="48.26" smashed="yes">
 <attribute name="NAME" x="71.12" y="50.8" size="1.778" layer="95"/>
 <attribute name="VALUE" x="78.74" y="49.53" size="1.778" layer="96"/>
 </instance>
-<instance part="R14" gate="G$1" x="50.8" y="60.96" smashed="yes">
+<instance part="R12" gate="G$1" x="50.8" y="60.96" smashed="yes">
 <attribute name="NAME" x="45.72" y="63.5" size="1.778" layer="95"/>
 <attribute name="VALUE" x="53.34" y="64.77" size="1.778" layer="96"/>
 </instance>
-<instance part="R17" gate="G$1" x="76.2" y="43.18" smashed="yes">
+<instance part="R15" gate="G$1" x="76.2" y="43.18" smashed="yes">
 <attribute name="NAME" x="71.12" y="45.72" size="1.778" layer="95"/>
 <attribute name="VALUE" x="78.74" y="44.45" size="1.778" layer="96"/>
 </instance>
@@ -4755,12 +4755,12 @@ will get regulated on the arduino.</text>
 <wire x1="129.54" y1="111.76" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
 <wire x1="162.56" y1="111.76" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 <wire x1="195.58" y1="109.22" x2="195.58" y2="111.76" width="0.1524" layer="91"/>
 </segment>
@@ -4785,7 +4785,7 @@ will get regulated on the arduino.</text>
 <wire x1="119.38" y1="139.7" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <wire x1="109.22" y1="109.22" x2="109.22" y2="127" width="0.1524" layer="91"/>
 </segment>
@@ -4834,7 +4834,7 @@ will get regulated on the arduino.</text>
 <net name="IO1" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="129.54" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
 <label x="160.274" y="127" size="1.778" layer="95" rot="R180"/>
 <junction x="162.56" y="124.46"/>
@@ -4850,7 +4850,7 @@ will get regulated on the arduino.</text>
 <net name="IO2" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="129.54" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
 <label x="193.04" y="127" size="1.778" layer="95" rot="R180"/>
 <junction x="195.58" y="124.46"/>
@@ -4998,7 +4998,7 @@ will get regulated on the arduino.</text>
 <pinref part="Q2" gate="G$1" pin="G"/>
 <wire x1="111.76" y1="142.24" x2="109.22" y2="142.24" width="0.1524" layer="91"/>
 <label x="96.52" y="142.24" size="1.778" layer="95"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="142.24" x2="96.52" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="137.16" x2="109.22" y2="142.24" width="0.1524" layer="91"/>
 <junction x="109.22" y="142.24"/>
@@ -5033,7 +5033,7 @@ will get regulated on the arduino.</text>
 <net name="DIG_1" class="0">
 <segment>
 <label x="58.42" y="60.96" size="1.778" layer="95"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -5085,9 +5085,9 @@ will get regulated on the arduino.</text>
 <label x="50.8" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="UC1" gate="G$1" pin="14"/>
-<wire x1="180.34" y1="53.34" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
-<label x="193.04" y="53.34" size="1.778" layer="95"/>
+<pinref part="UC1" gate="G$1" pin="15"/>
+<wire x1="180.34" y1="55.88" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
+<label x="193.04" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C" class="0">
@@ -5116,9 +5116,9 @@ will get regulated on the arduino.</text>
 <label x="50.8" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="UC1" gate="G$1" pin="15"/>
-<wire x1="180.34" y1="55.88" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
-<label x="193.04" y="55.88" size="1.778" layer="95"/>
+<pinref part="UC1" gate="G$1" pin="14"/>
+<wire x1="180.34" y1="53.34" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
+<label x="193.04" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B" class="0">
@@ -5135,35 +5135,35 @@ will get regulated on the arduino.</text>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="DISP" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="DISP" gate="G$1" pin="6"/>
 <wire x1="71.12" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="DISP" gate="G$1" pin="8"/>
 <wire x1="71.12" y1="43.18" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="DISP" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIG_2" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
 <label x="86.36" y="58.42" size="1.778" layer="95"/>
 </segment>
@@ -5175,7 +5175,7 @@ will get regulated on the arduino.</text>
 </net>
 <net name="DIG_3" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
 <label x="86.36" y="48.26" size="1.778" layer="95"/>
 </segment>
@@ -5187,7 +5187,7 @@ will get regulated on the arduino.</text>
 </net>
 <net name="DIG_4" class="0">
 <segment>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="43.18" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
 <label x="86.36" y="43.18" size="1.778" layer="95"/>
 </segment>
