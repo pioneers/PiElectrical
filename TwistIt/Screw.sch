@@ -149,12 +149,12 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 (c) Pioneers in Engineering and Tau Beta Pi CA-A, UC Berkeley.</description>
 <packages>
 <package name="ARDUINO_PRO_MICRO">
-<wire x1="0" y1="0" x2="0" y2="33.02" width="0.127" layer="25"/>
-<wire x1="0" y1="33.02" x2="4.826" y2="33.02" width="0.127" layer="25"/>
+<wire x1="-0.508" y1="-0.508" x2="-0.508" y2="33.02" width="0.127" layer="25"/>
+<wire x1="-0.508" y1="33.02" x2="4.826" y2="33.02" width="0.127" layer="25"/>
 <wire x1="4.826" y1="33.02" x2="12.954" y2="33.02" width="0.127" layer="25"/>
-<wire x1="12.954" y1="33.02" x2="17.78" y2="33.02" width="0.127" layer="25"/>
-<wire x1="17.78" y1="33.02" x2="17.78" y2="0" width="0.127" layer="25"/>
-<wire x1="17.78" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
+<wire x1="12.954" y1="33.02" x2="18.288" y2="33.02" width="0.127" layer="25"/>
+<wire x1="18.288" y1="33.02" x2="18.288" y2="-0.508" width="0.127" layer="25"/>
+<wire x1="18.288" y1="-0.508" x2="-0.508" y2="-0.508" width="0.127" layer="25"/>
 <pad name="9" x="1.27" y="1.27" drill="1" diameter="2.286"/>
 <pad name="8" x="1.27" y="3.81" drill="1" diameter="2.286"/>
 <pad name="7" x="1.27" y="6.35" drill="1" diameter="2.286"/>
@@ -183,6 +183,9 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="12.954" y1="33.02" x2="12.954" y2="34.29" width="0.127" layer="25"/>
 <text x="5.08" y="31.75" size="1.016" layer="25" font="vector">Micro USB</text>
 <text x="8.89" y="6.35" size="1.524" layer="25" font="vector" rot="R90">ARUINO MICRO PRO</text>
+<wire x1="4.826" y1="33.02" x2="4.826" y2="29.0576" width="0.127" layer="21"/>
+<wire x1="4.826" y1="29.0576" x2="12.954" y2="29.0576" width="0.127" layer="21"/>
+<wire x1="12.954" y1="29.0576" x2="12.954" y2="33.02" width="0.127" layer="21"/>
 </package>
 <package name="5PIN_SCREW">
 <description>&lt;b&gt;5 Pin Screw Terminal&lt;/b&gt;</description>
@@ -223,16 +226,6 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="13" y1="-6" x2="13" y2="-4" width="0.127" layer="51"/>
 <wire x1="13" y1="-4" x2="12" y2="-5" width="0.127" layer="51"/>
 <wire x1="13" y1="-4" x2="14" y2="-5" width="0.127" layer="51"/>
-</package>
-<package name="POGO_PIN_394">
-<description>&lt;b&gt; Pogo Pin Mounting/Probing Pad &lt;/b&gt;
-&lt;p&gt; For 0.04" diameter body, 0.06" diameter head. &lt;/p&gt;
-&lt;p&gt; Source:  http://www.adafruit.com/products/394 &lt;/p&gt;</description>
-<pad name="POGO_PIN" x="0" y="0" drill="1.016" diameter="1.524"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -331,17 +324,16 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <text x="-7.62" y="-2.54" size="1.778" layer="94" align="center">X</text>
 <text x="-7.62" y="-7.62" size="1.778" layer="94" align="center">X</text>
 </symbol>
-<symbol name="POGO_PIN">
-<description>&lt;b&gt; Pogo Pin Mounting/Probing Pad &lt;/b&gt;</description>
-<pin name="P$1" x="2.54" y="0" visible="off" length="short" rot="R180"/>
-<wire x1="0.254" y1="0" x2="1.524" y2="0" width="0.6096" layer="94"/>
-<text x="1.27" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<circle x="0" y="0" radius="1.135921875" width="0.254" layer="94"/>
-<text x="1.27" y="1.27" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ARDUINO_PRO_MICRO">
+<description>&lt;b&gt;Arduino Pro Micro&lt;/b&gt;
+
+&lt;p&gt;Electrical System Year 9's Smart Sensor Core&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png"&gt;Pin Outs&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5"&gt;Buy Here&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="ARDUINO_PRO_MICRO" x="-12.7" y="-22.86"/>
 </gates>
@@ -429,24 +421,6 @@ The 2 and 3 Pins Screw Terminals can be linked together seamlessly.</description
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="POGO_PIN" uservalue="yes">
-<description>&lt;b&gt; Pogo Pin Mounting/Probing Pad &lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="POGO_PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="POGO_PIN_394">
-<connects>
-<connect gate="G$1" pin="P$1" pad="POGO_PIN"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PIE-INT-REF-NUM" value="POGO-PIN"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -3945,21 +3919,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0603"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0603"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="R0603"/>
-<part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="pie" deviceset="GND" device=""/>
 <part name="JP1" library="jumper" deviceset="JP1E" device=""/>
 <part name="U$2" library="pie" deviceset="5PIN_SCREW" device=""/>
-<part name="U$3" library="pie" deviceset="POGO_PIN" device=""/>
+<part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="134.62" y="114.3" size="1.778" layer="91">Pin 1</text>
-<text x="127" y="114.3" size="1.778" layer="91">Pin 2</text>
-<text x="119.38" y="114.3" size="1.778" layer="91">Pin 3</text>
-<text x="83.82" y="88.9" size="1.778" layer="91">PIN1</text>
-<text x="83.82" y="91.44" size="1.778" layer="91">PIN2</text>
-<text x="83.82" y="93.98" size="1.778" layer="91">PIN3</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="60.96" y="93.98"/>
@@ -3970,11 +3937,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R1" gate="G$1" x="116.84" y="104.14" rot="R180"/>
 <instance part="R2" gate="G$1" x="116.84" y="99.06" rot="R180"/>
 <instance part="R3" gate="G$1" x="116.84" y="93.98" rot="R180"/>
-<instance part="SUPPLY1" gate="GND" x="134.62" y="81.28"/>
 <instance part="SUPPLY2" gate="GND" x="27.94" y="99.06"/>
 <instance part="JP1" gate="A" x="93.98" y="101.6"/>
-<instance part="U$2" gate="G$1" x="152.4" y="96.52"/>
-<instance part="U$3" gate="G$1" x="170.18" y="116.84"/>
+<instance part="U$2" gate="G$1" x="101.6" y="71.12" rot="R180"/>
+<instance part="SUPPLY1" gate="GND" x="124.46" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -4001,71 +3967,66 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="27.94" y1="101.6" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="88.9" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="P$5"/>
+<wire x1="116.84" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
-<wire x1="134.62" y1="88.9" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
-<junction x="137.16" y="88.9"/>
+</segment>
+</net>
+<net name="P1" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="104.14" x2="129.54" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="P$2"/>
+<wire x1="116.84" y1="73.66" x2="124.46" y2="73.66" width="0.1524" layer="91"/>
+<label x="121.92" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="A2"/>
+<wire x1="76.2" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
+<pinref part="U$2" gate="G$1" pin="P$1"/>
+<wire x1="116.84" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
+<label x="121.92" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="JP1" gate="A" pin="1"/>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="76.2" y1="99.06" x2="86.36" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="99.06" x2="86.36" y2="109.22" width="0.1524" layer="91"/>
-<junction x="86.36" y="99.06"/>
-<pinref part="U$2" gate="G$1" pin="P$5"/>
-<wire x1="86.36" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
-<junction x="137.16" y="109.22"/>
+<wire x1="76.2" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PIN1" class="0">
+<net name="P2" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="P$3"/>
+<wire x1="116.84" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
+<label x="121.92" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="A1"/>
+<wire x1="76.2" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="99.06" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="P3" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="P$4"/>
+<wire x1="116.84" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
+<label x="121.92" y="63.5" size="1.778" layer="95"/>
+</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="A0"/>
 <wire x1="76.2" y1="88.9" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="93.98" x2="124.46" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P$2"/>
-<wire x1="124.46" y1="93.98" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
-<junction x="124.46" y="93.98"/>
-<junction x="137.16" y="93.98"/>
-</segment>
-</net>
-<net name="PIN2" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="99.06" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="99.06" x2="137.16" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="99.06" x2="138.43" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="99.06" x2="129.54" y2="111.76" width="0.1524" layer="91"/>
-<junction x="129.54" y="99.06"/>
-<pinref part="U$2" gate="G$1" pin="P$3"/>
-<junction x="137.16" y="99.06"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="A1"/>
-<wire x1="76.2" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PIN3" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="A2"/>
-<wire x1="76.2" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="104.14" x2="134.62" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="104.14" x2="137.16" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="104.14" x2="138.43" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="104.14" x2="134.62" y2="111.76" width="0.1524" layer="91"/>
-<junction x="134.62" y="104.14"/>
-<pinref part="U$2" gate="G$1" pin="P$4"/>
-<junction x="137.16" y="104.14"/>
+<wire x1="121.92" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
