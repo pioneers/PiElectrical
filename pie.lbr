@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9940,8 +9940,11 @@ Drawings &lt;/a&gt;</description>
 <wire x1="12.954" y1="33.02" x2="12.954" y2="34.29" width="0.127" layer="25"/>
 <text x="5.08" y="31.75" size="1.016" layer="25" font="vector">Micro USB</text>
 <text x="8.89" y="6.35" size="1.524" layer="25" font="vector" rot="R90">ARUINO MICRO PRO</text>
+<wire x1="4.826" y1="33.02" x2="4.826" y2="29.0576" width="0.127" layer="21"/>
+<wire x1="4.826" y1="29.0576" x2="12.954" y2="29.0576" width="0.127" layer="21"/>
+<wire x1="12.954" y1="29.0576" x2="12.954" y2="33.02" width="0.127" layer="21"/>
 </package>
-<package name="SPARKFUN_LOADCELL">
+<package name="LOADCELL_AMP">
 <description>Sparkfun HX711 LoadCell</description>
 <wire x1="0" y1="0" x2="30.48" y2="0" width="0.127" layer="21"/>
 <wire x1="30.48" y1="0" x2="30.48" y2="5.715" width="0.127" layer="21"/>
@@ -9963,22 +9966,6 @@ Drawings &lt;/a&gt;</description>
 <pad name="CLK" x="29.21" y="8.89" drill="1.016" diameter="1.8796"/>
 <pad name="DAT" x="29.21" y="11.43" drill="1.016" diameter="1.8796"/>
 <pad name="VCC" x="29.21" y="13.97" drill="1.016" diameter="1.8796"/>
-<hole x="2.54" y="2.54" drill="3.302"/>
-<wire x1="2.54" y1="4.318" x2="2.54" y2="0.762" width="0.127" layer="42" curve="-180"/>
-<wire x1="2.54" y1="4.318" x2="2.54" y2="0.762" width="0.127" layer="42" curve="180"/>
-<circle x="2.54" y="2.54" radius="2.794" width="0.127" layer="39"/>
-<hole x="2.54" y="20.32" drill="3.302"/>
-<wire x1="4.318" y1="20.32" x2="0.762" y2="20.32" width="0.127" layer="42" curve="-180"/>
-<wire x1="4.318" y1="20.32" x2="0.762" y2="20.32" width="0.127" layer="42" curve="180"/>
-<circle x="2.54" y="20.32" radius="2.794" width="0.127" layer="39"/>
-<hole x="27.94" y="20.32" drill="3.302"/>
-<wire x1="27.94" y1="22.098" x2="27.94" y2="18.542" width="0.127" layer="42" curve="-180"/>
-<wire x1="27.94" y1="22.098" x2="27.94" y2="18.542" width="0.127" layer="42" curve="180"/>
-<circle x="27.94" y="20.32" radius="2.794" width="0.127" layer="39"/>
-<hole x="27.94" y="2.54" drill="3.302"/>
-<wire x1="27.94" y1="4.318" x2="27.94" y2="0.762" width="0.127" layer="42" curve="-180"/>
-<wire x1="27.94" y1="4.318" x2="27.94" y2="0.762" width="0.127" layer="42" curve="180"/>
-<circle x="27.94" y="2.54" radius="2.794" width="0.127" layer="39"/>
 <rectangle x1="1.016" y1="16.256" x2="1.524" y2="16.764" layer="51"/>
 <rectangle x1="1.016" y1="13.716" x2="1.524" y2="14.224" layer="51"/>
 <rectangle x1="1.016" y1="11.176" x2="1.524" y2="11.684" layer="51"/>
@@ -10070,8 +10057,8 @@ Drawings &lt;/a&gt;</description>
 <text x="27.178" y="12.192" size="1.27" layer="25" font="vector" rot="R180">DAT</text>
 <text x="27.178" y="9.652" size="1.27" layer="25" font="vector" rot="R180">CLK</text>
 <text x="27.178" y="7.112" size="1.27" layer="25" font="vector" rot="R180">GND</text>
-<text x="19.558" y="9.652" size="1.27" layer="25" font="vector" rot="MR180" align="bottom-right">B+</text>
-<text x="19.558" y="7.112" size="1.27" layer="25" font="vector" rot="MR180" align="bottom-right">B-</text>
+<text x="17.78" y="9.652" size="1.27" layer="25" font="vector" rot="R180" align="bottom-right">B+</text>
+<text x="17.78" y="7.112" size="1.27" layer="25" font="vector" rot="R180" align="bottom-right">B-</text>
 <text x="7.112" y="3.048" size="1.524" layer="21" font="vector" rot="R180" align="bottom-right">Load Cell Amp</text>
 <pad name="VDD" x="29.21" y="16.51" drill="1.016" diameter="1.8796"/>
 <wire x1="28.575" y1="15.24" x2="27.94" y2="15.875" width="0.127" layer="21"/>
@@ -12126,7 +12113,7 @@ BREAKER</text>
 <text x="-7.62" y="15.24" size="1.27" layer="94" font="vector">ARDUINO PRO MICRO</text>
 <pin name="GND@1" x="-12.7" y="5.08" length="short"/>
 </symbol>
-<symbol name="SPARKFUN_LOADCELL">
+<symbol name="LOADCELL_AMP">
 <description>The Sparkfun HX711 Load Cell Board</description>
 <wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-10.16" x2="15.24" y2="12.7" width="0.254" layer="94"/>
@@ -16062,33 +16049,6 @@ and &lt;a href="http://www.digikey.com/product-detail/en/keystone-electronics/35
 </device>
 </devices>
 </deviceset>
-<deviceset name="SPARKFUN_HX711_LOADCELL">
-<description>Sparkfun HX711 Load Cell Amp</description>
-<gates>
-<gate name="G$1" symbol="SPARKFUN_LOADCELL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SPARKFUN_LOADCELL">
-<connects>
-<connect gate="G$1" pin="B+" pad="B+"/>
-<connect gate="G$1" pin="B-" pad="B-"/>
-<connect gate="G$1" pin="BLK" pad="BLK"/>
-<connect gate="G$1" pin="CLK" pad="CLK"/>
-<connect gate="G$1" pin="DAT" pad="DAT"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GRN" pad="GRN"/>
-<connect gate="G$1" pin="RED" pad="RED"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-<connect gate="G$1" pin="VDD" pad="VDD"/>
-<connect gate="G$1" pin="WHT" pad="WHT"/>
-<connect gate="G$1" pin="YLW" pad="YLW"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="BEAGLE_BONE_BLACK_CAPE">
 <description>&lt;b&gt;Beagle Bone Black &lt;a href="http://beagleboard.org/support/bone101"&gt;Info&lt;/a&gt;&lt;/b&gt;
 
@@ -16329,6 +16289,33 @@ The 2 and 3 Pins Screw Terminals can be linked together seamlessly.</description
 <connect gate="G$1" pin="P$3" pad="P$3"/>
 <connect gate="G$1" pin="P$4" pad="P$4"/>
 <connect gate="G$1" pin="P$5" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LOADCELL_AMP">
+<description>Sparkfun HX711 Load Cell Amp</description>
+<gates>
+<gate name="G$1" symbol="LOADCELL_AMP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LOADCELL_AMP">
+<connects>
+<connect gate="G$1" pin="B+" pad="B+"/>
+<connect gate="G$1" pin="B-" pad="B-"/>
+<connect gate="G$1" pin="BLK" pad="BLK"/>
+<connect gate="G$1" pin="CLK" pad="CLK"/>
+<connect gate="G$1" pin="DAT" pad="DAT"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GRN" pad="GRN"/>
+<connect gate="G$1" pin="RED" pad="RED"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
+<connect gate="G$1" pin="WHT" pad="WHT"/>
+<connect gate="G$1" pin="YLW" pad="YLW"/>
 </connects>
 <technologies>
 <technology name=""/>
