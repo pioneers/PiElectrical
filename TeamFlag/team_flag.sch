@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3719,7 +3719,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
 <part name="FRAME1" library="pie" deviceset="FRAME-LETTER" device="">
 <attribute name="AUTHOR" value="Jared P., Aravind K., Sumita G., Casey D."/>
-<attribute name="REVISION" value="REV 9A"/>
+<attribute name="REVISION" value="9A"/>
 </part>
 <part name="R3" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R4" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
