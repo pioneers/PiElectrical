@@ -211,7 +211,11 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <rectangle x1="-2.032" y1="-0.635" x2="2.032" y2="0.635" layer="39"/>
 </package>
 <package name="R0603">
-<description>&lt;b&gt;Resistor&lt;/b&gt;, 0603 SMD package</description>
+<description>GoTo &lt;b&gt;Resistor&lt;/b&gt;
+
+&lt;p&gt;0603 SMD package&lt;/p&gt;
+
+&lt;p&gt;Typically default surface mount resistor used in PiE&lt;/p&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
 <wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
@@ -2177,21 +2181,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <rectangle x1="0.9144" y1="-2.3" x2="1.6645" y2="2.3" layer="51"/>
 <rectangle x1="-2.54" y1="-2.54" x2="2.54" y2="2.54" layer="39"/>
 </package>
-<package name="1812X7R">
-<description>&lt;b&gt;Chip Monolithic Ceramic Capacitors&lt;/b&gt; Medium Voltage High Capacitance for General Use&lt;p&gt;
-Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
-<wire x1="-1.1" y1="1.5" x2="1.1" y2="1.5" width="0.2032" layer="51"/>
-<wire x1="1.1" y1="-1.5" x2="-1.1" y2="-1.5" width="0.2032" layer="51"/>
-<wire x1="-0.6" y1="1.5" x2="0.6" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="0.6" y1="-1.5" x2="-0.6" y2="-1.5" width="0.2032" layer="21"/>
-<smd name="1" x="-1.425" y="0" dx="0.8" dy="3.5" layer="1"/>
-<smd name="2" x="1.425" y="0" dx="0.8" dy="3.5" layer="1" rot="R180"/>
-<text x="-1.9075" y="2.5419" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-1.9075" y="-3.8119" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-1.4" y1="-1.6" x2="-1.1" y2="1.6" layer="51"/>
-<rectangle x1="1.1" y1="-1.6" x2="1.4" y2="1.6" layer="51" rot="R180"/>
-<rectangle x1="-2.413" y1="-1.905" x2="2.413" y2="1.905" layer="39"/>
-</package>
 <package name="LED3MM">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
 3 mm, round</description>
@@ -2233,12 +2222,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="0.1016" layer="51" curve="-118.072487"/>
 </package>
 <package name="ARDUINO_PRO_MICRO">
-<wire x1="0" y1="0" x2="0" y2="33.02" width="0.127" layer="25"/>
-<wire x1="0" y1="33.02" x2="4.826" y2="33.02" width="0.127" layer="25"/>
+<wire x1="-0.508" y1="-0.508" x2="-0.508" y2="33.02" width="0.127" layer="25"/>
+<wire x1="-0.508" y1="33.02" x2="4.826" y2="33.02" width="0.127" layer="25"/>
 <wire x1="4.826" y1="33.02" x2="12.954" y2="33.02" width="0.127" layer="25"/>
-<wire x1="12.954" y1="33.02" x2="17.78" y2="33.02" width="0.127" layer="25"/>
-<wire x1="17.78" y1="33.02" x2="17.78" y2="0" width="0.127" layer="25"/>
-<wire x1="17.78" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
+<wire x1="12.954" y1="33.02" x2="18.288" y2="33.02" width="0.127" layer="25"/>
+<wire x1="18.288" y1="33.02" x2="18.288" y2="-0.508" width="0.127" layer="25"/>
+<wire x1="18.288" y1="-0.508" x2="-0.508" y2="-0.508" width="0.127" layer="25"/>
 <pad name="9" x="1.27" y="1.27" drill="1" diameter="2.286"/>
 <pad name="8" x="1.27" y="3.81" drill="1" diameter="2.286"/>
 <pad name="7" x="1.27" y="6.35" drill="1" diameter="2.286"/>
@@ -2267,6 +2256,23 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="12.954" y1="33.02" x2="12.954" y2="34.29" width="0.127" layer="25"/>
 <text x="5.08" y="31.75" size="1.016" layer="25" font="vector">Micro USB</text>
 <text x="8.89" y="6.35" size="1.524" layer="25" font="vector" rot="R90">ARUINO MICRO PRO</text>
+<wire x1="4.826" y1="33.02" x2="4.826" y2="29.0576" width="0.127" layer="21"/>
+<wire x1="4.826" y1="29.0576" x2="12.954" y2="29.0576" width="0.127" layer="21"/>
+<wire x1="12.954" y1="29.0576" x2="12.954" y2="33.02" width="0.127" layer="21"/>
+</package>
+<package name="1812X7R">
+<description>&lt;b&gt;Chip Monolithic Ceramic Capacitors&lt;/b&gt; Medium Voltage High Capacitance for General Use&lt;p&gt;&lt;br&gt;&lt;a href="http://psearch.en.murata.com/capacitor/product/GRM43DR72E224KW01%23.pdf"&gt; Data Sheet &lt;/a&gt;</description>
+<wire x1="-1.1" y1="1.5" x2="1.1" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="1.1" y1="-1.5" x2="-1.1" y2="-1.5" width="0.2032" layer="51"/>
+<wire x1="-0.6" y1="1.5" x2="0.6" y2="1.5" width="0.2032" layer="21"/>
+<wire x1="0.6" y1="-1.5" x2="-0.6" y2="-1.5" width="0.2032" layer="21"/>
+<smd name="1" x="-1.425" y="0" dx="0.8" dy="3.5" layer="1"/>
+<smd name="2" x="1.425" y="0" dx="0.8" dy="3.5" layer="1" rot="R180"/>
+<text x="-1.9075" y="2.5419" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.9075" y="-3.8119" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-1.4" y1="-1.6" x2="-1.1" y2="1.6" layer="51"/>
+<rectangle x1="1.1" y1="-1.6" x2="1.4" y2="1.6" layer="51" rot="R180"/>
+<rectangle x1="-2.413" y1="-1.905" x2="2.413" y2="1.905" layer="39"/>
 </package>
 </packages>
 <symbols>
