@@ -60,4 +60,4 @@ A: As long as you committed, the PMs can recover your work for you.
 
 ###Merge Conflicts: What Do??:
 
-    -- Contact Seiya or Tobin by (pie email or text preferred).
+Contact Seiya or Tobin: seiyaono@pioneers.berkeley.edu or tobinholcomb@pioneers.berkeley.edu
