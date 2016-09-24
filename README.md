@@ -42,7 +42,7 @@ Steps when working on EAGLE files:
 7. Once you have made your last commit, push your files to the Smartsensors github repo: git push origin master
     * If you get a merge conflict, contact the PMs for help.
 
-###FAQ:
+###FAQ
 
 Q: What's the difference between commit before I pull?
 
@@ -52,12 +52,12 @@ Q: I worked on my stuff, pulled, and everything I did went away!
 
 A: As long as you committed, the PMs can recover your work for you.
 
-###Commit Message Format Conventions::
+###Commit Message Format Conventions
 
 * Present Tense ("Reroute power traces on team flag" -- NOT "Rerouted power traces on team flag")
 * No period at the end: ("Reroute power traces on team flag" -- NOT "Reroute power traces on team flag.")
 * Keep your message length to about one sentence.
 
-###Merge Conflicts: What Do??:
+###Merge Conflicts: What Do??
 
 Contact Seiya or Tobin: seiyaono@pioneers.berkeley.edu or tobinholcomb@pioneers.berkeley.edu
