@@ -23,7 +23,7 @@ Arduino Pro Micro Pinouts:
 
 Protocol when working on Eagle files for Smartsensor, PDB, and Yogi Bear
 
-**WARNING**: DO NOT MODIFY PIE.LBR WITHOUT DISCUSSING IT WITH THE PROJECT MANAGER(S) 
+**WARNING**: Do not modify pie.lbr or pie.dru without discussing it witih PMs (Seiya and Tobin)
 
 ###Initial Setup of SmartSensor repo on your computer
 
