@@ -1,0 +1,33 @@
+Protocol when working on pcb files for Smartsensor, PDB, (??? and Yogi Bear???)
+
+STEP 0: DO NOT MODIFY PIE.LBR WITHOUT DISCUSSING IT WITH THE PROJECT MANAGER(S) (currently Seiya and Tobin)
+
+INITIAL SETUP OF SMARTSENSOR REPO ON YOUR COMPUTER
+
+Steps when working on EAGLE files:
+1) In Terminal (mac) or GitBash (windows), navigate to your git directory.
+2) Make sure your working directory is clean: git status
+    2a) If there are modified files, commit/stash/reset** them until git status is clean
+3) Pull from pioneers/SmartSensors: git pull origin master ********
+    3a) If you get a merge conflict, ***what do*** contact PMs for help.
+4) Do your work in EAGLE.
+5) Once you are at a good stopping point in your EAGLE work, commit your progress:
+    5a) git add path/to/your/file
+    5b) git commit -m "Make your commit message short and with this format"  ***
+NOTE: Commiting is like saving your file, but for all of PiE as well as your personal computer. And just like saving, Commit Early & Commit Often!
+6) Repeat Steps 4 and 5 until you are finished with your EAGLE work.
+7) Once you have made your last commit, push your files to the Smartsensors github repo: git push origin master
+    7a) If you get a merge conflict, contact the PMs for help.
+
+
+
+**  Q: What's the difference between reset and commit before I pull?
+    A: Do you want to keep any of the changes? Then commit those (the ones you want to keep) before you pull. If you do not want to keep any of the changes, get rid of all the changes with this command: git reset --hard
+
+*** NOTE: COMMIT MESSAGE FORMAT CONVENTIONS:
+    -- Present Tense ("Reroute power traces on team flag" -- NOT "Rerouted power traces on team flag")
+    -- No period at the end: ("Reroute power traces on team flag" -- NOT "Reroute power traces on team flag.")
+    -- Keep your message length to about one sentence.
+
+****MERGE CONFLICTS: WHAT DO??
+    -- Contact Seiya or Tobin by (pie email or text preferred).
