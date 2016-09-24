@@ -52,12 +52,12 @@ Q: I worked on my stuff, pulled, and everything I did went away!
 
 A: As long as you committed, the PMs can recover your work for you.
 
-###COMMIT MESSAGE FORMAT CONVENTIONS:
+###Commit Message Format Conventions::
 
 * Present Tense ("Reroute power traces on team flag" -- NOT "Rerouted power traces on team flag")
 * No period at the end: ("Reroute power traces on team flag" -- NOT "Reroute power traces on team flag.")
 * Keep your message length to about one sentence.
 
-###MERGE CONFLICTS: WHAT DO??:
+###Merge Conflicts: What Do??:
 
     -- Contact Seiya or Tobin by (pie email or text preferred).
