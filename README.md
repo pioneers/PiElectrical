@@ -23,20 +23,21 @@ Arduino Pro Micro Pinouts:
 
 Protocol when working on Eagle files for Smartsensor, PDB, and Yogi Bear
 
-**WARNING**: DO NOT MODIFY PIE.LBR WITHOUT DISCUSSING IT WITH THE PROJECT MANAGER(S) (currently Seiya and Tobin)
+**WARNING**: DO NOT MODIFY PIE.LBR WITHOUT DISCUSSING IT WITH THE PROJECT MANAGER(S) 
 
 ###Initial Setup of SmartSensor repo on your computer
 
 Steps when working on EAGLE files:
+
 1. In Terminal (mac) or GitBash (windows), navigate to your working directory (wherever you have SmartSensors).
 2. Make sure your working directory is clean: git status
 3. Pull from pioneers/SmartSensors: git pull origin master
-    * If you get a merge conflict, contact PMs for help.
+  3. If you get a merge conflict, contact PMs for help.
 4. Do your work in EAGLE.
 5. Once you are at a good stopping point in your EAGLE work, commit your progress:
-    * git add path/to/your/file
-    * git commit -m "Make your commit message short and with this format" 
-    * *NOTE*: Commiting is like saving your file, but for all of PiE as well as your personal computer. And just like saving, Commit Early & Commit Often!
+  5. git add path/to/your/file
+  5. git commit -m "Make your commit message short and with this format" 
+  5. *NOTE*: Commiting is like saving your file, but for all of PiE as well as your personal computer. And just like saving, Commit Early & Commit Often!
 6. Repeat Steps 4 and 5 until you are finished with your EAGLE work.
 7. Once you have made your last commit, push your files to the Smartsensors github repo: git push origin master
     * If you get a merge conflict, contact the PMs for help.
