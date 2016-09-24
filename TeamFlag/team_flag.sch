@@ -2255,10 +2255,10 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <wire x1="4.826" y1="33.02" x2="4.826" y2="34.29" width="0.127" layer="25"/>
 <wire x1="12.954" y1="33.02" x2="12.954" y2="34.29" width="0.127" layer="25"/>
 <text x="5.08" y="31.75" size="1.016" layer="25" font="vector">Micro USB</text>
-<text x="8.89" y="6.35" size="1.524" layer="25" font="vector" rot="R90">ARUINO MICRO PRO</text>
 <wire x1="4.826" y1="33.02" x2="4.826" y2="29.0576" width="0.127" layer="21"/>
 <wire x1="4.826" y1="29.0576" x2="12.954" y2="29.0576" width="0.127" layer="21"/>
 <wire x1="12.954" y1="29.0576" x2="12.954" y2="33.02" width="0.127" layer="21"/>
+<text x="8.89" y="7.62" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="1812X7R">
 <description>&lt;b&gt;Chip Monolithic Ceramic Capacitors&lt;/b&gt; Medium Voltage High Capacitance for General Use&lt;p&gt;&lt;br&gt;&lt;a href="http://psearch.en.murata.com/capacitor/product/GRM43DR72E224KW01%23.pdf"&gt; Data Sheet &lt;/a&gt;</description>
@@ -2448,6 +2448,7 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <pin name="10" x="15.24" y="-15.24" length="short" rot="R180"/>
 <text x="-7.62" y="15.24" size="1.27" layer="94" font="vector">ARDUINO PRO MICRO</text>
 <pin name="GND@1" x="-12.7" y="5.08" length="short"/>
+<text x="-10.16" y="20.32" size="1.27" layer="104" font="vector" align="top-left">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3744,7 +3745,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R8" library="pie" deviceset="R-US_" device="R0603" value="130"/>
 <part name="LED4" library="pie" deviceset="LED" device="0805" value="RED"/>
 <part name="SUPPLY5" library="pie" deviceset="GND" device=""/>
-<part name="U$3" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
+<part name="APM" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
 <part name="SUPPLY6" library="pie" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -3834,7 +3835,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="VALUE" x="84.836" y="12.7" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY5" gate="GND" x="78.74" y="7.62"/>
-<instance part="U$3" gate="G$1" x="50.8" y="88.9"/>
+<instance part="APM" gate="G$1" x="50.8" y="88.9"/>
 <instance part="SUPPLY6" gate="GND" x="27.94" y="91.44"/>
 </instances>
 <busses>
@@ -3849,7 +3850,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="6"/>
+<pinref part="APM" gate="G$1" pin="6"/>
 <label x="22.86" y="81.28" size="1.778" layer="95"/>
 <wire x1="38.1" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
 </segment>
@@ -3896,16 +3897,16 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="78.74" y1="12.7" x2="78.74" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND@0"/>
+<pinref part="APM" gate="G$1" pin="GND@0"/>
 <wire x1="38.1" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="96.52" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="GND@1"/>
+<pinref part="APM" gate="G$1" pin="GND@1"/>
 <wire x1="27.94" y1="93.98" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <junction x="27.94" y="93.98"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND@2"/>
+<pinref part="APM" gate="G$1" pin="GND@2"/>
 <wire x1="66.04" y1="99.06" x2="81.28" y2="99.06" width="0.1524" layer="91"/>
 <label x="76.2" y="99.06" size="1.778" layer="95"/>
 </segment>
@@ -3919,7 +3920,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="5"/>
+<pinref part="APM" gate="G$1" pin="5"/>
 <label x="22.86" y="83.82" size="1.778" layer="95"/>
 <wire x1="38.1" y1="83.82" x2="22.86" y2="83.82" width="0.1524" layer="91"/>
 </segment>
@@ -3969,7 +3970,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="LED5_" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="VCC"/>
+<pinref part="APM" gate="G$1" pin="VCC"/>
 <wire x1="66.04" y1="93.98" x2="81.28" y2="93.98" width="0.1524" layer="91"/>
 <label x="76.2" y="93.98" size="1.778" layer="95"/>
 </segment>
@@ -3981,7 +3982,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="78.74" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="A0"/>
+<pinref part="APM" gate="G$1" pin="A0"/>
 <wire x1="66.04" y1="83.82" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
 <label x="76.2" y="83.82" size="1.778" layer="95"/>
 </segment>
@@ -4021,7 +4022,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="25.4" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="A3"/>
+<pinref part="APM" gate="G$1" pin="A3"/>
 <wire x1="66.04" y1="91.44" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
 <label x="76.2" y="91.44" size="1.778" layer="95"/>
 </segment>
@@ -4033,7 +4034,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="43.18" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="A2"/>
+<pinref part="APM" gate="G$1" pin="A2"/>
 <wire x1="66.04" y1="88.9" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
 <label x="76.2" y="88.9" size="1.778" layer="95"/>
 </segment>
@@ -4045,7 +4046,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="60.96" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="A1"/>
+<pinref part="APM" gate="G$1" pin="A1"/>
 <wire x1="66.04" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
 <label x="76.2" y="86.36" size="1.778" layer="95"/>
 </segment>
