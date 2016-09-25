@@ -18,6 +18,7 @@ Arduino Pro Micro Pinouts:
 
 ![Pinouts](https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png)
 
+Short Headers: [Male](https://www.sparkfun.com/products/117) and [Female](https://www.sparkfun.com/products/743)
 
 ##Git Work Flow
 
