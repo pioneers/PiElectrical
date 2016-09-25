@@ -29,7 +29,15 @@ Protocol when working on Eagle files for Smartsensor, PDB, and Yogi Bear
 
 ###Initial Setup of SmartSensor repo on your computer
 
-Steps when working on EAGLE files:
+1. Copy the URL for pioneers/SmartSensors to your clipboard: (Or here: https://github.com/pioneers/SmartSensors.git)
+2. In Terminal (mac) or GitBash (windows), navigate to your working directory (that is, the directory that you want to keep SmartSensors in.)
+3. Clone SmartSensors by running this command: "git clone https://github.com/pioneers/SmartSensors.git "
+4.If you haven't started your sub project: git checkout -b YOUR\_NAME/SUBPROJECT
+  4.. YOUR\_NAME/SUBPROJECT is now the name of your branch
+5. Do your work in EAGLE.
+
+
+###Steps when working on EAGLE files:
 
 1. In Terminal (mac) or GitBash (windows), navigate to your working directory (wherever you have SmartSensors).
 2. Make sure your working directory is clean: git status
