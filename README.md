@@ -80,7 +80,7 @@ Don't try to fix it yourself: Eagle files are finicky and you might break all yo
 
 Contact Seiya or Tobin: seiyaono@pioneers.berkeley.edu or tobinholcomb@pioneers.berkeley.edu
 
-TODO REV 9B:
+##TODO REV 9B:
 * Add mounting holes
 * Make yogig bear more compact
 * Start updating lbr to support BOM
