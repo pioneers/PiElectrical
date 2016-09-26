@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -251,10 +251,10 @@ Vertical
 <wire x1="4.826" y1="33.02" x2="4.826" y2="34.29" width="0.127" layer="25"/>
 <wire x1="12.954" y1="33.02" x2="12.954" y2="34.29" width="0.127" layer="25"/>
 <text x="5.08" y="31.75" size="1.016" layer="25" font="vector">Micro USB</text>
-<text x="8.89" y="6.35" size="1.524" layer="25" font="vector" rot="R90">ARUINO MICRO PRO</text>
 <wire x1="4.826" y1="33.02" x2="4.826" y2="29.0576" width="0.127" layer="21"/>
 <wire x1="4.826" y1="29.0576" x2="12.954" y2="29.0576" width="0.127" layer="21"/>
 <wire x1="12.954" y1="29.0576" x2="12.954" y2="33.02" width="0.127" layer="21"/>
+<text x="8.89" y="7.62" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="PIE-LOGO-SMALL">
 <polygon width="0" layer="21">
