@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -178,10 +178,61 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="4.826" y1="33.02" x2="4.826" y2="34.29" width="0.127" layer="25"/>
 <wire x1="12.954" y1="33.02" x2="12.954" y2="34.29" width="0.127" layer="25"/>
 <text x="5.08" y="31.75" size="1.016" layer="25" font="vector">Micro USB</text>
-<text x="8.89" y="6.35" size="1.524" layer="25" font="vector" rot="R90">ARUINO MICRO PRO</text>
 <wire x1="4.826" y1="33.02" x2="4.826" y2="29.0576" width="0.127" layer="21"/>
 <wire x1="4.826" y1="29.0576" x2="12.954" y2="29.0576" width="0.127" layer="21"/>
 <wire x1="12.954" y1="29.0576" x2="12.954" y2="33.02" width="0.127" layer="21"/>
+<text x="8.89" y="7.62" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
+</package>
+<package name="ANDERSON_VERTICAL">
+<description>2-pin 25A Anderson Connector
+Vertical
+&lt;br&gt;
+&lt;a href="http://www.alliedelec.com/anderson-power-products-1377g4-bk/70162018/"&gt; Connector &lt;/a&gt;
+&lt;br&gt;
+&lt;a href="http://www.alliedelec.com/anderson-power-products-1327g6-bk/70162000/"&gt; Plastic &lt;/a&gt;</description>
+<pad name="PIN1" x="0" y="-3.937" drill="1.778" diameter="3.175" rot="R90"/>
+<pad name="PIN2" x="0" y="3.937" drill="1.778" diameter="3.175" rot="R90"/>
+<rectangle x1="-7.874" y1="-3.937" x2="7.874" y2="3.937" layer="39" rot="R90"/>
+<wire x1="3.937" y1="-7.874" x2="-3.937" y2="-7.874" width="0.127" layer="21"/>
+<wire x1="-3.937" y1="-7.874" x2="-3.937" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.937" y1="0" x2="-3.937" y2="7.874" width="0.127" layer="21"/>
+<wire x1="-3.937" y1="7.874" x2="3.937" y2="7.874" width="0.127" layer="21"/>
+<wire x1="3.937" y1="-7.874" x2="3.937" y2="0" width="0.127" layer="21"/>
+<wire x1="3.937" y1="0" x2="3.937" y2="7.874" width="0.127" layer="21"/>
+<wire x1="3.937" y1="0" x2="-3.937" y2="0" width="0.127" layer="21"/>
+<text x="-3.81" y="8.255" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+</package>
+<package name="1X03-MTA">
+<description>3-pin MTA connector
+
+&lt;a href="http://www.digikey.com/product-search/en?WT.z_header=search_go&amp;lang=en&amp;site=us&amp;keywords=A19470-ND&amp;x=-1137&amp;y=-51&amp;formaction=on"&gt; Digikey page &lt;/a&gt;</description>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="-3.81" y="3.81" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-4.445" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="3.175" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="3.175" x2="3.81" y2="3.175" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="3.175" x2="3.81" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="3.175" x2="-3.81" y2="-8.255" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="3.175" x2="3.81" y2="3.175" width="0.127" layer="51"/>
+<wire x1="3.81" y1="3.175" x2="3.81" y2="-8.255" width="0.127" layer="51"/>
+<wire x1="3.81" y1="-8.255" x2="-3.81" y2="-8.255" width="0.127" layer="51"/>
+<wire x1="3.81" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-6.985" width="0.254" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="-6.985" width="0.254" layer="51"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-6.985" width="0.254" layer="51"/>
+<rectangle x1="-3.81" y1="1.905" x2="3.81" y2="2.54" layer="21"/>
+<rectangle x1="-3.81" y1="-1.27" x2="3.81" y2="1.27" layer="40"/>
+<rectangle x1="-3.81" y1="-2.54" x2="3.81" y2="3.302" layer="39"/>
 </package>
 <package name="ANDERSON_HORIZONTAL">
 <description>2-pin 25A Anderson Connector
@@ -208,25 +259,6 @@ Horizontal &lt;br&gt;
 <rectangle x1="-34.544" y1="-8.128" x2="-9.906" y2="8.128" layer="39"/>
 <rectangle x1="-10.16" y1="1.27" x2="2.54" y2="6.35" layer="39"/>
 <rectangle x1="-10.16" y1="-6.35" x2="2.54" y2="-1.27" layer="39"/>
-</package>
-<package name="ANDERSON_VERTICAL">
-<description>2-pin 25A Anderson Connector
-Vertical
-&lt;br&gt;
-&lt;a href="http://www.alliedelec.com/anderson-power-products-1377g4-bk/70162018/"&gt; Connector &lt;/a&gt;
-&lt;br&gt;
-&lt;a href="http://www.alliedelec.com/anderson-power-products-1327g6-bk/70162000/"&gt; Plastic &lt;/a&gt;</description>
-<pad name="PIN1" x="0" y="-3.937" drill="1.778" diameter="3.175" rot="R90"/>
-<pad name="PIN2" x="0" y="3.937" drill="1.778" diameter="3.175" rot="R90"/>
-<rectangle x1="-7.874" y1="-3.937" x2="7.874" y2="3.937" layer="39" rot="R90"/>
-<wire x1="3.937" y1="-7.874" x2="-3.937" y2="-7.874" width="0.127" layer="21"/>
-<wire x1="-3.937" y1="-7.874" x2="-3.937" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.937" y1="0" x2="-3.937" y2="7.874" width="0.127" layer="21"/>
-<wire x1="-3.937" y1="7.874" x2="3.937" y2="7.874" width="0.127" layer="21"/>
-<wire x1="3.937" y1="-7.874" x2="3.937" y2="0" width="0.127" layer="21"/>
-<wire x1="3.937" y1="0" x2="3.937" y2="7.874" width="0.127" layer="21"/>
-<wire x1="3.937" y1="0" x2="-3.937" y2="0" width="0.127" layer="21"/>
-<text x="-3.81" y="8.255" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
 <package name="1X03">
 <description>3-pin 0.1-inch header
@@ -289,38 +321,6 @@ Drawings &lt;/a&gt;</description>
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.127" layer="51"/>
 <wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.127" layer="21"/>
-</package>
-<package name="1X03-MTA">
-<description>3-pin MTA connector
-
-&lt;a href="http://www.digikey.com/product-search/en?WT.z_header=search_go&amp;lang=en&amp;site=us&amp;keywords=A19470-ND&amp;x=-1137&amp;y=-51&amp;formaction=on"&gt; Digikey page &lt;/a&gt;</description>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<text x="-3.81" y="3.81" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-4.445" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="2.54" x2="-3.81" y2="3.175" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="3.175" x2="3.81" y2="3.175" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="3.175" x2="3.81" y2="2.54" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="3.175" x2="-3.81" y2="-8.255" width="0.127" layer="51"/>
-<wire x1="-3.81" y1="3.175" x2="3.81" y2="3.175" width="0.127" layer="51"/>
-<wire x1="3.81" y1="3.175" x2="3.81" y2="-8.255" width="0.127" layer="51"/>
-<wire x1="3.81" y1="-8.255" x2="-3.81" y2="-8.255" width="0.127" layer="51"/>
-<wire x1="3.81" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-6.985" width="0.254" layer="51"/>
-<wire x1="0" y1="0" x2="0" y2="-6.985" width="0.254" layer="51"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-6.985" width="0.254" layer="51"/>
-<rectangle x1="-3.81" y1="1.905" x2="3.81" y2="2.54" layer="21"/>
-<rectangle x1="-3.81" y1="-1.27" x2="3.81" y2="1.27" layer="40"/>
-<rectangle x1="-3.81" y1="-2.54" x2="3.81" y2="3.302" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -392,6 +392,7 @@ Drawings &lt;/a&gt;</description>
 <pin name="10" x="15.24" y="-15.24" length="short" rot="R180"/>
 <text x="-7.62" y="15.24" size="1.27" layer="94" font="vector">ARDUINO PRO MICRO</text>
 <pin name="GND@1" x="-12.7" y="5.08" length="short"/>
+<text x="-10.16" y="20.32" size="1.27" layer="104" font="vector" align="top-left">&gt;NAME</text>
 </symbol>
 <symbol name="ANDERSON">
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="0" width="0.254" layer="94"/>
