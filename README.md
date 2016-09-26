@@ -14,6 +14,8 @@ pioneers.berkeley.edu/opensource
 
 The revision number should be REV 9A for Revision A Year 9
 
+How to create a [gerber](https://staff.pierobotics.org/wiki/Preparing_PCBs_for_Manufacturing#Generate_Gerbers) the PiE way
+
 Arduino Pro Micro Pinouts:
 
 ![Pinouts](https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png)
