@@ -92,5 +92,5 @@ Contact Seiya or Tobin: seiyaono@pioneers.berkeley.edu or tobinholcomb@pioneers.
 
 ##TODO REV 9B:
 * Add mounting holes
-* Make yogig bear more compact
+* Make yogi bear more compact
 * Start updating lbr to support BOM
