@@ -14,13 +14,21 @@ pioneers.berkeley.edu/opensource
 
 The revision number should be REV 9A for Revision A Year 9
 
-How to create a [gerber](https://staff.pierobotics.org/wiki/Preparing_PCBs_for_Manufacturing#Generate_Gerbers) the PiE way
-
 Arduino Pro Micro Pinouts:
 
 ![Pinouts](https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png)
 
 Short Headers: [Male](https://www.sparkfun.com/products/117) and [Female](https://www.sparkfun.com/products/743)
+
+##How to Create a Gerber
+
+1. Open the brd file
+2. Click Cam Job
+3. Open pie.cam
+4. Make a directory in each sensor's folder called SENSOR\_NAME-gerb
+    * SENSOR\_NAME **must** be the exact name as the brd file
+5. Run job, and click yes to all for the polygon issue
+
 
 ##Git Work Flow
 
