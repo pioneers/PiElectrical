@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -145,43 +145,43 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 (c) Pioneers in Engineering and Tau Beta Pi CA-A, UC Berkeley.</description>
 <packages>
 <package name="ARDUINO_PRO_MICRO">
-<wire x1="-0.508" y1="-0.508" x2="-0.508" y2="33.02" width="0.127" layer="25"/>
-<wire x1="-0.508" y1="33.02" x2="4.826" y2="33.02" width="0.127" layer="25"/>
-<wire x1="4.826" y1="33.02" x2="12.954" y2="33.02" width="0.127" layer="25"/>
-<wire x1="12.954" y1="33.02" x2="18.288" y2="33.02" width="0.127" layer="25"/>
-<wire x1="18.288" y1="33.02" x2="18.288" y2="-0.508" width="0.127" layer="25"/>
-<wire x1="18.288" y1="-0.508" x2="-0.508" y2="-0.508" width="0.127" layer="25"/>
-<pad name="9" x="1.27" y="1.27" drill="1" diameter="2.286"/>
-<pad name="8" x="1.27" y="3.81" drill="1" diameter="2.286"/>
-<pad name="7" x="1.27" y="6.35" drill="1" diameter="2.286"/>
-<pad name="6" x="1.27" y="8.89" drill="1" diameter="2.286"/>
-<pad name="5" x="1.27" y="11.43" drill="1" diameter="2.286"/>
-<pad name="4" x="1.27" y="13.97" drill="1" diameter="2.286"/>
-<pad name="3" x="1.27" y="16.51" drill="1" diameter="2.286"/>
-<pad name="2" x="1.27" y="19.05" drill="1" diameter="2.286"/>
-<pad name="GND@1" x="1.27" y="21.59" drill="1" diameter="2.286"/>
-<pad name="GND@0" x="1.27" y="24.13" drill="1" diameter="2.286"/>
-<pad name="RXI" x="1.27" y="26.67" drill="1" diameter="2.286"/>
-<pad name="TXO" x="1.27" y="29.21" drill="1" diameter="2.286"/>
-<pad name="RAW" x="16.51" y="29.21" drill="1" diameter="2.286"/>
-<pad name="GND@2" x="16.51" y="26.67" drill="1" diameter="2.286"/>
-<pad name="RST" x="16.51" y="24.13" drill="1" diameter="2.286"/>
-<pad name="VCC" x="16.51" y="21.59" drill="1" diameter="2.286"/>
-<pad name="A3" x="16.51" y="19.05" drill="1" diameter="2.286"/>
-<pad name="A2" x="16.51" y="16.51" drill="1" diameter="2.286"/>
-<pad name="A1" x="16.51" y="13.97" drill="1" diameter="2.286"/>
-<pad name="A0" x="16.51" y="11.43" drill="1" diameter="2.286"/>
-<pad name="15" x="16.51" y="8.89" drill="1" diameter="2.286"/>
-<pad name="14" x="16.51" y="6.35" drill="1" diameter="2.286"/>
-<pad name="16" x="16.51" y="3.81" drill="1" diameter="2.286"/>
-<pad name="10" x="16.51" y="1.27" drill="1" diameter="2.286"/>
-<wire x1="4.826" y1="33.02" x2="4.826" y2="34.29" width="0.127" layer="25"/>
-<wire x1="12.954" y1="33.02" x2="12.954" y2="34.29" width="0.127" layer="25"/>
-<text x="5.08" y="31.75" size="1.016" layer="25" font="vector">Micro USB</text>
-<wire x1="4.826" y1="33.02" x2="4.826" y2="29.0576" width="0.127" layer="21"/>
-<wire x1="4.826" y1="29.0576" x2="12.954" y2="29.0576" width="0.127" layer="21"/>
-<wire x1="12.954" y1="29.0576" x2="12.954" y2="33.02" width="0.127" layer="21"/>
-<text x="8.89" y="7.62" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
+<wire x1="0" y1="0" x2="0" y2="33.528" width="0.127" layer="25"/>
+<wire x1="0" y1="33.528" x2="5.334" y2="33.528" width="0.127" layer="25"/>
+<wire x1="5.334" y1="33.528" x2="13.462" y2="33.528" width="0.127" layer="25"/>
+<wire x1="13.462" y1="33.528" x2="18.796" y2="33.528" width="0.127" layer="25"/>
+<wire x1="18.796" y1="33.528" x2="18.796" y2="0" width="0.127" layer="25"/>
+<wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
+<pad name="9" x="1.778" y="1.778" drill="1" diameter="2.286"/>
+<pad name="8" x="1.778" y="4.318" drill="1" diameter="2.286"/>
+<pad name="7" x="1.778" y="6.858" drill="1" diameter="2.286"/>
+<pad name="6" x="1.778" y="9.398" drill="1" diameter="2.286"/>
+<pad name="5" x="1.778" y="11.938" drill="1" diameter="2.286"/>
+<pad name="4" x="1.778" y="14.478" drill="1" diameter="2.286"/>
+<pad name="3" x="1.778" y="17.018" drill="1" diameter="2.286"/>
+<pad name="2" x="1.778" y="19.558" drill="1" diameter="2.286"/>
+<pad name="GND@1" x="1.778" y="22.098" drill="1" diameter="2.286"/>
+<pad name="GND@0" x="1.778" y="24.638" drill="1" diameter="2.286"/>
+<pad name="RXI" x="1.778" y="27.178" drill="1" diameter="2.286"/>
+<pad name="TXO" x="1.778" y="29.718" drill="1" diameter="2.286"/>
+<pad name="RAW" x="17.018" y="29.718" drill="1" diameter="2.286"/>
+<pad name="GND@2" x="17.018" y="27.178" drill="1" diameter="2.286"/>
+<pad name="RST" x="17.018" y="24.638" drill="1" diameter="2.286"/>
+<pad name="VCC" x="17.018" y="22.098" drill="1" diameter="2.286"/>
+<pad name="A3" x="17.018" y="19.558" drill="1" diameter="2.286"/>
+<pad name="A2" x="17.018" y="17.018" drill="1" diameter="2.286"/>
+<pad name="A1" x="17.018" y="14.478" drill="1" diameter="2.286"/>
+<pad name="A0" x="17.018" y="11.938" drill="1" diameter="2.286"/>
+<pad name="15" x="17.018" y="9.398" drill="1" diameter="2.286"/>
+<pad name="14" x="17.018" y="6.858" drill="1" diameter="2.286"/>
+<pad name="16" x="17.018" y="4.318" drill="1" diameter="2.286"/>
+<pad name="10" x="17.018" y="1.778" drill="1" diameter="2.286"/>
+<wire x1="5.334" y1="33.528" x2="5.334" y2="34.798" width="0.127" layer="25"/>
+<wire x1="13.462" y1="33.528" x2="13.462" y2="34.798" width="0.127" layer="25"/>
+<text x="5.588" y="32.258" size="1.016" layer="25" font="vector">Micro USB</text>
+<wire x1="5.334" y1="33.528" x2="5.334" y2="29.5656" width="0.127" layer="21"/>
+<wire x1="5.334" y1="29.5656" x2="13.462" y2="29.5656" width="0.127" layer="21"/>
+<wire x1="13.462" y1="29.5656" x2="13.462" y2="33.528" width="0.127" layer="21"/>
+<text x="9.398" y="8.128" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="ANDERSON_VERTICAL">
 <description>2-pin 25A Anderson Connector
@@ -367,32 +367,32 @@ Drawings &lt;/a&gt;</description>
 <wire x1="12.7" y1="-17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
 <wire x1="12.7" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
-<pin name="TXO" x="-12.7" y="12.7" length="short"/>
-<pin name="RXI" x="-12.7" y="10.16" length="short"/>
-<pin name="GND@0" x="-12.7" y="7.62" length="short"/>
-<pin name="2" x="-12.7" y="2.54" length="short"/>
-<pin name="3" x="-12.7" y="0" length="short"/>
-<pin name="4" x="-12.7" y="-2.54" length="short"/>
-<pin name="5" x="-12.7" y="-5.08" length="short"/>
-<pin name="6" x="-12.7" y="-7.62" length="short"/>
-<pin name="7" x="-12.7" y="-10.16" length="short"/>
-<pin name="8" x="-12.7" y="-12.7" length="short"/>
-<pin name="9" x="-12.7" y="-15.24" length="short"/>
-<pin name="RAW" x="15.24" y="12.7" length="short" rot="R180"/>
-<pin name="GND@2" x="15.24" y="10.16" length="short" rot="R180"/>
-<pin name="RST" x="15.24" y="7.62" length="short" rot="R180"/>
-<pin name="VCC" x="15.24" y="5.08" length="short" rot="R180"/>
-<pin name="A3" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="A2" x="15.24" y="0" length="short" rot="R180"/>
-<pin name="A1" x="15.24" y="-2.54" length="short" rot="R180"/>
-<pin name="A0" x="15.24" y="-5.08" length="short" rot="R180"/>
-<pin name="15" x="15.24" y="-7.62" length="short" rot="R180"/>
-<pin name="16" x="15.24" y="-12.7" length="short" rot="R180"/>
-<pin name="14" x="15.24" y="-10.16" length="short" rot="R180"/>
-<pin name="10" x="15.24" y="-15.24" length="short" rot="R180"/>
+<pin name="TXO" x="-12.7" y="12.7" visible="pin" length="short"/>
+<pin name="RXI" x="-12.7" y="10.16" visible="pin" length="short"/>
+<pin name="GND@0" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="2" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="3" x="-12.7" y="0" visible="pin" length="short"/>
+<pin name="4" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="5" x="-12.7" y="-5.08" visible="pin" length="short"/>
+<pin name="6" x="-12.7" y="-7.62" visible="pin" length="short"/>
+<pin name="7" x="-12.7" y="-10.16" visible="pin" length="short"/>
+<pin name="8" x="-12.7" y="-12.7" visible="pin" length="short"/>
+<pin name="9" x="-12.7" y="-15.24" visible="pin" length="short"/>
+<pin name="RAW" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="GND@2" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="RST" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="VCC" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="A3" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="A2" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="A1" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="A0" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="15" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="16" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="14" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="10" x="15.24" y="-15.24" visible="pin" length="short" rot="R180"/>
 <text x="-7.62" y="15.24" size="1.27" layer="94" font="vector">ARDUINO PRO MICRO</text>
-<pin name="GND@1" x="-12.7" y="5.08" length="short"/>
-<text x="-10.16" y="20.32" size="1.27" layer="104" font="vector" align="top-left">&gt;NAME</text>
+<pin name="GND@1" x="-12.7" y="5.08" visible="pin" length="short"/>
+<text x="-10.16" y="20.32" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="ANDERSON">
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="0" width="0.254" layer="94"/>
@@ -429,8 +429,9 @@ Drawings &lt;/a&gt;</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FRAME-LETTER" prefix="FRAME">
-<description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
+<deviceset name="FRAME_SCHEMATIC" prefix="FRAME">
+<description>&lt;b&gt;PiE Schematic Frame&lt;/b&gt;&lt;p&gt;
+
 Standard 8.5x11 US Letter frame</description>
 <gates>
 <gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
@@ -444,7 +445,7 @@ Standard 8.5x11 US Letter frame</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ARDUINO_PRO_MICRO">
+<deviceset name="ARDUINO_PRO_MICRO" prefix="IC">
 <description>&lt;b&gt;Arduino Pro Micro&lt;/b&gt;
 
 &lt;p&gt;Electrical System Year 9's Smart Sensor Core&lt;/p&gt;
@@ -577,12 +578,11 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="pie" deviceset="FRAME-LETTER" device="">
+<part name="FRAME1" library="pie" deviceset="FRAME_SCHEMATIC" device="">
 <attribute name="AUTHOR" value="Seiya"/>
-<attribute name="REVISION" value="9A"/>
-<attribute name="TITLE" value="Servo Controller"/>
+<attribute name="REVISION" value="9B"/>
 </part>
-<part name="U$1" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
+<part name="APM" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
 <part name="CONN1" library="pie" deviceset="ANDERSON" device="VERTICAL"/>
 <part name="JP1" library="pie" deviceset="M03" device="1X03-MTA"/>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
@@ -598,16 +598,15 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <instance part="FRAME1" gate="G$1" x="0" y="0">
 <attribute name="AUTHOR" x="0" y="0" size="1.778" layer="96" display="off"/>
 <attribute name="REVISION" x="0" y="0" size="1.778" layer="96" display="off"/>
-<attribute name="TITLE" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="U$1" gate="G$1" x="104.14" y="99.06"/>
-<instance part="CONN1" gate="G$1" x="152.4" y="127" rot="R270"/>
-<instance part="JP1" gate="G$1" x="154.94" y="73.66" rot="R90"/>
-<instance part="SUPPLY1" gate="GND" x="149.86" y="116.84"/>
-<instance part="SUPPLY2" gate="GND" x="152.4" y="83.82" rot="R180"/>
-<instance part="JP2" gate="G$1" x="170.18" y="73.66" rot="R90"/>
-<instance part="SUPPLY3" gate="GND" x="167.64" y="83.82" rot="R180"/>
+<instance part="APM" gate="G$1" x="104.14" y="99.06"/>
+<instance part="CONN1" gate="G$1" x="193.04" y="111.76" rot="R180"/>
+<instance part="JP1" gate="G$1" x="139.7" y="109.22"/>
+<instance part="SUPPLY1" gate="GND" x="182.88" y="114.3" rot="R270"/>
+<instance part="SUPPLY2" gate="GND" x="149.86" y="111.76" rot="R90"/>
+<instance part="JP2" gate="G$1" x="139.7" y="93.98"/>
+<instance part="SUPPLY3" gate="GND" x="149.86" y="96.52" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -626,15 +625,15 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND@0"/>
+<pinref part="APM" gate="G$1" pin="GND@0"/>
 <wire x1="91.44" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND@1"/>
+<pinref part="APM" gate="G$1" pin="GND@1"/>
 <wire x1="91.44" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND@2"/>
+<pinref part="APM" gate="G$1" pin="GND@2"/>
 <wire x1="119.38" y1="109.22" x2="124.46" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -642,35 +641,35 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <segment>
 <pinref part="CONN1" gate="G$1" pin="VCC"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="119.38" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="99.06" x2="154.94" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="99.06" x2="170.18" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="99.06" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="109.22" x2="147.32" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="109.22" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SIG1" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="81.28" x2="157.48" y2="88.9" width="0.1524" layer="91"/>
-<label x="157.48" y="88.9" size="1.778" layer="95"/>
+<wire x1="147.32" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
+<label x="154.94" y="106.68" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="5"/>
+<pinref part="APM" gate="G$1" pin="5"/>
 <wire x1="91.44" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
 <label x="81.28" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SIG2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="6"/>
+<pinref part="APM" gate="G$1" pin="6"/>
 <wire x1="91.44" y1="91.44" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
 <label x="81.28" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="81.28" x2="172.72" y2="88.9" width="0.1524" layer="91"/>
-<label x="172.72" y="88.9" size="1.778" layer="95"/>
+<wire x1="147.32" y1="91.44" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
+<label x="154.94" y="91.44" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 </nets>

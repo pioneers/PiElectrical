@@ -145,43 +145,43 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 (c) Pioneers in Engineering and Tau Beta Pi CA-A, UC Berkeley.</description>
 <packages>
 <package name="ARDUINO_PRO_MICRO">
-<wire x1="-0.508" y1="-0.508" x2="-0.508" y2="33.02" width="0.127" layer="25"/>
-<wire x1="-0.508" y1="33.02" x2="4.826" y2="33.02" width="0.127" layer="25"/>
-<wire x1="4.826" y1="33.02" x2="12.954" y2="33.02" width="0.127" layer="25"/>
-<wire x1="12.954" y1="33.02" x2="18.288" y2="33.02" width="0.127" layer="25"/>
-<wire x1="18.288" y1="33.02" x2="18.288" y2="-0.508" width="0.127" layer="25"/>
-<wire x1="18.288" y1="-0.508" x2="-0.508" y2="-0.508" width="0.127" layer="25"/>
-<pad name="9" x="1.27" y="1.27" drill="1" diameter="2.286"/>
-<pad name="8" x="1.27" y="3.81" drill="1" diameter="2.286"/>
-<pad name="7" x="1.27" y="6.35" drill="1" diameter="2.286"/>
-<pad name="6" x="1.27" y="8.89" drill="1" diameter="2.286"/>
-<pad name="5" x="1.27" y="11.43" drill="1" diameter="2.286"/>
-<pad name="4" x="1.27" y="13.97" drill="1" diameter="2.286"/>
-<pad name="3" x="1.27" y="16.51" drill="1" diameter="2.286"/>
-<pad name="2" x="1.27" y="19.05" drill="1" diameter="2.286"/>
-<pad name="GND@1" x="1.27" y="21.59" drill="1" diameter="2.286"/>
-<pad name="GND@0" x="1.27" y="24.13" drill="1" diameter="2.286"/>
-<pad name="RXI" x="1.27" y="26.67" drill="1" diameter="2.286"/>
-<pad name="TXO" x="1.27" y="29.21" drill="1" diameter="2.286"/>
-<pad name="RAW" x="16.51" y="29.21" drill="1" diameter="2.286"/>
-<pad name="GND@2" x="16.51" y="26.67" drill="1" diameter="2.286"/>
-<pad name="RST" x="16.51" y="24.13" drill="1" diameter="2.286"/>
-<pad name="VCC" x="16.51" y="21.59" drill="1" diameter="2.286"/>
-<pad name="A3" x="16.51" y="19.05" drill="1" diameter="2.286"/>
-<pad name="A2" x="16.51" y="16.51" drill="1" diameter="2.286"/>
-<pad name="A1" x="16.51" y="13.97" drill="1" diameter="2.286"/>
-<pad name="A0" x="16.51" y="11.43" drill="1" diameter="2.286"/>
-<pad name="15" x="16.51" y="8.89" drill="1" diameter="2.286"/>
-<pad name="14" x="16.51" y="6.35" drill="1" diameter="2.286"/>
-<pad name="16" x="16.51" y="3.81" drill="1" diameter="2.286"/>
-<pad name="10" x="16.51" y="1.27" drill="1" diameter="2.286"/>
-<wire x1="4.826" y1="33.02" x2="4.826" y2="34.29" width="0.127" layer="25"/>
-<wire x1="12.954" y1="33.02" x2="12.954" y2="34.29" width="0.127" layer="25"/>
-<text x="5.08" y="31.75" size="1.016" layer="25" font="vector">Micro USB</text>
-<text x="8.89" y="6.35" size="1.524" layer="25" font="vector" rot="R90">ARUINO MICRO PRO</text>
-<wire x1="4.826" y1="33.02" x2="4.826" y2="29.0576" width="0.127" layer="21"/>
-<wire x1="4.826" y1="29.0576" x2="12.954" y2="29.0576" width="0.127" layer="21"/>
-<wire x1="12.954" y1="29.0576" x2="12.954" y2="33.02" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="33.528" width="0.127" layer="25"/>
+<wire x1="0" y1="33.528" x2="5.334" y2="33.528" width="0.127" layer="25"/>
+<wire x1="5.334" y1="33.528" x2="13.462" y2="33.528" width="0.127" layer="25"/>
+<wire x1="13.462" y1="33.528" x2="18.796" y2="33.528" width="0.127" layer="25"/>
+<wire x1="18.796" y1="33.528" x2="18.796" y2="0" width="0.127" layer="25"/>
+<wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
+<pad name="9" x="1.778" y="1.778" drill="1" diameter="2.286"/>
+<pad name="8" x="1.778" y="4.318" drill="1" diameter="2.286"/>
+<pad name="7" x="1.778" y="6.858" drill="1" diameter="2.286"/>
+<pad name="6" x="1.778" y="9.398" drill="1" diameter="2.286"/>
+<pad name="5" x="1.778" y="11.938" drill="1" diameter="2.286"/>
+<pad name="4" x="1.778" y="14.478" drill="1" diameter="2.286"/>
+<pad name="3" x="1.778" y="17.018" drill="1" diameter="2.286"/>
+<pad name="2" x="1.778" y="19.558" drill="1" diameter="2.286"/>
+<pad name="GND@1" x="1.778" y="22.098" drill="1" diameter="2.286"/>
+<pad name="GND@0" x="1.778" y="24.638" drill="1" diameter="2.286"/>
+<pad name="RXI" x="1.778" y="27.178" drill="1" diameter="2.286"/>
+<pad name="TXO" x="1.778" y="29.718" drill="1" diameter="2.286"/>
+<pad name="RAW" x="17.018" y="29.718" drill="1" diameter="2.286"/>
+<pad name="GND@2" x="17.018" y="27.178" drill="1" diameter="2.286"/>
+<pad name="RST" x="17.018" y="24.638" drill="1" diameter="2.286"/>
+<pad name="VCC" x="17.018" y="22.098" drill="1" diameter="2.286"/>
+<pad name="A3" x="17.018" y="19.558" drill="1" diameter="2.286"/>
+<pad name="A2" x="17.018" y="17.018" drill="1" diameter="2.286"/>
+<pad name="A1" x="17.018" y="14.478" drill="1" diameter="2.286"/>
+<pad name="A0" x="17.018" y="11.938" drill="1" diameter="2.286"/>
+<pad name="15" x="17.018" y="9.398" drill="1" diameter="2.286"/>
+<pad name="14" x="17.018" y="6.858" drill="1" diameter="2.286"/>
+<pad name="16" x="17.018" y="4.318" drill="1" diameter="2.286"/>
+<pad name="10" x="17.018" y="1.778" drill="1" diameter="2.286"/>
+<wire x1="5.334" y1="33.528" x2="5.334" y2="34.798" width="0.127" layer="25"/>
+<wire x1="13.462" y1="33.528" x2="13.462" y2="34.798" width="0.127" layer="25"/>
+<text x="5.588" y="32.258" size="1.016" layer="25" font="vector">Micro USB</text>
+<wire x1="5.334" y1="33.528" x2="5.334" y2="29.5656" width="0.127" layer="21"/>
+<wire x1="5.334" y1="29.5656" x2="13.462" y2="29.5656" width="0.127" layer="21"/>
+<wire x1="13.462" y1="29.5656" x2="13.462" y2="33.528" width="0.127" layer="21"/>
+<text x="9.398" y="8.128" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="LOADCELL_AMP">
 <description>Sparkfun HX711 LoadCell</description>
@@ -469,31 +469,32 @@ Drawings &lt;/a&gt;</description>
 <wire x1="12.7" y1="-17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
 <wire x1="12.7" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
-<pin name="TXO" x="-12.7" y="12.7" length="short"/>
-<pin name="RXI" x="-12.7" y="10.16" length="short"/>
-<pin name="GND@0" x="-12.7" y="7.62" length="short"/>
-<pin name="2" x="-12.7" y="2.54" length="short"/>
-<pin name="3" x="-12.7" y="0" length="short"/>
-<pin name="4" x="-12.7" y="-2.54" length="short"/>
-<pin name="5" x="-12.7" y="-5.08" length="short"/>
-<pin name="6" x="-12.7" y="-7.62" length="short"/>
-<pin name="7" x="-12.7" y="-10.16" length="short"/>
-<pin name="8" x="-12.7" y="-12.7" length="short"/>
-<pin name="9" x="-12.7" y="-15.24" length="short"/>
-<pin name="RAW" x="15.24" y="12.7" length="short" rot="R180"/>
-<pin name="GND@2" x="15.24" y="10.16" length="short" rot="R180"/>
-<pin name="RST" x="15.24" y="7.62" length="short" rot="R180"/>
-<pin name="VCC" x="15.24" y="5.08" length="short" rot="R180"/>
-<pin name="A3" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="A2" x="15.24" y="0" length="short" rot="R180"/>
-<pin name="A1" x="15.24" y="-2.54" length="short" rot="R180"/>
-<pin name="A0" x="15.24" y="-5.08" length="short" rot="R180"/>
-<pin name="15" x="15.24" y="-7.62" length="short" rot="R180"/>
-<pin name="16" x="15.24" y="-12.7" length="short" rot="R180"/>
-<pin name="14" x="15.24" y="-10.16" length="short" rot="R180"/>
-<pin name="10" x="15.24" y="-15.24" length="short" rot="R180"/>
+<pin name="TXO" x="-12.7" y="12.7" visible="pin" length="short"/>
+<pin name="RXI" x="-12.7" y="10.16" visible="pin" length="short"/>
+<pin name="GND@0" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="2" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="3" x="-12.7" y="0" visible="pin" length="short"/>
+<pin name="4" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="5" x="-12.7" y="-5.08" visible="pin" length="short"/>
+<pin name="6" x="-12.7" y="-7.62" visible="pin" length="short"/>
+<pin name="7" x="-12.7" y="-10.16" visible="pin" length="short"/>
+<pin name="8" x="-12.7" y="-12.7" visible="pin" length="short"/>
+<pin name="9" x="-12.7" y="-15.24" visible="pin" length="short"/>
+<pin name="RAW" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="GND@2" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="RST" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="VCC" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="A3" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="A2" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="A1" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="A0" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="15" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="16" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="14" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="10" x="15.24" y="-15.24" visible="pin" length="short" rot="R180"/>
 <text x="-7.62" y="15.24" size="1.27" layer="94" font="vector">ARDUINO PRO MICRO</text>
-<pin name="GND@1" x="-12.7" y="5.08" length="short"/>
+<pin name="GND@1" x="-12.7" y="5.08" visible="pin" length="short"/>
+<text x="-10.16" y="20.32" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="LOADCELL_AMP">
 <description>The Sparkfun HX711 Load Cell Board</description>
@@ -501,20 +502,20 @@ Drawings &lt;/a&gt;</description>
 <wire x1="15.24" y1="-10.16" x2="15.24" y2="12.7" width="0.254" layer="94"/>
 <wire x1="15.24" y1="12.7" x2="-15.24" y2="12.7" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="12.7" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
-<pin name="RED" x="-20.32" y="5.08" length="middle" direction="in"/>
-<pin name="BLK" x="-20.32" y="2.54" length="middle" direction="in"/>
-<pin name="WHT" x="-20.32" y="0" length="middle" direction="in"/>
-<pin name="GRN" x="-20.32" y="-2.54" length="middle" direction="in"/>
-<pin name="YLW" x="-20.32" y="-5.08" length="middle" direction="in"/>
-<pin name="VCC" x="20.32" y="5.08" length="middle" direction="in" rot="R180"/>
-<pin name="DAT" x="20.32" y="2.54" length="middle" direction="in" rot="R180"/>
-<pin name="CLK" x="20.32" y="0" length="middle" direction="in" rot="R180"/>
-<pin name="GND" x="20.32" y="-2.54" length="middle" direction="in" rot="R180"/>
-<pin name="B+" x="20.32" y="-5.08" length="middle" direction="in" rot="R180"/>
-<pin name="B-" x="20.32" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="RED" x="-20.32" y="5.08" visible="pin" length="middle" direction="in"/>
+<pin name="BLK" x="-20.32" y="2.54" visible="pin" length="middle" direction="in"/>
+<pin name="WHT" x="-20.32" y="0" visible="pin" length="middle" direction="in"/>
+<pin name="GRN" x="-20.32" y="-2.54" visible="pin" length="middle" direction="in"/>
+<pin name="YLW" x="-20.32" y="-5.08" visible="pin" length="middle" direction="in"/>
+<pin name="VCC" x="20.32" y="5.08" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="DAT" x="20.32" y="2.54" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="CLK" x="20.32" y="0" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="GND" x="20.32" y="-2.54" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="B+" x="20.32" y="-5.08" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="B-" x="20.32" y="-7.62" visible="pin" length="middle" direction="in" rot="R180"/>
 <text x="-15.24" y="13.97" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="10.16" size="1.4224" layer="95">Sparkfun HX711 LoadCell</text>
-<pin name="VDD" x="20.32" y="7.62" length="middle" direction="in" rot="R180"/>
+<pin name="VDD" x="20.32" y="7.62" visible="pin" length="middle" direction="in" rot="R180"/>
 </symbol>
 <symbol name="GND">
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
@@ -557,7 +558,7 @@ Standard 8.5x11 US Letter frame</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ARDUINO_PRO_MICRO">
+<deviceset name="ARDUINO_PRO_MICRO" prefix="IC">
 <description>&lt;b&gt;Arduino Pro Micro&lt;/b&gt;
 
 &lt;p&gt;Electrical System Year 9's Smart Sensor Core&lt;/p&gt;
@@ -602,7 +603,7 @@ Standard 8.5x11 US Letter frame</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LOADCELL_AMP">
+<deviceset name="LOADCELL_AMP" prefix="IC">
 <description>Sparkfun HX711 Load Cell Amp</description>
 <gates>
 <gate name="G$1" symbol="LOADCELL_AMP" x="0" y="0"/>
@@ -690,10 +691,10 @@ Standard 8.5x11 US Letter frame</description>
 <parts>
 <part name="FRAME1" library="pie" deviceset="FRAME_SCHEMATIC" device="">
 <attribute name="AUTHOR" value="Seiya Ono"/>
-<attribute name="REVISION" value="9A"/>
+<attribute name="REVISION" value="9B"/>
 </part>
-<part name="U$1" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
-<part name="U$2" library="pie" deviceset="LOADCELL_AMP" device=""/>
+<part name="APM" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
+<part name="IC1" library="pie" deviceset="LOADCELL_AMP" device=""/>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
 <part name="JP1" library="pie" deviceset="M04" device="1X04-MTA"/>
 </parts>
@@ -707,8 +708,8 @@ Standard 8.5x11 US Letter frame</description>
 <attribute name="REVISION" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="U$1" gate="G$1" x="137.16" y="93.98"/>
-<instance part="U$2" gate="G$1" x="81.28" y="83.82"/>
+<instance part="APM" gate="G$1" x="137.16" y="93.98"/>
+<instance part="IC1" gate="G$1" x="81.28" y="83.82"/>
 <instance part="SUPPLY1" gate="GND" x="114.3" y="96.52"/>
 <instance part="JP1" gate="G$1" x="40.64" y="86.36"/>
 </instances>
@@ -717,52 +718,52 @@ Standard 8.5x11 US Letter frame</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="111.76" y1="81.28" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
 <label x="109.22" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="GND@1"/>
+<pinref part="APM" gate="G$1" pin="GND@1"/>
 <wire x1="114.3" y1="99.06" x2="124.46" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
+<pinref part="IC1" gate="G$1" pin="VCC"/>
 <wire x1="114.3" y1="88.9" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="88.9" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VDD"/>
+<pinref part="IC1" gate="G$1" pin="VDD"/>
 <wire x1="109.22" y1="88.9" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="91.44" x2="101.6" y2="91.44" width="0.1524" layer="91"/>
 <label x="109.22" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="APM" gate="G$1" pin="VCC"/>
 <wire x1="152.4" y1="99.06" x2="160.02" y2="99.06" width="0.1524" layer="91"/>
 <label x="157.48" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DAT" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="DAT"/>
+<pinref part="IC1" gate="G$1" pin="DAT"/>
 <wire x1="101.6" y1="86.36" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
 <label x="109.22" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A1"/>
+<pinref part="APM" gate="G$1" pin="A1"/>
 <wire x1="152.4" y1="91.44" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
 <label x="157.48" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CLK" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="CLK"/>
+<pinref part="IC1" gate="G$1" pin="CLK"/>
 <wire x1="101.6" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
 <label x="109.22" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A0"/>
+<pinref part="APM" gate="G$1" pin="A0"/>
 <wire x1="152.4" y1="88.9" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
 <label x="157.48" y="88.9" size="1.778" layer="95"/>
 </segment>
@@ -770,13 +771,13 @@ Standard 8.5x11 US Letter frame</description>
 <net name="N$3" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<pinref part="U$2" gate="G$1" pin="WHT"/>
+<pinref part="IC1" gate="G$1" pin="WHT"/>
 <wire x1="48.26" y1="83.82" x2="60.96" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="GRN"/>
+<pinref part="IC1" gate="G$1" pin="GRN"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="81.28" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
 </segment>
@@ -784,13 +785,13 @@ Standard 8.5x11 US Letter frame</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="3"/>
-<pinref part="U$2" gate="G$1" pin="BLK"/>
+<pinref part="IC1" gate="G$1" pin="BLK"/>
 <wire x1="48.26" y1="86.36" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="RED"/>
+<pinref part="IC1" gate="G$1" pin="RED"/>
 <pinref part="JP1" gate="G$1" pin="4"/>
 <wire x1="60.96" y1="88.9" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
 </segment>

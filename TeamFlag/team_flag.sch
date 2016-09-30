@@ -2222,43 +2222,43 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="0.1016" layer="51" curve="-118.072487"/>
 </package>
 <package name="ARDUINO_PRO_MICRO">
-<wire x1="-0.508" y1="-0.508" x2="-0.508" y2="33.02" width="0.127" layer="25"/>
-<wire x1="-0.508" y1="33.02" x2="4.826" y2="33.02" width="0.127" layer="25"/>
-<wire x1="4.826" y1="33.02" x2="12.954" y2="33.02" width="0.127" layer="25"/>
-<wire x1="12.954" y1="33.02" x2="18.288" y2="33.02" width="0.127" layer="25"/>
-<wire x1="18.288" y1="33.02" x2="18.288" y2="-0.508" width="0.127" layer="25"/>
-<wire x1="18.288" y1="-0.508" x2="-0.508" y2="-0.508" width="0.127" layer="25"/>
-<pad name="9" x="1.27" y="1.27" drill="1" diameter="2.286"/>
-<pad name="8" x="1.27" y="3.81" drill="1" diameter="2.286"/>
-<pad name="7" x="1.27" y="6.35" drill="1" diameter="2.286"/>
-<pad name="6" x="1.27" y="8.89" drill="1" diameter="2.286"/>
-<pad name="5" x="1.27" y="11.43" drill="1" diameter="2.286"/>
-<pad name="4" x="1.27" y="13.97" drill="1" diameter="2.286"/>
-<pad name="3" x="1.27" y="16.51" drill="1" diameter="2.286"/>
-<pad name="2" x="1.27" y="19.05" drill="1" diameter="2.286"/>
-<pad name="GND@1" x="1.27" y="21.59" drill="1" diameter="2.286"/>
-<pad name="GND@0" x="1.27" y="24.13" drill="1" diameter="2.286"/>
-<pad name="RXI" x="1.27" y="26.67" drill="1" diameter="2.286"/>
-<pad name="TXO" x="1.27" y="29.21" drill="1" diameter="2.286"/>
-<pad name="RAW" x="16.51" y="29.21" drill="1" diameter="2.286"/>
-<pad name="GND@2" x="16.51" y="26.67" drill="1" diameter="2.286"/>
-<pad name="RST" x="16.51" y="24.13" drill="1" diameter="2.286"/>
-<pad name="VCC" x="16.51" y="21.59" drill="1" diameter="2.286"/>
-<pad name="A3" x="16.51" y="19.05" drill="1" diameter="2.286"/>
-<pad name="A2" x="16.51" y="16.51" drill="1" diameter="2.286"/>
-<pad name="A1" x="16.51" y="13.97" drill="1" diameter="2.286"/>
-<pad name="A0" x="16.51" y="11.43" drill="1" diameter="2.286"/>
-<pad name="15" x="16.51" y="8.89" drill="1" diameter="2.286"/>
-<pad name="14" x="16.51" y="6.35" drill="1" diameter="2.286"/>
-<pad name="16" x="16.51" y="3.81" drill="1" diameter="2.286"/>
-<pad name="10" x="16.51" y="1.27" drill="1" diameter="2.286"/>
-<wire x1="4.826" y1="33.02" x2="4.826" y2="34.29" width="0.127" layer="25"/>
-<wire x1="12.954" y1="33.02" x2="12.954" y2="34.29" width="0.127" layer="25"/>
-<text x="5.08" y="31.75" size="1.016" layer="25" font="vector">Micro USB</text>
-<wire x1="4.826" y1="33.02" x2="4.826" y2="29.0576" width="0.127" layer="21"/>
-<wire x1="4.826" y1="29.0576" x2="12.954" y2="29.0576" width="0.127" layer="21"/>
-<wire x1="12.954" y1="29.0576" x2="12.954" y2="33.02" width="0.127" layer="21"/>
-<text x="8.89" y="7.62" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
+<wire x1="0" y1="0" x2="0" y2="33.528" width="0.127" layer="25"/>
+<wire x1="0" y1="33.528" x2="5.334" y2="33.528" width="0.127" layer="25"/>
+<wire x1="5.334" y1="33.528" x2="13.462" y2="33.528" width="0.127" layer="25"/>
+<wire x1="13.462" y1="33.528" x2="18.796" y2="33.528" width="0.127" layer="25"/>
+<wire x1="18.796" y1="33.528" x2="18.796" y2="0" width="0.127" layer="25"/>
+<wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
+<pad name="9" x="1.778" y="1.778" drill="1" diameter="2.286"/>
+<pad name="8" x="1.778" y="4.318" drill="1" diameter="2.286"/>
+<pad name="7" x="1.778" y="6.858" drill="1" diameter="2.286"/>
+<pad name="6" x="1.778" y="9.398" drill="1" diameter="2.286"/>
+<pad name="5" x="1.778" y="11.938" drill="1" diameter="2.286"/>
+<pad name="4" x="1.778" y="14.478" drill="1" diameter="2.286"/>
+<pad name="3" x="1.778" y="17.018" drill="1" diameter="2.286"/>
+<pad name="2" x="1.778" y="19.558" drill="1" diameter="2.286"/>
+<pad name="GND@1" x="1.778" y="22.098" drill="1" diameter="2.286"/>
+<pad name="GND@0" x="1.778" y="24.638" drill="1" diameter="2.286"/>
+<pad name="RXI" x="1.778" y="27.178" drill="1" diameter="2.286"/>
+<pad name="TXO" x="1.778" y="29.718" drill="1" diameter="2.286"/>
+<pad name="RAW" x="17.018" y="29.718" drill="1" diameter="2.286"/>
+<pad name="GND@2" x="17.018" y="27.178" drill="1" diameter="2.286"/>
+<pad name="RST" x="17.018" y="24.638" drill="1" diameter="2.286"/>
+<pad name="VCC" x="17.018" y="22.098" drill="1" diameter="2.286"/>
+<pad name="A3" x="17.018" y="19.558" drill="1" diameter="2.286"/>
+<pad name="A2" x="17.018" y="17.018" drill="1" diameter="2.286"/>
+<pad name="A1" x="17.018" y="14.478" drill="1" diameter="2.286"/>
+<pad name="A0" x="17.018" y="11.938" drill="1" diameter="2.286"/>
+<pad name="15" x="17.018" y="9.398" drill="1" diameter="2.286"/>
+<pad name="14" x="17.018" y="6.858" drill="1" diameter="2.286"/>
+<pad name="16" x="17.018" y="4.318" drill="1" diameter="2.286"/>
+<pad name="10" x="17.018" y="1.778" drill="1" diameter="2.286"/>
+<wire x1="5.334" y1="33.528" x2="5.334" y2="34.798" width="0.127" layer="25"/>
+<wire x1="13.462" y1="33.528" x2="13.462" y2="34.798" width="0.127" layer="25"/>
+<text x="5.588" y="32.258" size="1.016" layer="25" font="vector">Micro USB</text>
+<wire x1="5.334" y1="33.528" x2="5.334" y2="29.5656" width="0.127" layer="21"/>
+<wire x1="5.334" y1="29.5656" x2="13.462" y2="29.5656" width="0.127" layer="21"/>
+<wire x1="13.462" y1="29.5656" x2="13.462" y2="33.528" width="0.127" layer="21"/>
+<text x="9.398" y="8.128" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="1812X7R">
 <description>&lt;b&gt;Chip Monolithic Ceramic Capacitors&lt;/b&gt; Medium Voltage High Capacitance for General Use&lt;p&gt;&lt;br&gt;&lt;a href="http://psearch.en.murata.com/capacitor/product/GRM43DR72E224KW01%23.pdf"&gt; Data Sheet &lt;/a&gt;</description>
@@ -2423,32 +2423,32 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <wire x1="12.7" y1="-17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
 <wire x1="12.7" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
-<pin name="TXO" x="-12.7" y="12.7" length="short"/>
-<pin name="RXI" x="-12.7" y="10.16" length="short"/>
-<pin name="GND@0" x="-12.7" y="7.62" length="short"/>
-<pin name="2" x="-12.7" y="2.54" length="short"/>
-<pin name="3" x="-12.7" y="0" length="short"/>
-<pin name="4" x="-12.7" y="-2.54" length="short"/>
-<pin name="5" x="-12.7" y="-5.08" length="short"/>
-<pin name="6" x="-12.7" y="-7.62" length="short"/>
-<pin name="7" x="-12.7" y="-10.16" length="short"/>
-<pin name="8" x="-12.7" y="-12.7" length="short"/>
-<pin name="9" x="-12.7" y="-15.24" length="short"/>
-<pin name="RAW" x="15.24" y="12.7" length="short" rot="R180"/>
-<pin name="GND@2" x="15.24" y="10.16" length="short" rot="R180"/>
-<pin name="RST" x="15.24" y="7.62" length="short" rot="R180"/>
-<pin name="VCC" x="15.24" y="5.08" length="short" rot="R180"/>
-<pin name="A3" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="A2" x="15.24" y="0" length="short" rot="R180"/>
-<pin name="A1" x="15.24" y="-2.54" length="short" rot="R180"/>
-<pin name="A0" x="15.24" y="-5.08" length="short" rot="R180"/>
-<pin name="15" x="15.24" y="-7.62" length="short" rot="R180"/>
-<pin name="16" x="15.24" y="-12.7" length="short" rot="R180"/>
-<pin name="14" x="15.24" y="-10.16" length="short" rot="R180"/>
-<pin name="10" x="15.24" y="-15.24" length="short" rot="R180"/>
+<pin name="TXO" x="-12.7" y="12.7" visible="pin" length="short"/>
+<pin name="RXI" x="-12.7" y="10.16" visible="pin" length="short"/>
+<pin name="GND@0" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="2" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="3" x="-12.7" y="0" visible="pin" length="short"/>
+<pin name="4" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="5" x="-12.7" y="-5.08" visible="pin" length="short"/>
+<pin name="6" x="-12.7" y="-7.62" visible="pin" length="short"/>
+<pin name="7" x="-12.7" y="-10.16" visible="pin" length="short"/>
+<pin name="8" x="-12.7" y="-12.7" visible="pin" length="short"/>
+<pin name="9" x="-12.7" y="-15.24" visible="pin" length="short"/>
+<pin name="RAW" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="GND@2" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="RST" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="VCC" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="A3" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="A2" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="A1" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="A0" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="15" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="16" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="14" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="10" x="15.24" y="-15.24" visible="pin" length="short" rot="R180"/>
 <text x="-7.62" y="15.24" size="1.27" layer="94" font="vector">ARDUINO PRO MICRO</text>
-<pin name="GND@1" x="-12.7" y="5.08" length="short"/>
-<text x="-10.16" y="20.32" size="1.27" layer="104" font="vector" align="top-left">&gt;NAME</text>
+<pin name="GND@1" x="-12.7" y="5.08" visible="pin" length="short"/>
+<text x="-10.16" y="20.32" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2485,8 +2485,9 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FRAME-LETTER" prefix="FRAME">
-<description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
+<deviceset name="FRAME_SCHEMATIC" prefix="FRAME">
+<description>&lt;b&gt;PiE Schematic Frame&lt;/b&gt;&lt;p&gt;
+
 Standard 8.5x11 US Letter frame</description>
 <gates>
 <gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
@@ -3660,7 +3661,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ARDUINO_PRO_MICRO">
+<deviceset name="ARDUINO_PRO_MICRO" prefix="IC">
 <description>&lt;b&gt;Arduino Pro Micro&lt;/b&gt;
 
 &lt;p&gt;Electrical System Year 9's Smart Sensor Core&lt;/p&gt;
@@ -3724,9 +3725,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="Q1" library="pie" deviceset="MOSFET-NCHANNEL" device="SMD" value="IRFML8244"/>
 <part name="Q2" library="pie" deviceset="MOSFET-NCHANNEL" device="SMD" value="IRFML8244"/>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
-<part name="FRAME1" library="pie" deviceset="FRAME-LETTER" device="">
+<part name="FRAME1" library="pie" deviceset="FRAME_SCHEMATIC" device="">
 <attribute name="AUTHOR" value="Jared P., Aravind K., Sumita G., Casey D."/>
-<attribute name="REVISION" value="9A"/>
+<attribute name="REVISION" value="9B"/>
 </part>
 <part name="R3" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R4" library="pie" deviceset="R-US_" device="R0603" value="10k"/>

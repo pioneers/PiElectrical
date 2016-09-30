@@ -149,43 +149,43 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 (c) Pioneers in Engineering and Tau Beta Pi CA-A, UC Berkeley.</description>
 <packages>
 <package name="ARDUINO_PRO_MICRO">
-<wire x1="-0.508" y1="-0.508" x2="-0.508" y2="33.02" width="0.127" layer="25"/>
-<wire x1="-0.508" y1="33.02" x2="4.826" y2="33.02" width="0.127" layer="25"/>
-<wire x1="4.826" y1="33.02" x2="12.954" y2="33.02" width="0.127" layer="25"/>
-<wire x1="12.954" y1="33.02" x2="18.288" y2="33.02" width="0.127" layer="25"/>
-<wire x1="18.288" y1="33.02" x2="18.288" y2="-0.508" width="0.127" layer="25"/>
-<wire x1="18.288" y1="-0.508" x2="-0.508" y2="-0.508" width="0.127" layer="25"/>
-<pad name="9" x="1.27" y="1.27" drill="1" diameter="2.286"/>
-<pad name="8" x="1.27" y="3.81" drill="1" diameter="2.286"/>
-<pad name="7" x="1.27" y="6.35" drill="1" diameter="2.286"/>
-<pad name="6" x="1.27" y="8.89" drill="1" diameter="2.286"/>
-<pad name="5" x="1.27" y="11.43" drill="1" diameter="2.286"/>
-<pad name="4" x="1.27" y="13.97" drill="1" diameter="2.286"/>
-<pad name="3" x="1.27" y="16.51" drill="1" diameter="2.286"/>
-<pad name="2" x="1.27" y="19.05" drill="1" diameter="2.286"/>
-<pad name="GND@1" x="1.27" y="21.59" drill="1" diameter="2.286"/>
-<pad name="GND@0" x="1.27" y="24.13" drill="1" diameter="2.286"/>
-<pad name="RXI" x="1.27" y="26.67" drill="1" diameter="2.286"/>
-<pad name="TXO" x="1.27" y="29.21" drill="1" diameter="2.286"/>
-<pad name="RAW" x="16.51" y="29.21" drill="1" diameter="2.286"/>
-<pad name="GND@2" x="16.51" y="26.67" drill="1" diameter="2.286"/>
-<pad name="RST" x="16.51" y="24.13" drill="1" diameter="2.286"/>
-<pad name="VCC" x="16.51" y="21.59" drill="1" diameter="2.286"/>
-<pad name="A3" x="16.51" y="19.05" drill="1" diameter="2.286"/>
-<pad name="A2" x="16.51" y="16.51" drill="1" diameter="2.286"/>
-<pad name="A1" x="16.51" y="13.97" drill="1" diameter="2.286"/>
-<pad name="A0" x="16.51" y="11.43" drill="1" diameter="2.286"/>
-<pad name="15" x="16.51" y="8.89" drill="1" diameter="2.286"/>
-<pad name="14" x="16.51" y="6.35" drill="1" diameter="2.286"/>
-<pad name="16" x="16.51" y="3.81" drill="1" diameter="2.286"/>
-<pad name="10" x="16.51" y="1.27" drill="1" diameter="2.286"/>
-<wire x1="4.826" y1="33.02" x2="4.826" y2="34.29" width="0.127" layer="25"/>
-<wire x1="12.954" y1="33.02" x2="12.954" y2="34.29" width="0.127" layer="25"/>
-<text x="5.08" y="31.75" size="1.016" layer="25" font="vector">Micro USB</text>
-<text x="8.89" y="6.35" size="1.524" layer="25" font="vector" rot="R90">ARUINO MICRO PRO</text>
-<wire x1="4.826" y1="33.02" x2="4.826" y2="29.0576" width="0.127" layer="21"/>
-<wire x1="4.826" y1="29.0576" x2="12.954" y2="29.0576" width="0.127" layer="21"/>
-<wire x1="12.954" y1="29.0576" x2="12.954" y2="33.02" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="33.528" width="0.127" layer="25"/>
+<wire x1="0" y1="33.528" x2="5.334" y2="33.528" width="0.127" layer="25"/>
+<wire x1="5.334" y1="33.528" x2="13.462" y2="33.528" width="0.127" layer="25"/>
+<wire x1="13.462" y1="33.528" x2="18.796" y2="33.528" width="0.127" layer="25"/>
+<wire x1="18.796" y1="33.528" x2="18.796" y2="0" width="0.127" layer="25"/>
+<wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
+<pad name="9" x="1.778" y="1.778" drill="1" diameter="2.286"/>
+<pad name="8" x="1.778" y="4.318" drill="1" diameter="2.286"/>
+<pad name="7" x="1.778" y="6.858" drill="1" diameter="2.286"/>
+<pad name="6" x="1.778" y="9.398" drill="1" diameter="2.286"/>
+<pad name="5" x="1.778" y="11.938" drill="1" diameter="2.286"/>
+<pad name="4" x="1.778" y="14.478" drill="1" diameter="2.286"/>
+<pad name="3" x="1.778" y="17.018" drill="1" diameter="2.286"/>
+<pad name="2" x="1.778" y="19.558" drill="1" diameter="2.286"/>
+<pad name="GND@1" x="1.778" y="22.098" drill="1" diameter="2.286"/>
+<pad name="GND@0" x="1.778" y="24.638" drill="1" diameter="2.286"/>
+<pad name="RXI" x="1.778" y="27.178" drill="1" diameter="2.286"/>
+<pad name="TXO" x="1.778" y="29.718" drill="1" diameter="2.286"/>
+<pad name="RAW" x="17.018" y="29.718" drill="1" diameter="2.286"/>
+<pad name="GND@2" x="17.018" y="27.178" drill="1" diameter="2.286"/>
+<pad name="RST" x="17.018" y="24.638" drill="1" diameter="2.286"/>
+<pad name="VCC" x="17.018" y="22.098" drill="1" diameter="2.286"/>
+<pad name="A3" x="17.018" y="19.558" drill="1" diameter="2.286"/>
+<pad name="A2" x="17.018" y="17.018" drill="1" diameter="2.286"/>
+<pad name="A1" x="17.018" y="14.478" drill="1" diameter="2.286"/>
+<pad name="A0" x="17.018" y="11.938" drill="1" diameter="2.286"/>
+<pad name="15" x="17.018" y="9.398" drill="1" diameter="2.286"/>
+<pad name="14" x="17.018" y="6.858" drill="1" diameter="2.286"/>
+<pad name="16" x="17.018" y="4.318" drill="1" diameter="2.286"/>
+<pad name="10" x="17.018" y="1.778" drill="1" diameter="2.286"/>
+<wire x1="5.334" y1="33.528" x2="5.334" y2="34.798" width="0.127" layer="25"/>
+<wire x1="13.462" y1="33.528" x2="13.462" y2="34.798" width="0.127" layer="25"/>
+<text x="5.588" y="32.258" size="1.016" layer="25" font="vector">Micro USB</text>
+<wire x1="5.334" y1="33.528" x2="5.334" y2="29.5656" width="0.127" layer="21"/>
+<wire x1="5.334" y1="29.5656" x2="13.462" y2="29.5656" width="0.127" layer="21"/>
+<wire x1="13.462" y1="29.5656" x2="13.462" y2="33.528" width="0.127" layer="21"/>
+<text x="9.398" y="8.128" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="5PIN_SCREW">
 <description>&lt;b&gt;5 Pin Screw Terminal&lt;/b&gt;</description>
@@ -234,31 +234,32 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="12.7" y1="-17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
 <wire x1="12.7" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
-<pin name="TXO" x="-12.7" y="12.7" length="short"/>
-<pin name="RXI" x="-12.7" y="10.16" length="short"/>
-<pin name="GND@0" x="-12.7" y="7.62" length="short"/>
-<pin name="2" x="-12.7" y="2.54" length="short"/>
-<pin name="3" x="-12.7" y="0" length="short"/>
-<pin name="4" x="-12.7" y="-2.54" length="short"/>
-<pin name="5" x="-12.7" y="-5.08" length="short"/>
-<pin name="6" x="-12.7" y="-7.62" length="short"/>
-<pin name="7" x="-12.7" y="-10.16" length="short"/>
-<pin name="8" x="-12.7" y="-12.7" length="short"/>
-<pin name="9" x="-12.7" y="-15.24" length="short"/>
-<pin name="RAW" x="15.24" y="12.7" length="short" rot="R180"/>
-<pin name="GND@2" x="15.24" y="10.16" length="short" rot="R180"/>
-<pin name="RST" x="15.24" y="7.62" length="short" rot="R180"/>
-<pin name="VCC" x="15.24" y="5.08" length="short" rot="R180"/>
-<pin name="A3" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="A2" x="15.24" y="0" length="short" rot="R180"/>
-<pin name="A1" x="15.24" y="-2.54" length="short" rot="R180"/>
-<pin name="A0" x="15.24" y="-5.08" length="short" rot="R180"/>
-<pin name="15" x="15.24" y="-7.62" length="short" rot="R180"/>
-<pin name="16" x="15.24" y="-12.7" length="short" rot="R180"/>
-<pin name="14" x="15.24" y="-10.16" length="short" rot="R180"/>
-<pin name="10" x="15.24" y="-15.24" length="short" rot="R180"/>
+<pin name="TXO" x="-12.7" y="12.7" visible="pin" length="short"/>
+<pin name="RXI" x="-12.7" y="10.16" visible="pin" length="short"/>
+<pin name="GND@0" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="2" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="3" x="-12.7" y="0" visible="pin" length="short"/>
+<pin name="4" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="5" x="-12.7" y="-5.08" visible="pin" length="short"/>
+<pin name="6" x="-12.7" y="-7.62" visible="pin" length="short"/>
+<pin name="7" x="-12.7" y="-10.16" visible="pin" length="short"/>
+<pin name="8" x="-12.7" y="-12.7" visible="pin" length="short"/>
+<pin name="9" x="-12.7" y="-15.24" visible="pin" length="short"/>
+<pin name="RAW" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="GND@2" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="RST" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="VCC" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="A3" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="A2" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="A1" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="A0" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="15" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="16" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="14" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="10" x="15.24" y="-15.24" visible="pin" length="short" rot="R180"/>
 <text x="-7.62" y="15.24" size="1.27" layer="94" font="vector">ARDUINO PRO MICRO</text>
-<pin name="GND@1" x="-12.7" y="5.08" length="short"/>
+<pin name="GND@1" x="-12.7" y="5.08" visible="pin" length="short"/>
+<text x="-10.16" y="20.32" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="LETTER_L">
 <wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
@@ -306,27 +307,28 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 <symbol name="5PIN_SCREW_TERM">
-<wire x1="-10.16" y1="-10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-10.16" x2="12.7" y2="15.24" width="0.254" layer="94"/>
-<wire x1="12.7" y1="15.24" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="15.24" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<pin name="P$1" x="-15.24" y="-7.62" length="middle"/>
-<pin name="P$2" x="-15.24" y="-2.54" length="middle"/>
-<pin name="P$3" x="-15.24" y="2.54" length="middle"/>
-<pin name="P$4" x="-15.24" y="7.62" length="middle"/>
-<pin name="P$5" x="-15.24" y="12.7" length="middle"/>
-<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
-<text x="-7.62" y="12.7" size="1.778" layer="94" align="center">X</text>
-<text x="-7.62" y="7.62" size="1.778" layer="94" align="center">X</text>
-<text x="-7.62" y="2.54" size="1.778" layer="94" align="center">X</text>
-<text x="-7.62" y="-2.54" size="1.778" layer="94" align="center">X</text>
-<text x="-7.62" y="-7.62" size="1.778" layer="94" align="center">X</text>
+<wire x1="-12.7" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="10.16" size="1.778" layer="94" align="center">X</text>
+<text x="-10.16" y="5.08" size="1.778" layer="94" align="center">X</text>
+<text x="-10.16" y="0" size="1.778" layer="94" align="center">X</text>
+<text x="-10.16" y="-5.08" size="1.778" layer="94" align="center">X</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="94" align="center">X</text>
+<pin name="P$1" x="-20.32" y="10.16" visible="off" function="clk"/>
+<pin name="P$2" x="-20.32" y="5.08" visible="off" function="clk"/>
+<pin name="P$3" x="-20.32" y="0" visible="off" function="clk"/>
+<pin name="P$4" x="-20.32" y="-5.08" visible="off" function="clk"/>
+<pin name="P$5" x="-20.32" y="-10.16" visible="off" function="clk"/>
+<text x="-10.16" y="15.24" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ARDUINO_PRO_MICRO">
+<deviceset name="ARDUINO_PRO_MICRO" prefix="IC">
 <description>&lt;b&gt;Arduino Pro Micro&lt;/b&gt;
 
 &lt;p&gt;Electrical System Year 9's Smart Sensor Core&lt;/p&gt;
@@ -371,8 +373,9 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 </device>
 </devices>
 </deviceset>
-<deviceset name="FRAME-LETTER" prefix="FRAME">
-<description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
+<deviceset name="FRAME_SCHEMATIC" prefix="FRAME">
+<description>&lt;b&gt;PiE Schematic Frame&lt;/b&gt;&lt;p&gt;
+
 Standard 8.5x11 US Letter frame</description>
 <gates>
 <gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
@@ -399,7 +402,7 @@ Standard 8.5x11 US Letter frame</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="5PIN_SCREW">
+<deviceset name="5PIN_SCREW" prefix="ST" uservalue="yes">
 <description>&lt;b&gt;5 Pin Screw Terminal&lt;/b&gt;
 
 &lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8432"&gt;Sparkfun Page&lt;/a&gt;&lt;/p&gt;
@@ -3912,16 +3915,17 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
-<part name="FRAME1" library="pie" deviceset="FRAME-LETTER" device="">
-<attribute name="REVISION" value="A"/>
+<part name="APM" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
+<part name="FRAME1" library="pie" deviceset="FRAME_SCHEMATIC" device="">
+<attribute name="AUTHOR" value="Mohammed Hossain, Seiya Ono"/>
+<attribute name="REVISION" value="9B"/>
 </part>
-<part name="R1" library="resistor" deviceset="R-US_" device="R0603"/>
-<part name="R2" library="resistor" deviceset="R-US_" device="R0603"/>
-<part name="R3" library="resistor" deviceset="R-US_" device="R0603"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="330"/>
+<part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="330"/>
+<part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="330"/>
 <part name="SUPPLY2" library="pie" deviceset="GND" device=""/>
 <part name="JP1" library="jumper" deviceset="JP1E" device=""/>
-<part name="U$2" library="pie" deviceset="5PIN_SCREW" device=""/>
+<part name="ST1" library="pie" deviceset="5PIN_SCREW" device=""/>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -3929,8 +3933,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="60.96" y="93.98"/>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
+<instance part="APM" gate="G$1" x="60.96" y="93.98"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0">
+<attribute name="AUTHOR" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0">
 <attribute name="REVISION" x="147.32" y="0" size="1.778" layer="96"/>
 </instance>
@@ -3939,7 +3945,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R3" gate="G$1" x="116.84" y="93.98" rot="R180"/>
 <instance part="SUPPLY2" gate="GND" x="27.94" y="99.06"/>
 <instance part="JP1" gate="A" x="93.98" y="101.6"/>
-<instance part="U$2" gate="G$1" x="101.6" y="71.12" rot="R180"/>
+<instance part="ST1" gate="G$1" x="154.94" y="68.58"/>
 <instance part="SUPPLY1" gate="GND" x="124.46" y="55.88"/>
 </instances>
 <busses>
@@ -3963,12 +3969,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="GND@0"/>
+<pinref part="APM" gate="G$1" pin="GND@0"/>
 <wire x1="27.94" y1="101.6" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$5"/>
-<wire x1="116.84" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="ST1" gate="G$1" pin="P$5"/>
+<wire x1="134.62" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 </segment>
 </net>
@@ -3978,35 +3984,35 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="121.92" y1="104.14" x2="129.54" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$2"/>
-<wire x1="116.84" y1="73.66" x2="124.46" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="ST1" gate="G$1" pin="P$2"/>
+<wire x1="134.62" y1="73.66" x2="124.46" y2="73.66" width="0.1524" layer="91"/>
 <label x="121.92" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A2"/>
+<pinref part="APM" gate="G$1" pin="A2"/>
 <wire x1="76.2" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
-<wire x1="116.84" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="ST1" gate="G$1" pin="P$1"/>
+<wire x1="134.62" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
 <label x="121.92" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="APM" gate="G$1" pin="VCC"/>
 <wire x1="76.2" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P2" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$3"/>
-<wire x1="116.84" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="ST1" gate="G$1" pin="P$3"/>
+<wire x1="134.62" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
 <label x="121.92" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A1"/>
+<pinref part="APM" gate="G$1" pin="A1"/>
 <wire x1="76.2" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -4016,12 +4022,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="P3" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$4"/>
-<wire x1="116.84" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="ST1" gate="G$1" pin="P$4"/>
+<wire x1="134.62" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
 <label x="121.92" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A0"/>
+<pinref part="APM" gate="G$1" pin="A0"/>
 <wire x1="76.2" y1="88.9" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
