@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10559,6 +10559,20 @@ Source: http://pdf1.alldatasheet.com/datasheet-pdf/view/84563/STMICROELECTRONICS
 <rectangle x1="6.75" y1="-9.995" x2="7.25" y2="-7.995" layer="31" rot="R180"/>
 <smd name="31" x="-7" y="9" dx="2" dy="0.508" layer="1" rot="R90"/>
 </package>
+<package name="RFID_SENSOR">
+<wire x1="0" y1="0" x2="40" y2="0" width="0.127" layer="21"/>
+<wire x1="40" y1="0" x2="40" y2="60" width="0.127" layer="21"/>
+<wire x1="40" y1="60" x2="0" y2="60" width="0.127" layer="21"/>
+<wire x1="0" y1="60" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="P$1" x="12.7" y="55.88" drill="0.8"/>
+<pad name="P$2" x="15.24" y="55.88" drill="0.8"/>
+<pad name="P$3" x="17.78" y="55.88" drill="0.8"/>
+<pad name="P$4" x="20.32" y="55.88" drill="0.8"/>
+<pad name="P$5" x="22.86" y="55.88" drill="0.8"/>
+<pad name="P$6" x="25.4" y="55.88" drill="0.8"/>
+<pad name="P$7" x="27.94" y="55.88" drill="0.8"/>
+<pad name="P$8" x="10.16" y="55.88" drill="0.8"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SJ">
@@ -12562,6 +12576,23 @@ The 2 and 3 Pins Screw Terminals can be linked together seamlessly.</description
 <wire x1="19.05" y1="-27.94" x2="21.59" y2="-27.94" width="0.254" layer="97"/>
 <text x="-5.08" y="2.54" size="1.778" layer="94">VNH2SP30
 H-BRIDGE</text>
+</symbol>
+<symbol name="RFID_SENSOR">
+<description>&lt;b&gt;RFID_SENSOR&lt;/b&gt;</description>
+<wire x1="-17.78" y1="-25.4" x2="17.78" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-25.4" x2="17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="20.32" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="20.32" x2="-17.78" y2="-25.4" width="0.254" layer="94"/>
+<pin name="RST" x="-20.32" y="15.24" visible="pin" length="short"/>
+<pin name="SDA" x="-20.32" y="10.16" visible="pin" length="short"/>
+<pin name="MOSI" x="-20.32" y="5.08" visible="pin" length="short"/>
+<pin name="MISO" x="-20.32" y="0" visible="pin" length="short"/>
+<pin name="SCK" x="-20.32" y="-5.08" visible="pin" length="short"/>
+<pin name="VCC" x="-20.32" y="-10.16" visible="pin" length="short"/>
+<pin name="GND" x="-20.32" y="-15.24" visible="pin" length="short"/>
+<text x="-17.78" y="22.86" size="1.778" layer="94">&gt;NAME</text>
+<text x="-7.62" y="15.24" size="1.778" layer="94">RFID SENSOR</text>
+<pin name="P$1" x="-20.32" y="-20.32" visible="pin" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -16555,6 +16586,21 @@ Modified to match the pinout of VNH2SP30 by adding a CS pin to pin 9.</descripti
 <attribute name="OC_FARNELL" value="1739420" constant="no"/>
 <attribute name="OC_NEWARK" value="33R1486" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RFID_SENSOR">
+<description>&lt;b&gt;RFID Sensor&lt;/b&gt;
+
+&lt;p&gt;&lt;a href="https://www.aliexpress.com/item/High-Quality-MFRC-522-RC522-RFID-Reader-RF-IC-Card-Inductive-Sensor-Module-For-Arduino-Module/32657638702.html?spm=2114.01010208.3.1.ePefNj&amp;ws_ab_test=searchweb201556_0%2Csearchweb201602_5_10057_10056_10065_10068_10055_10067_10054_10069_10059_10058_418_10073_10017_10070_10060_10061_10052_10062_10053_10050_10051%2Csearchweb201603_7&amp;btsid=cb39fcb9-9ace-4eec-a43a-83949f44e6b2"&gt;AliExpress&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RFID_SENSOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RFID_SENSOR">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
