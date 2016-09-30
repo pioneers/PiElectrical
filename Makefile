@@ -1,5 +1,5 @@
 clean:
-	find . -name "*.bak" -type f -delete
+	find . -name "*.[b,l,s]#*" -type f -delete
 gerb:
 	./gerb.sh
 
