@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10562,17 +10562,17 @@ Source: http://pdf1.alldatasheet.com/datasheet-pdf/view/84563/STMICROELECTRONICS
 <package name="RFID_SENSOR">
 <description>&lt;b&gt;RFID Sensor&lt;/b&gt;</description>
 <wire x1="0" y1="0" x2="40" y2="0" width="0.127" layer="21"/>
-<wire x1="40" y1="0" x2="40" y2="60" width="0.127" layer="21"/>
-<wire x1="40" y1="60" x2="0" y2="60" width="0.127" layer="21"/>
-<wire x1="0" y1="60" x2="0" y2="0" width="0.127" layer="21"/>
-<pad name="RST" x="13.64" y="59" drill="0.8"/>
-<pad name="GND" x="16.18" y="59" drill="0.8"/>
-<pad name="IRQ" x="18.72" y="59" drill="0.8"/>
-<pad name="MISO" x="21.26" y="59" drill="0.8"/>
-<pad name="MOSI" x="23.8" y="59" drill="0.8"/>
-<pad name="SCK" x="26.34" y="59" drill="0.8"/>
-<pad name="SDA" x="28.88" y="59" drill="0.8"/>
-<pad name="3.3V" x="11.1" y="59" drill="0.8"/>
+<wire x1="40" y1="0" x2="40" y2="60.96" width="0.127" layer="21"/>
+<wire x1="40" y1="60.96" x2="0" y2="60.96" width="0.127" layer="21"/>
+<wire x1="0" y1="60.96" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="RST" x="13.64" y="59" drill="0.8" diameter="1.778"/>
+<pad name="GND" x="16.18" y="59" drill="0.8" diameter="1.778"/>
+<pad name="IRQ" x="18.72" y="59" drill="0.8" diameter="1.778"/>
+<pad name="MISO" x="21.26" y="59" drill="0.8" diameter="1.778"/>
+<pad name="MOSI" x="23.8" y="59" drill="0.8" diameter="1.778"/>
+<pad name="SCK" x="26.34" y="59" drill="0.8" diameter="1.778"/>
+<pad name="SDA" x="28.88" y="59" drill="0.8" diameter="1.778"/>
+<pad name="3.3V" x="11.1" y="59" drill="0.8" diameter="1.778"/>
 <wire x1="1" y1="4" x2="4" y2="1" width="0.127" layer="21"/>
 <wire x1="4" y1="1" x2="36" y2="1" width="0.127" layer="21"/>
 <wire x1="36" y1="1" x2="39" y2="4" width="0.127" layer="21"/>
