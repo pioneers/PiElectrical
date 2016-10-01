@@ -2306,7 +2306,7 @@ specifically used for  401-1133-ND, but could be used for others.</description>
 <wire x1="5.5" y1="5.5" x2="5.5" y2="-5.5" width="0.127" layer="21"/>
 <wire x1="5.5" y1="-5.5" x2="-5.5" y2="-5.5" width="0.127" layer="21"/>
 <wire x1="-5.5" y1="-5.5" x2="-5.5" y2="5.5" width="0.127" layer="21"/>
-<text x="-3.2" y="5.6" size="1.27" layer="21">&gt;Name</text>
+<text x="-3.2" y="5.6" size="1.27" layer="21" font="vector">&gt;Name</text>
 <rectangle x1="-5" y1="-5" x2="5" y2="5" layer="39"/>
 <rectangle x1="-4" y1="1.5" x2="-2" y2="3.5" layer="40"/>
 <rectangle x1="-4" y1="-3.5" x2="-2" y2="-1.5" layer="40"/>
