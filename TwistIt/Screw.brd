@@ -2012,9 +2012,9 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </pass>
 </autorouter>
 <elements>
-<element name="JP1" library="jumper" package="JP1" value="" x="5.60928125" y="28.803309375" smashed="yes">
-<attribute name="NAME" x="7.264690625" y="32.40628125" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="8.53028125" y="26.263309375" size="1.27" layer="27" ratio="10" rot="R90"/>
+<element name="JP1" library="jumper" package="JP1" value="" x="5.60928125" y="28.803309375" smashed="yes" rot="MR0">
+<attribute name="NAME" x="3.953871875" y="32.40628125" size="1.27" layer="26" font="vector" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="2.68828125" y="26.263309375" size="1.27" layer="28" ratio="10" rot="MR90"/>
 </element>
 <element name="R1" library="resistor" package="R0603" value="330" x="9.15984375" y="29.449665625" smashed="yes" rot="MR90">
 <attribute name="NAME" x="10.304353125" y="32.65484375" size="1.27" layer="25" font="vector" rot="R180"/>
@@ -2061,7 +2061,8 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="9.572134375" y1="4.1788375" x2="9.572134375" y2="7.191865625" width="0.4064" layer="1"/>
 <wire x1="9.572134375" y1="7.191865625" x2="5.588" y2="11.176" width="0.4064" layer="1"/>
 <wire x1="5.588" y1="11.176" x2="5.588" y2="27.512028125" width="0.4064" layer="1"/>
-<wire x1="5.588" y1="27.512028125" x2="5.60928125" y2="27.533309375" width="0.4064" layer="1"/>
+<wire x1="5.588" y1="27.512028125" x2="5.60928125" y2="27.533309375" width="0.4064" layer="16"/>
+<via x="5.588" y="27.512028125" extent="1-16" drill="0.6" shape="square"/>
 </signal>
 <signal name="P1">
 <contactref element="R1" pad="1"/>
