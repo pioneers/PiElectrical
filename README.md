@@ -36,7 +36,7 @@ Protocol when working on Eagle files for Smartsensor, PDB, and Yogi Bear
 
 [PiE Git Presentation Tutorial](https://docs.google.com/a/pioneers.berkeley.edu/presentation/d/1WO-AD3cTi1QdKW15F8ecN9V1b8u3yIKzHzLGQXDs-uM/edit?usp=sharing) for your own reference
 
-**WARNING**: Do not modify pie.lbr or pie.dru without discussing it witih PMs (Seiya and Tobin)
+**WARNING**: Do not modify pie.lbr, pie.dru, or pie.cam without discussing it witih PMs (Seiya and Tobin)
 
 ###Initial Setup of SmartSensor repo on your computer
 
