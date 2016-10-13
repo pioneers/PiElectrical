@@ -89,8 +89,3 @@ A: This is to keep track of pull request and board reviews on a per board basis
 Don't try to fix it yourself: Eagle files are finicky and you might break all your work!
 
 Contact Seiya or Tobin: seiyaono@pioneers.berkeley.edu or tobinholcomb@pioneers.berkeley.edu
-
-##TODO REV 9B:
-* Add mounting holes
-* Make yogi bear more compact
-* Start updating lbr to support BOM
