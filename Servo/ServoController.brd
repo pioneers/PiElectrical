@@ -156,8 +156,8 @@ Design by: Seiya Ono
 This design is open source hardware.
 For more information, visit
 pioneers.berkeley.edu/opensource</text>
-<text x="19.304" y="12.954" size="0.762" layer="25" font="vector" rot="R270">TO 5</text>
-<text x="19.304" y="4.064" size="0.762" layer="25" font="vector" rot="R270">TO 6</text>
+<text x="19.304" y="12.954" size="0.762" layer="25" font="vector" rot="R270">TO 6</text>
+<text x="19.304" y="4.064" size="0.762" layer="25" font="vector" rot="R270">TO 5</text>
 <text x="28.956" y="28.956" size="0.762" layer="25" font="vector" rot="R270">REV 9A</text>
 </plain>
 <libraries>
