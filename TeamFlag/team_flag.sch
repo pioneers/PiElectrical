@@ -3983,9 +3983,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="78.74" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="A0"/>
-<wire x1="66.04" y1="83.82" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
-<label x="76.2" y="83.82" size="1.778" layer="95"/>
+<pinref part="APM" gate="G$1" pin="A3"/>
+<wire x1="66.04" y1="91.44" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
+<label x="76.2" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED1R" class="0">
@@ -4023,9 +4023,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="25.4" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="A3"/>
-<wire x1="66.04" y1="91.44" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
-<label x="76.2" y="91.44" size="1.778" layer="95"/>
+<pinref part="APM" gate="G$1" pin="A0"/>
+<wire x1="66.04" y1="83.82" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
+<label x="76.2" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED2" class="0">
@@ -4035,9 +4035,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="43.18" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="A2"/>
-<wire x1="66.04" y1="88.9" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
-<label x="76.2" y="88.9" size="1.778" layer="95"/>
+<pinref part="APM" gate="G$1" pin="A1"/>
+<wire x1="66.04" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
+<label x="76.2" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED3" class="0">
@@ -4047,9 +4047,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="60.96" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="A1"/>
-<wire x1="66.04" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
-<label x="76.2" y="86.36" size="1.778" layer="95"/>
+<pinref part="APM" gate="G$1" pin="A2"/>
+<wire x1="66.04" y1="88.9" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
+<label x="76.2" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
