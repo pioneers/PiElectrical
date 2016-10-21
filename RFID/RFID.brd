@@ -154,6 +154,7 @@ Lingfei, Ezra, Malcolm
 This design is open source hardware.
 For more information, visit:
 pioneers.berkeley.edu/opensource</text>
+<text x="24.13" y="1.27" size="1.27" layer="21">REV9B</text>
 </plain>
 <libraries>
 <library name="pie">
