@@ -199,11 +199,11 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="0" y1="7.5" x2="0" y2="0" width="0.127" layer="21"/>
 <wire x1="0.6" y1="0" x2="0.6" y2="7.5" width="0.127" layer="21"/>
 <wire x1="25.6" y1="7.5" x2="25.6" y2="0" width="0.127" layer="21"/>
-<pad name="P$1" x="3.1" y="3.3" drill="1.35"/>
-<pad name="P$2" x="8.1" y="3.3" drill="1.35"/>
-<pad name="P$3" x="13.1" y="3.3" drill="1.35"/>
-<pad name="P$4" x="18.1" y="3.3" drill="1.35"/>
-<pad name="P$5" x="23.1" y="3.3" drill="1.35"/>
+<pad name="P$1" x="3.1" y="3.3" drill="1" diameter="2.1844"/>
+<pad name="P$2" x="8.1" y="3.3" drill="1" diameter="2.1844"/>
+<pad name="P$3" x="13.1" y="3.3" drill="1" diameter="2.1844"/>
+<pad name="P$4" x="18.1" y="3.3" drill="1" diameter="2.1844"/>
+<pad name="P$5" x="23.1" y="3.3" drill="1" diameter="2.1844"/>
 <wire x1="0.7" y1="0" x2="0.7" y2="-2.5" width="0.127" layer="51"/>
 <wire x1="0.7" y1="-2.5" x2="4.7" y2="-2.5" width="0.127" layer="51"/>
 <wire x1="4.7" y1="-2.5" x2="6.9" y2="-2.5" width="0.127" layer="51"/>
@@ -226,6 +226,25 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="13" y1="-6" x2="13" y2="-4" width="0.127" layer="51"/>
 <wire x1="13" y1="-4" x2="12" y2="-5" width="0.127" layer="51"/>
 <wire x1="13" y1="-4" x2="14" y2="-5" width="0.127" layer="51"/>
+</package>
+<package name="JUMPER">
+<pad name="P$1" x="-1.27" y="0" drill="1" diameter="2.286"/>
+<pad name="P$2" x="1.27" y="0" drill="1" diameter="2.286"/>
+<wire x1="-0.508" y1="1.524" x2="-2.032" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="1.524" x2="-2.794" y2="0.762" width="0.127" layer="21"/>
+<wire x1="-0.508" y1="1.524" x2="0" y2="1.016" width="0.127" layer="21"/>
+<wire x1="0" y1="1.016" x2="0.508" y2="1.524" width="0.127" layer="21"/>
+<wire x1="0.508" y1="1.524" x2="2.032" y2="1.524" width="0.127" layer="21"/>
+<wire x1="2.032" y1="1.524" x2="2.794" y2="0.762" width="0.127" layer="21"/>
+<wire x1="2.794" y1="0.762" x2="2.794" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="2.794" y1="-0.762" x2="2.032" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-1.524" x2="0.508" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="0.508" y1="-1.524" x2="0" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.016" x2="-0.508" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="-0.508" y1="-1.524" x2="-2.032" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-1.524" x2="-2.794" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-2.794" y1="0.762" x2="-2.794" y2="-0.762" width="0.127" layer="21"/>
+<text x="-2.794" y="1.778" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -326,6 +345,16 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <pin name="P$5" x="-20.32" y="-10.16" visible="off" function="clk"/>
 <text x="-10.16" y="15.24" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
+<symbol name="JUMPER">
+<description>2 Pin Jumper</description>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short" direction="in"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<text x="-2.54" y="5.08" size="1.27" layer="94" align="top-left">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ARDUINO_PRO_MICRO" prefix="IC">
@@ -421,6 +450,23 @@ The 2 and 3 Pins Screw Terminals can be linked together seamlessly.</description
 <connect gate="G$1" pin="P$3" pad="P$3"/>
 <connect gate="G$1" pin="P$4" pad="P$4"/>
 <connect gate="G$1" pin="P$5" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER" prefix="JP">
+<description>2 Pin Jumper</description>
+<gates>
+<gate name="G$1" symbol="JUMPER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JUMPER">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3841,70 +3887,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="jumper">
-<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="JP1">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.27" y2="-0.254" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.254" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-2.54" x2="1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="2.286" x2="1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="2.286" x2="1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.286" x2="-1.016" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.286" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.254" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.54" x2="-1.27" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="-1.27" drill="0.9144" shape="long"/>
-<pad name="2" x="0" y="1.27" drill="0.9144" shape="long"/>
-<text x="-1.651" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="2.921" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
-<rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="JP2E">
-<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
-<text x="-1.27" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="1" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="JP1E" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="JP2E" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="JP1">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3920,13 +3902,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="AUTHOR" value="Mohammed Hossain, Seiya Ono"/>
 <attribute name="REVISION" value="9B"/>
 </part>
-<part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="330"/>
-<part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="330"/>
-<part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="330"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="SUPPLY2" library="pie" deviceset="GND" device=""/>
-<part name="JP1" library="jumper" deviceset="JP1E" device=""/>
 <part name="ST1" library="pie" deviceset="5PIN_SCREW" device=""/>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
+<part name="SUPPLY3" library="pie" deviceset="GND" device=""/>
+<part name="5V_JUMPER" library="pie" deviceset="JUMPER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3944,9 +3927,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R2" gate="G$1" x="116.84" y="99.06" rot="R180"/>
 <instance part="R3" gate="G$1" x="116.84" y="93.98" rot="R180"/>
 <instance part="SUPPLY2" gate="GND" x="27.94" y="99.06"/>
-<instance part="JP1" gate="A" x="93.98" y="101.6"/>
 <instance part="ST1" gate="G$1" x="154.94" y="68.58"/>
 <instance part="SUPPLY1" gate="GND" x="124.46" y="55.88"/>
+<instance part="SUPPLY3" gate="GND" x="81.28" y="101.6"/>
+<instance part="5V_JUMPER" gate="G$1" x="93.98" y="99.06"/>
 </instances>
 <busses>
 </busses>
@@ -3962,20 +3946,29 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="104.14" x2="101.6" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="104.14" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="96.52" y1="99.06" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="99.06" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="5V_JUMPER" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <pinref part="APM" gate="G$1" pin="GND@0"/>
-<wire x1="27.94" y1="101.6" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="101.6" x2="43.18" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="APM" gate="G$1" pin="GND@1"/>
+<wire x1="43.18" y1="101.6" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="101.6" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="99.06" x2="48.26" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ST1" gate="G$1" pin="P$5"/>
 <wire x1="134.62" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY3" gate="GND" pin="GND"/>
+<pinref part="APM" gate="G$1" pin="GND@2"/>
+<wire x1="81.28" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P1" class="0">
@@ -4000,9 +3993,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="121.92" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="1"/>
 <pinref part="APM" gate="G$1" pin="VCC"/>
-<wire x1="76.2" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="5V_JUMPER" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="P2" class="0">
