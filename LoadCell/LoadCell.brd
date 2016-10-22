@@ -15,13 +15,13 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -149,6 +149,10 @@ This design is open source hardware.
 For more information, 
 visit pioneers.berkeley.edu/opensource</text>
 <text x="20.32" y="39.37" size="1.778" layer="25" font="vector">REV 9A</text>
+<text x="3.81" y="35.56" size="0.6096" layer="25" font="vector" align="bottom-center">RED</text>
+<text x="6.35" y="35.56" size="0.6096" layer="25" font="vector" align="bottom-center">BLK</text>
+<text x="8.89" y="35.56" size="0.6096" layer="25" font="vector" align="bottom-center">WHT</text>
+<text x="11.43" y="35.56" size="0.6096" layer="25" font="vector" align="bottom-center">GRN</text>
 </plain>
 <libraries>
 <library name="pie">
