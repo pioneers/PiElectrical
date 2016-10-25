@@ -4469,7 +4469,7 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <parts>
 <part name="FRAME1" library="pie" deviceset="FRAME-LETTER" device="">
 <attribute name="AUTHOR" value="Casey D, Douglas H"/>
-<attribute name="REVISION" value="9A"/>
+<attribute name="REVISION" value="9B"/>
 </part>
 <part name="U$3" library="pie" deviceset="5V" device=""/>
 <part name="JP1" library="pie" deviceset="XH_CONNECTOR_4POS" device="" value="XH_CONN"/>
