@@ -186,6 +186,8 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="34" y1="41" x2="6" y2="41" width="0.127" layer="21"/>
 <wire x1="6" y1="41" x2="3" y2="38" width="0.127" layer="21"/>
 <wire x1="3" y1="38" x2="3" y2="6" width="0.127" layer="21"/>
+<hole x="2" y="45" drill="3"/>
+<hole x="38" y="45" drill="3"/>
 <text x="20" y="5" size="1.5" layer="21" font="vector" align="center">RFID-RC522</text>
 <text x="11" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">3.3V</text>
 <text x="13.5" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">RST</text>
@@ -391,7 +393,7 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 </classes>
 <parts>
 <part name="IC1" library="pie" deviceset="RFID_SENSOR" device=""/>
-<part name="IC2" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
+<part name="APM" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="pie" deviceset="GND" device=""/>
 </parts>
@@ -401,7 +403,7 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="91.44" y="50.8"/>
-<instance part="IC2" gate="G$1" x="-12.7" y="45.72"/>
+<instance part="APM" gate="G$1" x="-12.7" y="45.72"/>
 <instance part="SUPPLY1" gate="GND" x="27.94" y="43.18"/>
 <instance part="SUPPLY2" gate="GND" x="50.8" y="35.56"/>
 </instances>
@@ -410,7 +412,7 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <nets>
 <net name="VCC" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="VCC"/>
+<pinref part="APM" gate="G$1" pin="VCC"/>
 <wire x1="2.54" y1="50.8" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
 <label x="17.78" y="50.8" size="1.778" layer="95"/>
 </segment>
@@ -422,7 +424,7 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 </net>
 <net name="RST" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="RST"/>
+<pinref part="APM" gate="G$1" pin="RST"/>
 <wire x1="2.54" y1="53.34" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
 <label x="17.78" y="55.88" size="1.778" layer="95"/>
 </segment>
@@ -441,7 +443,7 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="50.8" y1="40.64" x2="50.8" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="GND@2"/>
+<pinref part="APM" gate="G$1" pin="GND@2"/>
 <wire x1="2.54" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="55.88" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
@@ -449,7 +451,7 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="10"/>
+<pinref part="APM" gate="G$1" pin="10"/>
 <wire x1="2.54" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
 <label x="17.78" y="30.48" size="1.778" layer="95"/>
 </segment>
@@ -461,7 +463,7 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="A0"/>
+<pinref part="APM" gate="G$1" pin="A0"/>
 <wire x1="2.54" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
 <label x="17.78" y="43.18" size="1.778" layer="95"/>
 </segment>
@@ -473,7 +475,7 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="14"/>
+<pinref part="APM" gate="G$1" pin="14"/>
 <wire x1="2.54" y1="35.56" x2="17.78" y2="35.56" width="0.1524" layer="91"/>
 <label x="17.78" y="33.02" size="1.778" layer="95"/>
 </segment>
@@ -485,7 +487,7 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="15"/>
+<pinref part="APM" gate="G$1" pin="15"/>
 <wire x1="2.54" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
 <label x="17.78" y="38.1" size="1.778" layer="95"/>
 </segment>
