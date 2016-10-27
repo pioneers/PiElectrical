@@ -18,13 +18,13 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
@@ -143,17 +143,18 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="38.608" y2="0" width="0" layer="20"/>
+<wire x1="2.286" y1="0" x2="38.608" y2="0" width="0" layer="20"/>
 <wire x1="38.608" y1="0" x2="38.608" y2="45.898" width="0" layer="20"/>
-<wire x1="38.608" y1="45.898" x2="0" y2="45.898" width="0" layer="20"/>
-<wire x1="0" y1="45.898" x2="0" y2="0" width="0" layer="20"/>
-<text x="17.018" y="34.544" size="0.762" layer="25" font="vector" rot="R270" align="center">5V</text>
-<text x="20.32" y="30.226" size="0.762" layer="25" font="vector" rot="R90" align="center">P1</text>
-<text x="17.018" y="24.892" size="0.762" layer="25" font="vector" rot="R90" align="center">P2</text>
-<text x="17.272" y="19.304" size="0.762" layer="25" font="vector" rot="R90" align="center">P3</text>
-<text x="17.018" y="14.478" size="0.762" layer="25" font="vector" rot="R90" align="center">GND</text>
+<wire x1="38.608" y1="45.898" x2="2.286" y2="45.898" width="0" layer="20"/>
+<wire x1="2.286" y1="45.898" x2="2.286" y2="0" width="0" layer="20"/>
+<text x="32.512" y="4.064" size="0.762" layer="25" font="vector" align="center">5V</text>
+<text x="27.432" y="4.064" size="0.762" layer="25" font="vector" rot="R180" align="center">P1</text>
+<text x="22.606" y="4.064" size="0.762" layer="25" font="vector" rot="R180" align="center">P2</text>
+<text x="17.526" y="3.81" size="0.762" layer="25" font="vector" rot="R180" align="center">P3</text>
+<text x="12.446" y="3.81" size="0.762" layer="25" font="vector" rot="R180" align="center">GND</text>
 <text x="24.384" y="10.922" size="1.016" layer="22" font="vector" rot="MR90" align="top-left">(c) Pioneers In Engineering
-Design by: Mohammed Hossain, Seiya Ono, Jillian Heng
+Design by: Mohammed Hossain, Seiya Ono
+Jillian Heng
 This design is open source hardware.
 For more information, visit
 pioneers.berkeley.edu/opensource</text>
@@ -2026,7 +2027,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </element>
 <element name="APM" library="pie" package="ARDUINO_PRO_MICRO" value="ARDUINO_PRO_MICRO" x="9.906" y="11.43"/>
 <element name="ST1" library="pie" package="5PIN_SCREW" value="" x="35.56" y="2.875865625" rot="MR0"/>
-<element name="U$3" library="pie" package="PIE-LOGO-SMALL" value="" x="5.334" y="22.86" rot="R90"/>
+<element name="U$3" library="pie" package="PIE-LOGO-SMALL" value="" x="6.604" y="14.478" rot="MR90"/>
 <element name="U$4" library="pie" package="OSHW-LOGO-S" value="" x="32.512" y="17.526" rot="MR0"/>
 <element name="U$1" library="pie" package="STAND-OFF" value="" x="31.75" y="38.1"/>
 <element name="U$5" library="pie" package="STAND-OFF" value="" x="6.35" y="38.1"/>
@@ -2050,10 +2051,10 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <contactref element="APM" pad="GND@0"/>
 <contactref element="ST1" pad="P$5"/>
 <polygon width="0.4064" layer="16">
-<vertex x="0" y="45.974"/>
+<vertex x="2.286" y="45.974"/>
 <vertex x="38.608" y="45.974"/>
 <vertex x="38.608" y="0"/>
-<vertex x="0" y="0"/>
+<vertex x="2.286" y="0"/>
 </polygon>
 <contactref element="APM" pad="GND@1"/>
 <contactref element="APM" pad="GND@2"/>
