@@ -12,7 +12,7 @@ Analog pins can be used as digital, NOT vice versa
 
 [2 Pin](https://www.sparkfun.com/products/8432) [3 pin](https://www.sparkfun.com/products/8433)
 
-Reed switches
+##Reed switches
 
 Basically when it is placed in a magnetic field, the switch closes.
 
@@ -28,6 +28,7 @@ To test it, connect it in series with a resistor and take the input from the poi
 
 A sample of a simple code is shown below:
 
+```
 int reed = 2;
 
 int LED = 3;
@@ -53,7 +54,7 @@ digitalWrite(LED, HIGH);
 else digitalWrite(3, LOW);
 
 }
-
+```
 where an LED is attached to pin 3.
 
 Please contact Ren Lingfei for more information.
