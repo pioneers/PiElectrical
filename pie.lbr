@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10787,6 +10787,90 @@ Source: http://pdf1.alldatasheet.com/datasheet-pdf/view/84563/STMICROELECTRONICS
 <text x="-20" y="6.746" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-20.127" y="-7.238" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="ARDUINO_PRO_MICRO_SM">
+<description>&lt;b&gt;Arduino Pro Micro Surface Mount&lt;/b&gt;
+
+&lt;p&gt;Surface Mount for APM&lt;/p&gt;</description>
+<wire x1="0" y1="33" x2="18" y2="33" width="0.127" layer="21"/>
+<wire x1="18" y1="33" x2="18" y2="0" width="0.127" layer="21"/>
+<wire x1="18" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="33" width="0.127" layer="21"/>
+<smd name="9" x="1.524" y="1.27" dx="1.27" dy="0.635" layer="1"/>
+<smd name="8" x="1.524" y="3.81" dx="1.27" dy="0.635" layer="1"/>
+<smd name="7" x="1.524" y="6.35" dx="1.27" dy="0.635" layer="1"/>
+<smd name="6" x="1.524" y="8.89" dx="1.27" dy="0.635" layer="1"/>
+<smd name="5" x="1.524" y="11.43" dx="1.27" dy="0.635" layer="1"/>
+<smd name="4" x="1.524" y="13.97" dx="1.27" dy="0.635" layer="1"/>
+<smd name="3" x="1.524" y="16.51" dx="1.27" dy="0.635" layer="1"/>
+<smd name="2" x="1.524" y="19.05" dx="1.27" dy="0.635" layer="1"/>
+<smd name="GND@2" x="1.524" y="21.59" dx="1.27" dy="0.635" layer="1"/>
+<smd name="GND@1" x="1.524" y="24.13" dx="1.27" dy="0.635" layer="1"/>
+<smd name="RX" x="1.524" y="26.67" dx="1.27" dy="0.635" layer="1"/>
+<smd name="TX" x="1.524" y="29.21" dx="1.27" dy="0.635" layer="1"/>
+<smd name="10" x="16.51" y="1.27" dx="1.27" dy="0.635" layer="1"/>
+<smd name="16" x="16.51" y="3.81" dx="1.27" dy="0.635" layer="1"/>
+<smd name="14" x="16.51" y="6.35" dx="1.27" dy="0.635" layer="1"/>
+<smd name="15" x="16.51" y="8.89" dx="1.27" dy="0.635" layer="1"/>
+<smd name="A0" x="16.51" y="11.43" dx="1.27" dy="0.635" layer="1"/>
+<smd name="A1" x="16.51" y="13.97" dx="1.27" dy="0.635" layer="1"/>
+<smd name="A2" x="16.51" y="16.51" dx="1.27" dy="0.635" layer="1"/>
+<smd name="A3" x="16.51" y="19.05" dx="1.27" dy="0.635" layer="1"/>
+<smd name="VCC" x="16.51" y="21.59" dx="1.27" dy="0.635" layer="1"/>
+<smd name="RST" x="16.51" y="24.13" dx="1.27" dy="0.635" layer="1"/>
+<smd name="GND@3" x="16.51" y="26.67" dx="1.27" dy="0.635" layer="1"/>
+<smd name="RAW" x="16.51" y="29.21" dx="1.27" dy="0.635" layer="1"/>
+<text x="9.525" y="5.08" size="1.27" layer="21" font="vector" rot="R90">&gt;NAME</text>
+<wire x1="5.08" y1="34.29" x2="5.08" y2="29.21" width="0.127" layer="21"/>
+<wire x1="5.08" y1="29.21" x2="12.7" y2="29.21" width="0.127" layer="21"/>
+<wire x1="12.7" y1="29.21" x2="12.7" y2="34.29" width="0.127" layer="21"/>
+<text x="6.35" y="30.48" size="0.762" layer="21" font="vector">Micro USB</text>
+<text x="3.81" y="29.21" size="0.762" layer="21" font="vector" align="center">TX</text>
+<text x="3.81" y="26.67" size="0.762" layer="21" font="vector" align="center">RX</text>
+<text x="3.81" y="24.13" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="3.81" y="21.59" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="13.97" y="26.67" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="13.97" y="29.21" size="0.762" layer="21" font="vector" align="center">RAW</text>
+<text x="3.81" y="19.05" size="0.762" layer="21" font="vector" align="center">2</text>
+<text x="3.81" y="16.51" size="0.762" layer="21" font="vector" align="center">3</text>
+<text x="3.81" y="13.97" size="0.762" layer="21" font="vector" align="center">4</text>
+<text x="3.81" y="11.43" size="0.762" layer="21" font="vector" align="center">5</text>
+<text x="3.81" y="8.89" size="0.762" layer="21" font="vector" align="center">6</text>
+<text x="3.81" y="6.35" size="0.762" layer="21" font="vector" align="center">7</text>
+<text x="3.81" y="3.81" size="0.762" layer="21" font="vector" align="center">8</text>
+<text x="3.81" y="1.27" size="0.762" layer="21" font="vector" align="center">9</text>
+<text x="13.97" y="24.13" size="0.762" layer="21" font="vector" align="center">RST</text>
+<text x="13.97" y="21.59" size="0.762" layer="21" font="vector" align="center">VCC</text>
+<text x="13.97" y="19.05" size="0.762" layer="21" font="vector" align="center">A0</text>
+<text x="13.97" y="16.51" size="0.762" layer="21" font="vector" align="center">A2</text>
+<text x="13.97" y="13.97" size="0.762" layer="21" font="vector" align="center">A1</text>
+<text x="13.97" y="11.43" size="0.762" layer="21" font="vector" align="center">A0</text>
+<text x="13.97" y="8.89" size="0.762" layer="21" font="vector" align="center">15</text>
+<text x="13.97" y="6.35" size="0.762" layer="21" font="vector" align="center">14</text>
+<text x="13.97" y="3.81" size="0.762" layer="21" font="vector" align="center">16</text>
+<text x="13.97" y="1.27" size="0.762" layer="21" font="vector" align="center">10</text>
+</package>
+<package name="ATX">
+<pad name="P$1" x="-5.08" y="-0.5" drill="1" diameter="2.1844"/>
+<pad name="P$2" x="3.2" y="-0.5" drill="1" diameter="2.1844"/>
+<wire x1="8.89" y1="3.175" x2="8.89" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-4.445" x2="8.255" y2="-5.08" width="0.127" layer="21" curve="-90"/>
+<wire x1="8.255" y1="-5.08" x2="-9.525" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-9.525" y1="-5.08" x2="-10.16" y2="-4.445" width="0.127" layer="21" curve="-90"/>
+<wire x1="-10.16" y1="-4.445" x2="-10.16" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-10.16" y1="3.175" x2="-9.525" y2="3.81" width="0.127" layer="21" curve="-90"/>
+<wire x1="-9.525" y1="3.81" x2="-7.62" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="3.81" x2="6.35" y2="3.81" width="0.127" layer="21"/>
+<wire x1="6.35" y1="3.81" x2="8.255" y2="3.81" width="0.127" layer="21"/>
+<wire x1="8.255" y1="3.81" x2="8.89" y2="3.175" width="0.127" layer="21" curve="-90"/>
+<circle x="-5.08" y="-0.65" radius="3.81" width="0.127" layer="21"/>
+<wire x1="0" y1="2.54" x2="0" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.81" x2="3.81" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="0" y1="2.54" x2="3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-3.81" width="0.127" layer="21" curve="-180"/>
+<wire x1="-7.62" y1="3.81" x2="-7.62" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="5.08" x2="6.35" y2="5.08" width="0.127" layer="21"/>
+<wire x1="6.35" y1="5.08" x2="6.35" y2="3.81" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SJ">
@@ -13050,6 +13134,51 @@ H-BRIDGE</text>
 <pin name="COL-C" x="-10.16" y="27.94" length="middle" rot="R270"/>
 <pin name="APOS-C" x="30.48" y="27.94" length="middle" rot="R270"/>
 <pin name="DIG1" x="-30.48" y="27.94" length="middle" rot="R270"/>
+</symbol>
+<symbol name="ARDUINO_PRO_MICRO_SM">
+<description>&lt;b&gt;Arduino Pro Micro Surface Mount&lt;/b&gt;
+
+&lt;p&gt;Surface Mount for APM&lt;/p&gt;</description>
+<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<pin name="TX" x="-15.24" y="12.7" visible="pad" length="middle"/>
+<pin name="RX" x="-15.24" y="10.16" visible="pad" length="middle"/>
+<pin name="GND@1" x="-15.24" y="7.62" visible="pad" length="middle"/>
+<pin name="GND@2" x="-15.24" y="5.08" visible="pad" length="middle"/>
+<pin name="2" x="-15.24" y="2.54" visible="pad" length="middle"/>
+<pin name="3" x="-15.24" y="0" visible="pad" length="middle"/>
+<pin name="4" x="-15.24" y="-2.54" visible="pad" length="middle"/>
+<pin name="5" x="-15.24" y="-5.08" visible="pad" length="middle"/>
+<pin name="6" x="-15.24" y="-7.62" visible="pad" length="middle"/>
+<pin name="7" x="-15.24" y="-10.16" visible="pad" length="middle"/>
+<pin name="8" x="-15.24" y="-12.7" visible="pad" length="middle"/>
+<pin name="9" x="-15.24" y="-15.24" visible="pad" length="middle"/>
+<pin name="RAW" x="15.24" y="12.7" visible="pad" length="middle" rot="R180"/>
+<pin name="GND@3" x="15.24" y="10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="RST" x="15.24" y="7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="VCC" x="15.24" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="A3" x="15.24" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="A2" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="A1" x="15.24" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="A0" x="15.24" y="-5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="15" x="15.24" y="-7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="14" x="15.24" y="-10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="16" x="15.24" y="-12.7" visible="pad" length="middle" rot="R180"/>
+<pin name="10" x="15.24" y="-15.24" visible="pad" length="middle" rot="R180"/>
+<text x="-2.54" y="10.16" size="1.778" layer="94" font="vector">APM</text>
+</symbol>
+<symbol name="ATX">
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<pin name="P$1" x="-10.16" y="2.54" visible="pad" length="middle" direction="pwr"/>
+<pin name="P$2" x="-10.16" y="-5.08" visible="pad" length="middle" direction="pwr"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="94">GND</text>
+<text x="-2.54" y="2.54" size="1.778" layer="94">Vcc</text>
+<text x="-5.08" y="7.62" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -17114,6 +17243,74 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <connect gate="G$1" pin="E" pad="5"/>
 <connect gate="G$1" pin="F" pad="11"/>
 <connect gate="G$1" pin="G" pad="15"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ARDUINO_PRO_MICRO_SM" prefix="IC">
+<description>&lt;b&gt;Arduino Pro Micro Surface Mount&lt;/b&gt;
+
+&lt;p&gt;Surface Mount for APM&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=https://www.aliexpress.com/item/smd-100PCS-male-header-for-surface-mount-2-54-single-pin-1X40P-chip-single-row-stand/32281160189.html?spm=2114.40010308.4.12.EDvu82&gt;Breakaways&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="ARDUINO_PRO_MICRO_SM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ARDUINO_PRO_MICRO_SM">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="RAW" pad="RAW"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATX" prefix="JP">
+<description>&lt;b&gt;ATX 2 Pin Connector&lt;/b&gt;
+
+&lt;p&gt;
+Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-ND/2074099 &lt;/p&gt;
+&lt;p&gt;Housing: http://www.digikey.com/product-detail/en/molex-llc/0019092029/WM4382-ND/2421313&lt;/p&gt;
+&lt;p&gt;Housing (alternative): http://www.digikey.com/product-detail/en/molex-llc/0015311026/WM1041-ND/313614&lt;/p&gt;
+&lt;p&gt;Connector: http://www.digikey.com/product-detail/en/molex-llc/0019091029/WM1602-ND/26354&lt;/p&gt;
+&lt;p&gt;Male crimps: http://www.digikey.com/product-detail/en/molex-llc/0002092103/WM1100-ND/26384&lt;/p&gt;
+&lt;p&gt;Female crimps: http://www.digikey.com/product-detail/en/molex-llc/0002091104/WM1101-ND/26386 &lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="ATX" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="ATX">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
