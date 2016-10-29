@@ -70,3 +70,7 @@ INA | P6
 INB | P7
 CS | P8
 PMW | P9
+
+Red = P15
+Yellow = P14
+Green = P16
