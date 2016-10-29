@@ -174,3 +174,5 @@ eagle.epf
 
 # backup sch/brd files
 **/*.[b,s,l]#*
+*.pro
+*.job
