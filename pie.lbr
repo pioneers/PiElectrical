@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9912,30 +9912,30 @@ Drawings &lt;/a&gt;</description>
 <wire x1="13.462" y1="33.528" x2="18.796" y2="33.528" width="0.127" layer="25"/>
 <wire x1="18.796" y1="33.528" x2="18.796" y2="0" width="0.127" layer="25"/>
 <wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
-<pad name="9" x="1.778" y="1.778" drill="1" diameter="2.286"/>
-<pad name="8" x="1.778" y="4.318" drill="1" diameter="2.286"/>
-<pad name="7" x="1.778" y="6.858" drill="1" diameter="2.286"/>
-<pad name="6" x="1.778" y="9.398" drill="1" diameter="2.286"/>
-<pad name="5" x="1.778" y="11.938" drill="1" diameter="2.286"/>
-<pad name="4" x="1.778" y="14.478" drill="1" diameter="2.286"/>
-<pad name="3" x="1.778" y="17.018" drill="1" diameter="2.286"/>
-<pad name="2" x="1.778" y="19.558" drill="1" diameter="2.286"/>
-<pad name="GND@1" x="1.778" y="22.098" drill="1" diameter="2.286"/>
-<pad name="GND@0" x="1.778" y="24.638" drill="1" diameter="2.286"/>
-<pad name="RXI" x="1.778" y="27.178" drill="1" diameter="2.286"/>
-<pad name="TXO" x="1.778" y="29.718" drill="1" diameter="2.286"/>
-<pad name="RAW" x="17.018" y="29.718" drill="1" diameter="2.286"/>
-<pad name="GND@2" x="17.018" y="27.178" drill="1" diameter="2.286"/>
-<pad name="RST" x="17.018" y="24.638" drill="1" diameter="2.286"/>
-<pad name="VCC" x="17.018" y="22.098" drill="1" diameter="2.286"/>
-<pad name="A3" x="17.018" y="19.558" drill="1" diameter="2.286"/>
-<pad name="A2" x="17.018" y="17.018" drill="1" diameter="2.286"/>
-<pad name="A1" x="17.018" y="14.478" drill="1" diameter="2.286"/>
-<pad name="A0" x="17.018" y="11.938" drill="1" diameter="2.286"/>
-<pad name="15" x="17.018" y="9.398" drill="1" diameter="2.286"/>
-<pad name="14" x="17.018" y="6.858" drill="1" diameter="2.286"/>
-<pad name="16" x="17.018" y="4.318" drill="1" diameter="2.286"/>
-<pad name="10" x="17.018" y="1.778" drill="1" diameter="2.286"/>
+<pad name="9" x="1.778" y="1.778" drill="1" diameter="2.1844"/>
+<pad name="8" x="1.778" y="4.318" drill="1" diameter="2.1844"/>
+<pad name="7" x="1.778" y="6.858" drill="1" diameter="2.1844"/>
+<pad name="6" x="1.778" y="9.398" drill="1" diameter="2.1844"/>
+<pad name="5" x="1.778" y="11.938" drill="1" diameter="2.1844"/>
+<pad name="4" x="1.778" y="14.478" drill="1" diameter="2.1844"/>
+<pad name="3" x="1.778" y="17.018" drill="1" diameter="2.1844"/>
+<pad name="2" x="1.778" y="19.558" drill="1" diameter="2.1844"/>
+<pad name="GND@1" x="1.778" y="22.098" drill="1" diameter="2.1844"/>
+<pad name="GND@0" x="1.778" y="24.638" drill="1" diameter="2.1844"/>
+<pad name="RXI" x="1.778" y="27.178" drill="1" diameter="2.1844"/>
+<pad name="TXO" x="1.778" y="29.718" drill="1" diameter="2.1844"/>
+<pad name="RAW" x="17.018" y="29.718" drill="1" diameter="2.1844"/>
+<pad name="GND@2" x="17.018" y="27.178" drill="1" diameter="2.1844"/>
+<pad name="RST" x="17.018" y="24.638" drill="1" diameter="2.1844"/>
+<pad name="VCC" x="17.018" y="22.098" drill="1" diameter="2.1844"/>
+<pad name="A3" x="17.018" y="19.558" drill="1" diameter="2.1844"/>
+<pad name="A2" x="17.018" y="17.018" drill="1" diameter="2.1844"/>
+<pad name="A1" x="17.018" y="14.478" drill="1" diameter="2.1844"/>
+<pad name="A0" x="17.018" y="11.938" drill="1" diameter="2.1844"/>
+<pad name="15" x="17.018" y="9.398" drill="1" diameter="2.1844"/>
+<pad name="14" x="17.018" y="6.858" drill="1" diameter="2.1844"/>
+<pad name="16" x="17.018" y="4.318" drill="1" diameter="2.1844"/>
+<pad name="10" x="17.018" y="1.778" drill="1" diameter="2.1844"/>
 <wire x1="5.334" y1="33.528" x2="5.334" y2="34.798" width="0.127" layer="25"/>
 <wire x1="13.462" y1="33.528" x2="13.462" y2="34.798" width="0.127" layer="25"/>
 <text x="5.588" y="32.258" size="1.016" layer="25" font="vector">Micro USB</text>
