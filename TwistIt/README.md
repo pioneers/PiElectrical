@@ -58,3 +58,19 @@ else digitalWrite(3, LOW);
 where an LED is attached to pin 3.
 
 Please contact Ren Lingfei for more information.
+
+## Yogi Bear Break Out
+
+VNH2SP30 | APM
+-------- | ---
+5V | Vcc
+GND | GND
+EN | P5
+INA | P6
+INB | P7
+CS | P8
+PMW | P9
+
+Red = P15
+Yellow = P14
+Green = P16
