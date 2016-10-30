@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -155,30 +155,30 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="13.462" y1="33.528" x2="18.796" y2="33.528" width="0.127" layer="25"/>
 <wire x1="18.796" y1="33.528" x2="18.796" y2="0" width="0.127" layer="25"/>
 <wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
-<pad name="9" x="1.778" y="1.778" drill="1" diameter="2.286"/>
-<pad name="8" x="1.778" y="4.318" drill="1" diameter="2.286"/>
-<pad name="7" x="1.778" y="6.858" drill="1" diameter="2.286"/>
-<pad name="6" x="1.778" y="9.398" drill="1" diameter="2.286"/>
-<pad name="5" x="1.778" y="11.938" drill="1" diameter="2.286"/>
-<pad name="4" x="1.778" y="14.478" drill="1" diameter="2.286"/>
-<pad name="3" x="1.778" y="17.018" drill="1" diameter="2.286"/>
-<pad name="2" x="1.778" y="19.558" drill="1" diameter="2.286"/>
-<pad name="GND@1" x="1.778" y="22.098" drill="1" diameter="2.286"/>
-<pad name="GND@0" x="1.778" y="24.638" drill="1" diameter="2.286"/>
-<pad name="RXI" x="1.778" y="27.178" drill="1" diameter="2.286"/>
-<pad name="TXO" x="1.778" y="29.718" drill="1" diameter="2.286"/>
-<pad name="RAW" x="17.018" y="29.718" drill="1" diameter="2.286"/>
-<pad name="GND@2" x="17.018" y="27.178" drill="1" diameter="2.286"/>
-<pad name="RST" x="17.018" y="24.638" drill="1" diameter="2.286"/>
-<pad name="VCC" x="17.018" y="22.098" drill="1" diameter="2.286"/>
-<pad name="A3" x="17.018" y="19.558" drill="1" diameter="2.286"/>
-<pad name="A2" x="17.018" y="17.018" drill="1" diameter="2.286"/>
-<pad name="A1" x="17.018" y="14.478" drill="1" diameter="2.286"/>
-<pad name="A0" x="17.018" y="11.938" drill="1" diameter="2.286"/>
-<pad name="15" x="17.018" y="9.398" drill="1" diameter="2.286"/>
-<pad name="14" x="17.018" y="6.858" drill="1" diameter="2.286"/>
-<pad name="16" x="17.018" y="4.318" drill="1" diameter="2.286"/>
-<pad name="10" x="17.018" y="1.778" drill="1" diameter="2.286"/>
+<pad name="9" x="1.778" y="1.778" drill="1" diameter="2.1844"/>
+<pad name="8" x="1.778" y="4.318" drill="1" diameter="2.1844"/>
+<pad name="7" x="1.778" y="6.858" drill="1" diameter="2.1844"/>
+<pad name="6" x="1.778" y="9.398" drill="1" diameter="2.1844"/>
+<pad name="5" x="1.778" y="11.938" drill="1" diameter="2.1844"/>
+<pad name="4" x="1.778" y="14.478" drill="1" diameter="2.1844"/>
+<pad name="3" x="1.778" y="17.018" drill="1" diameter="2.1844"/>
+<pad name="2" x="1.778" y="19.558" drill="1" diameter="2.1844"/>
+<pad name="GND@1" x="1.778" y="22.098" drill="1" diameter="2.1844"/>
+<pad name="GND@0" x="1.778" y="24.638" drill="1" diameter="2.1844"/>
+<pad name="RXI" x="1.778" y="27.178" drill="1" diameter="2.1844"/>
+<pad name="TXO" x="1.778" y="29.718" drill="1" diameter="2.1844"/>
+<pad name="RAW" x="17.018" y="29.718" drill="1" diameter="2.1844"/>
+<pad name="GND@2" x="17.018" y="27.178" drill="1" diameter="2.1844"/>
+<pad name="RST" x="17.018" y="24.638" drill="1" diameter="2.1844"/>
+<pad name="VCC" x="17.018" y="22.098" drill="1" diameter="2.1844"/>
+<pad name="A3" x="17.018" y="19.558" drill="1" diameter="2.1844"/>
+<pad name="A2" x="17.018" y="17.018" drill="1" diameter="2.1844"/>
+<pad name="A1" x="17.018" y="14.478" drill="1" diameter="2.1844"/>
+<pad name="A0" x="17.018" y="11.938" drill="1" diameter="2.1844"/>
+<pad name="15" x="17.018" y="9.398" drill="1" diameter="2.1844"/>
+<pad name="14" x="17.018" y="6.858" drill="1" diameter="2.1844"/>
+<pad name="16" x="17.018" y="4.318" drill="1" diameter="2.1844"/>
+<pad name="10" x="17.018" y="1.778" drill="1" diameter="2.1844"/>
 <wire x1="5.334" y1="33.528" x2="5.334" y2="34.798" width="0.127" layer="25"/>
 <wire x1="13.462" y1="33.528" x2="13.462" y2="34.798" width="0.127" layer="25"/>
 <text x="5.588" y="32.258" size="1.016" layer="25" font="vector">Micro USB</text>
@@ -199,11 +199,11 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="0" y1="7.5" x2="0" y2="0" width="0.127" layer="21"/>
 <wire x1="0.6" y1="0" x2="0.6" y2="7.5" width="0.127" layer="21"/>
 <wire x1="25.6" y1="7.5" x2="25.6" y2="0" width="0.127" layer="21"/>
-<pad name="P$1" x="3.1" y="3.3" drill="1" diameter="2.1844"/>
-<pad name="P$2" x="8.1" y="3.3" drill="1" diameter="2.1844"/>
-<pad name="P$3" x="13.1" y="3.3" drill="1" diameter="2.1844"/>
-<pad name="P$4" x="18.1" y="3.3" drill="1" diameter="2.1844"/>
-<pad name="P$5" x="23.1" y="3.3" drill="1" diameter="2.1844"/>
+<pad name="P$1" x="3.1" y="3.3" drill="1.35"/>
+<pad name="P$2" x="8.1" y="3.3" drill="1.35"/>
+<pad name="P$3" x="13.1" y="3.3" drill="1.35"/>
+<pad name="P$4" x="18.1" y="3.3" drill="1.35"/>
+<pad name="P$5" x="23.1" y="3.3" drill="1.35"/>
 <wire x1="0.7" y1="0" x2="0.7" y2="-2.5" width="0.127" layer="51"/>
 <wire x1="0.7" y1="-2.5" x2="4.7" y2="-2.5" width="0.127" layer="51"/>
 <wire x1="4.7" y1="-2.5" x2="6.9" y2="-2.5" width="0.127" layer="51"/>
@@ -248,10 +248,10 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 </package>
 <package name="VNH2SP30_MOTOR_CONTROLLER">
 <description>&lt;b&gt; VNH2SP30 &lt;/b&gt; MOTOR CONTROLLER</description>
-<wire x1="0" y1="0" x2="54" y2="0" width="0.127" layer="21"/>
-<wire x1="54" y1="0" x2="54" y2="28" width="0.127" layer="21"/>
-<wire x1="54" y1="28" x2="0" y2="28" width="0.127" layer="21"/>
-<wire x1="0" y1="28" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="54" y2="0" width="0.127" layer="51"/>
+<wire x1="54" y1="0" x2="54" y2="28" width="0.127" layer="51"/>
+<wire x1="54" y1="28" x2="0" y2="28" width="0.127" layer="51"/>
+<wire x1="0" y1="28" x2="0" y2="0" width="0.127" layer="51"/>
 <pad name="+5V" x="41.5" y="1.5" drill="1" diameter="2.1844"/>
 <pad name="GND" x="38.96" y="1.5" drill="1" diameter="2.1844"/>
 <pad name="EN" x="36.42" y="1.5" drill="1" diameter="2.1844"/>
@@ -263,17 +263,17 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <hole x="2.5" y="2.5" drill="3"/>
 <hole x="51.5" y="2.5" drill="3"/>
 <hole x="51.5" y="25.5" drill="3"/>
-<text x="28" y="23" size="1.27" layer="21" align="center">MOTOR CONTROLLER
+<text x="28" y="23" size="1.27" layer="51" font="vector" align="center">MOTOR CONTROLLER
 VNH2SP30</text>
-<wire x1="26" y1="19" x2="26" y2="6" width="0.127" layer="21"/>
-<wire x1="26" y1="6" x2="43" y2="6" width="0.127" layer="21"/>
-<wire x1="43" y1="6" x2="43" y2="19" width="0.127" layer="21"/>
-<wire x1="43" y1="19" x2="26" y2="19" width="0.127" layer="21"/>
-<circle x="12" y="10" radius="4.123103125" width="0.127" layer="21"/>
-<wire x1="9" y1="23" x2="15" y2="23" width="0.127" layer="21"/>
-<wire x1="15" y1="23" x2="15" y2="18" width="0.127" layer="21"/>
-<wire x1="15" y1="18" x2="9" y2="18" width="0.127" layer="21"/>
-<wire x1="9" y1="18" x2="9" y2="23" width="0.127" layer="21"/>
+<wire x1="26" y1="19" x2="26" y2="6" width="0.127" layer="51"/>
+<wire x1="26" y1="6" x2="43" y2="6" width="0.127" layer="51"/>
+<wire x1="43" y1="6" x2="43" y2="19" width="0.127" layer="51"/>
+<wire x1="43" y1="19" x2="26" y2="19" width="0.127" layer="51"/>
+<circle x="12" y="10" radius="4.123103125" width="0.127" layer="51"/>
+<wire x1="9" y1="23" x2="15" y2="23" width="0.127" layer="51"/>
+<wire x1="15" y1="23" x2="15" y2="18" width="0.127" layer="51"/>
+<wire x1="15" y1="18" x2="9" y2="18" width="0.127" layer="51"/>
+<wire x1="9" y1="18" x2="9" y2="23" width="0.127" layer="51"/>
 </package>
 <package name="LED5MM">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
