@@ -24,6 +24,8 @@ http://www.digikey.com/product-search/en/switches/magnetic-reed-switches/1114199
 
 It can be bought from Digikey, Sparkfun, Aliexpress, Amazon.
 
+[AliExpress](https://www.aliexpress.com/item/10pcs-KSK-1A-Reed-Switch-2x14mm-Green-Glass-Usually-Open-For-Sensors-100-Original/32424207994.html)
+
 To test it, connect it in series with a resistor and take the input from the point between them.
 
 A sample of a simple code is shown below:
