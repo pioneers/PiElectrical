@@ -67,12 +67,12 @@ VNH2SP30 | APM
 -------- | ---
 5V | Vcc
 GND | GND
-EN | P5
-INA | P6
-INB | P7
-CS | P8
-PMW | P9
+EN | 14
+INA | 16
+INB | 10
+CS | 8
+PMW | 9
 
-Red = P15
-Yellow = P14
-Green = P16
+Red = 2
+Yellow = 3
+Green = 4
