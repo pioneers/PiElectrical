@@ -89,3 +89,9 @@ A: This is to keep track of pull request and board reviews on a per board basis
 Don't try to fix it yourself: Eagle files are finicky and you might break all your work!
 
 Contact Seiya or Tobin: seiyaono@pioneers.berkeley.edu or tobinholcomb@pioneers.berkeley.edu
+
+## Standards
+
+Vias: 0.086 inch Diameter, 0.03937008 inch Drill
+
+Standard Pin Distance: 0.1 inch
