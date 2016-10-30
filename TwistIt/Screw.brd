@@ -1317,11 +1317,11 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="0" y1="7.5" x2="0" y2="0" width="0.127" layer="21"/>
 <wire x1="0.6" y1="0" x2="0.6" y2="7.5" width="0.127" layer="21"/>
 <wire x1="25.6" y1="7.5" x2="25.6" y2="0" width="0.127" layer="21"/>
-<pad name="P$1" x="3.1" y="3.3" drill="1.35"/>
-<pad name="P$2" x="8.1" y="3.3" drill="1.35"/>
-<pad name="P$3" x="13.1" y="3.3" drill="1.35"/>
-<pad name="P$4" x="18.1" y="3.3" drill="1.35"/>
-<pad name="P$5" x="23.1" y="3.3" drill="1.35"/>
+<pad name="P$1" x="3.1" y="3.3" drill="1" diameter="2.1844"/>
+<pad name="P$2" x="8.1" y="3.3" drill="1" diameter="2.1844"/>
+<pad name="P$3" x="13.1" y="3.3" drill="1" diameter="2.1844"/>
+<pad name="P$4" x="18.1" y="3.3" drill="1" diameter="2.1844"/>
+<pad name="P$5" x="23.1" y="3.3" drill="1" diameter="2.1844"/>
 <wire x1="0.7" y1="0" x2="0.7" y2="-2.5" width="0.127" layer="51"/>
 <wire x1="0.7" y1="-2.5" x2="4.7" y2="-2.5" width="0.127" layer="51"/>
 <wire x1="4.7" y1="-2.5" x2="6.9" y2="-2.5" width="0.127" layer="51"/>
@@ -2117,6 +2117,8 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </element>
 <element name="R4" library="pie" package="R0603" value="330" x="2.286" y="31.75" smashed="yes" rot="R180">
 <attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="2.286" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="3.556" y="30.734" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="3.556" y="34.29" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="LED2" library="pie" package="FKIT-LED-1206" value="YELLOW" x="7.62" y="28.448" smashed="yes" rot="R180">
 <attribute name="PIE-INT-REF-NUM" value="LED" x="7.62" y="28.448" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2124,7 +2126,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </element>
 <element name="R5" library="pie" package="R0603" value="330" x="2.286" y="28.448" smashed="yes" rot="R180">
 <attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="2.286" y="28.448" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="2.54" y="34.798" size="1.016" layer="27" font="vector" align="center"/>
+<attribute name="NAME" x="3.556" y="27.432" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="LED3" library="pie" package="FKIT-LED-1206" value="GREEN" x="7.62" y="25.146" smashed="yes" rot="R180">
 <attribute name="PIE-INT-REF-NUM" value="LED" x="7.62" y="25.146" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2132,6 +2134,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </element>
 <element name="R6" library="pie" package="R0603" value="330" x="2.286" y="25.146" smashed="yes" rot="R180">
 <attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="2.286" y="25.146" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="3.556" y="24.13" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 </elements>
 <signals>
