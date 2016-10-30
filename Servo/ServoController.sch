@@ -155,30 +155,30 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="13.462" y1="33.528" x2="18.796" y2="33.528" width="0.127" layer="25"/>
 <wire x1="18.796" y1="33.528" x2="18.796" y2="0" width="0.127" layer="25"/>
 <wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
-<pad name="9" x="1.778" y="1.778" drill="1" diameter="2.286"/>
-<pad name="8" x="1.778" y="4.318" drill="1" diameter="2.286"/>
-<pad name="7" x="1.778" y="6.858" drill="1" diameter="2.286"/>
-<pad name="6" x="1.778" y="9.398" drill="1" diameter="2.286"/>
-<pad name="5" x="1.778" y="11.938" drill="1" diameter="2.286"/>
-<pad name="4" x="1.778" y="14.478" drill="1" diameter="2.286"/>
-<pad name="3" x="1.778" y="17.018" drill="1" diameter="2.286"/>
-<pad name="2" x="1.778" y="19.558" drill="1" diameter="2.286"/>
-<pad name="GND@1" x="1.778" y="22.098" drill="1" diameter="2.286"/>
-<pad name="GND@0" x="1.778" y="24.638" drill="1" diameter="2.286"/>
-<pad name="RXI" x="1.778" y="27.178" drill="1" diameter="2.286"/>
-<pad name="TXO" x="1.778" y="29.718" drill="1" diameter="2.286"/>
-<pad name="RAW" x="17.018" y="29.718" drill="1" diameter="2.286"/>
-<pad name="GND@2" x="17.018" y="27.178" drill="1" diameter="2.286"/>
-<pad name="RST" x="17.018" y="24.638" drill="1" diameter="2.286"/>
-<pad name="VCC" x="17.018" y="22.098" drill="1" diameter="2.286"/>
-<pad name="A3" x="17.018" y="19.558" drill="1" diameter="2.286"/>
-<pad name="A2" x="17.018" y="17.018" drill="1" diameter="2.286"/>
-<pad name="A1" x="17.018" y="14.478" drill="1" diameter="2.286"/>
-<pad name="A0" x="17.018" y="11.938" drill="1" diameter="2.286"/>
-<pad name="15" x="17.018" y="9.398" drill="1" diameter="2.286"/>
-<pad name="14" x="17.018" y="6.858" drill="1" diameter="2.286"/>
-<pad name="16" x="17.018" y="4.318" drill="1" diameter="2.286"/>
-<pad name="10" x="17.018" y="1.778" drill="1" diameter="2.286"/>
+<pad name="9" x="1.778" y="1.778" drill="1" diameter="2.1844"/>
+<pad name="8" x="1.778" y="4.318" drill="1" diameter="2.1844"/>
+<pad name="7" x="1.778" y="6.858" drill="1" diameter="2.1844"/>
+<pad name="6" x="1.778" y="9.398" drill="1" diameter="2.1844"/>
+<pad name="5" x="1.778" y="11.938" drill="1" diameter="2.1844"/>
+<pad name="4" x="1.778" y="14.478" drill="1" diameter="2.1844"/>
+<pad name="3" x="1.778" y="17.018" drill="1" diameter="2.1844"/>
+<pad name="2" x="1.778" y="19.558" drill="1" diameter="2.1844"/>
+<pad name="GND@1" x="1.778" y="22.098" drill="1" diameter="2.1844"/>
+<pad name="GND@0" x="1.778" y="24.638" drill="1" diameter="2.1844"/>
+<pad name="RXI" x="1.778" y="27.178" drill="1" diameter="2.1844"/>
+<pad name="TXO" x="1.778" y="29.718" drill="1" diameter="2.1844"/>
+<pad name="RAW" x="17.018" y="29.718" drill="1" diameter="2.1844"/>
+<pad name="GND@2" x="17.018" y="27.178" drill="1" diameter="2.1844"/>
+<pad name="RST" x="17.018" y="24.638" drill="1" diameter="2.1844"/>
+<pad name="VCC" x="17.018" y="22.098" drill="1" diameter="2.1844"/>
+<pad name="A3" x="17.018" y="19.558" drill="1" diameter="2.1844"/>
+<pad name="A2" x="17.018" y="17.018" drill="1" diameter="2.1844"/>
+<pad name="A1" x="17.018" y="14.478" drill="1" diameter="2.1844"/>
+<pad name="A0" x="17.018" y="11.938" drill="1" diameter="2.1844"/>
+<pad name="15" x="17.018" y="9.398" drill="1" diameter="2.1844"/>
+<pad name="14" x="17.018" y="6.858" drill="1" diameter="2.1844"/>
+<pad name="16" x="17.018" y="4.318" drill="1" diameter="2.1844"/>
+<pad name="10" x="17.018" y="1.778" drill="1" diameter="2.1844"/>
 <wire x1="5.334" y1="33.528" x2="5.334" y2="34.798" width="0.127" layer="25"/>
 <wire x1="13.462" y1="33.528" x2="13.462" y2="34.798" width="0.127" layer="25"/>
 <text x="5.588" y="32.258" size="1.016" layer="25" font="vector">Micro USB</text>
@@ -186,25 +186,6 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="5.334" y1="29.5656" x2="13.462" y2="29.5656" width="0.127" layer="21"/>
 <wire x1="13.462" y1="29.5656" x2="13.462" y2="33.528" width="0.127" layer="21"/>
 <text x="9.398" y="8.128" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
-</package>
-<package name="ANDERSON_VERTICAL">
-<description>2-pin 25A Anderson Connector
-Vertical
-&lt;br&gt;
-&lt;a href="http://www.alliedelec.com/anderson-power-products-1377g4-bk/70162018/"&gt; Connector &lt;/a&gt;
-&lt;br&gt;
-&lt;a href="http://www.alliedelec.com/anderson-power-products-1327g6-bk/70162000/"&gt; Plastic &lt;/a&gt;</description>
-<pad name="PIN1" x="0" y="-3.937" drill="1.778" diameter="3.175" rot="R90"/>
-<pad name="PIN2" x="0" y="3.937" drill="1.778" diameter="3.175" rot="R90"/>
-<rectangle x1="-7.874" y1="-3.937" x2="7.874" y2="3.937" layer="39" rot="R90"/>
-<wire x1="3.937" y1="-7.874" x2="-3.937" y2="-7.874" width="0.127" layer="21"/>
-<wire x1="-3.937" y1="-7.874" x2="-3.937" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.937" y1="0" x2="-3.937" y2="7.874" width="0.127" layer="21"/>
-<wire x1="-3.937" y1="7.874" x2="3.937" y2="7.874" width="0.127" layer="21"/>
-<wire x1="3.937" y1="-7.874" x2="3.937" y2="0" width="0.127" layer="21"/>
-<wire x1="3.937" y1="0" x2="3.937" y2="7.874" width="0.127" layer="21"/>
-<wire x1="3.937" y1="0" x2="-3.937" y2="0" width="0.127" layer="21"/>
-<text x="-3.81" y="8.255" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 </package>
 <package name="1X03-MTA">
 <description>3-pin MTA connector
@@ -237,32 +218,6 @@ Vertical
 <rectangle x1="-3.81" y1="1.905" x2="3.81" y2="2.54" layer="21"/>
 <rectangle x1="-3.81" y1="-1.27" x2="3.81" y2="1.27" layer="40"/>
 <rectangle x1="-3.81" y1="-2.54" x2="3.81" y2="3.302" layer="39"/>
-</package>
-<package name="ANDERSON_HORIZONTAL">
-<description>2-pin 25A Anderson Connector
-Horizontal &lt;br&gt;
-&lt;a href="http://www.alliedelec.com/anderson-power-products-1377g2-bk/70162020/"&gt; Connector &lt;/a&gt;
-&lt;br&gt;
-&lt;a href="http://www.alliedelec.com/anderson-power-products-1327g6-bk/70162000/"&gt; Plastic &lt;/a&gt;</description>
-<pad name="PIN1" x="0" y="3.937" drill="1.778" diameter="3.175" rot="R270"/>
-<pad name="PIN2" x="0" y="-3.937" drill="1.778" diameter="3.175" rot="R270"/>
-<wire x1="-34.544" y1="8.128" x2="-34.544" y2="0" width="0.127" layer="51"/>
-<wire x1="-34.544" y1="0" x2="-34.544" y2="-8.128" width="0.127" layer="51"/>
-<wire x1="-9.906" y1="8.128" x2="-9.906" y2="3.937" width="0.127" layer="51"/>
-<wire x1="-9.906" y1="3.937" x2="-9.906" y2="0" width="0.127" layer="51"/>
-<wire x1="-9.906" y1="0" x2="-9.906" y2="-3.937" width="0.127" layer="51"/>
-<wire x1="-9.906" y1="-3.937" x2="-9.906" y2="-8.128" width="0.127" layer="51"/>
-<wire x1="-9.906" y1="0" x2="-34.544" y2="0" width="0.127" layer="51"/>
-<text x="-9.2075" y="6.985" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<wire x1="0" y1="3.937" x2="-9.906" y2="3.937" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.937" x2="-9.906" y2="-3.937" width="0.127" layer="51"/>
-<wire x1="-9.906" y1="8.128" x2="-34.544" y2="8.128" width="0.127" layer="51"/>
-<wire x1="-9.906" y1="-8.128" x2="-34.544" y2="-8.128" width="0.127" layer="51"/>
-<smd name="PIN1-LEAD" x="-5.334" y="3.937" dx="8.89" dy="1.27" layer="1"/>
-<smd name="PIN2-LEAD" x="-5.334" y="-3.937" dx="8.89" dy="1.27" layer="1"/>
-<rectangle x1="-34.544" y1="-8.128" x2="-9.906" y2="8.128" layer="39"/>
-<rectangle x1="-10.16" y1="1.27" x2="2.54" y2="6.35" layer="39"/>
-<rectangle x1="-10.16" y1="-6.35" x2="2.54" y2="-1.27" layer="39"/>
 </package>
 <package name="1X03">
 <description>3-pin 0.1-inch header
@@ -325,6 +280,25 @@ Drawings &lt;/a&gt;</description>
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.127" layer="51"/>
 <wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.127" layer="21"/>
+</package>
+<package name="ATX">
+<pad name="P$1" x="-3" y="0" drill="1" diameter="2.1844"/>
+<pad name="P$2" x="3.7" y="0" drill="1" diameter="2.1844"/>
+<circle x="-3" y="0" radius="2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2.5" x2="4" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
+<wire x1="4" y1="2.5" x2="6.5" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="6.5" y1="0" x2="4" y2="-2.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-7" y1="3" x2="-6" y2="3" width="0.127" layer="21"/>
+<wire x1="-6" y1="3" x2="7" y2="3" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="8" y2="3" width="0.127" layer="21"/>
+<wire x1="-7" y1="3" x2="-7" y2="-3" width="0.127" layer="21"/>
+<wire x1="-7" y1="-3" x2="8" y2="-3" width="0.127" layer="21"/>
+<wire x1="8" y1="-3" x2="8" y2="3" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="7" y2="4" width="0.127" layer="21"/>
+<wire x1="7" y1="4" x2="-6" y2="4" width="0.127" layer="21"/>
+<wire x1="-6" y1="4" x2="-6" y2="3" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -398,18 +372,6 @@ Drawings &lt;/a&gt;</description>
 <pin name="GND@1" x="-12.7" y="5.08" visible="pin" length="short"/>
 <text x="-10.16" y="20.32" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
-<symbol name="ANDERSON">
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="0" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
-<pin name="VCC" x="7.62" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="GND" x="7.62" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<text x="-7.62" y="6.096" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
 <symbol name="M03">
 <wire x1="3.81" y1="-5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
@@ -430,6 +392,17 @@ Drawings &lt;/a&gt;</description>
 <wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <text x="-1.27" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="ATX">
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<pin name="P$1" x="-10.16" y="2.54" visible="pad" length="middle" direction="pwr"/>
+<pin name="P$2" x="-10.16" y="-5.08" visible="pad" length="middle" direction="pwr"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="94">GND</text>
+<text x="-2.54" y="2.54" size="1.778" layer="94">Vcc</text>
+<text x="-5.08" y="7.62" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -494,37 +467,6 @@ Standard 8.5x11 US Letter frame</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ANDERSON" prefix="CONN">
-<description>2-pin 25A Anderson Connector
-http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/70162018.pdf</description>
-<gates>
-<gate name="G$1" symbol="ANDERSON" x="0" y="0"/>
-</gates>
-<devices>
-<device name="HORIZONTAL" package="ANDERSON_HORIZONTAL">
-<connects>
-<connect gate="G$1" pin="GND" pad="PIN1 PIN1-LEAD"/>
-<connect gate="G$1" pin="VCC" pad="PIN2 PIN2-LEAD"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PIE-INT-REF-NUM" value="Anderson"/>
-</technology>
-</technologies>
-</device>
-<device name="VERTICAL" package="ANDERSON_VERTICAL">
-<connects>
-<connect gate="G$1" pin="GND" pad="PIN1"/>
-<connect gate="G$1" pin="VCC" pad="PIN2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PIE-INT-REF-NUM" value="Anderson"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="M03" prefix="JP" uservalue="yes">
 <description>3-pin 0.1-inch header and MTA connector</description>
 <gates>
@@ -570,6 +512,31 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 </device>
 </devices>
 </deviceset>
+<deviceset name="ATX" prefix="JP">
+<description>&lt;b&gt;ATX 2 Pin Connector&lt;/b&gt;
+
+&lt;p&gt;
+Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-ND/2074099 &lt;/p&gt;
+&lt;p&gt;Housing: http://www.digikey.com/product-detail/en/molex-llc/0019092029/WM4382-ND/2421313&lt;/p&gt;
+&lt;p&gt;Housing (alternative): http://www.digikey.com/product-detail/en/molex-llc/0015311026/WM1041-ND/313614&lt;/p&gt;
+&lt;p&gt;Connector: http://www.digikey.com/product-detail/en/molex-llc/0019091029/WM1602-ND/26354&lt;/p&gt;
+&lt;p&gt;Male crimps: http://www.digikey.com/product-detail/en/molex-llc/0002092103/WM1100-ND/26384&lt;/p&gt;
+&lt;p&gt;Female crimps: http://www.digikey.com/product-detail/en/molex-llc/0002091104/WM1101-ND/26386 &lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="ATX" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="ATX">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -587,12 +554,12 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <attribute name="REVISION" value="9B"/>
 </part>
 <part name="APM" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
-<part name="CONN1" library="pie" deviceset="ANDERSON" device="HORIZONTAL" value="ANDERSONHORIZONTAL"/>
 <part name="JP1" library="pie" deviceset="M03" device="1X03-MTA"/>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="pie" deviceset="GND" device=""/>
 <part name="JP2" library="pie" deviceset="M03" device="1X03-MTA"/>
 <part name="SUPPLY3" library="pie" deviceset="GND" device=""/>
+<part name="JP3" library="pie" deviceset="ATX" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -605,21 +572,17 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 </instance>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
 <instance part="APM" gate="G$1" x="104.14" y="99.06"/>
-<instance part="CONN1" gate="G$1" x="193.04" y="111.76" rot="R180"/>
 <instance part="JP1" gate="G$1" x="139.7" y="109.22"/>
-<instance part="SUPPLY1" gate="GND" x="182.88" y="114.3" rot="R270"/>
+<instance part="SUPPLY1" gate="GND" x="182.88" y="101.6" rot="R270"/>
 <instance part="SUPPLY2" gate="GND" x="149.86" y="111.76" rot="R90"/>
 <instance part="JP2" gate="G$1" x="139.7" y="93.98"/>
 <instance part="SUPPLY3" gate="GND" x="149.86" y="96.52" rot="R90"/>
+<instance part="JP3" gate="G$1" x="195.58" y="106.68"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="CONN1" gate="G$1" pin="GND"/>
-<pinref part="SUPPLY1" gate="GND" pin="GND"/>
-</segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="3"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
@@ -640,16 +603,20 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <pinref part="APM" gate="G$1" pin="GND@2"/>
 <wire x1="119.38" y1="109.22" x2="124.46" y2="109.22" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="P$2"/>
+<pinref part="SUPPLY1" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="CONN1" gate="G$1" pin="VCC"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="109.22" x2="147.32" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="109.22" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="SIG1" class="0">
