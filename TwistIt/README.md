@@ -57,6 +57,8 @@ else digitalWrite(3, LOW);
 ```
 where an LED is attached to pin 3.
 
+![circuit](Reed_circuit.jpg)
+
 Please contact Ren Lingfei for more information.
 
 ## Yogi Bear Break Out
