@@ -1,4 +1,6 @@
-mkdir biggerb
-cp -rt biggerb $(find . -name "*-gerb" -type d)
-zip -r biggerb.zip biggerb
-echo "biggerb.zip is done"
+mkdir newgerb
+cp -rt newgerb $(find . -name "*-gerb" -type d)
+zip -r newgerb.zip newgerb
+mv newgerb.zip gerbs
+rm -rf newgerb
+echo "newgerb.zip is done"
