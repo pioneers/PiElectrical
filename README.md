@@ -28,6 +28,7 @@ Short Headers: [Male](https://www.sparkfun.com/products/117) and [Female](https:
 4. Make a directory in each sensor's folder called SENSOR\_NAME-gerb
     * SENSOR\_NAME **must** be the exact name as the brd file
 5. Run job, and click yes to all for the polygon issue
+6. Once all the jobs are done, run `make gerb`
 
 
 ##Git Work Flow
