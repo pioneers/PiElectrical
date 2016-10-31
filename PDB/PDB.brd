@@ -1272,7 +1272,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </element>
 <element name="U$2" library="pie" package="STAND-OFF" value="" x="45.466" y="13.208"/>
 <element name="U$4" library="pie" package="STAND-OFF" value="" x="116.332" y="34.798" rot="R90"/>
-<element name="U$5" library="pie" package="STAND-OFF" value="" x="40.64" y="86.614"/>
+<element name="U$5" library="pie" package="STAND-OFF" value="" x="20.828" y="60.706"/>
 <element name="U$6" library="pie" package="PIE-LOGO-SMALL" value="" x="37.846" y="77.978"/>
 <element name="U$7" library="pie" package="BUCK_CONVERTER_5V" value="BUCK_CONVERTER_5V" x="155.702" y="66.294" rot="R90"/>
 <element name="FUSE7" library="pie" package="FUSE_HOLDER_SMD" value="FUSE_HOLDER_SMD" x="59.69" y="80.01" rot="R90">
@@ -1556,9 +1556,9 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <contactref element="CIRCUIT_BREAKER" pad="P$1"/>
 <contactref element="XT60" pad="12V"/>
 <polygon width="1.1938" layer="1">
-<vertex x="47.752" y="99.314"/>
-<vertex x="48.26" y="62.738"/>
-<vertex x="101.6" y="62.992"/>
+<vertex x="50.292" y="99.314"/>
+<vertex x="50.546" y="68.58"/>
+<vertex x="100.838" y="68.834"/>
 <vertex x="101.346" y="46.482"/>
 <vertex x="51.308" y="46.482"/>
 <vertex x="51.308" y="54.61"/>
@@ -1633,7 +1633,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <contactref element="FUSE7" pad="P$1_UP"/>
 <contactref element="FUSE7" pad="P$1_DOWN"/>
 <polygon width="1.1938" layer="1">
-<vertex x="49.784" y="83.312"/>
+<vertex x="52.324" y="83.82"/>
 <vertex x="119.634" y="83.312"/>
 <vertex x="119.38" y="71.12"/>
 <vertex x="119.126" y="62.23"/>
@@ -1641,8 +1641,8 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <vertex x="126.238" y="61.468"/>
 <vertex x="126.238" y="54.102"/>
 <vertex x="103.124" y="54.356"/>
-<vertex x="103.124" y="64.77"/>
-<vertex x="50.038" y="65.024"/>
+<vertex x="102.616" y="70.358"/>
+<vertex x="52.07" y="71.12"/>
 </polygon>
 <contactref element="LS1" pad="A"/>
 <contactref element="UC1" pad="VCC"/>
@@ -1661,9 +1661,9 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="55.626" y1="72.898" x2="55.245" y2="73.279" width="0.4064" layer="1"/>
 <wire x1="41.95" y1="30.94" x2="43.894" y2="30.94" width="0.4064" layer="16"/>
 <wire x1="43.894" y1="30.94" x2="54.102" y2="41.148" width="0.4064" layer="16"/>
-<wire x1="54.102" y1="41.148" x2="54.102" y2="67.31" width="0.4064" layer="16"/>
-<via x="54.102" y="67.31" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="54.102" y1="67.31" x2="54.102" y2="72.136" width="0.4064" layer="1"/>
+<wire x1="54.102" y1="41.148" x2="54.102" y2="69.596" width="0.4064" layer="16"/>
+<via x="54.102" y="69.596" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="54.102" y1="69.596" x2="54.102" y2="72.136" width="0.4064" layer="1"/>
 <wire x1="54.102" y1="72.136" x2="55.245" y2="73.279" width="0.4064" layer="1"/>
 </signal>
 <signal name="IO1">
