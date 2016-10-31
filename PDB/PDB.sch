@@ -165,32 +165,13 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <rectangle x1="-8.128" y1="-4.064" x2="7.62" y2="4.064" layer="39"/>
 <rectangle x1="-8.128" y1="-4.064" x2="7.62" y2="4.064" layer="40"/>
 </package>
-<package name="ANDERSON_HORIZONTAL">
-<description>2-pin 25A Anderson Connector
-Horizontal</description>
-<pad name="PIN1" x="0" y="3.937" drill="1.778" diameter="3.175" rot="R270"/>
-<pad name="PIN2" x="0" y="-3.937" drill="1.778" diameter="3.175" rot="R270"/>
-<wire x1="-34.544" y1="8.128" x2="-34.544" y2="0" width="0.127" layer="51"/>
-<wire x1="-34.544" y1="0" x2="-34.544" y2="-8.128" width="0.127" layer="51"/>
-<wire x1="-9.906" y1="8.128" x2="-9.906" y2="3.937" width="0.127" layer="51"/>
-<wire x1="-9.906" y1="3.937" x2="-9.906" y2="0" width="0.127" layer="51"/>
-<wire x1="-9.906" y1="0" x2="-9.906" y2="-3.937" width="0.127" layer="51"/>
-<wire x1="-9.906" y1="-3.937" x2="-9.906" y2="-8.128" width="0.127" layer="51"/>
-<wire x1="-9.906" y1="0" x2="-34.544" y2="0" width="0.127" layer="51"/>
-<text x="-9.2075" y="6.985" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<wire x1="0" y1="3.937" x2="-9.906" y2="3.937" width="0.127" layer="51"/>
-<wire x1="0" y1="-3.937" x2="-9.906" y2="-3.937" width="0.127" layer="51"/>
-<wire x1="-9.906" y1="8.128" x2="-34.544" y2="8.128" width="0.127" layer="51"/>
-<wire x1="-9.906" y1="-8.128" x2="-34.544" y2="-8.128" width="0.127" layer="51"/>
-<smd name="PIN1-LEAD" x="-5.334" y="3.937" dx="8.89" dy="1.27" layer="1"/>
-<smd name="PIN2-LEAD" x="-5.334" y="-3.937" dx="8.89" dy="1.27" layer="1"/>
-<rectangle x1="-34.544" y1="-8.128" x2="-9.906" y2="8.128" layer="39"/>
-<rectangle x1="-10.16" y1="1.27" x2="2.54" y2="6.35" layer="39"/>
-<rectangle x1="-10.16" y1="-6.35" x2="2.54" y2="-1.27" layer="39"/>
-</package>
 <package name="ANDERSON_VERTICAL">
 <description>2-pin 25A Anderson Connector
-Vertical</description>
+Vertical
+&lt;br&gt;
+&lt;a href="http://www.alliedelec.com/anderson-power-products-1377g4-bk/70162018/"&gt; Connector &lt;/a&gt;
+&lt;br&gt;
+&lt;a href="http://www.alliedelec.com/anderson-power-products-1327g6-bk/70162000/"&gt; Plastic &lt;/a&gt;</description>
 <pad name="PIN1" x="0" y="-3.937" drill="1.778" diameter="3.175" rot="R90"/>
 <pad name="PIN2" x="0" y="3.937" drill="1.778" diameter="3.175" rot="R90"/>
 <rectangle x1="-7.874" y1="-3.937" x2="7.874" y2="3.937" layer="39" rot="R90"/>
@@ -214,8 +195,8 @@ Vertical</description>
 <wire x1="27.265159375" y1="1.436840625" x2="27.265159375" y2="-1.436840625" width="0.127" layer="21" curve="-90"/>
 <wire x1="27.265159375" y1="-1.436840625" x2="10.16" y2="-18.542" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="15.875" width="0.127" layer="21"/>
-<pad name="P$1" x="0" y="8.636" drill="4.572" diameter="5.6896"/>
-<pad name="P$2" x="0" y="-8.636" drill="4.572" diameter="5.6896"/>
+<pad name="P$1" x="0" y="8.636" drill="5.1054" diameter="6.223"/>
+<pad name="P$2" x="0" y="-8.636" drill="5.1054" diameter="6.223"/>
 <text x="-9.525" y="0" size="1.524" layer="21" font="vector">CIRCUIT BREAKER</text>
 <hole x="-19.9898" y="0" drill="4.572"/>
 <hole x="19.9898" y="0" drill="4.572"/>
@@ -255,14 +236,12 @@ Vertical</description>
 <wire x1="31.75" y1="34.29" x2="31.75" y2="-26.67" width="0.127" layer="21"/>
 <wire x1="-31.75" y1="34.29" x2="-31.75" y2="-26.67" width="0.127" layer="21"/>
 <wire x1="-31.75" y1="-26.67" x2="31.75" y2="-26.67" width="0.127" layer="21"/>
-<text x="13.97" y="26.67" size="1.778" layer="25" font="vector" rot="R180">Buck Converter 5V</text>
-<rectangle x1="-22.86" y1="-26.67" x2="22.86" y2="27.94" layer="39"/>
+<text x="-3.81" y="-22.86" size="1.778" layer="25" font="vector" rot="R180">Buck Converter 5V</text>
+<rectangle x1="-31.75" y1="-26.67" x2="31.75" y2="34.29" layer="39"/>
 <text x="-5.08" y="35.56" size="1.778" layer="27" font="vector" ratio="10" rot="R90">OUT+</text>
 <text x="-1.27" y="35.56" size="1.778" layer="27" font="vector" ratio="10" rot="R90">OUT-</text>
 <text x="2.54" y="35.56" size="1.778" layer="27" font="vector" ratio="10" rot="R90">IN-</text>
 <text x="6.35" y="35.56" size="1.778" layer="27" font="vector" ratio="10" rot="R90">IN+</text>
-<rectangle x1="-31.75" y1="-5.08" x2="-22.86" y2="5.08" layer="39"/>
-<rectangle x1="22.86" y1="-5.08" x2="31.75" y2="5.08" layer="39"/>
 </package>
 <package name="R0402">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
@@ -2195,28 +2174,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <text x="-1.905" y="-2.54" size="1.27" layer="25" font="vector">&gt;VALUE</text>
 <rectangle x1="-2.286" y1="-1.27" x2="2.286" y2="1.27" layer="39"/>
 </package>
-<package name="LED5MM-NOFLAT">
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
-<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="3.81" y="0.635" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="3.81" y="-1.905" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<wire x1="2.54" y1="1.905" x2="2.54" y2="-1.905" width="0.254" layer="21" curve="-73.739795"/>
-<text x="-5.842" y="-1.016" size="2.54" layer="21">+</text>
-<polygon width="0.127" layer="39" spacing="25.4" pour="hatch">
-<vertex x="0" y="-3.429" curve="-90"/>
-<vertex x="-3.429" y="0" curve="-90"/>
-<vertex x="0" y="3.429" curve="-90"/>
-<vertex x="3.429" y="0" curve="-90"/>
-</polygon>
-</package>
 <package name="XH_CONNECTOR_4POS_2.5MM">
 <description>&lt;b&gt; 4-pin XH connector (through-hole type shrouded header) &lt;/b&gt;
 
@@ -2365,40 +2322,43 @@ Source: http://www.nxp.com/acrobat_download/datasheets/PH7030L_4.pdf</descriptio
 <rectangle x1="-2.921" y1="-3.429" x2="2.921" y2="3.937" layer="39"/>
 </package>
 <package name="ARDUINO_PRO_MICRO">
-<wire x1="0" y1="0" x2="0" y2="33.02" width="0.127" layer="25"/>
-<wire x1="0" y1="33.02" x2="4.826" y2="33.02" width="0.127" layer="25"/>
-<wire x1="4.826" y1="33.02" x2="12.954" y2="33.02" width="0.127" layer="25"/>
-<wire x1="12.954" y1="33.02" x2="17.78" y2="33.02" width="0.127" layer="25"/>
-<wire x1="17.78" y1="33.02" x2="17.78" y2="0" width="0.127" layer="25"/>
-<wire x1="17.78" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
-<pad name="9" x="1.27" y="1.27" drill="1" diameter="2.286"/>
-<pad name="8" x="1.27" y="3.81" drill="1" diameter="2.286"/>
-<pad name="7" x="1.27" y="6.35" drill="1" diameter="2.286"/>
-<pad name="6" x="1.27" y="8.89" drill="1" diameter="2.286"/>
-<pad name="5" x="1.27" y="11.43" drill="1" diameter="2.286"/>
-<pad name="4" x="1.27" y="13.97" drill="1" diameter="2.286"/>
-<pad name="3" x="1.27" y="16.51" drill="1" diameter="2.286"/>
-<pad name="2" x="1.27" y="19.05" drill="1" diameter="2.286"/>
-<pad name="GND@1" x="1.27" y="21.59" drill="1" diameter="2.286"/>
-<pad name="GND@0" x="1.27" y="24.13" drill="1" diameter="2.286"/>
-<pad name="RXI" x="1.27" y="26.67" drill="1" diameter="2.286"/>
-<pad name="TXO" x="1.27" y="29.21" drill="1" diameter="2.286"/>
-<pad name="RAW" x="16.51" y="29.21" drill="1" diameter="2.286"/>
-<pad name="GND@2" x="16.51" y="26.67" drill="1" diameter="2.286"/>
-<pad name="RST" x="16.51" y="24.13" drill="1" diameter="2.286"/>
-<pad name="VCC" x="16.51" y="21.59" drill="1" diameter="2.286"/>
-<pad name="A3" x="16.51" y="19.05" drill="1" diameter="2.286"/>
-<pad name="A2" x="16.51" y="16.51" drill="1" diameter="2.286"/>
-<pad name="A1" x="16.51" y="13.97" drill="1" diameter="2.286"/>
-<pad name="A0" x="16.51" y="11.43" drill="1" diameter="2.286"/>
-<pad name="15" x="16.51" y="8.89" drill="1" diameter="2.286"/>
-<pad name="14" x="16.51" y="6.35" drill="1" diameter="2.286"/>
-<pad name="16" x="16.51" y="3.81" drill="1" diameter="2.286"/>
-<pad name="10" x="16.51" y="1.27" drill="1" diameter="2.286"/>
-<wire x1="4.826" y1="33.02" x2="4.826" y2="34.29" width="0.127" layer="25"/>
-<wire x1="12.954" y1="33.02" x2="12.954" y2="34.29" width="0.127" layer="25"/>
-<text x="5.08" y="31.75" size="1.016" layer="25" font="vector">Micro USB</text>
-<text x="8.89" y="6.35" size="1.524" layer="25" font="vector" rot="R90">ARUINO MICRO PRO</text>
+<wire x1="0" y1="0" x2="0" y2="33.528" width="0.127" layer="25"/>
+<wire x1="0" y1="33.528" x2="5.334" y2="33.528" width="0.127" layer="25"/>
+<wire x1="5.334" y1="33.528" x2="13.462" y2="33.528" width="0.127" layer="25"/>
+<wire x1="13.462" y1="33.528" x2="18.796" y2="33.528" width="0.127" layer="25"/>
+<wire x1="18.796" y1="33.528" x2="18.796" y2="0" width="0.127" layer="25"/>
+<wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
+<pad name="9" x="1.778" y="1.778" drill="1" diameter="2.1844"/>
+<pad name="8" x="1.778" y="4.318" drill="1" diameter="2.1844"/>
+<pad name="7" x="1.778" y="6.858" drill="1" diameter="2.1844"/>
+<pad name="6" x="1.778" y="9.398" drill="1" diameter="2.1844"/>
+<pad name="5" x="1.778" y="11.938" drill="1" diameter="2.1844"/>
+<pad name="4" x="1.778" y="14.478" drill="1" diameter="2.1844"/>
+<pad name="3" x="1.778" y="17.018" drill="1" diameter="2.1844"/>
+<pad name="2" x="1.778" y="19.558" drill="1" diameter="2.1844"/>
+<pad name="GND@1" x="1.778" y="22.098" drill="1" diameter="2.1844"/>
+<pad name="GND@0" x="1.778" y="24.638" drill="1" diameter="2.1844"/>
+<pad name="RXI" x="1.778" y="27.178" drill="1" diameter="2.1844"/>
+<pad name="TXO" x="1.778" y="29.718" drill="1" diameter="2.1844"/>
+<pad name="RAW" x="17.018" y="29.718" drill="1" diameter="2.1844"/>
+<pad name="GND@2" x="17.018" y="27.178" drill="1" diameter="2.1844"/>
+<pad name="RST" x="17.018" y="24.638" drill="1" diameter="2.1844"/>
+<pad name="VCC" x="17.018" y="22.098" drill="1" diameter="2.1844"/>
+<pad name="A3" x="17.018" y="19.558" drill="1" diameter="2.1844"/>
+<pad name="A2" x="17.018" y="17.018" drill="1" diameter="2.1844"/>
+<pad name="A1" x="17.018" y="14.478" drill="1" diameter="2.1844"/>
+<pad name="A0" x="17.018" y="11.938" drill="1" diameter="2.1844"/>
+<pad name="15" x="17.018" y="9.398" drill="1" diameter="2.1844"/>
+<pad name="14" x="17.018" y="6.858" drill="1" diameter="2.1844"/>
+<pad name="16" x="17.018" y="4.318" drill="1" diameter="2.1844"/>
+<pad name="10" x="17.018" y="1.778" drill="1" diameter="2.1844"/>
+<wire x1="5.334" y1="33.528" x2="5.334" y2="34.798" width="0.127" layer="25"/>
+<wire x1="13.462" y1="33.528" x2="13.462" y2="34.798" width="0.127" layer="25"/>
+<text x="5.588" y="32.258" size="1.016" layer="25" font="vector">Micro USB</text>
+<wire x1="5.334" y1="33.528" x2="5.334" y2="29.5656" width="0.127" layer="21"/>
+<wire x1="5.334" y1="29.5656" x2="13.462" y2="29.5656" width="0.127" layer="21"/>
+<wire x1="13.462" y1="29.5656" x2="13.462" y2="33.528" width="0.127" layer="21"/>
+<text x="9.398" y="8.128" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="C&amp;K_SWITCH">
 <description>Layout for a P&amp;K Micro switch.
@@ -2650,6 +2610,54 @@ Drawings &lt;/a&gt;</description>
 <wire x1="18.669" y1="5.334" x2="18.288" y2="0.508" width="0.127" layer="27"/>
 <circle x="19.05" y="-5.08" radius="0.635" width="0.127" layer="27"/>
 </package>
+<package name="ANDERSON_HORIZONTAL">
+<description>2-pin 25A Anderson Connector
+Horizontal &lt;br&gt;
+&lt;a href="http://www.alliedelec.com/anderson-power-products-1377g2-bk/70162020/"&gt; Connector &lt;/a&gt;
+&lt;br&gt;
+&lt;a href="http://www.alliedelec.com/anderson-power-products-1327g6-bk/70162000/"&gt; Plastic &lt;/a&gt;</description>
+<pad name="PIN1" x="0" y="3.937" drill="1.778" diameter="3.175" rot="R270"/>
+<pad name="PIN2" x="0" y="-3.937" drill="1.778" diameter="3.175" rot="R270"/>
+<wire x1="-34.544" y1="8.128" x2="-34.544" y2="0" width="0.127" layer="51"/>
+<wire x1="-34.544" y1="0" x2="-34.544" y2="-8.128" width="0.127" layer="51"/>
+<wire x1="-9.906" y1="8.128" x2="-9.906" y2="3.937" width="0.127" layer="51"/>
+<wire x1="-9.906" y1="3.937" x2="-9.906" y2="0" width="0.127" layer="51"/>
+<wire x1="-9.906" y1="0" x2="-9.906" y2="-3.937" width="0.127" layer="51"/>
+<wire x1="-9.906" y1="-3.937" x2="-9.906" y2="-8.128" width="0.127" layer="51"/>
+<wire x1="-9.906" y1="0" x2="-34.544" y2="0" width="0.127" layer="51"/>
+<text x="-9.2075" y="6.985" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<wire x1="0" y1="3.937" x2="-9.906" y2="3.937" width="0.127" layer="51"/>
+<wire x1="0" y1="-3.937" x2="-9.906" y2="-3.937" width="0.127" layer="51"/>
+<wire x1="-9.906" y1="8.128" x2="-34.544" y2="8.128" width="0.127" layer="51"/>
+<wire x1="-9.906" y1="-8.128" x2="-34.544" y2="-8.128" width="0.127" layer="51"/>
+<smd name="PIN1-LEAD" x="-5.334" y="3.937" dx="8.89" dy="1.27" layer="1"/>
+<smd name="PIN2-LEAD" x="-5.334" y="-3.937" dx="8.89" dy="1.27" layer="1"/>
+<rectangle x1="-34.544" y1="-8.128" x2="-9.906" y2="8.128" layer="39"/>
+<rectangle x1="-10.16" y1="1.27" x2="2.54" y2="6.35" layer="39"/>
+<rectangle x1="-10.16" y1="-6.35" x2="2.54" y2="-1.27" layer="39"/>
+</package>
+<package name="LED5MM-NOFLAT">
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
+<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
+<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<text x="3.81" y="0.635" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="3.81" y="-1.905" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="-1.905" width="0.254" layer="21" curve="-73.739795"/>
+<text x="-5.842" y="-1.27" size="2.54" layer="21" font="vector">+</text>
+<polygon width="0.127" layer="39" spacing="25.4" pour="hatch">
+<vertex x="0" y="-3.429" curve="-90"/>
+<vertex x="-3.429" y="0" curve="-90"/>
+<vertex x="0" y="3.429" curve="-90"/>
+<vertex x="3.429" y="0" curve="-90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -2722,8 +2730,8 @@ BREAKER</text>
 <wire x1="0" y1="-7.62" x2="10.16" y2="0" width="0.254" layer="94"/>
 <wire x1="10.16" y1="0" x2="0" y2="7.62" width="0.254" layer="94"/>
 <wire x1="0" y1="7.62" x2="-10.16" y2="0" width="0.254" layer="94"/>
-<pin name="P$1" x="0" y="12.7" visible="pad" length="middle" rot="R270"/>
-<pin name="P$2" x="0" y="-12.7" visible="pad" length="middle" rot="R90"/>
+<pin name="P$1" x="0" y="12.7" visible="off" length="middle" rot="R270"/>
+<pin name="P$2" x="0" y="-12.7" visible="off" length="middle" rot="R90"/>
 </symbol>
 <symbol name="FUSE">
 <description>Symbol for fuse taken from EAGLE's "fuses" library</description>
@@ -2789,8 +2797,8 @@ BREAKER</text>
 <wire x1="0.635" y1="-1.905" x2="2.032" y2="-3.302" width="0.1524" layer="94"/>
 <text x="-3.81" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="C" x="3.81" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="A" x="-3.81" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <polygon width="0.1524" layer="94">
 <vertex x="0.889" y="-3.429"/>
 <vertex x="0" y="-3.048"/>
@@ -2924,31 +2932,32 @@ BREAKER</text>
 <wire x1="12.7" y1="-17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
 <wire x1="12.7" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
-<pin name="TXO" x="-12.7" y="12.7" length="short"/>
-<pin name="RXI" x="-12.7" y="10.16" length="short"/>
-<pin name="GND@0" x="-12.7" y="7.62" length="short"/>
-<pin name="2" x="-12.7" y="2.54" length="short"/>
-<pin name="3" x="-12.7" y="0" length="short"/>
-<pin name="4" x="-12.7" y="-2.54" length="short"/>
-<pin name="5" x="-12.7" y="-5.08" length="short"/>
-<pin name="6" x="-12.7" y="-7.62" length="short"/>
-<pin name="7" x="-12.7" y="-10.16" length="short"/>
-<pin name="8" x="-12.7" y="-12.7" length="short"/>
-<pin name="9" x="-12.7" y="-15.24" length="short"/>
-<pin name="RAW" x="15.24" y="12.7" length="short" rot="R180"/>
-<pin name="GND@2" x="15.24" y="10.16" length="short" rot="R180"/>
-<pin name="RST" x="15.24" y="7.62" length="short" rot="R180"/>
-<pin name="VCC" x="15.24" y="5.08" length="short" rot="R180"/>
-<pin name="A3" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="A2" x="15.24" y="0" length="short" rot="R180"/>
-<pin name="A1" x="15.24" y="-2.54" length="short" rot="R180"/>
-<pin name="A0" x="15.24" y="-5.08" length="short" rot="R180"/>
-<pin name="15" x="15.24" y="-7.62" length="short" rot="R180"/>
-<pin name="16" x="15.24" y="-12.7" length="short" rot="R180"/>
-<pin name="14" x="15.24" y="-10.16" length="short" rot="R180"/>
-<pin name="10" x="15.24" y="-15.24" length="short" rot="R180"/>
+<pin name="TXO" x="-12.7" y="12.7" visible="pin" length="short"/>
+<pin name="RXI" x="-12.7" y="10.16" visible="pin" length="short"/>
+<pin name="GND@0" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="2" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="3" x="-12.7" y="0" visible="pin" length="short"/>
+<pin name="4" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="5" x="-12.7" y="-5.08" visible="pin" length="short"/>
+<pin name="6" x="-12.7" y="-7.62" visible="pin" length="short"/>
+<pin name="7" x="-12.7" y="-10.16" visible="pin" length="short"/>
+<pin name="8" x="-12.7" y="-12.7" visible="pin" length="short"/>
+<pin name="9" x="-12.7" y="-15.24" visible="pin" length="short"/>
+<pin name="RAW" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="GND@2" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="RST" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="VCC" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="A3" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="A2" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="A1" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="A0" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="15" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="16" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="14" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="10" x="15.24" y="-15.24" visible="pin" length="short" rot="R180"/>
 <text x="-7.62" y="15.24" size="1.27" layer="94" font="vector">ARDUINO PRO MICRO</text>
-<pin name="GND@1" x="-12.7" y="5.08" length="short"/>
+<pin name="GND@1" x="-12.7" y="5.08" visible="pin" length="short"/>
+<text x="-10.16" y="20.32" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="DPST_SWITCH">
 <description>Generic Double-Pole single throw switch, normally open.</description>
@@ -4550,7 +4559,7 @@ SOT669:  http://www.nxp.com/documents/data_sheet/PH7030L.pdf &lt;/p&gt;</descrip
 </device>
 </devices>
 </deviceset>
-<deviceset name="ARDUINO_PRO_MICRO">
+<deviceset name="ARDUINO_PRO_MICRO" prefix="IC">
 <description>&lt;b&gt;Arduino Pro Micro&lt;/b&gt;
 
 &lt;p&gt;Electrical System Year 9's Smart Sensor Core&lt;/p&gt;
@@ -5289,7 +5298,7 @@ will get regulated on the arduino.</text>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
-<wire x1="154.94" y1="1.27" x2="154.94" y2="0" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="2.54" x2="154.94" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="S@2"/>
@@ -5462,7 +5471,7 @@ will get regulated on the arduino.</text>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="12.7" x2="154.94" y2="8.89" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="12.7" x2="154.94" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
 </net>
