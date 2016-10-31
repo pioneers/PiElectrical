@@ -5080,7 +5080,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="R4" library="pie" deviceset="R-US_" device="R0603" value="100"/>
 <part name="R5" library="pie" deviceset="R-US_" device="R0603" value="100"/>
 <part name="R6" library="pie" deviceset="R-US_" device="R0603" value="100"/>
-<part name="R_SENSE" library="pie" deviceset="R-US_" device="R0805"/>
+<part name="R_SENSE" library="pie" deviceset="R-US_" device="V235/17" value="0.008"/>
 <part name="C4" library="pie" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C5" library="pie" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C6" library="pie" deviceset="CAP" device="0603-CAP" value=".1uF"/>
@@ -5113,7 +5113,8 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <text x="12.7" y="142.24" size="2.54" layer="97" font="vector">DEBUG FEATURES</text>
 <text x="91.44" y="116.84" size="2.54" layer="97" font="vector">TEMP SENSE &amp; BOOT</text>
 <text x="106.68" y="180.34" size="2.54" layer="97" font="vector">POWER, DC LOAD, PROTECTION MOSFETS</text>
-<text x="193.04" y="175.26" size="1.778" layer="98">Check footprint on RSENSE!</text>
+<text x="193.04" y="175.26" size="1.778" layer="98">Use 14AFR008E-ND,
+For now</text>
 <text x="203.2" y="129.54" size="2.54" layer="97" font="vector">TI CHIP</text>
 <text x="111.76" y="175.26" size="1.778" layer="98">Replace with better choice for high-current MOSFET</text>
 </plain>
@@ -5957,4 +5958,10 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
