@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -52,7 +52,7 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -141,8 +141,8 @@
 <plain>
 <wire x1="0" y1="0" x2="69.85" y2="0" width="0" layer="20"/>
 <wire x1="69.85" y1="0" x2="69.85" y2="50.8" width="0" layer="20"/>
-<wire x1="69.85" y1="50.8" x2="-0.1524" y2="50.8" width="0" layer="20"/>
-<wire x1="-0.1524" y1="50.8" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="69.85" y1="50.8" x2="0" y2="50.8" width="0" layer="20"/>
+<wire x1="0" y1="50.8" x2="0" y2="0" width="0" layer="20"/>
 <text x="50.292" y="5.1816" size="1.27" layer="27" font="vector" rot="R180">GND</text>
 <text x="29.8704" y="42.3672" size="1.27" layer="28" font="vector" rot="MR270">(c) Pioneers in Engineering.
 Design by:  D. Hutchings.
@@ -1323,6 +1323,9 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
