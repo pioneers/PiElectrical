@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -147,18 +147,12 @@
 <wire x1="160.02" y1="0" x2="160.02" y2="101.6" width="0" layer="20"/>
 <wire x1="160.02" y1="101.6" x2="0" y2="101.6" width="0" layer="20"/>
 <wire x1="0" y1="101.6" x2="0" y2="0" width="0" layer="20"/>
-<text x="92.202" y="39.116" size="1.524" layer="22" font="vector" rot="MR0">Copyright (c) 2013, Pioneers in Engineering
-
+<text x="92.71" y="52.832" size="1.524" layer="22" font="vector" rot="MR0">Copyright (c) 2016, Pioneers in Engineering
 All rights reserved.
-
-
 Design by: Sharabesh R, Mohammed H, Tobin H.
-
 This design is open source hardware.
-
 For more information, visit
-
-pioneers.berkeley.edu/opensource</text>
+github.com/pioneers/SmartSensors</text>
 <text x="30.48" y="70.104" size="1.778" layer="21" font="vector">PDB Rev9B</text>
 <text x="54.61" y="41.91" size="2.54" layer="21" font="vector">12V Rail</text>
 <text x="49.53" y="74.93" size="2.54" layer="21" font="vector">5V Rail</text>
