@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -155,7 +155,7 @@
 <text x="30.48" y="11.43" size="0.762" layer="25" font="vector" rot="R90">VCC</text>
 <text x="30.48" y="17.78" size="0.762" layer="25" font="vector" rot="R90">SIG</text>
 <text x="30.48" y="8.89" size="0.762" layer="25" font="vector" rot="R90">SIG</text>
-<text x="12.954" y="10.16" size="0.762" layer="25" font="vector" rot="MR90">(c) Pioneers In Engineering
+<text x="12.954" y="10.16" size="0.762" layer="26" font="vector" rot="MR90">(c) Pioneers In Engineering
 Design by: Seiya Ono, Catherine Kim
 This design is open source hardware.
 For more information, visit
@@ -893,7 +893,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="PIE-INT-REF-NUM" value="MTA" x="26.67" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="31.115" y="17.78" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="U$2" library="pie" package="PIE-LOGO-SMALL" value="" x="10.668" y="36.322" rot="R270"/>
+<element name="U$2" library="pie" package="PIE-LOGO-SMALL" value="" x="10.668" y="36.322" rot="MR270"/>
 <element name="U$1" library="pie" package="STAND-OFF" value="" x="22.86" y="46.482"/>
 <element name="U$3" library="pie" package="STAND-OFF" value="" x="3.81" y="3.81"/>
 <element name="U$4" library="pie" package="STAND-OFF" value="" x="3.81" y="46.228"/>

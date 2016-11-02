@@ -2189,7 +2189,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="27.714" y1="6.175865625" x2="29.718" y2="8.179865625" width="0.4064" layer="16"/>
 <wire x1="27.178" y1="28.448" x2="30.646" y2="28.448" width="0.4064" layer="1"/>
 <contactref element="R1" pad="1"/>
-<wire x1="30.646" y1="28.448" x2="32.678" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="30.646" y1="28.448" x2="32.678" y2="30.48" width="0.4064" layer="1"/>
 </signal>
 <signal name="P2">
 <contactref element="ST1" pad="P$3"/>
@@ -2201,6 +2201,8 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="17.272" y1="3.048" x2="19.558" y2="3.048" width="0.4064" layer="1"/>
 <wire x1="19.558" y1="3.048" x2="22.685865625" y2="6.175865625" width="0.4064" layer="1"/>
 <wire x1="22.685865625" y1="6.175865625" x2="22.714" y2="6.175865625" width="0.4064" layer="1"/>
+<contactref element="R2" pad="1"/>
+<wire x1="30.392" y1="25.908" x2="32.678" y2="28.194" width="0.4064" layer="1"/>
 </signal>
 <signal name="P3">
 <contactref element="ST1" pad="P$4"/>
@@ -2209,7 +2211,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="17.714" y1="13.904" x2="17.714" y2="6.175865625" width="0.4064" layer="1"/>
 <wire x1="27.178" y1="23.368" x2="30.138" y2="23.368" width="0.4064" layer="1"/>
 <contactref element="R3" pad="1"/>
-<wire x1="30.138" y1="23.368" x2="32.678" y2="25.908" width="0" layer="19" extent="1-1"/>
+<wire x1="30.138" y1="23.368" x2="32.678" y2="25.908" width="0.4064" layer="1"/>
 </signal>
 <signal name="EN">
 <contactref element="BR1" pad="EN"/>

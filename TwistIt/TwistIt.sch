@@ -7165,8 +7165,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="P2" class="0">
 <segment>
 <pinref part="ST1" gate="G$1" pin="P$3"/>
-<wire x1="139.7" y1="99.06" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="99.06" x2="121.92" y2="99.06" width="0.1524" layer="91"/>
 <label x="137.16" y="99.06" size="1.778" layer="95"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="APM" gate="G$1" pin="A1"/>
