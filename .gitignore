@@ -176,3 +176,17 @@ eagle.epf
 **/*.[b,s,l]#*
 *.pro
 *.job
+
+# CAM Jobs
+*.sts
+*.stc
+*.sol
+*.pls
+*.plc
+*.gpi
+*.dri
+*.drd
+*.crs
+*.crc
+*.cmp
+*.bor
