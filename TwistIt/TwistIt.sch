@@ -7329,10 +7329,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="5V_JUMPER" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="BR1" gate="G$1" pin="+5V"/>
-<wire x1="139.7" y1="142.24" x2="134.62" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="ENCODER" gate="G$1" pin="4"/>
 <wire x1="17.78" y1="86.36" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
 <label x="20.32" y="86.36" size="1.778" layer="95"/>

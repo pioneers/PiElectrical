@@ -14183,12 +14183,12 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <technology name="">
 <attribute name="DESCRIPTION" value="RESISTOR, American symbol" constant="no"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" constant="no"/>
-<attribute name="DISTRIBUTOR_PART_NUMBER" value="RHM330CGTR-ND" constant="no"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" constant="no"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MCR03ERTJ331" constant="no"/>
-<attribute name="NOTES" value="5% or better, power dissipation and temp. coeff. not critical" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" constant="no"/>
+<attribute name="NOTES" value="Cut Tape" constant="no"/>
 <attribute name="PACKAGE" value="R0603" constant="no"/>
-<attribute name="VALUE" value="330" constant="no"/>
+<attribute name="VALUE" value="&gt;VALUE" constant="no"/>
 </technology>
 </technologies>
 </device>
