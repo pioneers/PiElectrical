@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2221,45 +2221,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="0.1016" layer="51" curve="-118.072487"/>
 <wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="0.1016" layer="51" curve="-118.072487"/>
 </package>
-<package name="ARDUINO_PRO_MICRO">
-<wire x1="0" y1="0" x2="0" y2="33.528" width="0.127" layer="25"/>
-<wire x1="0" y1="33.528" x2="5.334" y2="33.528" width="0.127" layer="25"/>
-<wire x1="5.334" y1="33.528" x2="13.462" y2="33.528" width="0.127" layer="25"/>
-<wire x1="13.462" y1="33.528" x2="18.796" y2="33.528" width="0.127" layer="25"/>
-<wire x1="18.796" y1="33.528" x2="18.796" y2="0" width="0.127" layer="25"/>
-<wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
-<pad name="9" x="1.778" y="1.778" drill="1" diameter="2.286"/>
-<pad name="8" x="1.778" y="4.318" drill="1" diameter="2.286"/>
-<pad name="7" x="1.778" y="6.858" drill="1" diameter="2.286"/>
-<pad name="6" x="1.778" y="9.398" drill="1" diameter="2.286"/>
-<pad name="5" x="1.778" y="11.938" drill="1" diameter="2.286"/>
-<pad name="4" x="1.778" y="14.478" drill="1" diameter="2.286"/>
-<pad name="3" x="1.778" y="17.018" drill="1" diameter="2.286"/>
-<pad name="2" x="1.778" y="19.558" drill="1" diameter="2.286"/>
-<pad name="GND@1" x="1.778" y="22.098" drill="1" diameter="2.286"/>
-<pad name="GND@0" x="1.778" y="24.638" drill="1" diameter="2.286"/>
-<pad name="RXI" x="1.778" y="27.178" drill="1" diameter="2.286"/>
-<pad name="TXO" x="1.778" y="29.718" drill="1" diameter="2.286"/>
-<pad name="RAW" x="17.018" y="29.718" drill="1" diameter="2.286"/>
-<pad name="GND@2" x="17.018" y="27.178" drill="1" diameter="2.286"/>
-<pad name="RST" x="17.018" y="24.638" drill="1" diameter="2.286"/>
-<pad name="VCC" x="17.018" y="22.098" drill="1" diameter="2.286"/>
-<pad name="A3" x="17.018" y="19.558" drill="1" diameter="2.286"/>
-<pad name="A2" x="17.018" y="17.018" drill="1" diameter="2.286"/>
-<pad name="A1" x="17.018" y="14.478" drill="1" diameter="2.286"/>
-<pad name="A0" x="17.018" y="11.938" drill="1" diameter="2.286"/>
-<pad name="15" x="17.018" y="9.398" drill="1" diameter="2.286"/>
-<pad name="14" x="17.018" y="6.858" drill="1" diameter="2.286"/>
-<pad name="16" x="17.018" y="4.318" drill="1" diameter="2.286"/>
-<pad name="10" x="17.018" y="1.778" drill="1" diameter="2.286"/>
-<wire x1="5.334" y1="33.528" x2="5.334" y2="34.798" width="0.127" layer="25"/>
-<wire x1="13.462" y1="33.528" x2="13.462" y2="34.798" width="0.127" layer="25"/>
-<text x="5.588" y="32.258" size="1.016" layer="25" font="vector">Micro USB</text>
-<wire x1="5.334" y1="33.528" x2="5.334" y2="29.5656" width="0.127" layer="21"/>
-<wire x1="5.334" y1="29.5656" x2="13.462" y2="29.5656" width="0.127" layer="21"/>
-<wire x1="13.462" y1="29.5656" x2="13.462" y2="33.528" width="0.127" layer="21"/>
-<text x="9.398" y="8.128" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
-</package>
 <package name="1812X7R">
 <description>&lt;b&gt;Chip Monolithic Ceramic Capacitors&lt;/b&gt; Medium Voltage High Capacitance for General Use&lt;p&gt;&lt;br&gt;&lt;a href="http://psearch.en.murata.com/capacitor/product/GRM43DR72E224KW01%23.pdf"&gt; Data Sheet &lt;/a&gt;</description>
 <wire x1="-1.1" y1="1.5" x2="1.1" y2="1.5" width="0.2032" layer="51"/>
@@ -2273,6 +2234,84 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <rectangle x1="-1.4" y1="-1.6" x2="-1.1" y2="1.6" layer="51"/>
 <rectangle x1="1.1" y1="-1.6" x2="1.4" y2="1.6" layer="51" rot="R180"/>
 <rectangle x1="-2.413" y1="-1.905" x2="2.413" y2="1.905" layer="39"/>
+</package>
+<package name="ARDUINO_PRO_MICRO_SM">
+<description>&lt;b&gt;Arduino Pro Micro Surface Mount&lt;/b&gt;
+
+&lt;p&gt;Surface Mount for APM&lt;/p&gt;</description>
+<wire x1="0" y1="33" x2="18.796" y2="33" width="0.127" layer="21"/>
+<wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<smd name="9" x="3.302" y="1.27" dx="2" dy="1" layer="1"/>
+<smd name="8" x="0" y="3.81" dx="2" dy="1" layer="1"/>
+<smd name="7" x="3.302" y="6.35" dx="2" dy="1" layer="1"/>
+<smd name="6" x="0" y="8.89" dx="2" dy="1" layer="1"/>
+<smd name="5" x="3.302" y="11.43" dx="2" dy="1" layer="1"/>
+<smd name="4" x="0" y="13.97" dx="2" dy="1" layer="1"/>
+<smd name="3" x="3.302" y="16.51" dx="2" dy="1" layer="1"/>
+<smd name="2" x="0" y="19.05" dx="2" dy="1" layer="1"/>
+<smd name="GND@2" x="3.302" y="21.59" dx="2" dy="1" layer="1"/>
+<smd name="GND@1" x="0" y="24.13" dx="2" dy="1" layer="1"/>
+<smd name="RX" x="3.302" y="26.67" dx="2" dy="1" layer="1"/>
+<smd name="TX" x="0" y="29.21" dx="2" dy="1" layer="1"/>
+<smd name="10" x="15.369" y="1.27" dx="2" dy="1" layer="1"/>
+<smd name="16" x="18.669" y="3.81" dx="2" dy="1" layer="1"/>
+<smd name="14" x="15.369" y="6.35" dx="2" dy="1" layer="1"/>
+<smd name="15" x="18.669" y="8.89" dx="2" dy="1" layer="1"/>
+<smd name="A0" x="15.369" y="11.43" dx="2" dy="1" layer="1"/>
+<smd name="A1" x="18.669" y="13.97" dx="2" dy="1" layer="1"/>
+<smd name="A2" x="15.369" y="16.51" dx="2" dy="1" layer="1"/>
+<smd name="A3" x="18.669" y="19.05" dx="2" dy="1" layer="1"/>
+<smd name="VCC" x="15.369" y="21.59" dx="2" dy="1" layer="1"/>
+<smd name="RST" x="18.669" y="24.13" dx="2" dy="1" layer="1"/>
+<smd name="GND@3" x="15.369" y="26.67" dx="2" dy="1" layer="1"/>
+<smd name="RAW" x="18.669" y="29.21" dx="2" dy="1" layer="1"/>
+<text x="9.525" y="5.08" size="1.27" layer="21" font="vector" rot="R90">&gt;NAME</text>
+<wire x1="5.08" y1="34.29" x2="5.08" y2="29.21" width="0.127" layer="21"/>
+<wire x1="5.08" y1="29.21" x2="12.7" y2="29.21" width="0.127" layer="21"/>
+<wire x1="12.7" y1="29.21" x2="12.7" y2="34.29" width="0.127" layer="21"/>
+<text x="5.969" y="30.48" size="0.762" layer="21" font="vector">Micro USB</text>
+<text x="2.032" y="29.21" size="0.762" layer="21" font="vector" align="center">TX</text>
+<text x="0.532" y="26.67" size="0.762" layer="21" font="vector" align="center">RX</text>
+<text x="3.302" y="24.13" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="0.532" y="21.59" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="18.129" y="26.67" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="16.129" y="29.21" size="0.762" layer="21" font="vector" align="center">RAW</text>
+<text x="3.302" y="19.05" size="0.762" layer="21" font="vector" align="center">2</text>
+<text x="0.532" y="16.51" size="0.762" layer="21" font="vector" align="center">3</text>
+<text x="3.302" y="13.97" size="0.762" layer="21" font="vector" align="center">4</text>
+<text x="0.532" y="11.43" size="0.762" layer="21" font="vector" align="center">5</text>
+<text x="3.302" y="8.89" size="0.762" layer="21" font="vector" align="center">6</text>
+<text x="0.532" y="6.35" size="0.762" layer="21" font="vector" align="center">7</text>
+<text x="2.032" y="3.81" size="0.762" layer="21" font="vector" align="center">8</text>
+<text x="0.532" y="1.27" size="0.762" layer="21" font="vector" align="center">9</text>
+<text x="16.129" y="24.13" size="0.762" layer="21" font="vector" align="center">RST</text>
+<text x="18.129" y="21.59" size="0.762" layer="21" font="vector" align="center">VCC</text>
+<text x="16.129" y="19.05" size="0.762" layer="21" font="vector" align="center">A0</text>
+<text x="18.129" y="16.51" size="0.762" layer="21" font="vector" align="center">A2</text>
+<text x="16.129" y="13.97" size="0.762" layer="21" font="vector" align="center">A1</text>
+<text x="18.129" y="11.43" size="0.762" layer="21" font="vector" align="center">A0</text>
+<text x="16.129" y="8.89" size="0.762" layer="21" font="vector" align="center">15</text>
+<text x="18.129" y="6.35" size="0.762" layer="21" font="vector" align="center">14</text>
+<text x="16.129" y="3.81" size="0.762" layer="21" font="vector" align="center">16</text>
+<text x="18.129" y="1.27" size="0.762" layer="21" font="vector" align="center">10</text>
+<wire x1="0" y1="33.02" x2="0" y2="29.972" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="3.048" width="0.127" layer="21"/>
+<wire x1="0" y1="4.572" x2="0" y2="8.128" width="0.127" layer="21"/>
+<wire x1="0" y1="9.652" x2="0" y2="13.208" width="0.127" layer="21"/>
+<wire x1="0" y1="14.732" x2="0" y2="18.288" width="0.127" layer="21"/>
+<wire x1="18.796" y1="33.02" x2="18.796" y2="29.972" width="0.127" layer="21"/>
+<wire x1="18.796" y1="28.448" x2="18.796" y2="27.178" width="0.127" layer="21"/>
+<wire x1="18.796" y1="26.162" x2="18.796" y2="24.892" width="0.127" layer="21"/>
+<wire x1="18.796" y1="23.368" x2="18.796" y2="22.098" width="0.127" layer="21"/>
+<wire x1="18.796" y1="21.082" x2="18.796" y2="19.812" width="0.127" layer="21"/>
+<wire x1="18.796" y1="18.288" x2="18.796" y2="14.732" width="0.127" layer="21"/>
+<wire x1="18.796" y1="13.208" x2="18.796" y2="9.652" width="0.127" layer="21"/>
+<wire x1="18.796" y1="8.128" x2="18.796" y2="4.572" width="0.127" layer="21"/>
+<wire x1="18.796" y1="3.048" x2="18.796" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="19.812" x2="0" y2="21.082" width="0.127" layer="21"/>
+<wire x1="0" y1="22.098" x2="0" y2="23.368" width="0.127" layer="21"/>
+<wire x1="0" y1="24.892" x2="0" y2="26.162" width="0.127" layer="21"/>
+<wire x1="0" y1="27.178" x2="0" y2="28.448" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2374,8 +2413,8 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <wire x1="0.635" y1="-1.905" x2="2.032" y2="-3.302" width="0.1524" layer="94"/>
 <text x="-3.81" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="C" x="3.81" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="A" x="-3.81" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <polygon width="0.1524" layer="94">
 <vertex x="0.889" y="-3.429"/>
 <vertex x="0" y="-3.048"/>
@@ -2418,37 +2457,39 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="ARDUINO_PRO_MICRO">
-<wire x1="-10.16" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
-<pin name="TXO" x="-12.7" y="12.7" visible="pin" length="short"/>
-<pin name="RXI" x="-12.7" y="10.16" visible="pin" length="short"/>
-<pin name="GND@0" x="-12.7" y="7.62" visible="pin" length="short"/>
-<pin name="2" x="-12.7" y="2.54" visible="pin" length="short"/>
-<pin name="3" x="-12.7" y="0" visible="pin" length="short"/>
-<pin name="4" x="-12.7" y="-2.54" visible="pin" length="short"/>
-<pin name="5" x="-12.7" y="-5.08" visible="pin" length="short"/>
-<pin name="6" x="-12.7" y="-7.62" visible="pin" length="short"/>
-<pin name="7" x="-12.7" y="-10.16" visible="pin" length="short"/>
-<pin name="8" x="-12.7" y="-12.7" visible="pin" length="short"/>
-<pin name="9" x="-12.7" y="-15.24" visible="pin" length="short"/>
-<pin name="RAW" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="GND@2" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="RST" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="VCC" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="A3" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="A2" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="A1" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="A0" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="15" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="16" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
-<pin name="14" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
-<pin name="10" x="15.24" y="-15.24" visible="pin" length="short" rot="R180"/>
-<text x="-7.62" y="15.24" size="1.27" layer="94" font="vector">ARDUINO PRO MICRO</text>
-<pin name="GND@1" x="-12.7" y="5.08" visible="pin" length="short"/>
-<text x="-10.16" y="20.32" size="1.27" layer="94">&gt;NAME</text>
+<symbol name="ARDUINO_PRO_MICRO_SM">
+<description>&lt;b&gt;Arduino Pro Micro Surface Mount&lt;/b&gt;
+
+&lt;p&gt;Surface Mount for APM&lt;/p&gt;</description>
+<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<pin name="TX" x="-15.24" y="12.7" visible="pad" length="middle"/>
+<pin name="RX" x="-15.24" y="10.16" visible="pad" length="middle"/>
+<pin name="GND@1" x="-15.24" y="7.62" visible="pad" length="middle"/>
+<pin name="GND@2" x="-15.24" y="5.08" visible="pad" length="middle"/>
+<pin name="2" x="-15.24" y="2.54" visible="pad" length="middle"/>
+<pin name="3" x="-15.24" y="0" visible="pad" length="middle"/>
+<pin name="4" x="-15.24" y="-2.54" visible="pad" length="middle"/>
+<pin name="5" x="-15.24" y="-5.08" visible="pad" length="middle"/>
+<pin name="6" x="-15.24" y="-7.62" visible="pad" length="middle"/>
+<pin name="7" x="-15.24" y="-10.16" visible="pad" length="middle"/>
+<pin name="8" x="-15.24" y="-12.7" visible="pad" length="middle"/>
+<pin name="9" x="-15.24" y="-15.24" visible="pad" length="middle"/>
+<pin name="RAW" x="15.24" y="12.7" visible="pad" length="middle" rot="R180"/>
+<pin name="GND@3" x="15.24" y="10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="RST" x="15.24" y="7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="VCC" x="15.24" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="A3" x="15.24" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="A2" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="A1" x="15.24" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="A0" x="15.24" y="-5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="15" x="15.24" y="-7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="14" x="15.24" y="-10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="16" x="15.24" y="-12.7" visible="pad" length="middle" rot="R180"/>
+<pin name="10" x="15.24" y="-15.24" visible="pad" length="middle" rot="R180"/>
+<text x="-2.54" y="10.16" size="1.778" layer="94" font="vector">APM</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2548,7 +2589,14 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PIE-INT-REF-NUM" value="LED"/>
+<attribute name="DESCRIPTION" value="LEDs" constant="no"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" constant="no"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="160-1415-1-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Lite-On Inc" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LTST-C170KRKT" constant="no"/>
+<attribute name="NOTES" value="" constant="no"/>
+<attribute name="PACKAGE" value="LED0603" constant="no"/>
+<attribute name="VALUE" value="COLOR" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2581,7 +2629,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PIE-INT-REF-NUM" value="LED"/>
+<attribute name="PIE-INT-REF-NUM" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2742,7 +2790,14 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC"/>
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" constant="no"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" constant="no"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" constant="no"/>
+<attribute name="NOTES" value="Cut Tape" constant="no"/>
+<attribute name="PACKAGE" value="R0603" constant="no"/>
+<attribute name="VALUE" value="&gt;VALUE" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3661,19 +3716,17 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ARDUINO_PRO_MICRO" prefix="IC">
-<description>&lt;b&gt;Arduino Pro Micro&lt;/b&gt;
+<deviceset name="ARDUINO_PRO_MICRO_SM" prefix="IC">
+<description>&lt;b&gt;Arduino Pro Micro Surface Mount&lt;/b&gt;
 
-&lt;p&gt;Electrical System Year 9's Smart Sensor Core&lt;/p&gt;
+&lt;p&gt;Surface Mount for APM&lt;/p&gt;
 
-&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png"&gt;Pin Outs&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5"&gt;Buy Here&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=https://www.aliexpress.com/item/smd-100PCS-male-header-for-surface-mount-2-54-single-pin-1X40P-chip-single-row-stand/32281160189.html?spm=2114.40010308.4.12.EDvu82&gt;Breakaways&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="ARDUINO_PRO_MICRO" x="-12.7" y="-22.86"/>
+<gate name="G$1" symbol="ARDUINO_PRO_MICRO_SM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ARDUINO_PRO_MICRO">
+<device name="" package="ARDUINO_PRO_MICRO_SM">
 <connects>
 <connect gate="G$1" pin="10" pad="10"/>
 <connect gate="G$1" pin="14" pad="14"/>
@@ -3691,13 +3744,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <connect gate="G$1" pin="A1" pad="A1"/>
 <connect gate="G$1" pin="A2" pad="A2"/>
 <connect gate="G$1" pin="A3" pad="A3"/>
-<connect gate="G$1" pin="GND@0" pad="GND@0"/>
 <connect gate="G$1" pin="GND@1" pad="GND@1"/>
 <connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
 <connect gate="G$1" pin="RAW" pad="RAW"/>
 <connect gate="G$1" pin="RST" pad="RST"/>
-<connect gate="G$1" pin="RXI" pad="RXI"/>
-<connect gate="G$1" pin="TXO" pad="TXO"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
@@ -3720,8 +3773,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <parts>
 <part name="LED5_" library="pie" deviceset="LED" device="LED5MM-NOFLAT" value="BLUE"/>
 <part name="LED6_" library="pie" deviceset="LED" device="LED5MM-NOFLAT" value="YELLOW"/>
-<part name="R1" library="pie" deviceset="R-US_" device="R0603" value="200"/>
-<part name="R2" library="pie" deviceset="R-US_" device="R0603" value="200"/>
+<part name="R1" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R2" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
 <part name="Q1" library="pie" deviceset="MOSFET-NCHANNEL" device="SMD" value="IRFML8244"/>
 <part name="Q2" library="pie" deviceset="MOSFET-NCHANNEL" device="SMD" value="IRFML8244"/>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
@@ -3729,25 +3782,25 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="AUTHOR" value="Jared P., Aravind K., Sumita G., Casey D."/>
 <attribute name="REVISION" value="9B"/>
 </part>
-<part name="R3" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="R4" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R3" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R4" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
 <part name="C2" library="pie" deviceset="CAP" device="0603-CAP" value="0.1 uF"/>
 <part name="U$6" library="pie" deviceset="5V" device=""/>
 <part name="SUPPLY4" library="pie" deviceset="GND" device=""/>
-<part name="R5" library="pie" deviceset="R-US_" device="R0603" value="130"/>
+<part name="R5" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
 <part name="LED1" library="pie" deviceset="LED" device="0805" value="RED"/>
 <part name="SUPPLY15" library="pie" deviceset="GND" device=""/>
-<part name="R6" library="pie" deviceset="R-US_" device="R0603" value="130"/>
+<part name="R6" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
 <part name="LED2" library="pie" deviceset="LED" device="0805" value="RED"/>
 <part name="SUPPLY2" library="pie" deviceset="GND" device=""/>
-<part name="R7" library="pie" deviceset="R-US_" device="R0603" value="130"/>
+<part name="R7" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
 <part name="LED3" library="pie" deviceset="LED" device="0805" value="RED"/>
 <part name="SUPPLY3" library="pie" deviceset="GND" device=""/>
-<part name="R8" library="pie" deviceset="R-US_" device="R0603" value="130"/>
+<part name="R8" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
 <part name="LED4" library="pie" deviceset="LED" device="0805" value="RED"/>
 <part name="SUPPLY5" library="pie" deviceset="GND" device=""/>
-<part name="APM" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
 <part name="SUPPLY6" library="pie" deviceset="GND" device=""/>
+<part name="IC1" library="pie" deviceset="ARDUINO_PRO_MICRO_SM" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3836,8 +3889,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="VALUE" x="84.836" y="12.7" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY5" gate="GND" x="78.74" y="7.62"/>
-<instance part="APM" gate="G$1" x="50.8" y="88.9"/>
 <instance part="SUPPLY6" gate="GND" x="27.94" y="91.44"/>
+<instance part="IC1" gate="G$1" x="55.88" y="93.98"/>
 </instances>
 <busses>
 </busses>
@@ -3851,9 +3904,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="6"/>
 <label x="22.86" y="81.28" size="1.778" layer="95"/>
-<wire x1="38.1" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3880,36 +3933,36 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
-<wire x1="25.4" y1="12.7" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="13.97" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<wire x1="43.18" y1="12.7" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="13.97" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED3" gate="G$1" pin="C"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
-<wire x1="60.96" y1="12.7" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="13.97" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED4" gate="G$1" pin="C"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<wire x1="78.74" y1="12.7" x2="78.74" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="13.97" x2="78.74" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="GND@0"/>
-<wire x1="38.1" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="96.52" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="APM" gate="G$1" pin="GND@1"/>
-<wire x1="27.94" y1="93.98" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="93.98" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <junction x="27.94" y="93.98"/>
+<pinref part="IC1" gate="G$1" pin="3"/>
+<pinref part="IC1" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="96.52" x2="40.64" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="GND@2"/>
-<wire x1="66.04" y1="99.06" x2="81.28" y2="99.06" width="0.1524" layer="91"/>
-<label x="76.2" y="99.06" size="1.778" layer="95"/>
+<wire x1="71.12" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
+<label x="78.74" y="104.14" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="GND@3"/>
 </segment>
 </net>
 <net name="BLUE(IO1)" class="0">
@@ -3921,9 +3974,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="5"/>
 <label x="22.86" y="83.82" size="1.778" layer="95"/>
-<wire x1="38.1" y1="83.82" x2="22.86" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="83.82" x2="22.86" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="BSOURCE" class="0">
@@ -3937,14 +3990,14 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="LED5_" gate="G$1" pin="C"/>
-<wire x1="20.32" y1="165.1" x2="20.32" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="166.37" x2="20.32" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="LED6_" gate="G$1" pin="C"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="165.1" x2="55.88" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="166.37" x2="55.88" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="YSOURCE" class="0">
@@ -3961,19 +4014,19 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="91.44" y1="160.02" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="55.88" y1="172.72" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="171.45" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
 <label x="60.96" y="175.26" size="1.778" layer="95" rot="R180"/>
 <pinref part="LED6_" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<wire x1="20.32" y1="172.72" x2="25.4" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="171.45" x2="25.4" y2="172.72" width="0.1524" layer="91"/>
 <label x="25.4" y="175.26" size="1.778" layer="95" rot="R180"/>
 <pinref part="LED5_" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="VCC"/>
-<wire x1="66.04" y1="93.98" x2="81.28" y2="93.98" width="0.1524" layer="91"/>
-<label x="76.2" y="93.98" size="1.778" layer="95"/>
+<wire x1="71.12" y1="99.06" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
+<label x="78.74" y="99.06" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="LED4" class="0">
@@ -3983,37 +4036,37 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="78.74" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="A3"/>
-<wire x1="66.04" y1="91.44" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
-<label x="76.2" y="91.44" size="1.778" layer="95"/>
+<wire x1="71.12" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
+<label x="78.74" y="96.52" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="A3"/>
 </segment>
 </net>
 <net name="LED1R" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="25.4" y1="22.86" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="22.86" x2="25.4" y2="19.05" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED2R" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="43.18" y1="22.86" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="22.86" x2="43.18" y2="19.05" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED3R" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="60.96" y1="22.86" x2="60.96" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="22.86" x2="60.96" y2="19.05" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED4R" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="78.74" y1="22.86" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="22.86" x2="78.74" y2="19.05" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED1" class="0">
@@ -4023,9 +4076,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="25.4" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="A0"/>
-<wire x1="66.04" y1="83.82" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
-<label x="76.2" y="83.82" size="1.778" layer="95"/>
+<wire x1="71.12" y1="88.9" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
+<label x="78.74" y="88.9" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="A0"/>
 </segment>
 </net>
 <net name="LED2" class="0">
@@ -4035,9 +4088,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="43.18" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="A1"/>
-<wire x1="66.04" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
-<label x="76.2" y="86.36" size="1.778" layer="95"/>
+<wire x1="71.12" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
+<label x="78.74" y="91.44" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="A1"/>
 </segment>
 </net>
 <net name="LED3" class="0">
@@ -4047,9 +4100,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="60.96" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="A2"/>
-<wire x1="66.04" y1="88.9" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
-<label x="76.2" y="88.9" size="1.778" layer="95"/>
+<wire x1="71.12" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
+<label x="78.74" y="93.98" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="A2"/>
 </segment>
 </net>
 </nets>
