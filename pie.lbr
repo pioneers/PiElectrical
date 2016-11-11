@@ -16938,37 +16938,41 @@ and &lt;a href="http://www.digikey.com/product-detail/en/keystone-electronics/35
 
 &lt;p&gt;&lt;a href="https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png"&gt;Pin Outs&lt;/p&gt;
 
-&lt;p&gt;&lt;a href="http://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5"&gt;Buy Here&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href="http://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5"&gt;Buy Here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.digikey.com/product-search/en?keywords=929974E-01-12-ND"&gt;Thru Hole Female Pins&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.digikey.com/product-detail/en/sullins-connector-solutions/NPTC121KFXC-RC/S5604-ND/776062"&gt;Surface Mount Female Pins&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="ARDUINO_PRO_MICRO" x="-12.7" y="-22.86"/>
+<gate name="APM" symbol="ARDUINO_PRO_MICRO" x="-12.7" y="-22.86"/>
 </gates>
 <devices>
 <device name="" package="ARDUINO_PRO_MICRO">
 <connects>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="A3" pad="A3"/>
-<connect gate="G$1" pin="GND@0" pad="GND@0"/>
-<connect gate="G$1" pin="GND@1" pad="GND@1"/>
-<connect gate="G$1" pin="GND@2" pad="GND@2"/>
-<connect gate="G$1" pin="RAW" pad="RAW"/>
-<connect gate="G$1" pin="RST" pad="RST"/>
-<connect gate="G$1" pin="RXI" pad="RXI"/>
-<connect gate="G$1" pin="TXO" pad="TXO"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="APM" pin="10" pad="10"/>
+<connect gate="APM" pin="14" pad="14"/>
+<connect gate="APM" pin="15" pad="15"/>
+<connect gate="APM" pin="16" pad="16"/>
+<connect gate="APM" pin="2" pad="2"/>
+<connect gate="APM" pin="3" pad="3"/>
+<connect gate="APM" pin="4" pad="4"/>
+<connect gate="APM" pin="5" pad="5"/>
+<connect gate="APM" pin="6" pad="6"/>
+<connect gate="APM" pin="7" pad="7"/>
+<connect gate="APM" pin="8" pad="8"/>
+<connect gate="APM" pin="9" pad="9"/>
+<connect gate="APM" pin="A0" pad="A0"/>
+<connect gate="APM" pin="A1" pad="A1"/>
+<connect gate="APM" pin="A2" pad="A2"/>
+<connect gate="APM" pin="A3" pad="A3"/>
+<connect gate="APM" pin="GND@0" pad="GND@0"/>
+<connect gate="APM" pin="GND@1" pad="GND@1"/>
+<connect gate="APM" pin="GND@2" pad="GND@2"/>
+<connect gate="APM" pin="RAW" pad="RAW"/>
+<connect gate="APM" pin="RST" pad="RST"/>
+<connect gate="APM" pin="RXI" pad="RXI"/>
+<connect gate="APM" pin="TXO" pad="TXO"/>
+<connect gate="APM" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name="">
@@ -16981,44 +16985,34 @@ and &lt;a href="http://www.digikey.com/product-detail/en/keystone-electronics/35
 <attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" constant="no"/>
 <attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" constant="no"/>
 </technology>
-<technology name="_HEADERS">
-<attribute name="DESCRIPTION" value="ARDUINO_PRO_MICRO" constant="no"/>
-<attribute name="DISTRIBUTOR" value="Digikey" constant="no"/>
-<attribute name="DISTRIBUTOR_PART_NUMBER" value="929974E-01-12-ND" constant="no"/>
-<attribute name="MANUFACTURER" value="3M" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="929974-01-12-RK" constant="no"/>
-<attribute name="NOTES" value="x2" constant="no"/>
-<attribute name="PACKAGE" value="" constant="no"/>
-<attribute name="REFERENCE_DEST" value="" constant="no"/>
-</technology>
 </technologies>
 </device>
 <device name="SMD" package="ARDUINO_PRO_MICRO_SM">
 <connects>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="A3" pad="A3"/>
-<connect gate="G$1" pin="GND@0" pad="GND@1"/>
-<connect gate="G$1" pin="GND@1" pad="GND@2"/>
-<connect gate="G$1" pin="GND@2" pad="GND@3"/>
-<connect gate="G$1" pin="RAW" pad="RAW"/>
-<connect gate="G$1" pin="RST" pad="RST"/>
-<connect gate="G$1" pin="RXI" pad="RX"/>
-<connect gate="G$1" pin="TXO" pad="TX"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="APM" pin="10" pad="10"/>
+<connect gate="APM" pin="14" pad="14"/>
+<connect gate="APM" pin="15" pad="15"/>
+<connect gate="APM" pin="16" pad="16"/>
+<connect gate="APM" pin="2" pad="2"/>
+<connect gate="APM" pin="3" pad="3"/>
+<connect gate="APM" pin="4" pad="4"/>
+<connect gate="APM" pin="5" pad="5"/>
+<connect gate="APM" pin="6" pad="6"/>
+<connect gate="APM" pin="7" pad="7"/>
+<connect gate="APM" pin="8" pad="8"/>
+<connect gate="APM" pin="9" pad="9"/>
+<connect gate="APM" pin="A0" pad="A0"/>
+<connect gate="APM" pin="A1" pad="A1"/>
+<connect gate="APM" pin="A2" pad="A2"/>
+<connect gate="APM" pin="A3" pad="A3"/>
+<connect gate="APM" pin="GND@0" pad="GND@1"/>
+<connect gate="APM" pin="GND@1" pad="GND@2"/>
+<connect gate="APM" pin="GND@2" pad="GND@3"/>
+<connect gate="APM" pin="RAW" pad="RAW"/>
+<connect gate="APM" pin="RST" pad="RST"/>
+<connect gate="APM" pin="RXI" pad="RX"/>
+<connect gate="APM" pin="TXO" pad="TX"/>
+<connect gate="APM" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -17473,49 +17467,6 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <connect gate="G$1" pin="E" pad="5"/>
 <connect gate="G$1" pin="F" pad="11"/>
 <connect gate="G$1" pin="G" pad="15"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ARDUINO_PRO_MICRO_SM" prefix="IC">
-<description>&lt;b&gt;Arduino Pro Micro Surface Mount&lt;/b&gt;
-
-&lt;p&gt;Surface Mount for APM&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=https://www.aliexpress.com/item/smd-100PCS-male-header-for-surface-mount-2-54-single-pin-1X40P-chip-single-row-stand/32281160189.html?spm=2114.40010308.4.12.EDvu82&gt;Breakaways&lt;/a&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="ARDUINO_PRO_MICRO_SM" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ARDUINO_PRO_MICRO_SM">
-<connects>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="A3" pad="A3"/>
-<connect gate="G$1" pin="GND@1" pad="GND@1"/>
-<connect gate="G$1" pin="GND@2" pad="GND@2"/>
-<connect gate="G$1" pin="GND@3" pad="GND@3"/>
-<connect gate="G$1" pin="RAW" pad="RAW"/>
-<connect gate="G$1" pin="RST" pad="RST"/>
-<connect gate="G$1" pin="RX" pad="RX"/>
-<connect gate="G$1" pin="TX" pad="TX"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
