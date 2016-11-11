@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2235,6 +2235,45 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <rectangle x1="1.1" y1="-1.6" x2="1.4" y2="1.6" layer="51" rot="R180"/>
 <rectangle x1="-2.413" y1="-1.905" x2="2.413" y2="1.905" layer="39"/>
 </package>
+<package name="ARDUINO_PRO_MICRO">
+<wire x1="0" y1="0" x2="0" y2="33.528" width="0.127" layer="25"/>
+<wire x1="0" y1="33.528" x2="5.334" y2="33.528" width="0.127" layer="25"/>
+<wire x1="5.334" y1="33.528" x2="13.462" y2="33.528" width="0.127" layer="25"/>
+<wire x1="13.462" y1="33.528" x2="18.796" y2="33.528" width="0.127" layer="25"/>
+<wire x1="18.796" y1="33.528" x2="18.796" y2="0" width="0.127" layer="25"/>
+<wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
+<pad name="9" x="1.778" y="1.778" drill="1" diameter="2.1844"/>
+<pad name="8" x="1.778" y="4.318" drill="1" diameter="2.1844"/>
+<pad name="7" x="1.778" y="6.858" drill="1" diameter="2.1844"/>
+<pad name="6" x="1.778" y="9.398" drill="1" diameter="2.1844"/>
+<pad name="5" x="1.778" y="11.938" drill="1" diameter="2.1844"/>
+<pad name="4" x="1.778" y="14.478" drill="1" diameter="2.1844"/>
+<pad name="3" x="1.778" y="17.018" drill="1" diameter="2.1844"/>
+<pad name="2" x="1.778" y="19.558" drill="1" diameter="2.1844"/>
+<pad name="GND@1" x="1.778" y="22.098" drill="1" diameter="2.1844"/>
+<pad name="GND@0" x="1.778" y="24.638" drill="1" diameter="2.1844"/>
+<pad name="RXI" x="1.778" y="27.178" drill="1" diameter="2.1844"/>
+<pad name="TXO" x="1.778" y="29.718" drill="1" diameter="2.1844"/>
+<pad name="RAW" x="17.018" y="29.718" drill="1" diameter="2.1844"/>
+<pad name="GND@2" x="17.018" y="27.178" drill="1" diameter="2.1844"/>
+<pad name="RST" x="17.018" y="24.638" drill="1" diameter="2.1844"/>
+<pad name="VCC" x="17.018" y="22.098" drill="1" diameter="2.1844"/>
+<pad name="A3" x="17.018" y="19.558" drill="1" diameter="2.1844"/>
+<pad name="A2" x="17.018" y="17.018" drill="1" diameter="2.1844"/>
+<pad name="A1" x="17.018" y="14.478" drill="1" diameter="2.1844"/>
+<pad name="A0" x="17.018" y="11.938" drill="1" diameter="2.1844"/>
+<pad name="15" x="17.018" y="9.398" drill="1" diameter="2.1844"/>
+<pad name="14" x="17.018" y="6.858" drill="1" diameter="2.1844"/>
+<pad name="16" x="17.018" y="4.318" drill="1" diameter="2.1844"/>
+<pad name="10" x="17.018" y="1.778" drill="1" diameter="2.1844"/>
+<wire x1="5.334" y1="33.528" x2="5.334" y2="34.798" width="0.127" layer="25"/>
+<wire x1="13.462" y1="33.528" x2="13.462" y2="34.798" width="0.127" layer="25"/>
+<text x="5.588" y="32.258" size="1.016" layer="25" font="vector">Micro USB</text>
+<wire x1="5.334" y1="33.528" x2="5.334" y2="29.5656" width="0.127" layer="21"/>
+<wire x1="5.334" y1="29.5656" x2="13.462" y2="29.5656" width="0.127" layer="21"/>
+<wire x1="13.462" y1="29.5656" x2="13.462" y2="33.528" width="0.127" layer="21"/>
+<text x="9.398" y="8.128" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
+</package>
 <package name="ARDUINO_PRO_MICRO_SM">
 <description>&lt;b&gt;Arduino Pro Micro Surface Mount&lt;/b&gt;
 
@@ -2457,39 +2496,37 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="ARDUINO_PRO_MICRO_SM">
-<description>&lt;b&gt;Arduino Pro Micro Surface Mount&lt;/b&gt;
-
-&lt;p&gt;Surface Mount for APM&lt;/p&gt;</description>
-<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-17.78" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
-<pin name="TX" x="-15.24" y="12.7" visible="pad" length="middle"/>
-<pin name="RX" x="-15.24" y="10.16" visible="pad" length="middle"/>
-<pin name="GND@1" x="-15.24" y="7.62" visible="pad" length="middle"/>
-<pin name="GND@2" x="-15.24" y="5.08" visible="pad" length="middle"/>
-<pin name="2" x="-15.24" y="2.54" visible="pad" length="middle"/>
-<pin name="3" x="-15.24" y="0" visible="pad" length="middle"/>
-<pin name="4" x="-15.24" y="-2.54" visible="pad" length="middle"/>
-<pin name="5" x="-15.24" y="-5.08" visible="pad" length="middle"/>
-<pin name="6" x="-15.24" y="-7.62" visible="pad" length="middle"/>
-<pin name="7" x="-15.24" y="-10.16" visible="pad" length="middle"/>
-<pin name="8" x="-15.24" y="-12.7" visible="pad" length="middle"/>
-<pin name="9" x="-15.24" y="-15.24" visible="pad" length="middle"/>
-<pin name="RAW" x="15.24" y="12.7" visible="pad" length="middle" rot="R180"/>
-<pin name="GND@3" x="15.24" y="10.16" visible="pad" length="middle" rot="R180"/>
-<pin name="RST" x="15.24" y="7.62" visible="pad" length="middle" rot="R180"/>
-<pin name="VCC" x="15.24" y="5.08" visible="pad" length="middle" rot="R180"/>
-<pin name="A3" x="15.24" y="2.54" visible="pad" length="middle" rot="R180"/>
-<pin name="A2" x="15.24" y="0" visible="pad" length="middle" rot="R180"/>
-<pin name="A1" x="15.24" y="-2.54" visible="pad" length="middle" rot="R180"/>
-<pin name="A0" x="15.24" y="-5.08" visible="pad" length="middle" rot="R180"/>
-<pin name="15" x="15.24" y="-7.62" visible="pad" length="middle" rot="R180"/>
-<pin name="14" x="15.24" y="-10.16" visible="pad" length="middle" rot="R180"/>
-<pin name="16" x="15.24" y="-12.7" visible="pad" length="middle" rot="R180"/>
-<pin name="10" x="15.24" y="-15.24" visible="pad" length="middle" rot="R180"/>
-<text x="-2.54" y="10.16" size="1.778" layer="94" font="vector">APM</text>
+<symbol name="ARDUINO_PRO_MICRO">
+<wire x1="-10.16" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<pin name="TXO" x="-12.7" y="12.7" visible="pin" length="short"/>
+<pin name="RXI" x="-12.7" y="10.16" visible="pin" length="short"/>
+<pin name="GND@0" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="2" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="3" x="-12.7" y="0" visible="pin" length="short"/>
+<pin name="4" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="5" x="-12.7" y="-5.08" visible="pin" length="short"/>
+<pin name="6" x="-12.7" y="-7.62" visible="pin" length="short"/>
+<pin name="7" x="-12.7" y="-10.16" visible="pin" length="short"/>
+<pin name="8" x="-12.7" y="-12.7" visible="pin" length="short"/>
+<pin name="9" x="-12.7" y="-15.24" visible="pin" length="short"/>
+<pin name="RAW" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="GND@2" x="15.24" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="RST" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="VCC" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="A3" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="A2" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="A1" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="A0" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="15" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="16" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="14" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="10" x="15.24" y="-15.24" visible="pin" length="short" rot="R180"/>
+<text x="-7.62" y="15.24" size="1.27" layer="94" font="vector">ARDUINO PRO MICRO</text>
+<pin name="GND@1" x="-12.7" y="5.08" visible="pin" length="short"/>
+<text x="-10.16" y="20.32" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3716,17 +3753,19 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ARDUINO_PRO_MICRO_SM" prefix="IC">
-<description>&lt;b&gt;Arduino Pro Micro Surface Mount&lt;/b&gt;
+<deviceset name="ARDUINO_PRO_MICRO" prefix="IC">
+<description>&lt;b&gt;Arduino Pro Micro&lt;/b&gt;
 
-&lt;p&gt;Surface Mount for APM&lt;/p&gt;
+&lt;p&gt;Electrical System Year 9's Smart Sensor Core&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=https://www.aliexpress.com/item/smd-100PCS-male-header-for-surface-mount-2-54-single-pin-1X40P-chip-single-row-stand/32281160189.html?spm=2114.40010308.4.12.EDvu82&gt;Breakaways&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href="https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png"&gt;Pin Outs&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5"&gt;Buy Here&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="ARDUINO_PRO_MICRO_SM" x="0" y="0"/>
+<gate name="G$1" symbol="ARDUINO_PRO_MICRO" x="-12.7" y="-22.86"/>
 </gates>
 <devices>
-<device name="" package="ARDUINO_PRO_MICRO_SM">
+<device name="" package="ARDUINO_PRO_MICRO">
 <connects>
 <connect gate="G$1" pin="10" pad="10"/>
 <connect gate="G$1" pin="14" pad="14"/>
@@ -3744,13 +3783,63 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <connect gate="G$1" pin="A1" pad="A1"/>
 <connect gate="G$1" pin="A2" pad="A2"/>
 <connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="GND@0" pad="GND@0"/>
 <connect gate="G$1" pin="GND@1" pad="GND@1"/>
 <connect gate="G$1" pin="GND@2" pad="GND@2"/>
-<connect gate="G$1" pin="GND@3" pad="GND@3"/>
 <connect gate="G$1" pin="RAW" pad="RAW"/>
 <connect gate="G$1" pin="RST" pad="RST"/>
-<connect gate="G$1" pin="RX" pad="RX"/>
-<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="RXI" pad="RXI"/>
+<connect gate="G$1" pin="TXO" pad="TXO"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Arduino Pro Micro" constant="no"/>
+<attribute name="DISTRIBUTOR" value="AliExpress" constant="no"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="32284746884" constant="no"/>
+<attribute name="MANUFACTURER" value="Feiyang electronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" constant="no"/>
+<attribute name="NOTES" value="https://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5" constant="no"/>
+<attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" constant="no"/>
+<attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" constant="no"/>
+</technology>
+<technology name="_HEADERS">
+<attribute name="DESCRIPTION" value="ARDUINO_PRO_MICRO" constant="no"/>
+<attribute name="DISTRIBUTOR" value="Digikey" constant="no"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="929974E-01-12-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="3M" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="929974-01-12-RK" constant="no"/>
+<attribute name="NOTES" value="x2" constant="no"/>
+<attribute name="PACKAGE" value="" constant="no"/>
+<attribute name="REFERENCE_DEST" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SMD" package="ARDUINO_PRO_MICRO_SM">
+<connects>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="GND@0" pad="GND@1"/>
+<connect gate="G$1" pin="GND@1" pad="GND@2"/>
+<connect gate="G$1" pin="GND@2" pad="GND@3"/>
+<connect gate="G$1" pin="RAW" pad="RAW"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RXI" pad="RX"/>
+<connect gate="G$1" pin="TXO" pad="TX"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
@@ -3773,8 +3862,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <parts>
 <part name="LED5_" library="pie" deviceset="LED" device="LED5MM-NOFLAT" value="BLUE"/>
 <part name="LED6_" library="pie" deviceset="LED" device="LED5MM-NOFLAT" value="YELLOW"/>
-<part name="R1" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R2" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R1" library="pie" deviceset="R-US_" device="R0603" value="200"/>
+<part name="R2" library="pie" deviceset="R-US_" device="R0603" value="200"/>
 <part name="Q1" library="pie" deviceset="MOSFET-NCHANNEL" device="SMD" value="IRFML8244"/>
 <part name="Q2" library="pie" deviceset="MOSFET-NCHANNEL" device="SMD" value="IRFML8244"/>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
@@ -3782,25 +3871,25 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="AUTHOR" value="Jared P., Aravind K., Sumita G., Casey D."/>
 <attribute name="REVISION" value="9B"/>
 </part>
-<part name="R3" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R4" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R3" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R4" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="C2" library="pie" deviceset="CAP" device="0603-CAP" value="0.1 uF"/>
 <part name="U$6" library="pie" deviceset="5V" device=""/>
 <part name="SUPPLY4" library="pie" deviceset="GND" device=""/>
-<part name="R5" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R5" library="pie" deviceset="R-US_" device="R0603" value="130"/>
 <part name="LED1" library="pie" deviceset="LED" device="0805" value="RED"/>
 <part name="SUPPLY15" library="pie" deviceset="GND" device=""/>
-<part name="R6" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R6" library="pie" deviceset="R-US_" device="R0603" value="130"/>
 <part name="LED2" library="pie" deviceset="LED" device="0805" value="RED"/>
 <part name="SUPPLY2" library="pie" deviceset="GND" device=""/>
-<part name="R7" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R7" library="pie" deviceset="R-US_" device="R0603" value="130"/>
 <part name="LED3" library="pie" deviceset="LED" device="0805" value="RED"/>
 <part name="SUPPLY3" library="pie" deviceset="GND" device=""/>
-<part name="R8" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R8" library="pie" deviceset="R-US_" device="R0603" value="130"/>
 <part name="LED4" library="pie" deviceset="LED" device="0805" value="RED"/>
 <part name="SUPPLY5" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="pie" deviceset="GND" device=""/>
-<part name="IC1" library="pie" deviceset="ARDUINO_PRO_MICRO_SM" device=""/>
+<part name="IC1" library="pie" deviceset="ARDUINO_PRO_MICRO" device="SMD"/>
 </parts>
 <sheets>
 <sheet>
@@ -3905,7 +3994,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <label x="22.86" y="81.28" size="1.778" layer="95"/>
-<wire x1="40.64" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="81.28" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="8"/>
 </segment>
 </net>
@@ -3952,17 +4041,17 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <wire x1="27.94" y1="96.52" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="93.98" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="93.98" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <junction x="27.94" y="93.98"/>
-<pinref part="IC1" gate="G$1" pin="3"/>
+<wire x1="27.94" y1="96.52" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="96.52" x2="40.64" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <wire x1="71.12" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
 <label x="78.74" y="104.14" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="GND@3"/>
+<pinref part="IC1" gate="G$1" pin="GND@2"/>
 </segment>
 </net>
 <net name="BLUE(IO1)" class="0">
@@ -3975,7 +4064,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <label x="22.86" y="83.82" size="1.778" layer="95"/>
-<wire x1="40.64" y1="83.82" x2="22.86" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="83.82" x2="22.86" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="7"/>
 </segment>
 </net>
@@ -4014,13 +4103,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="91.44" y1="160.02" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="55.88" y1="171.45" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
-<label x="60.96" y="175.26" size="1.778" layer="95" rot="R180"/>
+<wire x1="55.88" y1="171.45" x2="55.88" y2="172.72" width="0.1524" layer="91"/>
+<label x="55.88" y="175.26" size="1.778" layer="95" rot="R180"/>
 <pinref part="LED6_" gate="G$1" pin="A"/>
 </segment>
 <segment>
-<wire x1="20.32" y1="171.45" x2="25.4" y2="172.72" width="0.1524" layer="91"/>
-<label x="25.4" y="175.26" size="1.778" layer="95" rot="R180"/>
+<wire x1="20.32" y1="171.45" x2="20.32" y2="172.72" width="0.1524" layer="91"/>
+<label x="20.32" y="175.26" size="1.778" layer="95" rot="R180"/>
 <pinref part="LED5_" gate="G$1" pin="A"/>
 </segment>
 <segment>
