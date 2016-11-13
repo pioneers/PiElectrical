@@ -10,7 +10,7 @@ Pinouts:
 
 RFID | Arduino Pro Micro
 ---- | -----------------
-RST | RST
+RST | 9
 SDA | 10
 MOSI | 16
 MISO | 14
