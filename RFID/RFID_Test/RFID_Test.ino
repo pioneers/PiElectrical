@@ -26,7 +26,7 @@
  *             Reader/PCD   Uno/101       Mega      Nano v3    Leonardo/Micro   Pro Micro
  * Signal      Pin          Pin           Pin       Pin        Pin              Pin
  * -----------------------------------------------------------------------------------------
- * RST/Reset   RST          9             5         D9         RESET/ICSP-5     RST
+ * RST/Reset   RST          9             5         D9         RESET/ICSP-5     9
  * SPI SS      SDA(SS)      10            53        D10        10               10
  * SPI MOSI    MOSI         11 / ICSP-4   51        D11        ICSP-4           16
  * SPI MISO    MISO         12 / ICSP-1   50        D12        ICSP-1           14
@@ -36,8 +36,8 @@
 #include <SPI.h>
 #include <MFRC522.h>
 
-#define RST_PIN         9          // Configurable, see typical pin layout above
-#define SS_PIN          10         // Configurable, see typical pin layout above
+#define RST_PIN         9       // Configurable, see typical pin layout above
+#define SS_PIN          10           // Configurable, see typical pin layout above
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);  // Create MFRC522 instance
 
@@ -62,5 +62,9 @@ void loop() {
 	}
 
 	// Dump debug info about the card; PICC_HaltA() is automatically called
-	mfrc522.PICC_DumpToSerial(&(mfrc522.uid));
+ 
+ //mfrc522.PICC_DumpToSerial(&(mfrc522.uid));
+
+ //Gets the first byte of ID
+ Serial.println(mfrc522.uid.uidByte[0]);
 }

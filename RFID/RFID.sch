@@ -237,6 +237,84 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="13.462" y1="29.5656" x2="13.462" y2="33.528" width="0.127" layer="21"/>
 <text x="9.398" y="8.128" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
 </package>
+<package name="ARDUINO_PRO_MICRO_SM">
+<description>&lt;b&gt;Arduino Pro Micro Surface Mount&lt;/b&gt;
+
+&lt;p&gt;Surface Mount for APM&lt;/p&gt;</description>
+<wire x1="0" y1="33" x2="18.796" y2="33" width="0.127" layer="21"/>
+<wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<smd name="9" x="3.302" y="1.27" dx="2" dy="1" layer="1"/>
+<smd name="8" x="0" y="3.81" dx="2" dy="1" layer="1"/>
+<smd name="7" x="3.302" y="6.35" dx="2" dy="1" layer="1"/>
+<smd name="6" x="0" y="8.89" dx="2" dy="1" layer="1"/>
+<smd name="5" x="3.302" y="11.43" dx="2" dy="1" layer="1"/>
+<smd name="4" x="0" y="13.97" dx="2" dy="1" layer="1"/>
+<smd name="3" x="3.302" y="16.51" dx="2" dy="1" layer="1"/>
+<smd name="2" x="0" y="19.05" dx="2" dy="1" layer="1"/>
+<smd name="GND@2" x="3.302" y="21.59" dx="2" dy="1" layer="1"/>
+<smd name="GND@1" x="0" y="24.13" dx="2" dy="1" layer="1"/>
+<smd name="RX" x="3.302" y="26.67" dx="2" dy="1" layer="1"/>
+<smd name="TX" x="0" y="29.21" dx="2" dy="1" layer="1"/>
+<smd name="10" x="15.369" y="1.27" dx="2" dy="1" layer="1"/>
+<smd name="16" x="18.669" y="3.81" dx="2" dy="1" layer="1"/>
+<smd name="14" x="15.369" y="6.35" dx="2" dy="1" layer="1"/>
+<smd name="15" x="18.669" y="8.89" dx="2" dy="1" layer="1"/>
+<smd name="A0" x="15.369" y="11.43" dx="2" dy="1" layer="1"/>
+<smd name="A1" x="18.669" y="13.97" dx="2" dy="1" layer="1"/>
+<smd name="A2" x="15.369" y="16.51" dx="2" dy="1" layer="1"/>
+<smd name="A3" x="18.669" y="19.05" dx="2" dy="1" layer="1"/>
+<smd name="VCC" x="15.369" y="21.59" dx="2" dy="1" layer="1"/>
+<smd name="RST" x="18.669" y="24.13" dx="2" dy="1" layer="1"/>
+<smd name="GND@3" x="15.369" y="26.67" dx="2" dy="1" layer="1"/>
+<smd name="RAW" x="18.669" y="29.21" dx="2" dy="1" layer="1"/>
+<text x="9.525" y="5.08" size="1.27" layer="21" font="vector" rot="R90">&gt;NAME</text>
+<wire x1="5.08" y1="34.29" x2="5.08" y2="29.21" width="0.127" layer="21"/>
+<wire x1="5.08" y1="29.21" x2="12.7" y2="29.21" width="0.127" layer="21"/>
+<wire x1="12.7" y1="29.21" x2="12.7" y2="34.29" width="0.127" layer="21"/>
+<text x="5.969" y="30.48" size="0.762" layer="21" font="vector">Micro USB</text>
+<text x="3.302" y="29.21" size="0.762" layer="21" font="vector" align="center">TX</text>
+<text x="0.532" y="26.67" size="0.762" layer="21" font="vector" align="center">RX</text>
+<text x="3.302" y="24.13" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="0.532" y="21.59" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="18.129" y="26.67" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="15.24" y="29.21" size="0.762" layer="21" font="vector" align="center">RAW</text>
+<text x="3.302" y="19.05" size="0.762" layer="21" font="vector" align="center">2</text>
+<text x="0.532" y="16.51" size="0.762" layer="21" font="vector" align="center">3</text>
+<text x="3.302" y="13.97" size="0.762" layer="21" font="vector" align="center">4</text>
+<text x="0.532" y="11.43" size="0.762" layer="21" font="vector" align="center">5</text>
+<text x="3.302" y="8.89" size="0.762" layer="21" font="vector" align="center">6</text>
+<text x="0.532" y="6.35" size="0.762" layer="21" font="vector" align="center">7</text>
+<text x="3.302" y="3.81" size="0.762" layer="21" font="vector" align="center">8</text>
+<text x="0.532" y="1.27" size="0.762" layer="21" font="vector" align="center">9</text>
+<text x="15.24" y="24.13" size="0.762" layer="21" font="vector" align="center">RST</text>
+<text x="18.129" y="21.59" size="0.762" layer="21" font="vector" align="center">VCC</text>
+<text x="15.24" y="19.05" size="0.762" layer="21" font="vector" align="center">A0</text>
+<text x="18.129" y="16.51" size="0.762" layer="21" font="vector" align="center">A2</text>
+<text x="15.24" y="13.97" size="0.762" layer="21" font="vector" align="center">A1</text>
+<text x="18.129" y="11.43" size="0.762" layer="21" font="vector" align="center">A0</text>
+<text x="15.24" y="8.89" size="0.762" layer="21" font="vector" align="center">15</text>
+<text x="18.129" y="6.35" size="0.762" layer="21" font="vector" align="center">14</text>
+<text x="15.24" y="3.81" size="0.762" layer="21" font="vector" align="center">16</text>
+<text x="18.129" y="1.27" size="0.762" layer="21" font="vector" align="center">10</text>
+<wire x1="0" y1="33.02" x2="0" y2="29.972" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="3.048" width="0.127" layer="21"/>
+<wire x1="0" y1="4.572" x2="0" y2="8.128" width="0.127" layer="21"/>
+<wire x1="0" y1="9.652" x2="0" y2="13.208" width="0.127" layer="21"/>
+<wire x1="0" y1="14.732" x2="0" y2="18.288" width="0.127" layer="21"/>
+<wire x1="18.796" y1="33.02" x2="18.796" y2="29.972" width="0.127" layer="21"/>
+<wire x1="18.796" y1="28.448" x2="18.796" y2="27.178" width="0.127" layer="21"/>
+<wire x1="18.796" y1="26.162" x2="18.796" y2="24.892" width="0.127" layer="21"/>
+<wire x1="18.796" y1="23.368" x2="18.796" y2="22.098" width="0.127" layer="21"/>
+<wire x1="18.796" y1="21.082" x2="18.796" y2="19.812" width="0.127" layer="21"/>
+<wire x1="18.796" y1="18.288" x2="18.796" y2="14.732" width="0.127" layer="21"/>
+<wire x1="18.796" y1="13.208" x2="18.796" y2="9.652" width="0.127" layer="21"/>
+<wire x1="18.796" y1="8.128" x2="18.796" y2="4.572" width="0.127" layer="21"/>
+<wire x1="18.796" y1="3.048" x2="18.796" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="19.812" x2="0" y2="21.082" width="0.127" layer="21"/>
+<wire x1="0" y1="22.098" x2="0" y2="23.368" width="0.127" layer="21"/>
+<wire x1="0" y1="24.892" x2="0" y2="26.162" width="0.127" layer="21"/>
+<wire x1="0" y1="27.178" x2="0" y2="28.448" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RFID_SENSOR">
@@ -317,7 +395,16 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <connect gate="G$1" pin="SDA" pad="SDA"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="DISTRIBUTOR" value="AliExpress" constant="no"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="32657638702" constant="no"/>
+<attribute name="MANUFACTURER" value="Binling Gooding" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" constant="no"/>
+<attribute name="NOTES" value="https://www.aliexpress.com/item/High-Quality-MFRC-522-RC522-RFID-Reader-RF-IC-Card-Inductive-Sensor-Module-For-Arduino-Module/32657638702.html?spm=2114.01010208.3.1.ePefNj&amp;ws_ab_test=searchweb201556_0%2Csearchweb201602_5_10057_10056_10065_10068_10055_10067_10054_10069_10059_10058_418_10073_10017_10070_10060_10061_10052_10062_10053_10050_10051%2Csearchweb201603_7&amp;btsid=cb39fcb9-9ace-4eec-a43a-83949f44e6b2" constant="no"/>
+<attribute name="PACKAGE" value="RFID_SENSOR" constant="no"/>
+<attribute name="VALUE" value="RFID_SENSOR" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -329,37 +416,81 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 
 &lt;p&gt;&lt;a href="https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png"&gt;Pin Outs&lt;/p&gt;
 
-&lt;p&gt;&lt;a href="http://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5"&gt;Buy Here&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href="http://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5"&gt;Buy Here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.digikey.com/product-search/en?keywords=929974E-01-12-ND"&gt;Thru Hole Female Pins&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.digikey.com/product-detail/en/sullins-connector-solutions/NPTC121KFXC-RC/S5604-ND/776062"&gt;Surface Mount Female Pins&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="ARDUINO_PRO_MICRO" x="-12.7" y="-22.86"/>
+<gate name="APM" symbol="ARDUINO_PRO_MICRO" x="-12.7" y="-22.86"/>
 </gates>
 <devices>
 <device name="" package="ARDUINO_PRO_MICRO">
 <connects>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="A3" pad="A3"/>
-<connect gate="G$1" pin="GND@0" pad="GND@0"/>
-<connect gate="G$1" pin="GND@1" pad="GND@1"/>
-<connect gate="G$1" pin="GND@2" pad="GND@2"/>
-<connect gate="G$1" pin="RAW" pad="RAW"/>
-<connect gate="G$1" pin="RST" pad="RST"/>
-<connect gate="G$1" pin="RXI" pad="RXI"/>
-<connect gate="G$1" pin="TXO" pad="TXO"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="APM" pin="10" pad="10"/>
+<connect gate="APM" pin="14" pad="14"/>
+<connect gate="APM" pin="15" pad="15"/>
+<connect gate="APM" pin="16" pad="16"/>
+<connect gate="APM" pin="2" pad="2"/>
+<connect gate="APM" pin="3" pad="3"/>
+<connect gate="APM" pin="4" pad="4"/>
+<connect gate="APM" pin="5" pad="5"/>
+<connect gate="APM" pin="6" pad="6"/>
+<connect gate="APM" pin="7" pad="7"/>
+<connect gate="APM" pin="8" pad="8"/>
+<connect gate="APM" pin="9" pad="9"/>
+<connect gate="APM" pin="A0" pad="A0"/>
+<connect gate="APM" pin="A1" pad="A1"/>
+<connect gate="APM" pin="A2" pad="A2"/>
+<connect gate="APM" pin="A3" pad="A3"/>
+<connect gate="APM" pin="GND@0" pad="GND@0"/>
+<connect gate="APM" pin="GND@1" pad="GND@1"/>
+<connect gate="APM" pin="GND@2" pad="GND@2"/>
+<connect gate="APM" pin="RAW" pad="RAW"/>
+<connect gate="APM" pin="RST" pad="RST"/>
+<connect gate="APM" pin="RXI" pad="RXI"/>
+<connect gate="APM" pin="TXO" pad="TXO"/>
+<connect gate="APM" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Arduino Pro Micro" constant="no"/>
+<attribute name="DISTRIBUTOR" value="AliExpress" constant="no"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="32284746884" constant="no"/>
+<attribute name="MANUFACTURER" value="Feiyang electronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" constant="no"/>
+<attribute name="NOTES" value="https://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5" constant="no"/>
+<attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" constant="no"/>
+<attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SMD" package="ARDUINO_PRO_MICRO_SM">
+<connects>
+<connect gate="APM" pin="10" pad="10"/>
+<connect gate="APM" pin="14" pad="14"/>
+<connect gate="APM" pin="15" pad="15"/>
+<connect gate="APM" pin="16" pad="16"/>
+<connect gate="APM" pin="2" pad="2"/>
+<connect gate="APM" pin="3" pad="3"/>
+<connect gate="APM" pin="4" pad="4"/>
+<connect gate="APM" pin="5" pad="5"/>
+<connect gate="APM" pin="6" pad="6"/>
+<connect gate="APM" pin="7" pad="7"/>
+<connect gate="APM" pin="8" pad="8"/>
+<connect gate="APM" pin="9" pad="9"/>
+<connect gate="APM" pin="A0" pad="A0"/>
+<connect gate="APM" pin="A1" pad="A1"/>
+<connect gate="APM" pin="A2" pad="A2"/>
+<connect gate="APM" pin="A3" pad="A3"/>
+<connect gate="APM" pin="GND@0" pad="GND@1"/>
+<connect gate="APM" pin="GND@1" pad="GND@2"/>
+<connect gate="APM" pin="GND@2" pad="GND@3"/>
+<connect gate="APM" pin="RAW" pad="RAW"/>
+<connect gate="APM" pin="RST" pad="RST"/>
+<connect gate="APM" pin="RXI" pad="RX"/>
+<connect gate="APM" pin="TXO" pad="TX"/>
+<connect gate="APM" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -392,7 +523,7 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 </class>
 </classes>
 <parts>
-<part name="IC1" library="pie" deviceset="RFID_SENSOR" device=""/>
+<part name="IC1" library="pie" deviceset="RFID_SENSOR" device="" value="RFID_SENSOR"/>
 <part name="APM" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="pie" deviceset="GND" device=""/>
@@ -403,7 +534,7 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="91.44" y="50.8"/>
-<instance part="APM" gate="G$1" x="-12.7" y="45.72"/>
+<instance part="APM" gate="APM" x="-12.7" y="45.72"/>
 <instance part="SUPPLY1" gate="GND" x="27.94" y="43.18"/>
 <instance part="SUPPLY2" gate="GND" x="50.8" y="35.56"/>
 </instances>
@@ -412,7 +543,7 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <nets>
 <net name="VCC" class="0">
 <segment>
-<pinref part="APM" gate="G$1" pin="VCC"/>
+<pinref part="APM" gate="APM" pin="VCC"/>
 <wire x1="2.54" y1="50.8" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
 <label x="17.78" y="50.8" size="1.778" layer="95"/>
 </segment>
@@ -424,14 +555,14 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 </net>
 <net name="RST" class="0">
 <segment>
-<pinref part="APM" gate="G$1" pin="RST"/>
-<wire x1="2.54" y1="53.34" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
-<label x="17.78" y="55.88" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="RST"/>
 <wire x1="71.12" y1="35.56" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
 <label x="63.5" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="APM" gate="APM" pin="9"/>
+<wire x1="-25.4" y1="30.48" x2="-30.48" y2="30.48" width="0.1524" layer="91"/>
+<label x="-30.48" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -443,7 +574,7 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="50.8" y1="40.64" x2="50.8" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="GND@2"/>
+<pinref part="APM" gate="APM" pin="GND@2"/>
 <wire x1="2.54" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="55.88" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
@@ -451,7 +582,7 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="APM" gate="G$1" pin="10"/>
+<pinref part="APM" gate="APM" pin="10"/>
 <wire x1="2.54" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
 <label x="17.78" y="30.48" size="1.778" layer="95"/>
 </segment>
@@ -463,21 +594,21 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="APM" gate="G$1" pin="A0"/>
-<wire x1="2.54" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
-<label x="17.78" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="MOSI"/>
 <wire x1="71.12" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
 <label x="63.5" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="APM" gate="APM" pin="16"/>
+<wire x1="2.54" y1="33.02" x2="17.78" y2="33.02" width="0.1524" layer="91"/>
+<label x="17.78" y="33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="APM" gate="G$1" pin="14"/>
+<pinref part="APM" gate="APM" pin="14"/>
 <wire x1="2.54" y1="35.56" x2="17.78" y2="35.56" width="0.1524" layer="91"/>
-<label x="17.78" y="33.02" size="1.778" layer="95"/>
+<label x="17.78" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="MISO"/>
@@ -487,7 +618,7 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="APM" gate="G$1" pin="15"/>
+<pinref part="APM" gate="APM" pin="15"/>
 <wire x1="2.54" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
 <label x="17.78" y="38.1" size="1.778" layer="95"/>
 </segment>
