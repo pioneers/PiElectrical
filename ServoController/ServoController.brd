@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -162,7 +162,8 @@ For more information, visit
 pioneers.berkeley.edu/opensource</text>
 <text x="21.844" y="20.574" size="0.762" layer="25" font="vector" rot="R270">TO 6</text>
 <text x="21.844" y="11.684" size="0.762" layer="25" font="vector" rot="R270">TO 5</text>
-<text x="28.194" y="8.636" size="0.762" layer="25" font="vector" rot="R180">REV 9B</text>
+<text x="13.97" y="48.768" size="1.27" layer="21" font="vector" ratio="15" align="center">Servo Controller
+Rev 9C</text>
 </plain>
 <libraries>
 <library name="pie">

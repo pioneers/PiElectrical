@@ -154,7 +154,8 @@ Lingfei, Ezra, Malcolm
 This design is open source hardware.
 For more information, visit:
 pioneers.berkeley.edu/opensource</text>
-<text x="8.89" y="45.72" size="1.27" layer="21" font="vector">REV9B</text>
+<text x="12.7" y="45.72" size="1.27" layer="21" font="vector" ratio="15" align="center">RFID
+Rev 9C</text>
 </plain>
 <libraries>
 <library name="pie">

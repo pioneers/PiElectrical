@@ -158,7 +158,6 @@ Jillian Heng, Averal Kandala
 This design is open source hardware.
 For more information, visit
 pioneers.berkeley.edu/opensource</text>
-<text x="7.366" y="2.032" size="1.016" layer="25" font="vector" rot="R180">REV 9B</text>
 <text x="37.084" y="26.924" size="0.8128" layer="25" font="vector" rot="R90">10K</text>
 <wire x1="35.56" y1="30.48" x2="36.83" y2="30.48" width="0.254" layer="21"/>
 <wire x1="36.83" y1="30.48" x2="36.83" y2="29.718" width="0.254" layer="21"/>
@@ -171,6 +170,8 @@ pioneers.berkeley.edu/opensource</text>
 <wire x1="0.5" y1="29.5" x2="0.5" y2="30.5" width="0.1" layer="21"/>
 <wire x1="0.5" y1="33" x2="0.5" y2="35" width="0.1" layer="21"/>
 <wire x1="0.5" y1="35" x2="1" y2="35" width="0.1" layer="21"/>
+<text x="14.811" y="48.721" size="1.778" layer="21" ratio="15">TwistIt!
+Rev 9C</text>
 </plain>
 <libraries>
 <library name="resistor">
