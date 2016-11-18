@@ -155,30 +155,30 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="13.462" y1="33.528" x2="18.796" y2="33.528" width="0.127" layer="25"/>
 <wire x1="18.796" y1="33.528" x2="18.796" y2="0" width="0.127" layer="25"/>
 <wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
-<pad name="9" x="1.778" y="1.778" drill="1" diameter="2.286"/>
-<pad name="8" x="1.778" y="4.318" drill="1" diameter="2.286"/>
-<pad name="7" x="1.778" y="6.858" drill="1" diameter="2.286"/>
-<pad name="6" x="1.778" y="9.398" drill="1" diameter="2.286"/>
-<pad name="5" x="1.778" y="11.938" drill="1" diameter="2.286"/>
-<pad name="4" x="1.778" y="14.478" drill="1" diameter="2.286"/>
-<pad name="3" x="1.778" y="17.018" drill="1" diameter="2.286"/>
-<pad name="2" x="1.778" y="19.558" drill="1" diameter="2.286"/>
-<pad name="GND@1" x="1.778" y="22.098" drill="1" diameter="2.286"/>
-<pad name="GND@0" x="1.778" y="24.638" drill="1" diameter="2.286"/>
-<pad name="RXI" x="1.778" y="27.178" drill="1" diameter="2.286"/>
-<pad name="TXO" x="1.778" y="29.718" drill="1" diameter="2.286"/>
-<pad name="RAW" x="17.018" y="29.718" drill="1" diameter="2.286"/>
-<pad name="GND@2" x="17.018" y="27.178" drill="1" diameter="2.286"/>
-<pad name="RST" x="17.018" y="24.638" drill="1" diameter="2.286"/>
-<pad name="VCC" x="17.018" y="22.098" drill="1" diameter="2.286"/>
-<pad name="A3" x="17.018" y="19.558" drill="1" diameter="2.286"/>
-<pad name="A2" x="17.018" y="17.018" drill="1" diameter="2.286"/>
-<pad name="A1" x="17.018" y="14.478" drill="1" diameter="2.286"/>
-<pad name="A0" x="17.018" y="11.938" drill="1" diameter="2.286"/>
-<pad name="15" x="17.018" y="9.398" drill="1" diameter="2.286"/>
-<pad name="14" x="17.018" y="6.858" drill="1" diameter="2.286"/>
-<pad name="16" x="17.018" y="4.318" drill="1" diameter="2.286"/>
-<pad name="10" x="17.018" y="1.778" drill="1" diameter="2.286"/>
+<pad name="9" x="1.778" y="1.778" drill="1" diameter="2.1844"/>
+<pad name="8" x="1.778" y="4.318" drill="1" diameter="2.1844"/>
+<pad name="7" x="1.778" y="6.858" drill="1" diameter="2.1844"/>
+<pad name="6" x="1.778" y="9.398" drill="1" diameter="2.1844"/>
+<pad name="5" x="1.778" y="11.938" drill="1" diameter="2.1844"/>
+<pad name="4" x="1.778" y="14.478" drill="1" diameter="2.1844"/>
+<pad name="3" x="1.778" y="17.018" drill="1" diameter="2.1844"/>
+<pad name="2" x="1.778" y="19.558" drill="1" diameter="2.1844"/>
+<pad name="GND@1" x="1.778" y="22.098" drill="1" diameter="2.1844"/>
+<pad name="GND@0" x="1.778" y="24.638" drill="1" diameter="2.1844"/>
+<pad name="RXI" x="1.778" y="27.178" drill="1" diameter="2.1844"/>
+<pad name="TXO" x="1.778" y="29.718" drill="1" diameter="2.1844"/>
+<pad name="RAW" x="17.018" y="29.718" drill="1" diameter="2.1844"/>
+<pad name="GND@2" x="17.018" y="27.178" drill="1" diameter="2.1844"/>
+<pad name="RST" x="17.018" y="24.638" drill="1" diameter="2.1844"/>
+<pad name="VCC" x="17.018" y="22.098" drill="1" diameter="2.1844"/>
+<pad name="A3" x="17.018" y="19.558" drill="1" diameter="2.1844"/>
+<pad name="A2" x="17.018" y="17.018" drill="1" diameter="2.1844"/>
+<pad name="A1" x="17.018" y="14.478" drill="1" diameter="2.1844"/>
+<pad name="A0" x="17.018" y="11.938" drill="1" diameter="2.1844"/>
+<pad name="15" x="17.018" y="9.398" drill="1" diameter="2.1844"/>
+<pad name="14" x="17.018" y="6.858" drill="1" diameter="2.1844"/>
+<pad name="16" x="17.018" y="4.318" drill="1" diameter="2.1844"/>
+<pad name="10" x="17.018" y="1.778" drill="1" diameter="2.1844"/>
 <wire x1="5.334" y1="33.528" x2="5.334" y2="34.798" width="0.127" layer="25"/>
 <wire x1="13.462" y1="33.528" x2="13.462" y2="34.798" width="0.127" layer="25"/>
 <text x="5.588" y="32.258" size="1.016" layer="25" font="vector">Micro USB</text>
@@ -299,6 +299,84 @@ Drawings &lt;/a&gt;</description>
 <wire x1="7" y1="3" x2="7" y2="4" width="0.127" layer="21"/>
 <wire x1="7" y1="4" x2="-6" y2="4" width="0.127" layer="21"/>
 <wire x1="-6" y1="4" x2="-6" y2="3" width="0.127" layer="21"/>
+</package>
+<package name="ARDUINO_PRO_MICRO_SM">
+<description>&lt;b&gt;Arduino Pro Micro Surface Mount&lt;/b&gt;
+
+&lt;p&gt;Surface Mount for APM&lt;/p&gt;</description>
+<wire x1="0" y1="33" x2="18.796" y2="33" width="0.127" layer="21"/>
+<wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<smd name="9" x="3.302" y="1.27" dx="2" dy="1" layer="1"/>
+<smd name="8" x="0" y="3.81" dx="2" dy="1" layer="1"/>
+<smd name="7" x="3.302" y="6.35" dx="2" dy="1" layer="1"/>
+<smd name="6" x="0" y="8.89" dx="2" dy="1" layer="1"/>
+<smd name="5" x="3.302" y="11.43" dx="2" dy="1" layer="1"/>
+<smd name="4" x="0" y="13.97" dx="2" dy="1" layer="1"/>
+<smd name="3" x="3.302" y="16.51" dx="2" dy="1" layer="1"/>
+<smd name="2" x="0" y="19.05" dx="2" dy="1" layer="1"/>
+<smd name="GND@2" x="3.302" y="21.59" dx="2" dy="1" layer="1"/>
+<smd name="GND@1" x="0" y="24.13" dx="2" dy="1" layer="1"/>
+<smd name="RX" x="3.302" y="26.67" dx="2" dy="1" layer="1"/>
+<smd name="TX" x="0" y="29.21" dx="2" dy="1" layer="1"/>
+<smd name="10" x="15.369" y="1.27" dx="2" dy="1" layer="1"/>
+<smd name="16" x="18.669" y="3.81" dx="2" dy="1" layer="1"/>
+<smd name="14" x="15.369" y="6.35" dx="2" dy="1" layer="1"/>
+<smd name="15" x="18.669" y="8.89" dx="2" dy="1" layer="1"/>
+<smd name="A0" x="15.369" y="11.43" dx="2" dy="1" layer="1"/>
+<smd name="A1" x="18.669" y="13.97" dx="2" dy="1" layer="1"/>
+<smd name="A2" x="15.369" y="16.51" dx="2" dy="1" layer="1"/>
+<smd name="A3" x="18.669" y="19.05" dx="2" dy="1" layer="1"/>
+<smd name="VCC" x="15.369" y="21.59" dx="2" dy="1" layer="1"/>
+<smd name="RST" x="18.669" y="24.13" dx="2" dy="1" layer="1"/>
+<smd name="GND@3" x="15.369" y="26.67" dx="2" dy="1" layer="1"/>
+<smd name="RAW" x="18.669" y="29.21" dx="2" dy="1" layer="1"/>
+<text x="9.525" y="5.08" size="1.27" layer="21" font="vector" rot="R90">&gt;NAME</text>
+<wire x1="5.08" y1="34.29" x2="5.08" y2="29.21" width="0.127" layer="21"/>
+<wire x1="5.08" y1="29.21" x2="12.7" y2="29.21" width="0.127" layer="21"/>
+<wire x1="12.7" y1="29.21" x2="12.7" y2="34.29" width="0.127" layer="21"/>
+<text x="5.969" y="30.48" size="0.762" layer="21" font="vector">Micro USB</text>
+<text x="3.302" y="29.21" size="0.762" layer="21" font="vector" align="center">TX</text>
+<text x="0.532" y="26.67" size="0.762" layer="21" font="vector" align="center">RX</text>
+<text x="3.302" y="24.13" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="0.532" y="21.59" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="18.129" y="26.67" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="15.24" y="29.21" size="0.762" layer="21" font="vector" align="center">RAW</text>
+<text x="3.302" y="19.05" size="0.762" layer="21" font="vector" align="center">2</text>
+<text x="0.532" y="16.51" size="0.762" layer="21" font="vector" align="center">3</text>
+<text x="3.302" y="13.97" size="0.762" layer="21" font="vector" align="center">4</text>
+<text x="0.532" y="11.43" size="0.762" layer="21" font="vector" align="center">5</text>
+<text x="3.302" y="8.89" size="0.762" layer="21" font="vector" align="center">6</text>
+<text x="0.532" y="6.35" size="0.762" layer="21" font="vector" align="center">7</text>
+<text x="3.302" y="3.81" size="0.762" layer="21" font="vector" align="center">8</text>
+<text x="0.532" y="1.27" size="0.762" layer="21" font="vector" align="center">9</text>
+<text x="15.24" y="24.13" size="0.762" layer="21" font="vector" align="center">RST</text>
+<text x="18.129" y="21.59" size="0.762" layer="21" font="vector" align="center">VCC</text>
+<text x="15.24" y="19.05" size="0.762" layer="21" font="vector" align="center">A0</text>
+<text x="18.129" y="16.51" size="0.762" layer="21" font="vector" align="center">A2</text>
+<text x="15.24" y="13.97" size="0.762" layer="21" font="vector" align="center">A1</text>
+<text x="18.129" y="11.43" size="0.762" layer="21" font="vector" align="center">A0</text>
+<text x="15.24" y="8.89" size="0.762" layer="21" font="vector" align="center">15</text>
+<text x="18.129" y="6.35" size="0.762" layer="21" font="vector" align="center">14</text>
+<text x="15.24" y="3.81" size="0.762" layer="21" font="vector" align="center">16</text>
+<text x="18.129" y="1.27" size="0.762" layer="21" font="vector" align="center">10</text>
+<wire x1="0" y1="33.02" x2="0" y2="29.972" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="3.048" width="0.127" layer="21"/>
+<wire x1="0" y1="4.572" x2="0" y2="8.128" width="0.127" layer="21"/>
+<wire x1="0" y1="9.652" x2="0" y2="13.208" width="0.127" layer="21"/>
+<wire x1="0" y1="14.732" x2="0" y2="18.288" width="0.127" layer="21"/>
+<wire x1="18.796" y1="33.02" x2="18.796" y2="29.972" width="0.127" layer="21"/>
+<wire x1="18.796" y1="28.448" x2="18.796" y2="27.178" width="0.127" layer="21"/>
+<wire x1="18.796" y1="26.162" x2="18.796" y2="24.892" width="0.127" layer="21"/>
+<wire x1="18.796" y1="23.368" x2="18.796" y2="22.098" width="0.127" layer="21"/>
+<wire x1="18.796" y1="21.082" x2="18.796" y2="19.812" width="0.127" layer="21"/>
+<wire x1="18.796" y1="18.288" x2="18.796" y2="14.732" width="0.127" layer="21"/>
+<wire x1="18.796" y1="13.208" x2="18.796" y2="9.652" width="0.127" layer="21"/>
+<wire x1="18.796" y1="8.128" x2="18.796" y2="4.572" width="0.127" layer="21"/>
+<wire x1="18.796" y1="3.048" x2="18.796" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="19.812" x2="0" y2="21.082" width="0.127" layer="21"/>
+<wire x1="0" y1="22.098" x2="0" y2="23.368" width="0.127" layer="21"/>
+<wire x1="0" y1="24.892" x2="0" y2="26.162" width="0.127" layer="21"/>
+<wire x1="0" y1="27.178" x2="0" y2="28.448" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -429,37 +507,81 @@ Standard 8.5x11 US Letter frame</description>
 
 &lt;p&gt;&lt;a href="https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png"&gt;Pin Outs&lt;/p&gt;
 
-&lt;p&gt;&lt;a href="http://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5"&gt;Buy Here&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href="http://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5"&gt;Buy Here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.digikey.com/product-search/en?keywords=929974E-01-12-ND"&gt;Thru Hole Female Pins&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.digikey.com/product-detail/en/sullins-connector-solutions/NPTC121KFXC-RC/S5604-ND/776062"&gt;Surface Mount Female Pins&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="ARDUINO_PRO_MICRO" x="-12.7" y="-22.86"/>
+<gate name="APM" symbol="ARDUINO_PRO_MICRO" x="-12.7" y="-22.86"/>
 </gates>
 <devices>
 <device name="" package="ARDUINO_PRO_MICRO">
 <connects>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="A3" pad="A3"/>
-<connect gate="G$1" pin="GND@0" pad="GND@0"/>
-<connect gate="G$1" pin="GND@1" pad="GND@1"/>
-<connect gate="G$1" pin="GND@2" pad="GND@2"/>
-<connect gate="G$1" pin="RAW" pad="RAW"/>
-<connect gate="G$1" pin="RST" pad="RST"/>
-<connect gate="G$1" pin="RXI" pad="RXI"/>
-<connect gate="G$1" pin="TXO" pad="TXO"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="APM" pin="10" pad="10"/>
+<connect gate="APM" pin="14" pad="14"/>
+<connect gate="APM" pin="15" pad="15"/>
+<connect gate="APM" pin="16" pad="16"/>
+<connect gate="APM" pin="2" pad="2"/>
+<connect gate="APM" pin="3" pad="3"/>
+<connect gate="APM" pin="4" pad="4"/>
+<connect gate="APM" pin="5" pad="5"/>
+<connect gate="APM" pin="6" pad="6"/>
+<connect gate="APM" pin="7" pad="7"/>
+<connect gate="APM" pin="8" pad="8"/>
+<connect gate="APM" pin="9" pad="9"/>
+<connect gate="APM" pin="A0" pad="A0"/>
+<connect gate="APM" pin="A1" pad="A1"/>
+<connect gate="APM" pin="A2" pad="A2"/>
+<connect gate="APM" pin="A3" pad="A3"/>
+<connect gate="APM" pin="GND@0" pad="GND@0"/>
+<connect gate="APM" pin="GND@1" pad="GND@1"/>
+<connect gate="APM" pin="GND@2" pad="GND@2"/>
+<connect gate="APM" pin="RAW" pad="RAW"/>
+<connect gate="APM" pin="RST" pad="RST"/>
+<connect gate="APM" pin="RXI" pad="RXI"/>
+<connect gate="APM" pin="TXO" pad="TXO"/>
+<connect gate="APM" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Arduino Pro Micro" constant="no"/>
+<attribute name="DISTRIBUTOR" value="AliExpress" constant="no"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="32284746884" constant="no"/>
+<attribute name="MANUFACTURER" value="Feiyang electronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" constant="no"/>
+<attribute name="NOTES" value="https://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5" constant="no"/>
+<attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" constant="no"/>
+<attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SMD" package="ARDUINO_PRO_MICRO_SM">
+<connects>
+<connect gate="APM" pin="10" pad="10"/>
+<connect gate="APM" pin="14" pad="14"/>
+<connect gate="APM" pin="15" pad="15"/>
+<connect gate="APM" pin="16" pad="16"/>
+<connect gate="APM" pin="2" pad="2"/>
+<connect gate="APM" pin="3" pad="3"/>
+<connect gate="APM" pin="4" pad="4"/>
+<connect gate="APM" pin="5" pad="5"/>
+<connect gate="APM" pin="6" pad="6"/>
+<connect gate="APM" pin="7" pad="7"/>
+<connect gate="APM" pin="8" pad="8"/>
+<connect gate="APM" pin="9" pad="9"/>
+<connect gate="APM" pin="A0" pad="A0"/>
+<connect gate="APM" pin="A1" pad="A1"/>
+<connect gate="APM" pin="A2" pad="A2"/>
+<connect gate="APM" pin="A3" pad="A3"/>
+<connect gate="APM" pin="GND@0" pad="GND@1"/>
+<connect gate="APM" pin="GND@1" pad="GND@2"/>
+<connect gate="APM" pin="GND@2" pad="GND@3"/>
+<connect gate="APM" pin="RAW" pad="RAW"/>
+<connect gate="APM" pin="RST" pad="RST"/>
+<connect gate="APM" pin="RXI" pad="RX"/>
+<connect gate="APM" pin="TXO" pad="TX"/>
+<connect gate="APM" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -571,7 +693,7 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <attribute name="REVISION" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="APM" gate="G$1" x="104.14" y="99.06"/>
+<instance part="APM" gate="APM" x="104.14" y="99.06"/>
 <instance part="JP1" gate="G$1" x="139.7" y="109.22"/>
 <instance part="SUPPLY1" gate="GND" x="182.88" y="101.6" rot="R270"/>
 <instance part="SUPPLY2" gate="GND" x="149.86" y="111.76" rot="R90"/>
@@ -592,15 +714,15 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="GND@0"/>
+<pinref part="APM" gate="APM" pin="GND@0"/>
 <wire x1="91.44" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="GND@1"/>
+<pinref part="APM" gate="APM" pin="GND@1"/>
 <wire x1="91.44" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="GND@2"/>
+<pinref part="APM" gate="APM" pin="GND@2"/>
 <wire x1="119.38" y1="109.22" x2="124.46" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -626,14 +748,14 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <label x="154.94" y="106.68" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="5"/>
+<pinref part="APM" gate="APM" pin="5"/>
 <wire x1="91.44" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
 <label x="81.28" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SIG2" class="0">
 <segment>
-<pinref part="APM" gate="G$1" pin="6"/>
+<pinref part="APM" gate="APM" pin="6"/>
 <wire x1="91.44" y1="91.44" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
 <label x="81.28" y="91.44" size="1.778" layer="95"/>
 </segment>
