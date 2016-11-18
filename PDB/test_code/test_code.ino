@@ -1,5 +1,5 @@
 #include <SevenSeg.h>
-
+#include <EEPROM.h>
 
 
 /*
@@ -55,19 +55,22 @@ void setup() {
   }
   pinMode(enable, OUTPUT);
 
-  //calibration button, that is debounced per the bounce library
   pinMode(calib_button, INPUT);
 
+  //let's turn enable on, so we can measure the battery voltage.
   digitalWrite(enable, HIGH);
   
   pinMode(buzzer,OUTPUT);
   
-
+  //for stable (if unknown) internal voltage.
   analogReference(INTERNAL);
   
   disp.setDigitPins(numOfDigits,digitPins);
   disp.setDPPin(1);  //set the Decimal Point pin to #1 
+
+
   
+  write_eeprom(1.23);
  
 }
 
@@ -87,9 +90,12 @@ void loop()
   {
     measure_cells();
     bool is_unsafe = process_saftey(); //Currently, just does basic sensing.  Should get updated.
-    buzz(is_unsafe);
+    //buzz(is_unsafe);
+    print_eeprom();
     
   }
+  
+
 }
 
 
@@ -175,7 +181,6 @@ void calibrate() //calibrates the device.
     
     if(prints)
     {
-      Serial.println("Vref Guess was " + String(vref_guess, 3));
       Serial.println("Vref Guess is " + String(vref_guess, 3));
     }
 
@@ -276,4 +281,71 @@ void buzz(boolean should_buzz)
   }
   
 }
+
+void write_eeprom(float val)
+{
+  //write value to eeprom in the following format:
+  EEPROM.write(0, 'C');
+  EEPROM.write(1, 'A');
+  EEPROM.write(2, 'L');
+  EEPROM.write(3, ':');
+
+  //needs arduino 1.6.12 or later.
+  EEPROM.put(4,val);
+  
+
+}
+
+float get_calibration()  //returns calibration voltage.  Returns -1 (float) if no calibration.
+{
+   if(EEPROM.read(0)=='C' && EEPROM.read(1)=='A' && EEPROM.read(2)=='L' && EEPROM.read(3)==':')
+   {
+      //instantiate a float.
+      float f = 0.00f;
+      EEPROM.get(4,f); //calibration value is stored in location 4
+      return f;
+   }
+   else
+   {
+      return -1.0;
+   }
+
+
+}
+
+void print_eeprom() //prints first few eeprom values as text.
+{
+   int loc = 10;
+   
+   if(prints)
+   {
+     Serial.println("EEPROM values "); 
+     
+   }
+   
+   for(int i = 0; i<=loc; i++)
+   {
+     char val = EEPROM.read(i); 
+     if(prints)
+     {
+        Serial.print(val); 
+     }
+   }
+   if (prints)
+   {
+    Serial.println("");
+   }
+   
+   
+}
+
+void clear_eeprom()
+{
+
+  for (int i = 0 ; i < EEPROM.length() ; i++) {
+    EEPROM.write(i, 0);
+  }
+
+}
+
 
