@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10597,17 +10597,17 @@ Source: http://pdf1.alldatasheet.com/datasheet-pdf/view/84563/STMICROELECTRONICS
 <wire x1="34" y1="41" x2="6" y2="41" width="0.127" layer="21"/>
 <wire x1="6" y1="41" x2="3" y2="38" width="0.127" layer="21"/>
 <wire x1="3" y1="38" x2="3" y2="6" width="0.127" layer="21"/>
-<hole x="2" y="45" drill="3"/>
-<hole x="38" y="45" drill="3"/>
+<hole x="2.6416" y="45.5295" drill="3.302"/>
+<hole x="36.8554" y="45.5295" drill="3.302"/>
 <text x="20" y="5" size="1.5" layer="21" font="vector" align="center">RFID-RC522</text>
-<text x="11" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">3.3V</text>
-<text x="13.5" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">RST</text>
-<text x="16" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">GND</text>
-<text x="18.5" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">IRQ</text>
-<text x="21" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">MISO</text>
-<text x="24" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">MOSI</text>
-<text x="26.5" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">SCK</text>
-<text x="29" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">SDA</text>
+<text x="11" y="56.23" size="0.762" layer="21" font="vector" rot="SR180" align="center">3.3V</text>
+<text x="13.5" y="56.23" size="0.762" layer="21" font="vector" rot="SR180" align="center">RST</text>
+<text x="16" y="56.23" size="0.762" layer="21" font="vector" rot="SR180" align="center">GND</text>
+<text x="18.5" y="56.23" size="0.762" layer="21" font="vector" rot="SR180" align="center">IRQ</text>
+<text x="21" y="56.23" size="0.762" layer="21" font="vector" rot="SR180" align="center">MISO</text>
+<text x="24" y="56.23" size="0.762" layer="21" font="vector" rot="SR180" align="center">MOSI</text>
+<text x="26.5" y="56.23" size="0.762" layer="21" font="vector" rot="SR180" align="center">SCK</text>
+<text x="29" y="56.23" size="0.762" layer="21" font="vector" rot="SR180" align="center">SDA</text>
 </package>
 <package name="JUMPER">
 <pad name="P$1" x="-1.27" y="0" drill="1" diameter="2.286"/>
