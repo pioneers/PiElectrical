@@ -78,3 +78,11 @@ PMW | 9
 Red = 2
 Yellow = 3
 Green = 4
+
+[New Motor 1](https://e-smotor.en.alibaba.com/product/60220884310-801307434/37GB_spur_gear_motor_with_encoder.html?spm=a2700.7803228.1998738836.575.wFZGi0)
+
+[New Motor 2](https://jslmotor.en.alibaba.com/product/60311538644-211952029/12v_24v_Pure_Metal_JGB37_3530B_Permanent_Magnet_High_Torque_24_Volt_Dc_Motor.html?spm=a2700.7803228.1998738836.185.6lh84F)
+
+[Hardware Interrupts](https://www.arduino.cc/en/Reference/AttachInterrupt)
+
+Encoder is all digital. A and B Out need to be pulled up and needs to be mapped to interrupt pins

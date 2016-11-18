@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10565,14 +10565,14 @@ Source: http://pdf1.alldatasheet.com/datasheet-pdf/view/84563/STMICROELECTRONICS
 <wire x1="40" y1="0" x2="40" y2="60.96" width="0.127" layer="21"/>
 <wire x1="40" y1="60.96" x2="0" y2="60.96" width="0.127" layer="21"/>
 <wire x1="0" y1="60.96" x2="0" y2="0" width="0.127" layer="21"/>
-<pad name="RST" x="13.64" y="59" drill="0.8" diameter="1.778"/>
-<pad name="GND" x="16.18" y="59" drill="0.8" diameter="1.778"/>
-<pad name="IRQ" x="18.72" y="59" drill="0.8" diameter="1.778"/>
-<pad name="MISO" x="21.26" y="59" drill="0.8" diameter="1.778"/>
-<pad name="MOSI" x="23.8" y="59" drill="0.8" diameter="1.778"/>
-<pad name="SCK" x="26.34" y="59" drill="0.8" diameter="1.778"/>
-<pad name="SDA" x="28.88" y="59" drill="0.8" diameter="1.778"/>
-<pad name="3.3V" x="11.1" y="59" drill="0.8" diameter="1.778"/>
+<pad name="RST" x="13.64" y="59" drill="1" diameter="2.1844"/>
+<pad name="GND" x="16.18" y="59" drill="1" diameter="2.1844"/>
+<pad name="IRQ" x="18.72" y="59" drill="1" diameter="2.1844"/>
+<pad name="MISO" x="21.26" y="59" drill="1" diameter="2.1844"/>
+<pad name="MOSI" x="23.8" y="59" drill="1" diameter="2.1844"/>
+<pad name="SCK" x="26.34" y="59" drill="1" diameter="2.1844"/>
+<pad name="SDA" x="28.88" y="59" drill="1" diameter="2.1844"/>
+<pad name="3.3V" x="11.1" y="59" drill="1" diameter="2.1844"/>
 <wire x1="1" y1="4" x2="4" y2="1" width="0.127" layer="21"/>
 <wire x1="4" y1="1" x2="36" y2="1" width="0.127" layer="21"/>
 <wire x1="36" y1="1" x2="39" y2="4" width="0.127" layer="21"/>
