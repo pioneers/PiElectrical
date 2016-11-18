@@ -8,7 +8,7 @@ SevSeg sevseg; //Instantiate a seven segment object
 */
 
 //Segment Pins, A toG then decimal pt.
-SevenSeg disp(7, 8, 9, 2, 0, 15, 14);
+SevenSeg disp(8,9,7,2,0,15,14);
 const int numOfDigits=4;
 int digitPins[numOfDigits] = {6, 5, 4, 3};
 
@@ -22,9 +22,9 @@ int cell3 = A2;
 
 int enable = 16;
 
-int calib_button = 10;
+int calib_button = 21;
 
-int buzzer = 21;
+int buzzer = 10;
 
 unsigned long last_print_time = 0; //for the loop counter...
 
@@ -42,7 +42,7 @@ float dv_cell2;
 unsigned long last_LED_time = 0;  //Time the last LED switched
 int sequence = 0;
 
-bool prints = false; //If true, ASCII prints over serial @ 57600
+bool prints = true; //If true, ASCII prints over serial @ 57600
 
 
 void setup() {
@@ -242,15 +242,15 @@ bool process_saftey() //returns if i'm safe or not based on the most recent read
   {
     is_unsafe = true;
   }
-  else if(v_cell1 > 4.3)
+  else if(v_cell1 > 4.4)
   {
     is_unsafe = true;
   }
-  else if(dv_cell2 > 4.3)
+  else if(dv_cell2 > 4.4)
   {
     is_unsafe = true;
   }
-  else if(dv_cell3 > 4.3)
+  else if(dv_cell3 > 4.4)
   {
     is_unsafe = true;
   }
@@ -263,7 +263,17 @@ bool process_saftey() //returns if i'm safe or not based on the most recent read
 
 void buzz(boolean should_buzz)
 {
-  digitalWrite(buzzer,should_buzz);
+  int NOTE_A5 = 1760;
+ 
+  //digitalWrite(buzzer,should_buzz);
+  if(should_buzz)
+  {
+    tone(buzzer,NOTE_A5);
+  }
+  else
+  {
+    noTone(buzzer);
+  }
   
 }
 
