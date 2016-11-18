@@ -21,6 +21,7 @@ int pin3 = 20;
 int pin4 = 21;
 int pin5 = 5;
 int pin6 = 6;
+int del = 100;
 
 void setup() {
   // initialize digital pin 13 as an output.
@@ -35,27 +36,27 @@ void setup() {
 // the loop function runs over and over again forever
 void loop() {
   digitalWrite(pin1, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);              // wait for a second
+  delay(del);              // wait for a second
   digitalWrite(pin1, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);              // wait for a second
+  delay(del);              // wait for a second
   digitalWrite(pin2, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);              // wait for a second
+  delay(del);              // wait for a second
   digitalWrite(pin2, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);  
+  delay(del);  
   digitalWrite(pin3, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);              // wait for a second
+  delay(del);              // wait for a second
   digitalWrite(pin3, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);  
+  delay(del);  
   digitalWrite(pin4, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);              // wait for a second
+  delay(del);              // wait for a second
   digitalWrite(pin4, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);
+  delay(del);
   digitalWrite(pin5, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);              // wait for a second
+  delay(del);              // wait for a second
   digitalWrite(pin5, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);
+  delay(del);
   digitalWrite(pin6, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);              // wait for a second
+  delay(del);              // wait for a second
   digitalWrite(pin6, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);
+  delay(del);
 }
