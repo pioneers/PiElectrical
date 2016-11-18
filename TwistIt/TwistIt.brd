@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -152,7 +152,7 @@
 <text x="22.86" y="1.524" size="0.762" layer="25" font="vector" rot="R180" align="center">P2</text>
 <text x="17.78" y="1.27" size="0.762" layer="25" font="vector" rot="R180" align="center">P3</text>
 <text x="12.7" y="1.27" size="0.762" layer="25" font="vector" rot="R180" align="center">GND</text>
-<text x="24.638" y="10.922" size="1.016" layer="22" font="vector" rot="MR90" align="top-left">(c) Pioneers In Engineering
+<text x="24.638" y="10.922" size="1.016" layer="26" font="vector" rot="MR90" align="top-left">(c) Pioneers In Engineering
 Design by: Mohammed Hossain, Seiya Ono
 Jillian Heng, Averal Kandala
 This design is open source hardware.
@@ -2137,39 +2137,86 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <element name="R3" library="resistor" package="R0603" value="10K" x="33.528" y="25.908" smashed="yes">
 <attribute name="NAME" x="31.540915625" y="24.651496875" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="APM" library="pie" package="ARDUINO_PRO_MICRO" value="ARDUINO_PRO_MICRO" x="10.16" y="11.43"/>
-<element name="ST1" library="pie" package="5PIN_SCREW" value="" x="35.814" y="2.875865625" rot="MR0"/>
+<element name="APM" library="pie" package="ARDUINO_PRO_MICRO" value="ARDUINO_PRO_MICRO" x="10.16" y="11.43">
+<attribute name="DISTRIBUTOR" value="AliExpress" x="10.16" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" x="10.16" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" x="10.16" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Arduino Pro Micro" x="10.16" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="10.16" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="32284746884" x="10.16" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="NOTES" value="https://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5" x="10.16" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Feiyang electronics" x="10.16" y="11.43" size="1.778" layer="27" display="off"/>
+</element>
+<element name="ST1" library="pie" package="5PIN_SCREW" value="" x="35.814" y="2.875865625" rot="MR0">
+<attribute name="DISTRIBUTOR" value="DigiKey" x="35.814" y="2.875865625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" value="" x="35.814" y="2.875865625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PACKAGE" value="5PIN_SCREW" x="35.814" y="2.875865625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value="5 pin Screw Terminal" x="35.814" y="2.875865625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1729047" x="35.814" y="2.875865625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="277-1239-ND" x="35.814" y="2.875865625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NOTES" value="" x="35.814" y="2.875865625" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="Phoenix Contact" x="35.814" y="2.875865625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
 <element name="U$3" library="pie" package="PIE-LOGO-SMALL" value="" x="6.096" y="40.132" rot="R270"/>
 <element name="U$4" library="pie" package="OSHW-LOGO-S" value="" x="32.004" y="20.574" rot="MR0"/>
 <element name="U$1" library="pie" package="STAND-OFF" value="" x="32.004" y="50.8"/>
 <element name="U$5" library="pie" package="STAND-OFF" value="" x="6.604" y="50.8"/>
 <element name="U$6" library="pie" package="STAND-OFF" value="" x="6.604" y="6.35"/>
-<element name="5V_JUMPER" library="pie" package="JUMPER" value="JUMPER" x="34.036" y="33.528" smashed="yes"/>
+<element name="5V_JUMPER" library="pie" package="JUMPER" value="" x="34.036" y="33.528" smashed="yes">
+<attribute name="DISTRIBUTOR" value="DigiKey" x="34.036" y="33.528" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="" x="34.036" y="33.528" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="JP" x="34.036" y="33.528" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="JUMPER" x="34.036" y="33.528" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M20-9990246" x="34.036" y="33.528" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="952-2262-ND" x="34.036" y="33.528" size="1.778" layer="27" display="off"/>
+<attribute name="NOTES" value="" x="34.036" y="33.528" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Harwin. Inc" x="34.036" y="33.528" size="1.778" layer="27" display="off"/>
+</element>
 <element name="BR1" library="pie" package="VNH2SP30_MOTOR_CONTROLLER" value="VNH2SP30_MOTOR_CONTROLLER" x="-14.224" y="46.482" smashed="yes" rot="MR180"/>
 <element name="LED1" library="pie" package="FKIT-LED-1206" value="RED" x="7.62" y="31.75" smashed="yes" rot="R180">
 <attribute name="PIE-INT-REF-NUM" value="LED" x="7.62" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="6.731" y="33.02" size="0.762" layer="27" font="vector"/>
 </element>
 <element name="R4" library="pie" package="R0603" value="330" x="2.286" y="31.75" smashed="yes" rot="R180">
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="2.286" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="3.556" y="30.734" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="3.556" y="34.29" size="1.27" layer="27" font="vector" rot="R180"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="2.286" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="2.286" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="2.286" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="2.286" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="2.286" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NOTES" value="Cut Tape" x="2.286" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="2.286" y="31.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="3.556" y="30.48" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="4.318" y="34.544" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="LED2" library="pie" package="FKIT-LED-1206" value="YELLOW" x="7.62" y="28.448" smashed="yes" rot="R180">
 <attribute name="PIE-INT-REF-NUM" value="LED" x="7.62" y="28.448" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="5.715" y="29.718" size="0.762" layer="27" font="vector"/>
 </element>
 <element name="R5" library="pie" package="R0603" value="330" x="2.286" y="28.448" smashed="yes" rot="R180">
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="2.286" y="28.448" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="3.556" y="27.432" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="2.286" y="28.448" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="2.286" y="28.448" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="2.286" y="28.448" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="2.286" y="28.448" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="2.286" y="28.448" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="2.286" y="28.448" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NOTES" value="Cut Tape" x="2.286" y="28.448" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="2.286" y="28.448" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED3" library="pie" package="FKIT-LED-1206" value="GREEN" x="7.62" y="25.146" smashed="yes" rot="R180">
 <attribute name="PIE-INT-REF-NUM" value="LED" x="7.62" y="25.146" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="6.223" y="26.416" size="0.762" layer="27" font="vector"/>
 </element>
 <element name="R6" library="pie" package="R0603" value="330" x="2.286" y="25.146" smashed="yes" rot="R180">
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="2.286" y="25.146" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="3.556" y="24.13" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="2.286" y="25.146" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="2.286" y="25.146" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="2.286" y="25.146" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="2.286" y="25.146" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="2.286" y="25.146" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="2.286" y="25.146" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NOTES" value="Cut Tape" x="2.286" y="25.146" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="2.286" y="25.146" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="ENCODER" library="pie" package="1X04-MTA" value="" x="3.81" y="16.51" rot="R270">
 <attribute name="PIE-INT-REF-NUM" value="MTA" x="3.81" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>

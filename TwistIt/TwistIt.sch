@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2342,6 +2342,84 @@ Drawings &lt;/a&gt;</description>
 <rectangle x1="-5.08" y1="-1.27" x2="5.08" y2="1.27" layer="40"/>
 <rectangle x1="-5.08" y1="-2.54" x2="5.08" y2="3.302" layer="39"/>
 </package>
+<package name="ARDUINO_PRO_MICRO_SM">
+<description>&lt;b&gt;Arduino Pro Micro Surface Mount&lt;/b&gt;
+
+&lt;p&gt;Surface Mount for APM&lt;/p&gt;</description>
+<wire x1="0" y1="33" x2="18.796" y2="33" width="0.127" layer="21"/>
+<wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<smd name="9" x="3.302" y="1.27" dx="2" dy="1" layer="1"/>
+<smd name="8" x="0" y="3.81" dx="2" dy="1" layer="1"/>
+<smd name="7" x="3.302" y="6.35" dx="2" dy="1" layer="1"/>
+<smd name="6" x="0" y="8.89" dx="2" dy="1" layer="1"/>
+<smd name="5" x="3.302" y="11.43" dx="2" dy="1" layer="1"/>
+<smd name="4" x="0" y="13.97" dx="2" dy="1" layer="1"/>
+<smd name="3" x="3.302" y="16.51" dx="2" dy="1" layer="1"/>
+<smd name="2" x="0" y="19.05" dx="2" dy="1" layer="1"/>
+<smd name="GND@2" x="3.302" y="21.59" dx="2" dy="1" layer="1"/>
+<smd name="GND@1" x="0" y="24.13" dx="2" dy="1" layer="1"/>
+<smd name="RX" x="3.302" y="26.67" dx="2" dy="1" layer="1"/>
+<smd name="TX" x="0" y="29.21" dx="2" dy="1" layer="1"/>
+<smd name="10" x="15.369" y="1.27" dx="2" dy="1" layer="1"/>
+<smd name="16" x="18.669" y="3.81" dx="2" dy="1" layer="1"/>
+<smd name="14" x="15.369" y="6.35" dx="2" dy="1" layer="1"/>
+<smd name="15" x="18.669" y="8.89" dx="2" dy="1" layer="1"/>
+<smd name="A0" x="15.369" y="11.43" dx="2" dy="1" layer="1"/>
+<smd name="A1" x="18.669" y="13.97" dx="2" dy="1" layer="1"/>
+<smd name="A2" x="15.369" y="16.51" dx="2" dy="1" layer="1"/>
+<smd name="A3" x="18.669" y="19.05" dx="2" dy="1" layer="1"/>
+<smd name="VCC" x="15.369" y="21.59" dx="2" dy="1" layer="1"/>
+<smd name="RST" x="18.669" y="24.13" dx="2" dy="1" layer="1"/>
+<smd name="GND@3" x="15.369" y="26.67" dx="2" dy="1" layer="1"/>
+<smd name="RAW" x="18.669" y="29.21" dx="2" dy="1" layer="1"/>
+<text x="9.525" y="5.08" size="1.27" layer="21" font="vector" rot="R90">&gt;NAME</text>
+<wire x1="5.08" y1="34.29" x2="5.08" y2="29.21" width="0.127" layer="21"/>
+<wire x1="5.08" y1="29.21" x2="12.7" y2="29.21" width="0.127" layer="21"/>
+<wire x1="12.7" y1="29.21" x2="12.7" y2="34.29" width="0.127" layer="21"/>
+<text x="5.969" y="30.48" size="0.762" layer="21" font="vector">Micro USB</text>
+<text x="3.302" y="29.21" size="0.762" layer="21" font="vector" align="center">TX</text>
+<text x="0.532" y="26.67" size="0.762" layer="21" font="vector" align="center">RX</text>
+<text x="3.302" y="24.13" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="0.532" y="21.59" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="18.129" y="26.67" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="15.24" y="29.21" size="0.762" layer="21" font="vector" align="center">RAW</text>
+<text x="3.302" y="19.05" size="0.762" layer="21" font="vector" align="center">2</text>
+<text x="0.532" y="16.51" size="0.762" layer="21" font="vector" align="center">3</text>
+<text x="3.302" y="13.97" size="0.762" layer="21" font="vector" align="center">4</text>
+<text x="0.532" y="11.43" size="0.762" layer="21" font="vector" align="center">5</text>
+<text x="3.302" y="8.89" size="0.762" layer="21" font="vector" align="center">6</text>
+<text x="0.532" y="6.35" size="0.762" layer="21" font="vector" align="center">7</text>
+<text x="3.302" y="3.81" size="0.762" layer="21" font="vector" align="center">8</text>
+<text x="0.532" y="1.27" size="0.762" layer="21" font="vector" align="center">9</text>
+<text x="15.24" y="24.13" size="0.762" layer="21" font="vector" align="center">RST</text>
+<text x="18.129" y="21.59" size="0.762" layer="21" font="vector" align="center">VCC</text>
+<text x="15.24" y="19.05" size="0.762" layer="21" font="vector" align="center">A0</text>
+<text x="18.129" y="16.51" size="0.762" layer="21" font="vector" align="center">A2</text>
+<text x="15.24" y="13.97" size="0.762" layer="21" font="vector" align="center">A1</text>
+<text x="18.129" y="11.43" size="0.762" layer="21" font="vector" align="center">A0</text>
+<text x="15.24" y="8.89" size="0.762" layer="21" font="vector" align="center">15</text>
+<text x="18.129" y="6.35" size="0.762" layer="21" font="vector" align="center">14</text>
+<text x="15.24" y="3.81" size="0.762" layer="21" font="vector" align="center">16</text>
+<text x="18.129" y="1.27" size="0.762" layer="21" font="vector" align="center">10</text>
+<wire x1="0" y1="33.02" x2="0" y2="29.972" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="3.048" width="0.127" layer="21"/>
+<wire x1="0" y1="4.572" x2="0" y2="8.128" width="0.127" layer="21"/>
+<wire x1="0" y1="9.652" x2="0" y2="13.208" width="0.127" layer="21"/>
+<wire x1="0" y1="14.732" x2="0" y2="18.288" width="0.127" layer="21"/>
+<wire x1="18.796" y1="33.02" x2="18.796" y2="29.972" width="0.127" layer="21"/>
+<wire x1="18.796" y1="28.448" x2="18.796" y2="27.178" width="0.127" layer="21"/>
+<wire x1="18.796" y1="26.162" x2="18.796" y2="24.892" width="0.127" layer="21"/>
+<wire x1="18.796" y1="23.368" x2="18.796" y2="22.098" width="0.127" layer="21"/>
+<wire x1="18.796" y1="21.082" x2="18.796" y2="19.812" width="0.127" layer="21"/>
+<wire x1="18.796" y1="18.288" x2="18.796" y2="14.732" width="0.127" layer="21"/>
+<wire x1="18.796" y1="13.208" x2="18.796" y2="9.652" width="0.127" layer="21"/>
+<wire x1="18.796" y1="8.128" x2="18.796" y2="4.572" width="0.127" layer="21"/>
+<wire x1="18.796" y1="3.048" x2="18.796" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="19.812" x2="0" y2="21.082" width="0.127" layer="21"/>
+<wire x1="0" y1="22.098" x2="0" y2="23.368" width="0.127" layer="21"/>
+<wire x1="0" y1="24.892" x2="0" y2="26.162" width="0.127" layer="21"/>
+<wire x1="0" y1="27.178" x2="0" y2="28.448" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ARDUINO_PRO_MICRO">
@@ -2533,37 +2611,81 @@ VNH2SP30</text>
 
 &lt;p&gt;&lt;a href="https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png"&gt;Pin Outs&lt;/p&gt;
 
-&lt;p&gt;&lt;a href="http://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5"&gt;Buy Here&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href="http://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5"&gt;Buy Here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.digikey.com/product-search/en?keywords=929974E-01-12-ND"&gt;Thru Hole Female Pins&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.digikey.com/product-detail/en/sullins-connector-solutions/NPTC121KFXC-RC/S5604-ND/776062"&gt;Surface Mount Female Pins&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="ARDUINO_PRO_MICRO" x="-12.7" y="-22.86"/>
+<gate name="APM" symbol="ARDUINO_PRO_MICRO" x="-12.7" y="-22.86"/>
 </gates>
 <devices>
 <device name="" package="ARDUINO_PRO_MICRO">
 <connects>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="A3" pad="A3"/>
-<connect gate="G$1" pin="GND@0" pad="GND@0"/>
-<connect gate="G$1" pin="GND@1" pad="GND@1"/>
-<connect gate="G$1" pin="GND@2" pad="GND@2"/>
-<connect gate="G$1" pin="RAW" pad="RAW"/>
-<connect gate="G$1" pin="RST" pad="RST"/>
-<connect gate="G$1" pin="RXI" pad="RXI"/>
-<connect gate="G$1" pin="TXO" pad="TXO"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="APM" pin="10" pad="10"/>
+<connect gate="APM" pin="14" pad="14"/>
+<connect gate="APM" pin="15" pad="15"/>
+<connect gate="APM" pin="16" pad="16"/>
+<connect gate="APM" pin="2" pad="2"/>
+<connect gate="APM" pin="3" pad="3"/>
+<connect gate="APM" pin="4" pad="4"/>
+<connect gate="APM" pin="5" pad="5"/>
+<connect gate="APM" pin="6" pad="6"/>
+<connect gate="APM" pin="7" pad="7"/>
+<connect gate="APM" pin="8" pad="8"/>
+<connect gate="APM" pin="9" pad="9"/>
+<connect gate="APM" pin="A0" pad="A0"/>
+<connect gate="APM" pin="A1" pad="A1"/>
+<connect gate="APM" pin="A2" pad="A2"/>
+<connect gate="APM" pin="A3" pad="A3"/>
+<connect gate="APM" pin="GND@0" pad="GND@0"/>
+<connect gate="APM" pin="GND@1" pad="GND@1"/>
+<connect gate="APM" pin="GND@2" pad="GND@2"/>
+<connect gate="APM" pin="RAW" pad="RAW"/>
+<connect gate="APM" pin="RST" pad="RST"/>
+<connect gate="APM" pin="RXI" pad="RXI"/>
+<connect gate="APM" pin="TXO" pad="TXO"/>
+<connect gate="APM" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Arduino Pro Micro" constant="no"/>
+<attribute name="DISTRIBUTOR" value="AliExpress" constant="no"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="32284746884" constant="no"/>
+<attribute name="MANUFACTURER" value="Feiyang electronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" constant="no"/>
+<attribute name="NOTES" value="https://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5" constant="no"/>
+<attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" constant="no"/>
+<attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SMD" package="ARDUINO_PRO_MICRO_SM">
+<connects>
+<connect gate="APM" pin="10" pad="10"/>
+<connect gate="APM" pin="14" pad="14"/>
+<connect gate="APM" pin="15" pad="15"/>
+<connect gate="APM" pin="16" pad="16"/>
+<connect gate="APM" pin="2" pad="2"/>
+<connect gate="APM" pin="3" pad="3"/>
+<connect gate="APM" pin="4" pad="4"/>
+<connect gate="APM" pin="5" pad="5"/>
+<connect gate="APM" pin="6" pad="6"/>
+<connect gate="APM" pin="7" pad="7"/>
+<connect gate="APM" pin="8" pad="8"/>
+<connect gate="APM" pin="9" pad="9"/>
+<connect gate="APM" pin="A0" pad="A0"/>
+<connect gate="APM" pin="A1" pad="A1"/>
+<connect gate="APM" pin="A2" pad="A2"/>
+<connect gate="APM" pin="A3" pad="A3"/>
+<connect gate="APM" pin="GND@0" pad="GND@1"/>
+<connect gate="APM" pin="GND@1" pad="GND@2"/>
+<connect gate="APM" pin="GND@2" pad="GND@3"/>
+<connect gate="APM" pin="RAW" pad="RAW"/>
+<connect gate="APM" pin="RST" pad="RST"/>
+<connect gate="APM" pin="RXI" pad="RX"/>
+<connect gate="APM" pin="TXO" pad="TX"/>
+<connect gate="APM" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2621,7 +2743,16 @@ The 2 and 3 Pins Screw Terminals can be linked together seamlessly.</description
 <connect gate="G$1" pin="P$5" pad="P$5"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="5 pin Screw Terminal" constant="no"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" constant="no"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="277-1239-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Phoenix Contact" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1729047" constant="no"/>
+<attribute name="NOTES" value="" constant="no"/>
+<attribute name="PACKAGE" value="5PIN_SCREW" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2638,7 +2769,16 @@ The 2 and 3 Pins Screw Terminals can be linked together seamlessly.</description
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESCRIPTION" value="JUMPER" constant="no"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" constant="no"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="952-2262-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Harwin. Inc" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M20-9990246" constant="no"/>
+<attribute name="NOTES" value="" constant="no"/>
+<attribute name="PACKAGE" value="JP" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2712,7 +2852,14 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PIE-INT-REF-NUM" value="LED"/>
+<attribute name="DESCRIPTION" value="LEDs" constant="no"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" constant="no"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="160-1415-1-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Lite-On Inc" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LTST-C170KRKT" constant="no"/>
+<attribute name="NOTES" value="" constant="no"/>
+<attribute name="PACKAGE" value="LED0603" constant="no"/>
+<attribute name="VALUE" value="COLOR" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2745,7 +2892,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PIE-INT-REF-NUM" value="LED"/>
+<attribute name="PIE-INT-REF-NUM" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2808,7 +2955,14 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC"/>
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" constant="no"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" constant="no"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" constant="no"/>
+<attribute name="NOTES" value="Cut Tape" constant="no"/>
+<attribute name="PACKAGE" value="R0603" constant="no"/>
+<attribute name="VALUE" value="&gt;VALUE" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7196,7 +7350,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="ST1" library="pie" deviceset="5PIN_SCREW" device=""/>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="pie" deviceset="GND" device=""/>
-<part name="5V_JUMPER" library="pie" deviceset="JUMPER" device=""/>
+<part name="5V_JUMPER" library="pie" deviceset="JUMPER" device="" value=""/>
 <part name="BR1" library="pie" deviceset="VNH2SP30_MOTOR_CONTROLLER" device=""/>
 <part name="LED1" library="pie" deviceset="LED" device="-FKIT-1206" value="RED"/>
 <part name="R4" library="pie" deviceset="R-US_" device="R0603" value="330"/>
@@ -7214,7 +7368,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <plain>
 </plain>
 <instances>
-<instance part="APM" gate="G$1" x="60.96" y="93.98"/>
+<instance part="APM" gate="APM" x="60.96" y="93.98"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0">
 <attribute name="AUTHOR" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
@@ -7262,9 +7416,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<pinref part="APM" gate="G$1" pin="GND@0"/>
+<pinref part="APM" gate="APM" pin="GND@0"/>
 <wire x1="27.94" y1="101.6" x2="43.18" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="APM" gate="G$1" pin="GND@1"/>
+<pinref part="APM" gate="APM" pin="GND@1"/>
 <wire x1="43.18" y1="101.6" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="101.6" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="99.06" x2="48.26" y2="99.06" width="0.1524" layer="91"/>
@@ -7276,7 +7430,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
-<pinref part="APM" gate="G$1" pin="GND@2"/>
+<pinref part="APM" gate="APM" pin="GND@2"/>
 <wire x1="81.28" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -7312,7 +7466,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="114.3" y1="104.14" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="A2"/>
+<pinref part="APM" gate="APM" pin="A2"/>
 <wire x1="76.2" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
 <label x="83.82" y="93.98" size="1.778" layer="95"/>
 </segment>
@@ -7324,7 +7478,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="127" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="VCC"/>
+<pinref part="APM" gate="APM" pin="VCC"/>
 <wire x1="76.2" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="5V_JUMPER" gate="G$1" pin="P$1"/>
 </segment>
@@ -7346,7 +7500,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="A1"/>
+<pinref part="APM" gate="APM" pin="A1"/>
 <wire x1="76.2" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
 <label x="83.82" y="91.44" size="1.778" layer="95"/>
 </segment>
@@ -7359,7 +7513,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="A0"/>
+<pinref part="APM" gate="APM" pin="A0"/>
 <wire x1="76.2" y1="88.9" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
 <label x="83.82" y="88.9" size="1.778" layer="95"/>
 </segment>
@@ -7370,7 +7524,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="139.7" y1="137.16" x2="134.62" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="14"/>
+<pinref part="APM" gate="APM" pin="14"/>
 <wire x1="76.2" y1="83.82" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
 <label x="78.74" y="83.82" size="1.778" layer="95"/>
 </segment>
@@ -7381,7 +7535,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="139.7" y1="134.62" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="8"/>
+<pinref part="APM" gate="APM" pin="8"/>
 <wire x1="48.26" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
 <label x="43.18" y="81.28" size="1.778" layer="95"/>
 </segment>
@@ -7392,7 +7546,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="139.7" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="16"/>
+<pinref part="APM" gate="APM" pin="16"/>
 <wire x1="76.2" y1="81.28" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
 <label x="78.74" y="81.28" size="1.778" layer="95"/>
 </segment>
@@ -7403,7 +7557,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="139.7" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="10"/>
+<pinref part="APM" gate="APM" pin="10"/>
 <wire x1="76.2" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
 <label x="78.74" y="78.74" size="1.778" layer="95"/>
 </segment>
@@ -7414,7 +7568,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="139.7" y1="127" x2="134.62" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="9"/>
+<pinref part="APM" gate="APM" pin="9"/>
 <wire x1="48.26" y1="78.74" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
 <label x="43.18" y="78.74" size="1.778" layer="95"/>
 </segment>
@@ -7426,7 +7580,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="20.32" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="2"/>
+<pinref part="APM" gate="APM" pin="2"/>
 <wire x1="48.26" y1="96.52" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
 <label x="43.18" y="96.52" size="1.778" layer="95"/>
 </segment>
@@ -7438,7 +7592,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="20.32" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="3"/>
+<pinref part="APM" gate="APM" pin="3"/>
 <wire x1="48.26" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
 <label x="43.18" y="93.98" size="1.778" layer="95"/>
 </segment>
@@ -7450,7 +7604,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="68.58" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="4"/>
+<pinref part="APM" gate="APM" pin="4"/>
 <wire x1="48.26" y1="91.44" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
 <label x="43.18" y="91.44" size="1.778" layer="95"/>
 </segment>
@@ -7483,7 +7637,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="20.32" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="7"/>
+<pinref part="APM" gate="APM" pin="7"/>
 <wire x1="48.26" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
 <label x="45.72" y="83.82" size="1.778" layer="95"/>
 </segment>
@@ -7495,7 +7649,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="20.32" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="APM" gate="G$1" pin="6"/>
+<pinref part="APM" gate="APM" pin="6"/>
 <wire x1="48.26" y1="86.36" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
 <label x="45.72" y="86.36" size="1.778" layer="95"/>
 </segment>
