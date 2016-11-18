@@ -168,14 +168,14 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="40" y1="0" x2="40" y2="60.96" width="0.127" layer="21"/>
 <wire x1="40" y1="60.96" x2="0" y2="60.96" width="0.127" layer="21"/>
 <wire x1="0" y1="60.96" x2="0" y2="0" width="0.127" layer="21"/>
-<pad name="RST" x="13.64" y="59" drill="0.8" diameter="1.778"/>
-<pad name="GND" x="16.18" y="59" drill="0.8" diameter="1.778"/>
-<pad name="IRQ" x="18.72" y="59" drill="0.8" diameter="1.778"/>
-<pad name="MISO" x="21.26" y="59" drill="0.8" diameter="1.778"/>
-<pad name="MOSI" x="23.8" y="59" drill="0.8" diameter="1.778"/>
-<pad name="SCK" x="26.34" y="59" drill="0.8" diameter="1.778"/>
-<pad name="SDA" x="28.88" y="59" drill="0.8" diameter="1.778"/>
-<pad name="3.3V" x="11.1" y="59" drill="0.8" diameter="1.778"/>
+<pad name="RST" x="13.64" y="59" drill="1" diameter="2.1844"/>
+<pad name="GND" x="16.18" y="59" drill="1" diameter="2.1844"/>
+<pad name="IRQ" x="18.72" y="59" drill="1" diameter="2.1844"/>
+<pad name="MISO" x="21.26" y="59" drill="1" diameter="2.1844"/>
+<pad name="MOSI" x="23.8" y="59" drill="1" diameter="2.1844"/>
+<pad name="SCK" x="26.34" y="59" drill="1" diameter="2.1844"/>
+<pad name="SDA" x="28.88" y="59" drill="1" diameter="2.1844"/>
+<pad name="3.3V" x="11.1" y="59" drill="1" diameter="2.1844"/>
 <wire x1="1" y1="4" x2="4" y2="1" width="0.127" layer="21"/>
 <wire x1="4" y1="1" x2="36" y2="1" width="0.127" layer="21"/>
 <wire x1="36" y1="1" x2="39" y2="4" width="0.127" layer="21"/>
@@ -200,17 +200,17 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="34" y1="41" x2="6" y2="41" width="0.127" layer="21"/>
 <wire x1="6" y1="41" x2="3" y2="38" width="0.127" layer="21"/>
 <wire x1="3" y1="38" x2="3" y2="6" width="0.127" layer="21"/>
-<hole x="2" y="45" drill="3"/>
-<hole x="38" y="45" drill="3"/>
+<hole x="2.6416" y="45.5295" drill="3.302"/>
+<hole x="36.8554" y="45.5295" drill="3.302"/>
 <text x="20" y="5" size="1.5" layer="21" font="vector" align="center">RFID-RC522</text>
-<text x="11" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">3.3V</text>
-<text x="13.5" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">RST</text>
-<text x="16" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">GND</text>
-<text x="18.5" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">IRQ</text>
-<text x="21" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">MISO</text>
-<text x="24" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">MOSI</text>
-<text x="26.5" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">SCK</text>
-<text x="29" y="57.5" size="0.762" layer="21" font="vector" rot="SR180" align="center">SDA</text>
+<text x="11" y="56.23" size="0.762" layer="21" font="vector" rot="SR180" align="center">3.3V</text>
+<text x="13.5" y="56.23" size="0.762" layer="21" font="vector" rot="SR180" align="center">RST</text>
+<text x="16" y="56.23" size="0.762" layer="21" font="vector" rot="SR180" align="center">GND</text>
+<text x="18.5" y="56.23" size="0.762" layer="21" font="vector" rot="SR180" align="center">IRQ</text>
+<text x="21" y="56.23" size="0.762" layer="21" font="vector" rot="SR180" align="center">MISO</text>
+<text x="24" y="56.23" size="0.762" layer="21" font="vector" rot="SR180" align="center">MOSI</text>
+<text x="26.5" y="56.23" size="0.762" layer="21" font="vector" rot="SR180" align="center">SCK</text>
+<text x="29" y="56.23" size="0.762" layer="21" font="vector" rot="SR180" align="center">SDA</text>
 </package>
 <package name="ARDUINO_PRO_MICRO">
 <wire x1="0" y1="0" x2="0" y2="33.528" width="0.127" layer="25"/>
