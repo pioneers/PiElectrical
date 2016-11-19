@@ -40,9 +40,10 @@ void measure_cells() //measures the battery cells. Should call at least twice a 
     int r_cell2 = analogRead(cell2);
     int r_cell3 = analogRead(cell3);
 
-    v_cell1 = float(r_cell1) * (10 + 10.0) / 10.0 * vref_guess / 1024;  // (10k + 10k)/(10k) to extract cell voltage in counts, then convert 1024 counts per vref volts.
-    v_cell2 = float(r_cell2) * (30.0 + 10) / 10 * vref_guess / 1024;  // (30k + 10k)/(10k) to extract cell voltage in counts, then convert 1024 counts per vref volts.
-    v_cell3 = float(r_cell3) * (51.00 + 10.0 ) / 10.0 * vref_guess / 1024;  // (51k + 10k)/(10k) to extract cell voltage in counts, then convert 1024 counts per vref volts.
+    //Is it 1023 or 1024?  I think it's 1023.
+    v_cell1 = float(r_cell1) * (10 + 10.0) / 10.0 * vref_guess / 1023;  // (10k + 10k)/(10k) to extract cell voltage in counts, then convert 1024 counts per vref volts.
+    v_cell2 = float(r_cell2) * (30.0 + 10) / 10 * vref_guess / 1023;  // (30k + 10k)/(10k) to extract cell voltage in counts, then convert 1024 counts per vref volts.
+    v_cell3 = float(r_cell3) * (51.00 + 10.0 ) / 10.0 * vref_guess / 1023;  // (51k + 10k)/(10k) to extract cell voltage in counts, then convert 1024 counts per vref volts.
   
     dv_cell2 = v_cell2 - v_cell1;
     dv_cell3 = v_cell3 - v_cell2;
@@ -103,10 +104,10 @@ float calibrate() //calibrates the device.
     int r_cell2 = analogRead(cell2);
     int r_cell3 = analogRead(cell3);
 
-    //as per whiteboard math.
-    float vref1 = 1024 / (float(r_cell1)) * 10.0 / (10 + 10.00) * 5;
-    float vref2 = 1024 / (float(r_cell2)) * 10.0 / (30.0 + 10) * 5;
-    float vref3 = 1024 / (float(r_cell3)) * 10.0 / (51.00 + 10.0) * 5;
+    //as per whiteboard math.  Is it 1023 or 1024?  I think it's 1023.
+    float vref1 = 1023 / (float(r_cell1)) * 10.0 / (10 + 10.00) * 5;
+    float vref2 = 1023 / (float(r_cell2)) * 10.0 / (30.0 + 10) * 5;
+    float vref3 = 1023 / (float(r_cell3)) * 10.0 / (51.00 + 10.0) * 5;
 
 
     //avg all vrefs together to get best guess value    

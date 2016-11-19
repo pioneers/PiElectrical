@@ -37,7 +37,7 @@ void handle_8_segment() //handles the 8-segment display, and prints out the glob
   }
   else if(sequence == 3)
   {
-    disp.write(v_cell1,3);
+    disp.write(v_cell1,2);
   }
   else if(sequence == 4)
   {
@@ -45,7 +45,7 @@ void handle_8_segment() //handles the 8-segment display, and prints out the glob
   }
   else if(sequence == 5)
   {
-    disp.write(dv_cell2,3);
+    disp.write(dv_cell2,2);
   }
   else if(sequence == 6)
   {
@@ -53,7 +53,7 @@ void handle_8_segment() //handles the 8-segment display, and prints out the glob
   }
   else if(sequence == 7)
   {
-    disp.write(dv_cell3,3);
+    disp.write(dv_cell3,2);
   }
   
   if (millis() > (last_LED_time + 1000) ) //every second
