@@ -6256,8 +6256,8 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </package>
 <package name="LED-0805">
 <description>LED 0805 Package</description>
-<smd name="A" x="-1.0414" y="0" dx="1.1938" dy="1.2446" layer="1"/>
-<smd name="C" x="1.0414" y="0" dx="1.1938" dy="1.2446" layer="1"/>
+<smd name="A" x="-1.143" y="0" dx="1.397" dy="1.2446" layer="1"/>
+<smd name="C" x="1.143" y="0" dx="1.397" dy="1.2446" layer="1"/>
 <wire x1="-0.254" y1="0.508" x2="0.254" y2="0" width="0.127" layer="21"/>
 <wire x1="0.254" y1="0" x2="-0.254" y2="-0.508" width="0.127" layer="21"/>
 <wire x1="-0.381" y1="0.889" x2="-1.905" y2="0.889" width="0.127" layer="21"/>
