@@ -182,6 +182,14 @@ Rev 9C</text>
 <wire x1="4.405" y1="28.776" x2="4.405" y2="32.411" width="0.1" layer="21"/>
 <text x="31.842" y="36.509" size="0.8128" layer="25">Pull-up
 Jumper</text>
+<text x="8.067" y="32.024" size="0.8128" layer="26" rot="MR270">TwistIt: A Mulitpurpose board
+that takes line following array,
+potentiometers, limit switches,
+reed switches, and the Yogi
+Bear Motor Controller Board.</text>
+<text x="10.025" y="27.64" size="0.8128" layer="26" rot="MR0">+</text>
+<text x="10.058" y="24.313" size="0.8128" layer="26" rot="MR0">+</text>
+<text x="10.003" y="20.986" size="0.8128" layer="26" rot="MR0">+</text>
 </plain>
 <libraries>
 <library name="resistor">

@@ -147,15 +147,15 @@
 <wire x1="31.75" y1="0" x2="31.75" y2="50.8" width="0" layer="20"/>
 <wire x1="31.75" y1="50.8" x2="0" y2="50.8" width="0" layer="20"/>
 <wire x1="0" y1="50.8" x2="0" y2="0" width="0" layer="20"/>
-<text x="30.48" y="22.86" size="0.762" layer="25" font="vector" rot="R90">GND</text>
-<text x="30.48" y="13.97" size="0.762" layer="25" font="vector" rot="R90">GND</text>
+<text x="30.988" y="22.86" size="0.762" layer="25" font="vector" rot="R90">GND</text>
+<text x="30.988" y="13.97" size="0.762" layer="25" font="vector" rot="R90">GND</text>
 <text x="22.86" y="30.48" size="0.762" layer="21" font="vector" rot="R90">GND</text>
 <text x="22.098" y="39.624" size="0.762" layer="21" font="vector" rot="R270">VCC</text>
-<text x="30.48" y="20.32" size="0.762" layer="25" font="vector" rot="R90">VCC</text>
-<text x="30.48" y="11.43" size="0.762" layer="25" font="vector" rot="R90">VCC</text>
-<text x="30.48" y="17.78" size="0.762" layer="25" font="vector" rot="R90">SIG</text>
-<text x="30.48" y="8.89" size="0.762" layer="25" font="vector" rot="R90">SIG</text>
-<text x="12.954" y="10.16" size="0.762" layer="26" font="vector" rot="MR90">(c) Pioneers In Engineering
+<text x="30.988" y="20.32" size="0.762" layer="25" font="vector" rot="R90">VCC</text>
+<text x="30.988" y="11.43" size="0.762" layer="25" font="vector" rot="R90">VCC</text>
+<text x="30.988" y="17.78" size="0.762" layer="25" font="vector" rot="R90">SIG</text>
+<text x="30.988" y="8.89" size="0.762" layer="25" font="vector" rot="R90">SIG</text>
+<text x="6.858" y="1.27" size="1.27" layer="26" font="vector" rot="MR90">(c) Pioneers In Engineering
 Design by: Seiya Ono, Catherine Kim
 This design is open source hardware.
 For more information, visit
@@ -903,7 +903,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="PIE-INT-REF-NUM" value="MTA" x="26.67" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="31.115" y="17.78" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="U$2" library="pie" package="PIE-LOGO-SMALL" value="" x="10.668" y="36.322" rot="MR270"/>
+<element name="U$2" library="pie" package="PIE-LOGO-SMALL" value="" x="15.494" y="44.196" rot="MR90"/>
 <element name="U$1" library="pie" package="STAND-OFF" value="" x="22.86" y="46.482"/>
 <element name="U$3" library="pie" package="STAND-OFF" value="" x="3.81" y="3.81"/>
 <element name="U$4" library="pie" package="STAND-OFF" value="" x="3.81" y="46.228"/>

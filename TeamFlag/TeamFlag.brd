@@ -163,7 +163,7 @@
 <text x="20.32" y="39.878" size="1.4224" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">Pioneers in Engineering
 Team Flag
 Revision 9C</text>
-<text x="20.447" y="23.876" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">(c) Pioneers In Engineering
+<text x="20.447" y="23.876" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">(c) Pioneers In Engineering
 Design by: Jared P., Aravind K.,
 Sumita G., Casey D., and Seiya O.
 This design is open source hardware.
@@ -708,12 +708,12 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <smd name="C" x="1.143" y="0" dx="1.397" dy="1.2446" layer="1"/>
 <wire x1="-0.254" y1="0.508" x2="0.254" y2="0" width="0.127" layer="21"/>
 <wire x1="0.254" y1="0" x2="-0.254" y2="-0.508" width="0.127" layer="21"/>
-<wire x1="-0.381" y1="0.889" x2="-1.905" y2="0.889" width="0.127" layer="21"/>
-<wire x1="-1.905" y1="0.889" x2="-1.905" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="-1.905" y1="-0.889" x2="-0.381" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="0.381" y1="-0.889" x2="1.905" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="1.905" y1="-0.889" x2="1.905" y2="0.889" width="0.127" layer="21"/>
-<wire x1="1.905" y1="0.889" x2="0.381" y2="0.889" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="0.889" x2="-2.032" y2="0.889" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="0.889" x2="-2.032" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-0.889" x2="-0.381" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="0.381" y1="-0.889" x2="2.032" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-0.889" x2="2.032" y2="0.889" width="0.127" layer="21"/>
+<wire x1="2.032" y1="0.889" x2="0.381" y2="0.889" width="0.127" layer="21"/>
 <rectangle x1="-1.0033" y1="-0.6223" x2="1.0033" y2="0.6223" layer="51"/>
 <wire x1="-0.254" y1="0.508" x2="-0.254" y2="-0.508" width="0.127" layer="21"/>
 <wire x1="0.254" y1="0.508" x2="0.254" y2="-0.508" width="0.127" layer="21"/>
