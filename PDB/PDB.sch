@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
@@ -4935,41 +4935,41 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 </part>
 <part name="U$8" library="pie" deviceset="5V" device=""/>
 <part name="JP1" library="pie" deviceset="XH_CONNECTOR_4POS" device="" value="XH_CONN"/>
-<part name="R2" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R3" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R4" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R5" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R6" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R7" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R2" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R3" library="pie" deviceset="R-US_" device="R0603" value="30k"/>
+<part name="R4" library="pie" deviceset="R-US_" device="R0603" value="51k"/>
+<part name="R5" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R6" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R7" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY14" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="pie" deviceset="GND" device=""/>
 <part name="LS1" library="pie" deviceset="BUZZER" device="" value="BUZZER"/>
-<part name="R9" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R10" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R9" library="pie" deviceset="R-US_" device="R0603" value="100"/>
+<part name="R10" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="U$12" library="pie" deviceset="5V" device=""/>
 <part name="SUPPLY17" library="pie" deviceset="GND" device=""/>
-<part name="R11" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R11" library="pie" deviceset="R-US_" device="R0603" value="130"/>
 <part name="LED1" library="pie" deviceset="LED" device="0805" value="RED"/>
 <part name="SUPPLY18" library="pie" deviceset="GND" device=""/>
 <part name="Q5" library="pie" deviceset="P-CHANNEL-MOSFET" device="SOT23-3" value="PMOS"/>
 <part name="Q4" library="pie" deviceset="P-CHANNEL-MOSFET" device="SOT23-3" value="PMOS"/>
 <part name="Q3" library="pie" deviceset="P-CHANNEL-MOSFET" device="SOT23-3" value="PMOS"/>
 <part name="Q2" library="pie" deviceset="N-CHANNEL-MOSFET" device="SOT23-3" value="IRFML8244"/>
-<part name="R1" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R1" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY19" library="pie" deviceset="GND" device=""/>
-<part name="R8" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R8" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY20" library="pie" deviceset="GND" device=""/>
 <part name="Q1" library="pie" deviceset="N-CHANNEL-MOSFET" device="SOT23-3" value="NMOS"/>
 <part name="UC1" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
 <part name="SUPPLY21" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="pie" deviceset="GND" device=""/>
-<part name="R13" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R14" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R12" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R15" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R13" library="pie" deviceset="R-US_" device="R0603" value="330"/>
+<part name="R14" library="pie" deviceset="R-US_" device="R0603" value="330"/>
+<part name="R12" library="pie" deviceset="R-US_" device="R0603" value="330"/>
+<part name="R15" library="pie" deviceset="R-US_" device="R0603" value="330"/>
 <part name="U$9" library="pie" deviceset="5V" device=""/>
-<part name="R16" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R16" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY23" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="pie" deviceset="GND" device=""/>
 <part name="S2" library="pie" deviceset="DPST_SWITCH" device=""/>
@@ -5277,22 +5277,28 @@ will get regulated on the arduino.</text>
 <attribute name="NAME" x="-53.34" y="128.27" size="1.778" layer="95"/>
 </instance>
 <instance part="R2" gate="G$1" x="73.66" y="83.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="78.74" y="86.3854" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="81.28" y="86.36" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="81.28" y="82.55" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R3" gate="G$1" x="106.68" y="83.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="111.76" y="86.3854" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="104.14" y="86.36" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="104.14" y="82.55" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R4" gate="G$1" x="139.7" y="83.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="144.78" y="86.3854" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="137.16" y="86.36" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="137.16" y="82.55" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R5" gate="G$1" x="73.66" y="66.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="76.2" y="68.58" size="1.778" layer="95"/>
+<attribute name="NAME" x="81.28" y="68.58" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="81.28" y="64.77" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R6" gate="G$1" x="106.68" y="66.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="111.76" y="68.6054" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="104.14" y="66.04" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="104.14" y="62.23" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R7" gate="G$1" x="139.7" y="66.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="144.78" y="68.6054" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="137.16" y="68.58" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="137.16" y="64.77" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY14" gate="GND" x="73.66" y="55.88"/>
 <instance part="SUPPLY15" gate="GND" x="106.68" y="55.88"/>
@@ -5303,12 +5309,14 @@ will get regulated on the arduino.</text>
 </instance>
 <instance part="R9" gate="G$1" x="12.7" y="104.14"/>
 <instance part="R10" gate="G$1" x="17.78" y="96.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.24" y="93.98" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="15.24" y="96.52" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="15.494" y="93.472" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$12" gate="G$1" x="27.94" y="121.92"/>
 <instance part="SUPPLY17" gate="GND" x="27.94" y="83.82"/>
 <instance part="R11" gate="G$1" x="154.94" y="17.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="157.48" y="17.7546" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+<attribute name="NAME" x="160.02" y="20.32" size="1.778" layer="95"/>
+<attribute name="VALUE" x="160.02" y="16.51" size="1.778" layer="96"/>
 </instance>
 <instance part="LED1" gate="G$1" x="154.94" y="5.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="157.48" y="5.08" size="1.778" layer="95"/>
@@ -5328,11 +5336,13 @@ will get regulated on the arduino.</text>
 <attribute name="NAME" x="68.58" y="93.98" size="1.778" layer="95"/>
 </instance>
 <instance part="R1" gate="G$1" x="63.5" y="121.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="68.58" y="124.4854" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="71.12" y="124.46" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="76.2" y="120.65" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY19" gate="GND" x="63.5" y="55.88"/>
 <instance part="R8" gate="G$1" x="53.34" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="58.42" y="83.8454" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="50.8" y="83.82" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="50.8" y="80.01" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY20" gate="GND" x="53.34" y="55.88"/>
 <instance part="Q1" gate="G$1" x="27.94" y="106.68" smashed="yes">
@@ -5342,19 +5352,26 @@ will get regulated on the arduino.</text>
 <instance part="SUPPLY21" gate="GND" x="66.04" y="15.24"/>
 <instance part="SUPPLY22" gate="GND" x="132.08" y="30.48"/>
 <instance part="R13" gate="G$1" x="10.16" y="17.78" smashed="yes">
-<attribute name="NAME" x="5.08" y="27.94" size="1.778" layer="95"/>
+<attribute name="NAME" x="5.08" y="30.48" size="1.778" layer="95"/>
+<attribute name="VALUE" x="12.7" y="30.48" size="1.778" layer="96"/>
 </instance>
 <instance part="R14" gate="G$1" x="10.16" y="15.24" smashed="yes">
-<attribute name="NAME" x="5.08" y="25.4" size="1.778" layer="95"/>
+<attribute name="NAME" x="5.08" y="27.94" size="1.778" layer="95"/>
+<attribute name="VALUE" x="12.7" y="27.94" size="1.778" layer="96"/>
 </instance>
 <instance part="R12" gate="G$1" x="10.16" y="20.32" smashed="yes">
-<attribute name="NAME" x="5.08" y="30.48" size="1.778" layer="95"/>
+<attribute name="NAME" x="5.08" y="33.02" size="1.778" layer="95"/>
+<attribute name="VALUE" x="12.7" y="33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="R15" gate="G$1" x="10.16" y="12.7" smashed="yes">
-<attribute name="NAME" x="5.08" y="22.86" size="1.778" layer="95"/>
+<attribute name="NAME" x="5.08" y="25.4" size="1.778" layer="95"/>
+<attribute name="VALUE" x="12.7" y="25.4" size="1.778" layer="96"/>
 </instance>
 <instance part="U$9" gate="G$1" x="27.94" y="-33.02"/>
-<instance part="R16" gate="G$1" x="66.04" y="-40.64"/>
+<instance part="R16" gate="G$1" x="66.04" y="-40.64" smashed="yes">
+<attribute name="NAME" x="60.96" y="-38.1" size="1.778" layer="95"/>
+<attribute name="VALUE" x="60.96" y="-44.45" size="1.778" layer="96"/>
+</instance>
 <instance part="SUPPLY23" gate="GND" x="78.74" y="-43.18"/>
 <instance part="SUPPLY24" gate="GND" x="-15.24" y="43.18"/>
 <instance part="S2" gate="G$1" x="40.64" y="-35.56"/>

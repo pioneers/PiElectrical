@@ -1305,7 +1305,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="PIE-INT-REF-NUM" value="XH-4POS" x="71.882" y="104.648" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PIE_DIGIKEY-PN" value="455-2249-ND" x="71.882" y="104.648" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R2" library="pie" package="R0603" value="&gt;VALUE" x="16.51" y="57.15" rot="R90">
+<element name="R2" library="pie" package="R0603" value="10k" x="16.51" y="57.15" rot="R90">
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="16.51" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="16.51" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="16.51" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1315,7 +1315,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="NOTES" value="Cut Tape" x="16.51" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="16.51" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R3" library="pie" package="R0603" value="&gt;VALUE" x="11.43" y="57.15" rot="R90">
+<element name="R3" library="pie" package="R0603" value="30k" x="11.43" y="57.15" rot="R90">
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="11.43" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="11.43" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="11.43" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1325,7 +1325,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="NOTES" value="Cut Tape" x="11.43" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="11.43" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R4" library="pie" package="R0603" value="&gt;VALUE" x="6.35" y="57.15" rot="R90">
+<element name="R4" library="pie" package="R0603" value="51k" x="6.35" y="57.15" rot="R90">
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="6.35" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="6.35" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="6.35" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1335,7 +1335,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="NOTES" value="Cut Tape" x="6.35" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="6.35" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R5" library="pie" package="R0603" value="&gt;VALUE" x="16.51" y="53.34" rot="R90">
+<element name="R5" library="pie" package="R0603" value="10k" x="16.51" y="53.34" rot="R90">
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="16.51" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="16.51" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="16.51" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1345,7 +1345,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="NOTES" value="Cut Tape" x="16.51" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="16.51" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R6" library="pie" package="R0603" value="&gt;VALUE" x="11.43" y="53.34" rot="R90">
+<element name="R6" library="pie" package="R0603" value="10k" x="11.43" y="53.34" rot="R90">
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="11.43" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="11.43" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="11.43" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1355,7 +1355,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="NOTES" value="Cut Tape" x="11.43" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="11.43" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R7" library="pie" package="R0603" value="&gt;VALUE" x="6.35" y="53.34" rot="R90">
+<element name="R7" library="pie" package="R0603" value="10k" x="6.35" y="53.34" rot="R90">
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="6.35" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="6.35" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="6.35" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1369,7 +1369,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="PIE-INT-REF-NUM" value="BUZZER" x="-20.828" y="127.254" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PIE_DIGIKEY-PN" value="102-1269-ND" x="-20.828" y="127.254" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R9" library="pie" package="R0603" value="&gt;VALUE" x="4.064" y="71.628" rot="R90">
+<element name="R9" library="pie" package="R0603" value="100" x="4.064" y="71.628" rot="R90">
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="4.064" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="4.064" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="4.064" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1379,7 +1379,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="NOTES" value="Cut Tape" x="4.064" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="4.064" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R10" library="pie" package="R0603" value="&gt;VALUE" x="9.398" y="71.374" rot="R270">
+<element name="R10" library="pie" package="R0603" value="10k" x="9.398" y="71.374" rot="R270">
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="9.398" y="71.374" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="9.398" y="71.374" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="9.398" y="71.374" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1389,7 +1389,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="NOTES" value="Cut Tape" x="9.398" y="71.374" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="9.398" y="71.374" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R11" library="pie" package="R0603" value="&gt;VALUE" x="5.588" y="65.786" rot="R270">
+<element name="R11" library="pie" package="R0603" value="130" x="5.588" y="65.786" rot="R270">
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="5.588" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="5.588" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="5.588" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1424,7 +1424,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="NAME" x="27.686" y="50.927" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="30.734" y="45.847" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R1" library="pie" package="R0603" value="&gt;VALUE" x="7.62" y="82.55" rot="R90">
+<element name="R1" library="pie" package="R0603" value="10k" x="7.62" y="82.55" rot="R90">
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="7.62" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="7.62" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="7.62" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1434,7 +1434,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="NOTES" value="Cut Tape" x="7.62" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="7.62" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R8" library="pie" package="R0603" value="&gt;VALUE" x="34.036" y="47.752" rot="R270">
+<element name="R8" library="pie" package="R0603" value="10k" x="34.036" y="47.752" rot="R270">
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="34.036" y="47.752" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="34.036" y="47.752" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="34.036" y="47.752" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1455,7 +1455,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="NOTES" value="https://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5" x="38.1" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" x="38.1" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R13" library="pie" package="R0603" value="&gt;VALUE" x="26.67" y="20.32" rot="R90">
+<element name="R13" library="pie" package="R0603" value="330" x="26.67" y="20.32" smashed="yes" rot="R90">
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="26.67" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="26.67" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="26.67" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1464,8 +1464,10 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="26.67" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NOTES" value="Cut Tape" x="26.67" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="26.67" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="25.4" y="19.05" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="29.21" y="19.05" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R14" library="pie" package="R0603" value="&gt;VALUE" x="24.13" y="20.32" rot="R90">
+<element name="R14" library="pie" package="R0603" value="330" x="24.13" y="20.32" smashed="yes" rot="R90">
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="24.13" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="24.13" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="24.13" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1474,8 +1476,10 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="24.13" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NOTES" value="Cut Tape" x="24.13" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="24.13" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="22.86" y="19.05" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="26.67" y="19.05" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R12" library="pie" package="R0603" value="&gt;VALUE" x="29.21" y="20.32" rot="R90">
+<element name="R12" library="pie" package="R0603" value="330" x="29.21" y="20.32" smashed="yes" rot="R90">
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1484,8 +1488,10 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NOTES" value="Cut Tape" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="27.94" y="19.05" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="31.75" y="19.05" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R15" library="pie" package="R0603" value="&gt;VALUE" x="21.59" y="20.32" rot="R90">
+<element name="R15" library="pie" package="R0603" value="330" x="21.59" y="20.32" smashed="yes" rot="R90">
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="21.59" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="21.59" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="21.59" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1494,8 +1500,10 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="21.59" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NOTES" value="Cut Tape" x="21.59" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="21.59" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="20.32" y="19.05" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="24.13" y="19.05" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R16" library="pie" package="R0603" value="&gt;VALUE" x="40.64" y="38.1" rot="R90">
+<element name="R16" library="pie" package="R0603" value="10k" x="40.64" y="38.1" rot="R90">
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="40.64" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="40.64" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="40.64" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
