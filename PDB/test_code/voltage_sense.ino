@@ -9,6 +9,7 @@ int enable = 16;
 int calib_button = 21;
 
 
+
 void setup_sensing()
 {
 
@@ -39,6 +40,11 @@ void measure_cells() //measures the battery cells. Should call at least twice a 
     int r_cell1 = analogRead(cell1);
     int r_cell2 = analogRead(cell2);
     int r_cell3 = analogRead(cell3);
+
+    //Serial.println("Raw Voltages");
+    //Serial.println(5*float(r_cell1)/1024);
+    //Serial.println(5*float(r_cell2)/1024);
+    //Serial.println(5*float(r_cell3)/1024);
 
     //Is it 1023 or 1024?  I think it's 1023.
     v_cell1 = float(r_cell1) * (10 + 10.0) / 10.0 * vref_guess / 1023;  // (10k + 10k)/(10k) to extract cell voltage in counts, then convert 1024 counts per vref volts.
@@ -76,9 +82,23 @@ void measure_cells() //measures the battery cells. Should call at least twice a 
 void handle_calibration() //called very frequently by loop.
 {
   if (digitalRead(calib_button)) //I pressed the button, start calibrating.
-  {    
-    float vref_new = calibrate();
-    write_eeprom(vref_new);
+  { 
+    if(get_calibration() == -1.0)
+    {   
+      float vref_new = calibrate();
+      write_eeprom(vref_new);
+      start_8_seg_sequence(2);
+    }
+    else
+    {
+      if(prints)
+      {
+        Serial.println("Clear EEPROM");
+      }
+      clear_eeprom();
+      start_8_seg_sequence(1);
+      
+    }
   }
 }
 
@@ -105,9 +125,9 @@ float calibrate() //calibrates the device.
     int r_cell3 = analogRead(cell3);
 
     //as per whiteboard math.  Is it 1023 or 1024?  I think it's 1023.
-    float vref1 = 1023 / (float(r_cell1)) * 10.0 / (10 + 10.00) * 5;
-    float vref2 = 1023 / (float(r_cell2)) * 10.0 / (30.0 + 10) * 5;
-    float vref3 = 1023 / (float(r_cell3)) * 10.0 / (51.00 + 10.0) * 5;
+    float vref1 = 1024 / (float(r_cell1)) * 10.0 / (10 + 10.00) * 5;
+    float vref2 = 1024 / (float(r_cell2)) * 10.0 / (30.0 + 10) * 5;
+    float vref3 = 1024 / (float(r_cell3)) * 10.0 / (51.00 + 10.0) * 5;
 
 
     //avg all vrefs together to get best guess value    
@@ -115,6 +135,9 @@ float calibrate() //calibrates the device.
     
     if(prints)
     {
+      Serial.println(vref1);
+      Serial.println(vref2);
+      Serial.println(vref3);
       Serial.println("Vref Guess is " + String(vref_guess, 4));
     }
 
