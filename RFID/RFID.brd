@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -147,15 +147,15 @@
 <wire x1="26.015" y1="0" x2="26.015" y2="49.53" width="0" layer="20"/>
 <wire x1="26.015" y1="49.53" x2="0" y2="49.53" width="0" layer="20"/>
 <wire x1="0" y1="49.53" x2="0" y2="0" width="0" layer="20"/>
-<text x="17.78" y="19.05" size="0.508" layer="23" font="vector" rot="R90">(c) Pioneers In Engineering
-Design by: Mohammed, Seiya, Averal
-Ellen, Catherine, Nick, Jillian, 
-Lingfei, Ezra, Malcolm
-This design is open source hardware.
-For more information, visit:
-pioneers.berkeley.edu/opensource</text>
+<text x="20.828" y="8.128" size="0.762" layer="26" font="vector" rot="MR90">(c) Pioneers In Engineering
+Design by: Mohammed, Seiya, Averal, Ellen, 
+Catherine, Nick, Jillian, Lingfei, Ezra, Malcolm
+</text>
 <text x="12.7" y="45.72" size="1.27" layer="21" font="vector" ratio="15" align="center">RFID
 Rev 9C</text>
+<text x="14.478" y="8.128" size="0.762" layer="26" rot="MR90">This design is open source hardware.
+For more information, visit:
+pioneers.berkeley.edu/opensource</text>
 </plain>
 <libraries>
 <library name="pie">
@@ -688,6 +688,43 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <hole x="0" y="0" drill="3.302"/>
 <circle x="0" y="0" radius="2.78821875" width="0.127" layer="39"/>
 </package>
+<package name="OSHW-LOGO-S">
+<polygon width="0.15" layer="21">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
+</polygon>
+</package>
 </packages>
 </library>
 </libraries>
@@ -897,10 +934,11 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" x="2.54" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" x="2.54" y="7.62" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$1" library="pie" package="PIE-LOGO-SMALL" value="" x="14.224" y="13.335" rot="MR270"/>
+<element name="U$1" library="pie" package="PIE-LOGO-SMALL" value="" x="16.383" y="4.064"/>
 <element name="U$2" library="pie" package="STAND-OFF" value="" x="3.81" y="3.81" rot="R180"/>
 <element name="U$3" library="pie" package="STAND-OFF" value="" x="3.81" y="45.72" rot="R180"/>
 <element name="U$4" library="pie" package="STAND-OFF" value="" x="20.32" y="45.72" rot="R180"/>
+<element name="U$5" library="pie" package="OSHW-LOGO-S" value="" x="9.652" y="5.588"/>
 </elements>
 <signals>
 <signal name="VCC">
