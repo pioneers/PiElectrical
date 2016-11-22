@@ -259,8 +259,6 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <pad name="INA" x="31.34" y="1.5" drill="1" diameter="2.1844"/>
 <pad name="INB" x="28.8" y="1.5" drill="1" diameter="2.1844"/>
 <pad name="PMW" x="26.26" y="1.5" drill="1" diameter="2.1844"/>
-<hole x="2.5" y="25.5" drill="3"/>
-<hole x="2.5" y="2.5" drill="3"/>
 <hole x="51.5" y="2.5" drill="3"/>
 <hole x="51.5" y="25.5" drill="3"/>
 <text x="28" y="23" size="1.27" layer="51" font="vector" align="center">MOTOR CONTROLLER
