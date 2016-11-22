@@ -10897,8 +10897,6 @@ Source: http://pdf1.alldatasheet.com/datasheet-pdf/view/84563/STMICROELECTRONICS
 <pad name="INA" x="31.34" y="1.5" drill="1" diameter="2.1844"/>
 <pad name="INB" x="28.8" y="1.5" drill="1" diameter="2.1844"/>
 <pad name="PMW" x="26.26" y="1.5" drill="1" diameter="2.1844"/>
-<hole x="2.5" y="25.5" drill="3"/>
-<hole x="2.5" y="2.5" drill="3"/>
 <hole x="51.5" y="2.5" drill="3"/>
 <hole x="51.5" y="25.5" drill="3"/>
 <text x="28" y="23" size="1.27" layer="51" font="vector" align="center">MOTOR CONTROLLER
@@ -13266,8 +13264,8 @@ H-BRIDGE</text>
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<pin name="P$1" x="-10.16" y="2.54" visible="pad" length="middle" direction="pwr"/>
-<pin name="P$2" x="-10.16" y="-5.08" visible="pad" length="middle" direction="pwr"/>
+<pin name="P$1" x="-10.16" y="2.54" visible="off" length="middle" direction="pwr"/>
+<pin name="P$2" x="-10.16" y="-5.08" visible="off" length="middle" direction="pwr"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="94">GND</text>
 <text x="-2.54" y="2.54" size="1.778" layer="94">Vcc</text>
 <text x="-5.08" y="7.62" size="1.778" layer="94">&gt;NAME</text>
