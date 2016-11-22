@@ -85,7 +85,7 @@ void handle_8_segment() //handles the 8-segment display, and prints out the glob
       disp.write("CLR");
     }
 
-    if (millis() > (last_LED_time + 1000) ) //every second
+    if (millis() > (last_LED_time + 750) ) //every 3/4 second
     {
       sequence = sequence + 1;
       if(sequence == 2)
