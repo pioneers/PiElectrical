@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -34,8 +34,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -43,19 +43,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="yes"/>
@@ -230,18 +230,23 @@ Vertical
 <pad name="IN+" x="5.08" y="31.75" drill="2.032" diameter="3.048" rot="R90"/>
 <pad name="OUT-" x="-2.54" y="31.75" drill="2.032" diameter="3.048" rot="R90"/>
 <pad name="OUT+" x="-6.35" y="31.75" drill="2.032" diameter="3.048" rot="R90"/>
-<hole x="-26.924" y="0" drill="5.08"/>
-<hole x="26.924" y="0" drill="5.08"/>
-<wire x1="-31.75" y1="34.29" x2="31.75" y2="34.29" width="0.127" layer="21"/>
-<wire x1="31.75" y1="34.29" x2="31.75" y2="-26.67" width="0.127" layer="21"/>
-<wire x1="-31.75" y1="34.29" x2="-31.75" y2="-26.67" width="0.127" layer="21"/>
+<hole x="-26.924" y="0" drill="4.4958"/>
+<hole x="26.924" y="0" drill="4.4958"/>
+<wire x1="-8.89" y1="34.29" x2="7.62" y2="34.29" width="0.127" layer="21"/>
+<wire x1="31.75" y1="17.78" x2="31.75" y2="-26.67" width="0.127" layer="21"/>
+<wire x1="-31.75" y1="17.78" x2="-31.75" y2="-26.67" width="0.127" layer="21"/>
 <wire x1="-31.75" y1="-26.67" x2="31.75" y2="-26.67" width="0.127" layer="21"/>
 <text x="-3.81" y="-22.86" size="1.778" layer="25" font="vector" rot="R180">Buck Converter 5V</text>
-<rectangle x1="-31.75" y1="-26.67" x2="31.75" y2="34.29" layer="39"/>
 <text x="-5.08" y="35.56" size="1.778" layer="27" font="vector" ratio="10" rot="R90">OUT+</text>
 <text x="-1.27" y="35.56" size="1.778" layer="27" font="vector" ratio="10" rot="R90">OUT-</text>
 <text x="2.54" y="35.56" size="1.778" layer="27" font="vector" ratio="10" rot="R90">IN-</text>
 <text x="6.35" y="35.56" size="1.778" layer="27" font="vector" ratio="10" rot="R90">IN+</text>
+<wire x1="7.62" y1="34.29" x2="7.62" y2="17.78" width="0.127" layer="21"/>
+<wire x1="7.62" y1="17.78" x2="31.75" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="34.29" x2="-8.89" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="17.78" x2="-31.75" y2="17.78" width="0.127" layer="21"/>
+<rectangle x1="-31.75" y1="-26.67" x2="31.75" y2="17.78" layer="39"/>
+<rectangle x1="-8.89" y1="17.78" x2="7.62" y2="34.29" layer="39"/>
 </package>
 <package name="R0402">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
@@ -2353,66 +2358,6 @@ specifically used for  401-1133-ND, but could be used for others.</description>
 <rectangle x1="2" y1="-3.5" x2="4" y2="-1.5" layer="40"/>
 <rectangle x1="2" y1="1.5" x2="4" y2="3.5" layer="40"/>
 </package>
-<package name="SJ_2S">
-<description>Small solder jumper with big paste layer so it will short during reflow.</description>
-<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.1524" layer="21"/>
-<wire x1="0.8" y1="1" x2="1.1" y2="0.75" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1" y1="0.75" x2="-0.8" y2="1" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.1" y1="-0.75" x2="-0.8" y2="-1" width="0.1524" layer="21" curve="90.114706"/>
-<wire x1="0.8" y1="-1" x2="1.1" y2="-0.75" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.1" y1="-0.75" x2="1.1" y2="0.75" width="0.1524" layer="21"/>
-<wire x1="-1.1" y1="-0.75" x2="-1.1" y2="0.75" width="0.1524" layer="21"/>
-<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.1524" layer="21"/>
-<smd name="1" x="-0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
-<smd name="2" x="0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-1.2192" y1="-1.143" x2="1.2192" y2="1.143" layer="31"/>
-<rectangle x1="-1.27" y1="-1.143" x2="1.27" y2="1.143" layer="39"/>
-</package>
-<package name="SJ_2S-TRACE">
-<description>Solder jumper, small, shorted with trace. No paste layer. Trace is cuttable.</description>
-<wire x1="0.8255" y1="-1.016" x2="-0.8255" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="0.8255" y1="1.016" x2="1.0795" y2="0.762" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.0795" y1="0.762" x2="-0.8255" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.0795" y1="-0.762" x2="-0.8255" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.8255" y1="-1.016" x2="1.0795" y2="-0.762" width="0.2032" layer="21" curve="90"/>
-<wire x1="-0.8255" y1="1.016" x2="0.8255" y2="1.016" width="0.2032" layer="21"/>
-<wire x1="-0.381" y1="0" x2="0.381" y2="0" width="0.2032" layer="1"/>
-<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-1.27" y1="-1.143" x2="1.27" y2="1.143" layer="39"/>
-</package>
-<package name="SJ_2S-NOTRACE">
-<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="1" x2="1" y2="0.7" width="0.2032" layer="21" curve="-90.076445"/>
-<wire x1="-1" y1="0.7" x2="-0.8" y2="1" width="0.2032" layer="21" curve="-90.03821"/>
-<wire x1="-1" y1="-0.7" x2="-0.8" y2="-1" width="0.2032" layer="21" curve="90.03821"/>
-<wire x1="0.8" y1="-1" x2="1" y2="-0.7" width="0.2032" layer="21" curve="90.03821"/>
-<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.4009" y="0" dx="0.635" dy="1.27" layer="1" rot="R180" cream="no"/>
-<smd name="2" x="0.4127" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" layer="31"/>
-<rectangle x1="-1.143" y1="-1.143" x2="1.143" y2="1.143" layer="39"/>
-</package>
-<package name="SJ_2S-NO">
-<description>Small solder jumper with no paste layer so it will open after reflow.</description>
-<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="1" x2="1" y2="0.7" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1" y1="0.7" x2="-0.8" y2="1" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1" y1="-0.7" x2="-0.8" y2="-1" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.8" y1="-1" x2="1" y2="-0.7" width="0.2032" layer="21" curve="90"/>
-<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-1.143" y1="-1.143" x2="1.143" y2="1.143" layer="39"/>
-</package>
 <package name="1X02">
 <description>2-pin 0.1-inch header
 
@@ -2736,6 +2681,44 @@ Horizontal &lt;br&gt;
 <rectangle x1="-2.54" y1="-2.54" x2="2.54" y2="3.302" layer="39"/>
 <rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="40"/>
 </package>
+<package name="ATX">
+<pad name="P$1" x="-3" y="0" drill="1" diameter="2.1844"/>
+<pad name="P$2" x="3.7" y="0" drill="1" diameter="2.1844"/>
+<circle x="-3" y="0" radius="2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2.5" x2="4" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
+<wire x1="4" y1="2.5" x2="6.5" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="6.5" y1="0" x2="4" y2="-2.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-7" y1="3" x2="-6" y2="3" width="0.127" layer="21"/>
+<wire x1="-6" y1="3" x2="7" y2="3" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="8" y2="3" width="0.127" layer="21"/>
+<wire x1="-7" y1="3" x2="-7" y2="-3" width="0.127" layer="21"/>
+<wire x1="-7" y1="-3" x2="8" y2="-3" width="0.127" layer="21"/>
+<wire x1="8" y1="-3" x2="8" y2="3" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="7" y2="4" width="0.127" layer="21"/>
+<wire x1="7" y1="4" x2="-6" y2="4" width="0.127" layer="21"/>
+<wire x1="-6" y1="4" x2="-6" y2="3" width="0.127" layer="21"/>
+</package>
+<package name="JUMPER">
+<pad name="P$1" x="-1.27" y="0" drill="1" diameter="2.286"/>
+<pad name="P$2" x="1.27" y="0" drill="1" diameter="2.286"/>
+<wire x1="-0.508" y1="1.524" x2="-2.032" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="1.524" x2="-2.794" y2="0.762" width="0.127" layer="21"/>
+<wire x1="-0.508" y1="1.524" x2="0" y2="1.016" width="0.127" layer="21"/>
+<wire x1="0" y1="1.016" x2="0.508" y2="1.524" width="0.127" layer="21"/>
+<wire x1="0.508" y1="1.524" x2="2.032" y2="1.524" width="0.127" layer="21"/>
+<wire x1="2.032" y1="1.524" x2="2.794" y2="0.762" width="0.127" layer="21"/>
+<wire x1="2.794" y1="0.762" x2="2.794" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="2.794" y1="-0.762" x2="2.032" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-1.524" x2="0.508" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="0.508" y1="-1.524" x2="0" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.016" x2="-0.508" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="-0.508" y1="-1.524" x2="-2.032" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-1.524" x2="-2.794" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-2.794" y1="0.762" x2="-2.794" y2="-0.762" width="0.127" layer="21"/>
+<text x="-2.794" y="1.778" size="1.27" layer="21">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -3056,16 +3039,6 @@ BREAKER</text>
 <text x="-5.08" y="10.16" size="1.778" layer="95">&gt;Name</text>
 <text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;Value</text>
 </symbol>
-<symbol name="SJ">
-<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
 <symbol name="M02">
 <wire x1="3.81" y1="-5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
@@ -3310,6 +3283,27 @@ BREAKER</text>
 <pin name="COL-C" x="-10.16" y="27.94" length="middle" rot="R270"/>
 <pin name="APOS-C" x="30.48" y="27.94" length="middle" rot="R270"/>
 <pin name="DIG1" x="-30.48" y="27.94" length="middle" rot="R270"/>
+</symbol>
+<symbol name="ATX">
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<pin name="P$1" x="-10.16" y="2.54" visible="pad" length="middle" direction="pwr"/>
+<pin name="P$2" x="-10.16" y="-5.08" visible="pad" length="middle" direction="pwr"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="94">GND</text>
+<text x="-2.54" y="2.54" size="1.778" layer="94">Vcc</text>
+<text x="-5.08" y="7.62" size="1.778" layer="94">&gt;NAME</text>
+</symbol>
+<symbol name="JUMPER">
+<description>2 Pin Jumper</description>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short" direction="in"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<text x="-2.54" y="5.08" size="1.27" layer="94" align="top-left">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4762,59 +4756,6 @@ SOT669:  http://www.nxp.com/documents/data_sheet/PH7030L.pdf &lt;/p&gt;</descrip
 </device>
 </devices>
 </deviceset>
-<deviceset name="SOLDERJUMPER" prefix="SJ">
-<description>&lt;b&gt;Solder Jumper&lt;/b&gt;
-Standard SMD solder jumper. Used to automate production. Two varients : Normally Open and Normally Closed are the same, but have different paste layers. NC will have a large amount of paste and should jumper during reflow.</description>
-<gates>
-<gate name="1" symbol="SJ" x="0" y="0"/>
-</gates>
-<devices>
-<device name="NC" package="SJ_2S">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PIE-INT-REF-NUM" value="DNL"/>
-</technology>
-</technologies>
-</device>
-<device name="TRACE" package="SJ_2S-TRACE">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PIE-INT-REF-NUM" value="DNL"/>
-</technology>
-</technologies>
-</device>
-<device name="NC2" package="SJ_2S-NOTRACE">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PIE-INT-REF-NUM" value="DNL"/>
-</technology>
-</technologies>
-</device>
-<device name="NO" package="SJ_2S-NO">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PIE-INT-REF-NUM" value="DNL"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="M02" prefix="JP" uservalue="yes">
 <description>2-pin 0.1-inch header and MTA connector</description>
 <gates>
@@ -4877,6 +4818,57 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 </device>
 </devices>
 </deviceset>
+<deviceset name="ATX" prefix="JP">
+<description>&lt;b&gt;ATX 2 Pin Connector&lt;/b&gt;
+
+&lt;p&gt;
+Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-ND/2074099 &lt;/p&gt;
+&lt;p&gt;Housing: http://www.digikey.com/product-detail/en/molex-llc/0019092029/WM4382-ND/2421313&lt;/p&gt;
+&lt;p&gt;Housing (alternative): http://www.digikey.com/product-detail/en/molex-llc/0015311026/WM1041-ND/313614&lt;/p&gt;
+&lt;p&gt;Connector: http://www.digikey.com/product-detail/en/molex-llc/0019091029/WM1602-ND/26354&lt;/p&gt;
+&lt;p&gt;Male crimps: http://www.digikey.com/product-detail/en/molex-llc/0002092103/WM1100-ND/26384&lt;/p&gt;
+&lt;p&gt;Female crimps: http://www.digikey.com/product-detail/en/molex-llc/0002091104/WM1101-ND/26386 &lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="ATX" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="ATX">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER" prefix="JP">
+<description>2 Pin Jumper</description>
+<gates>
+<gate name="G$1" symbol="JUMPER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JUMPER">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="JUMPER" constant="no"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" constant="no"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="952-2262-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Harwin. Inc" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M20-9990246" constant="no"/>
+<attribute name="NOTES" value="" constant="no"/>
+<attribute name="PACKAGE" value="JP" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -4919,10 +4911,6 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <part name="FUSE8" library="pie" deviceset="FUSE_HOLDER_SMD" device=""/>
 <part name="FUSE9" library="pie" deviceset="FUSE_HOLDER_SMD" device=""/>
 <part name="FUSE10" library="pie" deviceset="FUSE_HOLDER_SMD" device=""/>
-<part name="CONN7" library="pie" deviceset="ANDERSON" device="VERTICAL" value="ANDERSONVERTICAL"/>
-<part name="CONN9" library="pie" deviceset="ANDERSON" device="VERTICAL" value="ANDERSONVERTICAL"/>
-<part name="CONN10" library="pie" deviceset="ANDERSON" device="VERTICAL" value="ANDERSONVERTICAL"/>
-<part name="CONN8" library="pie" deviceset="ANDERSON" device="VERTICAL" value="ANDERSONVERTICAL"/>
 <part name="SUPPLY8" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="pie" deviceset="GND" device=""/>
@@ -4930,10 +4918,9 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <part name="SUPPLY12" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="pie" deviceset="GND" device=""/>
 <part name="FRAME2" library="pie" deviceset="FRAME_SCHEMATIC" device="">
-<attribute name="AUTHOR" value="Casey D, Douglas H"/>
-<attribute name="REVISION" value="9B"/>
+<attribute name="AUTHOR" value="Casey D, Douglas H, Mohammed H, Tobin H"/>
+<attribute name="REVISION" value="9C"/>
 </part>
-<part name="U$8" library="pie" deviceset="5V" device=""/>
 <part name="JP1" library="pie" deviceset="XH_CONNECTOR_4POS" device="" value="XH_CONN"/>
 <part name="R2" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="R3" library="pie" deviceset="R-US_" device="R0603" value="30k"/>
@@ -4972,13 +4959,17 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <part name="R16" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY23" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="pie" deviceset="GND" device=""/>
-<part name="S2" library="pie" deviceset="DPST_SWITCH" device=""/>
 <part name="S1" library="pie" deviceset="DPST_SWITCH" device=""/>
-<part name="SJ1" library="pie" deviceset="SOLDERJUMPER" device="NO" value="GND to BGND"/>
 <part name="JP2" library="pie" deviceset="M02" device="PTH"/>
 <part name="SUPPLY25" library="pie" deviceset="GND" device=""/>
-<part name="SUPPLY26" library="pie" deviceset="GND" device=""/>
 <part name="LED2" library="pie" deviceset="7-SEGMENT-4DIGIT-YOUNGSUN" device="" value="7-SEGMENT"/>
+<part name="JP3" library="pie" deviceset="ATX" device=""/>
+<part name="JP4" library="pie" deviceset="ATX" device=""/>
+<part name="JP5" library="pie" deviceset="ATX" device=""/>
+<part name="JP6" library="pie" deviceset="ATX" device=""/>
+<part name="FUSE_5V" library="pie" deviceset="JUMPER" device=""/>
+<part name="APM_5V" library="pie" deviceset="5V" device=""/>
+<part name="CALIB_JUMPER" library="pie" deviceset="JUMPER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5020,16 +5011,16 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <instance part="FUSE8" gate="G$1" x="187.96" y="116.84" rot="MR0"/>
 <instance part="FUSE9" gate="G$1" x="177.8" y="104.14" rot="MR0"/>
 <instance part="FUSE10" gate="G$1" x="187.96" y="93.98" rot="MR0"/>
-<instance part="CONN7" gate="G$1" x="160.02" y="121.92"/>
-<instance part="CONN9" gate="G$1" x="160.02" y="101.6"/>
-<instance part="CONN10" gate="G$1" x="205.74" y="91.44" rot="MR0"/>
-<instance part="CONN8" gate="G$1" x="205.74" y="114.3" rot="MR0"/>
-<instance part="SUPPLY8" gate="GND" x="195.58" y="86.36" rot="MR0"/>
-<instance part="SUPPLY9" gate="GND" x="193.04" y="109.22" rot="MR0"/>
-<instance part="SUPPLY10" gate="GND" x="170.18" y="116.84" rot="MR0"/>
-<instance part="SUPPLY11" gate="GND" x="170.18" y="96.52" rot="MR0"/>
-<instance part="SUPPLY12" gate="GND" x="147.32" y="139.7"/>
+<instance part="SUPPLY8" gate="GND" x="193.04" y="83.82" rot="MR0"/>
+<instance part="SUPPLY9" gate="GND" x="193.04" y="106.68" rot="MR0"/>
+<instance part="SUPPLY10" gate="GND" x="170.18" y="129.54" rot="MR0"/>
+<instance part="SUPPLY11" gate="GND" x="170.18" y="109.22" rot="MR0"/>
+<instance part="SUPPLY12" gate="GND" x="139.7" y="139.7"/>
 <instance part="SUPPLY13" gate="GND" x="177.8" y="139.7"/>
+<instance part="JP3" gate="G$1" x="208.28" y="114.3"/>
+<instance part="JP4" gate="G$1" x="149.86" y="127" rot="R180"/>
+<instance part="JP5" gate="G$1" x="152.4" y="106.68" rot="R180"/>
+<instance part="JP6" gate="G$1" x="208.28" y="91.44"/>
 </instances>
 <busses>
 </busses>
@@ -5147,34 +5138,34 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CONN10" gate="G$1" pin="GND"/>
-<pinref part="SUPPLY8" gate="GND" pin="GND"/>
-<wire x1="198.12" y1="88.9" x2="195.58" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="CONN8" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
-<wire x1="198.12" y1="111.76" x2="193.04" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="CONN7" gate="G$1" pin="GND"/>
-<pinref part="SUPPLY10" gate="GND" pin="GND"/>
-<wire x1="167.64" y1="119.38" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="CONN9" gate="G$1" pin="GND"/>
-<pinref part="SUPPLY11" gate="GND" pin="GND"/>
-<wire x1="167.64" y1="99.06" x2="170.18" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="109.22" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="IN-"/>
-<wire x1="149.86" y1="142.24" x2="147.32" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="142.24" x2="139.7" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="OUT-"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
 <wire x1="175.26" y1="142.24" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="P$2"/>
+<pinref part="SUPPLY10" gate="GND" pin="GND"/>
+<wire x1="160.02" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP5" gate="G$1" pin="P$2"/>
+<pinref part="SUPPLY11" gate="GND" pin="GND"/>
+<wire x1="162.56" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="G$1" pin="P$2"/>
+<pinref part="SUPPLY8" gate="GND" pin="GND"/>
+<wire x1="198.12" y1="86.36" x2="193.04" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VOUT6" class="0">
@@ -5187,29 +5178,29 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <net name="VOUT7" class="0">
 <segment>
 <pinref part="FUSE7" gate="G$1" pin="2"/>
-<pinref part="CONN7" gate="G$1" pin="VCC"/>
-<wire x1="172.72" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="124.46" x2="160.02" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="VOUT8" class="0">
 <segment>
 <pinref part="FUSE8" gate="G$1" pin="1"/>
-<pinref part="CONN8" gate="G$1" pin="VCC"/>
 <wire x1="193.04" y1="116.84" x2="198.12" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="VOUT9" class="0">
 <segment>
 <pinref part="FUSE9" gate="G$1" pin="2"/>
-<pinref part="CONN9" gate="G$1" pin="VCC"/>
-<wire x1="172.72" y1="104.14" x2="167.64" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="104.14" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="JP5" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="VOUT10" class="0">
 <segment>
 <pinref part="FUSE10" gate="G$1" pin="1"/>
-<pinref part="CONN10" gate="G$1" pin="VCC"/>
 <wire x1="193.04" y1="93.98" x2="198.12" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="JP6" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -5258,6 +5249,7 @@ POWER</text>
 will get regulated on the arduino.</text>
 <text x="-7.62" y="35.56" size="2.54" layer="97" font="vector">8-SEG DISPLAY ARRAY</text>
 <text x="-43.18" y="91.44" size="2.54" layer="97" font="vector">DEBUG FEATURES</text>
+<text x="30.48" y="7.62" size="2.54" layer="97" font="vector">APM 5V</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="-55.88" y="-50.8">
@@ -5271,7 +5263,6 @@ will get regulated on the arduino.</text>
 <attribute name="AUTHOR" x="92.71" y="-43.815" size="1.905" layer="94" font="vector" ratio="10"/>
 <attribute name="REVISION" x="180.34" y="-43.815" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="U$8" gate="G$1" x="134.62" y="20.32"/>
 <instance part="JP1" gate="G$1" x="-50.8" y="121.92" smashed="yes">
 <attribute name="VALUE" x="-53.34" y="111.76" size="1.778" layer="96"/>
 <attribute name="NAME" x="-53.34" y="128.27" size="1.778" layer="95"/>
@@ -5374,13 +5365,17 @@ will get regulated on the arduino.</text>
 </instance>
 <instance part="SUPPLY23" gate="GND" x="78.74" y="-43.18"/>
 <instance part="SUPPLY24" gate="GND" x="-15.24" y="43.18"/>
-<instance part="S2" gate="G$1" x="40.64" y="-35.56"/>
 <instance part="S1" gate="G$1" x="-33.02" y="50.8"/>
-<instance part="SJ1" gate="1" x="-12.7" y="81.28"/>
 <instance part="JP2" gate="G$1" x="-45.72" y="81.28"/>
 <instance part="SUPPLY25" gate="GND" x="-30.48" y="76.2"/>
-<instance part="SUPPLY26" gate="GND" x="0" y="81.28" rot="R90"/>
 <instance part="LED2" gate="G$1" x="-33.02" y="-10.16" rot="R270"/>
+<instance part="FUSE_5V" gate="G$1" x="40.64" y="0" smashed="yes">
+<attribute name="NAME" x="38.1" y="5.08" size="1.27" layer="94" align="top-left"/>
+</instance>
+<instance part="APM_5V" gate="G$1" x="30.48" y="0" rot="R90"/>
+<instance part="CALIB_JUMPER" gate="G$1" x="40.64" y="-40.64" smashed="yes">
+<attribute name="NAME" x="38.1" y="-35.56" size="1.27" layer="94" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5393,20 +5388,10 @@ will get regulated on the arduino.</text>
 <wire x1="27.94" y1="119.38" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="5V"/>
-<pinref part="UC1" gate="APM" pin="VCC"/>
-<wire x1="124.46" y1="17.78" x2="134.62" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="17.78" x2="134.62" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="27.94" y1="-40.64" x2="27.94" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-33.02" x2="27.94" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="27.94" y="-35.56"/>
+<wire x1="27.94" y1="-40.64" x2="27.94" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="U$9" gate="G$1" pin="5V"/>
-<pinref part="S2" gate="G$1" pin="P2"/>
-<wire x1="27.94" y1="-40.64" x2="33.02" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="P1"/>
-<wire x1="27.94" y1="-35.56" x2="33.02" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-40.64" x2="35.56" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="CALIB_JUMPER" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5485,11 +5470,6 @@ will get regulated on the arduino.</text>
 <wire x1="-35.56" y1="78.74" x2="-35.56" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
 <wire x1="-35.56" y1="81.28" x2="-38.1" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY26" gate="GND" pin="GND"/>
-<pinref part="SJ1" gate="1" pin="2"/>
-<wire x1="-2.54" y1="81.28" x2="-7.62" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IO1" class="0">
@@ -5627,9 +5607,9 @@ will get regulated on the arduino.</text>
 <pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="UC1" gate="APM" pin="A3"/>
-<wire x1="124.46" y1="15.24" x2="134.62" y2="15.24" width="0.1524" layer="91"/>
-<label x="137.16" y="15.24" size="1.778" layer="95"/>
+<pinref part="UC1" gate="APM" pin="10"/>
+<wire x1="124.46" y1="-2.54" x2="134.62" y2="-2.54" width="0.1524" layer="91"/>
+<label x="137.16" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -5838,21 +5818,17 @@ will get regulated on the arduino.</text>
 <net name="CALIB" class="0">
 <segment>
 <label x="53.34" y="-30.48" size="1.778" layer="95"/>
-<pinref part="S2" gate="G$1" pin="P2'"/>
-<wire x1="48.26" y1="-40.64" x2="53.34" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="-40.64" x2="53.34" y2="-35.56" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="P1'"/>
-<wire x1="53.34" y1="-35.56" x2="48.26" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="-30.48" x2="53.34" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="53.34" y="-35.56"/>
+<wire x1="45.72" y1="-40.64" x2="53.34" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-30.48" x2="53.34" y2="-40.64" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="-40.64" x2="53.34" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="53.34" y="-40.64"/>
+<pinref part="CALIB_JUMPER" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
-<pinref part="UC1" gate="APM" pin="10"/>
-<wire x1="124.46" y1="-2.54" x2="134.62" y2="-2.54" width="0.1524" layer="91"/>
-<label x="137.16" y="-2.54" size="1.778" layer="95"/>
+<pinref part="UC1" gate="APM" pin="A3"/>
+<wire x1="124.46" y1="15.24" x2="134.62" y2="15.24" width="0.1524" layer="91"/>
+<label x="137.16" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BGND" class="0">
@@ -5865,11 +5841,6 @@ will get regulated on the arduino.</text>
 <label x="-50.8" y="45.72" size="1.778" layer="95"/>
 <wire x1="-50.8" y1="45.72" x2="-40.64" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="P2"/>
-</segment>
-<segment>
-<pinref part="SJ1" gate="1" pin="1"/>
-<wire x1="-17.78" y1="81.28" x2="-22.86" y2="81.28" width="0.1524" layer="91"/>
-<label x="-25.4" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RAW" class="0">
@@ -5910,6 +5881,22 @@ will get regulated on the arduino.</text>
 <pinref part="LED2" gate="G$1" pin="DIG4"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="-5.08" y1="12.7" x2="5.08" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="APM_5V" class="0">
+<segment>
+<pinref part="UC1" gate="APM" pin="VCC"/>
+<wire x1="124.46" y1="17.78" x2="134.62" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="FUSE_5V" gate="G$1" pin="P$1"/>
+<wire x1="35.56" y1="0" x2="30.48" y2="0" width="0.1524" layer="91"/>
+<pinref part="APM_5V" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="FUSE_5V" gate="G$1" pin="P$2"/>
+<wire x1="45.72" y1="0" x2="53.34" y2="0" width="0.1524" layer="91"/>
+<label x="49.022" y="0.254" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
