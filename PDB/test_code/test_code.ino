@@ -16,6 +16,12 @@ unsigned long last_print_time = 0; //for the loop counter...
 
 float vref_guess = 2.56;  //initial guess, based on datasheet.
 
+float calib_1 = 2.56; //initial guess, based on datasheet.
+float calib_2 = 2.56; //initial guess, based on datasheet.
+float calib_3 = 2.56; //initial guess, based on datasheet.
+
+
+
 bool buzzer_state = false;
 
 float v_cell1;
@@ -61,7 +67,7 @@ void loop()
   if (millis() - last_print_time > 250) //it's been more than 250ms since I last measured cells.
   {
     measure_cells();
-    handle_saftey();
+    //handle_saftey();
 
   }
   

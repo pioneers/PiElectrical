@@ -46,10 +46,10 @@ void measure_cells() //measures the battery cells. Should call at least twice a 
     //Serial.println(5*float(r_cell2)/1024);
     //Serial.println(5*float(r_cell3)/1024);
 
-    //Is it 1023 or 1024?  I think it's 1023.
-    v_cell1 = float(r_cell1) * (10 + 10.0) / 10.0 * vref_guess / 1023;  // (10k + 10k)/(10k) to extract cell voltage in counts, then convert 1024 counts per vref volts.
-    v_cell2 = float(r_cell2) * (30.0 + 10) / 10 * vref_guess / 1023;  // (30k + 10k)/(10k) to extract cell voltage in counts, then convert 1024 counts per vref volts.
-    v_cell3 = float(r_cell3) * (51.00 + 10.0 ) / 10.0 * vref_guess / 1023;  // (51k + 10k)/(10k) to extract cell voltage in counts, then convert 1024 counts per vref volts.
+
+    v_cell1 = float(r_cell1) * (10 + 10.0) / 10.0 * calib_1 / 1024;  // (10k + 10k)/(10k) to extract cell voltage in counts, then convert 1024 counts per vref volts.
+    v_cell2 = float(r_cell2) * (30.0 + 10) / 10.0 * calib_2 / 1024;  // (30k + 10k)/(10k) to extract cell voltage in counts, then convert 1024 counts per vref volts.
+    v_cell3 = float(r_cell3) * (51.00 + 10.0 ) / 10.0 * calib_3 / 1024;  // (51k + 10k)/(10k) to extract cell voltage in counts, then convert 1024 counts per vref volts.
   
     dv_cell2 = v_cell2 - v_cell1;
     dv_cell3 = v_cell3 - v_cell2;
@@ -115,19 +115,30 @@ float calibrate() //calibrates the device.
     //I want to calculate the best-fit for the true vref.
 
     //expected voltages, after the resistive dividers.
-    float expected_vc1 = 5 * 10.0 / (10 + 10);
-    float expected_vc2 = 5 * 10 / (30 + 10);
-    float expected_vc3 = 5 * 10 / (51.00 + 10.0);
+    float expected_vc1 = 5 * 10.0 / (10.00 + 10.00);
+    float expected_vc2 = 5 * 10.0 / (30.00 + 10.00);
+    float expected_vc3 = 5 * 10.0 / (51.00 + 10.0);
 
 
     int r_cell1 = analogRead(cell1);
     int r_cell2 = analogRead(cell2);
-    int r_cell3 = analogRead(cell3);
+    int r_cell3;// = analogRead(cell3);
+    for(int i = 0; i<10; i++)
+    {
+      r_cell3 = analogRead(cell3);
+      Serial.println(r_cell3);
+      delay(10);
+    }
+
 
     //as per whiteboard math.  Is it 1023 or 1024?  I think it's 1023.
-    float vref1 = 1024 / (float(r_cell1)) * 10.0 / (10 + 10.00) * 5;
-    float vref2 = 1024 / (float(r_cell2)) * 10.0 / (30.0 + 10) * 5;
+    float vref1 = 1024 / (float(r_cell1)) * 10.0 / (10.0 + 10.00) * 5;
+    float vref2 = 1024 / (float(r_cell2)) * 10.0 / (30.0 + 10.0) * 5;
     float vref3 = 1024 / (float(r_cell3)) * 10.0 / (51.00 + 10.0) * 5;
+
+    calib_1 = vref1;
+    calib_2 = vref2;
+    calib_3 = vref3;
 
 
     //avg all vrefs together to get best guess value    
@@ -135,6 +146,9 @@ float calibrate() //calibrates the device.
     
     if(prints)
     {
+      Serial.println(r_cell1);
+      Serial.println(r_cell2);
+      Serial.println(r_cell3);
       Serial.println(vref1);
       Serial.println(vref2);
       Serial.println(vref3);
