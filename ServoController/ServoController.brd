@@ -160,8 +160,8 @@ Design by: Seiya Ono, Catherine Kim
 This design is open source hardware.
 For more information, visit
 pioneers.berkeley.edu/opensource</text>
-<text x="21.844" y="20.574" size="0.762" layer="25" font="vector" rot="R270">TO 6</text>
-<text x="21.844" y="11.684" size="0.762" layer="25" font="vector" rot="R270">TO 5</text>
+<text x="21.844" y="20.574" size="0.762" layer="25" font="vector" rot="R270">PIN 6</text>
+<text x="21.844" y="11.684" size="0.762" layer="25" font="vector" rot="R270">PIN 5</text>
 <text x="13.97" y="48.768" size="1.27" layer="21" font="vector" ratio="15" align="center">Servo Controller
 Rev 9C</text>
 </plain>
@@ -953,10 +953,10 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <contactref element="JP1" pad="3"/>
 <contactref element="JP2" pad="3"/>
 <polygon width="0.4064" layer="1">
-<vertex x="3.81" y="34.544"/>
-<vertex x="31.75" y="34.544"/>
-<vertex x="31.75" y="8.89"/>
-<vertex x="3.81" y="8.89"/>
+<vertex x="0.254" y="50.546"/>
+<vertex x="31.496" y="50.292"/>
+<vertex x="31.496" y="0.254"/>
+<vertex x="0.254" y="0.508"/>
 </polygon>
 <contactref element="APM" pad="GND@0"/>
 <contactref element="APM" pad="GND@1"/>
@@ -967,10 +967,10 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <contactref element="JP1" pad="2"/>
 <contactref element="JP2" pad="2"/>
 <polygon width="0.4064" layer="16">
-<vertex x="24.13" y="41.656"/>
-<vertex x="29.21" y="41.656"/>
-<vertex x="29.21" y="11.43"/>
-<vertex x="24.13" y="11.43"/>
+<vertex x="0.254" y="50.546"/>
+<vertex x="31.496" y="50.292"/>
+<vertex x="31.496" y="0.254"/>
+<vertex x="0.254" y="0.508"/>
 </polygon>
 <contactref element="JP3" pad="P$1"/>
 </signal>
