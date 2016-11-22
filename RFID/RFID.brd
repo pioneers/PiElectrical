@@ -153,7 +153,7 @@ Catherine, Nick, Jillian, Lingfei, Ezra, Malcolm
 </text>
 <text x="12.7" y="45.72" size="1.27" layer="21" font="vector" ratio="15" align="center">RFID
 Rev 9C</text>
-<text x="14.478" y="8.128" size="0.762" layer="26" rot="MR90">This design is open source hardware.
+<text x="14.478" y="8.128" size="0.762" layer="26" font="vector" rot="MR90">This design is open source hardware.
 For more information, visit:
 pioneers.berkeley.edu/opensource</text>
 </plain>
