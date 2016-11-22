@@ -143,7 +143,7 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="31.75" y2="0" width="0" layer="26"/>
+<wire x1="0" y1="0" x2="31.75" y2="0" width="0" layer="20"/>
 <wire x1="31.75" y1="0" x2="31.75" y2="50.8" width="0" layer="20"/>
 <wire x1="31.75" y1="50.8" x2="0" y2="50.8" width="0" layer="20"/>
 <wire x1="0" y1="50.8" x2="0" y2="0" width="0" layer="20"/>
@@ -160,8 +160,8 @@ Design by: Seiya Ono, Catherine Kim
 This design is open source hardware.
 For more information, visit
 pioneers.berkeley.edu/opensource</text>
-<text x="21.844" y="20.574" size="0.762" layer="25" font="vector" rot="R270">TO 6</text>
-<text x="21.844" y="11.684" size="0.762" layer="25" font="vector" rot="R270">TO 5</text>
+<text x="21.844" y="20.574" size="0.762" layer="25" font="vector" rot="R270">PIN 6</text>
+<text x="21.844" y="11.684" size="0.762" layer="25" font="vector" rot="R270">PIN 5</text>
 <text x="13.97" y="48.768" size="1.27" layer="21" font="vector" ratio="15" align="center">Servo Controller
 Rev 9C</text>
 </plain>
@@ -697,6 +697,43 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="7" y1="4" x2="-6" y2="4" width="0.127" layer="21"/>
 <wire x1="-6" y1="4" x2="-6" y2="3" width="0.127" layer="21"/>
 </package>
+<package name="OSHW-LOGO-S">
+<polygon width="0.15" layer="21">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
+</polygon>
+</package>
 </packages>
 </library>
 </libraries>
@@ -909,16 +946,17 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <element name="U$4" library="pie" package="STAND-OFF" value="" x="3.81" y="46.228"/>
 <element name="JP3" library="pie" package="ATX" value="ATX" x="26.416" y="34.798" rot="R270"/>
 <element name="U$5" library="pie" package="STAND-OFF" value="" x="22.86" y="3.81"/>
+<element name="U$6" library="pie" package="OSHW-LOGO-S" value="" x="8.128" y="39.878" rot="MR90"/>
 </elements>
 <signals>
 <signal name="GND">
 <contactref element="JP1" pad="3"/>
 <contactref element="JP2" pad="3"/>
 <polygon width="0.4064" layer="1">
-<vertex x="3.81" y="34.544"/>
-<vertex x="31.75" y="34.544"/>
-<vertex x="31.75" y="8.89"/>
-<vertex x="3.81" y="8.89"/>
+<vertex x="0.254" y="50.546"/>
+<vertex x="31.496" y="50.292"/>
+<vertex x="31.496" y="0.254"/>
+<vertex x="0.254" y="0.508"/>
 </polygon>
 <contactref element="APM" pad="GND@0"/>
 <contactref element="APM" pad="GND@1"/>
@@ -929,10 +967,10 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <contactref element="JP1" pad="2"/>
 <contactref element="JP2" pad="2"/>
 <polygon width="0.4064" layer="16">
-<vertex x="24.13" y="41.656"/>
-<vertex x="29.21" y="41.656"/>
-<vertex x="29.21" y="11.43"/>
-<vertex x="24.13" y="11.43"/>
+<vertex x="0.254" y="50.546"/>
+<vertex x="31.496" y="50.292"/>
+<vertex x="31.496" y="0.254"/>
+<vertex x="0.254" y="0.508"/>
 </polygon>
 <contactref element="JP3" pad="P$1"/>
 </signal>

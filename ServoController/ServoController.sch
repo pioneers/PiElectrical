@@ -476,8 +476,8 @@ Drawings &lt;/a&gt;</description>
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<pin name="P$1" x="-10.16" y="2.54" visible="pad" length="middle" direction="pwr"/>
-<pin name="P$2" x="-10.16" y="-5.08" visible="pad" length="middle" direction="pwr"/>
+<pin name="P$1" x="-10.16" y="2.54" visible="off" length="middle" direction="pwr"/>
+<pin name="P$2" x="-10.16" y="-5.08" visible="off" length="middle" direction="pwr"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="94">GND</text>
 <text x="-2.54" y="2.54" size="1.778" layer="94">Vcc</text>
 <text x="-5.08" y="7.62" size="1.778" layer="94">&gt;NAME</text>
@@ -716,14 +716,17 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <segment>
 <pinref part="APM" gate="APM" pin="GND@0"/>
 <wire x1="91.44" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
+<label x="86.36" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="APM" gate="APM" pin="GND@1"/>
 <wire x1="91.44" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
+<label x="86.36" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="APM" gate="APM" pin="GND@2"/>
 <wire x1="119.38" y1="109.22" x2="124.46" y2="109.22" width="0.1524" layer="91"/>
+<label x="124.46" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="G$1" pin="P$2"/>
@@ -739,6 +742,7 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <wire x1="165.1" y1="109.22" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="P$1"/>
+<label x="167.64" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SIG1" class="0">
