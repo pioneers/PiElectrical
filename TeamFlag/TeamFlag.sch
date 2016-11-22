@@ -3958,7 +3958,7 @@ SOT669:  http://www.nxp.com/documents/data_sheet/PH7030L.pdf &lt;/p&gt;</descrip
 <wire x1="109.22" y1="58.42" x2="109.22" y2="127" width="0.1524" layer="94"/>
 <text x="25.4" y="45.72" size="3.81" layer="94" font="vector">Extra Status LEDs</text>
 <wire x1="109.22" y1="58.42" x2="109.22" y2="0" width="0.1524" layer="94"/>
-<text x="15.24" y="114.3" size="3.81" layer="94" font="vector">Arduino Board Connection</text>
+<text x="15.24" y="116.84" size="3.81" layer="94" font="vector">Arduino Board Connection</text>
 </plain>
 <instances>
 <instance part="LED5_" gate="G$1" x="20.32" y="168.91" smashed="yes" rot="R270">
