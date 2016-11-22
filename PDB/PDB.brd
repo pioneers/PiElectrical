@@ -1292,7 +1292,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <element name="U$2" library="pie" package="STAND-OFF" value="" x="6.35" y="19.558"/>
 <element name="U$4" library="pie" package="STAND-OFF" value="" x="128.524" y="95.25" rot="R90"/>
 <element name="U$5" library="pie" package="STAND-OFF" value="" x="20.32" y="61.722"/>
-<element name="U$6" library="pie" package="PIE-LOGO-SMALL" value="" x="39.37" y="81.534"/>
+<element name="U$6" library="pie" package="PIE-LOGO-SMALL" value="" x="40.894" y="81.788"/>
 <element name="U$7" library="pie" package="BUCK_CONVERTER_5V" value="BUCK_CONVERTER_5V" x="155.702" y="66.294" rot="R90"/>
 <element name="FUSE7" library="pie" package="FUSE_HOLDER_SMD" value="FUSE_HOLDER_SMD" x="59.69" y="80.01" rot="R90">
 <attribute name="MANUF-PN" value="3587" x="59.69" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
