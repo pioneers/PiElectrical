@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1256,6 +1256,9 @@ Uses 2oz copper.  (min trace 0.008&quot;), with an extra 0.002&quot; for saftey<
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -1590,7 +1593,7 @@ Uses 2oz copper.  (min trace 0.008&quot;), with an extra 0.002&quot; for saftey<
 <attribute name="PACKAGE" value="JP" x="4.064" y="20.574" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="M20-9990246" x="4.064" y="20.574" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="JUMPER" x="4.064" y="20.574" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="1.778" y="22.86" size="1.27" layer="21"/>
+<attribute name="NAME" x="1.778" y="22.86" size="1.27" layer="21" font="vector"/>
 </element>
 <element name="R17" library="pie" package="R0603" value="3k" x="28.448" y="84.582" smashed="yes" rot="R90">
 <attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="28.448" y="84.582" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2241,51 +2244,51 @@ Uses 2oz copper.  (min trace 0.008&quot;), with an extra 0.002&quot; for saftey<
 <approved hash="18,29,49ae4c8eaf85b1a5"/>
 <approved hash="18,29,2ae289e271fbd68b"/>
 <approved hash="18,29,6309467bba629b60"/>
-<approved hash="18,29,2531cb63cb632531"/>
 <approved hash="18,29,6375892789276375"/>
+<approved hash="18,29,2531cb63cb632531"/>
 <approved hash="18,29,fc6620142014fc66"/>
 <approved hash="18,29,b23be269e269b23b"/>
-<approved hash="18,29,14d18083808314d1"/>
 <approved hash="18,29,5295c2c7c2c75295"/>
+<approved hash="18,29,14d18083808314d1"/>
 <approved hash="18,29,f4ca28b828b8f4ca"/>
 <approved hash="18,29,ba97eac5eac5ba97"/>
-<approved hash="18,29,32035a515a5e320c"/>
 <approved hash="18,29,74471815181a7448"/>
+<approved hash="18,29,32035a515a5e320c"/>
 <approved hash="18,29,cb1f516d516dcb1f"/>
 <approved hash="18,29,8542931093108542"/>
-<approved hash="18,29,7d2b1379137e7d2c"/>
 <approved hash="18,29,3b6f513d513a3b68"/>
+<approved hash="18,29,7d2b1379137e7d2c"/>
 <approved hash="18,29,8d3e9b6c9b6c8d3e"/>
 <approved hash="18,29,c36359115911c363"/>
 <approved hash="18,29,c1da6b886b89c1db"/>
 <approved hash="18,29,879e29cc29cd879f"/>
 <approved hash="18,29,d4e840ba40bbd4e9"/>
 <approved hash="18,29,9ab582c782c69ab4"/>
-<approved hash="18,29,8c42201020118c43"/>
 <approved hash="18,29,ca0662546255ca07"/>
+<approved hash="18,29,8c42201020118c43"/>
 <approved hash="18,29,dc4448164817dc45"/>
 <approved hash="18,29,92198a6b8a6a9218"/>
-<approved hash="18,29,d5357d677d64d536"/>
 <approved hash="18,29,93713f233f209372"/>
-<approved hash="18,29,2437726572622430"/>
+<approved hash="18,29,d5357d677d64d536"/>
 <approved hash="18,29,6a6ab018b01f6a6d"/>
+<approved hash="18,29,2437726572622430"/>
 <approved hash="18,29,99fa9b8a3774b58d"/>
+<approved hash="18,29,dc9972cb72c8dc9a"/>
 <approved hash="18,29,4191bb994bf81b79"/>
 <approved hash="18,29,9add308f308c9ade"/>
-<approved hash="18,29,b9f08eb482b8dd7c"/>
 <approved hash="18,29,aded878a87511eb3"/>
+<approved hash="18,29,b9f08eb482b8dd7c"/>
 <approved hash="18,29,0640dfaf44461d69"/>
-<approved hash="18,29,dc9972cb72c8dc9a"/>
-<approved hash="18,29,62ceb8bcb8c362b1"/>
 <approved hash="18,29,2c937ac17abe2cec"/>
-<approved hash="18,29,3b03df71df703b02"/>
+<approved hash="18,29,62ceb8bcb8c362b1"/>
 <approved hash="18,29,755e1d0c1d0d755f"/>
-<approved hash="18,29,7d3a256825697d3b"/>
+<approved hash="18,29,3b03df71df703b02"/>
 <approved hash="18,29,3367e715e7143366"/>
-<approved hash="18,29,14b80eca0ec914bb"/>
+<approved hash="18,29,7d3a256825697d3b"/>
 <approved hash="18,29,5ae5ccb7ccb45ae6"/>
-<approved hash="18,29,0c1c166e166d0c1f"/>
+<approved hash="18,29,14b80eca0ec914bb"/>
 <approved hash="18,29,4241d413d4104242"/>
+<approved hash="18,29,0c1c166e166d0c1f"/>
 </errors>
 </board>
 </drawing>
