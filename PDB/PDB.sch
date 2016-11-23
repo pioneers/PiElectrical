@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5175,12 +5175,10 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <part name="JP4" library="pie" deviceset="ATX" device=""/>
 <part name="JP5" library="pie" deviceset="ATX" device=""/>
 <part name="JP6" library="pie" deviceset="ATX" device=""/>
-<part name="FUSE_5V" library="pie" deviceset="JUMPER" device=""/>
-<part name="APM_5V" library="pie" deviceset="5V" device=""/>
 <part name="CALIB_JUMPER" library="pie" deviceset="JUMPER" device=""/>
 <part name="SUPPLY26" library="pie" deviceset="GND" device=""/>
 <part name="APM_5V1" library="pie" deviceset="5V" device=""/>
-<part name="R17" library="pie" deviceset="R-US_" device="R0603"/>
+<part name="R17" library="pie" deviceset="R-US_" device="R0603" value="3k"/>
 <part name="JP7" library="jumper" deviceset="JP1E" device=""/>
 <part name="SUPPLY27" library="pie" deviceset="GND" device=""/>
 <part name="JP8" library="pie" deviceset="M04" device="PTH"/>
@@ -5463,9 +5461,7 @@ POWER</text>
 will get regulated on the arduino.</text>
 <text x="-7.62" y="35.56" size="2.54" layer="97" font="vector">8-SEG DISPLAY ARRAY</text>
 <text x="-43.18" y="91.44" size="2.54" layer="97" font="vector">DEBUG FEATURES</text>
-<text x="30.48" y="7.62" size="2.54" layer="97" font="vector">APM 5V</text>
 <text x="-7.62" y="66.04" size="2.54" layer="97" font="vector">Discharge Resistor</text>
-<text x="7.112" y="52.324" size="1.778" layer="97" font="vector">3k</text>
 <text x="43.18" y="40.64" size="2.54" layer="97" font="vector">COTS BATTERY BUZZER</text>
 </plain>
 <instances>
@@ -5553,10 +5549,6 @@ will get regulated on the arduino.</text>
 <instance part="JP2" gate="G$1" x="-45.72" y="81.28"/>
 <instance part="SUPPLY25" gate="GND" x="-30.48" y="76.2"/>
 <instance part="LED2" gate="G$1" x="-33.02" y="-10.16" rot="R270"/>
-<instance part="FUSE_5V" gate="G$1" x="40.64" y="0" smashed="yes">
-<attribute name="NAME" x="38.1" y="5.08" size="1.27" layer="94" align="top-left"/>
-</instance>
-<instance part="APM_5V" gate="G$1" x="30.48" y="0" rot="R90"/>
 <instance part="CALIB_JUMPER" gate="G$1" x="40.64" y="-40.64" smashed="yes">
 <attribute name="NAME" x="38.1" y="-35.56" size="1.27" layer="94" align="top-left"/>
 </instance>
@@ -5587,6 +5579,10 @@ will get regulated on the arduino.</text>
 <pinref part="APM_5V1" gate="G$1" pin="5V"/>
 <wire x1="-2.54" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="UC1" gate="APM" pin="VCC"/>
+<wire x1="124.46" y1="17.78" x2="134.62" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6096,22 +6092,6 @@ will get regulated on the arduino.</text>
 <pinref part="LED2" gate="G$1" pin="DIG4"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="-5.08" y1="12.7" x2="5.08" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="APM_5V" class="0">
-<segment>
-<pinref part="UC1" gate="APM" pin="VCC"/>
-<wire x1="124.46" y1="17.78" x2="134.62" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="FUSE_5V" gate="G$1" pin="P$1"/>
-<wire x1="35.56" y1="0" x2="30.48" y2="0" width="0.1524" layer="91"/>
-<pinref part="APM_5V" gate="G$1" pin="5V"/>
-</segment>
-<segment>
-<pinref part="FUSE_5V" gate="G$1" pin="P$2"/>
-<wire x1="45.72" y1="0" x2="53.34" y2="0" width="0.1524" layer="91"/>
-<label x="49.022" y="0.254" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
