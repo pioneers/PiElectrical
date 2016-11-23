@@ -14,16 +14,14 @@ int buzzer = 10;
 
 unsigned long last_print_time = 0; //for the loop counter...
 
+
+boolean triple_calibration = true; //decide whether to use triple calibration or the simpler single calibration.
+
 float vref_guess = 2.56;  //initial guess, based on datasheet.
-
-float calib_1 = 2.56; //initial guess, based on datasheet.
-float calib_2 = 2.56; //initial guess, based on datasheet.
-float calib_3 = 2.56; //initial guess, based on datasheet.
+float calib[] = {2.56,2.56,2.56}; //initial guess, based on datasheet.
 
 
-
-bool buzzer_state = false;
-
+//got to keep these globals here to keep the compiler happy.
 float v_cell1;
 float v_cell2;
 float v_cell3;
@@ -32,7 +30,7 @@ float dv_cell3;
 float dv_cell2;
 
 
-bool prints = true; //If true, ASCII prints over serial @ 57600
+bool prints = true; //If true, ASCII prints over serial @ 57600.  prints calibration method, then cell readings.
 
 
 void setup() {
@@ -51,8 +49,8 @@ void setup() {
 
   setup_display();
   setup_sensing();
-
-
+  
+  
 }
 
 
@@ -60,16 +58,16 @@ void loop()
 {
   handle_8_segment(); //displays info via the 8-segment display.
   handle_calibration(); //calilbrates if neccessary.
-  
-    
+
   
 
   if (millis() - last_print_time > 250) //it's been more than 250ms since I last measured cells.
   {
     measure_cells();
-    //handle_saftey();
+    handle_saftey();
 
   }
+
   
 
 }

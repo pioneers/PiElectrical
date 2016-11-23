@@ -98,50 +98,87 @@ void handle_8_segment() //handles the 8-segment display, and prints out the glob
   }
   else if(segment_8_run == 2)
   {
-    if(sequence == 0)
+    if(triple_calibration)
     {
-      disp.write("CAL");
+      if(sequence == 0)
+      {
+        disp.write("CAL");
+      }
+      else if(sequence == 1)
+      {
+        disp.write("DONE");      
+      }
+      else if(sequence == 2)
+      {
+        disp.write("CAL.1");
+      }
+      else if(sequence == 3)
+      {
+        disp.write(calib[0],3);
+      }  
+      else if(sequence == 4)
+      {
+        disp.write("CAL.2");
+      }
+      else if(sequence == 5)
+      {
+        disp.write(calib[1],3);
+      }
+      else if(sequence == 6)
+      {
+        disp.write("CAL.3");
+      }
+      else if(sequence == 7)
+      {
+        disp.write(calib[2],3);
+      }
+
+      
+      if (millis() > (last_LED_time + 750) ) //every 3/4 second
+      {
+        sequence = sequence + 1;
+        if(sequence == 8)
+        {
+          start_8_seg_sequence(0); //return to default Programming... showing battery voltages.
+        }
+        last_LED_time = millis();
+      }
+      
     }
-    else if(sequence == 1)
+    else
     {
-      disp.write("DONE");      
-    }
-    if(sequence == 2)
-    {
-      disp.write("CAL");
-    }
-    if(sequence == 3)
-    {
-      disp.write(vref_guess,3);
+      if(sequence == 0)
+      {
+        disp.write("CAL");
+      }
+      else if(sequence == 1)
+      {
+        disp.write("DONE");      
+      }
+      if(sequence == 2)
+      {
+        disp.write("CAL");
+      }
+      if(sequence == 3)
+      {
+        disp.write(vref_guess,3);
+      }
+      
+      if (millis() > (last_LED_time + 750) ) //every 3/4 second
+      {
+        sequence = sequence + 1;
+        if(sequence == 4)
+        {
+          start_8_seg_sequence(0); //return to default Programming... showing battery voltages.
+        }
+        last_LED_time = millis();
+      }      
     }
     /*
-    if(sequence == 4)
-    {
-      disp.write("CAL.2");
-    }
-    if(sequence == 5)
-    {
-      disp.write(vref_guess,3);
-    }
-    if(sequence == 6)
-    {
-      disp.write("CAL.3");
-    }
-    if(sequence == 7)
-    {
-      disp.write(vref_guess,3);
+
     }
     */
 
-    if (millis() > (last_LED_time + 750) ) //every 3/4 second
-    {
-      sequence = sequence + 1;
-      if(sequence == 4)
-      {
-        start_8_seg_sequence(0); //return to default Programming... showing battery voltages.
-      }
-      last_LED_time = millis();
-    }
     
   }
   
