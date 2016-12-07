@@ -74,10 +74,13 @@ INA | 16
 INB | 10
 CS | 8
 PMW | 9
-
-Red = 2
-Yellow = 3
-Green = 4
+- | -
+Encoder A | 2
+Encoder B | 3
+- | -
+Red | 4
+Yellow | 5
+Green  6
 
 [New Motor 1](https://e-smotor.en.alibaba.com/product/60220884310-801307434/37GB_spur_gear_motor_with_encoder.html?spm=a2700.7803228.1998738836.575.wFZGi0)
 
