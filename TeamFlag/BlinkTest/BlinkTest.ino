@@ -19,8 +19,8 @@ int pin1 = 18;
 int pin2 = 19;
 int pin3 = 20;
 int pin4 = 21;
-int pin5 = 5;
-int pin6 = 6;
+int pin5 = 7;
+int pin6 = 8;
 int del = 100;
 
 void setup() {
