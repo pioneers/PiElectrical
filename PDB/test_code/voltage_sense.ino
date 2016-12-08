@@ -113,6 +113,12 @@ void handle_calibration() //called very frequently by loop.
     }
     else //I have arleady been calibrated with something.  reset it.
     {
+      //wait untill the button press goes away.
+      //This is to maintain commonality with how calibrate() works.
+      {
+        delay(1);
+      }
+      
       if(prints)
       {
         Serial.println("Clear EEPROM");
@@ -138,6 +144,16 @@ float calibrate() //calibrates the device.
     {
       Serial.println("I Should calibrate now");
     }
+
+    //wait untill the button press goes away.
+    //This is jank debouncing.
+    //Have to calibrate AFTER the button is pressed, not while.  Yes, it's wierd.  PCB issue.
+    while (digitalRead(calib_button))
+    {
+      delay(1);
+    }
+    delay(100);
+
 
     //ok.  let's assume (for now) that every line has 5V put at it.
     //I want to calculate the best-fit for the true vref.
@@ -185,12 +201,6 @@ float calibrate() //calibrates the device.
     }
 
 
-    //wait untill the button press goes away.
-    //This is jank debouncing.
-    while (digitalRead(calib_button))
-    {
-      delay(1);
-    }
 
     return vref_guess;
 
