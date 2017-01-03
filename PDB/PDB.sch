@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -236,11 +236,11 @@ Vertical
 <wire x1="31.75" y1="17.78" x2="31.75" y2="-26.67" width="0.127" layer="21"/>
 <wire x1="-31.75" y1="17.78" x2="-31.75" y2="-26.67" width="0.127" layer="21"/>
 <wire x1="-31.75" y1="-26.67" x2="31.75" y2="-26.67" width="0.127" layer="21"/>
-<text x="-3.81" y="-22.86" size="1.778" layer="25" font="vector" rot="R180">Buck Converter 5V</text>
-<text x="-5.08" y="35.56" size="1.778" layer="27" font="vector" ratio="10" rot="R90">OUT+</text>
-<text x="-1.27" y="35.56" size="1.778" layer="27" font="vector" ratio="10" rot="R90">OUT-</text>
-<text x="2.54" y="35.56" size="1.778" layer="27" font="vector" ratio="10" rot="R90">IN-</text>
-<text x="6.35" y="35.56" size="1.778" layer="27" font="vector" ratio="10" rot="R90">IN+</text>
+<text x="12.7" y="16.51" size="1.778" layer="25" font="vector" rot="R180">Buck Converter 5V</text>
+<text x="-5.08" y="22.86" size="1.778" layer="27" font="vector" ratio="10" rot="R90">OUT+</text>
+<text x="-1.27" y="22.86" size="1.778" layer="27" font="vector" ratio="10" rot="R90">OUT-</text>
+<text x="2.54" y="22.86" size="1.778" layer="27" font="vector" ratio="10" rot="R90">IN-</text>
+<text x="6.35" y="22.86" size="1.778" layer="27" font="vector" ratio="10" rot="R90">IN+</text>
 <wire x1="7.62" y1="34.29" x2="7.62" y2="17.78" width="0.127" layer="21"/>
 <wire x1="7.62" y1="17.78" x2="31.75" y2="17.78" width="0.127" layer="21"/>
 <wire x1="-8.89" y1="34.29" x2="-8.89" y2="17.78" width="0.127" layer="21"/>
@@ -2664,23 +2664,29 @@ Horizontal &lt;br&gt;
 <rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="40"/>
 </package>
 <package name="ATX">
-<pad name="P$1" x="-3" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$2" x="3.7" y="0" drill="1" diameter="2.1844"/>
+<pad name="P$1" x="-3" y="0" drill="2.2" diameter="3.5"/>
+<pad name="P$2" x="3.7" y="0" drill="2.2" diameter="3.5"/>
 <circle x="-3" y="0" radius="2.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-2.5" x2="4" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
 <wire x1="4" y1="2.5" x2="6.5" y2="0" width="0.127" layer="21" curve="-90"/>
 <wire x1="6.5" y1="0" x2="4" y2="-2.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="-7" y1="3" x2="-6" y2="3" width="0.127" layer="21"/>
-<wire x1="-6" y1="3" x2="7" y2="3" width="0.127" layer="21"/>
-<wire x1="7" y1="3" x2="8" y2="3" width="0.127" layer="21"/>
-<wire x1="-7" y1="3" x2="-7" y2="-3" width="0.127" layer="21"/>
-<wire x1="-7" y1="-3" x2="8" y2="-3" width="0.127" layer="21"/>
-<wire x1="8" y1="-3" x2="8" y2="3" width="0.127" layer="21"/>
-<wire x1="7" y1="3" x2="7" y2="4" width="0.127" layer="21"/>
-<wire x1="7" y1="4" x2="-6" y2="4" width="0.127" layer="21"/>
+<wire x1="-7.2" y1="3" x2="-6" y2="3" width="0.127" layer="21"/>
+<wire x1="-6" y1="3" x2="6" y2="3" width="0.127" layer="21"/>
+<wire x1="-7.2" y1="3" x2="-7.2" y2="-3" width="0.127" layer="21"/>
+<wire x1="-7.2" y1="-3" x2="7" y2="-3" width="0.127" layer="21"/>
+<wire x1="6" y1="3" x2="6" y2="4" width="0.127" layer="21"/>
+<wire x1="6" y1="4" x2="-6" y2="4" width="0.127" layer="21"/>
 <wire x1="-6" y1="4" x2="-6" y2="3" width="0.127" layer="21"/>
+<hole x="9.1" y="1.1" drill="3"/>
+<wire x1="6" y1="3" x2="7" y2="3" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="7" y2="-1" width="0.127" layer="21"/>
+<wire x1="7" y1="-1" x2="7" y2="-3" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="7" y2="3.5" width="0.127" layer="21"/>
+<wire x1="7" y1="3.5" x2="11.3" y2="3.5" width="0.127" layer="21"/>
+<wire x1="11.3" y1="3.5" x2="11.3" y2="-1" width="0.127" layer="21"/>
+<wire x1="11.3" y1="-1" x2="7" y2="-1" width="0.127" layer="21"/>
 </package>
 <package name="JUMPER">
 <pad name="P$1" x="-1.27" y="0" drill="1" diameter="2.286"/>
@@ -3390,8 +3396,8 @@ BREAKER</text>
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<pin name="P$1" x="-10.16" y="2.54" visible="pad" length="middle" direction="pwr"/>
-<pin name="P$2" x="-10.16" y="-5.08" visible="pad" length="middle" direction="pwr"/>
+<pin name="P$1" x="-10.16" y="2.54" visible="off" length="middle" direction="pwr"/>
+<pin name="P$2" x="-10.16" y="-5.08" visible="off" length="middle" direction="pwr"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="94">GND</text>
 <text x="-2.54" y="2.54" size="1.778" layer="94">Vcc</text>
 <text x="-5.08" y="7.62" size="1.778" layer="94">&gt;NAME</text>
