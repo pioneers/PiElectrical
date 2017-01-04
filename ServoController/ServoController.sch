@@ -282,23 +282,29 @@ Drawings &lt;/a&gt;</description>
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.127" layer="21"/>
 </package>
 <package name="ATX">
-<pad name="P$1" x="-3" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$2" x="3.7" y="0" drill="1" diameter="2.1844"/>
+<pad name="P$1" x="-3" y="0" drill="2.2" diameter="3.5"/>
+<pad name="P$2" x="3.7" y="0" drill="2.2" diameter="3.5"/>
 <circle x="-3" y="0" radius="2.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-2.5" x2="4" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
 <wire x1="4" y1="2.5" x2="6.5" y2="0" width="0.127" layer="21" curve="-90"/>
 <wire x1="6.5" y1="0" x2="4" y2="-2.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="-7" y1="3" x2="-6" y2="3" width="0.127" layer="21"/>
-<wire x1="-6" y1="3" x2="7" y2="3" width="0.127" layer="21"/>
-<wire x1="7" y1="3" x2="8" y2="3" width="0.127" layer="21"/>
-<wire x1="-7" y1="3" x2="-7" y2="-3" width="0.127" layer="21"/>
-<wire x1="-7" y1="-3" x2="8" y2="-3" width="0.127" layer="21"/>
-<wire x1="8" y1="-3" x2="8" y2="3" width="0.127" layer="21"/>
-<wire x1="7" y1="3" x2="7" y2="4" width="0.127" layer="21"/>
-<wire x1="7" y1="4" x2="-6" y2="4" width="0.127" layer="21"/>
+<wire x1="-7.2" y1="3" x2="-6" y2="3" width="0.127" layer="21"/>
+<wire x1="-6" y1="3" x2="6" y2="3" width="0.127" layer="21"/>
+<wire x1="-7.2" y1="3" x2="-7.2" y2="-3" width="0.127" layer="21"/>
+<wire x1="-7.2" y1="-3" x2="7" y2="-3" width="0.127" layer="21"/>
+<wire x1="6" y1="3" x2="6" y2="4" width="0.127" layer="21"/>
+<wire x1="6" y1="4" x2="-6" y2="4" width="0.127" layer="21"/>
 <wire x1="-6" y1="4" x2="-6" y2="3" width="0.127" layer="21"/>
+<hole x="9.1" y="1.1" drill="3"/>
+<wire x1="6" y1="3" x2="7" y2="3" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="7" y2="-1" width="0.127" layer="21"/>
+<wire x1="7" y1="-1" x2="7" y2="-3" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="7" y2="3.5" width="0.127" layer="21"/>
+<wire x1="7" y1="3.5" x2="11.3" y2="3.5" width="0.127" layer="21"/>
+<wire x1="11.3" y1="3.5" x2="11.3" y2="-1" width="0.127" layer="21"/>
+<wire x1="11.3" y1="-1" x2="7" y2="-1" width="0.127" layer="21"/>
 </package>
 <package name="ARDUINO_PRO_MICRO_SM">
 <description>&lt;b&gt;Arduino Pro Micro Surface Mount&lt;/b&gt;
@@ -306,52 +312,40 @@ Drawings &lt;/a&gt;</description>
 &lt;p&gt;Surface Mount for APM&lt;/p&gt;</description>
 <wire x1="0" y1="33" x2="18.796" y2="33" width="0.127" layer="21"/>
 <wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<smd name="9" x="3.302" y="1.27" dx="2" dy="1" layer="1"/>
-<smd name="8" x="0" y="3.81" dx="2" dy="1" layer="1"/>
-<smd name="7" x="3.302" y="6.35" dx="2" dy="1" layer="1"/>
-<smd name="6" x="0" y="8.89" dx="2" dy="1" layer="1"/>
-<smd name="5" x="3.302" y="11.43" dx="2" dy="1" layer="1"/>
-<smd name="4" x="0" y="13.97" dx="2" dy="1" layer="1"/>
-<smd name="3" x="3.302" y="16.51" dx="2" dy="1" layer="1"/>
-<smd name="2" x="0" y="19.05" dx="2" dy="1" layer="1"/>
-<smd name="GND@2" x="3.302" y="21.59" dx="2" dy="1" layer="1"/>
-<smd name="GND@1" x="0" y="24.13" dx="2" dy="1" layer="1"/>
-<smd name="RX" x="3.302" y="26.67" dx="2" dy="1" layer="1"/>
-<smd name="TX" x="0" y="29.21" dx="2" dy="1" layer="1"/>
-<smd name="10" x="15.369" y="1.27" dx="2" dy="1" layer="1"/>
-<smd name="16" x="18.669" y="3.81" dx="2" dy="1" layer="1"/>
-<smd name="14" x="15.369" y="6.35" dx="2" dy="1" layer="1"/>
-<smd name="15" x="18.669" y="8.89" dx="2" dy="1" layer="1"/>
-<smd name="A0" x="15.369" y="11.43" dx="2" dy="1" layer="1"/>
-<smd name="A1" x="18.669" y="13.97" dx="2" dy="1" layer="1"/>
-<smd name="A2" x="15.369" y="16.51" dx="2" dy="1" layer="1"/>
-<smd name="A3" x="18.669" y="19.05" dx="2" dy="1" layer="1"/>
-<smd name="VCC" x="15.369" y="21.59" dx="2" dy="1" layer="1"/>
-<smd name="RST" x="18.669" y="24.13" dx="2" dy="1" layer="1"/>
-<smd name="GND@3" x="15.369" y="26.67" dx="2" dy="1" layer="1"/>
-<smd name="RAW" x="18.669" y="29.21" dx="2" dy="1" layer="1"/>
+<smd name="9" x="0" y="1.27" dx="2" dy="1" layer="1"/>
+<smd name="8" x="3.302" y="3.81" dx="2" dy="1" layer="1"/>
+<smd name="7" x="0" y="6.35" dx="2" dy="1" layer="1"/>
+<smd name="6" x="3.302" y="8.89" dx="2" dy="1" layer="1"/>
+<smd name="5" x="0" y="11.43" dx="2" dy="1" layer="1"/>
+<smd name="4" x="3.302" y="13.97" dx="2" dy="1" layer="1"/>
+<smd name="3" x="0" y="16.51" dx="2" dy="1" layer="1"/>
+<smd name="2" x="3.302" y="19.05" dx="2" dy="1" layer="1"/>
+<smd name="GND@2" x="0" y="21.59" dx="2" dy="1" layer="1"/>
+<smd name="GND@1" x="3.302" y="24.13" dx="2" dy="1" layer="1"/>
+<smd name="RX" x="0" y="26.67" dx="2" dy="1" layer="1"/>
+<smd name="TX" x="3.302" y="29.21" dx="2" dy="1" layer="1"/>
 <text x="9.525" y="5.08" size="1.27" layer="21" font="vector" rot="R90">&gt;NAME</text>
 <wire x1="5.08" y1="34.29" x2="5.08" y2="29.21" width="0.127" layer="21"/>
 <wire x1="5.08" y1="29.21" x2="12.7" y2="29.21" width="0.127" layer="21"/>
 <wire x1="12.7" y1="29.21" x2="12.7" y2="34.29" width="0.127" layer="21"/>
 <text x="5.969" y="30.48" size="0.762" layer="21" font="vector">Micro USB</text>
-<text x="3.302" y="29.21" size="0.762" layer="21" font="vector" align="center">TX</text>
-<text x="0.532" y="26.67" size="0.762" layer="21" font="vector" align="center">RX</text>
-<text x="3.302" y="24.13" size="0.762" layer="21" font="vector" align="center">GND</text>
-<text x="0.532" y="21.59" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="0.762" y="29.21" size="0.762" layer="21" font="vector" align="center">TX</text>
+<text x="3.072" y="26.67" size="0.762" layer="21" font="vector" align="center">RX</text>
+<text x="0.762" y="24.13" size="0.762" layer="21" font="vector" align="center">GND</text>
+<text x="3.072" y="21.59" size="0.762" layer="21" font="vector" align="center">GND</text>
 <text x="18.129" y="26.67" size="0.762" layer="21" font="vector" align="center">GND</text>
 <text x="15.24" y="29.21" size="0.762" layer="21" font="vector" align="center">RAW</text>
-<text x="3.302" y="19.05" size="0.762" layer="21" font="vector" align="center">2</text>
-<text x="0.532" y="16.51" size="0.762" layer="21" font="vector" align="center">3</text>
-<text x="3.302" y="13.97" size="0.762" layer="21" font="vector" align="center">4</text>
-<text x="0.532" y="11.43" size="0.762" layer="21" font="vector" align="center">5</text>
-<text x="3.302" y="8.89" size="0.762" layer="21" font="vector" align="center">6</text>
-<text x="0.532" y="6.35" size="0.762" layer="21" font="vector" align="center">7</text>
-<text x="3.302" y="3.81" size="0.762" layer="21" font="vector" align="center">8</text>
-<text x="0.532" y="1.27" size="0.762" layer="21" font="vector" align="center">9</text>
+<text x="0.762" y="19.05" size="0.762" layer="21" font="vector" align="center">2</text>
+<text x="3.072" y="16.51" size="0.762" layer="21" font="vector" align="center">3</text>
+<text x="0.762" y="13.97" size="0.762" layer="21" font="vector" align="center">4</text>
+<text x="3.072" y="11.43" size="0.762" layer="21" font="vector" align="center">5</text>
+<text x="0.762" y="8.89" size="0.762" layer="21" font="vector" align="center">6</text>
+<text x="3.072" y="6.35" size="0.762" layer="21" font="vector" align="center">7</text>
+<text x="0.762" y="3.81" size="0.762" layer="21" font="vector" align="center">8</text>
+<text x="3.072" y="1.27" size="0.762" layer="21" font="vector" align="center">9</text>
 <text x="15.24" y="24.13" size="0.762" layer="21" font="vector" align="center">RST</text>
 <text x="18.129" y="21.59" size="0.762" layer="21" font="vector" align="center">VCC</text>
-<text x="15.24" y="19.05" size="0.762" layer="21" font="vector" align="center">A0</text>
+<text x="15.24" y="19.05" size="0.762" layer="21" font="vector" align="center">A3</text>
 <text x="18.129" y="16.51" size="0.762" layer="21" font="vector" align="center">A2</text>
 <text x="15.24" y="13.97" size="0.762" layer="21" font="vector" align="center">A1</text>
 <text x="18.129" y="11.43" size="0.762" layer="21" font="vector" align="center">A0</text>
@@ -360,23 +354,39 @@ Drawings &lt;/a&gt;</description>
 <text x="15.24" y="3.81" size="0.762" layer="21" font="vector" align="center">16</text>
 <text x="18.129" y="1.27" size="0.762" layer="21" font="vector" align="center">10</text>
 <wire x1="0" y1="33.02" x2="0" y2="29.972" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="3.048" width="0.127" layer="21"/>
-<wire x1="0" y1="4.572" x2="0" y2="8.128" width="0.127" layer="21"/>
-<wire x1="0" y1="9.652" x2="0" y2="13.208" width="0.127" layer="21"/>
-<wire x1="0" y1="14.732" x2="0" y2="18.288" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="0.508" width="0.127" layer="21"/>
+<wire x1="0" y1="7.112" x2="0" y2="10.668" width="0.127" layer="21"/>
+<wire x1="0" y1="12.192" x2="0" y2="15.748" width="0.127" layer="21"/>
+<wire x1="0" y1="17.272" x2="0" y2="20.828" width="0.127" layer="21"/>
 <wire x1="18.796" y1="33.02" x2="18.796" y2="29.972" width="0.127" layer="21"/>
-<wire x1="18.796" y1="28.448" x2="18.796" y2="27.178" width="0.127" layer="21"/>
-<wire x1="18.796" y1="26.162" x2="18.796" y2="24.892" width="0.127" layer="21"/>
-<wire x1="18.796" y1="23.368" x2="18.796" y2="22.098" width="0.127" layer="21"/>
-<wire x1="18.796" y1="21.082" x2="18.796" y2="19.812" width="0.127" layer="21"/>
-<wire x1="18.796" y1="18.288" x2="18.796" y2="14.732" width="0.127" layer="21"/>
-<wire x1="18.796" y1="13.208" x2="18.796" y2="9.652" width="0.127" layer="21"/>
-<wire x1="18.796" y1="8.128" x2="18.796" y2="4.572" width="0.127" layer="21"/>
-<wire x1="18.796" y1="3.048" x2="18.796" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="19.812" x2="0" y2="21.082" width="0.127" layer="21"/>
-<wire x1="0" y1="22.098" x2="0" y2="23.368" width="0.127" layer="21"/>
-<wire x1="0" y1="24.892" x2="0" y2="26.162" width="0.127" layer="21"/>
-<wire x1="0" y1="27.178" x2="0" y2="28.448" width="0.127" layer="21"/>
+<wire x1="18.796" y1="28.448" x2="18.796" y2="27.432" width="0.127" layer="21"/>
+<wire x1="18.796" y1="25.908" x2="18.796" y2="24.892" width="0.127" layer="21"/>
+<wire x1="18.796" y1="23.368" x2="18.796" y2="22.352" width="0.127" layer="21"/>
+<wire x1="18.796" y1="20.828" x2="18.796" y2="19.812" width="0.127" layer="21"/>
+<wire x1="18.796" y1="18.288" x2="18.796" y2="17.272" width="0.127" layer="21"/>
+<wire x1="18.796" y1="8.128" x2="18.796" y2="7.112" width="0.127" layer="21"/>
+<wire x1="18.796" y1="0.508" x2="18.796" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="22.352" x2="0" y2="23.368" width="0.127" layer="21"/>
+<wire x1="0" y1="24.892" x2="0" y2="25.908" width="0.127" layer="21"/>
+<wire x1="0" y1="27.432" x2="0" y2="28.448" width="0.127" layer="21"/>
+<smd name="10" x="15.494" y="1.27" dx="2" dy="1" layer="1"/>
+<smd name="16" x="18.796" y="3.81" dx="2" dy="1" layer="1"/>
+<smd name="14" x="15.494" y="6.35" dx="2" dy="1" layer="1"/>
+<smd name="15" x="18.796" y="8.89" dx="2" dy="1" layer="1"/>
+<smd name="A0" x="15.494" y="11.43" dx="2" dy="1" layer="1"/>
+<smd name="A1" x="18.796" y="13.97" dx="2" dy="1" layer="1"/>
+<smd name="A2" x="15.494" y="16.51" dx="2" dy="1" layer="1"/>
+<smd name="A3" x="18.796" y="19.05" dx="2" dy="1" layer="1"/>
+<smd name="VCC" x="15.494" y="21.59" dx="2" dy="1" layer="1"/>
+<smd name="RST" x="18.796" y="24.13" dx="2" dy="1" layer="1"/>
+<smd name="GND" x="15.494" y="26.67" dx="2" dy="1" layer="1"/>
+<smd name="RAW" x="18.796" y="29.21" dx="2" dy="1" layer="1"/>
+<wire x1="18.796" y1="15.748" x2="18.796" y2="14.732" width="0.127" layer="21"/>
+<wire x1="18.796" y1="13.208" x2="18.796" y2="12.192" width="0.127" layer="21"/>
+<wire x1="18.796" y1="3.048" x2="18.796" y2="2.032" width="0.127" layer="21"/>
+<wire x1="18.796" y1="5.588" x2="18.796" y2="4.572" width="0.127" layer="21"/>
+<wire x1="18.796" y1="10.668" x2="18.796" y2="9.652" width="0.127" layer="21"/>
+<wire x1="0" y1="2.032" x2="0" y2="5.588" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -574,9 +584,9 @@ Standard 8.5x11 US Letter frame</description>
 <connect gate="APM" pin="A1" pad="A1"/>
 <connect gate="APM" pin="A2" pad="A2"/>
 <connect gate="APM" pin="A3" pad="A3"/>
-<connect gate="APM" pin="GND@0" pad="GND@1"/>
-<connect gate="APM" pin="GND@1" pad="GND@2"/>
-<connect gate="APM" pin="GND@2" pad="GND@3"/>
+<connect gate="APM" pin="GND@0" pad="GND"/>
+<connect gate="APM" pin="GND@1" pad="GND@1"/>
+<connect gate="APM" pin="GND@2" pad="GND@2"/>
 <connect gate="APM" pin="RAW" pad="RAW"/>
 <connect gate="APM" pin="RST" pad="RST"/>
 <connect gate="APM" pin="RXI" pad="RX"/>
