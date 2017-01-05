@@ -678,31 +678,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <hole x="0" y="0" drill="3.302"/>
 <circle x="0" y="0" radius="2.78821875" width="0.127" layer="39"/>
 </package>
-<package name="ATX">
-<pad name="P$1" x="-3" y="0" drill="2.2" diameter="3.5"/>
-<pad name="P$2" x="3.7" y="0" drill="2.2" diameter="3.5"/>
-<circle x="-3" y="0" radius="2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-2.5" x2="4" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
-<wire x1="4" y1="2.5" x2="6.5" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="6.5" y1="0" x2="4" y2="-2.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="-7.2" y1="3" x2="-6" y2="3" width="0.127" layer="21"/>
-<wire x1="-6" y1="3" x2="6" y2="3" width="0.127" layer="21"/>
-<wire x1="-7.2" y1="3" x2="-7.2" y2="-3" width="0.127" layer="21"/>
-<wire x1="-7.2" y1="-3" x2="7" y2="-3" width="0.127" layer="21"/>
-<wire x1="6" y1="3" x2="6" y2="4" width="0.127" layer="21"/>
-<wire x1="6" y1="4" x2="-6" y2="4" width="0.127" layer="21"/>
-<wire x1="-6" y1="4" x2="-6" y2="3" width="0.127" layer="21"/>
-<hole x="9.1" y="1.1" drill="3"/>
-<wire x1="6" y1="3" x2="7" y2="3" width="0.127" layer="21"/>
-<wire x1="7" y1="3" x2="7" y2="-1" width="0.127" layer="21"/>
-<wire x1="7" y1="-1" x2="7" y2="-3" width="0.127" layer="21"/>
-<wire x1="7" y1="3" x2="7" y2="3.5" width="0.127" layer="21"/>
-<wire x1="7" y1="3.5" x2="11.3" y2="3.5" width="0.127" layer="21"/>
-<wire x1="11.3" y1="3.5" x2="11.3" y2="-1" width="0.127" layer="21"/>
-<wire x1="11.3" y1="-1" x2="7" y2="-1" width="0.127" layer="21"/>
-</package>
 <package name="OSHW-LOGO-S">
 <polygon width="0.15" layer="21">
 <vertex x="0.3947" y="-0.9528" curve="9.498218"/>
@@ -739,6 +714,32 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <vertex x="-0.4688" y="0" curve="-247.473915"/>
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
+</package>
+<package name="ATX">
+<pad name="P$1" x="-3" y="0" drill="2.2" diameter="3.5"/>
+<pad name="P$2" x="3.7" y="0" drill="2.2" diameter="3.5"/>
+<circle x="-3" y="0" radius="2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2.5" x2="4" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
+<wire x1="4" y1="2.5" x2="6.5" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="6.5" y1="0" x2="4" y2="-2.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-7.2" y1="3" x2="-6" y2="3" width="0.127" layer="21"/>
+<wire x1="-6" y1="3" x2="6" y2="3" width="0.127" layer="21"/>
+<wire x1="-7.2" y1="3" x2="-7.2" y2="-3" width="0.127" layer="21"/>
+<wire x1="-7.2" y1="-3" x2="7" y2="-3" width="0.127" layer="21"/>
+<wire x1="6" y1="3" x2="6" y2="4" width="0.127" layer="21"/>
+<wire x1="6" y1="4" x2="-6" y2="4" width="0.127" layer="21"/>
+<wire x1="-6" y1="4" x2="-6" y2="3" width="0.127" layer="21"/>
+<hole x="9.1" y="1.1" drill="3"/>
+<wire x1="6" y1="3" x2="7" y2="3" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="7" y2="-1" width="0.127" layer="21"/>
+<wire x1="7" y1="-1" x2="7" y2="-3" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="7" y2="3.5" width="0.127" layer="21"/>
+<wire x1="7" y1="3.5" x2="11.3" y2="3.5" width="0.127" layer="21"/>
+<wire x1="11.3" y1="3.5" x2="11.3" y2="-1" width="0.127" layer="21"/>
+<wire x1="11.3" y1="-1" x2="7" y2="-1" width="0.127" layer="21"/>
+<text x="-2.54" y="-5.08" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -950,9 +951,9 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <element name="U$1" library="pie" package="STAND-OFF" value="" x="22.86" y="46.482"/>
 <element name="U$3" library="pie" package="STAND-OFF" value="" x="3.81" y="3.81"/>
 <element name="U$4" library="pie" package="STAND-OFF" value="" x="3.81" y="46.228"/>
-<element name="JP3" library="pie" package="ATX" value="ATX" x="26.67" y="36.068" rot="R270"/>
 <element name="U$5" library="pie" package="STAND-OFF" value="" x="22.86" y="3.81"/>
 <element name="U$6" library="pie" package="OSHW-LOGO-S" value="" x="8.128" y="39.878" rot="MR90"/>
+<element name="CONN1" library="pie" package="ATX" value="ATX" x="26.67" y="35.814" smashed="yes" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -967,7 +968,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <contactref element="APM" pad="GND@0"/>
 <contactref element="APM" pad="GND@1"/>
 <contactref element="APM" pad="GND@2"/>
-<contactref element="JP3" pad="P$2"/>
+<contactref element="CONN1" pad="P$2"/>
 </signal>
 <signal name="VCC">
 <contactref element="JP1" pad="2"/>
@@ -978,7 +979,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <vertex x="31.496" y="0.254"/>
 <vertex x="0.254" y="0.508"/>
 </polygon>
-<contactref element="JP3" pad="P$1"/>
+<contactref element="CONN1" pad="P$1"/>
 </signal>
 <signal name="SIG1">
 <contactref element="JP1" pad="1"/>

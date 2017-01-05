@@ -281,31 +281,6 @@ Drawings &lt;/a&gt;</description>
 <wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.127" layer="21"/>
 </package>
-<package name="ATX">
-<pad name="P$1" x="-3" y="0" drill="2.2" diameter="3.5"/>
-<pad name="P$2" x="3.7" y="0" drill="2.2" diameter="3.5"/>
-<circle x="-3" y="0" radius="2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-2.5" x2="4" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
-<wire x1="4" y1="2.5" x2="6.5" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="6.5" y1="0" x2="4" y2="-2.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="-7.2" y1="3" x2="-6" y2="3" width="0.127" layer="21"/>
-<wire x1="-6" y1="3" x2="6" y2="3" width="0.127" layer="21"/>
-<wire x1="-7.2" y1="3" x2="-7.2" y2="-3" width="0.127" layer="21"/>
-<wire x1="-7.2" y1="-3" x2="7" y2="-3" width="0.127" layer="21"/>
-<wire x1="6" y1="3" x2="6" y2="4" width="0.127" layer="21"/>
-<wire x1="6" y1="4" x2="-6" y2="4" width="0.127" layer="21"/>
-<wire x1="-6" y1="4" x2="-6" y2="3" width="0.127" layer="21"/>
-<hole x="9.1" y="1.1" drill="3"/>
-<wire x1="6" y1="3" x2="7" y2="3" width="0.127" layer="21"/>
-<wire x1="7" y1="3" x2="7" y2="-1" width="0.127" layer="21"/>
-<wire x1="7" y1="-1" x2="7" y2="-3" width="0.127" layer="21"/>
-<wire x1="7" y1="3" x2="7" y2="3.5" width="0.127" layer="21"/>
-<wire x1="7" y1="3.5" x2="11.3" y2="3.5" width="0.127" layer="21"/>
-<wire x1="11.3" y1="3.5" x2="11.3" y2="-1" width="0.127" layer="21"/>
-<wire x1="11.3" y1="-1" x2="7" y2="-1" width="0.127" layer="21"/>
-</package>
 <package name="ARDUINO_PRO_MICRO_SM">
 <description>&lt;b&gt;Arduino Pro Micro Surface Mount&lt;/b&gt;
 
@@ -387,6 +362,32 @@ Drawings &lt;/a&gt;</description>
 <wire x1="18.796" y1="5.588" x2="18.796" y2="4.572" width="0.127" layer="21"/>
 <wire x1="18.796" y1="10.668" x2="18.796" y2="9.652" width="0.127" layer="21"/>
 <wire x1="0" y1="2.032" x2="0" y2="5.588" width="0.127" layer="21"/>
+</package>
+<package name="ATX">
+<pad name="P$1" x="-3" y="0" drill="2.2" diameter="3.5"/>
+<pad name="P$2" x="3.7" y="0" drill="2.2" diameter="3.5"/>
+<circle x="-3" y="0" radius="2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2.5" x2="4" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
+<wire x1="4" y1="2.5" x2="6.5" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="6.5" y1="0" x2="4" y2="-2.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-7.2" y1="3" x2="-6" y2="3" width="0.127" layer="21"/>
+<wire x1="-6" y1="3" x2="6" y2="3" width="0.127" layer="21"/>
+<wire x1="-7.2" y1="3" x2="-7.2" y2="-3" width="0.127" layer="21"/>
+<wire x1="-7.2" y1="-3" x2="7" y2="-3" width="0.127" layer="21"/>
+<wire x1="6" y1="3" x2="6" y2="4" width="0.127" layer="21"/>
+<wire x1="6" y1="4" x2="-6" y2="4" width="0.127" layer="21"/>
+<wire x1="-6" y1="4" x2="-6" y2="3" width="0.127" layer="21"/>
+<hole x="9.1" y="1.1" drill="3"/>
+<wire x1="6" y1="3" x2="7" y2="3" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="7" y2="-1" width="0.127" layer="21"/>
+<wire x1="7" y1="-1" x2="7" y2="-3" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="7" y2="3.5" width="0.127" layer="21"/>
+<wire x1="7" y1="3.5" x2="11.3" y2="3.5" width="0.127" layer="21"/>
+<wire x1="11.3" y1="3.5" x2="11.3" y2="-1" width="0.127" layer="21"/>
+<wire x1="11.3" y1="-1" x2="7" y2="-1" width="0.127" layer="21"/>
+<text x="-2.54" y="-5.08" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -644,7 +645,7 @@ Standard 8.5x11 US Letter frame</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATX" prefix="JP">
+<deviceset name="ATX" prefix="CONN">
 <description>&lt;b&gt;ATX 2 Pin Connector&lt;/b&gt;
 
 &lt;p&gt;
@@ -655,13 +656,13 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 &lt;p&gt;Male crimps: http://www.digikey.com/product-detail/en/molex-llc/0002092103/WM1100-ND/26384&lt;/p&gt;
 &lt;p&gt;Female crimps: http://www.digikey.com/product-detail/en/molex-llc/0002091104/WM1101-ND/26386 &lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="ATX" x="0" y="2.54"/>
+<gate name="CONN$1" symbol="ATX" x="0" y="2.54"/>
 </gates>
 <devices>
 <device name="" package="ATX">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="CONN$1" pin="P$1" pad="P$1"/>
+<connect gate="CONN$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -691,7 +692,7 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <part name="SUPPLY2" library="pie" deviceset="GND" device=""/>
 <part name="JP2" library="pie" deviceset="M03" device="1X03-MTA"/>
 <part name="SUPPLY3" library="pie" deviceset="GND" device=""/>
-<part name="JP3" library="pie" deviceset="ATX" device=""/>
+<part name="CONN1" library="pie" deviceset="ATX" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -709,7 +710,7 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <instance part="SUPPLY2" gate="GND" x="149.86" y="111.76" rot="R90"/>
 <instance part="JP2" gate="G$1" x="139.7" y="93.98"/>
 <instance part="SUPPLY3" gate="GND" x="149.86" y="96.52" rot="R90"/>
-<instance part="JP3" gate="G$1" x="195.58" y="106.68"/>
+<instance part="CONN1" gate="CONN$1" x="198.12" y="106.68"/>
 </instances>
 <busses>
 </busses>
@@ -739,20 +740,21 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <label x="124.46" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="P$2"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
+<wire x1="187.96" y1="101.6" x2="185.42" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="CONN1" gate="CONN$1" pin="P$2"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="109.22" x2="147.32" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="109.22" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="P$1"/>
 <label x="167.64" y="109.22" size="1.778" layer="95"/>
+<pinref part="CONN1" gate="CONN$1" pin="P$1"/>
 </segment>
 </net>
 <net name="SIG1" class="0">
