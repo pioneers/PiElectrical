@@ -2663,31 +2663,6 @@ Horizontal &lt;br&gt;
 <rectangle x1="-2.54" y1="-2.54" x2="2.54" y2="3.302" layer="39"/>
 <rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="40"/>
 </package>
-<package name="ATX">
-<pad name="P$1" x="-3" y="0" drill="2.2" diameter="3.5"/>
-<pad name="P$2" x="3.7" y="0" drill="2.2" diameter="3.5"/>
-<circle x="-3" y="0" radius="2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-2.5" x2="4" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
-<wire x1="4" y1="2.5" x2="6.5" y2="0" width="0.127" layer="21" curve="-90"/>
-<wire x1="6.5" y1="0" x2="4" y2="-2.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="-7.2" y1="3" x2="-6" y2="3" width="0.127" layer="21"/>
-<wire x1="-6" y1="3" x2="6" y2="3" width="0.127" layer="21"/>
-<wire x1="-7.2" y1="3" x2="-7.2" y2="-3" width="0.127" layer="21"/>
-<wire x1="-7.2" y1="-3" x2="7" y2="-3" width="0.127" layer="21"/>
-<wire x1="6" y1="3" x2="6" y2="4" width="0.127" layer="21"/>
-<wire x1="6" y1="4" x2="-6" y2="4" width="0.127" layer="21"/>
-<wire x1="-6" y1="4" x2="-6" y2="3" width="0.127" layer="21"/>
-<hole x="9.1" y="1.1" drill="3"/>
-<wire x1="6" y1="3" x2="7" y2="3" width="0.127" layer="21"/>
-<wire x1="7" y1="3" x2="7" y2="-1" width="0.127" layer="21"/>
-<wire x1="7" y1="-1" x2="7" y2="-3" width="0.127" layer="21"/>
-<wire x1="7" y1="3" x2="7" y2="3.5" width="0.127" layer="21"/>
-<wire x1="7" y1="3.5" x2="11.3" y2="3.5" width="0.127" layer="21"/>
-<wire x1="11.3" y1="3.5" x2="11.3" y2="-1" width="0.127" layer="21"/>
-<wire x1="11.3" y1="-1" x2="7" y2="-1" width="0.127" layer="21"/>
-</package>
 <package name="JUMPER">
 <pad name="P$1" x="-1.27" y="0" drill="1" diameter="2.286"/>
 <pad name="P$2" x="1.27" y="0" drill="1" diameter="2.286"/>
@@ -2825,6 +2800,32 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <rectangle x1="-5.08" y1="1.905" x2="5.08" y2="2.54" layer="21"/>
 <rectangle x1="-5.08" y1="-1.27" x2="5.08" y2="1.27" layer="40"/>
 <rectangle x1="-5.08" y1="-2.54" x2="5.08" y2="3.302" layer="39"/>
+</package>
+<package name="ATX">
+<pad name="P$1" x="-3" y="0" drill="2.2" diameter="3.5"/>
+<pad name="P$2" x="3.7" y="0" drill="2.2" diameter="3.5"/>
+<circle x="-3" y="0" radius="2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2.5" x2="4" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
+<wire x1="4" y1="2.5" x2="6.5" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="6.5" y1="0" x2="4" y2="-2.5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-7.2" y1="3" x2="-6" y2="3" width="0.127" layer="21"/>
+<wire x1="-6" y1="3" x2="6" y2="3" width="0.127" layer="21"/>
+<wire x1="-7.2" y1="3" x2="-7.2" y2="-3" width="0.127" layer="21"/>
+<wire x1="-7.2" y1="-3" x2="7" y2="-3" width="0.127" layer="21"/>
+<wire x1="6" y1="3" x2="6" y2="4" width="0.127" layer="21"/>
+<wire x1="6" y1="4" x2="-6" y2="4" width="0.127" layer="21"/>
+<wire x1="-6" y1="4" x2="-6" y2="3" width="0.127" layer="21"/>
+<hole x="9.1" y="1.1" drill="3"/>
+<wire x1="6" y1="3" x2="7" y2="3" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="7" y2="-1" width="0.127" layer="21"/>
+<wire x1="7" y1="-1" x2="7" y2="-3" width="0.127" layer="21"/>
+<wire x1="7" y1="3" x2="7" y2="3.5" width="0.127" layer="21"/>
+<wire x1="7" y1="3.5" x2="11.3" y2="3.5" width="0.127" layer="21"/>
+<wire x1="11.3" y1="3.5" x2="11.3" y2="-1" width="0.127" layer="21"/>
+<wire x1="11.3" y1="-1" x2="7" y2="-1" width="0.127" layer="21"/>
+<text x="-2.54" y="-5.08" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -3391,17 +3392,6 @@ BREAKER</text>
 <pin name="APOS-C" x="30.48" y="27.94" length="middle" rot="R270"/>
 <pin name="DIG1" x="-30.48" y="27.94" length="middle" rot="R270"/>
 </symbol>
-<symbol name="ATX">
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<pin name="P$1" x="-10.16" y="2.54" visible="off" length="middle" direction="pwr"/>
-<pin name="P$2" x="-10.16" y="-5.08" visible="off" length="middle" direction="pwr"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="94">GND</text>
-<text x="-2.54" y="2.54" size="1.778" layer="94">Vcc</text>
-<text x="-5.08" y="7.62" size="1.778" layer="94">&gt;NAME</text>
-</symbol>
 <symbol name="JUMPER">
 <description>2 Pin Jumper</description>
 <wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
@@ -3427,6 +3417,17 @@ BREAKER</text>
 <pin name="2" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="ATX">
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<pin name="P$1" x="-10.16" y="2.54" visible="off" length="middle" direction="pwr"/>
+<pin name="P$2" x="-10.16" y="-5.08" visible="off" length="middle" direction="pwr"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="94">GND</text>
+<text x="-2.54" y="2.54" size="1.778" layer="94">Vcc</text>
+<text x="-5.08" y="7.62" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4934,31 +4935,6 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATX" prefix="JP">
-<description>&lt;b&gt;ATX 2 Pin Connector&lt;/b&gt;
-
-&lt;p&gt;
-Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-ND/2074099 &lt;/p&gt;
-&lt;p&gt;Housing: http://www.digikey.com/product-detail/en/molex-llc/0019092029/WM4382-ND/2421313&lt;/p&gt;
-&lt;p&gt;Housing (alternative): http://www.digikey.com/product-detail/en/molex-llc/0015311026/WM1041-ND/313614&lt;/p&gt;
-&lt;p&gt;Connector: http://www.digikey.com/product-detail/en/molex-llc/0019091029/WM1602-ND/26354&lt;/p&gt;
-&lt;p&gt;Male crimps: http://www.digikey.com/product-detail/en/molex-llc/0002092103/WM1100-ND/26384&lt;/p&gt;
-&lt;p&gt;Female crimps: http://www.digikey.com/product-detail/en/molex-llc/0002091104/WM1101-ND/26386 &lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="ATX" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="ATX">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="JUMPER" prefix="JP">
 <description>2 Pin Jumper</description>
 <gates>
@@ -5015,6 +4991,31 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <technology name="">
 <attribute name="PIE-INT-REF-NUM" value="MTA"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATX" prefix="CONN">
+<description>&lt;b&gt;ATX 2 Pin Connector&lt;/b&gt;
+
+&lt;p&gt;
+Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-ND/2074099 &lt;/p&gt;
+&lt;p&gt;Housing: http://www.digikey.com/product-detail/en/molex-llc/0019092029/WM4382-ND/2421313&lt;/p&gt;
+&lt;p&gt;Housing (alternative): http://www.digikey.com/product-detail/en/molex-llc/0015311026/WM1041-ND/313614&lt;/p&gt;
+&lt;p&gt;Connector: http://www.digikey.com/product-detail/en/molex-llc/0019091029/WM1602-ND/26354&lt;/p&gt;
+&lt;p&gt;Male crimps: http://www.digikey.com/product-detail/en/molex-llc/0002092103/WM1100-ND/26384&lt;/p&gt;
+&lt;p&gt;Female crimps: http://www.digikey.com/product-detail/en/molex-llc/0002091104/WM1101-ND/26386 &lt;/p&gt;</description>
+<gates>
+<gate name="CONN$1" symbol="ATX" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="ATX">
+<connects>
+<connect gate="CONN$1" pin="P$1" pad="P$1"/>
+<connect gate="CONN$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5177,17 +5178,17 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <part name="JP2" library="pie" deviceset="M02" device="PTH"/>
 <part name="SUPPLY25" library="pie" deviceset="GND" device=""/>
 <part name="LED2" library="pie" deviceset="7-SEGMENT-4DIGIT-YOUNGSUN" device="" value="7-SEGMENT"/>
-<part name="JP3" library="pie" deviceset="ATX" device=""/>
-<part name="JP4" library="pie" deviceset="ATX" device=""/>
-<part name="JP5" library="pie" deviceset="ATX" device=""/>
-<part name="JP6" library="pie" deviceset="ATX" device=""/>
 <part name="CALIB_JUMPER" library="pie" deviceset="JUMPER" device=""/>
 <part name="SUPPLY26" library="pie" deviceset="GND" device=""/>
 <part name="APM_5V1" library="pie" deviceset="5V" device=""/>
 <part name="R17" library="pie" deviceset="R-US_" device="R0603" value="3k"/>
 <part name="JP7" library="jumper" deviceset="JP1E" device=""/>
 <part name="SUPPLY27" library="pie" deviceset="GND" device=""/>
-<part name="JP8" library="pie" deviceset="M04" device="PTH"/>
+<part name="JP3" library="pie" deviceset="M04" device="PTH"/>
+<part name="CONN7" library="pie" deviceset="ATX" device=""/>
+<part name="CONN8" library="pie" deviceset="ATX" device=""/>
+<part name="CONN9" library="pie" deviceset="ATX" device=""/>
+<part name="CONN10" library="pie" deviceset="ATX" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5235,10 +5236,10 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <instance part="SUPPLY11" gate="GND" x="170.18" y="109.22" rot="MR0"/>
 <instance part="SUPPLY12" gate="GND" x="139.7" y="139.7"/>
 <instance part="SUPPLY13" gate="GND" x="177.8" y="139.7"/>
-<instance part="JP3" gate="G$1" x="208.28" y="114.3"/>
-<instance part="JP4" gate="G$1" x="149.86" y="127" rot="R180"/>
-<instance part="JP5" gate="G$1" x="152.4" y="106.68" rot="R180"/>
-<instance part="JP6" gate="G$1" x="208.28" y="91.44"/>
+<instance part="CONN7" gate="CONN$1" x="149.86" y="127" rot="R180"/>
+<instance part="CONN8" gate="CONN$1" x="152.4" y="106.68" rot="R180"/>
+<instance part="CONN9" gate="CONN$1" x="208.28" y="114.3"/>
+<instance part="CONN10" gate="CONN$1" x="208.28" y="91.44"/>
 </instances>
 <busses>
 </busses>
@@ -5358,7 +5359,7 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <segment>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
 <wire x1="198.12" y1="109.22" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="P$2"/>
+<pinref part="CONN9" gate="CONN$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="IN-"/>
@@ -5371,19 +5372,19 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <wire x1="175.26" y1="142.24" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="P$2"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 <wire x1="160.02" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="CONN7" gate="CONN$1" pin="P$2"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="G$1" pin="P$2"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 <wire x1="162.56" y1="111.76" x2="170.18" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="CONN8" gate="CONN$1" pin="P$2"/>
 </segment>
 <segment>
-<pinref part="JP6" gate="G$1" pin="P$2"/>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
 <wire x1="198.12" y1="86.36" x2="193.04" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="CONN10" gate="CONN$1" pin="P$2"/>
 </segment>
 </net>
 <net name="VOUT6" class="0">
@@ -5397,28 +5398,28 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <segment>
 <pinref part="FUSE7" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="124.46" x2="160.02" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="G$1" pin="P$1"/>
+<pinref part="CONN7" gate="CONN$1" pin="P$1"/>
 </segment>
 </net>
 <net name="VOUT8" class="0">
 <segment>
 <pinref part="FUSE8" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="116.84" x2="198.12" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="P$1"/>
+<pinref part="CONN9" gate="CONN$1" pin="P$1"/>
 </segment>
 </net>
 <net name="VOUT9" class="0">
 <segment>
 <pinref part="FUSE9" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="104.14" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="JP5" gate="G$1" pin="P$1"/>
+<pinref part="CONN8" gate="CONN$1" pin="P$1"/>
 </segment>
 </net>
 <net name="VOUT10" class="0">
 <segment>
 <pinref part="FUSE10" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="93.98" x2="198.12" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="P$1"/>
+<pinref part="CONN10" gate="CONN$1" pin="P$1"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -5563,7 +5564,7 @@ will get regulated on the arduino.</text>
 <instance part="R17" gate="G$1" x="10.16" y="55.88"/>
 <instance part="JP7" gate="A" x="10.16" y="111.76" rot="R90"/>
 <instance part="SUPPLY27" gate="GND" x="17.78" y="111.76"/>
-<instance part="JP8" gate="G$1" x="45.72" y="30.48"/>
+<instance part="JP3" gate="G$1" x="45.72" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -5740,7 +5741,7 @@ will get regulated on the arduino.</text>
 <label x="76.2" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP8" gate="G$1" pin="2"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
 <label x="58.42" y="27.94" size="1.778" layer="95"/>
 </segment>
@@ -5758,7 +5759,7 @@ will get regulated on the arduino.</text>
 <label x="109.22" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP8" gate="G$1" pin="3"/>
+<pinref part="JP3" gate="G$1" pin="3"/>
 <wire x1="53.34" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
 <label x="60.96" y="30.48" size="1.778" layer="95"/>
 </segment>
@@ -5787,7 +5788,7 @@ will get regulated on the arduino.</text>
 <pinref part="S1" gate="G$1" pin="P1"/>
 </segment>
 <segment>
-<pinref part="JP8" gate="G$1" pin="4"/>
+<pinref part="JP3" gate="G$1" pin="4"/>
 <wire x1="53.34" y1="33.02" x2="71.12" y2="33.02" width="0.1524" layer="91"/>
 <label x="63.5" y="33.02" size="1.778" layer="95"/>
 </segment>
@@ -6055,7 +6056,7 @@ will get regulated on the arduino.</text>
 <pinref part="S1" gate="G$1" pin="P2"/>
 </segment>
 <segment>
-<pinref part="JP8" gate="G$1" pin="1"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="25.4" x2="60.96" y2="25.4" width="0.1524" layer="91"/>
 <label x="55.88" y="25.4" size="1.778" layer="95"/>
 </segment>
