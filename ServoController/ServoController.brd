@@ -163,7 +163,7 @@ pioneers.berkeley.edu/opensource</text>
 <text x="22.098" y="19.05" size="0.762" layer="25" font="vector" rot="R270">PIN 6</text>
 <text x="22.098" y="10.414" size="0.762" layer="25" font="vector" rot="R270">PIN 5</text>
 <text x="13.97" y="48.768" size="1.27" layer="21" font="vector" ratio="15" align="center">Servo Controller
-Rev 9C</text>
+Prod</text>
 </plain>
 <libraries>
 <library name="pie">
