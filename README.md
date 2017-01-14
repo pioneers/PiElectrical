@@ -18,8 +18,6 @@ Arduino Pro Micro Pinouts:
 
 ![Pinouts](https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png)
 
-Short Headers: [Male](https://www.sparkfun.com/products/117) and [Female](https://www.sparkfun.com/products/743)
-
 ##How to Create a Gerber
 
 1. Open the brd file
@@ -64,6 +62,19 @@ Protocol when working on Eagle files for Smartsensor, PDB, and Yogi Bear
 7. Once you have made your last commit, push your files to the Smartsensors github repo: git push origin YOUR\_BRANCH
     * If you get a merge conflict, contact the PMs for help.
 8. If **completely** done, submit a Pull Request
+
+
+### Generating Docu Packets
+
+Make sure that `eagle xvfb pdftk` are all installed.
+
+If you don't have the proper directories loaded into Eagle, the first script will hang forever. Both should take only a moment.
+
+```shell
+python generate_bom.py ../Boards/BOARD_NAME/BOARD_NAME.sch BOARD_NAME.csv
+
+python docu-packet-gen.py ../Boards/BOARD_NAME/BOARD_NAME.sch ../Boards/BOARD_NAME/BOARD_NAME.brd BOARD_NAME.csv BOARD_NAME.pdf
+```
 
 ###FAQ
 
