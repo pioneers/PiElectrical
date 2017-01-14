@@ -1,0 +1,39 @@
+# Generate documentation packet pdfs for the top and bottom of a board
+
+# Licensed to Pioneers in Engineering under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  Pioneers in Engineering licenses
+# this file to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+#  with the License.  You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License
+
+ratsnest
+
+display none
+display unrouted Pads Dimension tPlace tNames tValues tDocu
+PRINT - 100 -1 FILE '%PATH%/top_silk.pdf' SOLID LANDSCAPE PAPER LETTER CAPTION;
+
+display none
+display top unrouted Pads Vias Dimension tPlace
+PRINT - 100 -1 FILE '%PATH%/top_copper.pdf' SOLID LANDSCAPE PAPER LETTER;
+
+display none
+display unrouted Pads Vias Dimension bPlace bNames bValues bDocu
+PRINT - 100 -1 FILE '%PATH%/bottom_silk.pdf' SOLID MIRROR LANDSCAPE PAPER LETTER;
+
+display none
+display bottom unrouted Pads Dimension bPlace
+PRINT - 100 -1 FILE '%PATH%/bottom_copper.pdf' SOLID MIRROR LANDSCAPE PAPER LETTER;
+
+
+quit

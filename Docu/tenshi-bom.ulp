@@ -1,0 +1,66 @@
+// This script exports a Bill of Materials for a schematic. It outputs a csv
+// that is intended to be further processed by an external script to
+// handle distributor part numbers and allowed substitutions. The columns output
+// are as follows: Reference Designator, Value, Package, Description, Internal
+// Reference Number. The processing script will replace the Internal Reference
+// Number with an appropriate DigiKey or other distributor part number.
+
+// This file is derived from bom.ulp from CadSoft, but most of the unused code
+// has been deleted or modified.
+
+// Information collected on parts.
+int NumParts;
+numeric string ReferenceDesignators[];
+string PartValue[], PartPackage[], PartHeadline[], PartInternalRefNumber[];
+
+// Output lines
+string Lines[];
+
+void CollectPartData(void) {
+  NumParts = 0;
+  // We don't need to collect attribute names for this
+
+  // Collect data
+  schematic(SCH) {
+    SCH.parts(P) {
+      if (P.device.package) {
+        ReferenceDesignators[NumParts] = P.name;
+        PartValue[NumParts] = P.value;
+        PartPackage[NumParts] = P.device.package.name;
+        PartHeadline[NumParts] = P.device.headline;
+        PartInternalRefNumber[NumParts] = P.attribute["PIE-INT-REF-NUM"];
+
+        NumParts++;
+      }
+    }
+  }
+}
+
+void GeneratePartList(void) {
+  Lines[0] = "\"" + "Name" + "\";" + "\"" + "Value" + "\";" + "\"" + "Package" + "\";" + "\"" + "Notes" + "\";" + "\""  + "Ref Number" + "\"";
+
+  for (int i = 0; i < NumParts; i++) {
+    Lines[i + 1] =
+      "\"" + ReferenceDesignators[i] + "\";" +
+      "\"" + PartValue[i] + "\";" +
+      "\"" + PartPackage[i] + "\";" +
+      "\"" + PartHeadline[i] + "\";" +
+      "\"" + PartInternalRefNumber[i] + "\"";
+  }
+}
+
+void SaveList(void) {
+  string FileName = argv[1];
+
+  //include the header
+
+  output(FileName, "wt") {
+    for (int i = 0; i < NumParts + 1; i++) {
+      printf("%s\n", Lines[i]);
+    }
+  }
+}
+
+CollectPartData();
+GeneratePartList();
+SaveList();
