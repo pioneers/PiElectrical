@@ -21,7 +21,7 @@ ratsnest
 
 display none
 display unrouted Pads Dimension tPlace tNames tValues tDocu
-PRINT - 100 -1 FILE '%PATH%/top_silk.pdf' SOLID LANDSCAPE PAPER LETTER CAPTION;
+PRINT - 100 -1 FILE '%PATH%/top_silk.pdf' SOLID LANDSCAPE PAPER LETTER;
 
 display none
 display top unrouted Pads Vias Dimension tPlace

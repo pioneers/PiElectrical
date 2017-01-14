@@ -25,11 +25,11 @@ import os.path
 import shutil
 import sys
 import re
-try:
-    import yaml
-except ImportError:
-    print('Please install PyYaml')
-    sys.exit(1)
+#try:
+#    import yaml
+#except ImportError:
+#    print('Please install PyYaml')
+#    sys.exit(1)
 
 
 def run_eagle_bom_ulp(infile, outfile, ulpfile):
