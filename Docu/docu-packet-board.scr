@@ -35,5 +35,13 @@ display none
 display bottom unrouted Pads Dimension bPlace
 PRINT - 100 -1 FILE '%PATH%/bottom_copper.pdf' SOLID MIRROR LANDSCAPE PAPER LETTER;
 
+display none
+display tcream
+SET COLOR_LAYER tcream red
+SET FILL_LAYER tcream empty
+PRINT - 100 -1 FILE '%PATH%/top_stencil.pdf' LANDSCAPE PAPER LETTER;
+SET FILL_LAYER tcream slash
+SET COLOR_LAYER tcream lgray
+
 
 quit
