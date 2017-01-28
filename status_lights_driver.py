@@ -3,7 +3,7 @@
 forest_driver.py
 Created on Thu Mar 27 05:40:16 2014
 Original Author was AJC, modified by Averal,Karthik, and Aravind on 1/28/17
-use command "python status_lights_driver.py /dev/ttyUSB0" or something similar to get it going
+Use command "python status_lights_driver.py /dev/ttyUSB0" or something similar to get it going
 @author: ajc
 """
 
