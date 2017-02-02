@@ -240,6 +240,7 @@ At least one input file is required.
         inputs.append(os.path.join(tmp_dir, "top_copper.pdf"))
         inputs.append(os.path.join(tmp_dir, "bottom_silk.pdf"))
         inputs.append(os.path.join(tmp_dir, "bottom_copper.pdf"))
+        inputs.append(os.path.join(tmp_dir, "top_stencil.pdf"))
 
 
     # Generate bill of materials
