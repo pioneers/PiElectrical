@@ -47,18 +47,15 @@ class StatusLights():
         self.board.digital[g].write(0 if green else 1)
         self.board.digital[b].write(0 if buzzer else 1)
 
+lit = lambda x,y: int(sys.argv[x]==y)
+
 if __name__ == '__main__':
     print("starting status_lights.py")
     lights = StatusLights(None, sys.argv[1], False)
     print("Ready to receive commands")
 
     while True:
-        time.sleep(1)
-        #Currently blinks alternately on and off with control  variables x and y
-        x = 0
-        y = 1
-        for i in range(10):
-            lights.set_lights(0,y,x,y,x)
-            time.sleep(1)
-            x = 1 - x
-            y = 1 - y
+        #time.sleep(1)
+        #select lights to turn on through command line
+        for i in range(2,9):
+            lights.set_lights(i-2,lit(i,"r"),lit(i,"y"),lit(i,"g"),0)
