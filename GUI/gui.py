@@ -46,9 +46,16 @@ def colorChange(button, color):
 frame = Frame(root)
 frame.pack(fill = "both", expand = True)
 
-light_frames = [Frame(frame, width = 130, height = 300, bg = "red") for i in range(8)]
+light_frames = [Frame(frame, width = 130, height = 300, bg = "blue") for i in range(8)]
 for i in light_frames:
 	i.pack(side = "left", padx = 7, pady = 20)
+
+labels = []
+for i in range(len(light_frames)):
+	labels += [Label(light_frames[i], text = "Light " + str(i) + " Controls", bg = "yellow", fg = "black")]
+
+for i in labels:
+	i.pack(side = "top")
 
 buttons = []
 for i in light_frames:
