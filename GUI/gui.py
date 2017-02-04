@@ -25,7 +25,7 @@ def buttonActionOn(button, index):
 	def toggleLight():
 		nonlocal button, index
 		color = button.cget("text").lower()
-		lights.set_lights(index, lit(color,"red"), lit(color,"yellow"), lit(color,"green"), 0)
+		lights.set_lights(index, color, 0)
 		colorChange(button, color)
 		button.configure(command = buttonActionOff(button, index))
 	return toggleLight
@@ -34,7 +34,7 @@ def buttonActionOff(button, index):
 	def toggleLight():
 		nonlocal button, index
 		color = button.cget("text").lower()
-		lights.set_lights(index, lit(color,"red"), lit(color,"yellow"), lit(color,"green"), 0)
+		lights.set_lights(index, color, 1)
 		colorChange(button, "off")
 		button.configure(command = buttonActionOn(button, index))
 	return toggleLight
