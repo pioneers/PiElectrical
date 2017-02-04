@@ -49,6 +49,7 @@ class StatusLights():
 
 lit = lambda x,y: int(sys.argv[x]==y)
 
+"""
 if __name__ == '__main__':
     print("starting status_lights.py")
     lights = StatusLights(None, sys.argv[1], False)
@@ -59,3 +60,4 @@ if __name__ == '__main__':
         #select lights to turn on through command line
         for i in range(2,9):
             lights.set_lights(i-2,lit(i,"r"),lit(i,"y"),lit(i,"g"),0)
+"""
