@@ -1,11 +1,13 @@
 from tkinter import *
-
+from status_lights_driver import *
+#lights object with default USB out for Averal's computer
+lights = StatusLights(None, "/dev/ttyUSB0", False)
 root = Tk()
 root.title("Field Control Controls")
-root.iconbitmap("logo_icon.ico")
-bg_image = PhotoImage(file = "logo.png")
-bg_label = Label(root, image = bg_image, width = 200, height = 100)
-bg_label.pack()
+#root.iconbitmap("logo_icon.ico")
+#bg_image = PhotoImage(file = "logo.png")
+#bg_label = Label(root, image = bg_image, width = 200, height = 100)
+#bg_label.pack()
 root.geometry('{}x{}'.format(1350, 600))
 root.resizable(width=False, height=False)
 
@@ -22,22 +24,24 @@ def forbiddenFunction():
 def buttonActionOn(button, index):
 	def toggleLight():
 		nonlocal button, index
-		#some function goes here
-		colorChange(button, button.cget("text"))
+        color = button.cget("text").lower()
+		lights.set_lights(index,lit(color,"red"),lit(color,"yellow"),lit(color,"green"),0)
+		colorChange(button, color)
 		button.configure(command = buttonActionOff(button, index))
 	return toggleLight
 
 def buttonActionOff(button, index):
 	def toggleLight():
 		nonlocal button, index
-		#and here
+		color = button.cget("text").lower()
+        lights.set_lights(index,lit(color,"red"),lit(color,"yellow"),lit(color,"green"),0)
 		colorChange(button, "off")
 		button.configure(command = buttonActionOn(button, index))
 	return toggleLight
 
 def colorChange(button, color):
 	if color == "off":
-		button.configure(bg = "SystemButtonFace")
+		button.configure(bg = default_color)
 	elif color == "BUZZER":
 		pass
 	else:
@@ -78,6 +82,7 @@ THE_button.pack(side = "bottom")
 
 
 #------------------------------------------------------------------------------------------#
-#------------------------------------------------------------------------------------------#	
 #------------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------------#
+default_color = buttons[0].cget("bg")
 root.mainloop()
