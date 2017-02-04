@@ -8,6 +8,7 @@ bg_label = Label(root, image = bg_image, width = 200, height = 100)
 bg_label.pack()
 root.geometry('{}x{}'.format(1350, 600))
 root.resizable(width=False, height=False)
+
 #------------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------------#
@@ -16,19 +17,20 @@ def buzzerAction():
 	pass
 	#I HOPE WE USE THIS
 
-def buttonActionOn(button):
+def buttonActionOn(button, index):
 	def toggleLight():
-		nonlocal button
+		nonlocal button, index
 		#some function goes here
 		colorChange(button, button.cget("text"))
-		button.configure(command = buttonActionOff(button))
+		button.configure(command = buttonActionOff(button, index))
 	return toggleLight
 
-def buttonActionOff(button):
+def buttonActionOff(button, index):
 	def toggleLight():
-		nonlocal button
+		nonlocal button, index
+		#and here
 		colorChange(button, "off")
-		button.configure(command = buttonActionOn(button))
+		button.configure(command = buttonActionOn(button, index))
 	return toggleLight
 
 def colorChange(button, color):
@@ -62,9 +64,15 @@ for i in light_frames:
 	for j in ["RED", "YELLOW", "GREEN", "BUZZER"]:
 		buttons += [Button(i, text = j, width = 15, height = 2)]
 
-for i in buttons:
-	i.pack(side = "top", padx = 20, pady = 17)
-	i.configure(command = buttonActionOn(i))
+for i in range(len(buttons)):
+	buttons[i].pack(side = "top", padx = 20, pady = 17)
+	buttons[i].configure(command = buttonActionOn(buttons[i], i // 4))
+
+THE_button_frame = Frame(frame, width = 100, height = 20, bg = "blue")
+THE_button_frame.pack()
+THE_button = Button(THE_button_frame, text = "DISCO PARTY", width = 15, height = 2)
+THE_button.pack(side = "bottom")
+
 
 #------------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------------#	
