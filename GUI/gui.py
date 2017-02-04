@@ -1,13 +1,16 @@
 from tkinter import *
 from status_lights_driver import *
+import random
+
+random.seed()
 #lights object with default USB out for Averal's computer
-lights = StatusLights(None, "/dev/ttyUSB0", False)
+lights = StatusLights(None, "COM5", False) #COM5 is for windows computers. You will have to find which usb/com is yours and replace.
 root = Tk()
 root.title("Field Control Controls")
-#root.iconbitmap("logo_icon.ico")
-#bg_image = PhotoImage(file = "logo.png")
-#bg_label = Label(root, image = bg_image, width = 200, height = 100)
-#bg_label.pack()
+root.iconbitmap("logo_icon.ico")
+bg_image = PhotoImage(file = "logo.png")
+bg_label = Label(root, image = bg_image, width = 200, height = 100)
+bg_label.pack()
 root.geometry('{}x{}'.format(1350, 600))
 root.resizable(width=False, height=False)
 
@@ -15,7 +18,15 @@ root.resizable(width=False, height=False)
 #------------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------------#
 
-def forbiddenFunction():
+def forbiddenFunctionOn(button):
+	def toggleAll():
+		nonlocal button
+		while True:
+			i = random.randrange(0, len(buttons))
+			buttons[i].callback()
+		button.configure(command = forbiddenFunctionOff(button))
+	return toggleAll
+def forbiddenFunctionOff(button):
 	pass
 
 def buttonActionOn(button, index):
@@ -39,7 +50,7 @@ def buttonActionOff(button, index):
 def colorChange(button, color):
 	if color == "off":
 		button.configure(bg = default_color)
-	elif color == "BUZZER":
+	elif color == "buzzer":
 		button.configure(bg = "blue")
 	else:
 		button.configure(bg = color)
@@ -75,6 +86,7 @@ for i in range(len(buttons)):
 THE_button_frame = Frame(root, width = 100, height = 20, bg = "blue")
 THE_button_frame.pack()
 THE_button = Button(THE_button_frame, text = "DISCO PARTY", width = 15, height = 2)
+THE_button.configure(command = forbiddenFunctionOn(THE_button))
 THE_button.pack(side = "bottom")
 
 
