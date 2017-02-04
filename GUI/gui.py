@@ -16,6 +16,8 @@ root.resizable(width=False, height=False)
 def buzzerAction():
 	pass
 	#I HOPE WE USE THIS
+def forbiddenFunction():
+	pass
 
 def buttonActionOn(button, index):
 	def toggleLight():
@@ -68,7 +70,8 @@ for i in range(len(buttons)):
 	buttons[i].pack(side = "top", padx = 20, pady = 17)
 	buttons[i].configure(command = buttonActionOn(buttons[i], i // 4))
 
-THE_button_frame = Frame(frame, width = 100, height = 20, bg = "blue")
+
+THE_button_frame = Frame(root, width = 100, height = 20, bg = "blue")
 THE_button_frame.pack()
 THE_button = Button(THE_button_frame, text = "DISCO PARTY", width = 15, height = 2)
 THE_button.pack(side = "bottom")
