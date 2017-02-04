@@ -1,5 +1,10 @@
 from tkinter import *
+from status_lights_driver import *
+import random
 
+random.seed()
+#lights object with default USB out for Averal's computer
+lights = StatusLights(None, "COM5", False) #COM5 is for windows computers. You will have to find which usb/com is yours and replace.
 root = Tk()
 root.title("Field Control Controls")
 root.iconbitmap("logo_icon.ico")
@@ -8,34 +13,45 @@ bg_label = Label(root, image = bg_image, width = 200, height = 100)
 bg_label.pack()
 root.geometry('{}x{}'.format(1350, 600))
 root.resizable(width=False, height=False)
+
 #------------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------------#
 
-def buzzerAction():
-	pass
-	#I HOPE WE USE THIS
-
-def buttonActionOn(button):
-	def toggleLight():
+def forbiddenFunctionOn(button):
+	def toggleAll():
 		nonlocal button
-		#some function goes here
-		colorChange(button, button.cget("text"))
-		button.configure(command = buttonActionOff(button))
+		while True:
+			i = random.randrange(0, len(buttons))
+			buttons[i].callback()
+		button.configure(command = forbiddenFunctionOff(button))
+	return toggleAll
+def forbiddenFunctionOff(button):
+	pass
+
+def buttonActionOn(button, index):
+	def toggleLight():
+		nonlocal button, index
+		color = button.cget("text").lower()
+		lights.set_lights(index, color, 0)
+		colorChange(button, color)
+		button.configure(command = buttonActionOff(button, index))
 	return toggleLight
 
-def buttonActionOff(button):
+def buttonActionOff(button, index):
 	def toggleLight():
-		nonlocal button
+		nonlocal button, index
+		color = button.cget("text").lower()
+		lights.set_lights(index, color, 1)
 		colorChange(button, "off")
-		button.configure(command = buttonActionOn(button))
+		button.configure(command = buttonActionOn(button, index))
 	return toggleLight
 
 def colorChange(button, color):
 	if color == "off":
-		button.configure(bg = "SystemButtonFace")
-	elif color == "BUZZER":
-		pass
+		button.configure(bg = default_color)
+	elif color == "buzzer":
+		button.configure(bg = "blue")
 	else:
 		button.configure(bg = color)
 
@@ -62,11 +78,20 @@ for i in light_frames:
 	for j in ["RED", "YELLOW", "GREEN", "BUZZER"]:
 		buttons += [Button(i, text = j, width = 15, height = 2)]
 
-for i in buttons:
-	i.pack(side = "top", padx = 20, pady = 17)
-	i.configure(command = buttonActionOn(i))
+for i in range(len(buttons)):
+	buttons[i].pack(side = "top", padx = 20, pady = 17)
+	buttons[i].configure(command = buttonActionOn(buttons[i], i // 4))
+
+
+THE_button_frame = Frame(root, width = 100, height = 20, bg = "blue")
+THE_button_frame.pack()
+THE_button = Button(THE_button_frame, text = "DISCO PARTY", width = 15, height = 2)
+THE_button.configure(command = forbiddenFunctionOn(THE_button))
+THE_button.pack(side = "bottom")
+
 
 #------------------------------------------------------------------------------------------#
-#------------------------------------------------------------------------------------------#	
 #------------------------------------------------------------------------------------------#
+#------------------------------------------------------------------------------------------#
+default_color = buttons[0].cget("bg")
 root.mainloop()

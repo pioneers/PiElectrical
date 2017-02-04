@@ -40,16 +40,20 @@ class StatusLights():
 
         self.debug = debug
 
-    def set_lights(self, light, red, yellow, green, buzzer):
+    def set_lights(self, light, color, status):
         r, y, g, b = self.lights[light]
-        self.board.digital[r].write(0 if red else 1)
-        self.board.digital[y].write(0 if yellow else 1)
-        self.board.digital[g].write(0 if green else 1)
-        self.board.digital[b].write(0 if buzzer else 1)
+        if color == "red":
+            control = r
+        elif color == "yellow":
+            control = y
+        elif color == "green":
+            control = g
+        else:
+            control = b
+        self.board.digital[control].write(status)
 
-lit = lambda x,y: int(sys.argv[x]==y)
+lit = lambda x,y: int(x==y)
 
-"""
 if __name__ == '__main__':
     print("starting status_lights.py")
     lights = StatusLights(None, sys.argv[1], False)
@@ -60,4 +64,3 @@ if __name__ == '__main__':
         #select lights to turn on through command line
         for i in range(2,9):
             lights.set_lights(i-2,lit(i,"r"),lit(i,"y"),lit(i,"g"),0)
-"""
