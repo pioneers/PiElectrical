@@ -15,9 +15,6 @@ root.resizable(width=False, height=False)
 #------------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------------#
 
-def buzzerAction():
-	pass
-	#I HOPE WE USE THIS
 def forbiddenFunction():
 	pass
 
@@ -43,7 +40,7 @@ def colorChange(button, color):
 	if color == "off":
 		button.configure(bg = default_color)
 	elif color == "BUZZER":
-		pass
+		button.configure(bg = "blue")
 	else:
 		button.configure(bg = color)
 
