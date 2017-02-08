@@ -13,21 +13,32 @@ bg_label = Label(root, image = bg_image, width = 200, height = 100)
 bg_label.pack()
 root.geometry('{}x{}'.format(1350, 600))
 root.resizable(width=False, height=False)
+instance = None
 
 #------------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------------#
 #------------------------------------------------------------------------------------------#
 
 def forbiddenFunctionOn(button):
-	def toggleAll():
-		nonlocal button
-		while True:
-			i = random.randrange(0, len(buttons))
-			buttons[i].callback()
+	def helper():
+		global instance
 		button.configure(command = forbiddenFunctionOff(button))
-	return toggleAll
+		i = random.randrange(0, len(buttons))
+		buttons[i].invoke()
+		root.update()
+		instance = root.after(3, forbiddenFunctionOn(button))
+	return helper
+
 def forbiddenFunctionOff(button):
-	pass
+	def helper():
+		root.after_cancel(instance)
+		for i in range(len(buttons)):
+			buttons[i].configure(command = buttonActionOff(buttons[i], i // 4))
+		root.update()
+		for i in buttons:
+			i.invoke()
+		button.configure(command = forbiddenFunctionOn(button))
+	return helper
 
 def buttonActionOn(button, index):
 	def toggleLight():
