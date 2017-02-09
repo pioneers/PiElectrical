@@ -3,7 +3,7 @@ from status_lights_driver import *
 import random
 
 random.seed()
-#lights object with default USB out for Averal's computer
+#lights object with default USB out for Nick's computer
 lights = StatusLights(None, "COM5", False) #COM5 is for windows computers. You will have to find which usb/com is yours and replace.
 root = Tk()
 root.title("Field Control Controls")
