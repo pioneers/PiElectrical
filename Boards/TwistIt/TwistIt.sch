@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7364,6 +7364,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R6" library="pie" deviceset="R-US_" device="R0603" value="330"/>
 <part name="SUPPLY6" library="pie" deviceset="GND" device=""/>
 <part name="ENCODER" library="pie" deviceset="M04" device="1X04-MTA"/>
+<part name="R7" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R8" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -7396,6 +7398,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R6" gate="G$1" x="99.06" y="139.7"/>
 <instance part="SUPPLY6" gate="GND" x="111.76" y="137.16"/>
 <instance part="ENCODER" gate="G$1" x="193.04" y="124.46"/>
+<instance part="R7" gate="G$1" x="218.44" y="147.32" rot="R90"/>
+<instance part="R8" gate="G$1" x="205.74" y="147.32" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -7496,6 +7500,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="ST1" gate="G$1" pin="P$5"/>
 <wire x1="139.7" y1="88.9" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
 <label x="134.62" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="205.74" y1="152.4" x2="205.74" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="152.4" x2="218.44" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P2" class="0">
@@ -7652,8 +7664,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </segment>
 <segment>
 <pinref part="ENCODER" gate="G$1" pin="3"/>
-<wire x1="200.66" y1="124.46" x2="220.98" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="124.46" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
 <label x="220.98" y="124.46" size="1.778" layer="95"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="124.46" x2="220.98" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="142.24" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B" class="0">
@@ -7664,8 +7679,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </segment>
 <segment>
 <pinref part="ENCODER" gate="G$1" pin="4"/>
-<wire x1="200.66" y1="127" x2="208.28" y2="127" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="127" x2="205.74" y2="127" width="0.1524" layer="91"/>
 <label x="208.28" y="127" size="1.778" layer="95"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="127" x2="208.28" y2="127" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="142.24" x2="205.74" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
