@@ -7,10 +7,14 @@ random.seed()
 lights = StatusLights(None, "COM5", False) #COM5 is for windows computers. You will have to find which usb/com is yours and replace.
 root = Tk()
 root.title("Field Control Controls")
-root.iconbitmap("logo_icon.ico")
-bg_image = PhotoImage(file = "logo.png")
-bg_label = Label(root, image = bg_image, width = 200, height = 100)
-bg_label.pack()
+try:
+	root.iconbitmap("logo_icon.ico")
+	bg_image = PhotoImage(file = "logo.png")
+	bg_label = Label(root, image = bg_image, width = 200, height = 100)
+	bg_label.pack()
+except Exception as e:
+	print("Images couldn't load. RIP sorry breh.")
+
 root.geometry('{}x{}'.format(1350, 600))
 root.resizable(width=False, height=False)
 instance = None
