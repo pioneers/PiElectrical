@@ -70,6 +70,8 @@ Make sure that `eagle xvfb pdftk` are all installed.
 
 If you don't have the proper directories loaded into Eagle, the first script will hang forever. Both should take only a moment.
 
+The `Docu/all_docu.sh` script will run the following for all boards:
+
 ```shell
 python generate_bom.py ../Boards/BOARD_NAME/BOARD_NAME.sch BOARD_NAME.csv
 
