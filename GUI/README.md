@@ -27,3 +27,4 @@ bg_label...
 * CONTROL ZA WARUDO
 * Disco parties
 
+Plug in field control lights with free pin on the right, black wire on the left.
