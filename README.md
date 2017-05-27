@@ -2,23 +2,15 @@
 
 This is the working repo for PiElectrical teams
 
-[ToDo](#todo)
-
-[Repo Structure](#repo-structure)
-
-[Setup](#setup)
-
-[Work Flow](#work-flow)
-
-[How to Create a Gerber](#how-to-create-a-gerber)
-
-[Docu Packets](#docu-packets)
-
-[FAQ](#faq)
-
-[Useful Links](#useful-links)
-
-[Standards](#standards)
+1. [ToDo](#todo)
+2. [Repo Structure](#repo-structure)
+3. [Setup](#setup)
+4. [Work Flow](#work-flow)
+5. [How to Create a Gerber](#how-to-create-a-gerber)
+6. [Docu Packets](#docu-packets)
+7. [FAQ](#faq)
+8. [Useful Links](#useful-links)
+9. [Standards](#standards)
 
 ## ToDo:
 * Widen `keep clear` for USB connection on Thru Hole APM and SMD APM
