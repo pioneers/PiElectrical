@@ -5,11 +5,6 @@ This is the working repo for PiElectrical teams
 ## TODO:
 * Widen `keep clear` for USB connection on Thru Hole APM and SMD APM
 * Make `keep clear` on mounting holes bigger
-* Change Team Flag to be a nonsensor with a single pole triple throw
-    * Look into SMD single pole triple throw part
-    * Obtain footprint and add as new part
-    * Find an easy microUSB SMD component
-    * Obtain footprint of said component and attach to board
 * Find a solution to breaking USB connections
 * Keep enclosures in mind from Rev A
 * Get repo ready for new staff
