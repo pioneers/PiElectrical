@@ -1,3 +1,4 @@
+cd ..
 mkdir newgerb
 cp -rt newgerb $(find . -name "*-gerb" -type d)
 zip -r newgerb.zip newgerb
