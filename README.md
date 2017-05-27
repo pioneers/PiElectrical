@@ -1,13 +1,13 @@
-# PiE Electrical
+# PiElectrical
 
-This is the working repo for PiE Electrical teams
+This is the working repo for PiElectrical teams
 
 ```
 (c) Pioneers In Engineering
 Design by: YOUR_NAMES_HERE
 This design is open source hardware.
 For more information, visit:
-https://github.com/pioneers/PiESens
+https://github.com/pioneers/PiElectrical
 ```
 
 The revision number should be REV 10A for Revision A Year 10
