@@ -2,6 +2,22 @@
 
 This is the working repo for PiElectrical teams
 
+## TODO:
+* Widen `keep clear` for USB connection on Thru Hole APM and SMD APM
+* Make `keep clear` on mounting holes bigger
+* Change Team Flag to be a nonsensor with a single pole triple throw
+    * Look into SMD single pole triple throw part
+    * Obtain footprint and add as new part
+    * Find an easy microUSB SMD component
+    * Obtain footprint of said component and attach to board
+* Find a solution to breaking USB connections
+* Keep enclosures in mind from Rev A
+* Get repo ready for new staff
+    * This means creating board directories ready to be worked on
+    * However this is defined, make it so that they can jump right in after learning Eagle
+* Board Specific Fixes (See each README)
+* Auto BOM database project
+
 ```
 (c) Pioneers In Engineering
 Design by: YOUR_NAMES_HERE
@@ -11,6 +27,8 @@ https://github.com/pioneers/PiElectrical
 ```
 
 The revision number should be REV 10A for Revision A Year 10
+
+Read up on the [PiE Electrical Style Rules and Guidelines](https://staff.pierobotics.org/wiki/Electrical_style_guidelines)
 
 Arduino Pro Micro Pinouts:
 
@@ -33,7 +51,7 @@ Arduino Pro Micro Pinouts:
 2. Go to Options -> Directories
 3. For Libraries, Design Rules, CAM Jobs, and Projects, add the PiElectrical directory by clicking on each box and hitting browse, until you find the PiElectrical directory
 4. Enable the pie.lbr by going back to the Control Panel, expanding Libraries, finding pie.lbr, right clicking on it, and check off `Use`. You can find it at PiElectrical/src/pie.lbr
-5. You are ready to use Eagle! 
+5. You are ready to use Eagle!
 
 ## Git Work Flow
 
@@ -41,7 +59,7 @@ Protocol when working on Eagle files
 
 [PiE Git Presentation Tutorial](https://docs.google.com/a/pioneers.berkeley.edu/presentation/d/1WO-AD3cTi1QdKW15F8ecN9V1b8u3yIKzHzLGQXDs-uM/edit?usp=sharing) for your own reference
 
-**WARNING**: Do not modify pie.lbr, pie.dru, or pie.cam without discussing it with PMs 
+**WARNING**: Do not modify pie.lbr, pie.dru, or pie.cam without discussing it with PMs
 
 ### Steps when working on EAGLE files:
 
@@ -52,7 +70,7 @@ Protocol when working on Eagle files
 4. Do your work in EAGLE.
 5. Once you are at a good stopping point in your EAGLE work, commit your progress:
   5. git add path/to/your/file
-  5. git commit -m "Make your commit message short and with this format" 
+  5. git commit -m "Make your commit message short and with this format"
   5. **NOTE**: Commiting is like saving your file, but for all of PiE as well as your personal computer. And just like saving, Commit Early & Commit Often!
 6. Repeat Steps 4 and 5 until you are finished with your EAGLE work.
 7. Once you have made your last commit, push your files to the PiElectrical github repo: git push origin YOUR\_BRANCH
