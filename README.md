@@ -1,18 +1,16 @@
-# Smart Sensors
+# PiE Electrical
 
-This is the working repo for smart sensors
-
-Establish during Electrical Y9 to simplify the workspace for people who just want to Eagle.
+This is the working repo for PiE Electrical teams
 
 ```
 (c) Pioneers In Engineering
 Design by: YOUR_NAMES_HERE
 This design is open source hardware.
 For more information, visit:
-https://github.com/pioneers/SmartSensors
+https://github.com/pioneers/PiESens
 ```
 
-The revision number should be REV 9A for Revision A Year 9
+The revision number should be REV 10A for Revision A Year 10
 
 Arduino Pro Micro Pinouts:
 
@@ -31,13 +29,13 @@ Arduino Pro Micro Pinouts:
 
 ## Git Work Flow
 
-Protocol when working on Eagle files for Smartsensor, PDB, and Yogi Bear
+Protocol when working on Eagle files
 
 [PiE Git Presentation Tutorial](https://docs.google.com/a/pioneers.berkeley.edu/presentation/d/1WO-AD3cTi1QdKW15F8ecN9V1b8u3yIKzHzLGQXDs-uM/edit?usp=sharing) for your own reference
 
-**WARNING**: Do not modify pie.lbr, pie.dru, or pie.cam without discussing it witih PMs (Seiya and Tobin)
+**WARNING**: Do not modify pie.lbr, pie.dru, or pie.cam without discussing it with PMs 
 
-### Initial Setup of SmartSensor repo on your computer
+### Initial Setup of Electrical repo on your computer
 
 1. Copy the URL for pioneers/SmartSensors to your clipboard: (Or here: https://github.com/pioneers/SmartSensors.git)
 2. In Terminal (mac) or GitBash (windows), navigate to your working directory (that is, the directory that you want to keep SmartSensors in.)
