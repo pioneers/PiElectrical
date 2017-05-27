@@ -16,24 +16,7 @@ Arduino Pro Micro Pinouts:
 
 ![Pinouts](https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png)
 
-## How to Create a Gerber
-
-1. Open the brd file
-2. Click Cam Job
-3. Open pie.cam
-4. Make a directory in each sensor's folder called SENSOR\_NAME-gerb
-    * SENSOR\_NAME **must** be the exact name as the brd file
-5. Run job, and click yes to all for the polygon issue
-6. Once all the jobs are done, run `make gerb`
-
-
-## Git Work Flow
-
-Protocol when working on Eagle files
-
-[PiE Git Presentation Tutorial](https://docs.google.com/a/pioneers.berkeley.edu/presentation/d/1WO-AD3cTi1QdKW15F8ecN9V1b8u3yIKzHzLGQXDs-uM/edit?usp=sharing) for your own reference
-
-**WARNING**: Do not modify pie.lbr, pie.dru, or pie.cam without discussing it with PMs 
+## Setup
 
 ### Initial Setup of PiElectrical repo on your computer
 
@@ -52,7 +35,13 @@ Protocol when working on Eagle files
 4. Enable the pie.lbr by going back to the Control Panel, expanding Libraries, finding pie.lbr, right clicking on it, and check off `Use`. You can find it at PiElectrical/src/pie.lbr
 5. You are ready to use Eagle! 
 
+## Git Work Flow
 
+Protocol when working on Eagle files
+
+[PiE Git Presentation Tutorial](https://docs.google.com/a/pioneers.berkeley.edu/presentation/d/1WO-AD3cTi1QdKW15F8ecN9V1b8u3yIKzHzLGQXDs-uM/edit?usp=sharing) for your own reference
+
+**WARNING**: Do not modify pie.lbr, pie.dru, or pie.cam without discussing it with PMs 
 
 ### Steps when working on EAGLE files:
 
@@ -70,8 +59,31 @@ Protocol when working on Eagle files
     7.. If you get a merge conflict, contact the PMs for help.
 8. If **completely** done, submit a Pull Request
 
+### Commit Message Format Conventions
 
-### Generating Docu Packets
+* Present Tense ("Reroute power traces on team flag" -- NOT "Rerouted power traces on team flag")
+* No period at the end: ("Reroute power traces on team flag" -- NOT "Reroute power traces on team flag.")
+* Keep your message length to about one sentence.
+
+### Merge Conflicts: What Do??
+
+Don't try to fix it yourself: Eagle files are finicky and you might break all your work!
+
+Contact Seiya or Tobin: seiyaono@pioneers.berkeley.edu or tobinholcomb@pioneers.berkeley.edu
+
+
+## How to Create a Gerber
+
+1. Open the brd file
+2. Click Cam Job
+3. Open pie.cam
+4. Make a directory in each sensor's folder called SENSOR\_NAME-gerb
+    * SENSOR\_NAME **must** be the exact name as the brd file
+5. Run job, and click yes to all for the polygon issue
+6. Once all the jobs are done, run `make gerb`
+
+
+## Generating Docu Packets
 
 **ONLY WORKS IN EAGLE VERSION 7.6, 7.7**
 
@@ -87,7 +99,7 @@ python generate_bom.py ../Boards/BOARD_NAME/BOARD_NAME.sch BOARD_NAME.csv
 python docu-packet-gen.py ../Boards/BOARD_NAME/BOARD_NAME.sch ../Boards/BOARD_NAME/BOARD_NAME.brd BOARD_NAME.csv BOARD_NAME.pdf
 ```
 
-### FAQ
+## FAQ
 
 Q: What's the difference between commit before I pull?
 
@@ -101,17 +113,6 @@ Q: Why am I working on my own branch?
 
 A: This is to keep track of pull request and board reviews on a per board basis
 
-### Commit Message Format Conventions
-
-* Present Tense ("Reroute power traces on team flag" -- NOT "Rerouted power traces on team flag")
-* No period at the end: ("Reroute power traces on team flag" -- NOT "Reroute power traces on team flag.")
-* Keep your message length to about one sentence.
-
-### Merge Conflicts: What Do??
-
-Don't try to fix it yourself: Eagle files are finicky and you might break all your work!
-
-Contact Seiya or Tobin: seiyaono@pioneers.berkeley.edu or tobinholcomb@pioneers.berkeley.edu
 
 ## Standards
 
