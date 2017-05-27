@@ -69,8 +69,7 @@ Protocol when working on Eagle files
 
 Don't try to fix it yourself: Eagle files are finicky and you might break all your work!
 
-Contact Seiya or Tobin: seiyaono@pioneers.berkeley.edu or tobinholcomb@pioneers.berkeley.edu
-
+Ask someone who knows how to deal with this, i.e. your PM or something
 
 ## How to Create a Gerber
 
