@@ -1,4 +1,4 @@
-#Smart Sensors
+# Smart Sensors
 
 This is the working repo for smart sensors
 
@@ -18,7 +18,7 @@ Arduino Pro Micro Pinouts:
 
 ![Pinouts](https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png)
 
-##How to Create a Gerber
+## How to Create a Gerber
 
 1. Open the brd file
 2. Click Cam Job
@@ -29,7 +29,7 @@ Arduino Pro Micro Pinouts:
 6. Once all the jobs are done, run `make gerb`
 
 
-##Git Work Flow
+## Git Work Flow
 
 Protocol when working on Eagle files for Smartsensor, PDB, and Yogi Bear
 
@@ -37,7 +37,7 @@ Protocol when working on Eagle files for Smartsensor, PDB, and Yogi Bear
 
 **WARNING**: Do not modify pie.lbr, pie.dru, or pie.cam without discussing it witih PMs (Seiya and Tobin)
 
-###Initial Setup of SmartSensor repo on your computer
+### Initial Setup of SmartSensor repo on your computer
 
 1. Copy the URL for pioneers/SmartSensors to your clipboard: (Or here: https://github.com/pioneers/SmartSensors.git)
 2. In Terminal (mac) or GitBash (windows), navigate to your working directory (that is, the directory that you want to keep SmartSensors in.)
@@ -47,7 +47,7 @@ Protocol when working on Eagle files for Smartsensor, PDB, and Yogi Bear
 5. Do your work in EAGLE.
 
 
-###Steps when working on EAGLE files:
+### Steps when working on EAGLE files:
 
 1. In Terminal (mac) or GitBash (windows), navigate to your working directory (wherever you have SmartSensors).
 2. Make sure your working directory is clean: git status
@@ -78,7 +78,7 @@ python generate_bom.py ../Boards/BOARD_NAME/BOARD_NAME.sch BOARD_NAME.csv
 python docu-packet-gen.py ../Boards/BOARD_NAME/BOARD_NAME.sch ../Boards/BOARD_NAME/BOARD_NAME.brd BOARD_NAME.csv BOARD_NAME.pdf
 ```
 
-###FAQ
+### FAQ
 
 Q: What's the difference between commit before I pull?
 
@@ -92,13 +92,13 @@ Q: Why am I working on my own branch?
 
 A: This is to keep track of pull request and board reviews on a per board basis
 
-###Commit Message Format Conventions
+### Commit Message Format Conventions
 
 * Present Tense ("Reroute power traces on team flag" -- NOT "Rerouted power traces on team flag")
 * No period at the end: ("Reroute power traces on team flag" -- NOT "Reroute power traces on team flag.")
 * Keep your message length to about one sentence.
 
-###Merge Conflicts: What Do??
+### Merge Conflicts: What Do??
 
 Don't try to fix it yourself: Eagle files are finicky and you might break all your work!
 
