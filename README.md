@@ -35,19 +35,28 @@ Protocol when working on Eagle files
 
 **WARNING**: Do not modify pie.lbr, pie.dru, or pie.cam without discussing it with PMs 
 
-### Initial Setup of Electrical repo on your computer
+### Initial Setup of PiElectrical repo on your computer
 
-1. Copy the URL for pioneers/SmartSensors to your clipboard: (Or here: https://github.com/pioneers/SmartSensors.git)
-2. In Terminal (mac) or GitBash (windows), navigate to your working directory (that is, the directory that you want to keep SmartSensors in.)
-3. Clone SmartSensors by running this command: "git clone https://github.com/pioneers/SmartSensors.git "
-4.If you haven't started your sub project: git checkout -b YOUR\_NAME/SUBPROJECT
+1. Copy the URL for pioneers/PiElectrical to your clipboard: (Or here: https://github.com/pioneers/PiElectrical.git)
+2. In Terminal (mac, GNU/Linux) or GitBash (windows), navigate to your working directory (that is, the directory that you want to keep PiElectrical in.)
+3. Clone SmartSensors by running this command: "git clone https://github.com/pioneers/PiElectrical.git "
+4. If you haven't started your sub project: git checkout -b YOUR\_NAME/SUBPROJECT
   4.. YOUR\_NAME/SUBPROJECT is now the name of your branch
 5. Do your work in EAGLE.
+
+### Setting up Eagle
+
+1. Open up Eagle. The version number shouldn't be an issue, besides generating docu packets. Google is your friend.
+2. Go to Options -> Directories
+3. For Libraries, Design Rules, CAM Jobs, and Projects, add the PiElectrical directory by clicking on each box and hitting browse, until you find the PiElectrical directory
+4. Enable the pie.lbr by going back to the Control Panel, expanding Libraries, finding pie.lbr, right clicking on it, and check off `Use`. You can find it at PiElectrical/src/pie.lbr
+5. You are ready to use Eagle! 
+
 
 
 ### Steps when working on EAGLE files:
 
-1. In Terminal (mac) or GitBash (windows), navigate to your working directory (wherever you have SmartSensors).
+1. In Terminal (mac, GNU/Linux) or GitBash (windows), navigate to your working directory (wherever you have PiElectrical).
 2. Make sure your working directory is clean: git status
 3. If you haven't started your sub project: git checkout -b YOUR\_NAME/SUBPROJECT
   3. YOUR\_NAME/SUBPROJECT is now the name of your branch
@@ -58,11 +67,13 @@ Protocol when working on Eagle files
   5. **NOTE**: Commiting is like saving your file, but for all of PiE as well as your personal computer. And just like saving, Commit Early & Commit Often!
 6. Repeat Steps 4 and 5 until you are finished with your EAGLE work.
 7. Once you have made your last commit, push your files to the Smartsensors github repo: git push origin YOUR\_BRANCH
-    * If you get a merge conflict, contact the PMs for help.
+    7.. If you get a merge conflict, contact the PMs for help.
 8. If **completely** done, submit a Pull Request
 
 
 ### Generating Docu Packets
+
+**ONLY WORKS IN EAGLE VERSION 7.6, 7.7**
 
 Make sure that `eagle xvfb pdftk` are all installed.
 
