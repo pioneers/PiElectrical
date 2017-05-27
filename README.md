@@ -18,6 +18,7 @@ This is the working repo for PiElectrical teams
 
 [Useful Links](#useful-links)
 
+[Standards](#standards)
 
 ## ToDo:
 * Widen `keep clear` for USB connection on Thru Hole APM and SMD APM
