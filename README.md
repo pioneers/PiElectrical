@@ -12,7 +12,7 @@ This is the working repo for PiElectrical teams
 
 [How to Create a Gerber](#how-to-create-a-gerber)
 
-[Generating Docu Packets](#generating-docu-packets)
+[Docu Packets](#docu-packets)
 
 [FAQ](#faq)
 
@@ -119,7 +119,7 @@ Ask someone who knows how to deal with this, i.e. your PM or something
 5. Run job, and click yes to all for the polygon issue
 6. Once all the jobs are done, run `make gerb`
 
-## Generating Docu Packets
+## Docu Packets
 
 **ONLY WORKS IN EAGLE VERSION 7.6, 7.7**
 
