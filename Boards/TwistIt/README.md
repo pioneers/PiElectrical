@@ -89,3 +89,7 @@ Green | 6
 [Hardware Interrupts](https://www.arduino.cc/en/Reference/AttachInterrupt)
 
 Encoder is all digital. A and B Out need to be pulled up and needs to be mapped to interrupt pins
+
+Y9: The passive sensors worked great. The screw terminals were a great change that the students really liked. However, the line follow had issues b/c each signal was pulling up eachother. This needs to be fixed changing the overall pull up pin to SOMETHING SOMETHING I FORGOT BUG ME IF THIS ISN'T FIXED YET -SEIYA. Also the motor controller has to move a bit to make mounting a bit easier. Also pullups. Thanks pullups.
+
+Y10: Somebody
