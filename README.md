@@ -159,6 +159,10 @@ Arduino Pro Micro [Pinouts](https://cdn.sparkfun.com/assets/9/c/3/c/4/523a176575
 
 ## Standards
 
+Traces **must** be multiples of 45 degrees
+
+Rigiht angle connections must have polygon traces to alleviate fabrication errors
+
 Vias: 0.086 inch Diameter, 0.03937008 inch Drill
 
 Standard Pin Distance: 0.1 inch
