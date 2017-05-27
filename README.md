@@ -2,7 +2,17 @@
 
 This is the working repo for PiElectrical teams
 
-## TODO:
+[ToDo](#todo)
+[Repo Structure](#repo-structure)
+[Setup](#setup)
+[Workfow](#workflow)
+[How to Create a Gerber](#how-to-create-a-gerber)
+[Generating Docu Packets](#generating-docu-packets)
+[FAQ](#faq)
+[Useful Links](#useful-links)
+
+
+## ToDo:
 * Widen `keep clear` for USB connection on Thru Hole APM and SMD APM
 * Make `keep clear` on mounting holes bigger
 * Find a solution to breaking USB connections
@@ -21,13 +31,19 @@ For more information, visit:
 https://github.com/pioneers/PiElectrical
 ```
 
-The revision number should be REV 10A for Revision A Year 10
+## Repo Structure:
 
-Read up on the [PiE Electrical Style Rules and Guidelines](https://staff.pierobotics.org/wiki/Electrical_style_guidelines)
+**Boards**: Contains all the Eagle files, Arduino test files, and board specific internal documentation
 
-Arduino Pro Micro Pinouts:
+**Docu**: All docu packets and scripts. Fragile! Do not touch!
 
-![Pinouts](https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png)
+**gerbs**: Finalized gerbs sent out to fabrication
+
+**src**: Necessary Eagle files to work on PiElectrical
+
+**Makefile**: Runs scripts to make life easy
+
+ToDo is on the README to keep things easier to see at first glance. GitHub issues tracker can be used as well.
 
 ## Setup
 
@@ -48,9 +64,11 @@ Arduino Pro Micro Pinouts:
 4. Enable the pie.lbr by going back to the Control Panel, expanding Libraries, finding pie.lbr, right clicking on it, and check off `Use`. You can find it at PiElectrical/src/pie.lbr
 5. You are ready to use Eagle!
 
-## Git Work Flow
+## Work Flow
 
 Protocol when working on Eagle files
+
+The revision number should be *REV 10A* for Revision A Year 10
 
 [PiE Git Presentation Tutorial](https://docs.google.com/a/pioneers.berkeley.edu/presentation/d/1WO-AD3cTi1QdKW15F8ecN9V1b8u3yIKzHzLGQXDs-uM/edit?usp=sharing) for your own reference
 
@@ -94,7 +112,6 @@ Ask someone who knows how to deal with this, i.e. your PM or something
 5. Run job, and click yes to all for the polygon issue
 6. Once all the jobs are done, run `make gerb`
 
-
 ## Generating Docu Packets
 
 **ONLY WORKS IN EAGLE VERSION 7.6, 7.7**
@@ -125,6 +142,13 @@ Q: Why am I working on my own branch?
 
 A: This is to keep track of pull request and board reviews on a per board basis
 
+## Useful Links
+
+Read up on the [PiE Electrical Style Rules and Guidelines](https://staff.pierobotics.org/wiki/Electrical_style_guidelines)
+
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+Arduino Pro Micro [Pinouts](https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png)
 
 ## Standards
 
