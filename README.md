@@ -8,7 +8,7 @@ This is the working repo for PiElectrical teams
 
 [Setup](#setup)
 
-[Workfow](#workflow)
+[Work Flow](#work-flow)
 
 [How to Create a Gerber](#how-to-create-a-gerber)
 
