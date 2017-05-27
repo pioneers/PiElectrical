@@ -3,12 +3,19 @@
 This is the working repo for PiElectrical teams
 
 [ToDo](#todo)
+
 [Repo Structure](#repo-structure)
+
 [Setup](#setup)
+
 [Workfow](#workflow)
+
 [How to Create a Gerber](#how-to-create-a-gerber)
+
 [Generating Docu Packets](#generating-docu-packets)
+
 [FAQ](#faq)
+
 [Useful Links](#useful-links)
 
 
