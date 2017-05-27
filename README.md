@@ -39,7 +39,7 @@ Protocol when working on Eagle files
 
 1. Copy the URL for pioneers/PiElectrical to your clipboard: (Or here: https://github.com/pioneers/PiElectrical.git)
 2. In Terminal (mac, GNU/Linux) or GitBash (windows), navigate to your working directory (that is, the directory that you want to keep PiElectrical in.)
-3. Clone SmartSensors by running this command: "git clone https://github.com/pioneers/PiElectrical.git "
+3. Clone PiElectrical by running this command: "git clone https://github.com/pioneers/PiElectrical.git "
 4. If you haven't started your sub project: git checkout -b YOUR\_NAME/SUBPROJECT
   4.. YOUR\_NAME/SUBPROJECT is now the name of your branch
 5. Do your work in EAGLE.
@@ -66,7 +66,7 @@ Protocol when working on Eagle files
   5. git commit -m "Make your commit message short and with this format" 
   5. **NOTE**: Commiting is like saving your file, but for all of PiE as well as your personal computer. And just like saving, Commit Early & Commit Often!
 6. Repeat Steps 4 and 5 until you are finished with your EAGLE work.
-7. Once you have made your last commit, push your files to the Smartsensors github repo: git push origin YOUR\_BRANCH
+7. Once you have made your last commit, push your files to the PiElectrical github repo: git push origin YOUR\_BRANCH
     7.. If you get a merge conflict, contact the PMs for help.
 8. If **completely** done, submit a Pull Request
 
