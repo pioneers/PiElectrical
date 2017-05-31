@@ -41,6 +41,8 @@ https://github.com/pioneers/PiElectrical
 
 **gerbs**: Finalized gerbs sent out to fabrication
 
+**img**: Place all your images in here to enhance your READMEs.
+
 **src**: Necessary Eagle files to work on PiElectrical
 
 **Makefile**: Runs scripts to make life easy
