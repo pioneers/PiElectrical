@@ -23,6 +23,8 @@ This is the working repo for PiElectrical teams
 * Board Specific Fixes (See each README)
 * Auto BOM database project
 
+[Top](#pielectrical)
+
 ```
 (c) Pioneers In Engineering
 Design by: YOUR_NAMES_HERE
@@ -45,6 +47,8 @@ https://github.com/pioneers/PiElectrical
 
 ToDo is on the README to keep things easier to see at first glance. GitHub issues tracker can be used as well.
 
+[Top](#pielectrical)
+
 ## Setup
 
 ### Initial Setup of PiElectrical repo on your computer
@@ -63,6 +67,8 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
 3. For Libraries, Design Rules, CAM Jobs, and Projects, add the PiElectrical directory by clicking on each box and hitting browse, until you find the PiElectrical directory
 4. Enable the pie.lbr by going back to the Control Panel, expanding Libraries, finding pie.lbr, right clicking on it, and check off `Use`. You can find it at PiElectrical/src/pie.lbr
 5. You are ready to use Eagle!
+
+[Top](#pielectrical)
 
 ## Work Flow
 
@@ -102,6 +108,8 @@ Don't try to fix it yourself: Eagle files are finicky and you might break all yo
 
 Ask someone who knows how to deal with this, i.e. your PM or something
 
+[Top](#pielectrical)
+
 ## How to Create a Gerber
 
 1. Open the brd file
@@ -111,6 +119,8 @@ Ask someone who knows how to deal with this, i.e. your PM or something
     * SENSOR\_NAME **must** be the exact name as the brd file
 5. Run job, and click yes to all for the polygon issue
 6. Once all the jobs are done, run `make gerb`
+
+[Top](#pielectrical)
 
 ## Docu Packets
 
@@ -128,6 +138,8 @@ python generate_bom.py ../Boards/BOARD_NAME/BOARD_NAME.sch BOARD_NAME.csv
 python docu-packet-gen.py ../Boards/BOARD_NAME/BOARD_NAME.sch ../Boards/BOARD_NAME/BOARD_NAME.brd BOARD_NAME.csv BOARD_NAME.pdf
 ```
 
+[Top](#pielectrical)
+
 ## FAQ
 
 Q: What's the difference between commit before I pull?
@@ -142,6 +154,8 @@ Q: Why am I working on my own branch?
 
 A: This is to keep track of pull request and board reviews on a per board basis
 
+[Top](#pielectrical)
+
 ## Useful Links
 
 Read up on the [PiE Electrical Style Rules and Guidelines](https://staff.pierobotics.org/wiki/Electrical_style_guidelines)
@@ -152,6 +166,8 @@ Arduino Pro Micro [Pinouts](https://cdn.sparkfun.com/assets/9/c/3/c/4/523a176575
 
 [BAC DFM](http://instantdfm.bayareacircuits.com/)
 
+[Top](#pielectrical)
+
 ## Standards
 
 Traces **must** be multiples of 45 degrees
@@ -161,3 +177,6 @@ Rigiht angle connections must have polygon traces to alleviate fabrication error
 Vias: 0.086 inch Diameter, 0.03937008 inch Drill
 
 Standard Pin Distance: 0.1 inch
+
+[Top](#pielectrical)
+
