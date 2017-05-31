@@ -2,6 +2,7 @@
 
 The Flag for the Robot, display California Gold or Yale Blue.
 
+![Block Diag](../../img/TeamFlag-block_diag.png)
 ### Pinouts:
 
 Arduino Pro Micro | Team Flag

@@ -1,4 +1,4 @@
-#TwistIt
+# TwistIt
 
 Screw terminal based potentiometer/line follower/limit switch ultimate board
 
@@ -10,9 +10,13 @@ Analog pins are labeled as such
 
 Analog pins can be used as digital, NOT vice versa
 
+![Passive](../../img/pass_sensor.png)
+
+![Active](../../img/act_sensor.png)
+
 [2 Pin](https://www.sparkfun.com/products/8432) [3 pin](https://www.sparkfun.com/products/8433)
 
-##Reed switches
+## Reed switches
 
 Basically when it is placed in a magnetic field, the switch closes.
 
@@ -59,11 +63,11 @@ else digitalWrite(3, LOW);
 ```
 where an LED is attached to pin 3.
 
-![circuit](Reed_circuit.jpg)
-
-Please contact Ren Lingfei for more information.
+![circuit](../../img/Reed_circuit.jpg)
 
 ## Yogi Bear Break Out
+
+![Yogi](../../img/yogi.png)
 
 VNH2SP30 | APM
 -------- | ---
@@ -74,10 +78,8 @@ INA | 16
 INB | 10
 CS | 8
 PMW | 9
-- | -
 Encoder A | 2
 Encoder B | 3
-- | -
 Red | 4
 Yellow | 5
 Green | 6
