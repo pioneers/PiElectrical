@@ -25,14 +25,6 @@ This is the working repo for PiElectrical teams
 
 [Back to Top](#pielectrical)
 
-```
-(c) Pioneers In Engineering
-Design by: YOUR_NAMES_HERE
-This design is open source hardware.
-For more information, visit:
-https://github.com/pioneers/PiElectrical
-```
-
 ## Repo Structure:
 
 **Boards**: Contains all the Eagle files, Arduino test files, and board specific internal documentation
@@ -179,6 +171,16 @@ Rigiht angle connections must have polygon traces to alleviate fabrication error
 Vias: 0.086 inch Diameter, 0.03937008 inch Drill
 
 Standard Pin Distance: 0.1 inch
+
+Make sure to annotate your boards:
+
+```
+(c) Pioneers In Engineering
+Design by: YOUR_NAMES_HERE
+This design is open source hardware.
+For more information, visit:
+https://github.com/pioneers/PiElectrical
+```
 
 [Back to Top](#pielectrical)
 
