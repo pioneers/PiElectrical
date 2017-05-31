@@ -57,7 +57,7 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
 1. Open up Eagle. The version number shouldn't be an issue, besides generating docu packets. Google is your friend.
 2. Go to Options -> Directories
 3. For Libraries, Design Rules, CAM Jobs, and Projects, add the PiElectrical directory by clicking on each box and hitting browse, until you find the PiElectrical directory
-   3.. It should look something like this: ![directories](img/eagle-directories.PNG)
+  3.. It should look something like this: ![directories](img/eagle-directories.PNG)
 4. Enable the pie.lbr by going back to the Control Panel, expanding Libraries, finding pie.lbr, right clicking on it, and check off `Use`. You can find it at PiElectrical/src/pie.lbr
 5. You are ready to use Eagle!
 
