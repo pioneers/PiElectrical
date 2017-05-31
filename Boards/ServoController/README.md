@@ -2,7 +2,7 @@
 
 Previous Named Koala Bear, controls the servo
 
-![Block Diagram](../../img/Servo-block-diag.png)
+![Block Diagram](../../img/Servo-block_diag.png)
 
 Has 2 Servo Mounts, external 5 V and Max 1 Amp
 
