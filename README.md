@@ -76,7 +76,7 @@ Protocol when working on Eagle files
 
 The revision number should be *REV 10A* for Revision A Year 10
 
-[PiE Git Presentation Tutorial](https://docs.google.com/a/pioneers.berkeley.edu/presentation/d/1WO-AD3cTi1QdKW15F8ecN9V1b8u3yIKzHzLGQXDs-uM/edit?usp=sharing) for your own reference
+See [Useful Links](#useful-links) for the PiE Github tutorial
 
 **WARNING**: Do not modify pie.lbr, pie.dru, or pie.cam without discussing it with PMs
 
@@ -159,6 +159,8 @@ A: This is to keep track of pull request and board reviews on a per board basis
 ## Useful Links
 
 Read up on the [PiE Electrical Style Rules and Guidelines](https://staff.pierobotics.org/wiki/Electrical_style_guidelines)
+
+PiE's own [Github Tutorial](https://docs.google.com/a/pioneers.berkeley.edu/presentation/d/1ef5zSDMbE7dCu4XAC4dXhSV5iUd7gjCyXPjRrRvtbQI/edit?usp=sharing)
 
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
