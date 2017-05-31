@@ -54,11 +54,9 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
 ### Initial Setup of PiElectrical repo on your computer
 
 1. Copy the URL for pioneers/PiElectrical to your clipboard: (Or here: https://github.com/pioneers/PiElectrical.git)
-2. In Terminal (mac, GNU/Linux) or GitBash (windows), navigate to your working directory (that is, the directory that you want to keep PiElectrical in.)
+2. In Terminal (Mac, GNU/Linux) or GitBash (windows), navigate to your working directory (that is, the directory that you want to keep PiElectrical in.)
 3. Clone PiElectrical by running this command: `git clone https://github.com/pioneers/PiElectrical.git`
-4. If you haven't started your sub project: git checkout -b YOUR\_NAME/SUBPROJECT
-  4.. YOUR\_NAME/SUBPROJECT is now the name of your branch
-5. Do your work in EAGLE.
+4. Do your work in Eagle.
 
 ### Setting up Eagle
 
@@ -76,7 +74,7 @@ Protocol when working on Eagle files
 
 The revision number should be *REV 10A* for Revision A Year 10
 
-See [Useful Links](#useful-links) for the PiE Github tutorial
+If you are not quite familiar with git, see [Useful Links](#useful-links) for the PiE Github tutorial
 
 **WARNING**: Do not modify pie.lbr, pie.dru, or pie.cam without discussing it with PMs
 
@@ -84,7 +82,7 @@ See [Useful Links](#useful-links) for the PiE Github tutorial
 
 1. In Terminal (mac, GNU/Linux) or GitBash (windows), navigate to your working directory (wherever you have PiElectrical).
 2. Make sure your working directory is clean: git status
-3. If you haven't started your sub project: git checkout -b YOUR\_NAME/SUBPROJECT
+3. If you haven't started your sub project: git checkout -b YOURNAME-SUBPROJECT
   3. YOUR\_NAME/SUBPROJECT is now the name of your branch
 4. Do your work in EAGLE.
 5. Once you are at a good stopping point in your EAGLE work, commit your progress:
@@ -98,8 +96,8 @@ See [Useful Links](#useful-links) for the PiE Github tutorial
 
 ### Commit Message Format Conventions
 
-* Present Tense ("Reroute power traces on team flag" -- NOT "Rerouted power traces on team flag")
-* No period at the end: ("Reroute power traces on team flag" -- NOT "Reroute power traces on team flag.")
+* Present Tense ("Reroute power traces on team flag", not "Rerouted power traces on team flag")
+* No period at the end: ("Reroute power traces on team flag", not "Reroute power traces on team flag.")
 * Keep your message length to about one sentence.
 
 ### Merge Conflicts: What Do??
