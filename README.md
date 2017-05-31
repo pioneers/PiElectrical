@@ -55,7 +55,7 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
 
 1. Copy the URL for pioneers/PiElectrical to your clipboard: (Or here: https://github.com/pioneers/PiElectrical.git)
 2. In Terminal (mac, GNU/Linux) or GitBash (windows), navigate to your working directory (that is, the directory that you want to keep PiElectrical in.)
-3. Clone PiElectrical by running this command: "git clone https://github.com/pioneers/PiElectrical.git "
+3. Clone PiElectrical by running this command: `git clone https://github.com/pioneers/PiElectrical.git`
 4. If you haven't started your sub project: git checkout -b YOUR\_NAME/SUBPROJECT
   4.. YOUR\_NAME/SUBPROJECT is now the name of your branch
 5. Do your work in EAGLE.
