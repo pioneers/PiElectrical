@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10976,6 +10976,17 @@ VNH2SP30</text>
 <text x="-1.95" y="-5.2" size="0.8128" layer="21">&gt;VALUE</text>
 <circle x="-3.9" y="-4.55" radius="0.65" width="0.127" layer="21"/>
 </package>
+<package name="SPDT_SWITCH">
+<pad name="OUT1" x="2.9718" y="15.0368" drill="2.1082" diameter="3.81"/>
+<pad name="IN" x="7.6708" y="15.0368" drill="2.1082" diameter="3.81"/>
+<pad name="OUT2" x="12.3698" y="15.0368" drill="2.1082" diameter="3.81"/>
+<pad name="P$2" x="10.4013" y="2.3368" drill="1.4732" diameter="2.54"/>
+<pad name="P$1" x="5.3213" y="2.3368" drill="1.4732" diameter="2.54"/>
+<wire x1="0" y1="0" x2="0" y2="17.78" width="0.127" layer="21"/>
+<wire x1="0" y1="17.78" x2="15.24" y2="17.78" width="0.127" layer="21"/>
+<wire x1="15.24" y1="17.78" x2="15.24" y2="0" width="0.127" layer="21"/>
+<wire x1="15.24" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SJ">
@@ -13353,6 +13364,29 @@ a TI sourced LI-ion, Lipo, Li-FE battery protection chip</description>
 <pin name="VI-" x="-5.08" y="5.08" length="middle" direction="out"/>
 <pin name="VO+" x="25.4" y="15.24" length="middle" direction="out" rot="R180"/>
 <pin name="VO-" x="25.4" y="5.08" length="middle" direction="out" rot="R180"/>
+</symbol>
+<symbol name="SPDT_SWITCH">
+<description>Single pole double throw with off switch</description>
+<wire x1="7.62" y1="0" x2="45.72" y2="0" width="0.254" layer="94"/>
+<wire x1="45.72" y1="0" x2="45.72" y2="5.08" width="0.254" layer="94"/>
+<wire x1="45.72" y1="5.08" x2="45.72" y2="15.24" width="0.254" layer="94"/>
+<wire x1="45.72" y1="15.24" x2="45.72" y2="20.32" width="0.254" layer="94"/>
+<wire x1="45.72" y1="20.32" x2="7.62" y2="20.32" width="0.254" layer="94"/>
+<wire x1="7.62" y1="20.32" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<pin name="IN" x="2.54" y="10.16" visible="off" length="middle"/>
+<pin name="OUT1" x="50.8" y="15.24" visible="off" length="middle" rot="R180"/>
+<pin name="OUT2" x="50.8" y="5.08" visible="off" length="middle" rot="R180"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="45.72" y1="15.24" x2="34.29" y2="15.24" width="0.254" layer="94"/>
+<wire x1="45.72" y1="5.08" x2="34.29" y2="5.08" width="0.254" layer="94"/>
+<circle x="33.02" y="15.24" radius="1.27" width="0.254" layer="94"/>
+<circle x="33.02" y="5.08" radius="1.27" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<text x="12.7" y="11.43" size="1.27" layer="94" font="vector">IN</text>
+<circle x="16.51" y="10.16" radius="1.27" width="0.254" layer="94"/>
+<wire x1="17.78" y1="10.16" x2="31.75" y2="15.24" width="0.254" layer="94"/>
+<text x="36.83" y="16.51" size="1.27" layer="94">OUT1</text>
+<text x="36.83" y="6.35" size="1.27" layer="94">OUT2</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -17598,6 +17632,24 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPDT_SWITCH">
+<description>Single pole double throw with off setting switch.</description>
+<gates>
+<gate name="G$1" symbol="SPDT_SWITCH" x="-25.4" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="SPDT_SWITCH">
+<connects>
+<connect gate="G$1" pin="IN" pad="IN"/>
+<connect gate="G$1" pin="OUT1" pad="OUT1"/>
+<connect gate="G$1" pin="OUT2" pad="OUT2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
