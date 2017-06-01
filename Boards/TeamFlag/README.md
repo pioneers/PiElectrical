@@ -27,11 +27,13 @@ Y9: Changed the Arduino interface to be SMD last minute, which caused issues. Th
 Y10: Avererorero Kandala
 
 [Proposed SPDT switch](https://www.digikey.com/product-detail/en/e-switch/100SP1T2B4M6QE/EG2362-ND/378831)
+
 [Proposed Micro USB connector](https://www.digikey.com/product-detail/en/molex-llc/0475890001/WM17143CT-ND/1832255)
 
 ## Changes
 * Look into SMD single pole triple throw part
 * Obtain footprint and add as new part
 * Find an easy microUSB SMD component
+* Make sure it has a big keep out region
 * Obtain footprint of said component and attach to board
 * Add more holes to connect GND planes
