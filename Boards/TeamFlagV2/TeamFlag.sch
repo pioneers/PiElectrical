@@ -2250,16 +2250,17 @@ chip</description>
 <rectangle x1="-2.032" y1="-2.794" x2="2.032" y2="2.794" layer="39"/>
 </package>
 <package name="SP3T_SLIDE_SWITCH">
+<description>Single pole triple throw with slide switch</description>
 <wire x1="0" y1="0" x2="0" y2="4.2926" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="14.478" y2="0" width="0.127" layer="21"/>
 <pad name="P$3" x="1.143" y="2.1463" drill="1.7526" diameter="1.9304"/>
 <wire x1="0" y1="4.318" x2="14.478" y2="4.318" width="0.127" layer="21"/>
 <wire x1="14.478" y1="0" x2="14.478" y2="4.2926" width="0.127" layer="21"/>
 <pad name="P$4" x="13.335" y="2.1463" drill="1.7526" diameter="1.9304"/>
-<pad name="PIN1" x="3.2512" y="2.1463" drill="1.0414"/>
-<pad name="PIN2" x="7.239" y="2.1463" drill="1.0414"/>
-<pad name="PIN3" x="9.2456" y="2.1463" drill="1.0414"/>
-<pad name="PIN4" x="11.2522" y="2.1463" drill="1.0414" rot="R180"/>
+<pad name="PIN1" x="3.2512" y="2.1463" drill="1.0414" diameter="1.6764"/>
+<pad name="PIN2" x="7.239" y="2.1463" drill="1.0414" diameter="1.6764"/>
+<pad name="PIN3" x="9.2456" y="2.1463" drill="1.0414" diameter="1.6764"/>
+<pad name="PIN4" x="11.2522" y="2.1463" drill="1.0414" diameter="1.6764" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -2372,7 +2373,7 @@ chip</description>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 <symbol name="SP3T_SLIDE_SWITCH">
-<description>Single pole double throw with off switch</description>
+<description>Single pole triple throw with slide switch</description>
 <pin name="PIN1" x="1.27" y="10.16" visible="off" length="middle" rot="R270"/>
 <pin name="PIN2" x="8.89" y="10.16" visible="off" length="middle" rot="R270"/>
 <pin name="PIN3" x="12.7" y="10.16" visible="off" length="middle" rot="R270"/>
@@ -3599,7 +3600,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </devices>
 </deviceset>
 <deviceset name="SP3T_SLIDE_SWITCH">
-<description>Single pole double throw with off setting switch.</description>
+<description>Single pole triple throw with slide switch</description>
 <gates>
 <gate name="G$1" symbol="SP3T_SLIDE_SWITCH" x="-25.4" y="-10.16"/>
 </gates>
@@ -3647,10 +3648,10 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <sheets>
 <sheet>
 <plain>
-<text x="8.89" y="140.97" size="1.778" layer="91" font="vector">YELLOW</text>
-<text x="33.02" y="140.97" size="1.778" layer="91" font="vector">BLUE</text>
+<text x="11.43" y="140.97" size="1.778" layer="91" font="vector">PIN1</text>
+<text x="33.02" y="140.97" size="1.778" layer="91" font="vector">PIN2</text>
 <text x="11.43" y="97.79" size="1.778" layer="91" font="vector">PIN1</text>
-<text x="11.43" y="83.82" size="1.778" layer="91" font="vector">PIN4</text>
+<text x="11.43" y="83.82" size="1.778" layer="91" font="vector">PIN2</text>
 <wire x1="0" y1="116.84" x2="73.66" y2="116.84" width="0.4064" layer="94"/>
 <wire x1="73.66" y1="116.84" x2="73.66" y2="185.42" width="0.4064" layer="94"/>
 <wire x1="73.66" y1="116.84" x2="73.66" y2="58.42" width="0.4064" layer="94"/>
@@ -3691,14 +3692,14 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="45.72" y1="82.55" x2="52.07" y2="82.55" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="SUPPLY3" gate="GND" pin="GND"/>
-<wire x1="34.29" y1="22.86" x2="34.29" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <wire x1="45.72" y1="151.13" x2="45.72" y2="148.59" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="SUPPLY3" gate="GND" pin="GND"/>
+<wire x1="34.29" y1="22.86" x2="34.29" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
