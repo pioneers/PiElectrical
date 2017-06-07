@@ -2252,15 +2252,15 @@ chip</description>
 <package name="SP3T_SLIDE_SWITCH">
 <description>Single pole triple throw with slide switch</description>
 <wire x1="0" y1="0" x2="0" y2="4.2926" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="14.478" y2="0" width="0.127" layer="21"/>
-<pad name="P$3" x="1.143" y="2.1463" drill="1.7526" diameter="1.9304"/>
-<wire x1="0" y1="4.318" x2="14.478" y2="4.318" width="0.127" layer="21"/>
-<wire x1="14.478" y1="0" x2="14.478" y2="4.2926" width="0.127" layer="21"/>
-<pad name="P$4" x="13.335" y="2.1463" drill="1.7526" diameter="1.9304"/>
-<pad name="PIN1" x="3.2512" y="2.1463" drill="1.0414" diameter="1.6764"/>
-<pad name="PIN2" x="7.239" y="2.1463" drill="1.0414" diameter="1.6764"/>
-<pad name="PIN3" x="9.2456" y="2.1463" drill="1.0414" diameter="1.6764"/>
-<pad name="PIN4" x="11.2522" y="2.1463" drill="1.0414" diameter="1.6764" rot="R180"/>
+<wire x1="0" y1="0" x2="14.986" y2="0" width="0.127" layer="21"/>
+<pad name="P$3" x="1.397" y="2.1463" drill="1.7526" diameter="1.9304"/>
+<wire x1="0" y1="4.318" x2="14.986" y2="4.318" width="0.127" layer="21"/>
+<wire x1="14.986" y1="0" x2="14.986" y2="4.2926" width="0.127" layer="21"/>
+<pad name="P$4" x="13.589" y="2.1463" drill="1.7526" diameter="1.9304"/>
+<pad name="PIN1" x="3.5052" y="2.1463" drill="1.0414" diameter="1.6764"/>
+<pad name="PIN2" x="7.493" y="2.1463" drill="1.0414" diameter="1.6764"/>
+<pad name="PIN3" x="9.4996" y="2.1463" drill="1.0414" diameter="1.6764"/>
+<pad name="PIN4" x="11.5062" y="2.1463" drill="1.0414" diameter="1.6764" rot="R180"/>
 </package>
 </packages>
 <symbols>

@@ -264,15 +264,15 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <package name="SP3T_SLIDE_SWITCH">
 <description>Single pole triple throw with slide switch</description>
 <wire x1="0" y1="0" x2="0" y2="4.2926" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="14.478" y2="0" width="0.127" layer="21"/>
-<pad name="P$3" x="1.143" y="2.1463" drill="1.7526" diameter="1.9304"/>
-<wire x1="0" y1="4.318" x2="14.478" y2="4.318" width="0.127" layer="21"/>
-<wire x1="14.478" y1="0" x2="14.478" y2="4.2926" width="0.127" layer="21"/>
-<pad name="P$4" x="13.335" y="2.1463" drill="1.7526" diameter="1.9304"/>
-<pad name="PIN1" x="3.2512" y="2.1463" drill="1.0414" diameter="1.6764"/>
-<pad name="PIN2" x="7.239" y="2.1463" drill="1.0414" diameter="1.6764"/>
-<pad name="PIN3" x="9.2456" y="2.1463" drill="1.0414" diameter="1.6764"/>
-<pad name="PIN4" x="11.2522" y="2.1463" drill="1.0414" diameter="1.6764" rot="R180"/>
+<wire x1="0" y1="0" x2="14.986" y2="0" width="0.127" layer="21"/>
+<pad name="P$3" x="1.397" y="2.1463" drill="1.7526" diameter="1.9304"/>
+<wire x1="0" y1="4.318" x2="14.986" y2="4.318" width="0.127" layer="21"/>
+<wire x1="14.986" y1="0" x2="14.986" y2="4.2926" width="0.127" layer="21"/>
+<pad name="P$4" x="13.589" y="2.1463" drill="1.7526" diameter="1.9304"/>
+<pad name="PIN1" x="3.5052" y="2.1463" drill="1.0414" diameter="1.6764"/>
+<pad name="PIN2" x="7.493" y="2.1463" drill="1.0414" diameter="1.6764"/>
+<pad name="PIN3" x="9.4996" y="2.1463" drill="1.0414" diameter="1.6764"/>
+<pad name="PIN4" x="11.5062" y="2.1463" drill="1.0414" diameter="1.6764" rot="R180"/>
 </package>
 </packages>
 </library>
@@ -512,7 +512,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <signal name="N$2">
 <contactref element="R1" pad="1"/>
 <contactref element="LED1" pad="A"/>
-<wire x1="2.54" y1="12.534" x2="2.54" y2="13.97" width="0.4064" layer="1"/>
+<wire x1="2.54" y1="12.534" x2="2.54" y2="13.97" width="0" layer="19" extent="1-16"/>
 <wire x1="2.54" y1="13.97" x2="13.97" y2="25.4" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$3">
@@ -527,7 +527,6 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <contactref element="C1" pad="2"/>
 <contactref element="U$2" pad="PIN2"/>
 <contactref element="U$1" pad="VCC"/>
-<wire x1="15.621" y1="2.1463" x2="15.621" y2="1.143" width="0.4064" layer="1"/>
 <wire x1="24.384" y1="5.842" x2="25.146" y2="6.604" width="0.4064" layer="1"/>
 <wire x1="25.146" y1="6.604" x2="30.226" y2="6.604" width="0.4064" layer="1"/>
 <wire x1="30.988" y1="6.604" x2="37.426" y2="6.604" width="0.4064" layer="1"/>
@@ -540,31 +539,32 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="30.988" y1="6.523" x2="30.988" y2="6.604" width="0.4064" layer="1"/>
 <wire x1="30.561" y1="6.096" x2="30.226" y2="6.431" width="0.4064" layer="1"/>
 <wire x1="30.226" y1="6.431" x2="30.226" y2="6.604" width="0.4064" layer="1"/>
-<wire x1="15.621" y1="1.143" x2="16.002" y2="0.762" width="0.4064" layer="1"/>
 <wire x1="24.384" y1="1.27" x2="24.384" y2="5.842" width="0.4064" layer="1"/>
 <wire x1="23.876" y1="0.762" x2="24.384" y2="1.27" width="0.4064" layer="1"/>
-<wire x1="16.002" y1="0.762" x2="21.082" y2="0.762" width="0.4064" layer="1"/>
 <wire x1="21.082" y1="0.762" x2="23.114" y2="0.762" width="0.3048" layer="1"/>
 <wire x1="23.114" y1="0.762" x2="23.876" y2="0.762" width="0.4064" layer="1"/>
 <wire x1="30.561" y1="6.096" x2="30.561" y2="4.199" width="0.3048" layer="1"/>
+<wire x1="15.875" y1="2.1463" x2="15.875" y2="1.143" width="0.4064" layer="1"/>
+<wire x1="15.875" y1="1.143" x2="16.256" y2="0.762" width="0.4064" layer="1"/>
+<wire x1="16.256" y1="0.762" x2="21.082" y2="0.762" width="0.4064" layer="1"/>
 </signal>
 <signal name="PIN4">
 <contactref element="U$2" pad="PIN4"/>
 <contactref element="R2" pad="2"/>
-<wire x1="19.6342" y1="2.1463" x2="19.6342" y2="4.7498" width="0.4064" layer="1"/>
-<wire x1="19.6342" y1="4.7498" x2="19.05" y2="5.334" width="0.4064" layer="1"/>
-<wire x1="19.05" y1="5.334" x2="12.446" y2="5.334" width="0.4064" layer="1"/>
-<wire x1="12.446" y1="5.334" x2="7.112" y2="10.668" width="0.4064" layer="1"/>
-<wire x1="7.112" y1="10.668" x2="6.008" y2="10.668" width="0.4064" layer="1"/>
-<wire x1="6.008" y1="10.668" x2="5.842" y2="10.834" width="0.4064" layer="1"/>
+<wire x1="19.8882" y1="2.1463" x2="19.8882" y2="3.7338" width="0.4064" layer="1"/>
+<wire x1="19.8882" y1="3.7338" x2="18.542" y2="5.08" width="0.4064" layer="1"/>
+<wire x1="18.542" y1="5.08" x2="12.446" y2="5.08" width="0.4064" layer="1"/>
+<wire x1="8.128" y1="9.398" x2="7.278" y2="9.398" width="0.4064" layer="1"/>
+<wire x1="7.278" y1="9.398" x2="5.842" y2="10.834" width="0.4064" layer="1"/>
+<wire x1="12.446" y1="5.08" x2="8.128" y2="9.398" width="0.4064" layer="1"/>
 </signal>
 <signal name="PIN1">
 <contactref element="U$2" pad="PIN1"/>
 <contactref element="R1" pad="2"/>
-<wire x1="11.6332" y1="2.1463" x2="11.6332" y2="3.8608" width="0.4064" layer="1"/>
-<wire x1="11.6332" y1="3.8608" x2="6.858" y2="8.636" width="0.4064" layer="1"/>
-<wire x1="6.858" y1="8.636" x2="4.738" y2="8.636" width="0.4064" layer="1"/>
+<wire x1="11.8872" y1="2.1463" x2="11.8872" y2="3.3528" width="0.4064" layer="1"/>
+<wire x1="6.604" y1="8.636" x2="4.738" y2="8.636" width="0.4064" layer="1"/>
 <wire x1="4.738" y1="8.636" x2="2.54" y2="10.834" width="0.4064" layer="1"/>
+<wire x1="11.8872" y1="3.3528" x2="6.604" y2="8.636" width="0.4064" layer="1"/>
 </signal>
 </signals>
 </board>
