@@ -147,8 +147,8 @@
 <text x="23.876" y="31.75" size="1.778" layer="22" font="vector" rot="MR0" align="bottom-center">Pioneers in Engineering
 Team Flag
 Rev 10A</text>
-<text x="43.942" y="17.018" size="1.778" layer="22" rot="MR0">(c) Pioneers In Engineering
-Design by: YOUR_NAMES_HERE
+<text x="35.052" y="23.114" size="0.8128" layer="22" font="vector" rot="MR0">(c) Pioneers In Engineering
+Design by: Averal K, Nick W
 This design is open source hardware.
 For more information, visit:
 https://github.com/pioneers/PiElectrical</text>
@@ -952,7 +952,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <element name="U$5" library="pie" package="STAND-OFF" value="" x="4.064" y="4.572"/>
 <element name="U$6" library="pie" package="STAND-OFF" value="" x="42.164" y="4.572"/>
 <element name="U$2" library="pie" package="SP3T_SLIDE_SWITCH" value="SP3T_SLIDE_SWITCH" x="8.382" y="0"/>
-<element name="U$7" library="pie" package="PIE-LOGO-SMALL" value="" x="23.622" y="12.192" rot="MR0"/>
+<element name="U$7" library="pie" package="PIE-LOGO-SMALL" value="" x="22.606" y="15.494" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
