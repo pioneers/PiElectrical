@@ -387,8 +387,8 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <vertex x="-0.32" y="0.36"/>
 <vertex x="-0.32" y="-0.36" curve="90"/>
 </polygon>
-<pad name="P$1" x="0" y="0" drill="0.6" diameter="1.2" shape="long" rot="R90"/>
-<pad name="P$3" x="8.35" y="0" drill="0.6" diameter="1.2" shape="long" rot="R90"/>
+<pad name="P$1" x="0" y="0" drill="0.6" diameter="1.016" shape="long" rot="R90"/>
+<pad name="P$3" x="8.35" y="0" drill="0.6" diameter="1.016" shape="long" rot="R90"/>
 <polygon width="0.127" layer="46">
 <vertex x="8.34" y="-0.65" curve="90"/>
 <vertex x="8.66" y="-0.33"/>
@@ -402,8 +402,8 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <smd name="DATA+" x="4.175" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
 <smd name="ID" x="4.825" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
 <smd name="GND" x="5.475" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<pad name="P$8" x="1.95" y="3" drill="0.85" diameter="0.95" shape="long" rot="R90"/>
-<pad name="P$9" x="6.4" y="3" drill="0.85" diameter="0.95" shape="long" rot="R90"/>
+<pad name="P$8" x="1.95" y="3" drill="0.4826" diameter="0.8128" shape="long" rot="R90"/>
+<pad name="P$9" x="6.4" y="3" drill="0.4826" diameter="0.8128" shape="long" rot="R90"/>
 <wire x1="-1.4" y1="-1.45" x2="0.75" y2="-1.45" width="0.127" layer="21"/>
 <wire x1="0.75" y1="-1.45" x2="7.6" y2="-1.45" width="0.127" layer="21"/>
 <wire x1="7.6" y1="-1.45" x2="9.75" y2="-1.45" width="0.127" layer="21"/>
@@ -421,6 +421,26 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <text x="4.4" y="0.8" size="0.254" layer="21" font="vector" rot="R90">DATA+</text>
 <text x="5" y="0.8" size="0.254" layer="21" font="vector" rot="R90">ID</text>
 <text x="5.7" y="0.8" size="0.254" layer="21" font="vector" rot="R90">GND</text>
+<polygon width="0.05" layer="46">
+<vertex x="1.95" y="2.5" curve="90"/>
+<vertex x="2.3" y="2.85"/>
+<vertex x="2.3" y="2.95"/>
+<vertex x="2.3" y="3.1" curve="90"/>
+<vertex x="1.95" y="3.45" curve="90"/>
+<vertex x="1.6" y="3.1"/>
+<vertex x="1.6" y="2.95"/>
+<vertex x="1.6" y="2.85" curve="90"/>
+</polygon>
+<polygon width="0.05" layer="46">
+<vertex x="6.4" y="2.5" curve="90"/>
+<vertex x="6.75" y="2.85"/>
+<vertex x="6.75" y="2.95"/>
+<vertex x="6.75" y="3.1" curve="90"/>
+<vertex x="6.4" y="3.45" curve="90"/>
+<vertex x="6.05" y="3.1"/>
+<vertex x="6.05" y="2.95"/>
+<vertex x="6.05" y="2.85" curve="90"/>
+</polygon>
 </package>
 <package name="R0402">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
