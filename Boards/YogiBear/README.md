@@ -8,4 +8,4 @@ Yogi Bear is a cool bear.
 
 [MOSFET CUT TAPE] (http://www.digikey.com/product-detail/en/infineon-technologies/IPD90N03S4L-02/IPD90N03S4L-02CT-ND/2231143)
 
-Y9: Wasn't used
+Y9: Wasn't used because we used twist-it as the interface to the red boards.  We probably should continue doing it this way.
