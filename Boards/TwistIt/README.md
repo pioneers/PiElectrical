@@ -92,6 +92,10 @@ Green | 6
 
 Encoder is all digital. A and B Out need to be pulled up and needs to be mapped to interrupt pins
 
-Y9: The passive sensors worked great. The screw terminals were a great change that the students really liked. However, the line follow had issues b/c each signal was pulling up eachother. This needs to be fixed by giving each line its own jumper so they don't leak into eachother's signals, causing all readings to be locked with eachother. Also the motor controller has to move a bit to make mounting a bit easier. Also pullups. Thanks pullups.
+Y9: The passive sensors worked great. The screw terminals were a great change that the students really liked. However, the line follow had issues b/c each signal was pulling up eachother.  However, the line following sensors didn't need pullups at all in the first place.  This could be fixed by not soldering in the pullup resistors.
+
+Also the motor controller has to move a bit to make mounting a bit easier. At a minimum, move the yogibear pins .1" to the right, that *should* be enough clearance to let both andersons on the yogibear stand straight up.  Additionally, the encoder connector should be moved to the right side (current on left) of the PCB, since that is the location closest to the motors. 
+
+Also pullups (on the encoders). Thanks pullups.
 
 Y10: Somebody
