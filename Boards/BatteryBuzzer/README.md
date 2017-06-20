@@ -11,5 +11,11 @@ Reacts the how angry the battery is.  This design is an experimental board using
 [Backup multiplexer](http://www.ti.com/product/SN74CB3T3253/)
 * Use in case the other one doesn't work
 
+[OP-AMP (Through-Hole)](https://www.digikey.com/products/en?mpart=LMC6482AIN/NOPB&v=296)
+* Same one used in 16A.
+* $2 ea. :((((((((((((((((((
+
+[OP-AMP (Surface-Mount)](https://www.digikey.com/products/en?mpart=LMC6482AIM/NOPB&v=296)
+* Surface mount version of above.
 
 
