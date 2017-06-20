@@ -25,3 +25,4 @@ Reacts the how angry the battery is.  This design is an experimental board using
 * Surface mount version of above.
 
 
+[ignore this](http://www.ti.com/product/BQ76920)
