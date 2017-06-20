@@ -11,6 +11,10 @@ Reacts the how angry the battery is.  This design is an experimental board using
 [Backup multiplexer](http://www.ti.com/product/SN74CB3T3253/)
 * Use in case the other one doesn't work
 
+[OP-AMP (Through-Hole)](https://www.digikey.com/products/en?mpart=TL071CP&v=296)
+* Cheaper - $0.61 ea
+* I think it is rail-to-rail
+
 [OP-AMP (Through-Hole)](https://www.digikey.com/products/en?mpart=LMC6482AIN/NOPB&v=296)
 * Same one used in 16A.
 * $2 ea. :((((((((((((((((((
