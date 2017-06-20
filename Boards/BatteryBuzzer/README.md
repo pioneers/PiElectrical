@@ -1,3 +1,15 @@
 #Battery Buzzer
 
 Reacts the how angry the battery is.  This design is an experimental board using the magic TI chip.
+
+[Proposed multiplexer (analog)](http://www.ti.com/product/SN74HC4852/)
+* $0.72 ea
+* Dual 4:1 multiplexer
+* Multiple package types
+* Supports up to 6v VCC 
+
+[Backup multiplexer](http://www.ti.com/product/SN74CB3T3253/)
+* Use in case the other one doesn't work
+
+
+
