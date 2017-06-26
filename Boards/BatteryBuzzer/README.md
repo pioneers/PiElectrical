@@ -26,3 +26,5 @@ Reacts the how angry the battery is.  This design is an experimental board using
 
 
 [ignore this](http://www.ti.com/product/BQ76920)
+
+[Also ignore this datasheet](http://www.ti.com/lit/ds/symlink/bq76920.pdf)
