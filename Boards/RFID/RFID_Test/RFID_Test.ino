@@ -47,6 +47,9 @@ void setup() {
 	SPI.begin();			// Init SPI bus
 	mfrc522.PCD_Init();		// Init MFRC522
 	mfrc522.PCD_DumpVersionToSerial();	// Show details of PCD - MFRC522 Card Reader details
+  mfrc522.PCD_SetAntennaGain(0x0072);
+  Serial.print(F("Gain of Antenna: "));
+  Serial.println(mfrc522.PCD_GetAntennaGain());
 	Serial.println(F("Scan PICC to see UID, SAK, type, and data blocks..."));
 }
 
