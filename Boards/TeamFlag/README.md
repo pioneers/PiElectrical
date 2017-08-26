@@ -22,7 +22,7 @@ GND | GND
 Upload BlinkTest.ino to the APM, with the correct pins for the Team Flag connected.
 If the board is working correctly, then each of the TeamFlag’s six LEDs will be turned on and off in sequence, with a small delay between each LED’s blinking process.
 
-Y9: Changed the Arduino interface to be SMD last minute, which caused issues. The GND planes were no longer connected very well, sop there were a lot of fabrication errors. THe lesson to be learned here is that 1. Don't change things very last minute, and 2, if you need to connect multiple planes, do it on multiple locations so that they are actually connected.
+Y9: Changed the Arduino interface to be SMD last minute, which caused issues. The GND planes were no longer connected very well, so there were a lot of fabrication errors. THe lesson to be learned here is that 1. Don't change things very last minute, and 2, if you need to connect multiple planes, do it on multiple locations so that they are actually connected.
 
 Y10: Avererorero Kandala
 
@@ -36,4 +36,4 @@ Y10: Avererorero Kandala
 * Find an easy microUSB SMD component
 * Make sure it has a big keep out region
 * Obtain footprint of said component and attach to board
-* Add more holes to connect GND planes
+* Add more vias to connect GND planes

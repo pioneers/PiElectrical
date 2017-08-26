@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -375,71 +375,6 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <vertex x="-3.429" y="0" curve="-90"/>
 <vertex x="0" y="3.429" curve="-90"/>
 <vertex x="3.429" y="0" curve="-90"/>
-</polygon>
-</package>
-<package name="MICRO_USB">
-<description>Micro USB to PCB</description>
-<polygon width="0.127" layer="46">
-<vertex x="0" y="-0.68" curve="90"/>
-<vertex x="0.32" y="-0.36"/>
-<vertex x="0.32" y="0.36" curve="90"/>
-<vertex x="0" y="0.68" curve="90"/>
-<vertex x="-0.32" y="0.36"/>
-<vertex x="-0.32" y="-0.36" curve="90"/>
-</polygon>
-<pad name="P$1" x="0" y="0" drill="0.6" diameter="1.016" shape="long" rot="R90"/>
-<pad name="P$3" x="8.35" y="0" drill="0.6" diameter="1.016" shape="long" rot="R90"/>
-<polygon width="0.127" layer="46">
-<vertex x="8.34" y="-0.65" curve="90"/>
-<vertex x="8.66" y="-0.33"/>
-<vertex x="8.66" y="0.39" curve="90"/>
-<vertex x="8.34" y="0.71" curve="90"/>
-<vertex x="8.02" y="0.39"/>
-<vertex x="8.02" y="-0.33" curve="90"/>
-</polygon>
-<smd name="VCC" x="2.875" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<smd name="DATA-" x="3.525" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<smd name="DATA+" x="4.175" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<smd name="ID" x="4.825" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<smd name="GND" x="5.475" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
-<pad name="P$8" x="1.95" y="3" drill="0.4826" diameter="0.8128" shape="long" rot="R90"/>
-<pad name="P$9" x="6.4" y="3" drill="0.4826" diameter="0.8128" shape="long" rot="R90"/>
-<wire x1="-1.4" y1="-1.45" x2="0.75" y2="-1.45" width="0.127" layer="21"/>
-<wire x1="0.75" y1="-1.45" x2="7.6" y2="-1.45" width="0.127" layer="21"/>
-<wire x1="7.6" y1="-1.45" x2="9.75" y2="-1.45" width="0.127" layer="21"/>
-<wire x1="0.75" y1="-2.15" x2="7.6" y2="-2.15" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="-1.45" x2="-1.4" y2="4.3" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="4.3" x2="9.75" y2="4.3" width="0.127" layer="21"/>
-<wire x1="9.75" y1="4.3" x2="9.75" y2="-1.45" width="0.127" layer="21"/>
-<wire x1="0.75" y1="-2.15" x2="0.75" y2="-1.45" width="0.127" layer="21"/>
-<wire x1="7.6" y1="-2.15" x2="7.6" y2="-1.45" width="0.127" layer="21"/>
-<text x="1.6" y="-2" size="0.4064" layer="21" font="vector">CONNECTOR FRONT</text>
-<text x="2.7" y="-1" size="0.4064" layer="21" font="vector">PCB EDGE</text>
-<text x="1.2" y="-0.2" size="0.8128" layer="21" font="vector">MICRO USB</text>
-<text x="3" y="0.8" size="0.254" layer="21" font="vector" rot="R90">VCC</text>
-<text x="3.7" y="0.8" size="0.254" layer="21" font="vector" rot="R90">DATA-</text>
-<text x="4.4" y="0.8" size="0.254" layer="21" font="vector" rot="R90">DATA+</text>
-<text x="5" y="0.8" size="0.254" layer="21" font="vector" rot="R90">ID</text>
-<text x="5.7" y="0.8" size="0.254" layer="21" font="vector" rot="R90">GND</text>
-<polygon width="0.05" layer="46">
-<vertex x="1.95" y="2.5" curve="90"/>
-<vertex x="2.3" y="2.85"/>
-<vertex x="2.3" y="2.95"/>
-<vertex x="2.3" y="3.1" curve="90"/>
-<vertex x="1.95" y="3.45" curve="90"/>
-<vertex x="1.6" y="3.1"/>
-<vertex x="1.6" y="2.95"/>
-<vertex x="1.6" y="2.85" curve="90"/>
-</polygon>
-<polygon width="0.05" layer="46">
-<vertex x="6.4" y="2.5" curve="90"/>
-<vertex x="6.75" y="2.85"/>
-<vertex x="6.75" y="2.95"/>
-<vertex x="6.75" y="3.1" curve="90"/>
-<vertex x="6.4" y="3.45" curve="90"/>
-<vertex x="6.05" y="3.1"/>
-<vertex x="6.05" y="2.95"/>
-<vertex x="6.05" y="2.85" curve="90"/>
 </polygon>
 </package>
 <package name="R0402">
@@ -2347,19 +2282,6 @@ chip</description>
 <vertex x="1.651" y="-2.413"/>
 </polygon>
 </symbol>
-<symbol name="MICRO_USB">
-<description>Micro USB B Connection, with through-hole connection to the board.</description>
-<wire x1="27.94" y1="22.86" x2="27.94" y2="5.08" width="0.254" layer="94"/>
-<wire x1="27.94" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="22.86" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="22.86" x2="27.94" y2="22.86" width="0.254" layer="94"/>
-<pin name="GND" x="22.86" y="0" length="middle" rot="R90"/>
-<pin name="ID" x="17.78" y="0" length="middle" rot="R90"/>
-<pin name="DATA+" x="12.7" y="0" length="middle" rot="R90"/>
-<pin name="DATA-" x="7.62" y="0" length="middle" rot="R90"/>
-<pin name="VCC" x="2.54" y="0" length="middle" rot="R90"/>
-<text x="22.86" y="17.78" size="2.54" layer="94" font="vector" rot="R180">Micro USB</text>
-</symbol>
 <symbol name="R-US">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
@@ -2547,25 +2469,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <technology name="">
 <attribute name="PIE-INT-REF-NUM" value="LED"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MICRO_USB">
-<gates>
-<gate name="G$1" symbol="MICRO_USB" x="-12.7" y="-10.16"/>
-</gates>
-<devices>
-<device name="" package="MICRO_USB">
-<connects>
-<connect gate="G$1" pin="DATA+" pad="DATA+"/>
-<connect gate="G$1" pin="DATA-" pad="DATA-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="ID" pad="ID"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -3654,12 +3557,10 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="AUTHOR" value="Nick Werblun"/>
 <attribute name="REVISION" value="10A"/>
 </part>
-<part name="U$1" library="pie" deviceset="MICRO_USB" device=""/>
 <part name="LED1" library="pie" deviceset="LED" device="LED5MM-NOFLAT" value="Yellow"/>
 <part name="LED2" library="pie" deviceset="LED" device="LED5MM-NOFLAT" value="Blue"/>
 <part name="R1" library="pie" deviceset="R-US_" device="R0603" value="130"/>
 <part name="R2" library="pie" deviceset="R-US_" device="R0603" value="130"/>
-<part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="pie" deviceset="GND" device=""/>
 <part name="C1" library="pie" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="SUPPLY3" library="pie" deviceset="GND" device=""/>
@@ -3687,12 +3588,10 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="REVISION" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="U$1" gate="G$1" x="22.86" y="151.13"/>
 <instance part="LED1" gate="G$1" x="41.91" y="96.52"/>
 <instance part="LED2" gate="G$1" x="43.18" y="82.55"/>
 <instance part="R1" gate="G$1" x="26.67" y="96.52" rot="R180"/>
 <instance part="R2" gate="G$1" x="27.94" y="82.55" rot="R180"/>
-<instance part="SUPPLY1" gate="GND" x="45.72" y="146.05"/>
 <instance part="SUPPLY2" gate="GND" x="52.07" y="76.2"/>
 <instance part="C1" gate="G$1" x="34.29" y="25.4" rot="R90"/>
 <instance part="SUPPLY3" gate="GND" x="34.29" y="15.24"/>
@@ -3710,11 +3609,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="52.07" y1="82.55" x2="52.07" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="82.55" x2="52.07" y2="82.55" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-<pinref part="SUPPLY1" gate="GND" pin="GND"/>
-<wire x1="45.72" y1="151.13" x2="45.72" y2="148.59" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -3744,8 +3638,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PIN2"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="25.4" y1="137.16" x2="25.4" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="137.16" x2="25.4" y2="142.24" width="0.1524" layer="91"/>
+<label x="25.4" y="144.78" size="1.778" layer="91" font="vector" ratio="6"/>
 </segment>
 </net>
 <net name="PIN4" class="0">
