@@ -11170,6 +11170,18 @@ VNH2SP30</text>
 <text x="-6.35" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-10.414" y="-4.953" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 </package>
+<package name="SOT-23_6PIN">
+<wire x1="0" y1="0" x2="0" y2="1.75" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="3.05" y2="0" width="0.127" layer="21"/>
+<wire x1="3.05" y1="0" x2="3.05" y2="1.75" width="0.127" layer="21"/>
+<wire x1="0" y1="1.75" x2="3.05" y2="1.75" width="0.127" layer="21"/>
+<smd name="P$1" x="0.6" y="2.1" dx="0.5" dy="1.25" layer="1"/>
+<smd name="P$2" x="1.55" y="2.1" dx="0.5" dy="1.25" layer="1"/>
+<smd name="P$3" x="2.5" y="2.1" dx="0.5" dy="1.25" layer="1"/>
+<smd name="P$4" x="0.6" y="-0.3" dx="0.5" dy="1.25" layer="1"/>
+<smd name="P$5" x="1.55" y="-0.3" dx="0.5" dy="1.25" layer="1"/>
+<smd name="P$6" x="2.5" y="-0.3" dx="0.5" dy="1.25" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SJ">
@@ -13724,6 +13736,24 @@ a TI sourced LI-ion, Lipo, Li-FE battery protection chip</description>
 <text x="18.288" y="7.874" size="1.016" layer="94" font="vector">2OUT</text>
 <text x="18.288" y="5.334" size="1.016" layer="94" font="vector">2IN-</text>
 <text x="18.288" y="2.794" size="1.016" layer="94" font="vector">2IN+</text>
+</symbol>
+<symbol name="SOT-23_6PIN">
+<wire x1="0" y1="0" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="12.7" visible="off" length="middle"/>
+<pin name="P$2" x="-5.08" y="7.62" visible="off" length="middle"/>
+<pin name="P$3" x="-5.08" y="2.54" visible="off" length="middle"/>
+<pin name="P$4" x="17.78" y="12.7" visible="off" length="middle" rot="R180"/>
+<pin name="P$5" x="17.78" y="7.62" visible="off" length="middle" rot="R180"/>
+<pin name="P$6" x="17.78" y="2.54" visible="off" length="middle" rot="R180"/>
+<text x="2.54" y="12.7" size="1.27" layer="94" font="vector">PIN 1</text>
+<text x="5.08" y="10.16" size="1.27" layer="94" font="vector">PIN 4</text>
+<text x="2.54" y="7.62" size="1.27" layer="94" font="vector">PIN 2</text>
+<text x="5.08" y="5.08" size="1.27" layer="94" font="vector">PIN 5</text>
+<text x="2.54" y="2.54" size="1.27" layer="94" font="vector">PIN 3</text>
+<text x="5.08" y="0" size="1.27" layer="94" font="vector">PIN 6</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -18150,6 +18180,26 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <connect gate="G$1" pin="2OUT" pad="7"/>
 <connect gate="G$1" pin="VCC+" pad="8"/>
 <connect gate="G$1" pin="VCC-" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SOT-23_6PIN">
+<gates>
+<gate name="G$1" symbol="SOT-23_6PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23_6PIN">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
 </connects>
 <technologies>
 <technology name=""/>
