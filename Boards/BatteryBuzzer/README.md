@@ -16,10 +16,4 @@ Reacts the how angry the battery is.  This design is an experimental board using
 [OP-AMP (Through-Hole)](http://www.ti.com/product/TL072/description)
 * Cheaper - $0.69 ea
 
-[OP-AMP (Through-Hole)](https://www.digikey.com/products/en?mpart=LMC6482AIN/NOPB&v=296)
-* Same one used in 16A.
-* $2 ea. :((((((((((((((((((
-
-[ignore this](http://www.ti.com/product/BQ76920)
-
-[Also ignore this datasheet](http://www.ti.com/lit/ds/symlink/bq76920.pdf)
+[ADC](http://www.ti.com/product/ADS1100/description)
