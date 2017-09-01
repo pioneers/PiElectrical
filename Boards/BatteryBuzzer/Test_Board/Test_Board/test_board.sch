@@ -3539,7 +3539,7 @@ Standard 8.5x11 US Letter frame</description>
 <plain>
 <text x="5.08" y="180.34" size="1.778" layer="91" font="vector">BATTERY CONNECT</text>
 <text x="96.52" y="180.34" size="1.778" layer="91" font="vector">MUX + OP AMP CIRCUIT</text>
-<text x="15.24" y="116.84" size="1.778" layer="91" font="vector">ARDUINO PRO MICRO</text>
+<text x="15.24" y="121.92" size="1.778" layer="91" font="vector">ARDUINO PRO MICRO</text>
 <text x="124.46" y="127" size="1.778" layer="91" font="vector">ADC TEST</text>
 <text x="27.94" y="53.34" size="1.778" layer="91" font="vector">I2C PULLUPS</text>
 </plain>
@@ -3670,6 +3670,11 @@ Standard 8.5x11 US Letter frame</description>
 <pinref part="U$5" gate="G$1" pin="1Y2"/>
 <wire x1="120.65" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
 <label x="124.46" y="101.6" size="1.778" layer="95" font="vector"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="VCC+"/>
+<wire x1="175.26" y1="162.56" x2="182.88" y2="162.56" width="0.1524" layer="91"/>
+<label x="177.8" y="162.56" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="BCELL2" class="0">

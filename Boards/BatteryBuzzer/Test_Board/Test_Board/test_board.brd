@@ -591,8 +591,10 @@ design rules under a new name.</description>
 <contactref element="BATTERY_CONNECT" pad="4"/>
 <contactref element="U$1" pad="15"/>
 <contactref element="U$5" pad="15"/>
+<contactref element="U$2" pad="8"/>
 <wire x1="-37.08999375" y1="-64.959990625" x2="-44.45" y2="-106.68" width="0" layer="19" extent="1-1"/>
-<wire x1="-40.64" y1="-19.05" x2="-37.08999375" y2="-64.959990625" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.18" y1="-40.64" x2="-37.08999375" y2="-64.959990625" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.64" y1="-19.05" x2="-43.18" y2="-40.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BCELL2">
 <contactref element="BATTERY_CONNECT" pad="3"/>
