@@ -495,11 +495,11 @@ design rules under a new name.</description>
 <element name="U$1" library="pie" package="DIL16" value="SN74HC4852" x="-34.29" y="-22.86"/>
 <element name="U$2" library="pie" package="DIL08" value="TL072" x="-39.37" y="-44.45"/>
 <element name="U$3" library="pie" package="SOT-23_6PIN" value="SOT-23_6PIN" x="-53.34" y="-52.07"/>
-<element name="U$4" library="pie" package="XH_CONNECTOR_4POS_2.5MM" value="XH_CONNECTOR_4POS" x="-40.64" y="-64.77">
+<element name="BATTERY_CONNECT" library="pie" package="XH_CONNECTOR_4POS_2.5MM" value="XH_CONNECTOR_4POS" x="-40.64" y="-64.77">
 <attribute name="PIE-INT-REF-NUM" value="XH-4POS" x="-40.64" y="-64.77" size="1.778" layer="27" display="off"/>
 <attribute name="PIE_DIGIKEY-PN" value="455-2249-ND" x="-40.64" y="-64.77" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R1" library="pie" package="R0603" value="&gt;VALUE" x="-52.07" y="-77.47">
+<element name="R1" library="pie" package="R0603" value="10k" x="-52.07" y="-77.47">
 <attribute name="NOTES" value="Cut Tape" x="-52.07" y="-77.47" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="-52.07" y="-77.47" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="-52.07" y="-77.47" size="1.778" layer="27" display="off"/>
@@ -508,7 +508,7 @@ design rules under a new name.</description>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="-52.07" y="-77.47" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="-52.07" y="-77.47" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R2" library="pie" package="R0603" value="&gt;VALUE" x="-52.07" y="-83.82">
+<element name="R2" library="pie" package="R0603" value="10k" x="-52.07" y="-83.82">
 <attribute name="NOTES" value="Cut Tape" x="-52.07" y="-83.82" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="-52.07" y="-83.82" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="-52.07" y="-83.82" size="1.778" layer="27" display="off"/>
@@ -517,7 +517,7 @@ design rules under a new name.</description>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="-52.07" y="-83.82" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="-52.07" y="-83.82" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R3" library="pie" package="R0603" value="&gt;VALUE" x="-52.07" y="-90.17">
+<element name="R3" library="pie" package="R0603" value="10k" x="-52.07" y="-90.17">
 <attribute name="NOTES" value="Cut Tape" x="-52.07" y="-90.17" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="-52.07" y="-90.17" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="-52.07" y="-90.17" size="1.778" layer="27" display="off"/>
@@ -526,7 +526,7 @@ design rules under a new name.</description>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="-52.07" y="-90.17" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="-52.07" y="-90.17" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R4" library="pie" package="R0603" value="&gt;VALUE" x="-52.07" y="-96.52">
+<element name="R4" library="pie" package="R0603" value="10k" x="-52.07" y="-96.52">
 <attribute name="NOTES" value="Cut Tape" x="-52.07" y="-96.52" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="-52.07" y="-96.52" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="-52.07" y="-96.52" size="1.778" layer="27" display="off"/>
@@ -535,8 +535,189 @@ design rules under a new name.</description>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="-52.07" y="-96.52" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="-52.07" y="-96.52" size="1.778" layer="27" display="off"/>
 </element>
+<element name="U$5" library="pie" package="DIL16" value="SN74HC4852" x="-38.1" y="-110.49"/>
+<element name="R5" library="pie" package="R0603" value="10k" x="-52.07" y="-124.46">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="-52.07" y="-124.46" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="-52.07" y="-124.46" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="-52.07" y="-124.46" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="-52.07" y="-124.46" size="1.778" layer="27" display="off"/>
+<attribute name="NOTES" value="Cut Tape" x="-52.07" y="-124.46" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="-52.07" y="-124.46" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="-52.07" y="-124.46" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R6" library="pie" package="R0603" value="10k" x="-52.07" y="-130.81">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="-52.07" y="-130.81" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="-52.07" y="-130.81" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="-52.07" y="-130.81" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="-52.07" y="-130.81" size="1.778" layer="27" display="off"/>
+<attribute name="NOTES" value="Cut Tape" x="-52.07" y="-130.81" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="-52.07" y="-130.81" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="-52.07" y="-130.81" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
+<signal name="GND">
+<contactref element="BATTERY_CONNECT" pad="1"/>
+<contactref element="U$1" pad="8"/>
+<contactref element="R2" pad="1"/>
+<contactref element="U$2" pad="4"/>
+<contactref element="IC1" pad="GND@1"/>
+<contactref element="IC1" pad="GND@0"/>
+<contactref element="IC1" pad="GND@2"/>
+<contactref element="U$1" pad="1"/>
+<contactref element="U$1" pad="11"/>
+<contactref element="U$1" pad="4"/>
+<contactref element="U$3" pad="P$2"/>
+<contactref element="U$5" pad="8"/>
+<contactref element="U$5" pad="1"/>
+<contactref element="U$5" pad="4"/>
+<contactref element="U$5" pad="11"/>
+<wire x1="-39.37" y1="-114.3" x2="-46.99" y2="-114.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.29" y1="-106.68" x2="-39.37" y2="-114.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.21" y1="-114.3" x2="-34.29" y2="-106.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.92" y1="-83.82" x2="-34.29" y2="-106.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.59000625" y1="-64.959990625" x2="-52.92" y2="-83.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.79" y1="-49.97" x2="-44.59000625" y2="-64.959990625" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.56" y1="-48.26" x2="-51.79" y2="-49.97" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.56" y1="-26.67" x2="-35.56" y2="-48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.18" y1="-26.67" x2="-35.56" y2="-26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.48" y1="-19.05" x2="-35.56" y2="-26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.4" y1="-26.67" x2="-30.48" y2="-19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.862" y1="19.558" x2="-30.48" y2="-19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.862" y1="22.098" x2="-38.862" y2="19.558" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.622" y1="24.638" x2="-38.862" y2="22.098" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BCELL3">
+<contactref element="BATTERY_CONNECT" pad="4"/>
+<contactref element="U$1" pad="15"/>
+<contactref element="U$5" pad="15"/>
+<wire x1="-37.08999375" y1="-64.959990625" x2="-44.45" y2="-106.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.64" y1="-19.05" x2="-37.08999375" y2="-64.959990625" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BCELL2">
+<contactref element="BATTERY_CONNECT" pad="3"/>
+<contactref element="U$1" pad="14"/>
+<contactref element="U$1" pad="2"/>
+<contactref element="U$5" pad="14"/>
+<contactref element="U$5" pad="2"/>
+<wire x1="-41.91" y1="-106.68" x2="-44.45" y2="-114.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.589990625" y1="-64.959990625" x2="-41.91" y2="-106.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.64" y1="-26.67" x2="-39.589990625" y2="-64.959990625" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.1" y1="-19.05" x2="-40.64" y2="-26.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BCELL1">
+<contactref element="BATTERY_CONNECT" pad="2"/>
+<contactref element="U$1" pad="12"/>
+<contactref element="U$1" pad="5"/>
+<contactref element="U$5" pad="12"/>
+<contactref element="U$5" pad="5"/>
+<wire x1="-36.83" y1="-106.68" x2="-36.83" y2="-114.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.090009375" y1="-64.959990625" x2="-36.83" y2="-106.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.02" y1="-26.67" x2="-42.090009375" y2="-64.959990625" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.02" y1="-19.05" x2="-33.02" y2="-26.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="R1" pad="2"/>
+<contactref element="R2" pad="2"/>
+<contactref element="U$2" pad="3"/>
+<wire x1="-51.22" y1="-77.47" x2="-51.22" y2="-83.82" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.1" y1="-48.26" x2="-51.22" y2="-77.47" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="2-COM">
+<contactref element="U$1" pad="3"/>
+<contactref element="R4" pad="2"/>
+<wire x1="-38.1" y1="-26.67" x2="-51.22" y2="-96.52" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="R4" pad="1"/>
+<contactref element="R3" pad="2"/>
+<contactref element="U$2" pad="2"/>
+<wire x1="-51.22" y1="-90.17" x2="-52.92" y2="-96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.64" y1="-48.26" x2="-51.22" y2="-90.17" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="AMP_OUT">
+<contactref element="U$2" pad="1"/>
+<contactref element="R3" pad="1"/>
+<wire x1="-43.18" y1="-48.26" x2="-52.92" y2="-90.17" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
+<contactref element="U$1" pad="13"/>
+<contactref element="R1" pad="1"/>
+<wire x1="-35.56" y1="-19.05" x2="-52.92" y2="-77.47" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="5V">
+<contactref element="IC1" pad="RAW"/>
+</signal>
+<signal name="VCC">
+<contactref element="IC1" pad="VCC"/>
+<contactref element="U$1" pad="16"/>
+<contactref element="R5" pad="2"/>
+<contactref element="R6" pad="2"/>
+<contactref element="U$3" pad="P$5"/>
+<contactref element="U$5" pad="16"/>
+<wire x1="-51.22" y1="-124.46" x2="-51.22" y2="-130.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.99" y1="-106.68" x2="-51.22" y2="-124.46" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.79" y1="-52.37" x2="-46.99" y2="-106.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.18" y1="-19.05" x2="-51.79" y2="-52.37" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.622" y1="19.558" x2="-43.18" y2="-19.05" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="AMP-OUT">
+<contactref element="IC1" pad="A3"/>
+</signal>
+<signal name="INH_CONTROL">
+<contactref element="IC1" pad="A2"/>
+<contactref element="U$1" pad="6"/>
+<wire x1="-23.622" y1="14.478" x2="-30.48" y2="-26.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A">
+<contactref element="IC1" pad="A1"/>
+<contactref element="U$1" pad="10"/>
+<wire x1="-23.622" y1="11.938" x2="-27.94" y2="-19.05" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="B">
+<contactref element="IC1" pad="A0"/>
+<contactref element="U$1" pad="9"/>
+<wire x1="-23.622" y1="9.398" x2="-25.4" y2="-19.05" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SDA">
+<contactref element="IC1" pad="2"/>
+<contactref element="R5" pad="1"/>
+<contactref element="U$3" pad="P$6"/>
+<wire x1="-50.84" y1="-52.37" x2="-52.92" y2="-124.46" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.862" y1="17.018" x2="-50.84" y2="-52.37" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SCL">
+<contactref element="IC1" pad="3"/>
+<contactref element="R6" pad="1"/>
+<contactref element="U$3" pad="P$3"/>
+<wire x1="-50.84" y1="-49.97" x2="-52.92" y2="-130.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.862" y1="14.478" x2="-50.84" y2="-49.97" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ADC_1-COM">
+<contactref element="U$5" pad="13"/>
+<contactref element="U$3" pad="P$1"/>
+<wire x1="-52.74" y1="-49.97" x2="-39.37" y2="-106.68" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ADC_2-COM">
+<contactref element="U$5" pad="3"/>
+<contactref element="U$3" pad="P$4"/>
+<wire x1="-52.74" y1="-52.37" x2="-41.91" y2="-114.3" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ADC_A">
+<contactref element="IC1" pad="15"/>
+<contactref element="U$5" pad="10"/>
+<wire x1="-23.622" y1="6.858" x2="-31.75" y2="-106.68" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ADC_B">
+<contactref element="IC1" pad="14"/>
+<contactref element="U$5" pad="9"/>
+<wire x1="-23.622" y1="4.318" x2="-29.21" y2="-106.68" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ADC_INH">
+<contactref element="IC1" pad="16"/>
+<contactref element="U$5" pad="6"/>
+<wire x1="-23.622" y1="1.778" x2="-34.29" y2="-114.3" width="0" layer="19" extent="1-1"/>
+</signal>
 </signals>
 </board>
 </drawing>
