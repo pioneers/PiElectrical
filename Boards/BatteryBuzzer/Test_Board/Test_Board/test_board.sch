@@ -4178,15 +4178,15 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="SUPPLY16" library="pie" deviceset="GND" device=""/>
 <part name="R7" library="pie" deviceset="R-US_" device="R0603" value="330"/>
 <part name="R8" library="pie" deviceset="R-US_" device="R0603" value="330"/>
-<part name="LED1" library="pie" deviceset="LED" device="0603" value="GREEN"/>
-<part name="LED2" library="pie" deviceset="LED" device="0603" value="GREEN"/>
+<part name="AMP_ON" library="pie" deviceset="LED" device="0603" value="GREEN"/>
+<part name="ADC_ON" library="pie" deviceset="LED" device="0603" value="GREEN"/>
 <part name="EXTERNAL_POWER" library="pie" deviceset="M02" device="PTH"/>
 <part name="SUPPLY17" library="pie" deviceset="GND" device=""/>
 <part name="U$6" library="pie" deviceset="5V" device=""/>
-<part name="OUTPUT_TEST_PINS" library="pie" deviceset="M03" device="PTH"/>
+<part name="OUTPUT" library="pie" deviceset="M03" device="PTH"/>
 <part name="SUPPLY18" library="pie" deviceset="GND" device=""/>
-<part name="AMP_MUX_INPUTS" library="pie" deviceset="M02" device="PTH"/>
-<part name="ADC_MUX_INPUTS" library="pie" deviceset="M02" device="PTH"/>
+<part name="MUX_INPUTS" library="pie" deviceset="M02" device="PTH"/>
+<part name="ADC_INPUTS" library="pie" deviceset="M02" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -4236,15 +4236,15 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="SUPPLY16" gate="GND" x="231.14" y="142.24"/>
 <instance part="R7" gate="G$1" x="213.36" y="154.94" rot="R90"/>
 <instance part="R8" gate="G$1" x="231.14" y="154.94" rot="R90"/>
-<instance part="LED1" gate="G$1" x="213.36" y="165.1" rot="R270"/>
-<instance part="LED2" gate="G$1" x="231.14" y="165.1" rot="R270"/>
+<instance part="AMP_ON" gate="G$1" x="213.36" y="165.1" rot="R270"/>
+<instance part="ADC_ON" gate="G$1" x="231.14" y="165.1" rot="R270"/>
 <instance part="EXTERNAL_POWER" gate="G$1" x="7.62" y="144.78"/>
 <instance part="SUPPLY17" gate="GND" x="22.86" y="139.7"/>
 <instance part="U$6" gate="G$1" x="22.86" y="144.78" rot="R270"/>
-<instance part="OUTPUT_TEST_PINS" gate="G$1" x="210.82" y="111.76"/>
+<instance part="OUTPUT" gate="G$1" x="210.82" y="111.76"/>
 <instance part="SUPPLY18" gate="GND" x="223.52" y="106.68"/>
-<instance part="AMP_MUX_INPUTS" gate="G$1" x="210.82" y="91.44"/>
-<instance part="ADC_MUX_INPUTS" gate="G$1" x="210.82" y="71.12"/>
+<instance part="MUX_INPUTS" gate="G$1" x="210.82" y="91.44"/>
+<instance part="ADC_INPUTS" gate="G$1" x="210.82" y="71.12"/>
 </instances>
 <busses>
 </busses>
@@ -4339,7 +4339,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="OUTPUT_TEST_PINS" gate="G$1" pin="1"/>
+<pinref part="OUTPUT" gate="G$1" pin="1"/>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
 <wire x1="218.44" y1="109.22" x2="223.52" y2="109.22" width="0.1524" layer="91"/>
 </segment>
@@ -4459,7 +4459,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <label x="111.76" y="167.64" size="1.778" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="AMP_MUX_INPUTS" gate="G$1" pin="1"/>
+<pinref part="MUX_INPUTS" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
 <label x="223.52" y="88.9" size="1.778" layer="95" font="vector"/>
 </segment>
@@ -4486,7 +4486,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <label x="152.4" y="167.64" size="1.778" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="OUTPUT_TEST_PINS" gate="G$1" pin="2"/>
+<pinref part="OUTPUT" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="111.76" x2="223.52" y2="111.76" width="0.1524" layer="91"/>
 <label x="226.06" y="111.76" size="1.778" layer="95" font="vector"/>
 </segment>
@@ -4616,7 +4616,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="137.16" y1="106.68" x2="137.16" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ADC_MUX_INPUTS" gate="G$1" pin="2"/>
+<pinref part="ADC_INPUTS" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="71.12" x2="223.52" y2="71.12" width="0.1524" layer="91"/>
 <label x="223.52" y="71.12" size="1.778" layer="95" font="vector"/>
 </segment>
@@ -4631,7 +4631,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="83.82" y1="119.38" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ADC_MUX_INPUTS" gate="G$1" pin="1"/>
+<pinref part="ADC_INPUTS" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="68.58" x2="223.52" y2="68.58" width="0.1524" layer="91"/>
 <label x="223.52" y="68.58" size="1.778" layer="95" font="vector"/>
 </segment>
@@ -4679,7 +4679,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <label x="7.62" y="86.36" size="1.778" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="AMP_ON" gate="G$1" pin="A"/>
 <wire x1="213.36" y1="167.64" x2="213.36" y2="172.72" width="0.1524" layer="91"/>
 <label x="210.82" y="175.26" size="1.778" layer="95" font="vector"/>
 </segment>
@@ -4691,14 +4691,14 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <label x="7.62" y="83.82" size="1.778" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="ADC_ON" gate="G$1" pin="A"/>
 <wire x1="231.14" y1="167.64" x2="231.14" y2="172.72" width="0.1524" layer="91"/>
 <label x="228.6" y="175.26" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="ADC_ON" gate="G$1" pin="C"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="162.56" x2="231.14" y2="160.02" width="0.1524" layer="91"/>
 </segment>
@@ -4706,7 +4706,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <net name="N$8" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="AMP_ON" gate="G$1" pin="C"/>
 <wire x1="213.36" y1="160.02" x2="213.36" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4717,14 +4717,14 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <label x="5.08" y="81.28" size="1.778" layer="95" font="vector"/>
 </segment>
 <segment>
-<pinref part="OUTPUT_TEST_PINS" gate="G$1" pin="3"/>
+<pinref part="OUTPUT" gate="G$1" pin="3"/>
 <wire x1="218.44" y1="114.3" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
 <label x="226.06" y="114.3" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
 <net name="1-COM" class="0">
 <segment>
-<pinref part="AMP_MUX_INPUTS" gate="G$1" pin="2"/>
+<pinref part="MUX_INPUTS" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="91.44" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
 <label x="223.52" y="91.44" size="1.778" layer="95" font="vector"/>
 </segment>
