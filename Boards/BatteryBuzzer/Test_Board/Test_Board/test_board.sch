@@ -4537,13 +4537,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <label x="124.46" y="104.14" size="1.778" layer="95" font="vector"/>
 </segment>
 </net>
-<net name="AMP-OUT" class="0">
-<segment>
-<pinref part="IC1" gate="APM" pin="A3"/>
-<wire x1="43.18" y1="91.44" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
-<label x="48.26" y="91.44" size="1.778" layer="95" font="vector"/>
-</segment>
-</net>
 <net name="INH_CONTROL" class="0">
 <segment>
 <pinref part="IC1" gate="APM" pin="A2"/>
