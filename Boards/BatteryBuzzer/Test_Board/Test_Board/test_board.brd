@@ -1066,7 +1066,9 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <element name="U$1" library="pie" package="DIL16" value="SN74HC4852" x="6.604" y="11.938" smashed="yes" rot="R270">
 <attribute name="VALUE" x="5.969" y="19.431" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="U$2" library="pie" package="DIL08" value="TL072" x="19.558" y="22.098" rot="R270"/>
+<element name="U$2" library="pie" package="DIL08" value="TL072" x="19.558" y="22.098" smashed="yes" rot="R270">
+<attribute name="VALUE" x="18.923" y="25.654" size="1.27" layer="27" ratio="10" rot="R270"/>
+</element>
 <element name="U$3" library="pie" package="SOT-23_6PIN" value="SOT-23_6PIN" x="17.272" y="42.164" rot="R270"/>
 <element name="BATTERY_CONNECT" library="pie" package="XH_CONNECTOR_4POS_2.5MM" value="XH_CONNECTOR_4POS" x="22.606" y="5.08" smashed="yes">
 <attribute name="PIE-INT-REF-NUM" value="XH-4POS" x="22.606" y="5.08" size="1.778" layer="27" display="off"/>
@@ -1198,7 +1200,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="PIE-INT-REF-NUM" value="BULK-STOCK" x="26.416" y="43.942" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="28.956" y="47.117" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="U$7" library="pie" package="PIE-LOGO-SMALL" value="" x="30.734" y="21.336"/>
+<element name="U$7" library="pie" package="PIE-LOGO-SMALL" value="" x="30.734" y="21.336" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
