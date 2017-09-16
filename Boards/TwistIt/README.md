@@ -99,3 +99,5 @@ Also the motor controller has to move a bit to make mounting a bit easier. At a 
 Also pullups (on the encoders). Thanks pullups.
 
 Y10: Somebody
+
+sudo python hibike_process.py YogiBear
