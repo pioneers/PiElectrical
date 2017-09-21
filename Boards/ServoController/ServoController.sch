@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -684,7 +684,7 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <parts>
 <part name="FRAME1" library="pie" deviceset="FRAME_SCHEMATIC" device="">
 <attribute name="AUTHOR" value="Seiya"/>
-<attribute name="REVISION" value="9B"/>
+<attribute name="REVISION" value="10A"/>
 </part>
 <part name="APM" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
 <part name="JP1" library="pie" deviceset="M03" device="1X03-MTA"/>

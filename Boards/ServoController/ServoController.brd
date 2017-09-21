@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -160,8 +160,8 @@ Design by: Seiya Ono, Catherine Kim
 This design is open source hardware.
 For more information, visit
 pioneers.berkeley.edu/opensource</text>
-<text x="22.098" y="19.05" size="0.762" layer="25" font="vector" rot="R270">PIN 6</text>
-<text x="22.098" y="10.414" size="0.762" layer="25" font="vector" rot="R270">PIN 5</text>
+<text x="22.098" y="21.59" size="0.762" layer="25" font="vector" rot="R270">SERVO 1</text>
+<text x="22.098" y="12.7" size="0.762" layer="25" font="vector" rot="R270">SERVO 0</text>
 <text x="13.97" y="48.768" size="1.27" layer="21" font="vector" ratio="15" align="center">Servo Controller
 Prod</text>
 </plain>
@@ -835,11 +835,8 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -854,7 +851,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="a"/>
+<param name="PrefDir.16" value="-"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
