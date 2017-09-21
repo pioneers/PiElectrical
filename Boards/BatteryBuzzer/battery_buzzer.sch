@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5035,7 +5035,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <parts>
 <part name="FRAME1" library="pie" deviceset="FRAME-LETTER" device="">
 <attribute name="AUTHOR" value="Casey D, Douglas H"/>
-<attribute name="REVISION" value="9B"/>
+<attribute name="REVISION" value="10A"/>
 </part>
 <part name="U$3" library="pie" deviceset="5V" device=""/>
 <part name="JP1" library="pie" deviceset="XH_CONNECTOR_4POS" device="" value="XH_CONN"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7343,7 +7343,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="APM" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
 <part name="FRAME1" library="pie" deviceset="FRAME_SCHEMATIC" device="">
 <attribute name="AUTHOR" value="Mohammed Hossain, Seiya Ono"/>
-<attribute name="REVISION" value="9B"/>
+<attribute name="REVISION" value="10A"/>
 </part>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>

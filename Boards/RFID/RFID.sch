@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -583,7 +583,7 @@ Standard 8.5x11 US Letter frame</description>
 <part name="SUPPLY2" library="pie" deviceset="GND" device=""/>
 <part name="FRAME1" library="pie" deviceset="FRAME_SCHEMATIC" device="">
 <attribute name="AUTHOR" value="Seiya Ono"/>
-<attribute name="REVISION" value="C"/>
+<attribute name="REVISION" value="10A"/>
 </part>
 </parts>
 <sheets>
