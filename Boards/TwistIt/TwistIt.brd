@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2055,11 +2055,8 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -2074,7 +2071,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="a"/>
+<param name="PrefDir.16" value="-"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
@@ -2356,9 +2353,11 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </signal>
 <signal name="EN">
 <contactref element="BR1" pad="EN"/>
-<contactref element="APM" pad="14"/>
-<wire x1="22.196" y1="44.982" x2="22.196" y2="23.27" width="0.4064" layer="16"/>
-<wire x1="22.196" y1="23.27" x2="27.178" y2="18.288" width="0.4064" layer="16"/>
+<contactref element="APM" pad="A3"/>
+<wire x1="27.178" y1="30.988" x2="24.955" y2="30.988" width="0.4064" layer="16"/>
+<wire x1="24.955" y1="30.988" x2="22.184" y2="33.759" width="0.4064" layer="16"/>
+<wire x1="22.184" y1="33.759" x2="22.184" y2="44.97" width="0.4064" layer="16"/>
+<wire x1="22.184" y1="44.97" x2="22.196" y2="44.982" width="0.4064" layer="16"/>
 </signal>
 <signal name="CS">
 <contactref element="BR1" pad="CS"/>
@@ -2443,13 +2442,13 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </signal>
 </signals>
 <errors>
-<approved hash="18,29,7bf0ff777f76fbf1"/>
-<approved hash="18,29,0bcf8f570f568bce"/>
 <approved hash="18,29,eb106f18ef196b11"/>
+<approved hash="18,29,0bcf8f570f568bce"/>
+<approved hash="18,29,7bf0ff777f76fbf1"/>
 <approved hash="18,29,9502f407ccdccc53"/>
 <approved hash="18,29,5f288b023e286d61"/>
-<approved hash="18,29,20777e955c66c10e"/>
 <approved hash="18,29,cf7e68b445a12cc1"/>
+<approved hash="18,29,20777e955c66c10e"/>
 <approved hash="18,29,260aa76c9b07baf0"/>
 <approved hash="18,29,6d2ee6b06c383dcb"/>
 <approved hash="18,29,6d2ee5430d3a104c"/>
@@ -2463,37 +2462,37 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <approved hash="18,29,d20e2c0e2cb9d2b9"/>
 <approved hash="18,29,a1c499c69a38a23a"/>
 <approved hash="18,29,65f01fce66adfbae"/>
-<approved hash="18,29,e2ed01e2edca824a"/>
-<approved hash="18,29,a41723ea72eba13d"/>
 <approved hash="18,29,43d43ed63efe43fc"/>
+<approved hash="18,29,a41723ea72eba13d"/>
+<approved hash="18,29,e2ed01e2edca824a"/>
 <approved hash="18,29,c01eee1eeea9c0a9"/>
 <approved hash="18,29,33984d7f0a961547"/>
 <approved hash="18,29,1868e3b0574f1781"/>
-<approved hash="18,29,f4e323fa59b33a54"/>
-<approved hash="18,29,f9d5eaa3daffa2d3"/>
 <approved hash="18,29,e20bc0042c03827e"/>
+<approved hash="18,29,f9d5eaa3daffa2d3"/>
+<approved hash="18,29,f4e323fa59b33a54"/>
 <approved hash="18,29,500a26f6264150bd"/>
-<approved hash="18,29,0282120ff684f282"/>
 <approved hash="18,29,e07abeddb8fc3288"/>
+<approved hash="18,29,0282120ff684f282"/>
 <approved hash="18,29,ac67bf61bf49ac4f"/>
 <approved hash="18,29,de8d54b6cb829019"/>
+<approved hash="18,29,d440fd5efd71d46f"/>
 <approved hash="18,29,e979c641822242be"/>
 <approved hash="18,29,a15e7e4df2c6d146"/>
-<approved hash="18,29,d440fd5efd71d46f"/>
 <approved hash="18,29,8c536bdd21d2fb50"/>
 <approved hash="18,29,be0a269626eebe72"/>
-<approved hash="18,29,727ae6e6e511718d"/>
 <approved hash="18,29,26c39b2170dcc93c"/>
-<approved hash="18,29,62dfd1f9f620daa3"/>
-<approved hash="18,29,10cbd7f20c015e80"/>
+<approved hash="18,29,727ae6e6e511718d"/>
 <approved hash="18,29,a3281237fa40dad3"/>
+<approved hash="18,29,10cbd7f20c015e80"/>
+<approved hash="18,29,62dfd1f9f620daa3"/>
 <approved hash="18,29,75f4daf6dad475d6"/>
-<approved hash="18,29,4ab2f4098fed9d7d"/>
 <approved hash="18,29,a351d7e691ec6857"/>
 <approved hash="18,29,e64c984e9bb9e5bb"/>
+<approved hash="18,29,4ab2f4098fed9d7d"/>
 <approved hash="18,29,d9f9c97bf09e6f87"/>
-<approved hash="18,29,86394776774792db"/>
 <approved hash="18,29,909b64078a44554d"/>
+<approved hash="18,29,86394776774792db"/>
 <approved hash="18,29,9601cb67cf0c96c8"/>
 <approved hash="18,29,7f491e07fc5cbc18"/>
 </errors>
