@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -186,6 +187,12 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="5.334" y1="29.5656" x2="13.462" y2="29.5656" width="0.127" layer="21"/>
 <wire x1="13.462" y1="29.5656" x2="13.462" y2="33.528" width="0.127" layer="21"/>
 <text x="9.398" y="8.128" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
+<polygon width="0.127" layer="39">
+<vertex x="3.81" y="36.83"/>
+<vertex x="3.81" y="30.48"/>
+<vertex x="15.24" y="30.48"/>
+<vertex x="15.24" y="36.83"/>
+</polygon>
 </package>
 <package name="5PIN_SCREW">
 <description>&lt;b&gt;5 Pin Screw Terminal&lt;/b&gt;</description>
@@ -245,33 +252,6 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="-2.032" y1="-1.524" x2="-2.794" y2="-0.762" width="0.127" layer="21"/>
 <wire x1="-2.794" y1="0.762" x2="-2.794" y2="-0.762" width="0.127" layer="21"/>
 <text x="-2.794" y="1.778" size="1.27" layer="21">&gt;NAME</text>
-</package>
-<package name="VNH2SP30_MOTOR_CONTROLLER">
-<description>&lt;b&gt; VNH2SP30 &lt;/b&gt; MOTOR CONTROLLER</description>
-<wire x1="0" y1="0" x2="54" y2="0" width="0.127" layer="51"/>
-<wire x1="54" y1="0" x2="54" y2="28" width="0.127" layer="51"/>
-<wire x1="54" y1="28" x2="0" y2="28" width="0.127" layer="51"/>
-<wire x1="0" y1="28" x2="0" y2="0" width="0.127" layer="51"/>
-<pad name="+5V" x="41.5" y="1.5" drill="1" diameter="2.1844"/>
-<pad name="GND" x="38.96" y="1.5" drill="1" diameter="2.1844"/>
-<pad name="EN" x="36.42" y="1.5" drill="1" diameter="2.1844"/>
-<pad name="CS" x="33.88" y="1.5" drill="1" diameter="2.1844"/>
-<pad name="INA" x="31.34" y="1.5" drill="1" diameter="2.1844"/>
-<pad name="INB" x="28.8" y="1.5" drill="1" diameter="2.1844"/>
-<pad name="PMW" x="26.26" y="1.5" drill="1" diameter="2.1844"/>
-<hole x="51.5" y="2.5" drill="3"/>
-<hole x="51.5" y="25.5" drill="3"/>
-<text x="28" y="23" size="1.27" layer="51" font="vector" align="center">MOTOR CONTROLLER
-VNH2SP30</text>
-<wire x1="26" y1="19" x2="26" y2="6" width="0.127" layer="51"/>
-<wire x1="26" y1="6" x2="43" y2="6" width="0.127" layer="51"/>
-<wire x1="43" y1="6" x2="43" y2="19" width="0.127" layer="51"/>
-<wire x1="43" y1="19" x2="26" y2="19" width="0.127" layer="51"/>
-<circle x="12" y="10" radius="4.123103125" width="0.127" layer="51"/>
-<wire x1="9" y1="23" x2="15" y2="23" width="0.127" layer="51"/>
-<wire x1="15" y1="23" x2="15" y2="18" width="0.127" layer="51"/>
-<wire x1="15" y1="18" x2="9" y2="18" width="0.127" layer="51"/>
-<wire x1="9" y1="18" x2="9" y2="23" width="0.127" layer="51"/>
 </package>
 <package name="LED5MM">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
@@ -2421,6 +2401,39 @@ Drawings &lt;/a&gt;</description>
 <wire x1="18.796" y1="5.588" x2="18.796" y2="4.572" width="0.127" layer="21"/>
 <wire x1="18.796" y1="10.668" x2="18.796" y2="9.652" width="0.127" layer="21"/>
 <wire x1="0" y1="2.032" x2="0" y2="5.588" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="3.81" y="35.56"/>
+<vertex x="3.81" y="30.48"/>
+<vertex x="13.97" y="30.48"/>
+<vertex x="13.97" y="35.56"/>
+</polygon>
+</package>
+<package name="VNH2SP30_MOTOR_CONTROLLER">
+<description>&lt;b&gt; VNH2SP30 &lt;/b&gt; MOTOR CONTROLLER</description>
+<wire x1="0" y1="0" x2="54" y2="0" width="0.127" layer="51"/>
+<wire x1="54" y1="0" x2="54" y2="28" width="0.127" layer="51"/>
+<wire x1="54" y1="28" x2="0" y2="28" width="0.127" layer="51"/>
+<wire x1="0" y1="28" x2="0" y2="0" width="0.127" layer="51"/>
+<pad name="+5V" x="41.5" y="1.5" drill="1" diameter="2.1844"/>
+<pad name="GND" x="38.96" y="1.5" drill="1" diameter="2.1844"/>
+<pad name="EN" x="36.42" y="1.5" drill="1" diameter="2.1844"/>
+<pad name="CS" x="33.88" y="1.5" drill="1" diameter="2.1844"/>
+<pad name="INA" x="31.34" y="1.5" drill="1" diameter="2.1844"/>
+<pad name="INB" x="28.8" y="1.5" drill="1" diameter="2.1844"/>
+<pad name="PMW" x="26.26" y="1.5" drill="1" diameter="2.1844"/>
+<hole x="51.5" y="2.5" drill="3"/>
+<hole x="51.5" y="25.5" drill="3"/>
+<text x="28" y="23" size="1.27" layer="51" font="vector" align="center">MOTOR CONTROLLER
+VNH2SP30</text>
+<wire x1="26" y1="19" x2="26" y2="6" width="0.127" layer="51"/>
+<wire x1="26" y1="6" x2="43" y2="6" width="0.127" layer="51"/>
+<wire x1="43" y1="6" x2="43" y2="19" width="0.127" layer="51"/>
+<wire x1="43" y1="19" x2="26" y2="19" width="0.127" layer="51"/>
+<circle x="12" y="10" radius="4.123103125" width="0.127" layer="51"/>
+<wire x1="9" y1="23" x2="15" y2="23" width="0.127" layer="51"/>
+<wire x1="15" y1="23" x2="15" y2="18" width="0.127" layer="51"/>
+<wire x1="15" y1="18" x2="9" y2="18" width="0.127" layer="51"/>
+<wire x1="9" y1="18" x2="9" y2="23" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -2531,23 +2544,6 @@ Drawings &lt;/a&gt;</description>
 <pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
 <text x="-2.54" y="5.08" size="1.27" layer="94" align="top-left">&gt;NAME</text>
 </symbol>
-<symbol name="MOTORCONTROLLER">
-<description>&lt;b&gt; VNH2SP30 &lt;/b&gt; MOTOR CONTROLLER</description>
-<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<pin name="+5V" x="-12.7" y="7.62" visible="pad" length="middle"/>
-<pin name="GND" x="-12.7" y="5.08" visible="pad" length="middle"/>
-<pin name="EN" x="-12.7" y="2.54" visible="pad" length="middle"/>
-<pin name="CS" x="-12.7" y="0" visible="pad" length="middle"/>
-<pin name="INA" x="-12.7" y="-2.54" visible="pad" length="middle"/>
-<pin name="INB" x="-12.7" y="-5.08" visible="pad" length="middle"/>
-<pin name="PMW" x="-12.7" y="-7.62" visible="pad" length="middle"/>
-<text x="-7.62" y="12.7" size="1.778" layer="94">&gt;NAME</text>
-<text x="5.08" y="0" size="1.27" layer="94" rot="R90" align="center">MOTOR CONTROLLER
-VNH2SP30</text>
-</symbol>
 <symbol name="LED">
 <wire x1="-1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
@@ -2603,6 +2599,23 @@ VNH2SP30</text>
 <pin name="2" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="MOTORCONTROLLER">
+<description>&lt;b&gt; VNH2SP30 &lt;/b&gt; MOTOR CONTROLLER</description>
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<pin name="+5V" x="-12.7" y="7.62" visible="pad" length="middle"/>
+<pin name="GND" x="-12.7" y="5.08" visible="pad" length="middle"/>
+<pin name="EN" x="-12.7" y="2.54" visible="pad" length="middle"/>
+<pin name="CS" x="-12.7" y="0" visible="pad" length="middle"/>
+<pin name="INA" x="-12.7" y="-2.54" visible="pad" length="middle"/>
+<pin name="INB" x="-12.7" y="-5.08" visible="pad" length="middle"/>
+<pin name="PWM" x="-12.7" y="-7.62" visible="pad" length="middle"/>
+<text x="-7.62" y="12.7" size="1.778" layer="94">&gt;NAME</text>
+<text x="5.08" y="0" size="1.27" layer="94" rot="R90" align="center">MOTOR CONTROLLER
+VNH2SP30</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2781,28 +2794,6 @@ The 2 and 3 Pins Screw Terminals can be linked together seamlessly.</description
 <attribute name="PACKAGE" value="JP" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VNH2SP30_MOTOR_CONTROLLER" prefix="BR">
-<description>&lt;b&gt; VNH2SP30&lt;/b&gt; MOTOR CONTROLLER</description>
-<gates>
-<gate name="G$1" symbol="MOTORCONTROLLER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="VNH2SP30_MOTOR_CONTROLLER">
-<connects>
-<connect gate="G$1" pin="+5V" pad="+5V"/>
-<connect gate="G$1" pin="CS" pad="CS"/>
-<connect gate="G$1" pin="EN" pad="EN"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="INA" pad="INA"/>
-<connect gate="G$1" pin="INB" pad="INB"/>
-<connect gate="G$1" pin="PMW" pad="PMW"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -3913,6 +3904,28 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <technology name="">
 <attribute name="PIE-INT-REF-NUM" value="MTA"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VNH2SP30_MOTOR_CONTROLLER" prefix="BR">
+<description>&lt;b&gt; VNH2SP30&lt;/b&gt; MOTOR CONTROLLER</description>
+<gates>
+<gate name="G$1" symbol="MOTORCONTROLLER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VNH2SP30_MOTOR_CONTROLLER">
+<connects>
+<connect gate="G$1" pin="+5V" pad="+5V"/>
+<connect gate="G$1" pin="CS" pad="CS"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="INA" pad="INA"/>
+<connect gate="G$1" pin="INB" pad="INB"/>
+<connect gate="G$1" pin="PWM" pad="PMW"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -7353,7 +7366,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="pie" deviceset="GND" device=""/>
 <part name="5V_JUMPER" library="pie" deviceset="JUMPER" device="" value=""/>
-<part name="BR1" library="pie" deviceset="VNH2SP30_MOTOR_CONTROLLER" device=""/>
 <part name="LED1" library="pie" deviceset="LED" device="-FKIT-1206" value="RED"/>
 <part name="R4" library="pie" deviceset="R-US_" device="R0603" value="330"/>
 <part name="SUPPLY4" library="pie" deviceset="GND" device=""/>
@@ -7366,6 +7378,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="ENCODER" library="pie" deviceset="M04" device="1X04-MTA"/>
 <part name="R7" library="pie" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R8" library="pie" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="BR1" library="pie" deviceset="VNH2SP30_MOTOR_CONTROLLER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7387,7 +7400,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="SUPPLY1" gate="GND" x="129.54" y="106.68"/>
 <instance part="SUPPLY3" gate="GND" x="81.28" y="101.6"/>
 <instance part="5V_JUMPER" gate="G$1" x="93.98" y="99.06"/>
-<instance part="BR1" gate="G$1" x="152.4" y="134.62"/>
 <instance part="LED1" gate="G$1" x="33.02" y="139.7"/>
 <instance part="R4" gate="G$1" x="50.8" y="139.7"/>
 <instance part="SUPPLY4" gate="GND" x="63.5" y="137.16"/>
@@ -7400,6 +7412,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="ENCODER" gate="G$1" x="193.04" y="124.46"/>
 <instance part="R7" gate="G$1" x="218.44" y="147.32" rot="R90"/>
 <instance part="R8" gate="G$1" x="205.74" y="147.32" rot="R90"/>
+<instance part="BR1" gate="G$1" x="152.4" y="134.62"/>
 </instances>
 <busses>
 </busses>
@@ -7435,8 +7448,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="81.28" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BR1" gate="G$1" pin="GND"/>
 <wire x1="139.7" y1="139.7" x2="134.62" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="BR1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -7488,8 +7501,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="5V_JUMPER" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
-<pinref part="BR1" gate="G$1" pin="+5V"/>
 <wire x1="139.7" y1="142.24" x2="134.62" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="BR1" gate="G$1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="ENCODER" gate="G$1" pin="1"/>
@@ -7546,8 +7559,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="EN" class="0">
 <segment>
-<pinref part="BR1" gate="G$1" pin="EN"/>
 <wire x1="139.7" y1="137.16" x2="134.62" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="BR1" gate="G$1" pin="EN"/>
 </segment>
 <segment>
 <pinref part="APM" gate="APM" pin="A3"/>
@@ -7557,8 +7570,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="CS" class="0">
 <segment>
-<pinref part="BR1" gate="G$1" pin="CS"/>
 <wire x1="139.7" y1="134.62" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="BR1" gate="G$1" pin="CS"/>
 </segment>
 <segment>
 <pinref part="APM" gate="APM" pin="8"/>
@@ -7568,8 +7581,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="INA" class="0">
 <segment>
-<pinref part="BR1" gate="G$1" pin="INA"/>
 <wire x1="139.7" y1="132.08" x2="134.62" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="BR1" gate="G$1" pin="INA"/>
 </segment>
 <segment>
 <pinref part="APM" gate="APM" pin="16"/>
@@ -7579,8 +7592,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="INB" class="0">
 <segment>
-<pinref part="BR1" gate="G$1" pin="INB"/>
 <wire x1="139.7" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="BR1" gate="G$1" pin="INB"/>
 </segment>
 <segment>
 <pinref part="APM" gate="APM" pin="10"/>
@@ -7590,8 +7603,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="PWM" class="0">
 <segment>
-<pinref part="BR1" gate="G$1" pin="PMW"/>
 <wire x1="139.7" y1="127" x2="134.62" y2="127" width="0.1524" layer="91"/>
+<pinref part="BR1" gate="G$1" pin="PWM"/>
 </segment>
 <segment>
 <pinref part="APM" gate="APM" pin="9"/>
