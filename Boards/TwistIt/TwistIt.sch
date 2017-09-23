@@ -2410,30 +2410,28 @@ Drawings &lt;/a&gt;</description>
 </package>
 <package name="VNH2SP30_MOTOR_CONTROLLER">
 <description>&lt;b&gt; VNH2SP30 &lt;/b&gt; MOTOR CONTROLLER</description>
-<wire x1="0" y1="0" x2="54" y2="0" width="0.127" layer="51"/>
-<wire x1="54" y1="0" x2="54" y2="28" width="0.127" layer="51"/>
-<wire x1="54" y1="28" x2="0" y2="28" width="0.127" layer="51"/>
-<wire x1="0" y1="28" x2="0" y2="0" width="0.127" layer="51"/>
-<pad name="+5V" x="41.5" y="1.5" drill="1" diameter="2.1844"/>
-<pad name="GND" x="38.96" y="1.5" drill="1" diameter="2.1844"/>
-<pad name="EN" x="36.42" y="1.5" drill="1" diameter="2.1844"/>
-<pad name="CS" x="33.88" y="1.5" drill="1" diameter="2.1844"/>
-<pad name="INA" x="31.34" y="1.5" drill="1" diameter="2.1844"/>
-<pad name="INB" x="28.8" y="1.5" drill="1" diameter="2.1844"/>
-<pad name="PMW" x="26.26" y="1.5" drill="1" diameter="2.1844"/>
-<hole x="51.5" y="2.5" drill="3"/>
-<hole x="51.5" y="25.5" drill="3"/>
-<text x="28" y="23" size="1.27" layer="51" font="vector" align="center">MOTOR CONTROLLER
+<wire x1="0" y1="27.94" x2="54" y2="27.94" width="0.127" layer="52"/>
+<wire x1="54" y1="27.94" x2="54" y2="-0.06" width="0.127" layer="52"/>
+<wire x1="54" y1="-0.06" x2="0" y2="-0.06" width="0.127" layer="52"/>
+<wire x1="0" y1="-0.06" x2="0" y2="27.94" width="0.127" layer="52"/>
+<pad name="+5V" x="41.5" y="26.44" drill="1" diameter="2.1844"/>
+<pad name="GND" x="38.96" y="26.44" drill="1" diameter="2.1844"/>
+<pad name="EN" x="36.42" y="26.44" drill="1" diameter="2.1844"/>
+<pad name="CS" x="33.88" y="26.44" drill="1" diameter="2.1844"/>
+<pad name="INA" x="31.34" y="26.44" drill="1" diameter="2.1844"/>
+<pad name="INB" x="28.8" y="26.44" drill="1" diameter="2.1844"/>
+<pad name="PMW" x="26.26" y="26.44" drill="1" diameter="2.1844"/>
+<text x="28" y="4.94" size="1.27" layer="52" font="vector" rot="MR180" align="center">MOTOR CONTROLLER
 VNH2SP30</text>
-<wire x1="26" y1="19" x2="26" y2="6" width="0.127" layer="51"/>
-<wire x1="26" y1="6" x2="43" y2="6" width="0.127" layer="51"/>
-<wire x1="43" y1="6" x2="43" y2="19" width="0.127" layer="51"/>
-<wire x1="43" y1="19" x2="26" y2="19" width="0.127" layer="51"/>
-<circle x="12" y="10" radius="4.123103125" width="0.127" layer="51"/>
-<wire x1="9" y1="23" x2="15" y2="23" width="0.127" layer="51"/>
-<wire x1="15" y1="23" x2="15" y2="18" width="0.127" layer="51"/>
-<wire x1="15" y1="18" x2="9" y2="18" width="0.127" layer="51"/>
-<wire x1="9" y1="18" x2="9" y2="23" width="0.127" layer="51"/>
+<wire x1="26" y1="8.94" x2="26" y2="21.94" width="0.127" layer="52"/>
+<wire x1="26" y1="21.94" x2="43" y2="21.94" width="0.127" layer="52"/>
+<wire x1="43" y1="21.94" x2="43" y2="8.94" width="0.127" layer="52"/>
+<wire x1="43" y1="8.94" x2="26" y2="8.94" width="0.127" layer="52"/>
+<circle x="12" y="17.94" radius="4.123103125" width="0.127" layer="52"/>
+<wire x1="9" y1="4.94" x2="15" y2="4.94" width="0.127" layer="52"/>
+<wire x1="15" y1="4.94" x2="15" y2="9.94" width="0.127" layer="52"/>
+<wire x1="15" y1="9.94" x2="9" y2="9.94" width="0.127" layer="52"/>
+<wire x1="9" y1="9.94" x2="9" y2="4.94" width="0.127" layer="52"/>
 </package>
 </packages>
 <symbols>
