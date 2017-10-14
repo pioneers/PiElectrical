@@ -2155,13 +2155,13 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </autorouter>
 <elements>
 <element name="R1" library="resistor" package="R0603" value="10K" x="30.826" y="28.489" smashed="yes" rot="R90">
-<attribute name="NAME" x="33.506509375" y="30.627821875" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="33.5" y="30.627821875" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="R2" library="resistor" package="R0603" value="10K" x="30.826" y="24.307" smashed="yes" rot="R90">
-<attribute name="NAME" x="33.504921875" y="26.253515625" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="33.5" y="26.253515625" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="R3" library="resistor" package="R0603" value="10K" x="30.826" y="20.124" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.485503125" y="22.685915625" size="0.8128" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="33.5" y="22" size="0.8128" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="APM" library="pie" package="ARDUINO_PRO_MICRO" value="ARDUINO_PRO_MICRO" x="10.16" y="11.43">
 <attribute name="DESCRIPTION" value="Arduino Pro Micro" x="10.16" y="11.43" size="1.778" layer="27" display="off"/>
