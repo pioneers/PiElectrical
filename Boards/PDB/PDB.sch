@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="8.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -200,29 +200,6 @@ Vertical
 <text x="-9.525" y="0" size="1.524" layer="21" font="vector">CIRCUIT BREAKER</text>
 <hole x="-19.9898" y="0" drill="4.572"/>
 <hole x="19.9898" y="0" drill="4.572"/>
-</package>
-<package name="FUSE_HOLDER_SMD">
-<description>Package for ATC/ATO fuse holder (SMD). &lt;a href="http://keyelco.com/userAssets/file/M65p43.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="P$1_UP" x="-6.731" y="4.445" dx="1.5748" dy="2.8194" layer="1"/>
-<smd name="P$2_UP" x="6.731" y="4.445" dx="1.5748" dy="2.8194" layer="1"/>
-<smd name="P$1_DOWN" x="-6.731" y="-4.445" dx="1.5748" dy="2.8194" layer="1"/>
-<smd name="P$2_DOWN" x="6.731" y="-4.445" dx="1.5748" dy="2.8194" layer="1"/>
-<wire x1="9.906" y1="3.683" x2="9.906" y2="-3.683" width="0.127" layer="21"/>
-<wire x1="-9.906" y1="-3.683" x2="-9.906" y2="3.683" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="3.683" x2="-5.842" y2="3.683" width="0.127" layer="51"/>
-<wire x1="5.842" y1="3.683" x2="7.62" y2="3.683" width="0.127" layer="51"/>
-<wire x1="-7.62" y1="-3.683" x2="-5.842" y2="-3.683" width="0.127" layer="51"/>
-<wire x1="5.842" y1="-3.683" x2="7.62" y2="-3.683" width="0.127" layer="51"/>
-<wire x1="-9.906" y1="-3.683" x2="9.906" y2="-3.683" width="0.127" layer="21"/>
-<wire x1="-9.906" y1="3.683" x2="9.906" y2="3.683" width="0.127" layer="21"/>
-<text x="-3.81" y="4.318" size="1.27" layer="25" font="vector">&gt;Name</text>
-<wire x1="-8.89" y1="2.54" x2="-8.89" y2="-2.54" width="0.127" layer="25"/>
-<wire x1="-8.89" y1="-2.54" x2="8.89" y2="-2.54" width="0.127" layer="25"/>
-<wire x1="8.89" y1="-2.54" x2="8.89" y2="2.54" width="0.127" layer="25"/>
-<wire x1="8.89" y1="2.54" x2="-8.89" y2="2.54" width="0.127" layer="25"/>
-<wire x1="-6.35" y1="-1.27" x2="-6.35" y2="1.27" width="0.127" layer="25" curve="-180"/>
-<wire x1="6.35" y1="1.27" x2="6.35" y2="-1.27" width="0.127" layer="25" curve="-180"/>
-<rectangle x1="-10.16" y1="-7.62" x2="10.16" y2="7.62" layer="39"/>
 </package>
 <package name="BUCK_CONVERTER_5V">
 <description>5V Buck Converter. For PDB. &lt;a href ="https://www.amazon.com/dp/B00GQ032DK/?psc=1"&gt; Product Detail &lt;/a&gt;</description>
@@ -2902,17 +2879,6 @@ BREAKER</text>
 <pin name="P$1" x="0" y="12.7" visible="off" length="middle" rot="R270"/>
 <pin name="P$2" x="0" y="-12.7" visible="off" length="middle" rot="R90"/>
 </symbol>
-<symbol name="FUSE">
-<description>Symbol for fuse taken from EAGLE's "fuses" library</description>
-<wire x1="-3.81" y1="-0.762" x2="3.81" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="3.81" y1="0.762" x2="-3.81" y2="0.762" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-0.762" x2="3.81" y2="0.762" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0.762" x2="-3.81" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<text x="-3.81" y="1.397" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
 <symbol name="GND">
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
@@ -3512,28 +3478,6 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <technology name="">
 <attribute name="MANUF" value="WAYTEK" constant="no"/>
 <attribute name="MANUF-PN" value="46977" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FUSE_HOLDER_SMD">
-<description>ATC/ATO Fuse Holder. Original variant &lt;a href="http://keyelco.com/userAssets/file/M65p43.pdf"&gt;datasheet&lt;/a&gt; 
-and &lt;a href="http://www.digikey.com/product-detail/en/keystone-electronics/3587/36-3587-ND/2137315"&gt; Digikey&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="FUSE" x="7.62" y="0"/>
-</gates>
-<devices>
-<device name="" package="FUSE_HOLDER_SMD">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1_DOWN P$1_UP"/>
-<connect gate="G$1" pin="2" pad="P$2_DOWN P$2_UP"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY-PN" value=" 36-3587-ND" constant="no"/>
-<attribute name="MANUF" value="KEYSTONE" constant="no"/>
-<attribute name="MANUF-PN" value="3587" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5106,12 +5050,6 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <part name="CONN4" library="pie" deviceset="ANDERSON" device="VERTICAL" value="ANDERSONVERTICAL"/>
 <part name="CONN5" library="pie" deviceset="ANDERSON" device="VERTICAL" value="ANDERSONVERTICAL"/>
 <part name="CIRCUIT_BREAKER" library="pie" deviceset="CIRC_BREAKER" device=""/>
-<part name="FUSE4" library="pie" deviceset="FUSE_HOLDER_SMD" device=""/>
-<part name="FUSE1" library="pie" deviceset="FUSE_HOLDER_SMD" device=""/>
-<part name="FUSE2" library="pie" deviceset="FUSE_HOLDER_SMD" device=""/>
-<part name="FUSE5" library="pie" deviceset="FUSE_HOLDER_SMD" device=""/>
-<part name="FUSE3" library="pie" deviceset="FUSE_HOLDER_SMD" device=""/>
-<part name="FUSE6" library="pie" deviceset="FUSE_HOLDER_SMD" device=""/>
 <part name="CONN3" library="pie" deviceset="ANDERSON" device="VERTICAL" value="ANDERSONVERTICAL"/>
 <part name="CONN6" library="pie" deviceset="ANDERSON" device="VERTICAL" value="ANDERSONVERTICAL"/>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
@@ -5122,10 +5060,6 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <part name="SUPPLY6" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="pie" deviceset="GND" device=""/>
 <part name="U$7" library="pie" deviceset="BUCK_CONVERTER_5V" device=""/>
-<part name="FUSE7" library="pie" deviceset="FUSE_HOLDER_SMD" device=""/>
-<part name="FUSE8" library="pie" deviceset="FUSE_HOLDER_SMD" device=""/>
-<part name="FUSE9" library="pie" deviceset="FUSE_HOLDER_SMD" device=""/>
-<part name="FUSE10" library="pie" deviceset="FUSE_HOLDER_SMD" device=""/>
 <part name="SUPPLY8" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="pie" deviceset="GND" device=""/>
@@ -5210,12 +5144,6 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <instance part="CONN4" gate="G$1" x="119.38" y="134.62" rot="MR0"/>
 <instance part="CONN5" gate="G$1" x="119.38" y="111.76" rot="MR0"/>
 <instance part="CIRCUIT_BREAKER" gate="G$1" x="35.56" y="132.08"/>
-<instance part="FUSE4" gate="G$1" x="101.6" y="137.16"/>
-<instance part="FUSE1" gate="G$1" x="91.44" y="147.32"/>
-<instance part="FUSE2" gate="G$1" x="91.44" y="124.46"/>
-<instance part="FUSE5" gate="G$1" x="101.6" y="114.3"/>
-<instance part="FUSE3" gate="G$1" x="91.44" y="104.14"/>
-<instance part="FUSE6" gate="G$1" x="101.6" y="96.52"/>
 <instance part="CONN3" gate="G$1" x="73.66" y="101.6"/>
 <instance part="CONN6" gate="G$1" x="119.38" y="93.98" rot="MR0"/>
 <instance part="SUPPLY1" gate="GND" x="83.82" y="139.7"/>
@@ -5226,10 +5154,6 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <instance part="SUPPLY6" gate="GND" x="83.82" y="96.52"/>
 <instance part="SUPPLY7" gate="GND" x="104.14" y="88.9"/>
 <instance part="U$7" gate="G$1" x="162.56" y="144.78"/>
-<instance part="FUSE7" gate="G$1" x="177.8" y="124.46" rot="MR0"/>
-<instance part="FUSE8" gate="G$1" x="187.96" y="116.84" rot="MR0"/>
-<instance part="FUSE9" gate="G$1" x="177.8" y="104.14" rot="MR0"/>
-<instance part="FUSE10" gate="G$1" x="187.96" y="93.98" rot="MR0"/>
 <instance part="SUPPLY8" gate="GND" x="193.04" y="83.82" rot="MR0"/>
 <instance part="SUPPLY9" gate="GND" x="193.04" y="106.68" rot="MR0"/>
 <instance part="SUPPLY10" gate="GND" x="170.18" y="129.54" rot="MR0"/>
@@ -5246,25 +5170,6 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <nets>
 <net name="12V" class="0">
 <segment>
-<pinref part="FUSE1" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="137.16" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
-<junction x="96.52" y="137.16"/>
-<pinref part="FUSE4" gate="G$1" pin="1"/>
-<pinref part="FUSE5" gate="G$1" pin="1"/>
-<junction x="96.52" y="114.3"/>
-<wire x1="96.52" y1="124.46" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="137.16" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="114.3" x2="96.52" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="104.14" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="FUSE3" gate="G$1" pin="2"/>
-<junction x="96.52" y="104.14"/>
-<pinref part="FUSE6" gate="G$1" pin="1"/>
-<pinref part="FUSE2" gate="G$1" pin="2"/>
-<junction x="96.52" y="124.46"/>
-<wire x1="96.52" y1="147.32" x2="109.22" y2="147.32" width="0.1524" layer="91"/>
-<label x="101.6" y="147.32" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="CIRCUIT_BREAKER" gate="G$1" pin="P$2"/>
 <wire x1="35.56" y1="119.38" x2="35.56" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="116.84" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
@@ -5275,40 +5180,31 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <wire x1="149.86" y1="147.32" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
 <label x="142.24" y="147.32" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="VOUT1" class="0">
 <segment>
-<pinref part="CONN1" gate="G$1" pin="VCC"/>
-<wire x1="86.36" y1="147.32" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="FUSE1" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="VOUT2" class="0">
-<segment>
-<pinref part="CONN2" gate="G$1" pin="VCC"/>
-<wire x1="86.36" y1="124.46" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="FUSE2" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="VOUT4" class="0">
-<segment>
-<pinref part="CONN4" gate="G$1" pin="VCC"/>
-<wire x1="111.76" y1="137.16" x2="106.68" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="FUSE4" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="VOUT5" class="0">
-<segment>
-<pinref part="FUSE5" gate="G$1" pin="2"/>
-<pinref part="CONN5" gate="G$1" pin="VCC"/>
-<wire x1="106.68" y1="114.3" x2="111.76" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="VOUT3" class="0">
-<segment>
-<pinref part="FUSE3" gate="G$1" pin="1"/>
+<pinref part="CONN6" gate="G$1" pin="VCC"/>
 <pinref part="CONN3" gate="G$1" pin="VCC"/>
-<wire x1="86.36" y1="104.14" x2="81.28" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="CONN5" gate="G$1" pin="VCC"/>
+<pinref part="CONN4" gate="G$1" pin="VCC"/>
+<pinref part="CONN2" gate="G$1" pin="VCC"/>
+<wire x1="96.52" y1="147.32" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="137.16" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="124.46" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="114.3" x2="96.52" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="104.14" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="147.32" x2="109.22" y2="147.32" width="0.1524" layer="91"/>
+<label x="101.6" y="147.32" size="1.778" layer="95"/>
+<pinref part="CONN1" gate="G$1" pin="VCC"/>
+<wire x1="96.52" y1="147.32" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
+<junction x="96.52" y="147.32"/>
+<wire x1="81.28" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
+<junction x="96.52" y="124.46"/>
+<wire x1="111.76" y1="137.16" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
+<junction x="96.52" y="137.16"/>
+<wire x1="111.76" y1="114.3" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
+<junction x="96.52" y="114.3"/>
+<wire x1="81.28" y1="104.14" x2="96.52" y2="104.14" width="0.1524" layer="91"/>
+<junction x="96.52" y="104.14"/>
+<wire x1="111.76" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BAT" class="0">
@@ -5387,57 +5283,26 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <pinref part="CONN10" gate="CONN$1" pin="P$2"/>
 </segment>
 </net>
-<net name="VOUT6" class="0">
-<segment>
-<pinref part="FUSE6" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="96.52" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="CONN6" gate="G$1" pin="VCC"/>
-</segment>
-</net>
-<net name="VOUT7" class="0">
-<segment>
-<pinref part="FUSE7" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="124.46" x2="160.02" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="CONN7" gate="CONN$1" pin="P$1"/>
-</segment>
-</net>
-<net name="VOUT8" class="0">
-<segment>
-<pinref part="FUSE8" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="116.84" x2="198.12" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="CONN9" gate="CONN$1" pin="P$1"/>
-</segment>
-</net>
-<net name="VOUT9" class="0">
-<segment>
-<pinref part="FUSE9" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="104.14" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="CONN8" gate="CONN$1" pin="P$1"/>
-</segment>
-</net>
-<net name="VOUT10" class="0">
-<segment>
-<pinref part="FUSE10" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="93.98" x2="198.12" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="CONN10" gate="CONN$1" pin="P$1"/>
-</segment>
-</net>
 <net name="5V" class="0">
 <segment>
+<pinref part="CONN10" gate="CONN$1" pin="P$1"/>
+<pinref part="CONN8" gate="CONN$1" pin="P$1"/>
+<pinref part="CONN9" gate="CONN$1" pin="P$1"/>
+<pinref part="CONN7" gate="CONN$1" pin="P$1"/>
+<wire x1="182.88" y1="124.46" x2="160.02" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="OUT+"/>
 <wire x1="175.26" y1="147.32" x2="182.88" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="147.32" x2="182.88" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="FUSE10" gate="G$1" pin="2"/>
+<label x="180.34" y="147.32" size="1.778" layer="95" ratio="10"/>
 <wire x1="182.88" y1="124.46" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
+<junction x="182.88" y="124.46"/>
 <wire x1="182.88" y1="116.84" x2="182.88" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="104.14" x2="182.88" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="FUSE9" gate="G$1" pin="1"/>
-<pinref part="FUSE8" gate="G$1" pin="2"/>
-<pinref part="FUSE7" gate="G$1" pin="1"/>
-<junction x="182.88" y="124.46"/>
+<wire x1="198.12" y1="116.84" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
 <junction x="182.88" y="116.84"/>
+<wire x1="162.56" y1="104.14" x2="182.88" y2="104.14" width="0.1524" layer="91"/>
 <junction x="182.88" y="104.14"/>
-<label x="180.34" y="147.32" size="1.778" layer="95" ratio="10"/>
+<wire x1="198.12" y1="93.98" x2="182.88" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
