@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -914,25 +915,25 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </autorouter>
 <elements>
 <element name="IC1" library="pie" package="RFID_SENSOR" value="RFID_SENSOR" x="68.58" y="41.91" rot="MR270">
+<attribute name="DESCRIPTION" value="" x="68.58" y="41.91" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DISTRIBUTOR" value="AliExpress" x="68.58" y="41.91" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="32657638702" x="68.58" y="41.91" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="Binling Gooding" x="68.58" y="41.91" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="68.58" y="41.91" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NOTES" value="https://www.aliexpress.com/item/High-Quality-MFRC-522-RC522-RFID-Reader-RF-IC-Card-Inductive-Sensor-Module-For-Arduino-Module/32657638702.html?spm=2114.01010208.3.1.ePefNj&amp;ws_ab_test=searchweb201556_0%2Csearchweb201602_5_10057_10056_10065_10068_10055_10067_10054_10069_10059_10058_418_10073_10017_10070_10060_10061_10052_10062_10053_10050_10051%2Csearchweb201603_7&amp;btsid=cb39fcb9-9ace-4eec-a43a-83949f44e6b2" x="68.58" y="41.91" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DISTRIBUTOR_PART_NUMBER" value="32657638702" x="68.58" y="41.91" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DESCRIPTION" value="" x="68.58" y="41.91" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PACKAGE" value="RFID_SENSOR" x="68.58" y="41.91" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" value="RFID_SENSOR" x="68.58" y="41.91" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="APM" library="pie" package="ARDUINO_PRO_MICRO" value="ARDUINO_PRO_MICRO" x="2.54" y="7.62" smashed="yes">
-<attribute name="NAME" x="12.192" y="36.068" size="1.27" layer="21" font="vector" rot="R180" align="center"/>
-<attribute name="DISTRIBUTOR" value="AliExpress" x="2.54" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Feiyang electronics" x="2.54" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="" x="2.54" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="NOTES" value="https://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5" x="2.54" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR_PART_NUMBER" value="32284746884" x="2.54" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Arduino Pro Micro" x="2.54" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" x="2.54" y="7.62" size="1.778" layer="27" display="off"/>
-<attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" x="2.54" y="7.62" size="1.778" layer="27" display="off"/>
+<element name="APM" library="pie" package="ARDUINO_PRO_MICRO" value="ARDUINO_PRO_MICRO" x="2.032" y="7.62" smashed="yes">
+<attribute name="DESCRIPTION" value="Arduino Pro Micro" x="2.032" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="AliExpress" x="2.032" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="32284746884" x="2.032" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Feiyang electronics" x="2.032" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="2.032" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="11.684" y="36.068" size="1.27" layer="21" font="vector" rot="R180" align="center"/>
+<attribute name="NOTES" value="https://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5" x="2.032" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" x="2.032" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" x="2.032" y="7.62" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$1" library="pie" package="PIE-LOGO-SMALL" value="" x="16.383" y="4.064"/>
 <element name="U$2" library="pie" package="STAND-OFF" value="" x="3.81" y="3.81" rot="R180"/>
@@ -944,49 +945,51 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <signal name="VCC">
 <contactref element="APM" pad="VCC"/>
 <contactref element="IC1" pad="3.3V"/>
-<wire x1="9.58" y1="30.81" x2="18.466" y2="30.81" width="0.4064" layer="1"/>
-<wire x1="18.466" y1="30.81" x2="19.558" y2="29.718" width="0.4064" layer="1"/>
+<wire x1="17.958" y1="30.81" x2="19.05" y2="29.718" width="0.4064" layer="1"/>
+<wire x1="9.58" y1="30.81" x2="17.958" y2="30.81" width="0.4064" layer="1"/>
 </signal>
 <signal name="RST">
 <contactref element="IC1" pad="RST"/>
 <contactref element="APM" pad="9"/>
-<wire x1="9.58" y1="28.27" x2="6.35" y2="25.04" width="0.4064" layer="1"/>
-<wire x1="6.35" y1="25.04" x2="6.35" y2="11.43" width="0.4064" layer="1"/>
-<wire x1="6.35" y1="11.43" x2="4.318" y2="9.398" width="0.4064" layer="1"/>
+<wire x1="6.35" y1="25.04" x2="9.58" y2="28.27" width="0.4064" layer="1"/>
+<wire x1="6.35" y1="11.684" x2="6.35" y2="25.04" width="0.4064" layer="1"/>
+<wire x1="3.81" y1="9.398" x2="4.064" y2="9.398" width="0.4064" layer="1"/>
+<wire x1="4.064" y1="9.398" x2="6.35" y2="11.684" width="0.4064" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="IC1" pad="GND"/>
 <contactref element="APM" pad="GND@2"/>
 <wire x1="9.58" y1="25.73" x2="9.58" y2="25.98" width="0.4064" layer="16"/>
 <wire x1="9.58" y1="25.98" x2="7.62" y2="27.94" width="0.4064" layer="16"/>
-<wire x1="7.62" y1="27.94" x2="7.62" y2="31.75" width="0.4064" layer="16"/>
-<wire x1="7.62" y1="31.75" x2="8.89" y2="33.02" width="0.4064" layer="16"/>
-<wire x1="8.89" y1="33.02" x2="17.78" y2="33.02" width="0.4064" layer="16"/>
-<wire x1="17.78" y1="33.02" x2="19.558" y2="34.798" width="0.4064" layer="16"/>
+<wire x1="7.62" y1="27.94" x2="7.62" y2="31.496" width="0.4064" layer="16"/>
+<wire x1="9.398" y1="33.528" x2="17.78" y2="33.528" width="0.4064" layer="16"/>
+<wire x1="17.78" y1="33.528" x2="19.05" y2="34.798" width="0.4064" layer="16"/>
+<wire x1="7.62" y1="31.496" x2="7.62" y2="31.75" width="0.1524" layer="16"/>
+<wire x1="7.62" y1="31.75" x2="9.398" y2="33.528" width="0.4064" layer="16"/>
 </signal>
 <signal name="SDA">
 <contactref element="APM" pad="10"/>
 <contactref element="IC1" pad="SDA"/>
-<wire x1="9.58" y1="13.03" x2="15.926" y2="13.03" width="0.4064" layer="16"/>
-<wire x1="15.926" y1="13.03" x2="19.558" y2="9.398" width="0.4064" layer="16"/>
+<wire x1="15.418" y1="13.03" x2="19.05" y2="9.398" width="0.4064" layer="16"/>
+<wire x1="9.58" y1="13.03" x2="15.418" y2="13.03" width="0.4064" layer="16"/>
 </signal>
 <signal name="MOSI">
 <contactref element="IC1" pad="MOSI"/>
 <contactref element="APM" pad="16"/>
-<wire x1="9.58" y1="18.11" x2="13.386" y2="18.11" width="0.4064" layer="1"/>
-<wire x1="13.386" y1="18.11" x2="19.558" y2="11.938" width="0.4064" layer="1"/>
+<wire x1="12.878" y1="18.11" x2="19.05" y2="11.938" width="0.4064" layer="1"/>
+<wire x1="9.58" y1="18.11" x2="12.878" y2="18.11" width="0.4064" layer="1"/>
 </signal>
 <signal name="MISO">
 <contactref element="APM" pad="14"/>
 <contactref element="IC1" pad="MISO"/>
-<wire x1="9.58" y1="20.65" x2="13.386" y2="20.65" width="0.4064" layer="1"/>
-<wire x1="13.386" y1="20.65" x2="19.558" y2="14.478" width="0.4064" layer="1"/>
+<wire x1="12.878" y1="20.65" x2="19.05" y2="14.478" width="0.4064" layer="1"/>
+<wire x1="9.58" y1="20.65" x2="12.878" y2="20.65" width="0.4064" layer="1"/>
 </signal>
 <signal name="SCK">
 <contactref element="APM" pad="15"/>
 <contactref element="IC1" pad="SCK"/>
-<wire x1="9.58" y1="15.57" x2="18.11" y2="15.57" width="0.4064" layer="16"/>
-<wire x1="18.11" y1="15.57" x2="19.558" y2="17.018" width="0.4064" layer="16"/>
+<wire x1="17.602" y1="15.57" x2="19.05" y2="17.018" width="0.4064" layer="16"/>
+<wire x1="9.58" y1="15.57" x2="17.602" y2="15.57" width="0.4064" layer="16"/>
 </signal>
 </signals>
 </board>
