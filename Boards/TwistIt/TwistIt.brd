@@ -168,7 +168,7 @@ pioneers.berkeley.edu/opensource</text>
 <wire x1="0.427" y1="27.929" x2="0.427" y2="29.929" width="0.1" layer="21"/>
 <wire x1="0.427" y1="29.929" x2="3.724" y2="29.924" width="0.1" layer="21"/>
 <text x="19.63" y="50.53" size="1.778" layer="21" font="vector" ratio="15" align="center">TwistIt!
-Rev 10A</text>
+Rev 10B</text>
 <text x="7.223" y="43.588" size="0.6096" layer="25" font="vector" rot="SR270">Vcc</text>
 <text x="7.143" y="40.971" size="0.6096" layer="25" font="vector" rot="SR270">GND</text>
 <text x="7.223" y="38.019" size="0.6096" layer="25" font="vector" rot="SR270">A</text>
