@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
@@ -163,7 +164,7 @@ pioneers.berkeley.edu/opensource</text>
 <text x="22.098" y="21.59" size="0.762" layer="25" font="vector" rot="R270">SERVO 1</text>
 <text x="22.098" y="12.7" size="0.762" layer="25" font="vector" rot="R270">SERVO 0</text>
 <text x="13.97" y="48.768" size="1.27" layer="21" font="vector" ratio="15" align="center">Servo Controller
-Prod</text>
+Rev 10B</text>
 </plain>
 <libraries>
 <library name="pie">
@@ -835,6 +836,9 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -931,14 +935,14 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="VALUE" x="31.115" y="7.112" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="APM" library="pie" package="ARDUINO_PRO_MICRO" value="ARDUINO_PRO_MICRO" x="21.59" y="41.91" rot="R180">
-<attribute name="DISTRIBUTOR" value="AliExpress" x="21.59" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" x="21.59" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" x="21.59" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DESCRIPTION" value="Arduino Pro Micro" x="21.59" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="" x="21.59" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTRIBUTOR" value="AliExpress" x="21.59" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="32284746884" x="21.59" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NOTES" value="https://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5" x="21.59" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Feiyang electronics" x="21.59" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="21.59" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NOTES" value="https://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5" x="21.59" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" x="21.59" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" x="21.59" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="JP2" library="pie" package="1X03-MTA" value="" x="26.67" y="19.304" smashed="yes" rot="R90">
 <attribute name="PIE-INT-REF-NUM" value="MTA" x="26.67" y="19.304" size="1.778" layer="27" rot="R90" display="off"/>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -3554,8 +3555,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </classes>
 <parts>
 <part name="FRAME1" library="pie" deviceset="FRAME_SCHEMATIC" device="">
-<attribute name="AUTHOR" value="Nick Werblun"/>
-<attribute name="REVISION" value="10A"/>
+<attribute name="AUTHOR" value="Nick Werblun, Margo Oka"/>
+<attribute name="REVISION" value="10B"/>
 </part>
 <part name="LED1" library="pie" deviceset="LED" device="LED5MM-NOFLAT" value="Yellow"/>
 <part name="LED2" library="pie" deviceset="LED" device="LED5MM-NOFLAT" value="Blue"/>

@@ -7354,7 +7354,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="APM" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
 <part name="FRAME1" library="pie" deviceset="FRAME_SCHEMATIC" device="">
 <attribute name="AUTHOR" value="Mohammed Hossain, Seiya Ono"/>
-<attribute name="REVISION" value="10A"/>
+<attribute name="REVISION" value="10B"/>
 </part>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
