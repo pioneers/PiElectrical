@@ -201,30 +201,6 @@ Vertical
 <hole x="-19.9898" y="0" drill="4.572"/>
 <hole x="19.9898" y="0" drill="4.572"/>
 </package>
-<package name="BUCK_CONVERTER_5V">
-<description>5V Buck Converter. For PDB. &lt;a href ="https://www.amazon.com/dp/B00GQ032DK/?psc=1"&gt; Product Detail &lt;/a&gt;</description>
-<pad name="IN-" x="1.27" y="31.75" drill="2.032" diameter="3.048"/>
-<pad name="IN+" x="5.08" y="31.75" drill="2.032" diameter="3.048" rot="R90"/>
-<pad name="OUT-" x="-2.54" y="31.75" drill="2.032" diameter="3.048" rot="R90"/>
-<pad name="OUT+" x="-6.35" y="31.75" drill="2.032" diameter="3.048" rot="R90"/>
-<hole x="-26.924" y="0" drill="4.4958"/>
-<hole x="26.924" y="0" drill="4.4958"/>
-<wire x1="-8.89" y1="34.29" x2="7.62" y2="34.29" width="0.127" layer="21"/>
-<wire x1="31.75" y1="17.78" x2="31.75" y2="-26.67" width="0.127" layer="21"/>
-<wire x1="-31.75" y1="17.78" x2="-31.75" y2="-26.67" width="0.127" layer="21"/>
-<wire x1="-31.75" y1="-26.67" x2="31.75" y2="-26.67" width="0.127" layer="21"/>
-<text x="12.7" y="16.51" size="1.778" layer="25" font="vector" rot="R180">Buck Converter 5V</text>
-<text x="-5.08" y="22.86" size="1.778" layer="27" font="vector" ratio="10" rot="R90">OUT+</text>
-<text x="-1.27" y="22.86" size="1.778" layer="27" font="vector" ratio="10" rot="R90">OUT-</text>
-<text x="2.54" y="22.86" size="1.778" layer="27" font="vector" ratio="10" rot="R90">IN-</text>
-<text x="6.35" y="22.86" size="1.778" layer="27" font="vector" ratio="10" rot="R90">IN+</text>
-<wire x1="7.62" y1="34.29" x2="7.62" y2="17.78" width="0.127" layer="21"/>
-<wire x1="7.62" y1="17.78" x2="31.75" y2="17.78" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="34.29" x2="-8.89" y2="17.78" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="17.78" x2="-31.75" y2="17.78" width="0.127" layer="21"/>
-<rectangle x1="-31.75" y1="-26.67" x2="31.75" y2="17.78" layer="39"/>
-<rectangle x1="-8.89" y1="17.78" x2="7.62" y2="34.29" layer="39"/>
-</package>
 <package name="R0402">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
@@ -2886,19 +2862,6 @@ BREAKER</text>
 <text x="-1.27" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="BUCK_CONVERTER_5V">
-<description>Symbol for 5V buck regulator: &lt;a href="https://www.amazon.com/DROK-Converter-Step-down-Transformer-Waterproof/dp/B00CE75K0W/"&gt;product link&lt;/a&gt;</description>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="IN+" x="-12.7" y="2.54" length="middle"/>
-<pin name="OUT+" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="IN-" x="-12.7" y="-2.54" length="middle"/>
-<pin name="OUT-" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<circle x="-5.08" y="2.54" radius="1.27" width="0.254" layer="94"/>
-<text x="-7.62" y="6.096" size="1.778" layer="95" ratio="10">&gt;VALUE</text>
-</symbol>
 <symbol name="5V">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
@@ -3490,25 +3453,6 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BUCK_CONVERTER_5V">
-<description>5V Buck Converter. For PDB. &lt;a href ="https://www.amazon.com/dp/B00GQ032DK/?psc=1"&gt; Product Detail &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="BUCK_CONVERTER_5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BUCK_CONVERTER_5V">
-<connects>
-<connect gate="G$1" pin="IN+" pad="IN+"/>
-<connect gate="G$1" pin="IN-" pad="IN-"/>
-<connect gate="G$1" pin="OUT+" pad="OUT+"/>
-<connect gate="G$1" pin="OUT-" pad="OUT-"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5059,7 +5003,6 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <part name="SUPPLY5" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="pie" deviceset="GND" device=""/>
-<part name="U$7" library="pie" deviceset="BUCK_CONVERTER_5V" device=""/>
 <part name="SUPPLY8" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="pie" deviceset="GND" device=""/>
@@ -5153,7 +5096,6 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <instance part="SUPPLY5" gate="GND" x="104.14" y="106.68"/>
 <instance part="SUPPLY6" gate="GND" x="83.82" y="96.52"/>
 <instance part="SUPPLY7" gate="GND" x="104.14" y="88.9"/>
-<instance part="U$7" gate="G$1" x="162.56" y="144.78"/>
 <instance part="SUPPLY8" gate="GND" x="193.04" y="83.82" rot="MR0"/>
 <instance part="SUPPLY9" gate="GND" x="193.04" y="106.68" rot="MR0"/>
 <instance part="SUPPLY10" gate="GND" x="170.18" y="129.54" rot="MR0"/>
@@ -5176,7 +5118,6 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <label x="38.1" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="IN+"/>
 <wire x1="149.86" y1="147.32" x2="142.24" y2="147.32" width="0.1524" layer="91"/>
 <label x="142.24" y="147.32" size="1.778" layer="95"/>
 </segment>
@@ -5258,12 +5199,10 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <pinref part="CONN9" gate="CONN$1" pin="P$2"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="IN-"/>
 <wire x1="149.86" y1="142.24" x2="139.7" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="OUT-"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
 <wire x1="175.26" y1="142.24" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
 </segment>
@@ -5290,7 +5229,6 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <pinref part="CONN9" gate="CONN$1" pin="P$1"/>
 <pinref part="CONN7" gate="CONN$1" pin="P$1"/>
 <wire x1="182.88" y1="124.46" x2="160.02" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="OUT+"/>
 <wire x1="175.26" y1="147.32" x2="182.88" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="147.32" x2="182.88" y2="124.46" width="0.1524" layer="91"/>
 <label x="180.34" y="147.32" size="1.778" layer="95" ratio="10"/>

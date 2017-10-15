@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.1">
+<eagle version="8.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9776,27 +9776,27 @@ Drawings &lt;/a&gt;</description>
 </package>
 <package name="BUCK_CONVERTER_5V">
 <description>5V Buck Converter. For PDB. &lt;a href ="https://www.amazon.com/dp/B00GQ032DK/?psc=1"&gt; Product Detail &lt;/a&gt;</description>
-<pad name="IN-" x="1.27" y="31.75" drill="2.032" diameter="3.048"/>
-<pad name="IN+" x="5.08" y="31.75" drill="2.032" diameter="3.048" rot="R90"/>
-<pad name="OUT-" x="-2.54" y="31.75" drill="2.032" diameter="3.048" rot="R90"/>
-<pad name="OUT+" x="-6.35" y="31.75" drill="2.032" diameter="3.048" rot="R90"/>
+<pad name="IN-" x="2.794" y="31.75" drill="2.8" diameter="3.81"/>
+<pad name="IN+" x="9.144" y="31.75" drill="2.8" diameter="3.81" rot="R90"/>
+<pad name="OUT-" x="-3.302" y="31.75" drill="2.8" diameter="3.81" rot="R90"/>
+<pad name="OUT+" x="-9.398" y="31.75" drill="2.8" diameter="3.81" rot="R90"/>
 <hole x="-26.924" y="0" drill="4.4958"/>
 <hole x="26.924" y="0" drill="4.4958"/>
-<wire x1="-8.89" y1="34.29" x2="7.62" y2="34.29" width="0.127" layer="21"/>
+<wire x1="-12.192" y1="34.29" x2="11.938" y2="34.29" width="0.127" layer="21"/>
 <wire x1="31.75" y1="17.78" x2="31.75" y2="-26.67" width="0.127" layer="21"/>
 <wire x1="-31.75" y1="17.78" x2="-31.75" y2="-26.67" width="0.127" layer="21"/>
 <wire x1="-31.75" y1="-26.67" x2="31.75" y2="-26.67" width="0.127" layer="21"/>
 <text x="-3.81" y="-22.86" size="1.778" layer="25" font="vector" rot="R180">Buck Converter 5V</text>
-<text x="-5.08" y="35.56" size="1.778" layer="27" font="vector" ratio="10" rot="R90">OUT+</text>
-<text x="-1.27" y="35.56" size="1.778" layer="27" font="vector" ratio="10" rot="R90">OUT-</text>
-<text x="2.54" y="35.56" size="1.778" layer="27" font="vector" ratio="10" rot="R90">IN-</text>
-<text x="6.35" y="35.56" size="1.778" layer="27" font="vector" ratio="10" rot="R90">IN+</text>
-<wire x1="7.62" y1="34.29" x2="7.62" y2="17.78" width="0.127" layer="21"/>
-<wire x1="7.62" y1="17.78" x2="31.75" y2="17.78" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="34.29" x2="-8.89" y2="17.78" width="0.127" layer="21"/>
-<wire x1="-8.89" y1="17.78" x2="-31.75" y2="17.78" width="0.127" layer="21"/>
+<text x="-9.144" y="35.306" size="1.778" layer="27" font="vector" ratio="10" rot="R90">OUT+</text>
+<text x="-2.794" y="35.306" size="1.778" layer="27" font="vector" ratio="10" rot="R90">OUT-</text>
+<text x="3.556" y="35.306" size="1.778" layer="27" font="vector" ratio="10" rot="R90">IN-</text>
+<text x="9.906" y="35.306" size="1.778" layer="27" font="vector" ratio="10" rot="R90">IN+</text>
+<wire x1="11.938" y1="34.29" x2="11.938" y2="17.78" width="0.127" layer="21"/>
+<wire x1="11.938" y1="17.78" x2="31.75" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-12.192" y1="34.29" x2="-12.192" y2="17.78" width="0.127" layer="21"/>
+<wire x1="-12.192" y1="17.78" x2="-31.75" y2="17.78" width="0.127" layer="21"/>
 <rectangle x1="-31.75" y1="-26.67" x2="31.75" y2="17.78" layer="39"/>
-<rectangle x1="-8.89" y1="17.78" x2="7.62" y2="34.29" layer="39"/>
+<rectangle x1="-12.192" y1="17.78" x2="11.938" y2="34.29" layer="39"/>
 </package>
 <package name="ARDUINO_NANO">
 <description>Footprint for representing an Arduino Nano board in an EAGLE schematic. Created by Dave Young for Element14. More EAGLE documentation at: http://www.element14.com/community/community/knode/cadsoft_eagle</description>
