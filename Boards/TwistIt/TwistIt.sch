@@ -7374,8 +7374,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R6" library="pie" deviceset="R-US_" device="R0603" value="330"/>
 <part name="SUPPLY6" library="pie" deviceset="GND" device=""/>
 <part name="ENCODER" library="pie" deviceset="M04" device="1X04-MTA"/>
-<part name="R7" library="pie" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R8" library="pie" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R7" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R8" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="BR1" library="pie" deviceset="VNH2SP30_MOTOR_CONTROLLER" device=""/>
 </parts>
 <sheets>
