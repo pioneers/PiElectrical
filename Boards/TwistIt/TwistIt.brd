@@ -2248,7 +2248,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="PIE-INT-REF-NUM" value="MTA" x="3.201" y="39.019" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-1.244" y="44.099" size="1.27" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="R7" library="pie" package="R0603" value="1k" x="7.212" y="32.452" smashed="yes" rot="R180">
+<element name="R7" library="pie" package="R0603" value="10k" x="7.212" y="32.452" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="7.212" y="32.452" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="7.212" y="32.452" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="7.212" y="32.452" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2257,9 +2257,9 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="NAME" x="5.323" y="32.548" size="0.75" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTES" value="Cut Tape" x="7.212" y="32.452" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="7.212" y="32.452" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="8.817" y="34.165" size="0.75" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="9.213" y="34.165" size="0.75" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R8" library="pie" package="R0603" value="1k" x="7.224" y="30.573" smashed="yes" rot="R180">
+<element name="R8" library="pie" package="R0603" value="10k" x="7.224" y="30.573" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="7.224" y="30.573" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR" value="DigiKey" x="7.224" y="30.573" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="7.224" y="30.573" size="1.778" layer="27" rot="R180" display="off"/>
