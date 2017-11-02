@@ -727,7 +727,11 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <rectangle x1="-5.08" y1="-1.27" x2="4.699" y2="0.889" layer="40"/>
 </package>
 <package name="R0603">
-<description>&lt;b&gt;Resistor&lt;/b&gt;, 0603 SMD package</description>
+<description>GoTo &lt;b&gt;Resistor&lt;/b&gt;
+
+&lt;p&gt;0603 SMD package&lt;/p&gt;
+
+&lt;p&gt;Typically default surface mount resistor used in PiE&lt;/p&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
 <wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
@@ -840,6 +844,12 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="5.334" y1="29.5656" x2="13.462" y2="29.5656" width="0.127" layer="21"/>
 <wire x1="13.462" y1="29.5656" x2="13.462" y2="33.528" width="0.127" layer="21"/>
 <text x="9.398" y="8.128" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
+<polygon width="0.127" layer="39">
+<vertex x="3.81" y="36.83"/>
+<vertex x="3.81" y="30.48"/>
+<vertex x="15.24" y="30.48"/>
+<vertex x="15.24" y="36.83"/>
+</polygon>
 </package>
 <package name="C&amp;K_SWITCH">
 <description>Layout for a P&amp;K Micro switch.
@@ -1024,7 +1034,13 @@ Drawings &lt;/a&gt;</description>
 <text x="-2.794" y="1.778" size="1.27" layer="21">&gt;NAME</text>
 </package>
 <package name="1X04">
-<description>4-pin 0.1-inch header</description>
+<description>4-pin 0.1-inch header
+
+&lt;br&gt;
+&lt;a href="https://www.pololu.com/product/965/pictures"&gt; Pololu page&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="http://multimedia.3m.com/mws/media/548112O/3mtm-pin-strip-header-ts2181.pdf"&gt; 
+Drawings &lt;/a&gt;</description>
 <pad name="1" x="-3.81" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="2" x="-1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="3" x="1.27" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -1105,10 +1121,10 @@ Drawings &lt;/a&gt;</description>
 <wire x1="1.5" y1="2.5" x2="4" y2="2.5" width="0.127" layer="21"/>
 <wire x1="4" y1="2.5" x2="6.5" y2="0" width="0.127" layer="21" curve="-90"/>
 <wire x1="6.5" y1="0" x2="4" y2="-2.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="-7.2" y1="3" x2="-6" y2="3" width="0.127" layer="21"/>
+<wire x1="-7" y1="3" x2="-6" y2="3" width="0.127" layer="21"/>
 <wire x1="-6" y1="3" x2="6" y2="3" width="0.127" layer="21"/>
-<wire x1="-7.2" y1="3" x2="-7.2" y2="-3" width="0.127" layer="21"/>
-<wire x1="-7.2" y1="-3" x2="7" y2="-3" width="0.127" layer="21"/>
+<wire x1="-7" y1="3" x2="-7" y2="-3" width="0.127" layer="21"/>
+<wire x1="-7" y1="-3" x2="7" y2="-3" width="0.127" layer="21"/>
 <wire x1="6" y1="3" x2="6" y2="4" width="0.127" layer="21"/>
 <wire x1="6" y1="4" x2="-6" y2="4" width="0.127" layer="21"/>
 <wire x1="-6" y1="4" x2="-6" y2="3" width="0.127" layer="21"/>
@@ -1117,10 +1133,13 @@ Drawings &lt;/a&gt;</description>
 <wire x1="7" y1="3" x2="7" y2="-1" width="0.127" layer="21"/>
 <wire x1="7" y1="-1" x2="7" y2="-3" width="0.127" layer="21"/>
 <wire x1="7" y1="3" x2="7" y2="3.5" width="0.127" layer="21"/>
-<wire x1="7" y1="3.5" x2="11.3" y2="3.5" width="0.127" layer="21"/>
-<wire x1="11.3" y1="3.5" x2="11.3" y2="-1" width="0.127" layer="21"/>
-<wire x1="11.3" y1="-1" x2="7" y2="-1" width="0.127" layer="21"/>
-<text x="-2.54" y="-5.08" size="1.27" layer="21">&gt;NAME</text>
+<wire x1="7" y1="3.5" x2="11.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="11.5" y1="3.5" x2="11.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="11.5" y1="-1" x2="7" y2="-1" width="0.127" layer="21"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="-2.54" width="0.127" layer="41"/>
+<wire x1="1.27" y1="-2.54" x2="6.35" y2="-2.54" width="0.127" layer="41"/>
+<wire x1="6.35" y1="-2.54" x2="6.35" y2="2.54" width="0.127" layer="41"/>
+<wire x1="6.35" y1="2.54" x2="1.27" y2="2.54" width="0.127" layer="41"/>
 </package>
 <package name="BUCK_CONVERTER_5V">
 <description>5V Buck Converter. For PDB. &lt;a href ="https://www.amazon.com/dp/B00GQ032DK/?psc=1"&gt; Product Detail &lt;/a&gt;</description>
@@ -1148,11 +1167,11 @@ Drawings &lt;/a&gt;</description>
 </package>
 </packages>
 </library>
-<library name="jumper">
+<library name="jumper" urn="urn:adsk.eagle:library:252">
 <description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="JP1">
+<package name="JP1" urn="urn:adsk.eagle:footprint:15398/1" library_version="1">
 <description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
 <wire x1="-1.016" y1="0" x2="-1.27" y2="0.254" width="0.1524" layer="21"/>
 <wire x1="-1.016" y1="0" x2="-1.27" y2="-0.254" width="0.1524" layer="21"/>
@@ -1176,6 +1195,11 @@ Drawings &lt;/a&gt;</description>
 <rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="JP1" urn="urn:adsk.eagle:package:15455/1" type="box" library_version="1">
+<description>JUMPER</description>
+</package3d>
+</packages3d>
 </library>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
@@ -2479,35 +2503,71 @@ Uses 2oz copper.  (min trace 0.008&quot;), with an extra 0.002&quot; for saftey<
 <attribute name="PIE_DIGIKEY-PN" value="455-2249-ND" x="71.882" y="104.648" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="15.875" y="94.488" size="1.27" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="R2" library="pie" package="R0603" value="10k" x="16.51" y="57.15" smashed="yes" rot="R90">
+<element name="R2" library="pie" package="R0603" value="&gt;VALUE" x="16.51" y="57.15" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="16.51" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="16.51" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="16.51" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="16.51" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="16.51" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="15.24" y="54.102" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="16.51" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="15.24" y="56.642" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="NOTES" value="Cut Tape" x="16.51" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="16.51" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="15.24" y="56.642" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R3" library="pie" package="R0603" value="30k" x="11.43" y="57.15" smashed="yes" rot="R90">
+<element name="R3" library="pie" package="R0603" value="&gt;VALUE" x="11.43" y="57.15" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="11.43" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="11.43" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="11.43" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="11.43" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="11.43" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="9.652" y="54.102" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="11.43" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="9.652" y="56.642" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="NOTES" value="Cut Tape" x="11.43" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="11.43" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="9.652" y="56.642" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R4" library="pie" package="R0603" value="51k" x="6.35" y="57.15" smashed="yes" rot="R90">
+<element name="R4" library="pie" package="R0603" value="&gt;VALUE" x="6.35" y="57.15" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="6.35" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="6.35" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="6.35" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="6.35" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="6.35" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="4.318" y="54.102" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="6.35" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="4.318" y="56.642" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="NOTES" value="Cut Tape" x="6.35" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="6.35" y="57.15" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="4.318" y="56.642" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R5" library="pie" package="R0603" value="10k" x="16.51" y="53.34" smashed="yes" rot="R90">
+<element name="R5" library="pie" package="R0603" value="&gt;VALUE" x="16.51" y="53.34" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="16.51" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="16.51" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="16.51" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="16.51" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="16.51" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="15.24" y="47.498" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="16.51" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="15.24" y="50.292" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="NOTES" value="Cut Tape" x="16.51" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="16.51" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="15.24" y="50.292" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R6" library="pie" package="R0603" value="10k" x="11.43" y="53.34" smashed="yes" rot="R90">
+<element name="R6" library="pie" package="R0603" value="&gt;VALUE" x="11.43" y="53.34" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="11.43" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="11.43" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="11.43" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="11.43" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="11.43" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="9.652" y="47.498" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="11.43" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="9.652" y="50.292" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="NOTES" value="Cut Tape" x="11.43" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="11.43" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="9.652" y="50.292" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R7" library="pie" package="R0603" value="10k" x="6.35" y="53.34" smashed="yes" rot="R90">
+<element name="R7" library="pie" package="R0603" value="&gt;VALUE" x="6.35" y="53.34" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="6.35" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="6.35" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="6.35" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="6.35" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="6.35" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="4.318" y="47.498" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="6.35" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="4.318" y="50.038" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="NOTES" value="Cut Tape" x="6.35" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="6.35" y="53.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="4.318" y="50.038" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="LS1" library="pie" package="BUZZER_MAGNETIC_5V_12MM_RADIAL" value="BUZZER" x="9.652" y="94.234" smashed="yes" rot="R270">
 <attribute name="NAME" x="4.953" y="89.027" size="1.27" layer="21" font="vector" ratio="10" rot="R270"/>
@@ -2515,20 +2575,38 @@ Uses 2oz copper.  (min trace 0.008&quot;), with an extra 0.002&quot; for saftey<
 <attribute name="PIE_DIGIKEY-PN" value="102-1269-ND" x="-20.828" y="127.254" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="2.159" y="92.329" size="1.27" layer="21" font="vector" rot="R270"/>
 </element>
-<element name="R9" library="pie" package="R0603" value="1k" x="4.064" y="71.628" smashed="yes" rot="R90">
+<element name="R9" library="pie" package="R0603" value="&gt;VALUE" x="4.064" y="71.628" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="4.064" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="4.064" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="4.064" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="4.064" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="4.064" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="3.048" y="72.39" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="4.064" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="3.048" y="69.088" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="NOTES" value="Cut Tape" x="4.064" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="4.064" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="3.048" y="69.088" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R10" library="pie" package="R0603" value="100k" x="9.398" y="71.374" smashed="yes" rot="R270">
+<element name="R10" library="pie" package="R0603" value="&gt;VALUE" x="9.398" y="71.374" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="9.398" y="71.374" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="9.398" y="71.374" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="9.398" y="71.374" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="9.398" y="71.374" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="9.398" y="71.374" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="8.89" y="76.962" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="9.398" y="71.374" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="10.414" y="77.216" size="1.27" layer="27" font="vector" rot="R270"/>
+<attribute name="NOTES" value="Cut Tape" x="9.398" y="71.374" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="9.398" y="71.374" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="10.414" y="77.216" size="1.27" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="R11" library="pie" package="R0603" value="130" x="5.588" y="65.786" smashed="yes" rot="R270">
+<element name="R11" library="pie" package="R0603" value="&gt;VALUE" x="5.588" y="65.786" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="5.588" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="5.588" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="5.588" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="5.588" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="5.588" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="6.858" y="67.31" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="5.588" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="3.048" y="67.31" size="1.27" layer="27" font="vector" rot="R270"/>
+<attribute name="NOTES" value="Cut Tape" x="5.588" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="5.588" y="65.786" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="3.048" y="67.31" size="1.27" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="LED1" library="pie" package="LED-0805" value="RED" x="11.938" y="65.532" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.462" y="67.945" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
@@ -2557,15 +2635,27 @@ Uses 2oz copper.  (min trace 0.008&quot;), with an extra 0.002&quot; for saftey<
 <attribute name="NAME" x="28.956" y="46.101" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="37.846" y="50.673" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="R1" library="pie" package="R0603" value="10k" x="7.62" y="82.55" smashed="yes" rot="R90">
+<element name="R1" library="pie" package="R0603" value="&gt;VALUE" x="7.62" y="82.55" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="7.62" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="7.62" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="7.62" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="7.62" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="7.62" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="6.604" y="82.296" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="7.62" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="10.16" y="80.01" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="NOTES" value="Cut Tape" x="7.62" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="7.62" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="10.16" y="80.01" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R8" library="pie" package="R0603" value="10k" x="34.036" y="47.752" smashed="yes" rot="R270">
+<element name="R8" library="pie" package="R0603" value="&gt;VALUE" x="34.036" y="47.752" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="34.036" y="47.752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="34.036" y="47.752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="34.036" y="47.752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="34.036" y="47.752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="34.036" y="47.752" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="35.306" y="46.736" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="34.036" y="47.752" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="35.306" y="45.212" size="1.27" layer="27" font="vector"/>
+<attribute name="NOTES" value="Cut Tape" x="34.036" y="47.752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="34.036" y="47.752" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="35.306" y="45.212" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="Q1" library="pie" package="SOT23-3" value="NMOS" x="5.334" y="77.724" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.429" y="75.692" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
@@ -2582,30 +2672,60 @@ Uses 2oz copper.  (min trace 0.008&quot;), with an extra 0.002&quot; for saftey<
 <attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" x="38.1" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" x="38.1" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R13" library="pie" package="R0603" value="330" x="26.67" y="20.32" smashed="yes" rot="R90">
+<element name="R13" library="pie" package="R0603" value="&gt;VALUE" x="26.67" y="20.32" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="26.67" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="26.67" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="26.67" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="26.67" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="26.67" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="37.084" y="15.748" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="26.67" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="37.084" y="20.066" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="NOTES" value="Cut Tape" x="26.67" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="26.67" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="37.084" y="20.066" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R14" library="pie" package="R0603" value="330" x="24.13" y="20.32" smashed="yes" rot="R90">
+<element name="R14" library="pie" package="R0603" value="&gt;VALUE" x="24.13" y="20.32" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="24.13" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="24.13" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="24.13" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="24.13" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="24.13" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="35.052" y="15.748" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="24.13" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="35.052" y="20.066" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="NOTES" value="Cut Tape" x="24.13" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="24.13" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="35.052" y="20.066" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R12" library="pie" package="R0603" value="330" x="29.21" y="20.32" smashed="yes" rot="R90">
+<element name="R12" library="pie" package="R0603" value="&gt;VALUE" x="29.21" y="20.32" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="39.116" y="15.748" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="39.116" y="20.066" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="NOTES" value="Cut Tape" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="29.21" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="39.116" y="20.066" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R15" library="pie" package="R0603" value="330" x="21.59" y="20.32" smashed="yes" rot="R90">
+<element name="R15" library="pie" package="R0603" value="&gt;VALUE" x="21.59" y="20.32" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="21.59" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="21.59" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="21.59" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="21.59" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="21.59" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="33.02" y="15.748" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="21.59" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="33.02" y="20.066" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="NOTES" value="Cut Tape" x="21.59" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="21.59" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="33.02" y="20.066" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R16" library="pie" package="R0603" value="10k" x="9.906" y="20.574" smashed="yes" rot="R90">
+<element name="R16" library="pie" package="R0603" value="&gt;VALUE" x="9.906" y="20.574" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="9.906" y="20.574" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="9.906" y="20.574" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="9.906" y="20.574" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="9.906" y="20.574" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="9.906" y="20.574" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="11.43" y="20.828" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="9.906" y="20.574" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="11.43" y="19.05" size="1.27" layer="27" font="vector"/>
+<attribute name="NOTES" value="Cut Tape" x="9.906" y="20.574" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="9.906" y="20.574" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="11.43" y="19.05" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="S1" library="pie" package="C&amp;K_SWITCH" value="DPST_SWITCH" x="44.958" y="46.99" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.522" y="53.328" size="2.032" layer="21" font="vector" rot="R180"/>
@@ -2629,12 +2749,18 @@ Uses 2oz copper.  (min trace 0.008&quot;), with an extra 0.002&quot; for saftey<
 <attribute name="NOTES" value="" x="4.064" y="20.574" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="JP" x="4.064" y="20.574" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R17" library="pie" package="R0603" value="3k" x="28.448" y="84.582" smashed="yes" rot="R90">
+<element name="R17" library="pie" package="R0603" value="&gt;VALUE" x="28.448" y="84.582" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="28.448" y="84.582" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="28.448" y="84.582" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="28.448" y="84.582" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="28.448" y="84.582" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="28.448" y="84.582" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="30.734" y="81.026" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PIE-INT-REF-NUM" value="RESISTOR-GENERIC" x="28.448" y="84.582" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="30.734" y="84.836" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="NOTES" value="Cut Tape" x="28.448" y="84.582" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="28.448" y="84.582" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="&gt;VALUE" x="30.734" y="84.836" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="JP7" library="jumper" package="JP1" value="" x="21.082" y="70.358" smashed="yes">
+<element name="JP7" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="21.082" y="70.358" smashed="yes">
 <attribute name="NAME" x="21.463" y="74.168" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="24.003" y="67.818" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -2647,8 +2773,8 @@ Uses 2oz copper.  (min trace 0.008&quot;), with an extra 0.002&quot; for saftey<
 <element name="CONN8" library="pie" package="ATX" value="ATX" x="96.012" y="96.266"/>
 <element name="CONN9" library="pie" package="ATX" value="ATX" x="76.708" y="96.266"/>
 <element name="CONN10" library="pie" package="ATX" value="ATX" x="115.062" y="96.012"/>
-<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E5-5" package3d_urn="urn:adsk.eagle:package:23367/1" value="1uF" x="151.384" y="21.59" rot="R90"/>
-<element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E5-5" package3d_urn="urn:adsk.eagle:package:23367/1" value="10uF" x="139.446" y="21.59" rot="R90"/>
+<element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E5-5" package3d_urn="urn:adsk.eagle:package:23367/1" value="1uF" x="121.412" y="81.788"/>
+<element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="E5-5" package3d_urn="urn:adsk.eagle:package:23367/1" value="10uF" x="121.412" y="87.376"/>
 <element name="U$1" library="pie" package="BUCK_CONVERTER_5V" value="BUCK_CONVERTER_5V" x="154.686" y="66.548" rot="R90"/>
 </elements>
 <signals>
@@ -2869,11 +2995,6 @@ Uses 2oz copper.  (min trace 0.008&quot;), with an extra 0.002&quot; for saftey<
 <contactref element="C1" pad="+"/>
 <contactref element="C2" pad="+"/>
 <contactref element="U$1" pad="OUT+"/>
-<wire x1="139.446" y1="19.05" x2="135.636" y2="19.05" width="2.54" layer="1"/>
-<wire x1="135.636" y1="19.05" x2="123.444" y2="31.242" width="2.54" layer="1"/>
-<wire x1="123.444" y1="31.242" x2="123.444" y2="56.642" width="2.54" layer="1"/>
-<wire x1="123.444" y1="56.642" x2="122.936" y2="57.15" width="1.27" layer="1"/>
-<wire x1="151.384" y1="19.05" x2="139.446" y2="19.05" width="2.54" layer="1"/>
 </signal>
 <signal name="IO1">
 <contactref element="R3" pad="1"/>

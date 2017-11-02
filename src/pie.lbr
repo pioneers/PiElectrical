@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10910,6 +10911,10 @@ Source: http://pdf1.alldatasheet.com/datasheet-pdf/view/84563/STMICROELECTRONICS
 <wire x1="7" y1="3.5" x2="11.5" y2="3.5" width="0.127" layer="21"/>
 <wire x1="11.5" y1="3.5" x2="11.5" y2="-1" width="0.127" layer="21"/>
 <wire x1="11.5" y1="-1" x2="7" y2="-1" width="0.127" layer="21"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="-2.54" width="0.127" layer="41"/>
+<wire x1="1.27" y1="-2.54" x2="6.35" y2="-2.54" width="0.127" layer="41"/>
+<wire x1="6.35" y1="-2.54" x2="6.35" y2="2.54" width="0.127" layer="41"/>
+<wire x1="6.35" y1="2.54" x2="1.27" y2="2.54" width="0.127" layer="41"/>
 </package>
 <package name="VNH2SP30_MOTOR_CONTROLLER">
 <description>&lt;b&gt; VNH2SP30 &lt;/b&gt; MOTOR CONTROLLER</description>
