@@ -583,8 +583,8 @@ Standard 8.5x11 US Letter frame</description>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="pie" deviceset="GND" device=""/>
 <part name="FRAME1" library="pie" deviceset="FRAME_SCHEMATIC" device="">
-<attribute name="AUTHOR" value="Seiya Ono"/>
-<attribute name="REVISION" value="10B"/>
+<attribute name="AUTHOR" value="Seiya O, Margo O, Averal K"/>
+<attribute name="REVISION" value="PROD"/>
 </part>
 </parts>
 <sheets>

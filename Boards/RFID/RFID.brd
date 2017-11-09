@@ -149,11 +149,10 @@
 <wire x1="26.015" y1="49.53" x2="0" y2="49.53" width="0" layer="20"/>
 <wire x1="0" y1="49.53" x2="0" y2="0" width="0" layer="20"/>
 <text x="20.828" y="8.128" size="0.762" layer="26" font="vector" rot="MR90">(c) Pioneers In Engineering
-Design by: Mohammed, Seiya, Averal, Ellen, 
-Catherine, Nick, Jillian, Lingfei, Ezra, Malcolm
+Design by: Seiya O, Averal K, Margo O
 </text>
 <text x="12.7" y="45.72" size="1.27" layer="21" font="vector" ratio="15" align="center">RFID
-Rev 10B</text>
+Prod</text>
 <text x="14.478" y="8.128" size="0.762" layer="26" font="vector" rot="MR90">This design is open source hardware.
 For more information, visit:
 pioneers.berkeley.edu/opensource</text>

@@ -157,14 +157,14 @@
 <text x="30.988" y="16.002" size="0.762" layer="25" font="vector" rot="R90">SIG</text>
 <text x="30.988" y="7.874" size="0.762" layer="25" font="vector" rot="R90">SIG</text>
 <text x="6.858" y="1.27" size="1.27" layer="26" font="vector" rot="MR90">(c) Pioneers In Engineering
-Design by: Seiya Ono, Catherine Kim
+Design by: Seiya O,  Averal K
 This design is open source hardware.
 For more information, visit
 pioneers.berkeley.edu/opensource</text>
 <text x="22.098" y="21.59" size="0.762" layer="25" font="vector" rot="R270">SERVO 1</text>
 <text x="22.098" y="12.7" size="0.762" layer="25" font="vector" rot="R270">SERVO 0</text>
 <text x="13.97" y="48.768" size="1.27" layer="21" font="vector" ratio="15" align="center">Servo Controller
-Rev 10B</text>
+Prod</text>
 </plain>
 <libraries>
 <library name="pie">
