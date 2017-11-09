@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.1">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -22,11 +22,11 @@
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
@@ -154,8 +154,7 @@
 <text x="17.9" y="0.752" size="0.762" layer="25" font="vector" rot="R180" align="center">P3</text>
 <text x="12.82" y="0.752" size="0.762" layer="25" font="vector" rot="R180" align="center">GND</text>
 <text x="24.638" y="10.922" size="0.99" layer="26" font="vector" rot="MR90" align="top-left">(c) Pioneers In Engineering
-Design by: Mohammed Hossain, Seiya Ono
-Jillian Heng, Averal Kandala
+Design by: Seiya O, Averal K, Margo O
 This design is open source hardware.
 For more information, visit
 pioneers.berkeley.edu/opensource</text>
@@ -168,7 +167,7 @@ pioneers.berkeley.edu/opensource</text>
 <wire x1="0.427" y1="27.929" x2="0.427" y2="29.929" width="0.1" layer="21"/>
 <wire x1="0.427" y1="29.929" x2="3.724" y2="29.924" width="0.1" layer="21"/>
 <text x="19.63" y="50.53" size="1.778" layer="21" font="vector" ratio="15" align="center">TwistIt!
-Rev 10B</text>
+Prod</text>
 <text x="7.223" y="43.588" size="0.6096" layer="25" font="vector" rot="SR270">Vcc</text>
 <text x="7.143" y="40.971" size="0.6096" layer="25" font="vector" rot="SR270">GND</text>
 <text x="7.223" y="38.019" size="0.6096" layer="25" font="vector" rot="SR270">A</text>
