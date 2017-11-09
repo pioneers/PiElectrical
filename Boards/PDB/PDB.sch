@@ -13832,8 +13832,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </classes>
 <parts>
 <part name="FRAME1" library="pie" deviceset="FRAME_SCHEMATIC" device="">
-<attribute name="AUTHOR" value="Mohammed H., Sharabesh R., Tobin H."/>
-<attribute name="REVISION" value="10C"/>
+<attribute name="AUTHOR" value="Tobin H, Nick W, Adilet P"/>
+<attribute name="REVISION" value="PROD"/>
 </part>
 <part name="XT60" library="pie" deviceset="XT60CONNECTOR" device=""/>
 <part name="CONN2" library="pie" deviceset="ANDERSON" device="VERTICAL" value="ANDERSONVERTICAL"/>
@@ -13857,45 +13857,45 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="SUPPLY12" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="pie" deviceset="GND" device=""/>
 <part name="FRAME2" library="pie" deviceset="FRAME_SCHEMATIC" device="">
-<attribute name="AUTHOR" value="Casey D, Douglas H, Mohammed H, Tobin H"/>
-<attribute name="REVISION" value="10C"/>
+<attribute name="AUTHOR" value="Casey D, Douglas H, Nick W, Tobin H"/>
+<attribute name="REVISION" value="PROD"/>
 </part>
 <part name="JP1" library="pie" deviceset="XH_CONNECTOR_4POS" device="" value="XH_CONN"/>
-<part name="R2" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R3" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R4" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R5" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R6" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R7" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R2" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R3" library="pie" deviceset="R-US_" device="R0603" value="30k"/>
+<part name="R4" library="pie" deviceset="R-US_" device="R0603" value="51k"/>
+<part name="R5" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R6" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R7" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY14" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="pie" deviceset="GND" device=""/>
 <part name="LS1" library="pie" deviceset="BUZZER" device="" value="BUZZER"/>
-<part name="R9" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R10" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R9" library="pie" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R10" library="pie" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="U$12" library="pie" deviceset="5V" device=""/>
 <part name="SUPPLY17" library="pie" deviceset="GND" device=""/>
-<part name="R11" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R11" library="pie" deviceset="R-US_" device="R0603" value="130"/>
 <part name="LED1" library="pie" deviceset="LED" device="0805" value="RED"/>
 <part name="SUPPLY18" library="pie" deviceset="GND" device=""/>
 <part name="Q5" library="pie" deviceset="P-CHANNEL-MOSFET" device="SOT23-3" value="PMOS"/>
 <part name="Q4" library="pie" deviceset="P-CHANNEL-MOSFET" device="SOT23-3" value="PMOS"/>
 <part name="Q3" library="pie" deviceset="P-CHANNEL-MOSFET" device="SOT23-3" value="PMOS"/>
 <part name="Q2" library="pie" deviceset="N-CHANNEL-MOSFET" device="SOT23-3" value="IRFML8244"/>
-<part name="R1" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R1" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY19" library="pie" deviceset="GND" device=""/>
-<part name="R8" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R8" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY20" library="pie" deviceset="GND" device=""/>
 <part name="Q1" library="pie" deviceset="N-CHANNEL-MOSFET" device="SOT23-3" value="NMOS"/>
 <part name="UC1" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
 <part name="SUPPLY21" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="pie" deviceset="GND" device=""/>
-<part name="R13" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R14" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R12" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
-<part name="R15" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R13" library="pie" deviceset="R-US_" device="R0603" value="330"/>
+<part name="R14" library="pie" deviceset="R-US_" device="R0603" value="330"/>
+<part name="R12" library="pie" deviceset="R-US_" device="R0603" value="330"/>
+<part name="R15" library="pie" deviceset="R-US_" device="R0603" value="330"/>
 <part name="U$9" library="pie" deviceset="5V" device=""/>
-<part name="R16" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R16" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY23" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="pie" deviceset="GND" device=""/>
 <part name="S1" library="pie" deviceset="DPST_SWITCH" device=""/>
@@ -13905,7 +13905,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="CALIB_JUMPER" library="pie" deviceset="JUMPER" device=""/>
 <part name="SUPPLY26" library="pie" deviceset="GND" device=""/>
 <part name="APM_5V1" library="pie" deviceset="5V" device=""/>
-<part name="R17" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="R17" library="pie" deviceset="R-US_" device="R0603" value="3k"/>
 <part name="JP7" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 <part name="SUPPLY27" library="pie" deviceset="GND" device=""/>
 <part name="JP3" library="pie" deviceset="M04" device="PTH"/>
