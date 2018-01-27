@@ -2521,18 +2521,18 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <rectangle x1="-2.413" y1="-1.905" x2="2.413" y2="1.905" layer="39"/>
 </package>
 <package name="TRI-LED">
-<pad name="G" x="-1.27" y="0" drill="1" diameter="2.1844" shape="octagon"/>
-<pad name="B" x="1.27" y="0" drill="1" diameter="2.1844" shape="octagon"/>
-<pad name="CAT" x="3.81" y="0" drill="1" diameter="2.1844" shape="octagon"/>
+<pad name="GND" x="-1.27" y="0" drill="1" diameter="2.1844" shape="octagon"/>
+<pad name="G" x="1.27" y="0" drill="1" diameter="2.1844" shape="octagon"/>
+<pad name="B" x="3.81" y="0" drill="1" diameter="2.1844" shape="octagon"/>
 <pad name="R" x="-3.81" y="0" drill="1" diameter="2.1844" shape="octagon"/>
 <wire x1="-5.08" y1="1.27" x2="-5.08" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="-1.27" x2="5.08" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-1.27" x2="5.08" y2="1.27" width="0.127" layer="21"/>
 <wire x1="5.08" y1="1.27" x2="-5.08" y2="1.27" width="0.127" layer="21"/>
 <text x="-3.81" y="1.905" size="0.6096" layer="21" font="vector">R</text>
-<text x="-1.27" y="1.905" size="0.6096" layer="21" font="vector">G\</text>
-<text x="1.27" y="1.905" size="0.6096" layer="21" font="vector">B</text>
-<text x="3.175" y="1.905" size="0.6096" layer="21" font="vector">GND</text>
+<text x="1.27" y="1.905" size="0.6096" layer="21" font="vector">G\</text>
+<text x="3.81" y="1.905" size="0.6096" layer="21" font="vector">B</text>
+<text x="-1.905" y="1.905" size="0.6096" layer="21" font="vector">GND</text>
 </package>
 </packages>
 <symbols>
@@ -4094,7 +4094,7 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <device name="" package="TRI-LED">
 <connects>
 <connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="CAT" pad="CAT"/>
+<connect gate="G$1" pin="CAT" pad="GND"/>
 <connect gate="G$1" pin="G" pad="G"/>
 <connect gate="G$1" pin="R" pad="R"/>
 </connects>
@@ -4159,16 +4159,42 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <part name="SUPPLY12" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="pie" deviceset="GND" device=""/>
+<part name="R12" library="pie" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R13" library="pie" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R14" library="pie" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R15" library="pie" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="R16" library="pie" deviceset="R-US_" device="R0603" value="1k"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="114.3" y="175.26" size="1.778" layer="94">1</text>
-<text x="160.02" y="175.26" size="1.778" layer="95">2</text>
-<text x="200.66" y="175.26" size="1.778" layer="95">3</text>
-<text x="132.08" y="142.24" size="1.778" layer="95">4</text>
-<text x="177.8" y="142.24" size="1.778" layer="95">5</text>
-<text x="96.52" y="88.9" size="1.778" layer="95">SUBMIT</text>
+<text x="111.76" y="180.34" size="1.778" layer="94">1</text>
+<text x="157.48" y="180.34" size="1.778" layer="94">2</text>
+<text x="198.12" y="180.34" size="1.778" layer="94">3</text>
+<text x="132.08" y="147.32" size="1.778" layer="94">4</text>
+<text x="175.26" y="147.32" size="1.778" layer="94">5</text>
+<text x="121.92" y="109.22" size="1.778" layer="94">SUBMIT</text>
+<wire x1="106.68" y1="185.42" x2="106.68" y2="152.4" width="0.254" layer="94"/>
+<wire x1="106.68" y1="152.4" x2="106.68" y2="114.3" width="0.254" layer="94"/>
+<wire x1="106.68" y1="114.3" x2="152.4" y2="114.3" width="0.254" layer="94"/>
+<wire x1="152.4" y1="114.3" x2="170.18" y2="114.3" width="0.254" layer="94"/>
+<wire x1="170.18" y1="114.3" x2="248.92" y2="114.3" width="0.254" layer="94"/>
+<wire x1="106.68" y1="114.3" x2="106.68" y2="76.2" width="0.254" layer="94"/>
+<wire x1="106.68" y1="76.2" x2="106.68" y2="55.88" width="0.254" layer="94"/>
+<wire x1="106.68" y1="55.88" x2="106.68" y2="35.56" width="0.254" layer="94"/>
+<wire x1="106.68" y1="35.56" x2="152.4" y2="35.56" width="0.254" layer="94"/>
+<wire x1="152.4" y1="35.56" x2="152.4" y2="76.2" width="0.254" layer="94"/>
+<wire x1="152.4" y1="76.2" x2="152.4" y2="114.3" width="0.254" layer="94"/>
+<wire x1="0" y1="55.88" x2="106.68" y2="55.88" width="0.254" layer="94"/>
+<wire x1="106.68" y1="76.2" x2="152.4" y2="76.2" width="0.254" layer="94"/>
+<wire x1="106.68" y1="152.4" x2="152.4" y2="152.4" width="0.00508125" layer="94"/>
+<wire x1="152.4" y1="152.4" x2="170.18" y2="152.4" width="0.00508125" layer="94"/>
+<wire x1="170.18" y1="152.4" x2="195.58" y2="152.4" width="0.00508125" layer="94"/>
+<wire x1="195.58" y1="152.4" x2="248.92" y2="152.4" width="0.00508125" layer="94"/>
+<wire x1="195.58" y1="152.4" x2="195.58" y2="185.42" width="0.00508125" layer="94"/>
+<wire x1="152.4" y1="152.4" x2="152.4" y2="185.42" width="0.00508125" layer="94"/>
+<wire x1="170.18" y1="152.4" x2="170.18" y2="114.3" width="0.00508125" layer="94"/>
+<text x="121.92" y="71.12" size="1.778" layer="94">TOGGLE</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0">
@@ -4177,19 +4203,19 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 </instance>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
 <instance part="U$1" gate="G$1" x="50.8" y="137.16"/>
-<instance part="LED1" gate="G$1" x="195.58" y="60.96"/>
+<instance part="LED1" gate="G$1" x="200.66" y="68.58"/>
 <instance part="R1" gate="G$1" x="114.3" y="165.1" rot="R270"/>
 <instance part="R2" gate="G$1" x="160.02" y="165.1" rot="R270"/>
 <instance part="R3" gate="G$1" x="200.66" y="165.1" rot="R270"/>
 <instance part="R4" gate="G$1" x="132.08" y="132.08" rot="R270"/>
 <instance part="R5" gate="G$1" x="177.8" y="132.08" rot="R270"/>
-<instance part="R6" gate="G$1" x="99.06" y="78.74" rot="R270"/>
-<instance part="R7" gate="G$1" x="99.06" y="40.64" rot="R270"/>
-<instance part="R8" gate="G$1" x="165.1" y="93.98" smashed="yes" rot="R90"/>
-<instance part="R9" gate="G$1" x="167.64" y="93.98" smashed="yes" rot="R90"/>
-<instance part="R10" gate="G$1" x="170.18" y="93.98" smashed="yes" rot="R90"/>
-<instance part="R11" gate="G$1" x="172.72" y="93.98" smashed="yes" rot="R90">
-<attribute name="VALUE" x="162.56" y="95.25" size="1.778" layer="96" rot="R180"/>
+<instance part="R6" gate="G$1" x="121.92" y="93.98" rot="R270"/>
+<instance part="R7" gate="G$1" x="134.62" y="58.42" rot="R270"/>
+<instance part="R8" gate="G$1" x="170.18" y="101.6" smashed="yes" rot="R90"/>
+<instance part="R9" gate="G$1" x="172.72" y="101.6" smashed="yes" rot="R90"/>
+<instance part="R10" gate="G$1" x="175.26" y="101.6" smashed="yes" rot="R90"/>
+<instance part="R11" gate="G$1" x="177.8" y="101.6" smashed="yes" rot="R90">
+<attribute name="VALUE" x="167.64" y="102.87" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="30.48" y="63.5"/>
 <instance part="SUPPLY2" gate="GND" x="114.3" y="157.48"/>
@@ -4197,22 +4223,27 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <instance part="SUPPLY4" gate="GND" x="160.02" y="157.48"/>
 <instance part="SUPPLY5" gate="GND" x="200.66" y="157.48"/>
 <instance part="SUPPLY6" gate="GND" x="177.8" y="124.46"/>
-<instance part="SUPPLY7" gate="GND" x="99.06" y="71.12"/>
-<instance part="SUPPLY8" gate="GND" x="99.06" y="33.02"/>
-<instance part="SUPPLY9" gate="GND" x="81.28" y="45.72"/>
-<instance part="SUPPLY10" gate="GND" x="142.24" y="165.1"/>
+<instance part="SUPPLY7" gate="GND" x="121.92" y="86.36"/>
+<instance part="SUPPLY8" gate="GND" x="134.62" y="50.8"/>
+<instance part="SUPPLY9" gate="GND" x="116.84" y="63.5"/>
+<instance part="SUPPLY10" gate="GND" x="144.78" y="157.48"/>
 <instance part="SUPPLY15" gate="GND" x="5.08" y="147.32"/>
 <instance part="SUPPLY16" gate="GND" x="101.6" y="162.56"/>
 <instance part="SUPPLY17" gate="GND" x="30.48" y="104.14" rot="R180"/>
-<instance part="U$2" gate="G$1" x="129.54" y="167.64"/>
-<instance part="U$3" gate="G$1" x="215.9" y="167.64"/>
-<instance part="U$4" gate="G$1" x="147.32" y="134.62"/>
-<instance part="U$5" gate="G$1" x="193.04" y="134.62"/>
-<instance part="U$6" gate="G$1" x="172.72" y="167.64"/>
-<instance part="SUPPLY11" gate="GND" x="185.42" y="165.1"/>
-<instance part="SUPPLY12" gate="GND" x="228.6" y="165.1"/>
-<instance part="SUPPLY13" gate="GND" x="205.74" y="132.08"/>
-<instance part="SUPPLY14" gate="GND" x="160.02" y="132.08"/>
+<instance part="U$2" gate="G$1" x="129.54" y="170.18"/>
+<instance part="U$3" gate="G$1" x="215.9" y="170.18"/>
+<instance part="U$4" gate="G$1" x="147.32" y="137.16"/>
+<instance part="U$5" gate="G$1" x="193.04" y="137.16"/>
+<instance part="U$6" gate="G$1" x="172.72" y="170.18"/>
+<instance part="SUPPLY11" gate="GND" x="187.96" y="157.48"/>
+<instance part="SUPPLY12" gate="GND" x="231.14" y="157.48"/>
+<instance part="SUPPLY13" gate="GND" x="208.28" y="124.46"/>
+<instance part="SUPPLY14" gate="GND" x="162.56" y="124.46"/>
+<instance part="R12" gate="G$1" x="144.78" y="165.1" rot="R90"/>
+<instance part="R13" gate="G$1" x="187.96" y="165.1" rot="R90"/>
+<instance part="R14" gate="G$1" x="231.14" y="165.1" rot="R90"/>
+<instance part="R15" gate="G$1" x="162.56" y="132.08" rot="R90"/>
+<instance part="R16" gate="G$1" x="208.28" y="132.08" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -4296,24 +4327,24 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="CAT"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="CAT"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="CAT"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="CAT"/>
-<pinref part="SUPPLY13" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U$4" gate="G$1" pin="CAT"/>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="SUPPLY13" gate="GND" pin="GND"/>
+<pinref part="R16" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="28" class="0">
@@ -4322,8 +4353,9 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <wire x1="63.5" y1="99.06" x2="63.5" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="R"/>
-<wire x1="124.46" y1="175.26" x2="121.92" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="B"/>
+<wire x1="187.96" y1="129.54" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
+<label x="185.42" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="30" class="0">
@@ -4332,8 +4364,9 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <wire x1="60.96" y1="99.06" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="B"/>
-<wire x1="124.46" y1="160.02" x2="121.92" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="G"/>
+<wire x1="187.96" y1="137.16" x2="185.42" y2="137.16" width="0.1524" layer="91"/>
+<label x="185.42" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="32" class="0">
@@ -4342,54 +4375,23 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <wire x1="58.42" y1="99.06" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="G"/>
-<wire x1="167.64" y1="167.64" x2="165.1" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="29" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="29"/>
-<wire x1="63.5" y1="68.58" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="G"/>
-<wire x1="124.46" y1="167.64" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="31" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="31"/>
-<wire x1="60.96" y1="68.58" x2="60.96" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$6" gate="G$1" pin="R"/>
-<wire x1="167.64" y1="175.26" x2="165.1" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="33" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="33"/>
-<wire x1="58.42" y1="68.58" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$6" gate="G$1" pin="B"/>
-<wire x1="167.64" y1="160.02" x2="165.1" y2="160.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="35" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="35"/>
-<wire x1="55.88" y1="68.58" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="G"/>
-<wire x1="210.82" y1="167.64" x2="208.28" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="R"/>
+<wire x1="187.96" y1="144.78" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
+<label x="185.42" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="5V"/>
 <wire x1="10.16" y1="157.48" x2="5.08" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="5V1"/>
+<wire x1="73.66" y1="99.06" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="5V2"/>
+<wire x1="73.66" y1="68.58" x2="73.66" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="22" class="0">
@@ -4445,7 +4447,8 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <net name="27" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="83.82" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="99.06" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<label x="121.92" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="27"/>
@@ -4455,7 +4458,8 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <net name="2" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="45.72" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="63.5" x2="134.62" y2="66.04" width="0.1524" layer="91"/>
+<label x="134.62" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="2"/>
@@ -4468,78 +4472,53 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <wire x1="53.34" y1="99.06" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="B"/>
-<wire x1="210.82" y1="160.02" x2="208.28" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="G"/>
+<wire x1="142.24" y1="137.16" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
+<label x="139.7" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="34" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="R"/>
-<wire x1="210.82" y1="175.26" x2="208.28" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="34"/>
 <wire x1="55.88" y1="99.06" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="37" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="R"/>
-<wire x1="142.24" y1="142.24" x2="139.7" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="37"/>
-<wire x1="53.34" y1="68.58" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="B"/>
+<wire x1="142.24" y1="129.54" x2="139.7" y2="129.54" width="0.1524" layer="91"/>
+<label x="139.7" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="38" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="G"/>
-<wire x1="142.24" y1="134.62" x2="139.7" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="38"/>
 <wire x1="50.8" y1="99.06" x2="50.8" y2="101.6" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="39" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="B"/>
-<wire x1="142.24" y1="127" x2="139.7" y2="127" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="39"/>
-<wire x1="50.8" y1="68.58" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="R"/>
+<wire x1="142.24" y1="144.78" x2="139.7" y2="144.78" width="0.1524" layer="91"/>
+<label x="139.7" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="40" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="R"/>
-<wire x1="187.96" y1="142.24" x2="185.42" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="40"/>
 <wire x1="48.26" y1="99.06" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="41" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="G"/>
-<wire x1="187.96" y1="134.62" x2="185.42" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="41"/>
-<wire x1="48.26" y1="68.58" x2="48.26" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="B"/>
+<wire x1="210.82" y1="162.56" x2="208.28" y2="162.56" width="0.1524" layer="91"/>
+<label x="208.28" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="42" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="B"/>
-<wire x1="187.96" y1="127" x2="185.42" y2="127" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="42"/>
 <wire x1="45.72" y1="99.06" x2="45.72" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="G"/>
+<wire x1="210.82" y1="170.18" x2="208.28" y2="170.18" width="0.1524" layer="91"/>
+<label x="208.28" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12" class="0">
@@ -4549,7 +4528,8 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="B"/>
-<wire x1="198.12" y1="88.9" x2="198.12" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="96.52" x2="203.2" y2="99.06" width="0.1524" layer="91"/>
+<label x="203.2" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="11" class="0">
@@ -4559,7 +4539,8 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="200.66" y1="88.9" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="96.52" x2="205.74" y2="99.06" width="0.1524" layer="91"/>
+<label x="205.74" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="10" class="0">
@@ -4569,7 +4550,8 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="D"/>
-<wire x1="203.2" y1="88.9" x2="203.2" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="96.52" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
+<label x="208.28" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="9" class="0">
@@ -4579,7 +4561,8 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="E"/>
-<wire x1="205.74" y1="88.9" x2="205.74" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="96.52" x2="210.82" y2="99.06" width="0.1524" layer="91"/>
+<label x="210.82" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="8" class="0">
@@ -4589,7 +4572,8 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="F"/>
-<wire x1="208.28" y1="88.9" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="96.52" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
+<label x="213.36" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="7" class="0">
@@ -4599,7 +4583,8 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="G"/>
-<wire x1="210.82" y1="88.9" x2="210.82" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="96.52" x2="215.9" y2="99.06" width="0.1524" layer="91"/>
+<label x="215.9" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="6" class="0">
@@ -4609,7 +4594,8 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="99.06" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="106.68" x2="170.18" y2="109.22" width="0.1524" layer="91"/>
+<label x="170.18" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5" class="0">
@@ -4619,7 +4605,8 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="99.06" x2="167.64" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="106.68" x2="172.72" y2="109.22" width="0.1524" layer="91"/>
+<label x="172.72" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="4" class="0">
@@ -4629,7 +4616,8 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="99.06" x2="170.18" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="106.68" x2="175.26" y2="109.22" width="0.1524" layer="91"/>
+<label x="175.26" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3" class="0">
@@ -4639,17 +4627,131 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="99.06" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="106.68" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
+<label x="177.8" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="13" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="195.58" y1="88.9" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="96.52" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
+<label x="200.66" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="13"/>
 <wire x1="93.98" y1="162.56" x2="96.52" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="44" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="44"/>
+<wire x1="43.18" y1="99.06" x2="43.18" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="R"/>
+<wire x1="210.82" y1="177.8" x2="208.28" y2="177.8" width="0.1524" layer="91"/>
+<label x="208.28" y="177.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="46" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="46"/>
+<wire x1="40.64" y1="99.06" x2="40.64" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="B"/>
+<wire x1="167.64" y1="162.56" x2="165.1" y2="162.56" width="0.1524" layer="91"/>
+<label x="165.1" y="162.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="48" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="48"/>
+<wire x1="38.1" y1="99.06" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="G"/>
+<wire x1="167.64" y1="170.18" x2="165.1" y2="170.18" width="0.1524" layer="91"/>
+<label x="165.1" y="170.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="50" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="50"/>
+<wire x1="35.56" y1="99.06" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="R"/>
+<wire x1="167.64" y1="177.8" x2="165.1" y2="177.8" width="0.1524" layer="91"/>
+<label x="165.1" y="177.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="52" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="52"/>
+<wire x1="33.02" y1="99.06" x2="33.02" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="B"/>
+<wire x1="124.46" y1="162.56" x2="121.92" y2="162.56" width="0.1524" layer="91"/>
+<label x="121.92" y="162.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="CAT"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="160.02" y1="137.16" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="CAT"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="170.18" x2="144.78" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="CAT"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="170.18" x2="187.96" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="CAT"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="170.18" x2="231.14" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="CAT"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="205.74" y1="137.16" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="53" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="G"/>
+<wire x1="124.46" y1="170.18" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
+<label x="121.92" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="53"/>
+<wire x1="33.02" y1="68.58" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="51" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="R"/>
+<wire x1="124.46" y1="177.8" x2="121.92" y2="177.8" width="0.1524" layer="91"/>
+<label x="121.92" y="177.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="51"/>
+<wire x1="35.56" y1="68.58" x2="35.56" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
