@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4394,6 +4394,7 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="170.18" x2="114.3" y2="172.72" width="0.1524" layer="91"/>
+<label x="114.3" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="22"/>
@@ -4404,6 +4405,7 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="170.18" x2="160.02" y2="172.72" width="0.1524" layer="91"/>
+<label x="160.02" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="23"/>
@@ -4414,6 +4416,7 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="170.18" x2="200.66" y2="172.72" width="0.1524" layer="91"/>
+<label x="200.66" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="24"/>
@@ -4424,6 +4427,7 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="137.16" x2="132.08" y2="139.7" width="0.1524" layer="91"/>
+<label x="132.08" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="25"/>
@@ -4434,6 +4438,7 @@ The LONGPADS Variant is used for a test jig, but you may like it because there i
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="137.16" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
+<label x="177.8" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="26"/>
