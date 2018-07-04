@@ -11852,14 +11852,14 @@ VNH2SP30</text>
 <rectangle x1="5.25" y1="-1.5" x2="5.5" y2="1.5" layer="51"/>
 </package>
 <package name="4X-0603">
-<smd name="8" x="0" y="1.45" dx="0.65" dy="0.3" layer="1" rot="R180"/>
-<smd name="7" x="0.875" y="1.45" dx="0.45" dy="0.3" layer="1" rot="R180"/>
-<smd name="6" x="1.675" y="1.45" dx="0.45" dy="0.3" layer="1" rot="R180"/>
-<smd name="1" x="0" y="0.15" dx="0.65" dy="0.3" layer="1" rot="R180"/>
-<smd name="2" x="0.875" y="0.15" dx="0.45" dy="0.3" layer="1" rot="R180"/>
-<smd name="5" x="2.55" y="1.45" dx="0.65" dy="0.3" layer="1" rot="R180"/>
-<smd name="3" x="1.675" y="0.15" dx="0.45" dy="0.3" layer="1" rot="R180"/>
-<smd name="4" x="2.55" y="0.15" dx="0.65" dy="0.3" layer="1" rot="R180"/>
+<smd name="8" x="0" y="1.425" dx="0.65" dy="0.35" layer="1" rot="R180"/>
+<smd name="7" x="0.875" y="1.425" dx="0.45" dy="0.35" layer="1" rot="R180"/>
+<smd name="6" x="1.675" y="1.425" dx="0.45" dy="0.35" layer="1" rot="R180"/>
+<smd name="1" x="0" y="0.175" dx="0.65" dy="0.35" layer="1" rot="R180"/>
+<smd name="2" x="0.875" y="0.175" dx="0.45" dy="0.35" layer="1" rot="R180"/>
+<smd name="5" x="2.55" y="1.425" dx="0.65" dy="0.35" layer="1" rot="R180"/>
+<smd name="3" x="1.675" y="0.175" dx="0.45" dy="0.35" layer="1"/>
+<smd name="4" x="2.55" y="0.175" dx="0.65" dy="0.35" layer="1" rot="R180"/>
 <wire x1="-0.3" y1="1.25" x2="2.85" y2="1.25" width="0.0762" layer="21"/>
 <wire x1="2.85" y1="1.25" x2="2.85" y2="0.35" width="0.0762" layer="21"/>
 <wire x1="2.85" y1="0.35" x2="-0.3" y2="0.35" width="0.0762" layer="21"/>
