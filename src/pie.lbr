@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11868,6 +11868,19 @@ VNH2SP30</text>
 <text x="-0.45" y="1.8" size="0.6096" layer="25" font="vector">&gt;NAME</text>
 <text x="-0.4" y="-0.75" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="5PIN">
+<pad name="GND" x="0" y="0" drill="1" shape="square"/>
+<pad name="VCC" x="10.16" y="0" drill="1" shape="square"/>
+<pad name="P3" x="2.54" y="0" drill="1"/>
+<pad name="P2" x="5.08" y="0" drill="1"/>
+<pad name="P1" x="7.62" y="0" drill="1"/>
+<text x="-0.762" y="1.778" size="1.778" layer="21" font="vector">&gt;NAME</text>
+<text x="-0.762" y="-1.905" size="0.6096" layer="21" font="vector">GND</text>
+<text x="2.032" y="-1.905" size="0.6096" layer="21" font="vector">P3</text>
+<text x="4.572" y="-1.905" size="0.6096" layer="21" font="vector">P2</text>
+<text x="7.112" y="-1.905" size="0.6096" layer="21" font="vector">P1</text>
+<text x="9.398" y="-1.905" size="0.6096" layer="21" font="vector">VCC</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SJ">
@@ -14688,6 +14701,18 @@ a TI sourced LI-ion, Lipo, Li-FE battery protection chip</description>
 <pin name="8" x="-12.7" y="2.54" visible="off" length="middle"/>
 <text x="-7.62" y="30.48" size="3.81" layer="94" font="vector">&gt;NAME</text>
 <text x="-10.16" y="-5.08" size="3.81" layer="94" font="vector">&gt;VALUE</text>
+</symbol>
+<symbol name="5PIN">
+<wire x1="0" y1="0" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="45.72" y2="7.62" width="0.254" layer="94"/>
+<wire x1="45.72" y1="7.62" x2="45.72" y2="0" width="0.254" layer="94"/>
+<wire x1="45.72" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="GND" x="7.62" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="P3" x="15.24" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="P2" x="22.86" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="P1" x="30.48" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="VCC" x="38.1" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<text x="0" y="10.16" size="2.54" layer="94" font="vector">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -19337,6 +19362,25 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="5PIN">
+<gates>
+<gate name="G$1" symbol="5PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5PIN">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
