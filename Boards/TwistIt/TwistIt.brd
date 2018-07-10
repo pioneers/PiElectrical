@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2051,10 +2051,14 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="0.5mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="1"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="15"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2278,7 +2282,6 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <contactref element="R2" pad="2"/>
 <contactref element="R1" pad="2"/>
 <contactref element="5V_JUMPER" pad="P$2"/>
-<wire x1="30.7383125" y1="32.2423125" x2="30.485" y2="31.989" width="0.4064" layer="1"/>
 <wire x1="30.826" y1="32.33" x2="30.7383125" y2="32.2423125" width="0.4064" layer="1"/>
 <wire x1="30.826" y1="32.154625" x2="30.826" y2="29.339" width="0.4064" layer="1"/>
 <wire x1="30.826" y1="32.154625" x2="30.7383125" y2="32.2423125" width="0.4064" layer="1"/>
@@ -2286,7 +2289,6 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="32.093" y1="25.157" x2="32.474" y2="24.776" width="0.4064" layer="1"/>
 <wire x1="32.474" y1="24.776" x2="32.474" y2="22.622" width="0.4064" layer="1"/>
 <wire x1="32.474" y1="22.622" x2="30.826" y2="20.974" width="0.4064" layer="1"/>
-<wire x1="30.826" y1="25.379" x2="30.826" y2="25.157" width="0.4064" layer="1"/>
 <wire x1="30.826" y1="25.157" x2="32.282" y2="26.613" width="0.4064" layer="1"/>
 <wire x1="32.282" y1="28.509" x2="32.282" y2="26.613" width="0.4064" layer="1"/>
 <wire x1="30.826" y1="29.339" x2="31.452" y2="29.339" width="0.4064" layer="1"/>
@@ -2428,20 +2430,20 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <signal name="N$2">
 <contactref element="LED1" pad="C"/>
 <contactref element="R4" pad="1"/>
-<wire x1="3.072" y1="26.676" x2="5.891" y2="26.676" width="0.4064" layer="1"/>
-<wire x1="5.891" y1="26.676" x2="5.816" y2="26.679" width="0.4064" layer="1"/>
+<wire x1="3.072" y1="26.676" x2="5.813" y2="26.676" width="0.4064" layer="1"/>
+<wire x1="5.813" y1="26.676" x2="5.816" y2="26.679" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="LED2" pad="C"/>
 <contactref element="R5" pad="1"/>
-<wire x1="3.072" y1="23.374" x2="5.891" y2="23.374" width="0.4064" layer="1"/>
-<wire x1="5.891" y1="23.374" x2="5.816" y2="23.377" width="0.4064" layer="1"/>
+<wire x1="3.072" y1="23.374" x2="5.813" y2="23.374" width="0.4064" layer="1"/>
+<wire x1="5.813" y1="23.374" x2="5.816" y2="23.377" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="LED3" pad="C"/>
 <contactref element="R6" pad="1"/>
-<wire x1="3.072" y1="20.072" x2="5.891" y2="20.072" width="0.4064" layer="1"/>
-<wire x1="5.891" y1="20.072" x2="5.816" y2="20.075" width="0.4064" layer="1"/>
+<wire x1="3.072" y1="20.072" x2="5.813" y2="20.072" width="0.4064" layer="1"/>
+<wire x1="5.813" y1="20.072" x2="5.816" y2="20.075" width="0.1524" layer="1"/>
 </signal>
 <signal name="A">
 <contactref element="APM" pad="2"/>
@@ -2462,6 +2464,13 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="9.813" y1="30.573" x2="11.938" y2="28.448" width="0.4064" layer="1"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 <compatibility>

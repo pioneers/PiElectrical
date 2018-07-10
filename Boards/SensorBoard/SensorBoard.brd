@@ -187,11 +187,9 @@ pioneers.berkeley.edu/opensource</text>
 Rev A</text>
 <text x="30.0926" y="36.3998" size="0.8128" layer="25" font="vector">Pull-up
 Jumper</text>
-<text x="9.21" y="40.3298" size="0.8128" layer="26" font="vector" rot="MR270">TwistIt: A Mulitpurpose board
-that takes line following array,
-potentiometers, limit switches,
-reed switches, and the Yogi
-Bear Motor Controller Board.</text>
+<text x="9.21" y="40.3298" size="0.8128" layer="26" font="vector" rot="MR270">SensorBoard: A multipurpose board
+that takes line following array
+and limit switches</text>
 </plain>
 <libraries>
 <library name="pie">
@@ -999,16 +997,12 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="PIE-INT-REF-NUM" value="LED" x="32.7906" y="20.5142" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="34.1876" y="19.2442" size="0.762" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="U$2" library="pie" package="5PIN" value="5PIN" x="24.9936" y="8.2804" smashed="yes" rot="R180"/>
+<element name="U$2" library="pie" package="5PIN" value="5PIN" x="24.8158" y="5.588" smashed="yes" rot="R180"/>
 <element name="SJ1" library="pie" package="SJ_2S-NO" value="SOLDERJUMPERNO" x="32.0548" y="34.3154" smashed="yes" rot="R270">
 <attribute name="PIE-INT-REF-NUM" value="DNL" x="32.0548" y="34.3154" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R1" library="pie" package="4X-0603" value="10k" x="31.2928" y="31.0134" smashed="yes" rot="R270">
-<attribute name="VALUE" x="30.5428" y="31.4134" size="0.6096" layer="27" font="vector" rot="R270"/>
-</element>
-<element name="R2" library="pie" package="4X-0603" value="330" x="31.2674" y="26.3906" smashed="yes" rot="R270">
-<attribute name="VALUE" x="30.5174" y="26.7906" size="0.6096" layer="27" font="vector" rot="R270"/>
-</element>
+<element name="R1" library="pie" package="4X-0603" value="10k" x="31.2928" y="31.0134" rot="R270"/>
+<element name="R2" library="pie" package="4X-0603" value="330" x="31.2674" y="26.3906" rot="R270"/>
 <element name="U$7" library="pie" package="STAND-OFF" value="" x="32.004" y="6.35"/>
 </elements>
 <signals>
@@ -1038,16 +1032,21 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <contactref element="APM" pad="GND@1"/>
 <contactref element="APM" pad="GND@2"/>
 <contactref element="U$2" pad="GND"/>
-<contactref element="R2" pad="1"/>
 <contactref element="R2" pad="2"/>
 <contactref element="R2" pad="3"/>
 <wire x1="31.4424" y1="24.7156" x2="31.4424" y2="25.5156" width="0.4064" layer="1"/>
-<wire x1="31.4424" y1="25.5156" x2="31.4424" y2="26.3906" width="0.4064" layer="1"/>
-<wire x1="31.4424" y1="26.3906" x2="32.6362" y2="27.5844" width="0.4064" layer="1"/>
-<wire x1="32.6362" y1="27.5844" x2="34.671" y2="27.5844" width="0.4064" layer="1"/>
-<wire x1="34.671" y1="27.5844" x2="34.671" y2="35.052" width="0.4064" layer="1"/>
 <wire x1="31.115" y1="38.608" x2="27.178" y2="38.608" width="0.4064" layer="1"/>
 <wire x1="34.671" y1="35.052" x2="31.115" y2="38.608" width="0.4064" layer="1"/>
+<wire x1="34.671" y1="29.41370625" x2="33.04009375" y2="27.7828" width="0.4064" layer="1"/>
+<wire x1="34.671" y1="29.41370625" x2="34.671" y2="35.052" width="0.4064" layer="1"/>
+<contactref element="R2" pad="4"/>
+<wire x1="31.57746875" y1="27.7828" x2="30.7848" y2="26.99013125" width="0.4064" layer="1"/>
+<wire x1="31.12010625" y1="25.71" x2="31.248" y2="25.71" width="0.4064" layer="1"/>
+<wire x1="31.248" y1="25.71" x2="31.4424" y2="25.5156" width="0.4064" layer="1"/>
+<wire x1="30.7848" y1="26.99013125" x2="30.7848" y2="26.04530625" width="0.4064" layer="1"/>
+<wire x1="30.7848" y1="26.04530625" x2="31.12010625" y2="25.71" width="0.4064" layer="1"/>
+<wire x1="33.04009375" y1="27.7828" x2="31.57746875" y2="27.7828" width="0.4064" layer="1"/>
+<wire x1="31.4424" y1="24.7156" x2="31.4424" y2="23.8406" width="0.4064" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="APM" pad="VCC"/>
@@ -1058,8 +1057,8 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="32.0548" y1="34.7654" x2="31.9502" y2="34.87" width="0.4064" layer="1"/>
 <wire x1="27.178" y1="33.528" x2="20.7772" y2="27.1272" width="0.4064" layer="1"/>
 <wire x1="20.7772" y1="27.1272" x2="20.7772" y2="16.891" width="0.4064" layer="1"/>
-<wire x1="20.7772" y1="16.891" x2="14.8336" y2="10.9474" width="0.4064" layer="1"/>
-<wire x1="14.8336" y1="10.9474" x2="14.8336" y2="8.2804" width="0.4064" layer="1"/>
+<wire x1="20.7772" y1="16.891" x2="14.6558" y2="10.7696" width="0.4064" layer="1"/>
+<wire x1="14.6558" y1="10.7696" x2="14.6558" y2="5.588" width="0.4064" layer="1"/>
 </signal>
 <signal name="P1">
 <contactref element="APM" pad="A2"/>
@@ -1069,8 +1068,8 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="28.8684" y1="30.1384" x2="27.178" y2="28.448" width="0.4064" layer="1"/>
 <wire x1="27.178" y1="28.448" x2="21.971" y2="23.241" width="0.4064" layer="1"/>
 <wire x1="21.971" y1="23.241" x2="21.971" y2="15.9766" width="0.4064" layer="1"/>
-<wire x1="21.971" y1="15.9766" x2="17.3736" y2="11.3792" width="0.4064" layer="1"/>
-<wire x1="17.3736" y1="11.3792" x2="17.3736" y2="8.2804" width="0.4064" layer="1"/>
+<wire x1="21.971" y1="15.9766" x2="17.1958" y2="11.2014" width="0.4064" layer="1"/>
+<wire x1="17.1958" y1="11.2014" x2="17.1958" y2="5.588" width="0.4064" layer="1"/>
 </signal>
 <signal name="P2">
 <contactref element="APM" pad="A1"/>
@@ -1084,8 +1083,8 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="31.2734" y1="29.144" x2="31.4678" y2="29.3384" width="0.4064" layer="1"/>
 <wire x1="27.178" y1="25.908" x2="23.241" y2="21.971" width="0.4064" layer="1"/>
 <wire x1="23.241" y1="21.971" x2="23.241" y2="15.2908" width="0.4064" layer="1"/>
-<wire x1="23.241" y1="15.2908" x2="19.9136" y2="11.9634" width="0.4064" layer="1"/>
-<wire x1="19.9136" y1="11.9634" x2="19.9136" y2="8.2804" width="0.4064" layer="1"/>
+<wire x1="23.241" y1="15.2908" x2="19.7358" y2="11.7856" width="0.4064" layer="1"/>
+<wire x1="19.7358" y1="11.7856" x2="19.7358" y2="5.588" width="0.4064" layer="1"/>
 </signal>
 <signal name="P3">
 <contactref element="APM" pad="A0"/>
@@ -1097,8 +1096,8 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="28.702" y1="23.368" x2="27.178" y2="23.368" width="0.4064" layer="1"/>
 <wire x1="27.178" y1="23.368" x2="24.3332" y2="20.5232" width="0.4064" layer="1"/>
 <wire x1="24.3332" y1="20.5232" x2="24.3332" y2="14.2748" width="0.4064" layer="1"/>
-<wire x1="24.3332" y1="14.2748" x2="22.4536" y2="12.3952" width="0.4064" layer="1"/>
-<wire x1="22.4536" y1="12.3952" x2="22.4536" y2="8.2804" width="0.4064" layer="1"/>
+<wire x1="24.3332" y1="14.2748" x2="22.2758" y2="12.2174" width="0.4064" layer="1"/>
+<wire x1="22.2758" y1="12.2174" x2="22.2758" y2="5.588" width="0.4064" layer="1"/>
 </signal>
 <signal name="LED1">
 <contactref element="LED1" pad="A"/>
@@ -1120,35 +1119,27 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </signal>
 <signal name="N$2">
 <contactref element="LED1" pad="C"/>
-<wire x1="34.2156" y1="13.9132" x2="34.2906" y2="13.9102" width="0.4064" layer="1"/>
-<contactref element="R2" pad="6"/>
-<wire x1="32.6924" y1="15.5084" x2="34.2906" y2="13.9102" width="0.4064" layer="1"/>
-<wire x1="33.223" y1="23.36830625" x2="33.223" y2="24.31289375" width="0.4064" layer="1"/>
-<wire x1="32.6924" y1="22.83770625" x2="32.6924" y2="15.5084" width="0.4064" layer="1"/>
-<wire x1="33.223" y1="23.36830625" x2="32.6924" y2="22.83770625" width="0.4064" layer="1"/>
-<wire x1="32.82029375" y1="24.7156" x2="32.6924" y2="24.7156" width="0.4064" layer="1"/>
-<wire x1="33.223" y1="24.31289375" x2="32.82029375" y2="24.7156" width="0.4064" layer="1"/>
-</signal>
-<signal name="N$4">
-<contactref element="LED2" pad="C"/>
-<wire x1="34.2156" y1="17.2152" x2="34.2906" y2="17.2122" width="0.4064" layer="1"/>
-<contactref element="R2" pad="7"/>
-<wire x1="33.2512" y1="22.6062375" x2="33.2512" y2="18.1796" width="0.4064" layer="1"/>
-<wire x1="33.2512" y1="18.1796" x2="34.2156" y2="17.2152" width="0.4064" layer="1"/>
-<wire x1="33.7818" y1="23.1368375" x2="33.7818" y2="24.5443625" width="0.4064" layer="1"/>
-<wire x1="33.7818" y1="23.1368375" x2="33.2512" y2="22.6062375" width="0.4064" layer="1"/>
-<wire x1="32.8105625" y1="25.5156" x2="32.6924" y2="25.5156" width="0.4064" layer="1"/>
-<wire x1="33.7818" y1="24.5443625" x2="32.8105625" y2="25.5156" width="0.4064" layer="1"/>
+<wire x1="33.8926" y1="13.9102" x2="34.2906" y2="13.9102" width="0.4064" layer="1"/>
+<contactref element="R2" pad="5"/>
+<wire x1="32.6924" y1="23.8406" x2="32.6924" y2="15.1104" width="0.4064" layer="1"/>
+<wire x1="32.6924" y1="15.1104" x2="33.8926" y2="13.9102" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="LED3" pad="C"/>
-<wire x1="34.2156" y1="20.5172" x2="34.2906" y2="20.5142" width="0.4064" layer="1"/>
-<contactref element="R2" pad="8"/>
-<wire x1="34.3406" y1="22.90536875" x2="34.2906" y2="22.85536875" width="0.4064" layer="1"/>
-<wire x1="34.2906" y1="22.85536875" x2="34.2906" y2="20.5142" width="0.4064" layer="1"/>
-<wire x1="34.3406" y1="22.90536875" x2="34.3406" y2="24.77583125" width="0.4064" layer="1"/>
-<wire x1="32.72583125" y1="26.3906" x2="32.6924" y2="26.3906" width="0.4064" layer="1"/>
-<wire x1="34.3406" y1="24.77583125" x2="32.72583125" y2="26.3906" width="0.4064" layer="1"/>
+<contactref element="R2" pad="7"/>
+<wire x1="32.6924" y1="25.5156" x2="32.9118" y2="25.2962" width="0.4064" layer="1"/>
+<wire x1="32.9118" y1="25.2962" x2="33.0299625" y2="25.2962" width="0.4064" layer="1"/>
+<wire x1="33.0299625" y1="25.2962" x2="34.2906" y2="24.0355625" width="0.4064" layer="1"/>
+<wire x1="34.2906" y1="24.0355625" x2="34.2906" y2="20.5142" width="0.4064" layer="1"/>
+</signal>
+<signal name="N$1">
+<contactref element="LED2" pad="C"/>
+<contactref element="R2" pad="6"/>
+<wire x1="33.2512" y1="18.2516" x2="34.2906" y2="17.2122" width="0.4064" layer="1"/>
+<wire x1="33.2512" y1="24.28469375" x2="33.2512" y2="18.2516" width="0.4064" layer="1"/>
+<wire x1="32.6924" y1="24.7156" x2="32.8868" y2="24.5212" width="0.4064" layer="1"/>
+<wire x1="32.8868" y1="24.5212" x2="33.01469375" y2="24.5212" width="0.4064" layer="1"/>
+<wire x1="33.01469375" y1="24.5212" x2="33.2512" y2="24.28469375" width="0.4064" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
