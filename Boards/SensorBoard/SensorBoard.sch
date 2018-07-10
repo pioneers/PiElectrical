@@ -547,11 +547,11 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <text x="-0.381" y="-2.286" size="1.016" layer="21" font="vector">+</text>
 </package>
 <package name="5PIN">
-<pad name="GND" x="0" y="0" drill="1" shape="square"/>
-<pad name="VCC" x="10.16" y="0" drill="1" shape="square"/>
-<pad name="P3" x="2.54" y="0" drill="1"/>
-<pad name="P2" x="5.08" y="0" drill="1"/>
-<pad name="P1" x="7.62" y="0" drill="1"/>
+<pad name="GND" x="0" y="0" drill="1" diameter="2.1844" shape="square"/>
+<pad name="VCC" x="10.16" y="0" drill="1" diameter="2.1844" shape="square"/>
+<pad name="P3" x="2.54" y="0" drill="1" diameter="2.1844"/>
+<pad name="P2" x="5.08" y="0" drill="1" diameter="2.1844"/>
+<pad name="P1" x="7.62" y="0" drill="1" diameter="2.1844"/>
 <text x="-0.762" y="1.778" size="1.778" layer="21" font="vector">&gt;NAME</text>
 <text x="-0.762" y="-1.905" size="0.6096" layer="21" font="vector">GND</text>
 <text x="2.032" y="-1.905" size="0.6096" layer="21" font="vector">P3</text>
@@ -1166,8 +1166,8 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <parts>
 <part name="APM" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
 <part name="FRAME1" library="pie" deviceset="FRAME_SCHEMATIC" device="">
-<attribute name="AUTHOR" value="Seiya O, Averal K, Margo O"/>
-<attribute name="REVISION" value="PROD"/>
+<attribute name="AUTHOR" value="Seiya O, Averal K, Margo O, Steven L"/>
+<attribute name="REVISION" value="A"/>
 </part>
 <part name="SUPPLY2" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
