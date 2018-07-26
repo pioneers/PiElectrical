@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -12020,7 +12020,12 @@ shrink quad flat pack, square</description>
 <text x="5.334" y="-8.382" size="0.6096" layer="21" font="vector">OUT2</text>
 <text x="8.001" y="-8.382" size="0.6096" layer="21" font="vector">OUT1</text>
 <text x="10.668" y="-8.382" size="0.6096" layer="21" font="vector">ADC</text>
-<text x="0.254" y="-0.762" size="1.778" layer="21" font="vector">&gt;NAME</text>
+<text x="0.127" y="-0.254" size="1.6764" layer="21" font="vector">&gt;NAME</text>
+<text x="0.127" y="-11.049" size="1.6764" layer="21" font="vector">&gt;VALUE</text>
+<wire x1="-0.381" y1="-0.635" x2="13.081" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="13.081" y1="-0.635" x2="13.081" y2="-9.017" width="0.127" layer="21"/>
+<wire x1="13.081" y1="-9.017" x2="-0.381" y2="-9.017" width="0.127" layer="21"/>
+<wire x1="-0.381" y1="-9.017" x2="-0.381" y2="-0.635" width="0.127" layer="21"/>
 </package>
 </packages>
 <packages3d>
@@ -14936,6 +14941,7 @@ a TI sourced LI-ion, Lipo, Li-FE battery protection chip</description>
 <pin name="GND" x="15.24" y="22.86" visible="pin" length="middle" rot="R270"/>
 <pin name="SLEW" x="7.62" y="22.86" visible="pin" length="middle" rot="R270"/>
 <text x="0" y="25.4" size="6.4516" layer="94" font="vector">&gt;NAME</text>
+<text x="0" y="-15.24" size="6.4516" layer="94" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -19689,7 +19695,7 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 </device>
 </devices>
 </deviceset>
-<deviceset name="2X5PIN">
+<deviceset name="2X5PIN" uservalue="yes">
 <description>10 pin breakout for motor controller chip test board</description>
 <gates>
 <gate name="G$1" symbol="2X5PIN" x="-22.86" y="-10.16"/>
