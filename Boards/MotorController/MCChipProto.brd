@@ -174,7 +174,7 @@
 <wire x1="32.69" y1="3.175" x2="32.69" y2="27.549" width="0" layer="20"/>
 <wire x1="32.69" y1="27.549" x2="2.667" y2="27.549" width="0" layer="20"/>
 <wire x1="2.667" y1="27.549" x2="2.667" y2="3.175" width="0" layer="20"/>
-<text x="15.875" y="9.525" size="0.6096" layer="22" rot="MR90">(c) Pioneers In Engineering
+<text x="15.875" y="9.525" size="0.6096" layer="22" font="vector" rot="MR90">(c) Pioneers In Engineering
 Design by: Steven L
 This design is open source hardware.
 For more information, visit:
