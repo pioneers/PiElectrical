@@ -1115,15 +1115,15 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <element name="U$6" library="pie" package="STAND-OFF" value="" x="5.08" y="5.08"/>
 <element name="LED1" library="pie" package="LED-1206" value="RED" x="6.8588" y="41.5888" smashed="yes" rot="R180">
 <attribute name="PIE-INT-REF-NUM" value="LED" x="6.8588" y="41.5888" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="5.9858" y="42.7308" size="0.762" layer="27" font="vector"/>
+<attribute name="VALUE" x="7.7384" y="43.061" size="0.762" layer="27" font="vector"/>
 </element>
 <element name="LED2" library="pie" package="LED-1206" value="YELLOW" x="6.8588" y="38.2868" smashed="yes" rot="R180">
 <attribute name="PIE-INT-REF-NUM" value="LED" x="6.8588" y="38.2868" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="4.9538" y="39.5568" size="0.762" layer="27" font="vector"/>
+<attribute name="VALUE" x="7.57" y="39.7092" size="0.6096" layer="27" font="vector"/>
 </element>
 <element name="LED3" library="pie" package="LED-1206" value="GREEN" x="6.8588" y="34.9848" smashed="yes" rot="R180">
 <attribute name="PIE-INT-REF-NUM" value="LED" x="6.8588" y="34.9848" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="5.4618" y="36.2548" size="0.762" layer="27" font="vector"/>
+<attribute name="VALUE" x="5.0046" y="32.6226" size="0.762" layer="27" font="vector"/>
 </element>
 <element name="ENCODER" library="pie" package="1X04-MTA" value="" x="37.1394" y="37.0834" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.0992" y="33.1036" size="1.27" layer="25" font="vector" ratio="10" rot="SR90"/>
@@ -1310,10 +1310,11 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <signal name="LED1">
 <contactref element="LED1" pad="A"/>
 <contactref element="APM" pad="2"/>
-<wire x1="8.3588" y1="41.5888" x2="10.3378" y2="39.6098" width="0.4064" layer="1"/>
-<wire x1="10.3378" y1="39.6098" x2="10.3378" y2="38.0492" width="0.4064" layer="1"/>
-<wire x1="10.3378" y1="38.0492" x2="13.5128" y2="34.8742" width="0.4064" layer="1"/>
-<wire x1="13.5128" y1="34.8742" x2="14.2494" y2="34.8742" width="0.4064" layer="1"/>
+<wire x1="14.2494" y1="34.8742" x2="11.2522" y2="37.8714" width="0.4064" layer="1"/>
+<wire x1="11.2522" y1="40.7162" x2="10.3632" y2="41.6052" width="0.4064" layer="1"/>
+<wire x1="10.3632" y1="41.6052" x2="10.3468" y2="41.5888" width="0.4064" layer="1"/>
+<wire x1="10.3468" y1="41.5888" x2="8.3588" y2="41.5888" width="0.4064" layer="1"/>
+<wire x1="11.2522" y1="37.8714" x2="11.2522" y2="40.7162" width="0.4064" layer="1"/>
 </signal>
 <signal name="LED2">
 <contactref element="LED2" pad="A"/>
