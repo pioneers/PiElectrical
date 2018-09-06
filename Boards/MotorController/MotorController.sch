@@ -3030,8 +3030,8 @@ Vertical
 &lt;a href="http://www.alliedelec.com/anderson-power-products-1377g4-bk/70162018/"&gt; Connector &lt;/a&gt;
 &lt;br&gt;
 &lt;a href="http://www.alliedelec.com/anderson-power-products-1327g6-bk/70162000/"&gt; Plastic &lt;/a&gt;</description>
-<pad name="PIN1" x="0" y="-3.937" drill="2.032" diameter="3.429" rot="R90"/>
-<pad name="PIN2" x="0" y="3.937" drill="2.032" diameter="3.429" rot="R90"/>
+<pad name="PIN1" x="0" y="-3.937" drill="3.175" diameter="4.699" rot="R90"/>
+<pad name="PIN2" x="0" y="3.937" drill="3.175" diameter="4.699" rot="R90"/>
 <rectangle x1="-7.874" y1="-3.937" x2="7.874" y2="3.937" layer="39" rot="R90"/>
 <wire x1="3.937" y1="-7.874" x2="-3.937" y2="-7.874" width="0.127" layer="21"/>
 <wire x1="-3.937" y1="-7.874" x2="-3.937" y2="0" width="0.127" layer="21"/>

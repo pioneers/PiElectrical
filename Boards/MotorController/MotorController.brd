@@ -184,14 +184,15 @@ This design is open source hardware.
 For more information, visit
 pioneers.berkeley.edu/opensource</text>
 <text x="21.59" y="55.229" size="1.651" layer="21" font="vector" ratio="15" align="center">MotorController
-Rev A</text>
+Prototype</text>
 <text x="40.9354" y="32.4596" size="0.6096" layer="25" font="vector" rot="SR90">Vcc</text>
 <text x="41.0154" y="35.0766" size="0.6096" layer="25" font="vector" rot="SR90">GND</text>
 <text x="40.9354" y="38.0286" size="0.6096" layer="25" font="vector" rot="SR90">A</text>
 <text x="41.0014" y="40.6186" size="0.6096" layer="25" font="vector" rot="SR90">B</text>
-<text x="8.4734" y="50.4898" size="0.8128" layer="26" font="vector" rot="MR270">MotorController: A board
-that takes the Yogi
-Bear Motor Controller Board.</text>
+<text x="8.4734" y="50.4898" size="0.8128" layer="26" font="vector" rot="MR270">MotorController: The board
+that takes a motor 
+controller chip and forms 
+the Yogi Bear.</text>
 </plain>
 <libraries>
 <library name="pie">
@@ -893,8 +894,8 @@ Vertical
 &lt;a href="http://www.alliedelec.com/anderson-power-products-1377g4-bk/70162018/"&gt; Connector &lt;/a&gt;
 &lt;br&gt;
 &lt;a href="http://www.alliedelec.com/anderson-power-products-1327g6-bk/70162000/"&gt; Plastic &lt;/a&gt;</description>
-<pad name="PIN1" x="0" y="-3.937" drill="2.032" diameter="3.429" rot="R90"/>
-<pad name="PIN2" x="0" y="3.937" drill="2.032" diameter="3.429" rot="R90"/>
+<pad name="PIN1" x="0" y="-3.937" drill="3.175" diameter="4.699" rot="R90"/>
+<pad name="PIN2" x="0" y="3.937" drill="3.175" diameter="4.699" rot="R90"/>
 <rectangle x1="-7.874" y1="-3.937" x2="7.874" y2="3.937" layer="39" rot="R90"/>
 <wire x1="3.937" y1="-7.874" x2="-3.937" y2="-7.874" width="0.127" layer="21"/>
 <wire x1="-3.937" y1="-7.874" x2="-3.937" y2="0" width="0.127" layer="21"/>
