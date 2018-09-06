@@ -1,0 +1,3 @@
+#noted for using the BQ76920 IC (mainly on how to program it with I2C)
+
+
