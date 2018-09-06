@@ -193,6 +193,10 @@ Prototype</text>
 that takes a motor 
 controller chip and forms 
 the Yogi Bear.</text>
+<text x="12.065" y="16.7386" size="1.4224" layer="21" font="vector" rot="R90">VPWR</text>
+<text x="12.1158" y="25.2476" size="1.4224" layer="21" font="vector" rot="R90">GND</text>
+<text x="32.9692" y="25.1206" size="1.4224" layer="21" font="vector" rot="R90">OUT1</text>
+<text x="32.9692" y="16.8656" size="1.4224" layer="21" font="vector" rot="R90">OUT2</text>
 </plain>
 <libraries>
 <library name="pie">
@@ -1115,15 +1119,15 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <element name="U$6" library="pie" package="STAND-OFF" value="" x="5.08" y="5.08"/>
 <element name="LED1" library="pie" package="LED-1206" value="RED" x="6.8588" y="41.5888" smashed="yes" rot="R180">
 <attribute name="PIE-INT-REF-NUM" value="LED" x="6.8588" y="41.5888" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="7.7384" y="43.061" size="0.762" layer="27" font="vector"/>
+<attribute name="VALUE" x="6.062" y="43.0864" size="0.762" layer="21" font="vector"/>
 </element>
 <element name="LED2" library="pie" package="LED-1206" value="YELLOW" x="6.8588" y="38.2868" smashed="yes" rot="R180">
 <attribute name="PIE-INT-REF-NUM" value="LED" x="6.8588" y="38.2868" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="7.57" y="39.7092" size="0.6096" layer="27" font="vector"/>
+<attribute name="VALUE" x="4.903" y="39.633" size="0.762" layer="21" font="vector"/>
 </element>
 <element name="LED3" library="pie" package="LED-1206" value="GREEN" x="6.8588" y="34.9848" smashed="yes" rot="R180">
 <attribute name="PIE-INT-REF-NUM" value="LED" x="6.8588" y="34.9848" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="5.0046" y="32.6226" size="0.762" layer="27" font="vector"/>
+<attribute name="VALUE" x="5.1824" y="36.2802" size="0.762" layer="21" font="vector"/>
 </element>
 <element name="ENCODER" library="pie" package="1X04-MTA" value="" x="37.1394" y="37.0834" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.0992" y="33.1036" size="1.27" layer="25" font="vector" ratio="10" rot="SR90"/>
