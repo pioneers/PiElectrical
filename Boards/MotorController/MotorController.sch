@@ -661,21 +661,21 @@ Drawings &lt;/a&gt;</description>
 <text x="-0.381" y="-2.286" size="1.016" layer="21" font="vector">+</text>
 </package>
 <package name="4X-0603">
-<smd name="8" x="0" y="1.475" dx="0.65" dy="0.45" layer="1" rot="R180"/>
-<smd name="7" x="0.875" y="1.475" dx="0.55" dy="0.45" layer="1" rot="R180"/>
-<smd name="6" x="1.675" y="1.475" dx="0.55" dy="0.45" layer="1" rot="R180"/>
-<smd name="1" x="0" y="0.125" dx="0.65" dy="0.45" layer="1" rot="R180"/>
-<smd name="2" x="0.875" y="0.125" dx="0.55" dy="0.45" layer="1" rot="R180"/>
-<smd name="5" x="2.55" y="1.475" dx="0.65" dy="0.45" layer="1" rot="R180"/>
-<smd name="3" x="1.675" y="0.125" dx="0.54" dy="0.45" layer="1"/>
-<smd name="4" x="2.55" y="0.125" dx="0.65" dy="0.45" layer="1" rot="R180"/>
+<smd name="8" x="0" y="1.6" dx="0.65" dy="0.7" layer="1" rot="R180"/>
+<smd name="7" x="0.875" y="1.6" dx="0.55" dy="0.7" layer="1" rot="R180"/>
+<smd name="6" x="1.675" y="1.6" dx="0.55" dy="0.7" layer="1" rot="R180"/>
+<smd name="1" x="0" y="0" dx="0.65" dy="0.7" layer="1" rot="R180"/>
+<smd name="2" x="0.875" y="0" dx="0.55" dy="0.7" layer="1" rot="R180"/>
+<smd name="5" x="2.55" y="1.6" dx="0.65" dy="0.7" layer="1" rot="R180"/>
+<smd name="3" x="1.675" y="0" dx="0.55" dy="0.7" layer="1"/>
+<smd name="4" x="2.55" y="0" dx="0.65" dy="0.7" layer="1" rot="R180"/>
 <wire x1="-0.3" y1="1.25" x2="2.85" y2="1.25" width="0.0762" layer="21"/>
 <wire x1="2.85" y1="1.25" x2="2.85" y2="0.35" width="0.0762" layer="21"/>
 <wire x1="2.85" y1="0.35" x2="-0.3" y2="0.35" width="0.0762" layer="21"/>
 <wire x1="-0.3" y1="0.35" x2="-0.3" y2="1.25" width="0.0762" layer="21"/>
 <text x="0.4" y="0.65" size="0.3048" layer="21" font="vector">4x 0603</text>
-<text x="-0.45" y="1.85" size="0.6096" layer="25" font="vector">&gt;NAME</text>
-<text x="-0.4" y="-0.8" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.45" y="2.1" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.4" y="-1.1" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="PQFN-32">
 <description>&lt;b&gt;QFP32&lt;/b&gt;&lt;p&gt;
@@ -4907,7 +4907,6 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <part name="SUPPLY12" library="pie" deviceset="GND" device=""/>
 <part name="C4" library="pie" deviceset="CAP_POL" device="RADIAL" value="100 uF"/>
 <part name="R3" library="pie" deviceset="R-US_" device="R0603" value="200"/>
-<part name="SUPPLY13" library="pie" deviceset="GND" device=""/>
 <part name="CONN1" library="pie" deviceset="ANDERSON" device="VERTICAL"/>
 <part name="CONN2" library="pie" deviceset="ANDERSON" device="VERTICAL"/>
 <part name="SUPPLY14" library="pie" deviceset="GND" device=""/>
@@ -4948,7 +4947,6 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <instance part="SUPPLY12" gate="GND" x="137.16" y="58.42"/>
 <instance part="C4" gate="G$1" x="167.64" y="142.24" rot="R270"/>
 <instance part="R3" gate="G$1" x="137.16" y="68.58" rot="R90"/>
-<instance part="SUPPLY13" gate="GND" x="152.4" y="106.68"/>
 <instance part="CONN1" gate="G$1" x="154.94" y="167.64"/>
 <instance part="CONN2" gate="G$1" x="195.58" y="167.64"/>
 <instance part="SUPPLY14" gate="GND" x="210.82" y="160.02"/>
@@ -5054,11 +5052,6 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <wire x1="137.16" y1="63.5" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="IN2"/>
-<wire x1="157.48" y1="109.22" x2="152.4" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="SUPPLY13" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="CONN2" gate="G$1" pin="OUTB"/>
 <wire x1="203.2" y1="165.1" x2="205.74" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
@@ -5108,18 +5101,6 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <pinref part="APM" gate="APM" pin="10"/>
 <wire x1="76.2" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
 <label x="78.74" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PWM" class="0">
-<segment>
-<pinref part="APM" gate="APM" pin="9"/>
-<wire x1="48.26" y1="78.74" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
-<label x="43.18" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="IN1"/>
-<wire x1="157.48" y1="99.06" x2="152.4" y2="99.06" width="0.1524" layer="91"/>
-<label x="149.86" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED1" class="0">
@@ -5339,14 +5320,38 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 </net>
 <net name="INV" class="0">
 <segment>
+<pinref part="IC1" gate="G$1" pin="INV"/>
+<wire x1="157.48" y1="86.36" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
+<label x="149.86" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="APM" gate="APM" pin="7"/>
+<wire x1="48.26" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
+<label x="43.18" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM1" class="0">
+<segment>
 <pinref part="APM" gate="APM" pin="8"/>
 <wire x1="48.26" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
 <label x="43.18" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="INV"/>
-<wire x1="157.48" y1="86.36" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
-<label x="149.86" y="86.36" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="IN1"/>
+<wire x1="157.48" y1="99.06" x2="152.4" y2="99.06" width="0.1524" layer="91"/>
+<label x="149.86" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM2" class="0">
+<segment>
+<pinref part="APM" gate="APM" pin="9"/>
+<wire x1="48.26" y1="78.74" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
+<label x="43.18" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="IN2"/>
+<wire x1="157.48" y1="109.22" x2="152.4" y2="109.22" width="0.1524" layer="91"/>
+<label x="149.86" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
