@@ -27,6 +27,21 @@
 
 #include <I2C_Lib.h>
 
+//******************************************************************************
+// General I2C State Machine ***************************************************
+//******************************************************************************
+typedef enum I2C_ModeEnum{
+    IDLE_MODE,
+    NACK_MODE,
+    TX_REG_ADDRESS_MODE,
+    RX_REG_ADDRESS_MODE,
+    TX_DATA_MODE,
+    RX_DATA_MODE,
+    SWITCH_TO_RX_MODE,
+    SWITHC_TO_TX_MODE,
+    TIMEOUT_MODE
+} I2C_Mode;
+
 /* Used to track the state of the software state machine*/
 I2C_Mode MasterMode = IDLE_MODE;
 
@@ -66,15 +81,15 @@ uint8_t TransmitIndex = 0;
  * The received data is available in ReceiveBuffer
  *
  * dev_addr: The slave device address.
- *           Example: SLAVE_ADDR
+ *
  * reg_addr: The register or command to send to the slave.
- *           Example: CMD_TYPE_0_SLAVE
+ *
+ * reg_data: An array of at least size "count" to write to. This
+ *          is the output.
+ *
  * count: The length of data to read
- *           Example: TYPE_0_LENGTH
  *  */
-
-
-I2C_Mode I2C_Master_ReadReg(uint8_t dev_addr, uint8_t reg_addr, uint8_t count)
+void I2C_Master_ReadReg(uint8_t dev_addr, uint8_t reg_addr, uint8_t *reg_data, uint8_t count)
 {
     /* Initialize state machine */
     MasterMode = TX_REG_ADDRESS_MODE;
@@ -93,12 +108,20 @@ I2C_Mode I2C_Master_ReadReg(uint8_t dev_addr, uint8_t reg_addr, uint8_t count)
     UCB0CTL1 |= UCTR + UCTXSTT;             // I2C TX, start condition
     __bis_SR_register(LPM0_bits + GIE);              // Enter LPM0 w/ interrupts
 
-    return MasterMode;
-
+    CopyArray(ReceiveBuffer, reg_data, count);
 }
 
-
-I2C_Mode I2C_Master_WriteReg(uint8_t dev_addr, uint8_t reg_addr, uint8_t *reg_data, uint8_t count)
+/* For slave device with dev_addr, write the data specified to slaves reg_addr.
+ *
+ * dev_addr: The slave device address.
+ *
+ * reg_addr: The register or command to send to the slave.
+ *
+ * reg_data: The data to write
+ *
+ * count: The length of data to write
+ *  */
+void I2C_Master_WriteReg(uint8_t dev_addr, uint8_t reg_addr, uint8_t *reg_data, uint8_t count)
 {
     /* Initialize state machine */
     MasterMode = TX_REG_ADDRESS_MODE;
@@ -120,8 +143,6 @@ I2C_Mode I2C_Master_WriteReg(uint8_t dev_addr, uint8_t reg_addr, uint8_t *reg_da
 
     UCB0CTL1 |= UCTR + UCTXSTT;             // I2C TX, start condition
     __bis_SR_register(LPM0_bits + GIE);              // Enter LPM0 w/ interrupts
-
-    return MasterMode;
 }
 
 void CopyArray(uint8_t *source, uint8_t *dest, uint8_t count)
@@ -137,61 +158,18 @@ void CopyArray(uint8_t *source, uint8_t *dest, uint8_t count)
 // Device Initialization *******************************************************
 //******************************************************************************
 
-void initClockTo16MHz()
-{
-    UCSCTL3 |= SELREF_2;                      // Set DCO FLL reference = REFO
-    UCSCTL4 |= SELA_2;                        // Set ACLK = REFO
-    __bis_SR_register(SCG0);                  // Disable the FLL control loop
-    UCSCTL0 = 0x0000;                         // Set lowest possible DCOx, MODx
-    UCSCTL1 = DCORSEL_5;                      // Select DCO range 16MHz operation
-    UCSCTL2 = FLLD_0 + 487;                   // Set DCO Multiplier for 16MHz
-                                              // (N + 1) * FLLRef = Fdco
-                                              // (487 + 1) * 32768 = 16MHz
-                                              // Set FLL Div = fDCOCLK
-    __bic_SR_register(SCG0);                  // Enable the FLL control loop
-
-    // Worst-case settling time for the DCO when the DCO range bits have been
-    // changed is n x 32 x 32 x f_MCLK / f_FLL_reference. See UCS chapter in 5xx
-    // UG for optimization.
-    // 32 x 32 x 16 MHz / 32,768 Hz = 500000 = MCLK cycles for DCO to settle
-    __delay_cycles(500000);//
-    // Loop until XT1,XT2 & DCO fault flag is cleared
-    do
-    {
-        UCSCTL7 &= ~(XT2OFFG + XT1LFOFFG + DCOFFG); // Clear XT2,XT1,DCO fault flags
-        SFRIFG1 &= ~OFIFG;                          // Clear fault flags
-    }while (SFRIFG1&OFIFG);                         // Test oscillator fault flag
-}
-
-void initGPIO()
-{
-    //LEDs
-    P1OUT = 0x00;                             // P1 setup for LED & reset output
-    P1DIR |= BIT0;
-
-    P4DIR |= BIT7;
-    P4OUT &= ~(BIT7);
-
-    //I2C Pins
-    P3SEL |= BIT0 + BIT1;                     // P3.0,1 option select
-
-}
-
-void initI2C(unsigned char slave_addr)
+/*
+ * initializes I2C communication as a Master
+ */
+void initI2C()
 {
     UCB0CTL1 |= UCSWRST;                      // Enable SW reset
     UCB0CTL0 = UCMST + UCMODE_3 + UCSYNC;     // I2C Master, synchronous mode
     UCB0CTL1 = UCSSEL_2 + UCSWRST;            // Use SMCLK, keep SW reset
     UCB0BR0 = 160;                            // fSCL = SMCLK/160 = ~100kHz
     UCB0BR1 = 0;
-    UCB0I2CSA = slave_addr;                   // Slave Address is 048h
     UCB0CTL1 &= ~UCSWRST;                     // Clear SW reset, resume operation
     UCB0IE |= UCNACKIE;
-}
-
-void setSlaveAddress(unsigned char slave_addr)
-{
-    UCB0I2CSA = slave_addr;
 }
 
 #if defined(__TI_COMPILER_VERSION__) || defined(__IAR_SYSTEMS_ICC__)

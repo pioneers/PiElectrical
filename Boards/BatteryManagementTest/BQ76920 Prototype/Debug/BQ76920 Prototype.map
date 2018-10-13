@@ -1,7 +1,7 @@
 ******************************************************************************
                   MSP430 Linker PC v18.1.2                     
 ******************************************************************************
->> Linked Sun Oct  7 01:35:20 2018
+>> Linked Fri Oct 12 22:43:41 2018
 
 OUTPUT FILE NAME:   <BQ76920 Prototype.out>
 ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 000044e0
@@ -19,7 +19,7 @@ MEMORY CONFIGURATION
   INFOB                 00001900   00000080  00000000  00000080  RWIX
   INFOA                 00001980   00000080  00000000  00000080  RWIX
   USBRAM                00001c00   00000800  00000000  00000800  RWIX
-  RAM                   00002400   00002000  0000020f  00001df1  RWIX
+  RAM                   00002400   00002000  000000cf  00001f31  RWIX
   FLASH                 00004400   0000bb80  0000011c  0000ba64  RWIX
   INT00                 0000ff80   00000002  00000000  00000002  RWIX
   INT01                 0000ff82   00000002  00000000  00000002  RWIX
@@ -85,7 +85,7 @@ MEMORY CONFIGURATION
   INT61                 0000fffa   00000002  00000002  00000000  RWIX
   INT62                 0000fffc   00000002  00000002  00000000  RWIX
   RESET                 0000fffe   00000002  00000002  00000000  RWIX
-  FLASH2                00010000   00014400  000001b2  0001424e  RWIX
+  FLASH2                00010000   00014400  000001ac  00014254  RWIX
 
 
 SECTION ALLOCATION MAP
@@ -93,14 +93,10 @@ SECTION ALLOCATION MAP
  output                                  attributes/
 section   page    origin      length       input sections
 --------  ----  ----------  ----------   ----------------
-.data      0    00002540    0000002f     UNINITIALIZED
-                  00002540    00000014     I2C_Lib.obj (.data:ReceiveBuffer)
-                  00002554    00000014     I2C_Lib.obj (.data:TransmitBuffer)
-                  00002568    00000007     I2C_Lib.obj (.data)
-
-.sysmem    0    00002400    00000140     UNINITIALIZED
-                  00002400    00000006     rts430x_lc_rd_eabi.lib : memory.c.obj (.sysmem)
-                  00002406    0000013a     --HOLE--
+.data      0    00002400    0000002f     UNINITIALIZED
+                  00002400    00000014     I2C_Lib.obj (.data:ReceiveBuffer)
+                  00002414    00000014     I2C_Lib.obj (.data:TransmitBuffer)
+                  00002428    00000007     I2C_Lib.obj (.data)
 
 .stack     0    00004360    000000a0     UNINITIALIZED
                   00004360    00000004     rts430x_lc_rd_eabi.lib : boot.c.obj (.stack)
@@ -199,28 +195,28 @@ SYSNMI     0    0000fffc    00000002
 .reset     0    0000fffe    00000002     
                   0000fffe    00000002     rts430x_lc_rd_eabi.lib : boot.c.obj (.reset)
 
-.text      0    00010000    000001b2     
+.text      0    00010000    000001ac     
                   00010000    00000076     rts430x_lc_rd_eabi.lib : copy_decompress_lzss.c.obj (.text:decompress:lzss:__TI_decompress_lzss)
                   00010076    00000054                            : autoinit.c.obj (.text:__TI_auto_init_nobinit_nopinit_hold_wdt:__TI_auto_init_nobinit_nopinit_hold_wdt)
-                  000100ca    0000004c     I2C_Lib.obj (.text:initClockTo16MHz)
-                  00010116    0000002c     I2C_Lib.obj (.text:initI2C)
-                  00010142    00000022     main.obj (.text:main)
-                  00010164    0000001c     I2C_Lib.obj (.text:initGPIO)
-                  00010180    00000014     rts430x_lc_rd_eabi.lib : memcpy.c.obj (.text:memcpy)
-                  00010194    00000012                            : copy_decompress_none.c.obj (.text:decompress:none:__TI_decompress_none)
-                  000101a6    00000006                            : exit.c.obj (.text:abort)
-                  000101ac    00000004                            : pre_init.c.obj (.text:_system_pre_init)
-                  000101b0    00000002                            : startup.c.obj (.text:_system_post_cinit)
+                  000100ca    0000004c     main.obj (.text:initClockTo16MHz)
+                  00010116    00000026     I2C_Lib.obj (.text:initI2C)
+                  0001013c    00000022     main.obj (.text:main)
+                  0001015e    0000001c     main.obj (.text:initGPIO)
+                  0001017a    00000014     rts430x_lc_rd_eabi.lib : memcpy.c.obj (.text:memcpy)
+                  0001018e    00000012                            : copy_decompress_none.c.obj (.text:decompress:none:__TI_decompress_none)
+                  000101a0    00000006                            : exit.c.obj (.text:abort)
+                  000101a6    00000004                            : pre_init.c.obj (.text:_system_pre_init)
+                  000101aa    00000002                            : startup.c.obj (.text:_system_post_cinit)
 
 MODULE SUMMARY
 
        Module                       code   ro data   rw data
        ------                       ----   -------   -------
     .\
-       I2C_Lib.obj                  372    2         47     
-       main.obj                     34     0         0      
+       I2C_Lib.obj                  262    2         47     
+       main.obj                     138    0         0      
     +--+----------------------------+------+---------+---------+
-       Total:                       406    2         47     
+       Total:                       400    2         47     
                                                             
     C:\ti\ccsv8\tools\compiler\ti-cgt-msp430_18.1.2.LTS\lib\rts430x_lc_rd_eabi.lib
        copy_decompress_lzss.c.obj   118    0         0      
@@ -256,17 +252,16 @@ MODULE SUMMARY
     +--+----------------------------+------+---------+---------+
        Total:                       288    44        0      
                                                             
-       Heap:                        0      0         320    
        Stack:                       0      0         160    
        Linker Generated:            0      24        0      
     +--+----------------------------+------+---------+---------+
-       Grand Total:                 694    70        527    
+       Grand Total:                 688    70        207    
 
 
 LINKER GENERATED COPY TABLES
 
 __TI_cinit_table @ 00004514 records: 1, size/record: 8, table size: 8
-	.data: load addr=00004504, load size=00000008 bytes, run addr=00002540, run size=0000002f bytes, compression=lzss
+	.data: load addr=00004504, load size=00000008 bytes, run addr=00002400, run size=0000002f bytes, compression=lzss
 
 
 LINKER GENERATED HANDLER TABLE
@@ -362,7 +357,7 @@ address   name
 00000732  ADC12MEM9                              
 00000733  ADC12MEM9_H                            
 00000732  ADC12MEM9_L                            
-000101a6  C$$EXIT                                
+000101a0  C$$EXIT                                
 000008c0  CBCTL0                                 
 000008c1  CBCTL0_H                               
 000008c0  CBCTL0_L                               
@@ -487,7 +482,7 @@ address   name
 000004c2  MPYS_L                                 
 000004c1  MPY_H                                  
 000004c0  MPY_L                                  
-00002568  MasterMode                             
+00002428  MasterMode                             
 000004c8  OP2                                    
 000004e2  OP2H                                   
 000004e3  OP2H_H                                 
@@ -686,9 +681,9 @@ address   name
 000004b6  RTCYEAR                                
 000004b7  RTCYEAR_H                              
 000004b6  RTCYEAR_L                              
-0000256b  RXByteCtr                              
-00002540  ReceiveBuffer                          
-0000256c  ReceiveIndex                           
+0000242b  RXByteCtr                              
+00002400  ReceiveBuffer                          
+0000242c  ReceiveIndex                           
 00000100  SFRIE1                                 
 00000101  SFRIE1_H                               
 00000100  SFRIE1_L                               
@@ -795,10 +790,10 @@ address   name
 000003e0  TB0EX0                                 
 000003ee  TB0IV                                  
 000003d0  TB0R                                   
-0000256d  TXByteCtr                              
-00002554  TransmitBuffer                         
-0000256e  TransmitIndex                          
-0000256a  TransmitRegAddr                        
+0000242d  TXByteCtr                              
+00002414  TransmitBuffer                         
+0000242e  TransmitIndex                          
+0000242a  TransmitRegAddr                        
 000005d0  UCA0ABCTL                              
 000005c6  UCA0BRW                                
 000005c7  UCA0BRW_H                              
@@ -1040,7 +1035,6 @@ address   name
 0000015c  WDTCTL_L                               
 00004400  __STACK_END                            
 000000a0  __STACK_SIZE                           
-00000140  __SYSMEM_SIZE                          
 00004514  __TI_CINIT_Base                        
 0000451c  __TI_CINIT_Limit                       
 0000450c  __TI_Handler_Table_Base                
@@ -1048,7 +1042,7 @@ address   name
 000044fc  __TI_ISR_TRAP                          
 00010076  __TI_auto_init_nobinit_nopinit_hold_wdt
 00010000  __TI_decompress_lzss                   
-00010194  __TI_decompress_none                   
+0001018e  __TI_decompress_none                   
 0000ffd2  __TI_int41                             
 0000ffd4  __TI_int42                             
 0000ffd6  __TI_int43                             
@@ -1078,15 +1072,14 @@ ffffffff  __c_args__
 000044e0  _c_int00_noargs                        
 0000fffe  _reset_vector                          
 00004360  _stack                                 
-00002400  _sys_memory                            
-000101b0  _system_post_cinit                     
-000101ac  _system_pre_init                       
-000101a6  abort                                  
+000101aa  _system_post_cinit                     
+000101a6  _system_pre_init                       
+000101a0  abort                                  
 000100ca  initClockTo16MHz                       
-00010164  initGPIO                               
+0001015e  initGPIO                               
 00010116  initI2C                                
-00010142  main                                   
-00010180  memcpy                                 
+0001013c  main                                   
+0001017a  memcpy                                 
 
 
 GLOBAL SYMBOLS: SORTED BY Symbol Address 
@@ -1129,7 +1122,6 @@ address   name
 00000131  PM5CTL0_H                              
 00000140  FCTL1                                  
 00000140  FCTL1_L                                
-00000140  __SYSMEM_SIZE                          
 00000141  FCTL1_H                                
 00000144  FCTL3                                  
 00000144  FCTL3_L                                
@@ -1843,15 +1835,14 @@ address   name
 000023fd  USBIEPBBAY_7                           
 000023fe  USBIEPBCTY_7                           
 000023ff  USBIEPSIZXY_7                          
-00002400  _sys_memory                            
-00002540  ReceiveBuffer                          
-00002554  TransmitBuffer                         
-00002568  MasterMode                             
-0000256a  TransmitRegAddr                        
-0000256b  RXByteCtr                              
-0000256c  ReceiveIndex                           
-0000256d  TXByteCtr                              
-0000256e  TransmitIndex                          
+00002400  ReceiveBuffer                          
+00002414  TransmitBuffer                         
+00002428  MasterMode                             
+0000242a  TransmitRegAddr                        
+0000242b  RXByteCtr                              
+0000242c  ReceiveIndex                           
+0000242d  TXByteCtr                              
+0000242e  TransmitIndex                          
 00004360  _stack                                 
 00004400  USCI_B0_ISR                            
 00004400  __STACK_END                            
@@ -1888,17 +1879,17 @@ address   name
 00010076  __TI_auto_init_nobinit_nopinit_hold_wdt
 000100ca  initClockTo16MHz                       
 00010116  initI2C                                
-00010142  main                                   
-00010164  initGPIO                               
-00010180  memcpy                                 
-00010194  __TI_decompress_none                   
-000101a6  C$$EXIT                                
-000101a6  abort                                  
-000101ac  _system_pre_init                       
-000101b0  _system_post_cinit                     
+0001013c  main                                   
+0001015e  initGPIO                               
+0001017a  memcpy                                 
+0001018e  __TI_decompress_none                   
+000101a0  C$$EXIT                                
+000101a0  abort                                  
+000101a6  _system_pre_init                       
+000101aa  _system_post_cinit                     
 ffffffff  __TI_pprof_out_hndl                    
 ffffffff  __TI_prof_data_size                    
 ffffffff  __TI_prof_data_start                   
 ffffffff  __c_args__                             
 
-[807 symbols]
+[805 symbols]

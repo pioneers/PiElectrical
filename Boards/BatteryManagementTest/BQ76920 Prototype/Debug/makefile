@@ -10,6 +10,7 @@ GEN_OPTS__FLAG :=
 GEN_CMDS__FLAG := 
 
 ORDERED_OBJS += \
+"./ApplicationTests.obj" \
 "./BQ76920.obj" \
 "./I2C_Lib.obj" \
 "./main.obj" \
@@ -157,8 +158,8 @@ BQ76920\ Prototype.txt: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "BQ76920.obj" "I2C_Lib.obj" "main.obj" 
-	-$(RM) "BQ76920.d" "I2C_Lib.d" "main.d" 
+	-$(RM) "ApplicationTests.obj" "BQ76920.obj" "I2C_Lib.obj" "main.obj" 
+	-$(RM) "ApplicationTests.d" "BQ76920.d" "I2C_Lib.d" "main.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

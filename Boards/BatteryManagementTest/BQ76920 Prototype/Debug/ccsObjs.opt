@@ -1,1 +1,1 @@
-"./BQ76920.obj" "./I2C_Lib.obj" "./main.obj" "../lnk_msp430f5529.cmd" -llibmath.a -llibc.a 
+"./ApplicationTests.obj" "./BQ76920.obj" "./I2C_Lib.obj" "./main.obj" "../lnk_msp430f5529.cmd" -llibmath.a -llibc.a 
