@@ -17,6 +17,8 @@ main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.2.LTS/include/sys/_stdin
 main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.2.LTS/include/stdbool.h
 main.obj: C:/Users/Sherwin/Documents/PieElectrical2.0/PiElectrical/Boards/BatteryManagementTest/BQ76920\ Prototype/BQ76920.h
 main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.2.LTS/include/float.h
+main.obj: C:/Users/Sherwin/Documents/PieElectrical2.0/PiElectrical/Boards/BatteryManagementTest/BQ76920\ Prototype/ApplicationTests.h
+main.obj: C:/Users/Sherwin/Documents/PieElectrical2.0/PiElectrical/Boards/BatteryManagementTest/BQ76920\ Prototype/BQ76920.h
 
 ../main.c: 
 C:/Users/Sherwin/Documents/PieElectrical2.0/PiElectrical/Boards/BatteryManagementTest/BQ76920\ Prototype/I2C_Lib.h: 
@@ -35,3 +37,5 @@ C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.2.LTS/include/sys/_stdint.h:
 C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.2.LTS/include/stdbool.h: 
 C:/Users/Sherwin/Documents/PieElectrical2.0/PiElectrical/Boards/BatteryManagementTest/BQ76920\ Prototype/BQ76920.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.2.LTS/include/float.h: 
+C:/Users/Sherwin/Documents/PieElectrical2.0/PiElectrical/Boards/BatteryManagementTest/BQ76920\ Prototype/ApplicationTests.h: 
+C:/Users/Sherwin/Documents/PieElectrical2.0/PiElectrical/Boards/BatteryManagementTest/BQ76920\ Prototype/BQ76920.h: 

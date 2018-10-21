@@ -1,19 +1,33 @@
 #include <ApplicationTests.h>
 
-void test_set_UV_threshold(int threshold) {
+void test_set_UV_threshold(float threshold) {
     set_UV_threshold(threshold);
     volatile int register_contents = read_register(UV_TRIP);
+
+    float adc_gain = read_adc_gain();
+    float adc_offset = read_adc_offset();
+    adc_gain /= 1000000;
+    adc_offset /= 1000;
+
+    int threshold_LSB = (int) ((threshold - adc_offset) / adc_gain);
     register_contents <<= 4;
-    register_contents |= (threshold & 0b11000000001111);
+    register_contents |= (threshold_LSB & 0b11000000001111);
 
     volatile int i = 0;
 }
 
-void test_set_OV_threshold(int threshold) {
+void test_set_OV_threshold(float threshold) {
     set_OV_threshold(threshold);
     volatile int register_contents = read_register(OV_TRIP);
+
+    float adc_gain = read_adc_gain();
+    float adc_offset = read_adc_offset();
+    adc_gain /= 1000000;
+    adc_offset /= 1000;
+
+    int threshold_LSB = (int) ((threshold - adc_offset) / adc_gain);
     register_contents <<= 4;
-    register_contents |= (threshold & 0b11000000001111);
+    register_contents |= (threshold_LSB & 0b11000000001111);
 
     volatile int i = 0;
 }
@@ -26,7 +40,7 @@ void test_set_UV_and_OV_delay(int UV_delay, int OV_delay) {
     volatile int i = 0;
 }
 
-void test_UV_and_OV_application(int UV_threshold, int OV_threshold, int UV_delay, int OV_delay) {
+void test_UV_and_OV_application(float UV_threshold, float OV_threshold, int UV_delay, int OV_delay) {
     set_UV_threshold(UV_threshold);
     set_OV_threshold(OV_threshold);
     set_UV_and_OV_delay(UV_delay, OV_delay);
@@ -121,10 +135,7 @@ void test_SCD_and_OCD_application(int SCD_threshold, int SCD_delay, int OCD_thre
 void test_read_cell_voltages() {
     float voltages[5];
 
-    volatile int gain = read_adc_gain();
-    volatile int offset = read_adc_offset();
-
-    read_cell_voltages(voltages, gain, offset);
+    read_cell_voltages(voltages);
 
     volatile int i = 0;
 }
@@ -155,11 +166,8 @@ void test_basic_read_battery_voltage() {
     volatile int i = 0;
 }
 
-void test_read_battery_voltage(int adc_gain, int adc_offset) {
-    volatile int gain = read_adc_gain();
-    volatile int offset = read_adc_offset();
-
-    float battery_voltage = read_battery_voltage(gain, offset);
+void test_read_battery_voltage() {
+    float battery_voltage = read_battery_voltage();
 
     volatile int i = 0;
 }

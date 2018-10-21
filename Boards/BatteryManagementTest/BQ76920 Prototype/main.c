@@ -1,11 +1,11 @@
 #include <I2C_Lib.h>
 #include <BQ76920.h>
 #include <float.h>
-
-float voltages[] = {0, 0, 0, 0, 0};
+#include <ApplicationTests.h>
 
 void initClockTo16MHz();
 void initGPIO();
+
 int main(void) {
 
     WDTCTL = WDTPW | WDTHOLD;                 // Stop watchdog timer
@@ -13,6 +13,23 @@ int main(void) {
     initClockTo16MHz();
     initGPIO();
     initI2C(SLAVE_ADDR);
+    init_adc_parameters();
+
+    //test_set_UV_threshold(3.2);
+    //test_set_OV_threshold(4.2);
+   // test_set_UV_and_OV_delay(UV_4_SEC_DELAY, OV_2_SEC_DELAY);
+    //test_UV_and_OV_application(3.2, 4.2, UV_1_SEC_DELAY, OV_1_SEC_DELAY);
+    volatile int stat = get_and_clear_system_status();
+   // test_turn_DSG_on_and_off();
+
+    //test_set_SCD(SCD_89_MV_THRESHOLD, SCD_100_US_DELAY, 1);
+    //test_set_OCD(OCD_42_MV_THRESHOLD, OCD_40_MS_DELAY);
+    //test_SCD_and_OCD_application(SCD_56_MV_THRESHOLD, SCD_100_US_DELAY, OCD_36_MV_THRESHOLD, OCD_20_MS_DELAY, 1);
+    volatile int OV_trip = read_register(OV_TRIP);
+    test_basic_cell_voltage_read();
+    test_read_cell_voltages();
+    test_basic_read_battery_voltage();
+    test_read_battery_voltage();
 
     __bis_SR_register(LPM0_bits + GIE);
     return 0;

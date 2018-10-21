@@ -5,9 +5,7 @@
 #define BQ76920_H_
 
 #define SLAVE_ADDR  0x18
-
 #define CELL_COUNT  0x05
-
 
 //***************************************************************************
 // Device Registers *********************************************************
@@ -105,16 +103,19 @@
 //***************************************************************************
 // General Purpose Functions ************************************************
 //***************************************************************************
+void init_adc_parameters();
+
 int read_register(int address);
 
 int read_adc_gain();
 int read_adc_offset();
 
-void set_UV_threshold(int threshold);
-void set_OV_threshold(int threshold);
+void set_UV_threshold(float threshold);
+void set_OV_threshold(float threshold);
 void set_UV_and_OV_delay(int UV_delay, int OV_delay);
 
 int get_and_clear_system_status();
+int get_system_status();
 
 void turn_DSG_on();
 void turn_DSG_off();
@@ -122,7 +123,7 @@ void turn_DSG_off();
 void set_SCD(int threshold, int delay, int input_range);
 void set_OCD(int threshold, int delay);
 
-void read_cell_voltages(float *results, int adc_gain, int adc_offset);
-float read_battery_voltage(int adc_gain, int adc_offset);
+void read_cell_voltages(float *results);
+float read_battery_voltage();
 
 #endif /* BQ76920_H_ */

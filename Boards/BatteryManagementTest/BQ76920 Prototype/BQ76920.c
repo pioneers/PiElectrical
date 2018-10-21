@@ -1,5 +1,22 @@
 #include <BQ76920.h>
 
+float adc_gain;
+float adc_offset;
+
+/*
+ * saves the adc gain and offset for future use.
+ * must call this function first before doing anything else!!!!
+ */
+void init_adc_parameters() {
+    int adc_gain_val = read_adc_gain();
+    int adc_offset_val = read_adc_offset();
+
+    adc_gain = adc_gain_val;
+    adc_gain /= 1000000;
+
+    adc_offset = adc_offset_val;
+    adc_offset /= 1000;
+}
 /*
  * reads content of any register
  */
@@ -40,21 +57,25 @@ int read_adc_offset() {
 
 /*
  * writes to UV_TRIP (0x0A) register
- * UV threshold is set to 01-XXXX-XXXX-0000 where
- * XXXX-XXXX gets filled in with bits 13:4 of threshold
+ * give threshold in units of V
+ *
+ * range is 1.58 to 3.1 V
  */
-void set_UV_threshold(int threshold) {
-    uint8_t data = (threshold & 0b00111111110000) >> 4;        //get bits 13:4 from threshold
+void set_UV_threshold(float threshold) {
+    int threshold_LSB = (int) ((threshold - adc_offset) / adc_gain);
+    uint8_t data = (threshold_LSB & 0b00111111110000) >> 4;        //get bits 13:4 from threshold
     I2C_Master_WriteReg(SLAVE_ADDR, UV_TRIP, &data, 1);
 }
 
 /*
  * writes to OV_TRIP (0x09) register
- * OV threshold is set to 10-XXXX-XXXX-1000 where
- * XXXX-XXXX gets filled in with bits 11:4 of threshold
+ * give threshold in units of V
+ *
+ * range is 3.15 to 4.7 V
  */
-void set_OV_threshold(int threshold) {
-    uint8_t data = (threshold & 0b00111111110000) >> 4;        //get bits 13:4 from threshold
+void set_OV_threshold(float threshold) {
+    int threshold_LSB = (int) ((threshold - adc_offset) / adc_gain);
+    uint8_t data = (threshold_LSB & 0b00111111110000) >> 4;        //get bits 13:4 from threshold
     I2C_Master_WriteReg(SLAVE_ADDR, OV_TRIP, &data, 1);
 }
 
@@ -88,6 +109,13 @@ int get_and_clear_system_status() {
     uint8_t clear = 0b10111111;
     I2C_Master_WriteReg(SLAVE_ADDR, SYS_STAT, &clear, 1);         //clear SYS_STAT
 
+    return (int) stat;
+}
+
+int get_system_status() {
+    uint8_t stat;
+
+    I2C_Master_ReadReg(SLAVE_ADDR, SYS_STAT, &stat, 1);                //read from SYS_STAT
     return (int) stat;
 }
 
@@ -153,23 +181,18 @@ void set_OCD(int threshold, int delay) {
  * result[0] will be from the last cell and decrements from there.
  */
 __attribute__((ramfunc))
-void read_cell_voltages(float *results, int adc_gain, int adc_offset) {
+void read_cell_voltages(float *results) {
     uint8_t buffer_length = CELL_COUNT * 2;
     uint8_t adc_readings[CELL_COUNT * 2];
 
     I2C_Master_ReadReg(SLAVE_ADDR, VC1_HI, adc_readings, buffer_length);
 
-    float gain = adc_gain;
-    gain /= 1000000;
-    float offset = adc_offset;
-    offset /= 1000;
-
     int i, index;
     for (i = 0; i < CELL_COUNT; i++) {
         index = 2 * i;
         results[i] = ((adc_readings[index] & 0b00111111) << 8) + adc_readings[index + 1];
-        results[i] *= gain;
-        results[i] += offset;
+        results[i] *= adc_gain;
+        results[i] += adc_offset;
     }
 }
 
@@ -177,20 +200,15 @@ void read_cell_voltages(float *results, int adc_gain, int adc_offset) {
  * reads and converts total battery voltage to V
  */
 __attribute__((ramfunc))
-float read_battery_voltage(int adc_gain, int adc_offset) {
+float read_battery_voltage() {
     uint8_t voltage_readings[2];
 
     I2C_Master_ReadReg(SLAVE_ADDR, BAT_HI, voltage_readings, 2);
-    uint16_t total_voltage_reading = (voltage_readings[0] << 8) + voltage_readings[1];
-
-    float gain = adc_gain;
-    gain /= 1000000;
-    float offset = adc_offset;
-    offset /= 1000;
+    int total_voltage_reading = (voltage_readings[0] << 8) + voltage_readings[1];
 
     float result = total_voltage_reading;
-    result *= gain;
-    result += offset;
+    result *= adc_gain;
+    result += adc_offset;
 
     return result;
 }
