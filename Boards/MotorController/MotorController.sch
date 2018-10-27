@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4987,42 +4987,117 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <plain>
 </plain>
 <instances>
-<instance part="APM" gate="APM" x="60.96" y="93.98"/>
+<instance part="APM" gate="APM" x="60.96" y="93.98">
+<attribute name="NAME" x="50.8" y="114.3" size="1.27" layer="94"/>
+</instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0">
 <attribute name="AUTHOR" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0">
-<attribute name="REVISION" x="147.32" y="0" size="1.778" layer="96"/>
+<attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.7432" layer="94" font="vector"/>
+<attribute name="AUTHOR" x="148.59" y="6.985" size="2.7432" layer="94" font="vector"/>
+<attribute name="REVISION" x="236.22" y="6.985" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="SUPPLY2" gate="GND" x="27.94" y="99.06"/>
-<instance part="SUPPLY3" gate="GND" x="86.36" y="101.6"/>
-<instance part="LED1" gate="G$1" x="35.56" y="167.64"/>
-<instance part="SUPPLY4" gate="GND" x="91.44" y="165.1"/>
-<instance part="LED2" gate="G$1" x="35.56" y="154.94"/>
-<instance part="SUPPLY5" gate="GND" x="91.44" y="157.48"/>
-<instance part="LED3" gate="G$1" x="35.56" y="142.24"/>
-<instance part="SUPPLY6" gate="GND" x="91.44" y="149.86"/>
-<instance part="ENCODER" gate="G$1" x="17.78" y="17.78"/>
-<instance part="R1" gate="G$1" x="81.28" y="33.02"/>
-<instance part="R2" gate="G$1" x="71.12" y="142.24"/>
-<instance part="IC1" gate="G$1" x="180.34" y="91.44"/>
-<instance part="SUPPLY1" gate="GND" x="218.44" y="88.9"/>
-<instance part="SUPPLY7" gate="GND" x="195.58" y="121.92"/>
-<instance part="SUPPLY8" gate="GND" x="139.7" y="86.36"/>
-<instance part="C1" gate="G$1" x="154.94" y="139.7" rot="R90"/>
-<instance part="C2" gate="G$1" x="182.88" y="139.7" rot="R90"/>
-<instance part="C3" gate="G$1" x="149.86" y="68.58" rot="R90"/>
-<instance part="SUPPLY9" gate="GND" x="182.88" y="132.08"/>
-<instance part="SUPPLY10" gate="GND" x="167.64" y="132.08"/>
-<instance part="SUPPLY11" gate="GND" x="149.86" y="58.42"/>
-<instance part="SUPPLY12" gate="GND" x="137.16" y="58.42"/>
-<instance part="C4" gate="G$1" x="167.64" y="142.24" rot="R270"/>
-<instance part="R3" gate="G$1" x="137.16" y="68.58" rot="R90"/>
-<instance part="CONN1" gate="G$1" x="154.94" y="167.64"/>
-<instance part="CONN2" gate="G$1" x="195.58" y="167.64"/>
-<instance part="SUPPLY14" gate="GND" x="220.98" y="165.1"/>
-<instance part="U$7" gate="G$1" x="91.44" y="114.3"/>
-<instance part="SUPPLY13" gate="GND" x="99.06" y="101.6"/>
+<instance part="SUPPLY2" gate="GND" x="27.94" y="99.06">
+<attribute name="VALUE" x="26.67" y="95.25" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY3" gate="GND" x="86.36" y="101.6">
+<attribute name="VALUE" x="85.09" y="97.79" size="1.778" layer="96"/>
+</instance>
+<instance part="LED1" gate="G$1" x="35.56" y="167.64">
+<attribute name="NAME" x="31.75" y="170.18" size="1.778" layer="95"/>
+<attribute name="VALUE" x="31.75" y="161.29" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY4" gate="GND" x="91.44" y="165.1">
+<attribute name="VALUE" x="90.17" y="161.29" size="1.778" layer="96"/>
+</instance>
+<instance part="LED2" gate="G$1" x="35.56" y="154.94">
+<attribute name="NAME" x="31.75" y="157.48" size="1.778" layer="95"/>
+<attribute name="VALUE" x="31.75" y="148.59" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY5" gate="GND" x="91.44" y="157.48">
+<attribute name="VALUE" x="90.17" y="153.67" size="1.778" layer="96"/>
+</instance>
+<instance part="LED3" gate="G$1" x="35.56" y="142.24">
+<attribute name="NAME" x="31.75" y="144.78" size="1.778" layer="95"/>
+<attribute name="VALUE" x="31.75" y="135.89" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY6" gate="GND" x="91.44" y="149.86">
+<attribute name="VALUE" x="90.17" y="146.05" size="1.778" layer="96"/>
+</instance>
+<instance part="ENCODER" gate="G$1" x="17.78" y="17.78">
+<attribute name="VALUE" x="15.24" y="7.62" size="1.778" layer="96"/>
+<attribute name="NAME" x="15.24" y="24.13" size="1.778" layer="95"/>
+</instance>
+<instance part="R1" gate="G$1" x="81.28" y="33.02">
+<attribute name="NAME" x="73.66" y="63.5" size="3.81" layer="94" font="vector"/>
+<attribute name="VALUE" x="71.12" y="27.94" size="3.81" layer="94" font="vector"/>
+</instance>
+<instance part="R2" gate="G$1" x="71.12" y="142.24">
+<attribute name="NAME" x="63.5" y="172.72" size="3.81" layer="94" font="vector"/>
+<attribute name="VALUE" x="60.96" y="137.16" size="3.81" layer="94" font="vector"/>
+</instance>
+<instance part="IC1" gate="G$1" x="180.34" y="91.44">
+<attribute name="NAME" x="180.34" y="93.98" size="1.778" layer="94" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY1" gate="GND" x="218.44" y="88.9">
+<attribute name="VALUE" x="217.17" y="85.09" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY7" gate="GND" x="195.58" y="121.92">
+<attribute name="VALUE" x="194.31" y="118.11" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY8" gate="GND" x="139.7" y="86.36">
+<attribute name="VALUE" x="138.43" y="82.55" size="1.778" layer="96"/>
+</instance>
+<instance part="C1" gate="G$1" x="154.94" y="139.7" rot="R90">
+<attribute name="NAME" x="152.4" y="135.89" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="160.02" y="135.89" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C2" gate="G$1" x="182.88" y="139.7" rot="R90">
+<attribute name="NAME" x="180.34" y="135.89" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="187.96" y="135.89" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C3" gate="G$1" x="149.86" y="68.58" rot="R90">
+<attribute name="NAME" x="147.32" y="64.77" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="154.94" y="64.77" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY9" gate="GND" x="182.88" y="132.08">
+<attribute name="VALUE" x="181.61" y="128.27" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY10" gate="GND" x="167.64" y="132.08">
+<attribute name="VALUE" x="166.37" y="128.27" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY11" gate="GND" x="149.86" y="58.42">
+<attribute name="VALUE" x="148.59" y="54.61" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY12" gate="GND" x="137.16" y="58.42">
+<attribute name="VALUE" x="135.89" y="54.61" size="1.778" layer="96"/>
+</instance>
+<instance part="C4" gate="G$1" x="167.64" y="142.24" rot="R270">
+<attribute name="NAME" x="171.45" y="144.78" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="162.56" y="144.78" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R3" gate="G$1" x="137.16" y="68.58" rot="R90">
+<attribute name="NAME" x="134.62" y="63.5" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="140.97" y="63.5" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="CONN1" gate="G$1" x="154.94" y="167.64">
+<attribute name="NAME" x="147.32" y="173.736" size="1.778" layer="95"/>
+</instance>
+<instance part="CONN2" gate="G$1" x="195.58" y="167.64">
+<attribute name="NAME" x="187.96" y="173.736" size="1.778" layer="95"/>
+</instance>
+<instance part="SUPPLY14" gate="GND" x="220.98" y="165.1">
+<attribute name="VALUE" x="219.71" y="161.29" size="1.778" layer="96"/>
+</instance>
+<instance part="U$7" gate="G$1" x="91.44" y="114.3">
+<attribute name="NAME" x="91.44" y="124.46" size="2.54" layer="94" font="vector"/>
+</instance>
+<instance part="SUPPLY13" gate="GND" x="99.06" y="101.6">
+<attribute name="VALUE" x="97.79" y="97.79" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5407,22 +5482,17 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <label x="149.86" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="APM" gate="APM" pin="7"/>
-<wire x1="48.26" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
-<label x="43.18" y="83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$7" gate="G$1" pin="P1"/>
 <wire x1="121.92" y1="109.22" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
 <label x="119.38" y="101.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="APM" gate="APM" pin="5"/>
+<wire x1="48.26" y1="88.9" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
+<label x="43.18" y="88.9" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PWM1" class="0">
-<segment>
-<pinref part="APM" gate="APM" pin="8"/>
-<wire x1="48.26" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
-<label x="43.18" y="81.28" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="IN1"/>
 <wire x1="157.48" y1="99.06" x2="152.4" y2="99.06" width="0.1524" layer="91"/>
@@ -5432,6 +5502,11 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <pinref part="U$7" gate="G$1" pin="P2"/>
 <wire x1="114.3" y1="109.22" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
 <label x="111.76" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="APM" gate="APM" pin="6"/>
+<wire x1="48.26" y1="86.36" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
+<label x="43.18" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM2" class="0">
