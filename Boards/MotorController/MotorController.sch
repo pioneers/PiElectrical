@@ -12,6 +12,16 @@
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -661,21 +671,21 @@ Drawings &lt;/a&gt;</description>
 <text x="-0.381" y="-2.286" size="1.016" layer="21" font="vector">+</text>
 </package>
 <package name="4X-0603">
-<smd name="8" x="0" y="1.6" dx="0.65" dy="0.7" layer="1" rot="R180"/>
-<smd name="7" x="0.875" y="1.6" dx="0.55" dy="0.7" layer="1" rot="R180"/>
-<smd name="6" x="1.675" y="1.6" dx="0.55" dy="0.7" layer="1" rot="R180"/>
-<smd name="1" x="0" y="0" dx="0.65" dy="0.7" layer="1" rot="R180"/>
-<smd name="2" x="0.875" y="0" dx="0.55" dy="0.7" layer="1" rot="R180"/>
-<smd name="5" x="2.55" y="1.6" dx="0.65" dy="0.7" layer="1" rot="R180"/>
-<smd name="3" x="1.675" y="0" dx="0.55" dy="0.7" layer="1"/>
-<smd name="4" x="2.55" y="0" dx="0.65" dy="0.7" layer="1" rot="R180"/>
+<smd name="8" x="0" y="1.65" dx="0.65" dy="0.8" layer="1" rot="R180"/>
+<smd name="7" x="0.875" y="1.65" dx="0.55" dy="0.8" layer="1" rot="R180"/>
+<smd name="6" x="1.675" y="1.65" dx="0.55" dy="0.8" layer="1" rot="R180"/>
+<smd name="1" x="0" y="-0.05" dx="0.65" dy="0.8" layer="1" rot="R180"/>
+<smd name="2" x="0.875" y="-0.05" dx="0.55" dy="0.8" layer="1" rot="R180"/>
+<smd name="5" x="2.55" y="1.65" dx="0.65" dy="0.8" layer="1" rot="R180"/>
+<smd name="3" x="1.675" y="-0.05" dx="0.55" dy="0.8" layer="1"/>
+<smd name="4" x="2.55" y="-0.05" dx="0.65" dy="0.8" layer="1" rot="R180"/>
 <wire x1="-0.3" y1="1.25" x2="2.85" y2="1.25" width="0.0762" layer="21"/>
 <wire x1="2.85" y1="1.25" x2="2.85" y2="0.35" width="0.0762" layer="21"/>
 <wire x1="2.85" y1="0.35" x2="-0.3" y2="0.35" width="0.0762" layer="21"/>
 <wire x1="-0.3" y1="0.35" x2="-0.3" y2="1.25" width="0.0762" layer="21"/>
 <text x="0.4" y="0.65" size="0.3048" layer="21" font="vector">4x 0603</text>
-<text x="-0.45" y="2.1" size="0.6096" layer="25" font="vector">&gt;NAME</text>
-<text x="-0.4" y="-1.1" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.45" y="2.15" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.4" y="-1.15" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="PQFN-32">
 <description>&lt;b&gt;QFP32&lt;/b&gt;&lt;p&gt;
@@ -3030,8 +3040,8 @@ Vertical
 &lt;a href="http://www.alliedelec.com/anderson-power-products-1377g4-bk/70162018/"&gt; Connector &lt;/a&gt;
 &lt;br&gt;
 &lt;a href="http://www.alliedelec.com/anderson-power-products-1327g6-bk/70162000/"&gt; Plastic &lt;/a&gt;</description>
-<pad name="PIN1" x="0" y="-3.937" drill="3.175" diameter="4.699" rot="R90"/>
-<pad name="PIN2" x="0" y="3.937" drill="3.175" diameter="4.699" rot="R90"/>
+<pad name="PIN1" x="0" y="-3.937" drill="2.667" diameter="4.191" rot="R90"/>
+<pad name="PIN2" x="0" y="3.937" drill="2.667" diameter="4.191" rot="R90"/>
 <rectangle x1="-7.874" y1="-3.937" x2="7.874" y2="3.937" layer="39" rot="R90"/>
 <wire x1="3.937" y1="-7.874" x2="-3.937" y2="-7.874" width="0.127" layer="21"/>
 <wire x1="-3.937" y1="-7.874" x2="-3.937" y2="0" width="0.127" layer="21"/>
