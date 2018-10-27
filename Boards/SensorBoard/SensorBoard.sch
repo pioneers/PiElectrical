@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12,6 +12,16 @@
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -620,21 +630,34 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <rectangle x1="-1.143" y1="-1.143" x2="1.143" y2="1.143" layer="39"/>
 </package>
 <package name="4X-0603">
-<smd name="8" x="0" y="1.475" dx="0.65" dy="0.45" layer="1" rot="R180"/>
-<smd name="7" x="0.875" y="1.475" dx="0.55" dy="0.45" layer="1" rot="R180"/>
-<smd name="6" x="1.675" y="1.475" dx="0.55" dy="0.45" layer="1" rot="R180"/>
-<smd name="1" x="0" y="0.125" dx="0.65" dy="0.45" layer="1" rot="R180"/>
-<smd name="2" x="0.875" y="0.125" dx="0.55" dy="0.45" layer="1" rot="R180"/>
-<smd name="5" x="2.55" y="1.475" dx="0.65" dy="0.45" layer="1" rot="R180"/>
-<smd name="3" x="1.675" y="0.125" dx="0.54" dy="0.45" layer="1"/>
-<smd name="4" x="2.55" y="0.125" dx="0.65" dy="0.45" layer="1" rot="R180"/>
+<smd name="8" x="0" y="1.65" dx="0.65" dy="0.8" layer="1" rot="R180"/>
+<smd name="7" x="0.875" y="1.65" dx="0.55" dy="0.8" layer="1" rot="R180"/>
+<smd name="6" x="1.675" y="1.65" dx="0.55" dy="0.8" layer="1" rot="R180"/>
+<smd name="1" x="0" y="-0.05" dx="0.65" dy="0.8" layer="1" rot="R180"/>
+<smd name="2" x="0.875" y="-0.05" dx="0.55" dy="0.8" layer="1" rot="R180"/>
+<smd name="5" x="2.55" y="1.65" dx="0.65" dy="0.8" layer="1" rot="R180"/>
+<smd name="3" x="1.675" y="-0.05" dx="0.55" dy="0.8" layer="1"/>
+<smd name="4" x="2.55" y="-0.05" dx="0.65" dy="0.8" layer="1" rot="R180"/>
 <wire x1="-0.3" y1="1.25" x2="2.85" y2="1.25" width="0.0762" layer="21"/>
 <wire x1="2.85" y1="1.25" x2="2.85" y2="0.35" width="0.0762" layer="21"/>
 <wire x1="2.85" y1="0.35" x2="-0.3" y2="0.35" width="0.0762" layer="21"/>
 <wire x1="-0.3" y1="0.35" x2="-0.3" y2="1.25" width="0.0762" layer="21"/>
 <text x="0.4" y="0.65" size="0.3048" layer="21" font="vector">4x 0603</text>
-<text x="-0.45" y="1.85" size="0.6096" layer="25" font="vector">&gt;NAME</text>
-<text x="-0.4" y="-0.8" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.45" y="2.15" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.4" y="-1.15" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
+</package>
+<package name="5PIN_MC">
+<pad name="GND" x="0" y="0" drill="1" diameter="2.1844" shape="square"/>
+<pad name="INV" x="2.54" y="0" drill="1" diameter="2.1844"/>
+<pad name="VCC" x="5.08" y="0" drill="1" diameter="2.1844" shape="square"/>
+<pad name="PWM1" x="1.27" y="-3.81" drill="1" diameter="2.1844"/>
+<pad name="PWM2" x="3.81" y="-3.81" drill="1" diameter="2.1844"/>
+<text x="-1.143" y="1.524" size="1.6764" layer="21" font="vector">&gt;NAME</text>
+<text x="-0.762" y="-2.159" size="0.6096" layer="21" font="vector">GND</text>
+<text x="1.905" y="-2.159" size="0.6096" layer="21" font="vector">INV</text>
+<text x="4.445" y="-2.159" size="0.6096" layer="21" font="vector">VCC</text>
+<text x="0.254" y="-5.842" size="0.6096" layer="21" font="vector">PWM1</text>
+<text x="2.794" y="-5.842" size="0.6096" layer="21" font="vector">PWM2</text>
 </package>
 </packages>
 <symbols>
@@ -1073,6 +1096,18 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <technology name=""/>
 </technologies>
 </device>
+<device name="5PIN_MC" package="5PIN_MC">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="P1" pad="INV"/>
+<connect gate="G$1" pin="P2" pad="PWM1"/>
+<connect gate="G$1" pin="P3" pad="PWM2"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="SOLDERJUMPER" prefix="SJ">
@@ -1188,26 +1223,64 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <plain>
 </plain>
 <instances>
-<instance part="APM" gate="APM" x="60.96" y="93.98"/>
+<instance part="APM" gate="APM" x="60.96" y="93.98">
+<attribute name="NAME" x="50.8" y="114.3" size="1.27" layer="94"/>
+</instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0">
 <attribute name="AUTHOR" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0">
-<attribute name="REVISION" x="147.32" y="0" size="1.778" layer="96"/>
+<attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.7432" layer="94" font="vector"/>
+<attribute name="AUTHOR" x="148.59" y="6.985" size="2.7432" layer="94" font="vector"/>
+<attribute name="REVISION" x="236.22" y="6.985" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="SUPPLY2" gate="GND" x="27.94" y="99.06"/>
-<instance part="SUPPLY1" gate="GND" x="165.1" y="106.68"/>
-<instance part="SUPPLY3" gate="GND" x="81.28" y="101.6"/>
-<instance part="LED1" gate="G$1" x="40.64" y="154.94"/>
-<instance part="SUPPLY4" gate="GND" x="93.98" y="144.78"/>
-<instance part="LED2" gate="G$1" x="40.64" y="139.7"/>
-<instance part="SUPPLY5" gate="GND" x="93.98" y="137.16"/>
-<instance part="LED3" gate="G$1" x="40.64" y="124.46"/>
-<instance part="SUPPLY6" gate="GND" x="93.98" y="152.4"/>
-<instance part="U$2" gate="G$1" x="193.04" y="119.38" rot="R270"/>
-<instance part="SJ1" gate="1" x="93.98" y="99.06"/>
-<instance part="R1" gate="G$1" x="139.7" y="78.74"/>
-<instance part="R2" gate="G$1" x="73.66" y="129.54"/>
+<instance part="SUPPLY2" gate="GND" x="27.94" y="99.06">
+<attribute name="VALUE" x="26.67" y="95.25" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY1" gate="GND" x="165.1" y="106.68">
+<attribute name="VALUE" x="163.83" y="102.87" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY3" gate="GND" x="81.28" y="101.6">
+<attribute name="VALUE" x="80.01" y="97.79" size="1.778" layer="96"/>
+</instance>
+<instance part="LED1" gate="G$1" x="40.64" y="154.94">
+<attribute name="NAME" x="36.83" y="157.48" size="1.778" layer="95"/>
+<attribute name="VALUE" x="36.83" y="148.59" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY4" gate="GND" x="93.98" y="144.78">
+<attribute name="VALUE" x="92.71" y="140.97" size="1.778" layer="96"/>
+</instance>
+<instance part="LED2" gate="G$1" x="40.64" y="139.7">
+<attribute name="NAME" x="36.83" y="142.24" size="1.778" layer="95"/>
+<attribute name="VALUE" x="36.83" y="133.35" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY5" gate="GND" x="93.98" y="137.16">
+<attribute name="VALUE" x="92.71" y="133.35" size="1.778" layer="96"/>
+</instance>
+<instance part="LED3" gate="G$1" x="40.64" y="124.46">
+<attribute name="NAME" x="36.83" y="127" size="1.778" layer="95"/>
+<attribute name="VALUE" x="36.83" y="118.11" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY6" gate="GND" x="93.98" y="152.4">
+<attribute name="VALUE" x="92.71" y="148.59" size="1.778" layer="96"/>
+</instance>
+<instance part="U$2" gate="G$1" x="193.04" y="119.38" rot="R270">
+<attribute name="NAME" x="203.2" y="119.38" size="2.54" layer="94" font="vector" rot="R270"/>
+</instance>
+<instance part="SJ1" gate="1" x="93.98" y="99.06">
+<attribute name="NAME" x="88.9" y="101.6" size="1.778" layer="95"/>
+<attribute name="VALUE" x="88.9" y="95.25" size="1.778" layer="96"/>
+</instance>
+<instance part="R1" gate="G$1" x="139.7" y="78.74">
+<attribute name="NAME" x="132.08" y="109.22" size="3.81" layer="94" font="vector"/>
+<attribute name="VALUE" x="129.54" y="73.66" size="3.81" layer="94" font="vector"/>
+</instance>
+<instance part="R2" gate="G$1" x="73.66" y="129.54">
+<attribute name="NAME" x="66.04" y="160.02" size="3.81" layer="94" font="vector"/>
+<attribute name="VALUE" x="63.5" y="124.46" size="3.81" layer="94" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
