@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2018-10-27T21:47:35Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 0.3302,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "ServoController"
+        },
+        "Owner": "Averal Kandala <avekan33@berkeley.edu>",
+        "Size": {
+            "X": 31.75,
+            "Y": 50.8
+        }
+    }
+}

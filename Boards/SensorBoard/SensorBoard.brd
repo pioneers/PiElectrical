@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -996,30 +996,24 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <element name="U$1" library="pie" package="STAND-OFF" value="" x="29.21" y="46.99"/>
 <element name="U$5" library="pie" package="STAND-OFF" value="" x="5.08" y="46.99"/>
 <element name="U$6" library="pie" package="STAND-OFF" value="" x="5.08" y="5.08"/>
-<element name="LED1" library="pie" package="LED-1206" value="RED" x="30.6316" y="11.7004">
+<element name="LED1" library="pie" package="LED-1206" value="RED" x="30.6316" y="11.7004" smashed="yes">
 <attribute name="PIE-INT-REF-NUM" value="LED" x="30.6316" y="11.7004" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="31.5046" y="10.5584" size="0.762" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="LED2" library="pie" package="LED-1206" value="YELLOW" x="30.6316" y="15.0024">
+<element name="LED2" library="pie" package="LED-1206" value="YELLOW" x="30.6316" y="15.0024" smashed="yes">
 <attribute name="PIE-INT-REF-NUM" value="LED" x="30.6316" y="15.0024" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="32.5366" y="13.7324" size="0.762" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="LED3" library="pie" package="LED-1206" value="GREEN" x="30.6316" y="18.3044">
+<element name="LED3" library="pie" package="LED-1206" value="GREEN" x="30.6316" y="18.3044" smashed="yes">
 <attribute name="PIE-INT-REF-NUM" value="LED" x="30.6316" y="18.3044" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="32.0286" y="17.0344" size="0.762" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="U$2" library="pie" package="5PIN" value="5PIN" x="22.6568" y="3.3782" rot="R180"/>
-<element name="SJ1" library="pie" package="SJ_2S-NO" value="SOLDERJUMPERNO" x="29.8958" y="32.1056" rot="R270">
+<element name="U$2" library="pie" package="5PIN" value="5PIN" x="22.6568" y="3.3782" smashed="yes" rot="R180"/>
+<element name="SJ1" library="pie" package="SJ_2S-NO" value="SOLDERJUMPERNO" x="29.8958" y="32.1056" smashed="yes" rot="R270">
 <attribute name="PIE-INT-REF-NUM" value="DNL" x="29.8958" y="32.1056" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R1" library="pie" package="4X-0603" value="10k" x="29.1338" y="28.8036" rot="R270">
-<attribute name="NAME" x="30.9838" y="29.2536" size="0.6096" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="28.3338" y="29.2036" size="0.6096" layer="27" font="vector" rot="R270"/>
-</element>
-<element name="R2" library="pie" package="4X-0603" value="330" x="29.1084" y="24.1808" rot="R270">
-<attribute name="NAME" x="30.9584" y="24.6308" size="0.6096" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="28.3084" y="24.5808" size="0.6096" layer="27" font="vector" rot="R270"/>
-</element>
+<element name="R1" library="pie" package="4X-0603" value="10k" x="29.1338" y="28.8036" rot="R270"/>
+<element name="R2" library="pie" package="4X-0603" value="330" x="29.1084" y="24.1808" rot="R270"/>
 <element name="U$7" library="pie" package="STAND-OFF" value="" x="29.21" y="5.08"/>
 </elements>
 <signals>
