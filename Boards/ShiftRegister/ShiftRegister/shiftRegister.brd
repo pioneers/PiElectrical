@@ -266,27 +266,27 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <rectangle x1="-1.905" y1="-0.762" x2="1.905" y2="0.762" layer="39"/>
 </package>
 <package name="SN74HC595">
-<wire x1="0" y1="0" x2="5.1" y2="0" width="0.127" layer="21"/>
-<wire x1="5.1" y1="0" x2="5.1" y2="4.5" width="0.127" layer="21"/>
-<wire x1="5.1" y1="4.5" x2="0" y2="4.5" width="0.127" layer="21"/>
-<wire x1="0" y1="4.5" x2="0" y2="0" width="0.127" layer="21"/>
-<smd name="QB" x="0.275" y="-0.575" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="QC" x="0.925" y="-0.575" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="QD" x="1.575" y="-0.575" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="QE" x="2.225" y="-0.575" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="QF" x="2.875" y="-0.575" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="QG" x="3.525" y="-0.575" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="QH" x="4.175" y="-0.575" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="GND" x="4.825" y="-0.575" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="VCC" x="0.275" y="5.075" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="QA" x="0.925" y="5.075" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="SER" x="1.575" y="5.075" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="OE" x="2.225" y="5.075" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="RCLK" x="2.875" y="5.075" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="SRCLK" x="3.525" y="5.075" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="SRCLR" x="4.175" y="5.075" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="QH'" x="4.825" y="5.075" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<circle x="0.5" y="2.4" radius="0.1" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="10.5" y2="0" width="0.127" layer="21"/>
+<wire x1="10.5" y1="0" x2="10.5" y2="7.6" width="0.127" layer="21"/>
+<wire x1="10.5" y1="7.6" x2="0" y2="7.6" width="0.127" layer="21"/>
+<wire x1="0" y1="7.6" x2="0" y2="0" width="0.127" layer="21"/>
+<smd name="QB" x="0.805" y="-0.7575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="QC" x="2.075" y="-0.7575" dx="1.515" dy="0.51" layer="1" rot="R270"/>
+<smd name="QD" x="3.345" y="-0.7575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="QE" x="4.615" y="-0.7575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="QF" x="5.885" y="-0.7575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="QG" x="7.115" y="-0.7575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="QH" x="8.385" y="-0.7575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="GND" x="9.655" y="-0.7575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="VCC" x="0.805" y="8.3575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="QA" x="2.075" y="8.3575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="SER" x="3.345" y="8.3575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="OE" x="4.615" y="8.3575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="RCLK" x="5.885" y="8.3575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="SRCLK" x="7.115" y="8.3575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="SRCLR" x="8.385" y="8.3575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="QH'" x="9.655" y="8.3575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<circle x="0.5" y="3.67" radius="0.1" width="0.127" layer="21"/>
 <text x="-0.6" y="0.6" size="0.8128" layer="21" font="vector" rot="R90">&gt;NAME</text>
 </package>
 </packages>
@@ -478,231 +478,231 @@ design rules under a new name.
 </pass>
 </autorouter>
 <elements>
-<element name="IC1" library="pie" package="ARDUINO_PRO_MICRO" value="ARDUINO_PRO_MICRO" x="54.61" y="-1.27">
-<attribute name="DESCRIPTION" value="Arduino Pro Micro" x="86.36" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR" value="AliExpress" x="86.36" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR_PART_NUMBER" value="32284746884" x="86.36" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Feiyang electronics" x="86.36" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="" x="86.36" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="64.008" y="6.858" size="1.27" layer="21" font="vector" rot="R90" align="center"/>
-<attribute name="NOTES" value="https://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5" x="86.36" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" x="86.36" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" x="86.36" y="-2.54" size="1.778" layer="27" display="off"/>
+<element name="IC1" library="pie" package="ARDUINO_PRO_MICRO" value="ARDUINO_PRO_MICRO" x="16.51" y="5.08">
+<attribute name="DESCRIPTION" value="Arduino Pro Micro" x="48.26" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="AliExpress" x="48.26" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="32284746884" x="48.26" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Feiyang electronics" x="48.26" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="48.26" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="25.908" y="13.208" size="1.27" layer="21" font="vector" rot="R90" align="center"/>
+<attribute name="NOTES" value="https://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5" x="48.26" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" x="48.26" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" x="48.26" y="3.81" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LED1" library="pie" package="FKIT-LED-1206" value="" x="90.17" y="36.83">
-<attribute name="NAME" x="88.265" y="38.1" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="PIE-INT-REF-NUM" value="LED" x="121.92" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="88.265" y="34.29" size="1.27" layer="27" font="vector"/>
+<element name="LED1" library="pie" package="FKIT-LED-1206" value="" x="91.44" y="45.72">
+<attribute name="NAME" x="89.535" y="46.99" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="PIE-INT-REF-NUM" value="LED" x="123.19" y="-1.27" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="89.535" y="43.18" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="LED3" library="pie" package="FKIT-LED-1206" value="" x="90.17" y="41.91">
-<attribute name="NAME" x="88.265" y="43.18" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="PIE-INT-REF-NUM" value="LED" x="128.27" y="-5.08" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="88.265" y="39.37" size="1.27" layer="27" font="vector"/>
+<element name="LED3" library="pie" package="FKIT-LED-1206" value="" x="91.44" y="50.8">
+<attribute name="NAME" x="89.535" y="52.07" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="PIE-INT-REF-NUM" value="LED" x="129.54" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="89.535" y="48.26" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="LED4" library="pie" package="FKIT-LED-1206" value="" x="90.17" y="46.99">
-<attribute name="NAME" x="88.265" y="48.26" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="PIE-INT-REF-NUM" value="LED" x="134.62" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="88.265" y="44.45" size="1.27" layer="27" font="vector"/>
+<element name="LED4" library="pie" package="FKIT-LED-1206" value="" x="91.44" y="54.61">
+<attribute name="NAME" x="89.535" y="55.88" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="PIE-INT-REF-NUM" value="LED" x="135.89" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="89.535" y="52.07" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="LED5" library="pie" package="FKIT-LED-1206" value="" x="90.17" y="52.07">
-<attribute name="NAME" x="88.265" y="53.34" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="PIE-INT-REF-NUM" value="LED" x="106.68" y="-1.27" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="88.265" y="49.53" size="1.27" layer="27" font="vector"/>
+<element name="LED5" library="pie" package="FKIT-LED-1206" value="" x="91.44" y="58.42">
+<attribute name="NAME" x="89.535" y="59.69" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="PIE-INT-REF-NUM" value="LED" x="107.95" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="89.535" y="55.88" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="LED6" library="pie" package="FKIT-LED-1206" value="" x="90.17" y="62.23">
-<attribute name="NAME" x="88.265" y="63.5" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="PIE-INT-REF-NUM" value="LED" x="113.03" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="88.265" y="59.69" size="1.27" layer="27" font="vector"/>
+<element name="LED6" library="pie" package="FKIT-LED-1206" value="" x="91.44" y="63.5">
+<attribute name="NAME" x="89.535" y="64.77" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="PIE-INT-REF-NUM" value="LED" x="114.3" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="89.535" y="60.96" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="LED7" library="pie" package="FKIT-LED-1206" value="" x="90.17" y="55.88">
-<attribute name="NAME" x="88.265" y="57.15" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="PIE-INT-REF-NUM" value="LED" x="119.38" y="2.54" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="88.265" y="53.34" size="1.27" layer="27" font="vector"/>
+<element name="LED7" library="pie" package="FKIT-LED-1206" value="" x="91.44" y="68.58">
+<attribute name="NAME" x="89.535" y="69.85" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="PIE-INT-REF-NUM" value="LED" x="120.65" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="89.535" y="66.04" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="LED8" library="pie" package="FKIT-LED-1206" value="" x="90.17" y="68.58">
-<attribute name="NAME" x="88.265" y="69.85" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="PIE-INT-REF-NUM" value="LED" x="125.73" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="88.265" y="66.04" size="1.27" layer="27" font="vector"/>
+<element name="LED8" library="pie" package="FKIT-LED-1206" value="" x="91.44" y="72.39">
+<attribute name="NAME" x="89.535" y="73.66" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="PIE-INT-REF-NUM" value="LED" x="127" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="89.535" y="69.85" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="LED9" library="pie" package="FKIT-LED-1206" value="" x="90.17" y="73.66">
-<attribute name="NAME" x="88.265" y="74.93" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="PIE-INT-REF-NUM" value="LED" x="132.08" y="20.32" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="88.265" y="71.12" size="1.27" layer="27" font="vector"/>
+<element name="LED9" library="pie" package="FKIT-LED-1206" value="" x="91.44" y="76.2">
+<attribute name="NAME" x="89.535" y="77.47" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="PIE-INT-REF-NUM" value="LED" x="133.35" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="89.535" y="73.66" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="R1" library="pie" package="R0603" value="&gt;VALUE" x="36.83" y="38.1">
-<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="82.55" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR" value="DigiKey" x="82.55" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="82.55" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="82.55" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="" x="82.55" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="35.56" y="39.37" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="NOTES" value="Cut Tape" x="82.55" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="R0603" x="82.55" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="35.56" y="35.56" size="1.27" layer="27" font="vector"/>
+<element name="R1" library="pie" package="R0603" value="&gt;VALUE" x="81.28" y="45.72">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="127" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="127" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="127" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="127" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="127" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="80.01" y="46.99" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NOTES" value="Cut Tape" x="127" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="127" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="80.01" y="43.18" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="R2" library="pie" package="R0603" value="&gt;VALUE" x="35.56" y="41.91">
-<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="54.61" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR" value="DigiKey" x="54.61" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="54.61" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="54.61" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="" x="54.61" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="34.29" y="43.18" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="NOTES" value="Cut Tape" x="54.61" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="R0603" x="54.61" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="34.29" y="39.37" size="1.27" layer="27" font="vector"/>
+<element name="R2" library="pie" package="R0603" value="&gt;VALUE" x="81.28" y="50.8">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="100.33" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="100.33" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="100.33" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="100.33" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="100.33" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="80.01" y="52.07" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NOTES" value="Cut Tape" x="100.33" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="100.33" y="8.89" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="80.01" y="48.26" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="R3" library="pie" package="R0603" value="&gt;VALUE" x="35.56" y="48.26">
-<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="62.23" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR" value="DigiKey" x="62.23" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="62.23" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="62.23" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="" x="62.23" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="34.29" y="49.53" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="NOTES" value="Cut Tape" x="62.23" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="R0603" x="62.23" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="34.29" y="45.72" size="1.27" layer="27" font="vector"/>
+<element name="R3" library="pie" package="R0603" value="&gt;VALUE" x="81.28" y="54.61">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="107.95" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="107.95" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="107.95" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="107.95" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="107.95" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="80.01" y="55.88" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NOTES" value="Cut Tape" x="107.95" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="107.95" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="80.01" y="52.07" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="R4" library="pie" package="R0603" value="&gt;VALUE" x="34.29" y="52.07">
-<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="68.58" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR" value="DigiKey" x="68.58" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="68.58" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="68.58" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="" x="68.58" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="33.02" y="53.34" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="NOTES" value="Cut Tape" x="68.58" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="R0603" x="68.58" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="33.02" y="49.53" size="1.27" layer="27" font="vector"/>
+<element name="R4" library="pie" package="R0603" value="&gt;VALUE" x="81.28" y="58.42">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="115.57" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="115.57" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="115.57" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="115.57" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="115.57" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="80.01" y="59.69" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NOTES" value="Cut Tape" x="115.57" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="115.57" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="80.01" y="55.88" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="R5" library="pie" package="R0603" value="&gt;VALUE" x="33.02" y="63.5">
-<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="74.93" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR" value="DigiKey" x="74.93" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="74.93" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="74.93" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="" x="74.93" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="31.75" y="64.77" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="NOTES" value="Cut Tape" x="74.93" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="R0603" x="74.93" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="31.75" y="60.96" size="1.27" layer="27" font="vector"/>
+<element name="R5" library="pie" package="R0603" value="&gt;VALUE" x="81.28" y="63.5">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="123.19" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="123.19" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="123.19" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="123.19" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="123.19" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="80.01" y="64.77" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NOTES" value="Cut Tape" x="123.19" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="123.19" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="80.01" y="60.96" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="R6" library="pie" package="R0603" value="&gt;VALUE" x="34.29" y="58.42">
-<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="83.82" y="16.51" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR" value="DigiKey" x="83.82" y="16.51" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="83.82" y="16.51" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="83.82" y="16.51" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="" x="83.82" y="16.51" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="33.02" y="59.69" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="NOTES" value="Cut Tape" x="83.82" y="16.51" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="R0603" x="83.82" y="16.51" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="33.02" y="55.88" size="1.27" layer="27" font="vector"/>
+<element name="R6" library="pie" package="R0603" value="&gt;VALUE" x="81.28" y="68.58">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="130.81" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="130.81" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="130.81" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="130.81" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="130.81" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="80.01" y="69.85" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NOTES" value="Cut Tape" x="130.81" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="130.81" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="80.01" y="66.04" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="R7" library="pie" package="R0603" value="&gt;VALUE" x="31.75" y="74.93">
-<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="50.8" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR" value="DigiKey" x="50.8" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="50.8" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="50.8" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="" x="50.8" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="30.48" y="76.2" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="NOTES" value="Cut Tape" x="50.8" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="R0603" x="50.8" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="30.48" y="72.39" size="1.27" layer="27" font="vector"/>
+<element name="R7" library="pie" package="R0603" value="&gt;VALUE" x="81.28" y="76.2">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="100.33" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="100.33" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="100.33" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="100.33" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="100.33" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="80.01" y="77.47" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NOTES" value="Cut Tape" x="100.33" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="100.33" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="80.01" y="73.66" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="R8" library="pie" package="R0603" value="&gt;VALUE" x="33.02" y="67.31">
-<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="59.69" y="19.05" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR" value="DigiKey" x="59.69" y="19.05" size="1.778" layer="27" display="off"/>
-<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="59.69" y="19.05" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="59.69" y="19.05" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="" x="59.69" y="19.05" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="31.75" y="68.58" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="NOTES" value="Cut Tape" x="59.69" y="19.05" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="R0603" x="59.69" y="19.05" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="31.75" y="64.77" size="1.27" layer="27" font="vector"/>
+<element name="R8" library="pie" package="R0603" value="&gt;VALUE" x="81.28" y="72.39">
+<attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="107.95" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="DigiKey" x="107.95" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="107.95" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor" x="107.95" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="107.95" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="80.01" y="73.66" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NOTES" value="Cut Tape" x="107.95" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="R0603" x="107.95" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="80.01" y="69.85" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="U$1" library="pie" package="SN74HC595" value="SN74HC595" x="15.24" y="39.37" rot="R138.5">
-<attribute name="NAME" x="19.781925" y="41.217134375" size="0.8128" layer="21" font="vector" rot="R228.5"/>
+<element name="U$1" library="pie" package="SN74HC595" value="SN74HC595" x="34.29" y="57.15" rot="R179.1">
+<attribute name="NAME" x="36.398696875" y="59.717484375" size="0.8128" layer="21" font="vector" rot="R269.1"/>
 </element>
 </elements>
 <signals>
 <signal name="N$1">
 <contactref element="R1" pad="2"/>
 <contactref element="LED1" pad="A"/>
-<wire x1="37.68" y1="38.1" x2="88.748" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="82.13" y1="45.72" x2="90.018" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R2" pad="2"/>
 <contactref element="LED3" pad="A"/>
-<wire x1="36.41" y1="41.91" x2="88.748" y2="41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="82.13" y1="50.8" x2="90.018" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R3" pad="2"/>
 <contactref element="LED4" pad="A"/>
-<wire x1="36.41" y1="48.26" x2="88.748" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="82.13" y1="54.61" x2="90.018" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R4" pad="2"/>
 <contactref element="LED5" pad="A"/>
-<wire x1="35.14" y1="52.07" x2="88.748" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="82.13" y1="58.42" x2="90.018" y2="58.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="LED6" pad="A"/>
 <contactref element="R5" pad="2"/>
-<wire x1="33.87" y1="63.5" x2="88.748" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="82.13" y1="63.5" x2="90.018" y2="63.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R6" pad="2"/>
 <contactref element="LED7" pad="A"/>
-<wire x1="35.14" y1="58.42" x2="88.748" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="82.13" y1="68.58" x2="90.018" y2="68.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R8" pad="2"/>
 <contactref element="LED8" pad="A"/>
-<wire x1="33.87" y1="67.31" x2="88.748" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="82.13" y1="72.39" x2="90.018" y2="72.39" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R7" pad="2"/>
 <contactref element="LED9" pad="A"/>
-<wire x1="32.6" y1="74.93" x2="88.748" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="82.13" y1="76.2" x2="90.018" y2="76.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QA">
 <contactref element="U$1" pad="QA"/>
 <contactref element="R1" pad="1"/>
-<wire x1="11.18441875" y1="36.181971875" x2="35.98" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="32.08398125" y1="48.826121875" x2="80.43" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QB">
 <contactref element="U$1" pad="QB"/>
 <contactref element="R2" pad="1"/>
-<wire x1="15.415040625" y1="39.98286875" x2="34.71" y2="41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="33.496996875" y1="57.92005" x2="80.43" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QC">
 <contactref element="U$1" pad="QC"/>
 <contactref element="R3" pad="1"/>
-<wire x1="14.928221875" y1="40.413571875" x2="34.71" y2="48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="32.227153125" y1="57.939996875" x2="80.43" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QD">
 <contactref element="U$1" pad="QD"/>
 <contactref element="R4" pad="1"/>
-<wire x1="14.4414" y1="40.844275" x2="33.44" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="30.957309375" y1="57.959946875" x2="80.43" y2="58.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QE">
 <contactref element="U$1" pad="QE"/>
 <contactref element="R5" pad="1"/>
-<wire x1="13.954578125" y1="41.274978125" x2="32.17" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="29.687465625" y1="57.97989375" x2="80.43" y2="63.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QF">
 <contactref element="U$1" pad="QF"/>
 <contactref element="R6" pad="1"/>
-<wire x1="13.46775625" y1="41.70568125" x2="33.44" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="28.417621875" y1="57.99984375" x2="80.43" y2="68.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QG">
 <contactref element="U$1" pad="QG"/>
 <contactref element="R8" pad="1"/>
-<wire x1="12.9809375" y1="42.136384375" x2="32.17" y2="67.31" width="0" layer="19" extent="1-1"/>
+<wire x1="27.187775" y1="58.0191625" x2="80.43" y2="72.39" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QH">
 <contactref element="U$1" pad="QH"/>
 <contactref element="R7" pad="1"/>
-<wire x1="12.494115625" y1="42.5670875" x2="30.9" y2="74.93" width="0" layer="19" extent="1-1"/>
+<wire x1="25.91793125" y1="58.039109375" x2="80.43" y2="76.2" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="GND">
+<signal name="GND" airwireshidden="yes">
 <contactref element="U$1" pad="GND"/>
 <contactref element="LED1" pad="C"/>
 <contactref element="LED3" pad="C"/>
@@ -713,30 +713,37 @@ design rules under a new name.
 <contactref element="LED8" pad="C"/>
 <contactref element="LED9" pad="C"/>
 <contactref element="IC1" pad="GND@2"/>
-<wire x1="91.592" y1="68.58" x2="91.592" y2="73.66" width="0" layer="19" extent="1-1"/>
-<wire x1="91.592" y1="62.23" x2="91.592" y2="68.58" width="0" layer="19" extent="1-1"/>
-<wire x1="91.592" y1="55.88" x2="91.592" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="91.592" y1="52.07" x2="91.592" y2="55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="91.592" y1="46.99" x2="91.592" y2="52.07" width="0" layer="19" extent="1-1"/>
-<wire x1="91.592" y1="41.91" x2="91.592" y2="46.99" width="0" layer="19" extent="1-1"/>
-<wire x1="91.592" y1="36.83" x2="91.592" y2="41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="71.628" y1="25.908" x2="91.592" y2="36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="12.00729375" y1="42.997790625" x2="71.628" y2="25.908" width="0" layer="19" extent="1-1"/>
+<polygon width="0.1524" layer="16">
+<vertex x="2.54" y="78.74"/>
+<vertex x="97.79" y="78.74"/>
+<vertex x="97.79" y="-1.27"/>
+<vertex x="5.08" y="-1.27"/>
+<vertex x="2.54" y="1.27"/>
+</polygon>
+<wire x1="92.862" y1="72.39" x2="92.862" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="92.862" y1="68.58" x2="92.862" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="92.862" y1="63.5" x2="92.862" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="92.862" y1="58.42" x2="92.862" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="92.862" y1="54.61" x2="92.862" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="92.862" y1="50.8" x2="92.862" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="92.862" y1="45.72" x2="92.862" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="33.528" y1="32.258" x2="92.862" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="24.6480875" y1="58.059059375" x2="33.528" y2="32.258" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SER">
 <contactref element="U$1" pad="SER"/>
 <contactref element="IC1" pad="2"/>
-<wire x1="10.697596875" y1="36.612675" x2="56.388" y2="18.288" width="0" layer="19" extent="1-1"/>
+<wire x1="18.288" y1="24.638" x2="30.8141375" y2="48.846071875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OE">
 <contactref element="U$1" pad="OE"/>
 <contactref element="IC1" pad="4"/>
-<wire x1="10.210775" y1="37.043378125" x2="56.388" y2="13.208" width="0" layer="19" extent="1-1"/>
+<wire x1="18.288" y1="19.558" x2="29.54429375" y2="48.86601875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SRCLR">
 <contactref element="U$1" pad="SRCLR"/>
 <contactref element="IC1" pad="5"/>
-<wire x1="8.7503125" y1="38.3354875" x2="56.388" y2="10.668" width="0" layer="19" extent="1-1"/>
+<wire x1="18.288" y1="17.018" x2="25.774759375" y2="48.925234375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QH'">
 <contactref element="U$1" pad="QH'"/>
@@ -748,13 +755,18 @@ design rules under a new name.
 <contactref element="IC1" pad="3"/>
 <contactref element="U$1" pad="RCLK"/>
 <contactref element="U$1" pad="SRCLK"/>
-<wire x1="9.723953125" y1="37.47408125" x2="56.388" y2="15.748" width="0" layer="19" extent="1-1"/>
-<wire x1="9.23713125" y1="37.904784375" x2="9.723953125" y2="37.47408125" width="0" layer="19" extent="1-1"/>
+<wire x1="27.044603125" y1="48.9052875" x2="28.27445" y2="48.885965625" width="0" layer="19" extent="1-1"/>
+<wire x1="18.288" y1="22.098" x2="27.044603125" y2="48.9052875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="IC1" pad="VCC"/>
 <contactref element="U$1" pad="VCC"/>
-<wire x1="11.6712375" y1="35.75126875" x2="71.628" y2="20.828" width="0" layer="19" extent="1-1"/>
+<wire x1="33.353825" y1="48.806175" x2="35.56" y2="46.6" width="0.3048" layer="1"/>
+<wire x1="35.56" y1="46.6" x2="35.56" y2="45.72" width="0.3048" layer="1"/>
+<via x="35.56" y="45.72" extent="1-16" drill="0.35"/>
+<wire x1="35.56" y1="45.72" x2="38.1" y2="43.18" width="0.3048" layer="16"/>
+<wire x1="38.1" y1="43.18" x2="38.1" y2="31.75" width="0.3048" layer="16"/>
+<wire x1="38.1" y1="31.75" x2="33.528" y2="27.178" width="0.3048" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

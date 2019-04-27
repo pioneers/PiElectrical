@@ -190,27 +190,27 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 (c) Pioneers in Engineering and Tau Beta Pi CA-A, UC Berkeley.</description>
 <packages>
 <package name="SN74HC595">
-<wire x1="0" y1="0" x2="5.1" y2="0" width="0.127" layer="21"/>
-<wire x1="5.1" y1="0" x2="5.1" y2="4.5" width="0.127" layer="21"/>
-<wire x1="5.1" y1="4.5" x2="0" y2="4.5" width="0.127" layer="21"/>
-<wire x1="0" y1="4.5" x2="0" y2="0" width="0.127" layer="21"/>
-<smd name="QB" x="0.275" y="-0.575" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="QC" x="0.925" y="-0.575" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="QD" x="1.575" y="-0.575" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="QE" x="2.225" y="-0.575" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="QF" x="2.875" y="-0.575" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="QG" x="3.525" y="-0.575" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="QH" x="4.175" y="-0.575" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="GND" x="4.825" y="-0.575" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="VCC" x="0.275" y="5.075" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="QA" x="0.925" y="5.075" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="SER" x="1.575" y="5.075" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="OE" x="2.225" y="5.075" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="RCLK" x="2.875" y="5.075" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="SRCLK" x="3.525" y="5.075" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="SRCLR" x="4.175" y="5.075" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<smd name="QH'" x="4.825" y="5.075" dx="1.15" dy="0.4" layer="1" rot="R90"/>
-<circle x="0.5" y="2.4" radius="0.1" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="10.5" y2="0" width="0.127" layer="21"/>
+<wire x1="10.5" y1="0" x2="10.5" y2="7.6" width="0.127" layer="21"/>
+<wire x1="10.5" y1="7.6" x2="0" y2="7.6" width="0.127" layer="21"/>
+<wire x1="0" y1="7.6" x2="0" y2="0" width="0.127" layer="21"/>
+<smd name="QB" x="0.805" y="-0.7575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="QC" x="2.075" y="-0.7575" dx="1.515" dy="0.51" layer="1" rot="R270"/>
+<smd name="QD" x="3.345" y="-0.7575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="QE" x="4.615" y="-0.7575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="QF" x="5.885" y="-0.7575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="QG" x="7.115" y="-0.7575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="QH" x="8.385" y="-0.7575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="GND" x="9.655" y="-0.7575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="VCC" x="0.805" y="8.3575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="QA" x="2.075" y="8.3575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="SER" x="3.345" y="8.3575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="OE" x="4.615" y="8.3575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="RCLK" x="5.885" y="8.3575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="SRCLK" x="7.115" y="8.3575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="SRCLR" x="8.385" y="8.3575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<smd name="QH'" x="9.655" y="8.3575" dx="1.515" dy="0.51" layer="1" rot="R90"/>
+<circle x="0.5" y="3.67" radius="0.1" width="0.127" layer="21"/>
 <text x="-0.6" y="0.6" size="0.8128" layer="21" font="vector" rot="R90">&gt;NAME</text>
 </package>
 <package name="ARDUINO_PRO_MICRO">
