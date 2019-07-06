@@ -37,7 +37,9 @@
 #define ADCGAIN2            0x59
 #define ADCOFFSET           0x51
 
-
+#define CC_CFG              0x0B
+#define CC_HI               0x32
+#define CC_LO               0x33
 //***************************************************************************
 // Utilities ***************************************************************
 //***************************************************************************
@@ -47,6 +49,7 @@
 #define OV_FAULT                     BIT2
 #define SCD_FAULT                    BIT1
 #define OCD_FAULT                    BIT0
+#define CC_READY_FAULT               BIT7
 
 #define UV_1_SEC_DELAY               0x00
 #define UV_4_SEC_DELAY               0x01
@@ -103,7 +106,7 @@
 //***************************************************************************
 // General Purpose Functions ************************************************
 //***************************************************************************
-void init_adc_parameters();
+void init_adc();
 
 int read_register(int address);
 
@@ -126,4 +129,6 @@ void set_OCD(int threshold, int delay);
 void read_cell_voltages(float *results);
 float read_battery_voltage();
 
+void config_coulomb_counter(int oneshot);
+float read_coulomb_counter(float rsns); //NOT COMPLETE
 #endif /* BQ76920_H_ */
