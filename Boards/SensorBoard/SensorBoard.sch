@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -286,12 +286,14 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="0.3" y1="0" x2="-0.3" y2="0.6" width="0.2032" layer="21"/>
 <wire x1="-0.3" y1="0.6" x2="-0.3" y2="-0.6" width="0.2032" layer="21"/>
 <wire x1="-0.3" y1="-0.6" x2="0.3" y2="0" width="0.2032" layer="21"/>
-<smd name="A" x="-1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
-<smd name="C" x="1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
+<smd name="A" x="-1.5" y="0" dx="1.2" dy="1.4" layer="1" cream="no"/>
+<smd name="C" x="1.5" y="0" dx="1.2" dy="1.4" layer="1" cream="no"/>
 <text x="-2.54" y="1.905" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-2.794" y1="-1.397" x2="2.794" y2="1.397" layer="39"/>
 <text x="-3.683" y="-0.635" size="1.27" layer="21" font="vector">+</text>
+<rectangle x1="-2.1" y1="-0.7" x2="-0.8" y2="0.7" layer="31"/>
+<rectangle x1="0.8" y1="-0.7" x2="2.1" y2="0.7" layer="31"/>
 </package>
 <package name="LED10MM">
 <wire x1="-5" y1="-2" x2="-5" y2="2" width="0.2032" layer="21" curve="316.862624"/>
@@ -630,14 +632,14 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <rectangle x1="-1.143" y1="-1.143" x2="1.143" y2="1.143" layer="39"/>
 </package>
 <package name="4X-0603">
-<smd name="8" x="0" y="1.65" dx="0.65" dy="0.8" layer="1" rot="R180"/>
-<smd name="7" x="0.875" y="1.65" dx="0.55" dy="0.8" layer="1" rot="R180"/>
-<smd name="6" x="1.675" y="1.65" dx="0.55" dy="0.8" layer="1" rot="R180"/>
-<smd name="1" x="0" y="-0.05" dx="0.65" dy="0.8" layer="1" rot="R180"/>
-<smd name="2" x="0.875" y="-0.05" dx="0.55" dy="0.8" layer="1" rot="R180"/>
-<smd name="5" x="2.55" y="1.65" dx="0.65" dy="0.8" layer="1" rot="R180"/>
-<smd name="3" x="1.675" y="-0.05" dx="0.55" dy="0.8" layer="1"/>
-<smd name="4" x="2.55" y="-0.05" dx="0.65" dy="0.8" layer="1" rot="R180"/>
+<smd name="8" x="0" y="1.65" dx="0.65" dy="0.8" layer="1" rot="R180" cream="no"/>
+<smd name="7" x="0.875" y="1.65" dx="0.55" dy="0.8" layer="1" rot="R180" cream="no"/>
+<smd name="6" x="1.675" y="1.65" dx="0.55" dy="0.8" layer="1" rot="R180" cream="no"/>
+<smd name="1" x="0" y="-0.05" dx="0.65" dy="0.8" layer="1" rot="R180" cream="no"/>
+<smd name="2" x="0.875" y="-0.05" dx="0.55" dy="0.8" layer="1" rot="R180" cream="no"/>
+<smd name="5" x="2.55" y="1.65" dx="0.65" dy="0.8" layer="1" rot="R180" cream="no"/>
+<smd name="3" x="1.675" y="-0.05" dx="0.55" dy="0.8" layer="1" cream="no"/>
+<smd name="4" x="2.55" y="-0.05" dx="0.65" dy="0.8" layer="1" rot="R180" cream="no"/>
 <wire x1="-0.3" y1="1.25" x2="2.85" y2="1.25" width="0.0762" layer="21"/>
 <wire x1="2.85" y1="1.25" x2="2.85" y2="0.35" width="0.0762" layer="21"/>
 <wire x1="2.85" y1="0.35" x2="-0.3" y2="0.35" width="0.0762" layer="21"/>
@@ -645,6 +647,14 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <text x="0.4" y="0.65" size="0.3048" layer="21" font="vector">4x 0603</text>
 <text x="-0.45" y="2.15" size="0.6096" layer="25" font="vector">&gt;NAME</text>
 <text x="-0.4" y="-1.15" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-0.2" y1="1.35" x2="0.2" y2="1.95" layer="31"/>
+<rectangle x1="0.7" y1="1.35" x2="1.05" y2="1.95" layer="31"/>
+<rectangle x1="1.5" y1="1.35" x2="1.85" y2="1.95" layer="31"/>
+<rectangle x1="2.35" y1="1.35" x2="2.75" y2="1.95" layer="31"/>
+<rectangle x1="2.35" y1="-0.35" x2="2.75" y2="0.25" layer="31"/>
+<rectangle x1="1.5" y1="-0.35" x2="1.85" y2="0.25" layer="31"/>
+<rectangle x1="0.7" y1="-0.35" x2="1.05" y2="0.25" layer="31"/>
+<rectangle x1="-0.2" y1="-0.35" x2="0.2" y2="0.25" layer="31"/>
 </package>
 <package name="5PIN_MC">
 <pad name="GND" x="0" y="0" drill="1" diameter="2.1844" shape="square"/>
