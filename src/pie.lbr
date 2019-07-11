@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -15956,48 +15956,6 @@ a TI sourced LI-ion, Lipo, Li-FE battery protection chip</description>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <circle x="0" y="0" radius="1.93440625" width="0" layer="95"/>
 </symbol>
-<symbol name="MC33926">
-<description>MC33926 Motor Driver NXP USA</description>
-<wire x1="17.78" y1="-17.78" x2="17.78" y2="17.78" width="0.254" layer="94"/>
-<wire x1="17.78" y1="17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="17.78" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
-<pin name="EN" x="-7.62" y="-22.86" length="middle" rot="R90"/>
-<pin name="VPWR@2" x="-5.08" y="-22.86" length="middle" rot="R90"/>
-<pin name="OUT1@1" x="-2.54" y="-22.86" length="middle" rot="R90"/>
-<pin name="OUT1@2" x="0" y="-22.86" length="middle" rot="R90"/>
-<pin name="OUT1@3" x="2.54" y="-22.86" length="middle" rot="R90"/>
-<pin name="OUT1@4" x="5.08" y="-22.86" length="middle" rot="R90"/>
-<pin name="D2" x="7.62" y="-22.86" length="middle" rot="R90"/>
-<pin name="PGND" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<pin name="PGND@1" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="PGND@2" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="SF" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="PGND@3" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="PGND@4" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="PGND@5" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="D1" x="7.62" y="22.86" length="middle" rot="R270"/>
-<pin name="OUT2@1" x="5.08" y="22.86" length="middle" rot="R270"/>
-<pin name="OUT2@3" x="2.54" y="22.86" length="middle" rot="R270"/>
-<pin name="OUT2@4" x="0" y="22.86" length="middle" rot="R270"/>
-<pin name="OUT2@5" x="-2.54" y="22.86" length="middle" rot="R270"/>
-<pin name="VPWR@3" x="-5.08" y="22.86" length="middle" rot="R270"/>
-<pin name="CCP" x="-7.62" y="22.86" length="middle" rot="R270"/>
-<pin name="IN1" x="-22.86" y="7.62" length="middle"/>
-<pin name="SLEW" x="-22.86" y="5.08" length="middle"/>
-<pin name="VPWR" x="-22.86" y="2.54" length="middle"/>
-<pin name="AGND" x="-22.86" y="0" length="middle"/>
-<pin name="VPWR@1" x="-22.86" y="-2.54" length="middle"/>
-<pin name="INV" x="-22.86" y="-5.08" length="middle"/>
-<pin name="FB" x="-22.86" y="-7.62" length="middle"/>
-<pin name="IN2" x="-22.86" y="17.78" length="middle"/>
-<pin name="NC" x="-17.78" y="-22.86" length="middle" rot="R90"/>
-<pin name="NC@2" x="22.86" y="-17.78" length="middle" rot="R180"/>
-<pin name="NC@1" x="17.78" y="22.86" length="middle" rot="R270"/>
-<text x="0" y="0" size="1.778" layer="94" align="center">MC33926</text>
-<pin name="AGND@1" x="0" y="-2.54" visible="pad" length="point" rot="R180"/>
-<text x="0" y="2.54" size="1.778" layer="94" align="bottom-center">&gt;NAME</text>
-</symbol>
 <symbol name="2X5PIN">
 <wire x1="0" y1="0" x2="0" y2="17.78" width="0.254" layer="94"/>
 <wire x1="0" y1="17.78" x2="45.72" y2="17.78" width="0.254" layer="94"/>
@@ -16211,6 +16169,30 @@ a TI sourced LI-ion, Lipo, Li-FE battery protection chip</description>
 <pin name="PC3(ADC3/PTCY)" x="40.64" y="10.16" length="middle" rot="R180"/>
 <pin name="PC2(ADC2/PTCY)" x="40.64" y="5.08" length="middle" rot="R180"/>
 <text x="-10.16" y="50.8" size="3.81" layer="94" ratio="15">&gt;NAME</text>
+</symbol>
+<symbol name="MC33926">
+<description>MC33926 Motor Driver NXP USA</description>
+<wire x1="17.78" y1="-17.78" x2="17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="17.78" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
+<pin name="EN" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="OUT1@1" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="D2" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="PGND" x="-22.86" y="-2.54" length="middle"/>
+<pin name="SF" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="D1" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="OUT2@1" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="CCP" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="IN1" x="-22.86" y="7.62" length="middle"/>
+<pin name="SLEW" x="-22.86" y="5.08" length="middle"/>
+<pin name="VPWR" x="-22.86" y="2.54" length="middle"/>
+<pin name="AGND" x="-22.86" y="0" length="middle"/>
+<pin name="INV" x="-22.86" y="-5.08" length="middle"/>
+<pin name="FB" x="-22.86" y="-7.62" length="middle"/>
+<pin name="IN2" x="-22.86" y="10.16" length="middle"/>
+<text x="0" y="0" size="1.778" layer="94" align="center">MC33926</text>
+<text x="0" y="2.54" size="1.778" layer="94" align="bottom-center">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -20928,54 +20910,6 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 </device>
 </devices>
 </deviceset>
-<deviceset name="MC33926" prefix="IC">
-<description>https://www.nxp.com/docs/en/data-sheet/MC33926.pdf</description>
-<gates>
-<gate name="G$1" symbol="MC33926" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PQFN-32">
-<connects>
-<connect gate="G$1" pin="AGND" pad="5"/>
-<connect gate="G$1" pin="AGND@1" pad="MID"/>
-<connect gate="G$1" pin="CCP" pad="32"/>
-<connect gate="G$1" pin="D1" pad="26"/>
-<connect gate="G$1" pin="D2" pad="16"/>
-<connect gate="G$1" pin="EN" pad="10"/>
-<connect gate="G$1" pin="FB" pad="8"/>
-<connect gate="G$1" pin="IN1" pad="2"/>
-<connect gate="G$1" pin="IN2" pad="1"/>
-<connect gate="G$1" pin="INV" pad="7"/>
-<connect gate="G$1" pin="NC" pad="9"/>
-<connect gate="G$1" pin="NC@1" pad="25"/>
-<connect gate="G$1" pin="NC@2" pad="17"/>
-<connect gate="G$1" pin="OUT1@1" pad="12"/>
-<connect gate="G$1" pin="OUT1@2" pad="13"/>
-<connect gate="G$1" pin="OUT1@3" pad="14"/>
-<connect gate="G$1" pin="OUT1@4" pad="15"/>
-<connect gate="G$1" pin="OUT2@1" pad="27"/>
-<connect gate="G$1" pin="OUT2@3" pad="28"/>
-<connect gate="G$1" pin="OUT2@4" pad="29"/>
-<connect gate="G$1" pin="OUT2@5" pad="30"/>
-<connect gate="G$1" pin="PGND" pad="18"/>
-<connect gate="G$1" pin="PGND@1" pad="19"/>
-<connect gate="G$1" pin="PGND@2" pad="20"/>
-<connect gate="G$1" pin="PGND@3" pad="22"/>
-<connect gate="G$1" pin="PGND@4" pad="23"/>
-<connect gate="G$1" pin="PGND@5" pad="24"/>
-<connect gate="G$1" pin="SF" pad="21"/>
-<connect gate="G$1" pin="SLEW" pad="3"/>
-<connect gate="G$1" pin="VPWR" pad="4"/>
-<connect gate="G$1" pin="VPWR@1" pad="6"/>
-<connect gate="G$1" pin="VPWR@2" pad="11"/>
-<connect gate="G$1" pin="VPWR@3" pad="31"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="2X5PIN" uservalue="yes">
 <description>10 pin breakout for motor controller chip test board</description>
 <gates>
@@ -21365,6 +21299,36 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <connect gate="G$1" pin="PE2(ADC6/PTCY/ICP3/SS1)" pad="19"/>
 <connect gate="G$1" pin="PE3(ADC7/PTCY/T3/MOSI1)" pad="22"/>
 <connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MC33926" prefix="IC">
+<description>https://www.nxp.com/docs/en/data-sheet/MC33926.pdf</description>
+<gates>
+<gate name="G$1" symbol="MC33926" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PQFN-32">
+<connects>
+<connect gate="G$1" pin="AGND" pad="5 MID"/>
+<connect gate="G$1" pin="CCP" pad="32"/>
+<connect gate="G$1" pin="D1" pad="26"/>
+<connect gate="G$1" pin="D2" pad="16"/>
+<connect gate="G$1" pin="EN" pad="10"/>
+<connect gate="G$1" pin="FB" pad="8"/>
+<connect gate="G$1" pin="IN1" pad="2"/>
+<connect gate="G$1" pin="IN2" pad="1"/>
+<connect gate="G$1" pin="INV" pad="7"/>
+<connect gate="G$1" pin="OUT1@1" pad="12 13 14 15"/>
+<connect gate="G$1" pin="OUT2@1" pad="27 28 29 30"/>
+<connect gate="G$1" pin="PGND" pad="18 19 20 22 23 24"/>
+<connect gate="G$1" pin="SF" pad="21"/>
+<connect gate="G$1" pin="SLEW" pad="3"/>
+<connect gate="G$1" pin="VPWR" pad="4 6 11 31" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>
