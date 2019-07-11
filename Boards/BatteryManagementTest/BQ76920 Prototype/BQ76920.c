@@ -4,10 +4,20 @@ float adc_gain;
 float adc_offset;
 
 /*
- * saves the adc gain and offset for future use.
+ * reads content of any register
+ */
+int read_register(int address) {
+    uint8_t output;
+    I2C_Master_WriteReg(SLAVE_ADDR, (uint8_t) address, &output, 1);
+
+    return (int) output;
+}
+
+/*
+ * saves the adc gain and offset for future use, and enable ADC
  * must call this function first before doing anything else!!!!
  */
-void init_adc_parameters() {
+void init_adc() {
     int adc_gain_val = read_adc_gain();
     int adc_offset_val = read_adc_offset();
 
@@ -16,17 +26,11 @@ void init_adc_parameters() {
 
     adc_offset = adc_offset_val;
     adc_offset /= 1000;
-}
-/*
- * reads content of any register
- */
-int read_register(int address) {
-    uint8_t output;
-    I2C_Master_ReadReg(SLAVE_ADDR, (uint8_t) address, &output, 1);
 
-    return (int) output;
+    uint8_t sys_ctrl_1 = (uint8_t) read_register(SYS_CTRL1);
+    sys_ctrl_1 |= BIT4;
+    I2C_Master_WriteReg(SLAVE_ADDR, SYS_CTRL1, &sys_ctrl_1, 1);     //enable ADC
 }
-
 /*
  * reads from ADCGAIN1 (0x50) and ADCGAIN2 (0x59) register
  * returns the gain converted to uV/LSB
@@ -211,4 +215,45 @@ float read_battery_voltage() {
     result += adc_offset;
 
     return result;
+}
+
+/*
+ * configs coulomb counter
+ * oneshot = 0 enables continuous mode
+ */
+void config_coulomb_counter(int oneshot) {
+    uint8_t value = 0x19;
+
+    I2C_Master_WriteReg(SLAVE_ADDR, CC_CFG, &value, 1);
+
+    value = read_register(SYS_CTRL2);
+    if (!oneshot) value |= BIT6;
+    else value &= ~BIT6;
+
+    I2C_Master_WriteReg(SLAVE_ADDR, SYS_CTRL2, &value, 1);
+}
+
+__attribute__((ramfunc))
+float read_coulomb_counter(float rsns) {
+    uint8_t sys_ctrl2 = read_register(SYS_CTRL2); //THE CONTROL REGISTER WIPES ITSELF IF U READ, U CANT READ SHIT
+    sys_ctrl2 |= BIT5;
+    I2C_Master_WriteReg(SLAVE_ADDR, SYS_CTRL2, &sys_ctrl2, 1);
+    __delay_cycles(4000000);
+    int i = 0;
+    volatile int status = get_system_status();
+    while (status & CC_READY_FAULT == 0) {
+        i ++;
+        if (i > 10) return -1;
+        __delay_cycles(800000);
+        status = get_system_status();
+    }
+    volatile uint8_t CC_LO_bits, CC_HI_bits;
+    I2C_Master_ReadReg(SLAVE_ADDR, CC_HI, &CC_HI_bits, 1);
+    I2C_Master_ReadReg(SLAVE_ADDR, CC_LO, &CC_LO_bits, 1);
+    volatile int16_t total_voltage = (int16_t) ((CC_HI_bits << 8) + CC_LO_bits);
+    volatile float current = total_voltage * 0.00000844;
+    current /= rsns;
+
+    get_and_clear_system_status();
+    return current;
 }

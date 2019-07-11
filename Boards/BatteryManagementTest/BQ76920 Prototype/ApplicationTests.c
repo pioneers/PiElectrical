@@ -106,13 +106,14 @@ void test_SCD_and_OCD_application(int SCD_threshold, int SCD_delay, int OCD_thre
     set_SCD(SCD_threshold, SCD_delay, RSNS);
     set_OCD(OCD_threshold, OCD_delay);
 
-    P2OUT &= ~BIT0;                 //connect pin 2_0 to ALERT
-    P2DIR &= ~BIT0;
-    P2REN |= BIT0;
-    P2SEL &= ~BIT0;
+   // P2OUT &= ~BIT0;                 //connect pin 2_0 to ALERT
+   // P2DIR &= ~BIT0;
+    //P2REN |= BIT0;
+    //P2SEL &= ~BIT0;
 
+    turn_DSG_on();
     //test either SCD or OCD
-    while (!(P2IN & BIT0));       //waits for ALERT pin the go high
+    //while (!(P2IN & BIT0));       //waits for ALERT pin the go high
 
     volatile int status = get_and_clear_system_status();
     volatile int DSG_state = (read_register(SYS_CTRL2) >> 1) & BIT0;
@@ -167,7 +168,7 @@ void test_basic_read_battery_voltage() {
 }
 
 void test_read_battery_voltage() {
-    float battery_voltage = read_battery_voltage();
+    volatile float battery_voltage = read_battery_voltage();
 
     volatile int i = 0;
 }
