@@ -39,7 +39,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -16817,23 +16817,23 @@ a TI sourced LI-ion, Lipo, Li-FE battery protection chip</description>
 <wire x1="17.78" y1="15.24" x2="-17.78" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="15.24" x2="-17.78" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-12.7" x2="17.78" y2="-12.7" width="0.254" layer="94"/>
-<pin name="EN" x="22.86" y="10.16" length="middle" rot="R180"/>
-<pin name="OUT1" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="D2" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="PGND" x="-22.86" y="-2.54" length="middle"/>
-<pin name="SF" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="D1" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="OUT2" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="CCP" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="IN1" x="-22.86" y="7.62" length="middle"/>
-<pin name="SLEW" x="-22.86" y="5.08" length="middle"/>
-<pin name="VPWR" x="-22.86" y="2.54" length="middle"/>
-<pin name="AGND" x="-22.86" y="0" length="middle"/>
-<pin name="INV" x="-22.86" y="-5.08" length="middle"/>
-<pin name="FB" x="-22.86" y="-7.62" length="middle"/>
-<pin name="IN2" x="-22.86" y="10.16" length="middle"/>
-<text x="0" y="0" size="1.778" layer="94" align="center">MC33926</text>
-<text x="0" y="2.54" size="1.778" layer="94" align="bottom-center">&gt;NAME</text>
+<pin name="EN" x="22.86" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT1" x="22.86" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="D2" x="22.86" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="PGND" x="-22.86" y="-2.54" visible="pin" length="middle"/>
+<pin name="SF" x="22.86" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="D1" x="22.86" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT2" x="22.86" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="SLEW" x="22.86" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="IN1" x="-22.86" y="10.16" visible="pin" length="middle"/>
+<pin name="VPWR" x="-22.86" y="5.08" visible="pin" length="middle"/>
+<pin name="CCP" x="-22.86" y="2.54" visible="pin" length="middle"/>
+<pin name="AGND" x="-22.86" y="0" visible="pin" length="middle"/>
+<pin name="INV" x="22.86" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="FB" x="-22.86" y="-5.08" visible="pin" length="middle"/>
+<pin name="IN2" x="-22.86" y="7.62" visible="pin" length="middle"/>
+<text x="0" y="0" size="1.778" layer="94" font="vector" align="center">MC33926</text>
+<text x="0" y="2.54" size="1.778" layer="94" font="vector" align="bottom-center">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -22080,6 +22080,35 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MC33926">
+<gates>
+<gate name="G$1" symbol="MC33926" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="PQFN-32">
+<connects>
+<connect gate="G$1" pin="AGND" pad="5 MID"/>
+<connect gate="G$1" pin="CCP" pad="32"/>
+<connect gate="G$1" pin="D1" pad="26"/>
+<connect gate="G$1" pin="D2" pad="16"/>
+<connect gate="G$1" pin="EN" pad="10"/>
+<connect gate="G$1" pin="FB" pad="8"/>
+<connect gate="G$1" pin="IN1" pad="2"/>
+<connect gate="G$1" pin="IN2" pad="1"/>
+<connect gate="G$1" pin="INV" pad="7"/>
+<connect gate="G$1" pin="OUT1" pad="12 13 14 15"/>
+<connect gate="G$1" pin="OUT2" pad="27 28 29 30"/>
+<connect gate="G$1" pin="PGND" pad="18 19 20 22 23 24"/>
+<connect gate="G$1" pin="SF" pad="21"/>
+<connect gate="G$1" pin="SLEW" pad="3"/>
+<connect gate="G$1" pin="VPWR" pad="4 6 11 31"/>
 </connects>
 <technologies>
 <technology name=""/>
