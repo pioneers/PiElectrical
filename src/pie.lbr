@@ -22229,7 +22229,6 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 </device>
 </devices>
 </deviceset>
-<<<<<<< HEAD
 <deviceset name="D6C90F1LFS">
 <gates>
 <gate name="G$1" symbol="BUTTON" x="0" y="0"/>
@@ -22273,30 +22272,6 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <connect gate="G$1" pin="P7" pad="BAR_DISPLAY6"/>
 <connect gate="G$1" pin="P8" pad="BAR_DISPLAY7"/>
 <connect gate="G$1" pin="P9" pad="BAR_DISPLAY8"/>
-=======
-<deviceset name="MC33926">
-<gates>
-<gate name="G$1" symbol="MC33926" x="0" y="5.08"/>
-</gates>
-<devices>
-<device name="" package="PQFN-32">
-<connects>
-<connect gate="G$1" pin="AGND" pad="5 MID"/>
-<connect gate="G$1" pin="CCP" pad="32"/>
-<connect gate="G$1" pin="D1" pad="26"/>
-<connect gate="G$1" pin="D2" pad="16"/>
-<connect gate="G$1" pin="EN" pad="10"/>
-<connect gate="G$1" pin="FB" pad="8"/>
-<connect gate="G$1" pin="IN1" pad="2"/>
-<connect gate="G$1" pin="IN2" pad="1"/>
-<connect gate="G$1" pin="INV" pad="7"/>
-<connect gate="G$1" pin="OUT1" pad="12 13 14 15"/>
-<connect gate="G$1" pin="OUT2" pad="27 28 29 30"/>
-<connect gate="G$1" pin="PGND" pad="18 19 20 22 23 24"/>
-<connect gate="G$1" pin="SF" pad="21"/>
-<connect gate="G$1" pin="SLEW" pad="3"/>
-<connect gate="G$1" pin="VPWR" pad="4 6 11 31"/>
->>>>>>> f732d8699662bfce3d027dcdd0472d04c6014f25
 </connects>
 <technologies>
 <technology name=""/>
