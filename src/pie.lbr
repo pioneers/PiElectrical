@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -22332,6 +22332,35 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MC33926">
+<gates>
+<gate name="G$1" symbol="MC33926" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PQFN-32">
+<connects>
+<connect gate="G$1" pin="AGND" pad="5 MID"/>
+<connect gate="G$1" pin="CCP" pad="32"/>
+<connect gate="G$1" pin="D1" pad="26"/>
+<connect gate="G$1" pin="D2" pad="16"/>
+<connect gate="G$1" pin="EN" pad="10"/>
+<connect gate="G$1" pin="FB" pad="8"/>
+<connect gate="G$1" pin="IN1" pad="2"/>
+<connect gate="G$1" pin="IN2" pad="1"/>
+<connect gate="G$1" pin="INV" pad="7"/>
+<connect gate="G$1" pin="OUT1" pad="12 13 14 15"/>
+<connect gate="G$1" pin="OUT2" pad="27 28 29 30"/>
+<connect gate="G$1" pin="PGND" pad="18 19 20 22 23 24"/>
+<connect gate="G$1" pin="SF" pad="21"/>
+<connect gate="G$1" pin="SLEW" pad="3"/>
+<connect gate="G$1" pin="VPWR" pad="4 6 11 31"/>
 </connects>
 <technologies>
 <technology name=""/>
