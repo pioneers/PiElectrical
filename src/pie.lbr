@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -13729,6 +13729,30 @@ shrink quad flat pack, square</description>
 <wire x1="5.588" y1="-14.732" x2="-4.953" y2="-14.732" width="0.1524" layer="21"/>
 <wire x1="-4.953" y1="-14.732" x2="-4.953" y2="10.795" width="0.1524" layer="21"/>
 </package>
+<package name="SMD_CRYSTAL">
+<smd name="P0" x="-1.905" y="1.27" dx="1.6" dy="1.6" layer="1"/>
+<smd name="P1" x="-1.905" y="-0.93" dx="1.6" dy="1.6" layer="1"/>
+<smd name="P2" x="1.795" y="-0.93" dx="1.6" dy="1.6" layer="1"/>
+<smd name="P3" x="1.795" y="1.27" dx="1.6" dy="1.6" layer="1"/>
+<wire x1="-3.505" y1="2.87" x2="3.395" y2="2.87" width="0.1524" layer="21"/>
+<wire x1="3.395" y1="2.87" x2="3.395" y2="-2.53" width="0.1524" layer="21"/>
+<wire x1="3.395" y1="-2.53" x2="-3.505" y2="-2.53" width="0.1524" layer="21"/>
+<wire x1="-3.505" y1="-2.53" x2="-3.505" y2="2.87" width="0.1524" layer="21"/>
+<text x="-3.505" y="3.16633125" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.505" y="-4.60433125" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="SMD_SHUNT">
+<smd name="P$1" x="-2.0574" y="0" dx="3.5052" dy="5.334" layer="1"/>
+<smd name="P$2" x="2.0574" y="0" dx="3.5052" dy="5.334" layer="1"/>
+<wire x1="-4.064" y1="3.302" x2="-3.81" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="3.302" x2="4.318" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="4.318" y1="3.302" x2="4.318" y2="-3.175" width="0.2032" layer="21"/>
+<wire x1="4.318" y1="-3.175" x2="-4.318" y2="-3.175" width="0.2032" layer="21"/>
+<wire x1="-4.318" y1="-3.175" x2="-4.318" y2="3.302" width="0.2032" layer="21"/>
+<wire x1="-4.318" y1="3.302" x2="-4.064" y2="3.302" width="0.2032" layer="21"/>
+<text x="-3.048" y="4.318" size="1.27" layer="21" font="vector" ratio="15">&gt;NAME</text>
+<text x="-3.302" y="-5.461" size="1.27" layer="21" font="vector" ratio="15">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SMT-JUMPER_2_NC_PASTE_NO-SILK" urn="urn:adsk.eagle:package:39283/1" type="box">
@@ -22272,6 +22296,42 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <connect gate="G$1" pin="P7" pad="BAR_DISPLAY6"/>
 <connect gate="G$1" pin="P8" pad="BAR_DISPLAY7"/>
 <connect gate="G$1" pin="P9" pad="BAR_DISPLAY8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ECX-53BSMDCRYSTAL" prefix="Y" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="Q" x="0" y="0"/>
+<gate name="G$2" symbol="GND" x="0" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="SMD_CRYSTAL">
+<connects>
+<connect gate="G$1" pin="1" pad="P0"/>
+<connect gate="G$1" pin="2" pad="P2"/>
+<connect gate="G$2" pin="GND" pad="P1 P3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NO" value="ECS-80-18-30B-AGN-TR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SHUNT_SMD">
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMD_SHUNT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
