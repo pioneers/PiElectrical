@@ -5545,6 +5545,8 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <part name="LED2" library="pie" deviceset="LED" device="1206" value="YELLOW"/>
 <part name="R2" library="pie" deviceset="4X-0603" device="" value="330"/>
 <part name="U$1" library="pie" deviceset="ATMEGA32U4" device="TQFP-44" package3d_urn="urn:adsk.eagle:package:38953/1" value="32U4"/>
+<part name="UCAP" library="pie" deviceset="CAP" device="0603-CAP" value="1 uF"/>
+<part name="SUPPLY15" library="pie" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7053,6 +7055,13 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <attribute name="NAME" x="157.48" y="160.02" size="1.778" layer="95"/>
 <attribute name="VALUE" x="157.48" y="78.74" size="1.778" layer="96"/>
 </instance>
+<instance part="UCAP" gate="G$1" x="134.62" y="121.92" smashed="yes" rot="R90">
+<attribute name="NAME" x="132.08" y="118.11" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="139.7" y="118.11" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY15" gate="GND" x="134.62" y="111.76" smashed="yes">
+<attribute name="VALUE" x="133.35" y="107.95" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7104,6 +7113,11 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <pinref part="U$1" gate="G$1" pin="GND@43"/>
 <pinref part="U$1" gate="G$1" pin="PE2/!HWB"/>
 <pinref part="U$1" gate="G$1" pin="UGND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY15" gate="GND" pin="GND"/>
+<pinref part="UCAP" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="114.3" x2="134.62" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED1" class="0">
@@ -7189,6 +7203,33 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <wire x1="22.86" y1="73.66" x2="10.16" y2="73.66" width="0.1524" layer="91"/>
 <label x="10.16" y="73.66" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="AVCC@44"/>
+<wire x1="154.94" y1="147.32" x2="152.4" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="AVCC@24"/>
+<wire x1="154.94" y1="149.86" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="147.32" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VCC@34"/>
+<wire x1="154.94" y1="152.4" x2="152.4" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="149.86" x2="152.4" y2="152.4" width="0.1524" layer="91"/>
+<junction x="152.4" y="149.86"/>
+<pinref part="U$1" gate="G$1" pin="VCC@14"/>
+<wire x1="154.94" y1="154.94" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="152.4" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
+<junction x="152.4" y="152.4"/>
+<wire x1="152.4" y1="152.4" x2="147.32" y2="152.4" width="0.1524" layer="91"/>
+<label x="144.78" y="152.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VBUS"/>
+<wire x1="154.94" y1="134.62" x2="152.4" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="UVCC"/>
+<wire x1="154.94" y1="132.08" x2="152.4" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="132.08" x2="152.4" y2="134.62" width="0.1524" layer="91"/>
+<junction x="152.4" y="132.08"/>
+<wire x1="152.4" y1="132.08" x2="147.32" y2="132.08" width="0.1524" layer="91"/>
+<label x="144.78" y="132.08" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PD5" class="0">
 <segment>
@@ -7216,26 +7257,10 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC@14"/>
-<wire x1="154.94" y1="154.94" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="VCC@34"/>
-<wire x1="154.94" y1="152.4" x2="152.4" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="AVCC@24"/>
-<wire x1="154.94" y1="149.86" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="AVCC@44"/>
-<wire x1="154.94" y1="147.32" x2="152.4" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="UCAP"/>
+<pinref part="UCAP" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="129.54" x2="134.62" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
