@@ -14032,6 +14032,18 @@ shrink quad flat pack, square</description>
 <text x="0" y="4.445" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5.08" size="0.6096" layer="27" font="vector" ratio="20" align="bottom-center">&gt;VALUE</text>
 </package>
+<package name="CRYSTAL-SMD-7.6X4.1-2PIN">
+<smd name="P$1" x="0" y="0" dx="5.5" dy="1.5" layer="1"/>
+<smd name="P$2" x="7.8" y="0" dx="5.5" dy="1.5" layer="1"/>
+<wire x1="-0.5" y1="2.3" x2="8.3" y2="2.3" width="0.127" layer="21"/>
+<wire x1="8.3" y1="2.3" x2="8.3" y2="1.2" width="0.127" layer="21"/>
+<wire x1="8.3" y1="-1.2" x2="8.3" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="8.3" y1="-2.3" x2="-0.5" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-2.3" x2="-0.5" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="2.3" x2="-0.5" y2="1.2" width="0.127" layer="21"/>
+<text x="-0.5" y="2.6" size="1.016" layer="21" font="vector">&gt;NAME</text>
+<text x="-0.5" y="-3.9" size="1.016" layer="21" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SMT-JUMPER_2_NC_PASTE_NO-SILK" urn="urn:adsk.eagle:package:39283/1" type="box">
@@ -18012,6 +18024,15 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </technologies>
 </device>
 <device name="" package="CRYSTAL-SMD-5.0X3.2-2PIN">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="7.6X4.1" package="CRYSTAL-SMD-7.6X4.1-2PIN">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
