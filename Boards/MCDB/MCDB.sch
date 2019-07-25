@@ -3697,6 +3697,68 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <text x="-0.5" y="2.6" size="1.016" layer="21" font="vector">&gt;NAME</text>
 <text x="-0.5" y="-3.9" size="1.016" layer="21" font="vector">&gt;VALUE</text>
 </package>
+<package name="USB-MICRO-AB">
+<description>&lt;b&gt;USB Micro-AB connector&lt;/b&gt;
+Designed for Hirose ZX62-AB-5PA</description>
+<smd name="P$1" x="-1.3" y="1" dx="0.4" dy="1.35" layer="1"/>
+<smd name="P$2" x="-0.65" y="1" dx="0.4" dy="1.35" layer="1"/>
+<smd name="P$3" x="0" y="1" dx="0.4" dy="1.35" layer="1"/>
+<smd name="P$4" x="0.65" y="1" dx="0.4" dy="1.35" layer="1"/>
+<smd name="P$5" x="1.3" y="1" dx="0.4" dy="1.35" layer="1"/>
+<smd name="P$6" x="-3.1" y="0.875" dx="2.1" dy="1.6" layer="1"/>
+<smd name="P$7" x="3.1" y="0.875" dx="2.1" dy="1.6" layer="1"/>
+<smd name="P$8" x="-4" y="-1.675" dx="1.8" dy="1.9" layer="1"/>
+<smd name="P$9" x="4" y="-1.675" dx="1.8" dy="1.9" layer="1"/>
+<smd name="P$10" x="-1.2" y="-1.675" dx="1.9" dy="1.9" layer="1"/>
+<smd name="P$11" x="1.2" y="-1.675" dx="1.9" dy="1.9" layer="1"/>
+<wire x1="-10" y1="-3.125" x2="10" y2="-3.125" width="0.2032" layer="51"/>
+<text x="-5.08" y="2.54" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<wire x1="-3.75" y1="1" x2="-3.75" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-3.75" y1="-4" x2="3.75" y2="-4" width="0.2032" layer="51"/>
+<wire x1="3.75" y1="-4" x2="3.75" y2="1" width="0.2032" layer="51"/>
+<wire x1="3.75" y1="1" x2="-3.75" y2="1" width="0.2032" layer="51"/>
+<rectangle x1="-3.9" y1="-3.3" x2="3.9" y2="0.9" layer="43"/>
+<rectangle x1="-5.3" y1="-3" x2="5.3" y2="2" layer="39"/>
+</package>
+<package name="USB-MICRO-AB-VERT">
+<description>USB Micro-AB vertical connector. Source: http://www.digikey.com/product-detail/en/614105150621/732-5959-2-ND/5047748</description>
+<pad name="P$1" x="-1.3" y="0.5" drill="0.5" diameter="0.7"/>
+<pad name="P$2" x="-0.65" y="-0.5" drill="0.5" diameter="0.7"/>
+<pad name="P$3" x="0" y="0.5" drill="0.5" diameter="0.7"/>
+<pad name="P$4" x="0.65" y="-0.5" drill="0.5" diameter="0.7"/>
+<pad name="P$5" x="1.3" y="0.5" drill="0.5" diameter="0.7"/>
+<wire x1="-2.8" y1="1.175" x2="2.8" y2="1.175" width="0.127" layer="51"/>
+<pad name="P$6" x="-3.575" y="0.28" drill="1.175"/>
+<pad name="P$7" x="3.575" y="0.28" drill="1.175"/>
+<wire x1="0" y1="-1" x2="-0.2" y2="-1.175" width="0.127" layer="51" curve="-90"/>
+<wire x1="-2.8" y1="-1.175" x2="-0.2" y2="-1.175" width="0.127" layer="51"/>
+<wire x1="-3" y1="1" x2="-2.8" y2="1.175" width="0.127" layer="51" curve="-90"/>
+<wire x1="2.8" y1="1.175" x2="3" y2="1" width="0.127" layer="51" curve="-90"/>
+<wire x1="0.2" y1="-1.175" x2="2.8" y2="-1.175" width="0.127" layer="51"/>
+<wire x1="3" y1="-1" x2="2.8" y2="-1.175" width="0.127" layer="51" curve="-90"/>
+<wire x1="-2.8" y1="-1.175" x2="-3" y2="-1" width="0.127" layer="51" curve="-90"/>
+<wire x1="0.2" y1="-1.175" x2="0" y2="-1" width="0.127" layer="51" curve="-90"/>
+<wire x1="-3" y1="1" x2="-3.556" y2="0.444" width="0.127" layer="51" curve="90"/>
+<wire x1="-3.556" y1="0.444" x2="-3.556" y2="-0.444" width="0.127" layer="51"/>
+<wire x1="-3.556" y1="-0.444" x2="-3" y2="-1" width="0.127" layer="51" curve="90"/>
+<wire x1="3" y1="1" x2="3.556" y2="0.444" width="0.127" layer="51" curve="-90"/>
+<wire x1="3.556" y1="0.444" x2="3.556" y2="-0.444" width="0.127" layer="51"/>
+<wire x1="3.556" y1="-0.444" x2="3" y2="-1" width="0.127" layer="51" curve="-90"/>
+<wire x1="1.75" y1="0.575" x2="1.75" y2="-0.175" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-0.175" x2="-1.75" y2="-0.175" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-0.175" x2="-1.75" y2="0.575" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="0.575" x2="1.75" y2="0.575" width="0.127" layer="51"/>
+<rectangle x1="-4.8" y1="-1.5" x2="4.8" y2="1.5" layer="40"/>
+<rectangle x1="-4.8" y1="-1.5" x2="4.8" y2="1.5" layer="39"/>
+<wire x1="-2.8" y1="1.175" x2="2.8" y2="1.175" width="0.127" layer="21"/>
+<wire x1="0" y1="-1" x2="-0.2" y2="-1.175" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.8" y1="-1.175" x2="-0.2" y2="-1.175" width="0.127" layer="21"/>
+<wire x1="0.2" y1="-1.175" x2="2.8" y2="-1.175" width="0.127" layer="21"/>
+<wire x1="3" y1="-1" x2="2.8" y2="-1.175" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.8" y1="-1.175" x2="-3" y2="-1" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.2" y1="-1.175" x2="0" y2="-1" width="0.127" layer="21" curve="-90"/>
+<text x="-3" y="1.5" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="QFN-44" urn="urn:adsk.eagle:package:38954/1" type="box">
@@ -4025,6 +4087,19 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="USB-OTG">
+<pin name="VBUS" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="D-" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="D+" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="ID" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="SHIELD" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<text x="-2.54" y="-2.54" size="2.54" layer="94" rot="R90">USB</text>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<text x="-7.62" y="8.89" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5935,6 +6010,155 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 </device>
 </devices>
 </deviceset>
+<deviceset name="USB-OTG" prefix="USB">
+<description>&lt;b&gt;USB Connector&lt;/b&gt;
+OTG connector with ID pin</description>
+<gates>
+<gate name="G$1" symbol="USB-OTG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MICRO-AB" package="USB-MICRO-AB">
+<connects>
+<connect gate="G$1" pin="D+" pad="P$3"/>
+<connect gate="G$1" pin="D-" pad="P$2"/>
+<connect gate="G$1" pin="GND" pad="P$5"/>
+<connect gate="G$1" pin="ID" pad="P$4"/>
+<connect gate="G$1" pin="SHIELD" pad="P$6 P$7 P$8 P$9 P$10 P$11"/>
+<connect gate="G$1" pin="VBUS" pad="P$1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PIE-DIGIKEY-PN-PRI" value="H11635CT-ND" constant="no"/>
+<attribute name="PIE-INT-REF-NUM" value="USB"/>
+</technology>
+</technologies>
+</device>
+<device name="MICRO-AB-VERT" package="USB-MICRO-AB-VERT">
+<connects>
+<connect gate="G$1" pin="D+" pad="P$3"/>
+<connect gate="G$1" pin="D-" pad="P$2"/>
+<connect gate="G$1" pin="GND" pad="P$5"/>
+<connect gate="G$1" pin="ID" pad="P$4"/>
+<connect gate="G$1" pin="SHIELD" pad="P$6 P$7"/>
+<connect gate="G$1" pin="VBUS" pad="P$1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PIE-DIGIKEY-PN" value="732-5959-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="USB-B-PTH" urn="urn:adsk.eagle:footprint:37980/1" library_version="1">
+<description>&lt;h3&gt;USB Type B Female PTH Mounted&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4 main, 2 shield&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.sparkfun.com/datasheets/Prototyping/USB-B%20Connector.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;USB_B&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-8.5" y1="6" x2="-4.6" y2="6" width="0.2032" layer="51"/>
+<wire x1="-4.6" y1="6" x2="-4.6" y2="-6" width="0.2032" layer="51"/>
+<wire x1="-4.6" y1="-6" x2="-8.5" y2="-6" width="0.2032" layer="51"/>
+<wire x1="-8.5" y1="-6" x2="-8.5" y2="6" width="0.2032" layer="51"/>
+<wire x1="-4.6" y1="6" x2="-0.8" y2="6" width="0.2032" layer="21"/>
+<wire x1="-4.6" y1="-6" x2="-0.8" y2="-6" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-6" x2="7.3" y2="-6" width="0.2032" layer="21"/>
+<wire x1="7.3" y1="-6" x2="7.3" y2="6" width="0.2032" layer="21"/>
+<wire x1="7.3" y1="6" x2="3.4" y2="6" width="0.2032" layer="21"/>
+<pad name="VBUS" x="5.9812" y="-1.25" drill="0.9144" diameter="1.6764" rot="R90"/>
+<pad name="D-" x="5.9812" y="1.25" drill="0.9144" diameter="1.6764" rot="R90"/>
+<pad name="D+" x="4" y="1.25" drill="0.9144" diameter="1.6764" rot="R270"/>
+<pad name="GND" x="4" y="-1.25" drill="0.9144" diameter="1.6764" rot="R270"/>
+<pad name="SHLD1" x="1.2822" y="-6.0198" drill="2.286"/>
+<pad name="SHLD2" x="1.2822" y="6.0198" drill="2.286"/>
+<text x="-7.43" y="6.35" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-7.43" y="-6.35" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="USB-B-PTH" urn="urn:adsk.eagle:package:38301/1" type="box" library_version="1">
+<description>USB Type B Female PTH Mounted
+Specifications:
+Pin count:4 main, 2 shield
+
+Datasheet referenced for footprint
+Example device(s):
+USB_B
+</description>
+<packageinstances>
+<packageinstance name="USB-B-PTH"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="USB" urn="urn:adsk.eagle:symbol:37975/1" library_version="1">
+<description>&lt;h3&gt;USB A/B - with Shield Pins&lt;/h3&gt;
+&lt;p&gt;USB connector for type-A and type-B connectors. Includes shield pins broken out. &lt;/p&gt;</description>
+<wire x1="2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<text x="-1.27" y="-2.54" size="2.54" layer="94" rot="R90">USB</text>
+<text x="-5.08" y="7.874" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-5.08" y="-5.334" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="D+" x="-7.62" y="0" visible="pad" length="short"/>
+<pin name="D-" x="-7.62" y="2.54" visible="pad" length="short"/>
+<pin name="VBUS" x="-7.62" y="5.08" visible="pad" length="short" direction="pwr"/>
+<pin name="GND" x="-7.62" y="-2.54" visible="pad" length="short" direction="pwr"/>
+<pin name="SHIELD" x="5.08" y="2.54" visible="pad" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="USB_B" urn="urn:adsk.eagle:component:38393/1" prefix="J" library_version="1">
+<description>&lt;h3&gt;USB Type B Connector&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13899”&gt;SparkFun Stepoko&lt;/a&gt; PTH&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="USB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_PTH" package="USB-B-PTH">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SHIELD" pad="SHLD1 SHLD2"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38301/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-08278" constant="no"/>
+<attribute name="SF_ID" value="PRT-00139" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -6055,8 +6279,6 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <part name="SUPPLY8" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="pie" deviceset="GND" device=""/>
 <part name="LED1" library="pie" deviceset="LED" device="1206" value="GREEN"/>
-<part name="LED2" library="pie" deviceset="LED" device="1206" value="YELLOW"/>
-<part name="R2" library="pie" deviceset="4X-0603" device="" value="330"/>
 <part name="U$1" library="pie" deviceset="ATMEGA32U4" device="TQFP-44" package3d_urn="urn:adsk.eagle:package:38953/1" value="32U4"/>
 <part name="UCAP" library="pie" deviceset="CAP" device="0603-CAP" value="1 uF"/>
 <part name="SUPPLY15" library="pie" deviceset="GND" device=""/>
@@ -6070,6 +6292,9 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <part name="C28" library="pie" deviceset="CAP" device="0603-CAP" value="1 uF"/>
 <part name="SUPPLY23" library="pie" deviceset="GND" device=""/>
 <part name="R4" library="pie" deviceset="R-US_" device="R0603" value="&gt;VALUE"/>
+<part name="USB1" library="pie" deviceset="USB-OTG" device="MICRO-AB-VERT"/>
+<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="USB_B" device="_PTH" package3d_urn="urn:adsk.eagle:package:38301/1"/>
+<part name="SUPPLY28" library="pie" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7566,14 +7791,6 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <attribute name="NAME" x="21.59" y="88.9" size="1.778" layer="95"/>
 <attribute name="VALUE" x="21.59" y="80.01" size="1.778" layer="96"/>
 </instance>
-<instance part="LED2" gate="G$1" x="25.4" y="73.66" smashed="yes">
-<attribute name="NAME" x="21.59" y="76.2" size="1.778" layer="95"/>
-<attribute name="VALUE" x="21.59" y="67.31" size="1.778" layer="96"/>
-</instance>
-<instance part="R2" gate="G$1" x="60.96" y="55.88" smashed="yes">
-<attribute name="NAME" x="53.34" y="86.36" size="3.81" layer="94" font="vector"/>
-<attribute name="VALUE" x="50.8" y="50.8" size="3.81" layer="94" font="vector"/>
-</instance>
 <instance part="U$1" gate="G$1" x="172.72" y="121.92" smashed="yes">
 <attribute name="NAME" x="157.48" y="160.02" size="1.778" layer="95"/>
 <attribute name="VALUE" x="157.48" y="78.74" size="1.778" layer="96"/>
@@ -7620,6 +7837,16 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <instance part="R4" gate="G$1" x="152.4" y="167.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="149.86" y="162.56" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="156.21" y="162.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="USB1" gate="G$1" x="73.66" y="60.96" smashed="yes">
+<attribute name="NAME" x="66.04" y="69.85" size="1.778" layer="95"/>
+</instance>
+<instance part="J1" gate="G$1" x="68.58" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="73.66" y="30.226" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="73.66" y="43.434" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+</instance>
+<instance part="SUPPLY28" gate="GND" x="91.44" y="50.8" smashed="yes">
+<attribute name="VALUE" x="90.17" y="46.99" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -7700,6 +7927,20 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <pinref part="SUPPLY23" gate="GND" pin="GND"/>
 <wire x1="121.92" y1="137.16" x2="121.92" y2="134.62" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="USB1" gate="G$1" pin="SHIELD"/>
+<pinref part="SUPPLY28" gate="GND" pin="GND"/>
+<wire x1="86.36" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="USB1" gate="G$1" pin="GND"/>
+<wire x1="88.9" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="55.88" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
+<junction x="91.44" y="53.34"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
+<wire x1="76.2" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="40.64" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
+<junction x="88.9" y="53.34"/>
+</segment>
 </net>
 <net name="LED1" class="0">
 <segment>
@@ -7760,17 +8001,9 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <net name="N$12" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="27.94" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="86.36" x2="40.64" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="5"/>
-<wire x1="40.64" y1="81.28" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<pinref part="R2" gate="G$1" pin="6"/>
-<wire x1="27.94" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="86.36" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="8"/>
+<wire x1="48.26" y1="127" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -7778,11 +8011,6 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="22.86" y1="86.36" x2="10.16" y2="86.36" width="0.1524" layer="91"/>
 <label x="10.16" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="22.86" y1="73.66" x2="10.16" y2="73.66" width="0.1524" layer="91"/>
-<label x="10.16" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="AVCC@44"/>
@@ -7821,29 +8049,28 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <wire x1="152.4" y1="172.72" x2="152.4" y2="175.26" width="0.1524" layer="91"/>
 <label x="152.4" y="175.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="VBUS"/>
+<wire x1="76.2" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
+<label x="81.28" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="USB1" gate="G$1" pin="VBUS"/>
+<wire x1="86.36" y1="66.04" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
+<label x="91.44" y="66.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PD5" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="4"/>
-<wire x1="73.66" y1="81.28" x2="81.28" y2="81.28" width="0.1524" layer="91"/>
-<label x="81.28" y="81.28" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="190.5" y1="86.36" x2="195.58" y2="86.36" width="0.1524" layer="91"/>
 <label x="193.04" y="86.36" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="PD5"/>
 </segment>
-</net>
-<net name="PB0" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="3"/>
-<wire x1="73.66" y1="73.66" x2="81.28" y2="73.66" width="0.1524" layer="91"/>
-<label x="81.28" y="73.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="190.5" y1="99.06" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
-<label x="193.04" y="99.06" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="PB0(SS)"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="127" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="119.38" x2="78.74" y2="119.38" width="0.1524" layer="91"/>
+<label x="78.74" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -7889,12 +8116,219 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <wire x1="152.4" y1="157.48" x2="152.4" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="PWM1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PD0(SCL)"/>
+<wire x1="190.5" y1="127" x2="195.58" y2="127" width="0.1524" layer="91"/>
+<label x="195.58" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM2" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PC6"/>
+<wire x1="190.5" y1="121.92" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
+<label x="195.58" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM3" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PD7(ADC10)"/>
+<wire x1="190.5" y1="119.38" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
+<label x="195.58" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM4" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB5(ADC12)"/>
+<wire x1="190.5" y1="111.76" x2="195.58" y2="111.76" width="0.1524" layer="91"/>
+<label x="195.58" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM5" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB6(ADC13)"/>
+<wire x1="190.5" y1="109.22" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
+<label x="195.58" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM6" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB7"/>
+<wire x1="190.5" y1="106.68" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
+<label x="195.58" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D+" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="D+"/>
+<wire x1="76.2" y1="38.1" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
+<label x="81.28" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="USB1" gate="G$1" pin="D+"/>
+<wire x1="86.36" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
+<label x="91.44" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="D+"/>
+<wire x1="154.94" y1="124.46" x2="152.4" y2="124.46" width="0.1524" layer="91"/>
+<label x="152.4" y="124.46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D-" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="D-"/>
+<wire x1="76.2" y1="35.56" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
+<label x="81.28" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="USB1" gate="G$1" pin="D-"/>
+<wire x1="86.36" y1="63.5" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
+<label x="91.44" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="D-"/>
+<wire x1="154.94" y1="121.92" x2="152.4" y2="121.92" width="0.1524" layer="91"/>
+<label x="152.4" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="B1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB1(SCK)"/>
+<wire x1="190.5" y1="96.52" x2="195.58" y2="96.52" width="0.1524" layer="91"/>
+<label x="195.58" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="B2" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB2(MOSI)"/>
+<wire x1="190.5" y1="93.98" x2="195.58" y2="93.98" width="0.1524" layer="91"/>
+<label x="195.58" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="B3" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB3(MISO)"/>
+<wire x1="190.5" y1="91.44" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
+<label x="195.58" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="B4" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB4(ADC11)"/>
+<wire x1="190.5" y1="114.3" x2="195.58" y2="114.3" width="0.1524" layer="91"/>
+<label x="195.58" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="B5" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PD1(SDA)"/>
+<wire x1="190.5" y1="129.54" x2="195.58" y2="129.54" width="0.1524" layer="91"/>
+<label x="195.58" y="129.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="B6" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PD2(RX)"/>
+<wire x1="190.5" y1="134.62" x2="195.58" y2="134.62" width="0.1524" layer="91"/>
+<label x="195.58" y="134.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PF7(ADC7)"/>
+<wire x1="190.5" y1="157.48" x2="195.58" y2="157.48" width="0.1524" layer="91"/>
+<label x="195.58" y="157.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A2" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PF6(ADC6)"/>
+<wire x1="190.5" y1="154.94" x2="195.58" y2="154.94" width="0.1524" layer="91"/>
+<label x="195.58" y="154.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A3" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PF5(ADC5)"/>
+<wire x1="190.5" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
+<label x="195.58" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A4" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PF4(ADC4)"/>
+<wire x1="190.5" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
+<label x="195.58" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A5" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PF1(ADC1)"/>
+<wire x1="190.5" y1="147.32" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
+<label x="195.58" y="147.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A6" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PF0(ADC0)"/>
+<wire x1="190.5" y1="144.78" x2="195.58" y2="144.78" width="0.1524" layer="91"/>
+<label x="195.58" y="144.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="INV1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PD3(TX)"/>
+<wire x1="190.5" y1="132.08" x2="195.58" y2="132.08" width="0.1524" layer="91"/>
+<label x="195.58" y="132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="INV2" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PD4(ADC8)"/>
+<wire x1="190.5" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
+<label x="195.58" y="124.46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="INV3" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PE6"/>
+<wire x1="190.5" y1="116.84" x2="195.58" y2="116.84" width="0.1524" layer="91"/>
+<label x="195.58" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="INV4" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PD6(ADC9)"/>
+<wire x1="190.5" y1="104.14" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
+<label x="195.58" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="INV5" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PC7"/>
+<wire x1="190.5" y1="101.6" x2="195.58" y2="101.6" width="0.1524" layer="91"/>
+<label x="195.58" y="101.6" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="INV6" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB0(SS)"/>
+<wire x1="190.5" y1="99.06" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
+<label x="195.58" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
 <compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
