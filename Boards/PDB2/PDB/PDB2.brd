@@ -1593,7 +1593,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <vertex x="65.278" y="16.129"/>
 <vertex x="65.278" y="-3.17033125"/>
 </polygon>
-<polygon width="0.2032" layer="16" rank="2">
+<polygon width="0.2032" layer="16" isolate="0.254" rank="2">
 <vertex x="14.097" y="-3.429"/>
 <vertex x="65.913" y="-3.429"/>
 <vertex x="65.913" y="13.208"/>
@@ -1613,7 +1613,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="30.226" y1="13.843" x2="63.627" y2="13.843" width="0.3048" layer="16"/>
 <wire x1="64.251" y1="20.6248" x2="64.251" y2="16.792" width="0.3048" layer="1"/>
 <wire x1="64.251" y1="16.792" x2="63.969" y2="16.51" width="0.3048" layer="1"/>
-<polygon width="0.2032" layer="1" rank="2">
+<polygon width="0.2032" layer="1" isolate="0.254" rank="2">
 <vertex x="14.224" y="-3.81"/>
 <vertex x="65.659" y="-3.81"/>
 <vertex x="65.659" y="16.51"/>
