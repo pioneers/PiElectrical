@@ -1,0 +1,16 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"DESCRIPTION";"DISTRIBUTOR";"DISTRIBUTOR_PART_NUMBER";"MANUFACTURER";"MANUFACTURER_PART_NUMBER";"NOTES";"PACKAGE";"PART_NO";"PIE-DIGIKEY-PN-ALT1";"PIE-DIGIKEY-PN-PRI";"PIE-INT-REF-NUM";"VALUE";"VMAX";
+"1";"";"CRYSTAL10.5X4.8";"CRYSTAL-SMD-10.5X4.8-2PIN";"Y1";"Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00534";"";"";"";"";"";"";"";"";"";"";"CRYSTAL";"";"";
+"4";".1uF";"CAP0603-CAP";"0603-CAP";"C2, C3, C12, C15";"Capacitor";"";"";"";"";"";"";"";"";"";"";"CAPACITOR-GENERIC";"";"";
+"1";".1uF";"CAP0603-CAP";"0603-CAP";"C5";"Capacitor";"";"";"";"";"";"";"";"";"";"";"CAPACITOR-GENERIC";"";"16V";
+"2";"10k";"R-US_R0603";"R0603";"R1, R2";"RESISTOR, American symbol";"RESISTOR, American symbol";"DigiKey";"";"Rohm Semiconductor";"";"Cut Tape";"R0603";"";"";"";"";">VALUE";"";
+"2";"10m";"R-US_R2512";"R2512";"R3, R4";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"";"";"RESISTOR-GENERIC";"";"";
+"2";"18pF";"CAP0603-CAP";"0603-CAP";"C6, C7";"Capacitor";"";"";"";"";"";"";"";"";"";"";"CAPACITOR-GENERIC";"";"";
+"4";"1uF";"CAP0603-CAP";"0603-CAP";"C1, C4, C8, C9";"Capacitor";"";"";"";"";"";"";"";"";"";"";"CAPACITOR-GENERIC";"";"";
+"4";"220uF";"CAP_POLF80";"NIPPON_F80";"C10, C11, C13, C14";"Capacitor Polarized";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"2";"47pF";"CAP0603-CAP";"0603-CAP";"C16, C17";"Capacitor";"";"";"";"";"";"";"";"";"";"";"CAPACITOR-GENERIC";"";"";
+"3";"ANDERSONVERTICAL";"ANDERSONVERTICAL";"ANDERSON_VERTICAL";"CONN1, CONN2, CONN3";"2-pin 25A Anderson Connector";"";"";"";"";"";"";"";"";"";"";"Anderson";"";"";
+"1";"ATMEGA32U4-AU";"ATMEGA32U4-AU";"TQFP44";"U2";"";"";"";"";"";"";"";"";"";"ATMEGA32U4-MURCT-ND";"ATMEGA32U4RC-MURCT-ND";"ATmega32U4";"";"";
+"1";"CONN_12X2";"CONN_12X2";"2X12";"J1";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";"";"";"";"";"";"";"";"";"";"";"";"";
+"1";"DRV8704";"DRV8704";"HTSSOP(38)";"U1";"";"";"";"";"";"";"";"";"DRV8704";"";"";"";"";"";
+"8";"NMOS_CSD17579Q3A";"NMOS_CSD17579Q3A";"DNH0008A";"M1, M2, M3, M4, M5, M6, M7, M8";"";"";"";"";"";"";"";"";"CSD17579Q3A";"";"";"";"";"";
+"1";"USB-OTGMICRO-AB";"USB-OTGMICRO-AB";"USB-MICRO-AB";"USB1";"USB Connector";"";"";"";"";"";"";"";"";"";"H11635CT-ND";"USB";"";"";

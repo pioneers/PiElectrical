@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-08-23T07:50:46Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "TI_MotorController"
+        },
+        "Owner": "Sherwin Afshar <sherwina210@berkeley.edu>",
+        "Size": {
+            "X": 108.986,
+            "Y": 65.329
+        }
+    }
+}
