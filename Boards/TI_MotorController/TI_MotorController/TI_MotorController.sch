@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6123,7 +6123,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="M2" gate="A" pin="G"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="AISENP" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="AISENP"/>
 <wire x1="109.22" y1="17.78" x2="134.62" y2="17.78" width="0.1524" layer="91"/>
@@ -6139,6 +6139,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="165.1" y="-7.62"/>
 <pinref part="M4" gate="A" pin="S@2"/>
 <pinref part="M2" gate="A" pin="S@2"/>
+<label x="127" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A2LS" class="0">
