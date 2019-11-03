@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5985,7 +5985,6 @@ USB_B
 <part name="SUPPLY8" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="pie" deviceset="GND" device=""/>
-<part name="SUPPLY11" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="pie" deviceset="GND" device=""/>
@@ -6016,6 +6015,9 @@ USB_B
 <part name="C5" library="pie" deviceset="CAP" device="0603-CAP" value="18pF"/>
 <part name="C6" library="pie" deviceset="CAP" device="0603-CAP" value="18pF"/>
 <part name="U$2" library="pie" deviceset="12PIN" device=""/>
+<part name="SUPPLY3" library="pie" deviceset="GND" device=""/>
+<part name="SUPPLY4" library="pie" deviceset="GND" device=""/>
+<part name="SUPPLY7" library="pie" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6694,9 +6696,6 @@ USB_B
 <instance part="SUPPLY10" gate="GND" x="160.02" y="78.74" smashed="yes">
 <attribute name="VALUE" x="158.75" y="74.93" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY11" gate="GND" x="116.84" y="-10.16" smashed="yes">
-<attribute name="VALUE" x="115.57" y="-13.97" size="1.778" layer="96"/>
-</instance>
 <instance part="SUPPLY12" gate="GND" x="142.24" y="10.16" smashed="yes">
 <attribute name="VALUE" x="140.97" y="6.35" size="1.778" layer="96"/>
 </instance>
@@ -6714,6 +6713,15 @@ USB_B
 </instance>
 <instance part="CONN3" gate="G$1" x="25.4" y="106.68" smashed="yes" rot="MR180">
 <attribute name="NAME" x="17.78" y="100.584" size="1.778" layer="95" rot="MR180"/>
+</instance>
+<instance part="SUPPLY3" gate="GND" x="142.24" y="10.16" smashed="yes">
+<attribute name="VALUE" x="140.97" y="6.35" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY4" gate="GND" x="116.84" y="-10.16" smashed="yes">
+<attribute name="VALUE" x="115.57" y="-13.97" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY7" gate="GND" x="119.38" y="58.42" smashed="yes">
+<attribute name="VALUE" x="118.11" y="54.61" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -7058,32 +7066,6 @@ USB_B
 <label x="106.68" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BISENN" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="BISENN"/>
-<wire x1="60.96" y1="7.62" x2="55.88" y2="7.62" width="0.1524" layer="91"/>
-<label x="58.42" y="7.62" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="-7.62" x2="106.68" y2="-7.62" width="0.1524" layer="91"/>
-<label x="106.68" y="-7.62" size="1.778" layer="95"/>
-<pinref part="SUPPLY11" gate="GND" pin="GND"/>
-<junction x="116.84" y="-7.62"/>
-</segment>
-</net>
-<net name="AISENN" class="0">
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="60.96" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
-<label x="109.22" y="60.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="AISENN"/>
-<wire x1="55.88" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
-<label x="58.42" y="30.48" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="C23" gate="G$1" pin="-"/>
@@ -7104,6 +7086,8 @@ USB_B
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
 <pinref part="C26" gate="G$1" pin="-"/>
 <wire x1="142.24" y1="12.7" x2="142.24" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="SUPPLY3" gate="GND" pin="GND"/>
+<junction x="142.24" y="12.7"/>
 </segment>
 <segment>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
@@ -7159,6 +7143,24 @@ USB_B
 <wire x1="55.88" y1="20.32" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
 <junction x="71.12" y="20.32"/>
 <label x="12.7" y="-25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="SUPPLY4" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="SUPPLY7" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="AISENN"/>
+<wire x1="55.88" y1="30.48" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
+<label x="58.42" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="BISENN"/>
+<wire x1="60.96" y1="7.62" x2="55.88" y2="7.62" width="0.1524" layer="91"/>
+<label x="58.42" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SLEEP" class="0">
