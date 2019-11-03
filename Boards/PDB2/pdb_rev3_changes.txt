@@ -1,0 +1,4 @@
+1) increase hold pad size on segment display
+2) increase hold size on button
+3) increase via size of buzzer 
+4) use saftey gnd for 5V converter
