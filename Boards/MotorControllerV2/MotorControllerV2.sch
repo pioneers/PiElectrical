@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6077,17 +6077,17 @@ USB_B
 <instance part="SUPPLY18" gate="GND" x="71.12" y="76.2" smashed="yes">
 <attribute name="VALUE" x="69.85" y="72.39" size="1.778" layer="96"/>
 </instance>
-<instance part="ENC1" gate="G$1" x="5.08" y="35.56" smashed="yes">
-<attribute name="VALUE" x="2.54" y="25.4" size="1.778" layer="96"/>
-<attribute name="NAME" x="2.54" y="41.91" size="1.778" layer="95"/>
+<instance part="ENC1" gate="G$1" x="7.62" y="22.86" smashed="yes">
+<attribute name="VALUE" x="5.08" y="12.7" size="1.778" layer="96"/>
+<attribute name="NAME" x="5.08" y="29.21" size="1.778" layer="95"/>
 </instance>
 <instance part="R8" gate="G$1" x="43.18" y="17.78" smashed="yes">
 <attribute name="NAME" x="35.56" y="48.26" size="3.81" layer="94" font="vector"/>
 <attribute name="VALUE" x="33.02" y="12.7" size="3.81" layer="94" font="vector"/>
 </instance>
-<instance part="ENC2" gate="G$1" x="5.08" y="17.78" smashed="yes">
-<attribute name="VALUE" x="2.54" y="7.62" size="1.778" layer="96"/>
-<attribute name="NAME" x="2.54" y="24.13" size="1.778" layer="95"/>
+<instance part="ENC2" gate="G$1" x="7.62" y="40.64" smashed="yes">
+<attribute name="VALUE" x="5.08" y="30.48" size="1.778" layer="96"/>
+<attribute name="NAME" x="5.08" y="46.99" size="1.778" layer="95"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="-157.48" y="-66.04" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="-10.16" y="-66.04" smashed="yes">
@@ -6212,13 +6212,13 @@ USB_B
 </segment>
 <segment>
 <pinref part="ENC1" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="33.02" x2="17.78" y2="33.02" width="0.1524" layer="91"/>
-<label x="12.7" y="33.02" size="1.778" layer="95"/>
+<wire x1="15.24" y1="20.32" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
+<label x="15.24" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="ENC2" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
-<label x="12.7" y="15.24" size="1.778" layer="95"/>
+<wire x1="15.24" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
+<label x="15.24" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
@@ -6359,8 +6359,8 @@ USB_B
 </segment>
 <segment>
 <pinref part="ENC1" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
-<label x="12.7" y="30.48" size="1.778" layer="95"/>
+<wire x1="15.24" y1="17.78" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
+<label x="15.24" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="4"/>
@@ -6374,8 +6374,8 @@ USB_B
 </segment>
 <segment>
 <pinref part="ENC2" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="12.7" x2="17.78" y2="12.7" width="0.1524" layer="91"/>
-<label x="12.7" y="12.7" size="1.778" layer="95"/>
+<wire x1="15.24" y1="35.56" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
+<label x="15.24" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
@@ -6530,25 +6530,25 @@ USB_B
 </net>
 <net name="A1" class="0">
 <segment>
-<pinref part="ENC1" gate="G$1" pin="3"/>
-<pinref part="R8" gate="G$1" pin="6"/>
-<wire x1="30.48" y1="35.56" x2="12.7" y2="35.56" width="0.1524" layer="91"/>
-<label x="12.7" y="35.56" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U2" gate="G$1" pin="(TXD1/INT3)PD3"/>
 <wire x1="-25.4" y1="2.54" x2="-20.32" y2="2.54" width="0.1524" layer="91"/>
 <label x="-22.86" y="2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ENC1" gate="G$1" pin="3"/>
+<wire x1="15.24" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="8"/>
+<wire x1="30.48" y1="22.86" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
+<label x="15.24" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B1" class="0">
 <segment>
 <pinref part="ENC1" gate="G$1" pin="4"/>
-<wire x1="12.7" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="5"/>
-<wire x1="30.48" y1="43.18" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="43.18" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
-<label x="12.7" y="38.1" size="1.778" layer="95"/>
+<label x="15.24" y="25.4" size="1.778" layer="95"/>
+<pinref part="R8" gate="G$1" pin="7"/>
+<wire x1="15.24" y1="25.4" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="25.4" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="(ADC7/TDI)PF7"/>
@@ -6559,11 +6559,10 @@ USB_B
 <net name="A2" class="0">
 <segment>
 <pinref part="ENC2" gate="G$1" pin="3"/>
-<wire x1="12.7" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="17.78" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="8"/>
-<wire x1="27.94" y1="20.32" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
-<label x="12.7" y="17.78" size="1.778" layer="95"/>
+<wire x1="15.24" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
+<label x="15.24" y="40.64" size="1.778" layer="95"/>
+<pinref part="R8" gate="G$1" pin="6"/>
+<wire x1="30.48" y1="40.64" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="(SDA/INT1)PD1"/>
@@ -6574,11 +6573,9 @@ USB_B
 <net name="B2" class="0">
 <segment>
 <pinref part="ENC2" gate="G$1" pin="4"/>
-<wire x1="12.7" y1="20.32" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="20.32" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="7"/>
-<wire x1="20.32" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
-<label x="12.7" y="20.32" size="1.778" layer="95"/>
+<label x="15.24" y="43.18" size="1.778" layer="95"/>
+<pinref part="R8" gate="G$1" pin="5"/>
+<wire x1="15.24" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="(RXD1/INT2)PD2"/>
