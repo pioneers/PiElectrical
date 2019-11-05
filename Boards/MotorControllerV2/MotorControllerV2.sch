@@ -6583,11 +6583,6 @@ USB_B
 <wire x1="-25.4" y1="25.4" x2="-17.78" y2="25.4" width="0.1524" layer="91"/>
 <label x="-22.86" y="25.4" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="-50.8" y1="78.74" x2="-58.42" y2="78.74" width="0.1524" layer="91"/>
-<label x="-60.96" y="78.74" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="AIN1" class="0">
 <segment>
@@ -6807,11 +6802,17 @@ USB_B
 <pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="RST" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="RESET"/>
 <wire x1="-83.82" y1="45.72" x2="-88.9" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
+<label x="-88.9" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="-50.8" y1="78.74" x2="-58.42" y2="78.74" width="0.1524" layer="91"/>
+<label x="-60.96" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
