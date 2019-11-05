@@ -3690,22 +3690,6 @@ Drawings &lt;/a&gt;</description>
 <rectangle x1="-5.08" y1="-1.27" x2="5.08" y2="1.27" layer="40"/>
 <rectangle x1="-5.08" y1="-2.54" x2="5.08" y2="3.302" layer="39"/>
 </package>
-<package name="12PIN">
-<pad name="P$1" x="0" y="0" drill="1" diameter="2.1844" shape="square"/>
-<pad name="P$2" x="2.54" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$3" x="5.08" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$4" x="7.62" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$5" x="10.16" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$6" x="12.7" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$7" x="15.24" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$8" x="17.78" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$9" x="20.32" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$10" x="22.86" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$11" x="25.4" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$12" x="27.94" y="0" drill="1" diameter="2.1844"/>
-<text x="-1.27" y="2.54" size="1.27" layer="21" font="vector">&gt;NAME</text>
-<text x="-1.27" y="-3.81" size="1.27" layer="21" font="vector">&gt;VALUE</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="TQFP44" urn="urn:adsk.eagle:package:38953/1" type="box">
@@ -4063,25 +4047,6 @@ Drawings &lt;/a&gt;</description>
 <pin name="2" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-<symbol name="12PIN">
-<wire x1="0" y1="0" x2="0" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="66.04" y2="7.62" width="0.254" layer="94"/>
-<wire x1="66.04" y1="7.62" x2="66.04" y2="0" width="0.254" layer="94"/>
-<wire x1="66.04" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="P$1" x="5.08" y="-5.08" visible="pin" length="middle" rot="R90"/>
-<pin name="P$2" x="10.16" y="-5.08" visible="pin" length="middle" rot="R90"/>
-<pin name="P$3" x="15.24" y="-5.08" visible="pin" length="middle" rot="R90"/>
-<pin name="P$4" x="20.32" y="-5.08" visible="pin" length="middle" rot="R90"/>
-<pin name="P$5" x="25.4" y="-5.08" visible="pin" length="middle" rot="R90"/>
-<pin name="P$6" x="30.48" y="-5.08" visible="pin" length="middle" rot="R90"/>
-<pin name="P$7" x="35.56" y="-5.08" visible="pin" length="middle" rot="R90"/>
-<pin name="P$8" x="40.64" y="-5.08" visible="pin" length="middle" rot="R90"/>
-<pin name="P$9" x="45.72" y="-5.08" visible="pin" length="middle" rot="R90"/>
-<pin name="P$10" x="50.8" y="-5.08" visible="pin" length="middle" rot="R90"/>
-<pin name="P$11" x="55.88" y="-5.08" visible="pin" length="middle" rot="R90"/>
-<pin name="P$12" x="60.96" y="-5.08" visible="pin" length="middle" rot="R90"/>
-<text x="2.54" y="10.16" size="1.27" layer="94" font="vector">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5797,32 +5762,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </device>
 </devices>
 </deviceset>
-<deviceset name="12PIN">
-<gates>
-<gate name="G$1" symbol="12PIN" x="-35.56" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="12PIN">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$10" pad="P$10"/>
-<connect gate="G$1" pin="P$11" pad="P$11"/>
-<connect gate="G$1" pin="P$12" pad="P$12"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-<connect gate="G$1" pin="P$5" pad="P$5"/>
-<connect gate="G$1" pin="P$6" pad="P$6"/>
-<connect gate="G$1" pin="P$7" pad="P$7"/>
-<connect gate="G$1" pin="P$8" pad="P$8"/>
-<connect gate="G$1" pin="P$9" pad="P$9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
@@ -6014,7 +5953,6 @@ USB_B
 <part name="R1" library="pie" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="C5" library="pie" deviceset="CAP" device="0603-CAP" value="18pF"/>
 <part name="C6" library="pie" deviceset="CAP" device="0603-CAP" value="18pF"/>
-<part name="U$2" library="pie" deviceset="12PIN" device=""/>
 <part name="SUPPLY3" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="pie" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="pie" deviceset="GND" device=""/>
@@ -6131,9 +6069,6 @@ USB_B
 <instance part="C6" gate="G$1" x="-111.76" y="15.24" smashed="yes">
 <attribute name="NAME" x="-115.57" y="17.78" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-115.57" y="10.16" size="1.778" layer="96"/>
-</instance>
-<instance part="U$2" gate="G$1" x="-144.78" y="93.98" smashed="yes">
-<attribute name="NAME" x="-142.24" y="104.14" size="1.27" layer="94" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -6727,8 +6662,8 @@ USB_B
 <net name="A1HS" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="A1HS"/>
-<wire x1="55.88" y1="38.1" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
 <label x="58.42" y="38.1" size="1.778" layer="95"/>
+<wire x1="55.88" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="99.06" y1="96.52" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
@@ -6739,8 +6674,8 @@ USB_B
 <net name="A1LS" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="AILS"/>
-<wire x1="55.88" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="91"/>
 <label x="58.42" y="35.56" size="1.778" layer="95"/>
+<wire x1="55.88" y1="35.56" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="99.06" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
@@ -6772,8 +6707,8 @@ USB_B
 <net name="A2LS" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="A2LS"/>
-<wire x1="55.88" y1="27.94" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
 <label x="58.42" y="27.94" size="1.778" layer="95"/>
+<wire x1="55.88" y1="27.94" x2="76.2" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="124.46" y1="78.74" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
@@ -6793,8 +6728,8 @@ USB_B
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="AOUT2"/>
-<wire x1="55.88" y1="22.86" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
 <label x="58.42" y="22.86" size="1.778" layer="95"/>
+<wire x1="55.88" y1="22.86" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CONN2" gate="G$1" pin="OUTA"/>
@@ -6815,8 +6750,8 @@ USB_B
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="AOUT1"/>
-<wire x1="55.88" y1="40.64" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
 <label x="58.42" y="40.64" size="1.778" layer="95"/>
+<wire x1="55.88" y1="40.64" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CONN2" gate="G$1" pin="OUTB"/>
@@ -6827,8 +6762,8 @@ USB_B
 <net name="A2HS" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="A2HS"/>
-<wire x1="55.88" y1="25.4" x2="60.96" y2="25.4" width="0.1524" layer="91"/>
 <label x="58.42" y="25.4" size="1.778" layer="95"/>
+<wire x1="55.88" y1="25.4" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="124.46" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
@@ -6914,8 +6849,8 @@ USB_B
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="BOUT1"/>
-<wire x1="55.88" y1="17.78" x2="60.96" y2="17.78" width="0.1524" layer="91"/>
 <label x="58.42" y="17.78" size="1.778" layer="95"/>
+<wire x1="55.88" y1="17.78" x2="76.2" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CONN1" gate="G$1" pin="OUTB"/>
@@ -6935,8 +6870,8 @@ USB_B
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="BOUT2"/>
-<wire x1="55.88" y1="0" x2="60.96" y2="0" width="0.1524" layer="91"/>
 <label x="58.42" y="0" size="1.778" layer="95"/>
+<wire x1="55.88" y1="0" x2="76.2" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CONN1" gate="G$1" pin="OUTA"/>
@@ -6952,8 +6887,8 @@ USB_B
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="B1HS"/>
-<wire x1="55.88" y1="15.24" x2="60.96" y2="15.24" width="0.1524" layer="91"/>
 <label x="58.42" y="15.24" size="1.778" layer="95"/>
+<wire x1="55.88" y1="15.24" x2="76.2" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B1LS" class="0">
@@ -6964,8 +6899,8 @@ USB_B
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="B1LS"/>
-<wire x1="55.88" y1="12.7" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
 <label x="58.42" y="12.7" size="1.778" layer="95"/>
+<wire x1="55.88" y1="12.7" x2="76.2" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B2HS" class="0">
@@ -6976,8 +6911,8 @@ USB_B
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="B2HS"/>
-<wire x1="55.88" y1="2.54" x2="60.96" y2="2.54" width="0.1524" layer="91"/>
 <label x="58.42" y="2.54" size="1.778" layer="95"/>
+<wire x1="55.88" y1="2.54" x2="76.2" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B2LS" class="0">
@@ -6988,8 +6923,8 @@ USB_B
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="B2LS"/>
-<wire x1="55.88" y1="5.08" x2="60.96" y2="5.08" width="0.1524" layer="91"/>
 <label x="58.42" y="5.08" size="1.778" layer="95"/>
+<wire x1="55.88" y1="5.08" x2="76.2" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VINT" class="0">
@@ -7045,8 +6980,8 @@ USB_B
 <net name="BISENP" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="BISENP"/>
-<wire x1="55.88" y1="10.16" x2="60.96" y2="10.16" width="0.1524" layer="91"/>
 <label x="58.42" y="10.16" size="1.778" layer="95"/>
+<wire x1="55.88" y1="10.16" x2="66.04" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>

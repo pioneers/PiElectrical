@@ -3,7 +3,7 @@
 <eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -205,6 +205,18 @@
 <text x="89.535" y="36.195" size="1.778" layer="25" font="vector" ratio="15" rot="R90">AOUT2</text>
 <text x="89.535" y="12.319" size="1.778" layer="25" font="vector" ratio="15" rot="R90">BOUT1</text>
 <text x="89.408" y="22.733" size="1.778" layer="25" font="vector" ratio="15" rot="R90">BOUT2</text>
+<text x="51.689" y="49.657" size="0.8128" layer="25" font="vector" ratio="15">A1OUT</text>
+<text x="52.578" y="53.086" size="0.8128" layer="25" font="vector" ratio="15">A1HS</text>
+<text x="54.102" y="45.974" size="0.8128" layer="25" font="vector" ratio="15">A1LS</text>
+<text x="52.832" y="39.751" size="0.8128" layer="25" font="vector" ratio="15">A2LS</text>
+<text x="52.832" y="38.481" size="0.8128" layer="25" font="vector" ratio="15">A2HS</text>
+<text x="52.07" y="34.798" size="0.8128" layer="25" font="vector" ratio="15">AOUT2</text>
+<text x="52.07" y="33.147" size="0.8128" layer="25" font="vector" ratio="15">BOUT1</text>
+<text x="52.451" y="31.369" size="0.8128" layer="25" font="vector" ratio="15">B1HS</text>
+<text x="54.864" y="26.543" size="0.8128" layer="25" font="vector" ratio="15">B1LS</text>
+<text x="54.356" y="19.431" size="0.8128" layer="25" font="vector" ratio="15">B2LS</text>
+<text x="50.927" y="17.145" size="0.8128" layer="25" font="vector" ratio="15">BOUT2</text>
+<text x="52.578" y="15.748" size="0.8128" layer="25" font="vector" ratio="15">B2HS</text>
 </plain>
 <libraries>
 <library name="pie">
@@ -1304,22 +1316,6 @@ Vertical
 <rectangle x1="-5.08" y1="-1.27" x2="5.08" y2="1.27" layer="40"/>
 <rectangle x1="-5.08" y1="-2.54" x2="5.08" y2="3.302" layer="39"/>
 </package>
-<package name="12PIN">
-<pad name="P$1" x="0" y="0" drill="1" diameter="2.1844" shape="square"/>
-<pad name="P$2" x="2.54" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$3" x="5.08" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$4" x="7.62" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$5" x="10.16" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$6" x="12.7" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$7" x="15.24" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$8" x="17.78" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$9" x="20.32" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$10" x="22.86" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$11" x="25.4" y="0" drill="1" diameter="2.1844"/>
-<pad name="P$12" x="27.94" y="0" drill="1" diameter="2.1844"/>
-<text x="-1.27" y="2.54" size="1.27" layer="21" font="vector">&gt;NAME</text>
-<text x="-1.27" y="-3.81" size="1.27" layer="21" font="vector">&gt;VALUE</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="TQFP44" urn="urn:adsk.eagle:package:38953/1" type="box">
@@ -1813,10 +1809,6 @@ design rules under a new name.</description>
 <attribute name="PIE-INT-REF-NUM" value="CAPACITOR-GENERIC" x="16.256" y="16.129" size="0.6096" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="VALUE" x="17.78" y="15.367" size="0.6096" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="U$2" library="pie" package="12PIN" value="12PIN" x="-28.702" y="-79.248" smashed="yes">
-<attribute name="NAME" x="-29.972" y="-76.708" size="1.27" layer="21" font="vector"/>
-<attribute name="VALUE" x="-29.972" y="-83.058" size="1.27" layer="21" font="vector"/>
-</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1958,6 +1950,12 @@ design rules under a new name.</description>
 <via x="71.755" y="2.159" extent="1-16" drill="0.4"/>
 <via x="8.128" y="11.049" extent="1-16" drill="0.4"/>
 <via x="20.447" y="8.89" extent="1-16" drill="0.4"/>
+<via x="11.938" y="37.846" extent="1-16" drill="0.4"/>
+<via x="10.668" y="31.369" extent="1-16" drill="0.4"/>
+<via x="23.876" y="41.148" extent="1-16" drill="0.4"/>
+<via x="19.05" y="44.196" extent="1-16" drill="0.4"/>
+<via x="24.003" y="43.18" extent="1-16" drill="0.4"/>
+<via x="25.273" y="46.482" extent="1-16" drill="0.4"/>
 </signal>
 <signal name="SLEEP">
 <contactref element="U2" pad="32"/>
@@ -2139,10 +2137,10 @@ design rules under a new name.</description>
 <wire x1="8.0682625" y1="35.052" x2="5.627" y2="35.052" width="0.508" layer="1"/>
 <wire x1="4.23" y1="33.655" x2="4.23" y2="32.473" width="0.508" layer="1"/>
 <wire x1="4.23" y1="32.473" x2="8.509" y2="28.194" width="0.508" layer="1"/>
-<wire x1="8.509" y1="28.194" x2="11.938" y2="28.194" width="0.508" layer="1"/>
-<wire x1="13.348" y1="29.604" x2="13.348" y2="31.157" width="0.508" layer="1"/>
-<wire x1="11.938" y1="28.194" x2="12.5095" y2="28.7655" width="0.508" layer="1"/>
-<wire x1="12.5095" y1="28.7655" x2="13.348" y2="29.604" width="0.508" layer="1"/>
+<wire x1="8.509" y1="28.194" x2="11.43" y2="28.194" width="0.508" layer="1"/>
+<wire x1="13.348" y1="30.112" x2="13.348" y2="31.157" width="0.508" layer="1"/>
+<wire x1="11.43" y1="28.194" x2="11.8745" y2="28.6385" width="0.508" layer="1"/>
+<wire x1="11.8745" y1="28.6385" x2="13.348" y2="30.112" width="0.508" layer="1"/>
 <wire x1="11.748" y1="43.879" x2="10.541" y2="42.672" width="0.508" layer="1"/>
 <wire x1="10.541" y1="42.672" x2="10.16" y2="42.672" width="0.508" layer="1"/>
 <via x="10.16" y="42.672" extent="1-16" drill="0.35"/>
@@ -2154,9 +2152,9 @@ design rules under a new name.</description>
 <wire x1="8.402" y1="51.367" x2="8.402" y2="51.5498" width="0.508" layer="1"/>
 <wire x1="14.351" y1="47.244" x2="17.272" y2="47.244" width="0.508" layer="16"/>
 <wire x1="17.272" y1="47.244" x2="20.701" y2="43.815" width="0.508" layer="16"/>
-<via x="12.5095" y="28.7655" extent="1-16" drill="0.35"/>
-<wire x1="12.5095" y1="28.7655" x2="11.6205" y2="27.8765" width="0.4064" layer="16"/>
-<wire x1="11.6205" y1="27.8765" x2="11.6205" y2="21.3995" width="0.4064" layer="16"/>
+<via x="11.8745" y="28.6385" extent="1-16" drill="0.35"/>
+<wire x1="11.8745" y1="28.6385" x2="11.6205" y2="28.3845" width="0.4064" layer="16"/>
+<wire x1="11.6205" y1="28.3845" x2="11.6205" y2="21.3995" width="0.4064" layer="16"/>
 <wire x1="11.6205" y1="21.3995" x2="18.288" y2="14.732" width="0.4064" layer="16"/>
 <wire x1="20.701" y1="43.815" x2="20.701" y2="54.483" width="0.3048" layer="1"/>
 <wire x1="20.701" y1="54.483" x2="20.701" y2="60.325" width="0.3048" layer="1"/>
@@ -2532,7 +2530,8 @@ design rules under a new name.</description>
 <vertex x="61.595" y="37.846"/>
 </polygon>
 <wire x1="39.878" y1="60.96" x2="39.878" y2="60.071" width="1.524" layer="16"/>
-<wire x1="39.878" y1="60.071" x2="27.305" y2="47.498" width="1.524" layer="16"/>
+<wire x1="39.878" y1="60.071" x2="28.2575" y2="48.4505" width="1.524" layer="16"/>
+<wire x1="28.2575" y1="48.4505" x2="27.305" y2="47.498" width="1.524" layer="16"/>
 <wire x1="27.305" y1="46.99" x2="27.305" y2="47.498" width="1.524" layer="16"/>
 <polygon width="0.1524" layer="1">
 <vertex x="63.627" y="65.659"/>
@@ -2606,8 +2605,9 @@ design rules under a new name.</description>
 <via x="61.849" y="3.937" extent="1-16" drill="0.4"/>
 <via x="61.849" y="2.921" extent="1-16" drill="0.4"/>
 <via x="61.849" y="1.905" extent="1-16" drill="0.4"/>
-<wire x1="27.305" y1="47.498" x2="28.321" y2="48.514" width="0" layer="19" extent="16-16"/>
-<wire x1="29.718" y1="49.784" x2="28.321" y2="48.514" width="0" layer="19" extent="1-1"/>
+<wire x1="29.718" y1="49.784" x2="28.3845" y2="48.4505" width="0.3048" layer="16"/>
+<wire x1="28.3845" y1="48.4505" x2="28.2575" y2="48.4505" width="0.3048" layer="16"/>
+<wire x1="28.321" y1="48.514" x2="27.305" y2="47.498" width="0.3048" layer="16"/>
 </signal>
 <signal name="BOUT1">
 <contactref element="CONN1" pad="PIN1"/>
@@ -3066,6 +3066,28 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="19,1,ad4fad71d111d12f"/>
+<approved hash="19,1,1371137343134311"/>
+<approved hash="19,1,b230afa243425ed0"/>
+<approved hash="19,1,dc30c1a22d4230d0"/>
+<approved hash="19,1,8363ed221b3d1e71"/>
+<approved hash="19,1,b7cb0ab928567faa"/>
+<approved hash="19,1,983964d9083ef4de"/>
+<approved hash="19,1,9c2c9c6ff089f0ca"/>
+<approved hash="19,1,47364e7f2cb14ecf"/>
+<approved hash="19,1,9b9c9a27f6c1f77a"/>
+<approved hash="19,1,377fcc6ede36c2ca"/>
+<approved hash="19,1,a2baa4186a7e6cdc"/>
+<approved hash="19,1,a216be1c707a6c70"/>
+<approved hash="19,1,181318e46b026bf5"/>
+<approved hash="19,1,fd800a17d5d54c59"/>
+<approved hash="19,1,1c6d1e1fedf9ef8b"/>
+<approved hash="19,1,808df2aa05511d03"/>
+<approved hash="19,1,cd238aee28168146"/>
+<approved hash="19,1,999e9c0870ee7578"/>
+<approved hash="19,1,98fd8ab63566d338"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
