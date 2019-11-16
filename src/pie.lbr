@@ -14493,6 +14493,7 @@ shrink quad flat pack, square</description>
 <wire x1="-1.7" y1="-3.15" x2="-1.7" y2="2.3" width="0.127" layer="21"/>
 <text x="0.1" y="2.8" size="1.27" layer="21">&gt;NAME</text>
 <text x="-0.1" y="-4.75" size="1.27" layer="21">&gt;VALUE</text>
+</package>
 <package name="BUZZER_3.3V">
 <pad name="P1" x="-3.81" y="0" drill="0.6"/>
 <pad name="P2" x="3.79" y="0" drill="0.6"/>
@@ -18043,6 +18044,7 @@ a TI sourced LI-ion, Lipo, Li-FE battery protection chip</description>
 <wire x1="-20.32" y1="-5.08" x2="-20.32" y2="15.24" width="0.254" layer="94"/>
 <text x="-33.02" y="17.78" size="1.778" layer="95">&gt;NAME</text>
 <text x="-30.48" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
 <symbol name="12PIN">
 <wire x1="0" y1="0" x2="0" y2="7.62" width="0.254" layer="94"/>
 <wire x1="0" y1="7.62" x2="66.04" y2="7.62" width="0.254" layer="94"/>
@@ -23923,7 +23925,6 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 </device>
 </devices>
 </deviceset>
-<<<<<<< HEAD
 <deviceset name="IR">
 <gates>
 <gate name="G$1" symbol="IR" x="-7.62" y="-55.88"/>
@@ -23934,7 +23935,10 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
-=======
+</connects>
+</device>
+</devices>
+</deviceset>
 <deviceset name="12PIN">
 <gates>
 <gate name="G$1" symbol="12PIN" x="-35.56" y="-2.54"/>
@@ -23954,7 +23958,6 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <connect gate="G$1" pin="P$7" pad="P$7"/>
 <connect gate="G$1" pin="P$8" pad="P$8"/>
 <connect gate="G$1" pin="P$9" pad="P$9"/>
->>>>>>> 12d7ab4d31580c7c9cc5e23a17562bb727f0dba8
 </connects>
 <technologies>
 <technology name=""/>
