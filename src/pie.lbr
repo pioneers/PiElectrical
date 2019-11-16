@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -12052,7 +12052,7 @@ shrink quad flat pack, square</description>
 <pad name="ADC" x="11.43" y="-6.35" drill="1" diameter="2.1844"/>
 <text x="0.254" y="-4.572" size="0.6096" layer="21" font="vector">SLEW</text>
 <text x="3.048" y="-4.572" size="0.6096" layer="21" font="vector">GND</text>
-<text x="5.588" y="-4.572" size="0.6096" layer="21" font="vector">VCC</text>
+<text x="11.438" y="-6.922" size="0.6096" layer="21" font="vector">VCC</text>
 <text x="8.001" y="-4.572" size="0.6096" layer="21" font="vector">3.3V</text>
 <text x="10.795" y="-4.572" size="0.6096" layer="21" font="vector">INV</text>
 <text x="0.635" y="-8.382" size="0.6096" layer="21" font="vector">IN1</text>
@@ -14475,6 +14475,24 @@ shrink quad flat pack, square</description>
 <wire x1="-0.381" y1="1.524" x2="-0.254" y2="1.524" width="0.1524" layer="21"/>
 <wire x1="-0.254" y1="1.524" x2="-0.254" y2="-1.651" width="0.1524" layer="21"/>
 <text x="-3.81" y="2.54" size="1.778" layer="25" font="vector" ratio="15">&gt;NAME</text>
+</package>
+<package name="IR">
+<pad name="VCC" x="0" y="0" drill="1" diameter="2.1844"/>
+<pad name="GND" x="2.54" y="0" drill="1" diameter="2.1844"/>
+<pad name="OUT" x="5.08" y="0" drill="1" diameter="2.1844"/>
+<text x="-0.812" y="-2.022" size="0.6096" layer="21" font="vector">VCC</text>
+<text x="2.151" y="-2.132" size="0.6096" layer="21" font="vector">GND</text>
+<text x="4.818" y="-2.132" size="0.6096" layer="21" font="vector">OUT</text>
+<wire x1="-1.7" y1="2.3" x2="7.6" y2="2.3" width="0.127" layer="51"/>
+<wire x1="7.6" y1="2.3" x2="7.6" y2="-3.15" width="0.127" layer="51"/>
+<wire x1="7.6" y1="-3.15" x2="-1.65" y2="-3.15" width="0.127" layer="51"/>
+<wire x1="-1.7" y1="2.3" x2="-1.7" y2="-3.15" width="0.127" layer="51"/>
+<wire x1="-1.7" y1="2.3" x2="7.6" y2="2.3" width="0.127" layer="21"/>
+<wire x1="7.6" y1="2.3" x2="7.6" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="7.6" y1="-3.15" x2="-1.7" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-3.15" x2="-1.7" y2="2.3" width="0.127" layer="21"/>
+<text x="0.1" y="2.8" size="1.27" layer="21">&gt;NAME</text>
+<text x="-0.1" y="-4.75" size="1.27" layer="21">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -17991,6 +18009,17 @@ a TI sourced LI-ion, Lipo, Li-FE battery protection chip</description>
 <wire x1="20.32" y1="-30.48" x2="-22.86" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="-22.86" y1="-30.48" x2="-22.86" y2="30.48" width="0.254" layer="94"/>
 <text x="-22.86" y="30.734" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="IR">
+<pin name="VCC" x="-40.64" y="12.7" length="middle"/>
+<pin name="GND" x="-40.64" y="5.08" length="middle"/>
+<pin name="OUT" x="-40.64" y="-2.54" length="middle"/>
+<wire x1="-20.32" y1="15.24" x2="-35.56" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-35.56" y1="15.24" x2="-35.56" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-35.56" y1="-5.08" x2="-20.32" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-5.08" x2="-20.32" y2="15.24" width="0.254" layer="94"/>
+<text x="-33.02" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-30.48" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -23840,6 +23869,23 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <technology name="">
 <attribute name="PART_NO" value="MBR1020VL" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IR">
+<gates>
+<gate name="G$1" symbol="IR" x="-7.62" y="-55.88"/>
+</gates>
+<devices>
+<device name="" package="1X03">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
