@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -185,10 +185,10 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="-1.27" y1="-5.08" x2="1.27" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.127" layer="21"/>
 <wire x1="1.27" y1="5.08" x2="-1.27" y2="5.08" width="0.127" layer="21"/>
-<text x="1.397" y="3.556" size="0.6096" layer="21">GND</text>
-<text x="1.397" y="1.016" size="0.6096" layer="21">Echo</text>
-<text x="1.397" y="-1.524" size="0.6096" layer="21">Trig</text>
-<text x="1.397" y="-4.064" size="0.6096" layer="21">VCC</text>
+<text x="1.397" y="3.556" size="0.6096" layer="21" font="vector">GND</text>
+<text x="1.397" y="1.016" size="0.6096" layer="21" font="vector">Echo</text>
+<text x="1.397" y="-1.524" size="0.6096" layer="21" font="vector">Trig</text>
+<text x="1.397" y="-4.064" size="0.6096" layer="21" font="vector">VCC</text>
 <text x="-2.032" y="-5.08" size="1.016" layer="25" ratio="12" rot="R90">&gt;NAME</text>
 </package>
 <package name="1X03">
@@ -390,27 +390,34 @@ Drawings &lt;/a&gt;</description>
 <symbols>
 <symbol name="HC-SR04_SYMBOL">
 <description>Ultrasonic Sensor HC-SR04 Schematic</description>
-<pin name="GND" x="-12.7" y="7.62" length="middle"/>
-<pin name="ECHO" x="-12.7" y="2.54" length="middle"/>
-<pin name="TRIG" x="-12.7" y="-2.54" length="middle"/>
-<pin name="5V" x="-12.7" y="-7.62" length="middle"/>
+<pin name="GND" x="-12.7" y="7.62" visible="pin" length="middle"/>
+<pin name="ECHO" x="-12.7" y="2.54" visible="pin" length="middle"/>
+<pin name="TRIG" x="-12.7" y="-2.54" visible="pin" length="middle"/>
+<pin name="5V" x="-12.7" y="-7.62" visible="pin" length="middle"/>
 <wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
 <wire x1="2.54" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<text x="-7.62" y="10.922" size="1.778" layer="95" ratio="12">&gt;NAME</text>
-<text x="-7.62" y="-12.954" size="1.778" layer="96" ratio="12">&gt;VALUE</text>
+<text x="-7.62" y="10.922" size="1.778" layer="95" font="vector" ratio="12">&gt;NAME</text>
+<text x="-7.62" y="-12.954" size="1.778" layer="96" font="vector" ratio="12">&gt;VALUE</text>
 </symbol>
 <symbol name="IR">
-<pin name="VCC" x="-40.64" y="12.7" length="middle"/>
-<pin name="GND" x="-40.64" y="5.08" length="middle"/>
-<pin name="OUT" x="-40.64" y="-2.54" length="middle"/>
+<pin name="VCC" x="-40.64" y="12.7" visible="pin" length="middle"/>
+<pin name="GND" x="-40.64" y="5.08" visible="pin" length="middle"/>
+<pin name="OUT" x="-40.64" y="-2.54" visible="pin" length="middle"/>
 <wire x1="-20.32" y1="15.24" x2="-35.56" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-35.56" y1="15.24" x2="-35.56" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-35.56" y1="-5.08" x2="-20.32" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-20.32" y1="-5.08" x2="-20.32" y2="15.24" width="0.254" layer="94"/>
 <text x="-33.02" y="17.78" size="1.778" layer="95">&gt;NAME</text>
 <text x="-30.48" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="GND">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<text x="-1.27" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 <symbol name="ARDUINO_PRO_MICRO">
 <wire x1="-10.16" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
@@ -476,6 +483,19 @@ Drawings &lt;/a&gt;</description>
 <connect gate="G$1" pin="OUT" pad="3"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GND" prefix="SUPPLY">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="GND" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -585,7 +605,12 @@ Drawings &lt;/a&gt;</description>
 <parts>
 <part name="J_ULTRASONIC_1" library="pie" deviceset="HC-SR04" device=""/>
 <part name="U$1" library="pie" deviceset="IR" device=""/>
-<part name="IC1" library="pie" deviceset="ARDUINO_PRO_MICRO" device="SMD"/>
+<part name="SUPPLY1" library="pie" deviceset="GND" device=""/>
+<part name="SUPPLY2" library="pie" deviceset="GND" device=""/>
+<part name="SUPPLY3" library="pie" deviceset="GND" device=""/>
+<part name="SUPPLY4" library="pie" deviceset="GND" device=""/>
+<part name="SUPPLY5" library="pie" deviceset="GND" device=""/>
+<part name="IC1" library="pie" deviceset="ARDUINO_PRO_MICRO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -600,6 +625,17 @@ Drawings &lt;/a&gt;</description>
 <attribute name="NAME" x="33.02" y="22.86" size="1.778" layer="95"/>
 <attribute name="VALUE" x="35.56" y="-2.54" size="1.778" layer="95"/>
 </instance>
+<instance part="SUPPLY1" gate="GND" x="-35.56" y="33.02" smashed="yes">
+<attribute name="VALUE" x="-36.83" y="29.21" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY2" gate="GND" x="-27.94" y="30.48" smashed="yes">
+<attribute name="VALUE" x="-29.21" y="26.67" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY3" gate="GND" x="7.62" y="35.56" smashed="yes"/>
+<instance part="SUPPLY4" gate="GND" x="20.32" y="7.62" smashed="yes">
+<attribute name="VALUE" x="11.43" y="8.89" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY5" gate="GND" x="25.4" y="43.18" smashed="yes"/>
 <instance part="IC1" gate="APM" x="-10.16" y="27.94" smashed="yes">
 <attribute name="NAME" x="-20.32" y="48.26" size="1.27" layer="94"/>
 </instance>
@@ -621,14 +657,32 @@ Drawings &lt;/a&gt;</description>
 </net>
 <net name="GND" class="0">
 <segment>
+<wire x1="-22.86" y1="35.56" x2="-35.56" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <pinref part="IC1" gate="APM" pin="GND@0"/>
-<wire x1="-22.86" y1="35.56" x2="-25.4" y2="35.56" width="0.1524" layer="91"/>
-<label x="-27.94" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J_ULTRASONIC_1" gate="J_ULTRASONIC" pin="GND"/>
 <wire x1="25.4" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 <label x="17.78" y="45.72" size="1.778" layer="95"/>
+<pinref part="SUPPLY5" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<wire x1="5.08" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
+<label x="7.62" y="38.1" size="1.778" layer="95"/>
+<pinref part="SUPPLY3" gate="GND" pin="GND"/>
+<pinref part="IC1" gate="APM" pin="GND@2"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="20.32" y1="10.16" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
+<label x="20.32" y="10.16" size="1.778" layer="95"/>
+<pinref part="SUPPLY4" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY2" gate="GND" pin="GND"/>
+<wire x1="-22.86" y1="33.02" x2="-27.94" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="APM" pin="GND@1"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -670,18 +724,6 @@ Drawings &lt;/a&gt;</description>
 <pinref part="J_ULTRASONIC_1" gate="J_ULTRASONIC" pin="TRIG"/>
 <wire x1="27.94" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
 <label x="17.78" y="35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GND1" class="0">
-<segment>
-<pinref part="IC1" gate="APM" pin="GND@2"/>
-<wire x1="5.08" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
-<label x="7.62" y="38.1" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="20.32" y1="10.16" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
-<label x="20.32" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

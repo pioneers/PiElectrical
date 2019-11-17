@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="19.6850394" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -174,6 +174,9 @@
 <wire x1="78" y1="0" x2="78" y2="50.5" width="0" layer="20"/>
 <wire x1="78" y1="50.5" x2="0" y2="50.5" width="0" layer="20"/>
 <wire x1="0" y1="50.5" x2="0" y2="0" width="0" layer="20"/>
+<text x="10" y="42.5" size="1.778" layer="25" font="vector" rot="R180">OUT</text>
+<text x="24.5" y="42.5" size="1.778" layer="25" font="vector" rot="R180">VCC</text>
+<text x="16.5" y="34.5" size="1.778" layer="25" font="vector" rot="R90">GND</text>
 </plain>
 <libraries>
 <library name="pie">
@@ -181,94 +184,6 @@
 A collection of parts and footprints made for the PiE Robotics Competition.&lt;br/&gt;&lt;br/&gt;
 (c) Pioneers in Engineering and Tau Beta Pi CA-A, UC Berkeley.</description>
 <packages>
-<package name="ARDUINO_PRO_MICRO_SM">
-<description>&lt;b&gt;Arduino Pro Micro Surface Mount&lt;/b&gt;
-
-&lt;p&gt;Surface Mount for APM&lt;/p&gt;</description>
-<wire x1="0" y1="33" x2="18.796" y2="33" width="0.127" layer="21"/>
-<wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<smd name="9" x="0" y="1.27" dx="2" dy="1" layer="1"/>
-<smd name="8" x="3.302" y="3.81" dx="2" dy="1" layer="1"/>
-<smd name="7" x="0" y="6.35" dx="2" dy="1" layer="1"/>
-<smd name="6" x="3.302" y="8.89" dx="2" dy="1" layer="1"/>
-<smd name="5" x="0" y="11.43" dx="2" dy="1" layer="1"/>
-<smd name="4" x="3.302" y="13.97" dx="2" dy="1" layer="1"/>
-<smd name="3" x="0" y="16.51" dx="2" dy="1" layer="1"/>
-<smd name="2" x="3.302" y="19.05" dx="2" dy="1" layer="1"/>
-<smd name="GND@2" x="0" y="21.59" dx="2" dy="1" layer="1"/>
-<smd name="GND@1" x="3.302" y="24.13" dx="2" dy="1" layer="1"/>
-<smd name="RX" x="0" y="26.67" dx="2" dy="1" layer="1"/>
-<smd name="TX" x="3.302" y="29.21" dx="2" dy="1" layer="1"/>
-<text x="9.525" y="5.08" size="1.27" layer="21" font="vector" rot="R90">&gt;NAME</text>
-<wire x1="5.08" y1="34.29" x2="5.08" y2="29.21" width="0.127" layer="21"/>
-<wire x1="5.08" y1="29.21" x2="12.7" y2="29.21" width="0.127" layer="21"/>
-<wire x1="12.7" y1="29.21" x2="12.7" y2="34.29" width="0.127" layer="21"/>
-<text x="5.969" y="30.48" size="0.762" layer="21" font="vector">Micro USB</text>
-<text x="0.762" y="29.21" size="0.762" layer="21" font="vector" align="center">TX</text>
-<text x="3.072" y="26.67" size="0.762" layer="21" font="vector" align="center">RX</text>
-<text x="0.762" y="24.13" size="0.762" layer="21" font="vector" align="center">GND</text>
-<text x="3.072" y="21.59" size="0.762" layer="21" font="vector" align="center">GND</text>
-<text x="18.129" y="26.67" size="0.762" layer="21" font="vector" align="center">GND</text>
-<text x="15.24" y="29.21" size="0.762" layer="21" font="vector" align="center">RAW</text>
-<text x="0.762" y="19.05" size="0.762" layer="21" font="vector" align="center">2</text>
-<text x="3.072" y="16.51" size="0.762" layer="21" font="vector" align="center">3</text>
-<text x="0.762" y="13.97" size="0.762" layer="21" font="vector" align="center">4</text>
-<text x="3.072" y="11.43" size="0.762" layer="21" font="vector" align="center">5</text>
-<text x="0.762" y="8.89" size="0.762" layer="21" font="vector" align="center">6</text>
-<text x="3.072" y="6.35" size="0.762" layer="21" font="vector" align="center">7</text>
-<text x="0.762" y="3.81" size="0.762" layer="21" font="vector" align="center">8</text>
-<text x="3.072" y="1.27" size="0.762" layer="21" font="vector" align="center">9</text>
-<text x="15.24" y="24.13" size="0.762" layer="21" font="vector" align="center">RST</text>
-<text x="18.129" y="21.59" size="0.762" layer="21" font="vector" align="center">VCC</text>
-<text x="15.24" y="19.05" size="0.762" layer="21" font="vector" align="center">A3</text>
-<text x="18.129" y="16.51" size="0.762" layer="21" font="vector" align="center">A2</text>
-<text x="15.24" y="13.97" size="0.762" layer="21" font="vector" align="center">A1</text>
-<text x="18.129" y="11.43" size="0.762" layer="21" font="vector" align="center">A0</text>
-<text x="15.24" y="8.89" size="0.762" layer="21" font="vector" align="center">15</text>
-<text x="18.129" y="6.35" size="0.762" layer="21" font="vector" align="center">14</text>
-<text x="15.24" y="3.81" size="0.762" layer="21" font="vector" align="center">16</text>
-<text x="18.129" y="1.27" size="0.762" layer="21" font="vector" align="center">10</text>
-<wire x1="0" y1="33.02" x2="0" y2="29.972" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="0.508" width="0.127" layer="21"/>
-<wire x1="0" y1="7.112" x2="0" y2="10.668" width="0.127" layer="21"/>
-<wire x1="0" y1="12.192" x2="0" y2="15.748" width="0.127" layer="21"/>
-<wire x1="0" y1="17.272" x2="0" y2="20.828" width="0.127" layer="21"/>
-<wire x1="18.796" y1="33.02" x2="18.796" y2="29.972" width="0.127" layer="21"/>
-<wire x1="18.796" y1="28.448" x2="18.796" y2="27.432" width="0.127" layer="21"/>
-<wire x1="18.796" y1="25.908" x2="18.796" y2="24.892" width="0.127" layer="21"/>
-<wire x1="18.796" y1="23.368" x2="18.796" y2="22.352" width="0.127" layer="21"/>
-<wire x1="18.796" y1="20.828" x2="18.796" y2="19.812" width="0.127" layer="21"/>
-<wire x1="18.796" y1="18.288" x2="18.796" y2="17.272" width="0.127" layer="21"/>
-<wire x1="18.796" y1="8.128" x2="18.796" y2="7.112" width="0.127" layer="21"/>
-<wire x1="18.796" y1="0.508" x2="18.796" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="22.352" x2="0" y2="23.368" width="0.127" layer="21"/>
-<wire x1="0" y1="24.892" x2="0" y2="25.908" width="0.127" layer="21"/>
-<wire x1="0" y1="27.432" x2="0" y2="28.448" width="0.127" layer="21"/>
-<smd name="10" x="15.494" y="1.27" dx="2" dy="1" layer="1"/>
-<smd name="16" x="18.796" y="3.81" dx="2" dy="1" layer="1"/>
-<smd name="14" x="15.494" y="6.35" dx="2" dy="1" layer="1"/>
-<smd name="15" x="18.796" y="8.89" dx="2" dy="1" layer="1"/>
-<smd name="A0" x="15.494" y="11.43" dx="2" dy="1" layer="1"/>
-<smd name="A1" x="18.796" y="13.97" dx="2" dy="1" layer="1"/>
-<smd name="A2" x="15.494" y="16.51" dx="2" dy="1" layer="1"/>
-<smd name="A3" x="18.796" y="19.05" dx="2" dy="1" layer="1"/>
-<smd name="VCC" x="15.494" y="21.59" dx="2" dy="1" layer="1"/>
-<smd name="RST" x="18.796" y="24.13" dx="2" dy="1" layer="1"/>
-<smd name="GND" x="15.494" y="26.67" dx="2" dy="1" layer="1"/>
-<smd name="RAW" x="18.796" y="29.21" dx="2" dy="1" layer="1"/>
-<wire x1="18.796" y1="15.748" x2="18.796" y2="14.732" width="0.127" layer="21"/>
-<wire x1="18.796" y1="13.208" x2="18.796" y2="12.192" width="0.127" layer="21"/>
-<wire x1="18.796" y1="3.048" x2="18.796" y2="2.032" width="0.127" layer="21"/>
-<wire x1="18.796" y1="5.588" x2="18.796" y2="4.572" width="0.127" layer="21"/>
-<wire x1="18.796" y1="10.668" x2="18.796" y2="9.652" width="0.127" layer="21"/>
-<wire x1="0" y1="2.032" x2="0" y2="5.588" width="0.127" layer="21"/>
-<polygon width="0.127" layer="39">
-<vertex x="3.81" y="35.56"/>
-<vertex x="3.81" y="30.48"/>
-<vertex x="13.97" y="30.48"/>
-<vertex x="13.97" y="35.56"/>
-</polygon>
-</package>
 <package name="HC-SR04_FOOTPRINT">
 <description>Ultrasonic Sensor HC-SR04 Footprint</description>
 <pad name="ECHO" x="0" y="1.27" drill="0.9" diameter="1.778"/>
@@ -279,10 +194,10 @@ A collection of parts and footprints made for the PiE Robotics Competition.&lt;b
 <wire x1="-1.27" y1="-5.08" x2="1.27" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.127" layer="21"/>
 <wire x1="1.27" y1="5.08" x2="-1.27" y2="5.08" width="0.127" layer="21"/>
-<text x="1.397" y="3.556" size="0.6096" layer="21">GND</text>
-<text x="1.397" y="1.016" size="0.6096" layer="21">Echo</text>
-<text x="1.397" y="-1.524" size="0.6096" layer="21">Trig</text>
-<text x="1.397" y="-4.064" size="0.6096" layer="21">VCC</text>
+<text x="1.397" y="3.556" size="0.6096" layer="21" font="vector">GND</text>
+<text x="1.397" y="1.016" size="0.6096" layer="21" font="vector">Echo</text>
+<text x="1.397" y="-1.524" size="0.6096" layer="21" font="vector">Trig</text>
+<text x="1.397" y="-4.064" size="0.6096" layer="21" font="vector">VCC</text>
 <text x="-2.032" y="-5.08" size="1.016" layer="25" ratio="12" rot="R90">&gt;NAME</text>
 </package>
 <package name="1X03">
@@ -346,6 +261,51 @@ Drawings &lt;/a&gt;</description>
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.127" layer="51"/>
 <wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.127" layer="21"/>
+</package>
+<package name="ARDUINO_PRO_MICRO">
+<wire x1="0" y1="0" x2="0" y2="33.528" width="0.127" layer="25"/>
+<wire x1="0" y1="33.528" x2="5.334" y2="33.528" width="0.127" layer="25"/>
+<wire x1="5.334" y1="33.528" x2="13.462" y2="33.528" width="0.127" layer="25"/>
+<wire x1="13.462" y1="33.528" x2="18.796" y2="33.528" width="0.127" layer="25"/>
+<wire x1="18.796" y1="33.528" x2="18.796" y2="0" width="0.127" layer="25"/>
+<wire x1="18.796" y1="0" x2="0" y2="0" width="0.127" layer="25"/>
+<pad name="9" x="1.778" y="1.778" drill="1" diameter="2.1844"/>
+<pad name="8" x="1.778" y="4.318" drill="1" diameter="2.1844"/>
+<pad name="7" x="1.778" y="6.858" drill="1" diameter="2.1844"/>
+<pad name="6" x="1.778" y="9.398" drill="1" diameter="2.1844"/>
+<pad name="5" x="1.778" y="11.938" drill="1" diameter="2.1844"/>
+<pad name="4" x="1.778" y="14.478" drill="1" diameter="2.1844"/>
+<pad name="3" x="1.778" y="17.018" drill="1" diameter="2.1844"/>
+<pad name="2" x="1.778" y="19.558" drill="1" diameter="2.1844"/>
+<pad name="GND@1" x="1.778" y="22.098" drill="1" diameter="2.1844"/>
+<pad name="GND@0" x="1.778" y="24.638" drill="1" diameter="2.1844"/>
+<pad name="RXI" x="1.778" y="27.178" drill="1" diameter="2.1844"/>
+<pad name="TXO" x="1.778" y="29.718" drill="1" diameter="2.1844"/>
+<pad name="RAW" x="17.018" y="29.718" drill="1" diameter="2.1844"/>
+<pad name="GND@2" x="17.018" y="27.178" drill="1" diameter="2.1844"/>
+<pad name="RST" x="17.018" y="24.638" drill="1" diameter="2.1844"/>
+<pad name="VCC" x="17.018" y="22.098" drill="1" diameter="2.1844"/>
+<pad name="A3" x="17.018" y="19.558" drill="1" diameter="2.1844"/>
+<pad name="A2" x="17.018" y="17.018" drill="1" diameter="2.1844"/>
+<pad name="A1" x="17.018" y="14.478" drill="1" diameter="2.1844"/>
+<pad name="A0" x="17.018" y="11.938" drill="1" diameter="2.1844"/>
+<pad name="15" x="17.018" y="9.398" drill="1" diameter="2.1844"/>
+<pad name="14" x="17.018" y="6.858" drill="1" diameter="2.1844"/>
+<pad name="16" x="17.018" y="4.318" drill="1" diameter="2.1844"/>
+<pad name="10" x="17.018" y="1.778" drill="1" diameter="2.1844"/>
+<wire x1="5.334" y1="33.528" x2="5.334" y2="34.798" width="0.127" layer="25"/>
+<wire x1="13.462" y1="33.528" x2="13.462" y2="34.798" width="0.127" layer="25"/>
+<text x="5.588" y="32.258" size="1.016" layer="25" font="vector">Micro USB</text>
+<wire x1="5.334" y1="33.528" x2="5.334" y2="29.5656" width="0.127" layer="21"/>
+<wire x1="5.334" y1="29.5656" x2="13.462" y2="29.5656" width="0.127" layer="21"/>
+<wire x1="13.462" y1="29.5656" x2="13.462" y2="33.528" width="0.127" layer="21"/>
+<text x="9.398" y="8.128" size="1.27" layer="21" font="vector" rot="R90" align="center">&gt;NAME</text>
+<polygon width="0.127" layer="39">
+<vertex x="3.81" y="36.83"/>
+<vertex x="3.81" y="30.48"/>
+<vertex x="15.24" y="30.48"/>
+<vertex x="15.24" y="36.83"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -539,41 +499,35 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </pass>
 </autorouter>
 <elements>
-<element name="IC1" library="pie" package="ARDUINO_PRO_MICRO_SM" value="ARDUINO_PRO_MICROSMD" x="37.91" y="43.38" smashed="yes" rot="R270">
-<attribute name="NAME" x="42.99" y="33.855" size="1.27" layer="21" font="vector"/>
-</element>
 <element name="J_ULTRASONIC_1" library="pie" package="HC-SR04_FOOTPRINT" value="HC-SR04" x="52" y="15" smashed="yes" rot="R270">
-<attribute name="NAME" x="46.92" y="18.532" size="1.016" layer="25" ratio="12"/>
+<attribute name="NAME" x="65.968" y="9.42" size="1.27" layer="25" font="vector" ratio="12" rot="R90"/>
 </element>
 <element name="U$1" library="pie" package="1X03" value="IR" x="15.66" y="42" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.47" y="39.095" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="19.47" y="45.175" size="1.27" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="16.97" y="48.675" size="2.54" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="IC1" library="pie" package="ARDUINO_PRO_MICRO" value="ARDUINO_PRO_MICRO" x="29.5" y="45.5" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Arduino Pro Micro" x="29.5" y="45.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="AliExpress" x="29.5" y="45.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="32284746884" x="29.5" y="45.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Feiyang electronics" x="29.5" y="45.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="29.5" y="45.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NOTES" value="https://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5" x="29.5" y="45.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" x="29.5" y="45.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" x="29.5" y="45.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 </elements>
 <signals>
 <signal name="OUT">
-<contactref element="IC1" pad="10"/>
 <contactref element="U$1" pad="3"/>
 <wire x1="13.12" y1="42" x2="12.5" y2="42.62" width="0.1524" layer="1"/>
-<wire x1="13.12" y1="42" x2="13.12" y2="29.88" width="0.1524" layer="1"/>
-<wire x1="13.12" y1="29.88" x2="15" y2="28" width="0.1524" layer="1"/>
-<via x="15" y="28" extent="1-16" drill="0.381"/>
-<wire x1="15" y1="28" x2="34" y2="28" width="0.1524" layer="16"/>
-<via x="34" y="28" extent="1-16" drill="0.381"/>
-<wire x1="34" y1="28" x2="39.066" y2="28" width="0.1524" layer="1"/>
-<wire x1="39.066" y1="28" x2="39.18" y2="27.886" width="0.1524" layer="1"/>
+<contactref element="IC1" pad="10"/>
+<wire x1="13.12" y1="42" x2="13.12" y2="34.38" width="0.3048" layer="1"/>
+<wire x1="19.018" y1="28.482" x2="31.278" y2="28.482" width="0.3048" layer="1"/>
+<wire x1="13.12" y1="34.38" x2="16" y2="31.5" width="0.3048" layer="1"/>
+<wire x1="16" y1="31.5" x2="19.018" y2="28.482" width="0.3048" layer="1"/>
 </signal>
 <signal name="GND">
-<contactref element="IC1" pad="GND"/>
 <contactref element="J_ULTRASONIC_1" pad="GND"/>
-<wire x1="55.81" y1="15" x2="55.81" y2="16.31" width="0.1524" layer="1"/>
-<wire x1="55.81" y1="16.31" x2="57" y2="17.5" width="0.1524" layer="1"/>
-<via x="57" y="17.5" extent="1-16" drill="0.381"/>
-<wire x1="57" y1="17.5" x2="60" y2="20.5" width="0.1524" layer="16"/>
-<wire x1="60" y1="20.5" x2="63" y2="20.5" width="0.1524" layer="16"/>
-<via x="63" y="20.5" extent="1-16" drill="0.381"/>
-<wire x1="63" y1="20.5" x2="64.58" y2="22.08" width="0.1524" layer="1"/>
-<wire x1="64.58" y1="22.08" x2="64.58" y2="27.886" width="0.1524" layer="1"/>
 <polygon width="0.1524" layer="1">
 <vertex x="0" y="50.5"/>
 <vertex x="0" y="0"/>
@@ -589,47 +543,56 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <vertex x="78" y="50.5"/>
 </polygon>
 <via x="69" y="15" extent="1-16" drill="1"/>
+<contactref element="U$1" pad="2"/>
+<contactref element="IC1" pad="GND@0"/>
+<contactref element="IC1" pad="GND@2"/>
+<contactref element="IC1" pad="GND@1"/>
+<wire x1="55.81" y1="15" x2="55.81" y2="16.81" width="0.3048" layer="1"/>
+<wire x1="55.81" y1="16.81" x2="56.5" y2="17.5" width="0.3048" layer="1"/>
+<via x="56.5" y="17.5" extent="1-16" drill="0.381"/>
+<wire x1="15.66" y1="42" x2="15.66" y2="44.84" width="0.3048" layer="1"/>
+<wire x1="15.66" y1="44.84" x2="15.5" y2="45" width="0.3048" layer="1"/>
+<via x="15.5" y="45" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="VCC">
 <contactref element="U$1" pad="1"/>
 <contactref element="J_ULTRASONIC_1" pad="VCC"/>
 <contactref element="IC1" pad="VCC"/>
-<wire x1="60" y1="27.386" x2="59.693" y2="27.693" width="0.1524" layer="1"/>
-<wire x1="59.693" y1="27.693" x2="59.5" y2="27.886" width="0.1524" layer="1"/>
-<wire x1="18.2" y1="42" x2="18.2" y2="19.3" width="0.1524" layer="1"/>
-<wire x1="18.2" y1="19.3" x2="22.5" y2="15" width="0.1524" layer="1"/>
-<wire x1="22.5" y1="15" x2="48.19" y2="15" width="0.1524" layer="1"/>
-<wire x1="48.19" y1="15" x2="48.19" y2="11.31" width="0.1524" layer="1"/>
-<wire x1="48.19" y1="11.31" x2="50" y2="9.5" width="0.1524" layer="1"/>
-<wire x1="50" y1="9.5" x2="58.5" y2="9.5" width="0.1524" layer="1"/>
-<wire x1="58.5" y1="9.5" x2="59.5" y2="10.5" width="0.1524" layer="1"/>
-<wire x1="59.5" y1="27.5" x2="59.693" y2="27.693" width="0.1524" layer="1"/>
-<wire x1="59.5" y1="10.5" x2="59.5" y2="27.5" width="0.1524" layer="1"/>
+<wire x1="48.19" y1="15" x2="48.19" y2="11.5" width="0.3048" layer="1"/>
+<wire x1="48.19" y1="11.5" x2="48.19" y2="11.31" width="0.3048" layer="1"/>
+<wire x1="48.19" y1="11.31" x2="51" y2="8.5" width="0.3048" layer="1"/>
+<wire x1="51" y1="8.5" x2="61" y2="8.5" width="0.3048" layer="1"/>
+<wire x1="61" y1="8.5" x2="62" y2="9.5" width="0.3048" layer="1"/>
+<wire x1="62" y1="9.5" x2="62" y2="18" width="0.3048" layer="1"/>
+<wire x1="62" y1="18" x2="55.5" y2="24.5" width="0.3048" layer="1"/>
+<wire x1="55.5" y1="24.5" x2="53" y2="24.5" width="0.3048" layer="1"/>
+<wire x1="53" y1="24.5" x2="51.598" y2="25.902" width="0.3048" layer="1"/>
+<wire x1="51.598" y1="25.902" x2="51.598" y2="28.482" width="0.3048" layer="1"/>
+<wire x1="18.2" y1="42" x2="18.2" y2="31.8" width="0.3048" layer="1"/>
+<wire x1="18.2" y1="31.8" x2="20" y2="30" width="0.3048" layer="1"/>
+<via x="20" y="30" extent="1-16" drill="0.381"/>
+<wire x1="20" y1="30" x2="20" y2="26.5" width="0.3048" layer="16"/>
+<wire x1="20" y1="26.5" x2="35" y2="11.5" width="0.3048" layer="16"/>
+<wire x1="35" y1="11.5" x2="35.5" y2="11.5" width="0.3048" layer="16"/>
+<via x="35.5" y="11.5" extent="1-16" drill="0.381"/>
+<wire x1="35.5" y1="11.5" x2="48.19" y2="11.5" width="0.3048" layer="1"/>
 </signal>
 <signal name="ECHO">
 <contactref element="J_ULTRASONIC_1" pad="ECHO"/>
 <contactref element="IC1" pad="14"/>
-<wire x1="53.27" y1="15" x2="46.77" y2="21.5" width="0.1524" layer="1"/>
-<wire x1="46.77" y1="21.5" x2="46" y2="21.5" width="0.1524" layer="1"/>
-<wire x1="46" y1="21.5" x2="44.26" y2="23.24" width="0.1524" layer="1"/>
-<wire x1="44.26" y1="23.24" x2="44.26" y2="27.886" width="0.1524" layer="1"/>
+<wire x1="36.358" y1="28.482" x2="36.358" y2="25.642" width="0.3048" layer="1"/>
+<wire x1="37.5" y1="24.5" x2="45" y2="24.5" width="0.3048" layer="1"/>
+<wire x1="45" y1="24.5" x2="53.27" y2="16.23" width="0.3048" layer="1"/>
+<wire x1="53.27" y1="16.23" x2="53.27" y2="15" width="0.3048" layer="1"/>
+<wire x1="36.358" y1="25.642" x2="37.5" y2="24.5" width="0.3048" layer="1"/>
 </signal>
 <signal name="TRIG">
-<contactref element="IC1" pad="16"/>
 <contactref element="J_ULTRASONIC_1" pad="TRIG"/>
-<wire x1="50.73" y1="15" x2="50.23" y2="15.5" width="0.1524" layer="1"/>
-<wire x1="50.23" y1="15.5" x2="49.27053125" y2="15.5" width="0.1524" layer="1"/>
-<wire x1="41.72" y1="23.05053125" x2="41.72" y2="24.584" width="0.1524" layer="1"/>
-<wire x1="49.27053125" y1="15.5" x2="41.72" y2="23.05053125" width="0.1524" layer="1"/>
-</signal>
-<signal name="GND1">
-<contactref element="IC1" pad="GND@2"/>
-<contactref element="U$1" pad="2"/>
-<wire x1="15.66" y1="42" x2="15.66" y2="45.66" width="0.1524" layer="1"/>
-<wire x1="15.66" y1="45.66" x2="18" y2="48" width="0.1524" layer="1"/>
-<wire x1="18" y1="48" x2="56" y2="48" width="0.1524" layer="1"/>
-<wire x1="59.5" y1="44.5" x2="59.5" y2="43.38" width="0.1524" layer="1"/>
-<wire x1="56" y1="48" x2="59.5" y2="44.5" width="0.1524" layer="1"/>
+<contactref element="IC1" pad="16"/>
+<wire x1="50.73" y1="15" x2="42.73" y2="23" width="0.3048" layer="1"/>
+<wire x1="42.73" y1="23" x2="36" y2="23" width="0.3048" layer="1"/>
+<wire x1="36" y1="23" x2="33.818" y2="25.182" width="0.3048" layer="1"/>
+<wire x1="33.818" y1="25.182" x2="33.818" y2="28.482" width="0.3048" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

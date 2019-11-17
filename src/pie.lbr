@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11225,10 +11225,10 @@ VNH2SP30</text>
 <wire x1="-1.27" y1="-5.08" x2="1.27" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.127" layer="21"/>
 <wire x1="1.27" y1="5.08" x2="-1.27" y2="5.08" width="0.127" layer="21"/>
-<text x="1.397" y="3.556" size="0.6096" layer="21">GND</text>
-<text x="1.397" y="1.016" size="0.6096" layer="21">Echo</text>
-<text x="1.397" y="-1.524" size="0.6096" layer="21">Trig</text>
-<text x="1.397" y="-4.064" size="0.6096" layer="21">VCC</text>
+<text x="1.397" y="3.556" size="0.6096" layer="21" font="vector">GND</text>
+<text x="1.397" y="1.016" size="0.6096" layer="21" font="vector">Echo</text>
+<text x="1.397" y="-1.524" size="0.6096" layer="21" font="vector">Trig</text>
+<text x="1.397" y="-4.064" size="0.6096" layer="21" font="vector">VCC</text>
 <text x="-2.032" y="-5.08" size="1.016" layer="25" ratio="12" rot="R90">&gt;NAME</text>
 </package>
 <package name="ARD_MEGA">
@@ -17130,16 +17130,16 @@ a TI sourced LI-ion, Lipo, Li-FE battery protection chip</description>
 </symbol>
 <symbol name="HC-SR04_SYMBOL">
 <description>Ultrasonic Sensor HC-SR04 Schematic</description>
-<pin name="GND" x="-12.7" y="7.62" length="middle"/>
-<pin name="ECHO" x="-12.7" y="2.54" length="middle"/>
-<pin name="TRIG" x="-12.7" y="-2.54" length="middle"/>
-<pin name="5V" x="-12.7" y="-7.62" length="middle"/>
+<pin name="GND" x="-12.7" y="7.62" visible="pin" length="middle"/>
+<pin name="ECHO" x="-12.7" y="2.54" visible="pin" length="middle"/>
+<pin name="TRIG" x="-12.7" y="-2.54" visible="pin" length="middle"/>
+<pin name="5V" x="-12.7" y="-7.62" visible="pin" length="middle"/>
 <wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
 <wire x1="2.54" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<text x="-7.62" y="10.922" size="1.778" layer="95" ratio="12">&gt;NAME</text>
-<text x="-7.62" y="-12.954" size="1.778" layer="96" ratio="12">&gt;VALUE</text>
+<text x="-7.62" y="10.922" size="1.778" layer="95" font="vector" ratio="12">&gt;NAME</text>
+<text x="-7.62" y="-12.954" size="1.778" layer="96" font="vector" ratio="12">&gt;VALUE</text>
 </symbol>
 <symbol name="ARD_MEGA">
 <description>Arduino Mega</description>
@@ -18035,9 +18035,9 @@ a TI sourced LI-ion, Lipo, Li-FE battery protection chip</description>
 <text x="-22.86" y="30.734" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="IR">
-<pin name="VCC" x="-40.64" y="12.7" length="middle"/>
-<pin name="GND" x="-40.64" y="5.08" length="middle"/>
-<pin name="OUT" x="-40.64" y="-2.54" length="middle"/>
+<pin name="VCC" x="-40.64" y="12.7" visible="pin" length="middle"/>
+<pin name="GND" x="-40.64" y="5.08" visible="pin" length="middle"/>
+<pin name="OUT" x="-40.64" y="-2.54" visible="pin" length="middle"/>
 <wire x1="-20.32" y1="15.24" x2="-35.56" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-35.56" y1="15.24" x2="-35.56" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-35.56" y1="-5.08" x2="-20.32" y2="-5.08" width="0.254" layer="94"/>
@@ -23936,6 +23936,9 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <connect gate="G$1" pin="OUT" pad="3"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
 </device>
 </devices>
 </deviceset>
