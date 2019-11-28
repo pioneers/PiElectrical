@@ -1,0 +1,280 @@
+{
+    "author": {
+        "email": "support.eagle@autodesk.com",
+        "name": "Autodesk EAGLE"
+    },
+    "description": {
+        "EN": "CAM job description goes here."
+    },
+    "output_type": "directory",
+    "outputs": [
+        {
+            "filename_prefix": "CAMOutputs/DrillFiles",
+            "format_specifier": {
+                "decimal": 3,
+                "integer": 3
+            },
+            "output_type": "drill",
+            "outputs": [
+                {
+                    "drills": {
+                        "NPTH": true,
+                        "PTH": true,
+                        "VIA": true
+                    },
+                    "filename_format": "%DRILLPREFIX/drills_%FROM_%TO.xln",
+                    "layers": {
+                        "from": 1,
+                        "to": 16
+                    },
+                    "name": "Excellon 1 - 16",
+                    "type": "excellon"
+                },
+                {
+                    "drills": {
+                        "NPTH": true,
+                        "PTH": true,
+                        "VIA": true
+                    },
+                    "filename_format": "%P/%N-gerb/%N.drd",
+                    "layers": {
+                        "from": 1,
+                        "to": 16
+                    },
+                    "name": "Generate drill data",
+                    "type": "excellon"
+                }
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/GerberFiles",
+            "format_specifier": {
+                "decimal": 4,
+                "integer": 3
+            },
+            "generate_job_file": true,
+            "output_type": "gerber",
+            "outputs": [
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Board outline",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%P/%N-gerb/%N.bor",
+                    "layers": [
+                        20
+                    ],
+                    "milling": false,
+                    "name": "Board outline",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Component side",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%P/%N-gerb/%N.cmp",
+                    "layers": [
+                        1,
+                        17,
+                        18
+                    ],
+                    "milling": false,
+                    "name": "Component side",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Solder side",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%P/%N-gerb/%N.sol",
+                    "layers": [
+                        16,
+                        17,
+                        18
+                    ],
+                    "milling": false,
+                    "name": "Solder side",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Silk screen CMP",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%P/%N-gerb/%N.plc",
+                    "layers": [
+                        20,
+                        21,
+                        25,
+                        27
+                    ],
+                    "milling": false,
+                    "name": "Silk screen CMP",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Solder stop mask CMP",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%P/%N-gerb/%N.stc",
+                    "layers": [
+                        29
+                    ],
+                    "milling": false,
+                    "name": "Solder stop mask CMP",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Silk screen SOL",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%P/%N-gerb/%N.pls",
+                    "layers": [
+                        20,
+                        22,
+                        26,
+                        28
+                    ],
+                    "milling": false,
+                    "name": "Silk screen SOL",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Cream frame CMP",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%P/%N-gerb/%N.crc",
+                    "layers": [
+                        31
+                    ],
+                    "milling": false,
+                    "name": "Cream frame CMP",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Cream frame SOL",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%P/%N-gerb/%N.crs",
+                    "layers": [
+                        32
+                    ],
+                    "milling": false,
+                    "name": "Cream frame SOL",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Solder stop mask SOL",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%P/%N-gerb/%N.sts",
+                    "layers": [
+                        30
+                    ],
+                    "milling": false,
+                    "name": "Solder stop mask SOL",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                }
+            ],
+            "version": "RS274X"
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrawingFiles",
+            "output_type": "drawing",
+            "outputs": [
+            ]
+        }
+    ],
+    "timestamp": "2018-09-15T00:00:00",
+    "type": "EAGLE CAM job",
+    "units": "metric",
+    "version": "9.2.0"
+}

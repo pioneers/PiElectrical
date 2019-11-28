@@ -4528,6 +4528,26 @@ Drawings &lt;/a&gt;</description>
 <wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
 <text x="-2.0066" y="3.175" size="1.27" layer="25" font="vector" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="STAND-OFF">
+<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
+This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
+<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
+<hole x="0" y="0" drill="3.302"/>
+<circle x="0" y="0" radius="2.78821875" width="0.127" layer="39"/>
+</package>
+<package name="STAND-OFF-TIGHT">
+<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
+This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
+<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
+<hole x="0" y="0" drill="3.302"/>
+<circle x="0" y="0" radius="2.85396875" width="0.127" layer="39"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="TQFP44" urn="urn:adsk.eagle:package:38953/1" type="box">
@@ -5050,6 +5070,9 @@ Drawings &lt;/a&gt;</description>
 </polygon>
 <wire x1="-3.556" y1="2.54" x2="-3.556" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-2.54" x2="-3.556" y2="-2.54" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="STAND-OFF">
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7093,6 +7116,29 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </device>
 </devices>
 </deviceset>
+<deviceset name="STAND-OFF" prefix="STANDOFF">
+<description>&lt;b&gt;#4 Stand Off&lt;/b&gt;&lt;p&gt;
+This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
+<gates>
+<gate name="G$1" symbol="STAND-OFF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="STAND-OFF">
+<technologies>
+<technology name="">
+<attribute name="PIE-INT-REF-NUM" value="DNL"/>
+</technology>
+</technologies>
+</device>
+<device name="TIGHT" package="STAND-OFF-TIGHT">
+<technologies>
+<technology name="">
+<attribute name="PIE-INT-REF-NUM" value="DNL"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Connectors">
@@ -7310,7 +7356,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C11" library="pie" deviceset="CAP_POL" device="RADIAL" value="10uF"/>
 <part name="C14" library="pie" deviceset="CAP_POL" device="RADIAL" value="10uF"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="USB_B" device="_PTH"/>
-<part name="M3" library="pie" deviceset="NMOS_CSD17579Q3A" device=""/>
+<part name="M1" library="pie" deviceset="NMOS_CSD17579Q3A" device=""/>
+<part name="STANDOFF1" library="pie" deviceset="STAND-OFF" device="TIGHT"/>
+<part name="STANDOFF2" library="pie" deviceset="STAND-OFF" device="TIGHT"/>
+<part name="STANDOFF3" library="pie" deviceset="STAND-OFF" device="TIGHT"/>
+<part name="STANDOFF4" library="pie" deviceset="STAND-OFF" device="TIGHT"/>
+<part name="STANDOFF5" library="pie" deviceset="STAND-OFF" device="TIGHT"/>
+<part name="STANDOFF7" library="pie" deviceset="STAND-OFF" device="TIGHT"/>
+<part name="C17" library="pie" deviceset="CAP" device="0603-CAP" value="2.2uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -7419,9 +7472,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="-64.77" y="76.2" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-73.66" y="76.2" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="M3" gate="A" x="76.2" y="22.86" smashed="yes">
+<instance part="M1" gate="A" x="76.2" y="22.86" smashed="yes">
 <attribute name="NAME" x="81.28" y="22.86" size="1.778" layer="95"/>
 <attribute name="VALUE" x="81.28" y="20.32" size="1.778" layer="96"/>
+</instance>
+<instance part="STANDOFF1" gate="G$1" x="-109.22" y="86.36" smashed="yes"/>
+<instance part="STANDOFF2" gate="G$1" x="-99.06" y="86.36" smashed="yes"/>
+<instance part="STANDOFF3" gate="G$1" x="-106.68" y="76.2" smashed="yes"/>
+<instance part="STANDOFF4" gate="G$1" x="-99.06" y="78.74" smashed="yes"/>
+<instance part="STANDOFF5" gate="G$1" x="-101.6" y="68.58" smashed="yes"/>
+<instance part="STANDOFF7" gate="G$1" x="-99.06" y="60.96" smashed="yes"/>
+<instance part="C17" gate="G$1" x="-76.2" y="-17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="-78.74" y="-21.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-71.12" y="-21.59" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -7508,7 +7571,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="-114.3" y1="-5.08" x2="-106.68" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-106.68" y1="-5.08" x2="-106.68" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="-35.56" x2="-68.58" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="-35.56" x2="-76.2" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="-76.2" y1="-35.56" x2="-68.58" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="-20.32" x2="-76.2" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="-76.2" y="-35.56"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
@@ -7572,7 +7639,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="66.04" y1="25.4" x2="66.04" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="66.04" y="25.4"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="M3" gate="A" pin="G"/>
+<pinref part="M1" gate="A" pin="G"/>
 <wire x1="68.58" y1="25.4" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7591,8 +7658,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-88.9" y1="-7.62" x2="-91.44" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="0" x2="-88.9" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="-88.9" y="-7.62"/>
-<wire x1="-88.9" y1="-7.62" x2="-68.58" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="-7.62" x2="-76.2" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="C17" gate="G$1" pin="2"/>
+<wire x1="-76.2" y1="-7.62" x2="-68.58" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="-7.62" x2="-76.2" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="-76.2" y="-7.62"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -7642,7 +7713,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="76.2" y="7.62" size="1.778" layer="95"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <junction x="76.2" y="7.62"/>
-<pinref part="M3" gate="A" pin="S@2"/>
+<pinref part="M1" gate="A" pin="S@2"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -7712,7 +7783,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="73.66" y1="38.1" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
 <label x="71.12" y="38.1" size="1.778" layer="95"/>
-<pinref part="M3" gate="A" pin="D"/>
+<pinref part="M1" gate="A" pin="D"/>
 <wire x1="73.66" y1="33.02" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="33.02" x2="76.2" y2="27.94" width="0.1524" layer="91"/>
 </segment>

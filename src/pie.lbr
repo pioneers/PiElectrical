@@ -23886,7 +23886,7 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 </device>
 </devices>
 </deviceset>
-<deviceset name="NMOS_CSD17579Q3A" prefix="M">
+<deviceset name="NMOS_TI_NEXFET" prefix="M">
 <gates>
 <gate name="A" symbol="N-MOSFET" x="0" y="0"/>
 </gates>
