@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13684,26 +13684,26 @@ shrink quad flat pack, square</description>
 <wire x1="3.1" y1="2.6" x2="-3.1" y2="2.6" width="0.1524" layer="21"/>
 </package>
 <package name="BAR_SEGMENT_DISPLAY">
-<pad name="BAR_DISPLAY0" x="-3.429" y="9.652" drill="1"/>
-<pad name="BAR_DISPLAY1" x="-3.429" y="7.112" drill="1"/>
-<pad name="BAR_DISPLAY2" x="-3.429" y="4.572" drill="1"/>
-<pad name="BAR_DISPLAY3" x="-3.429" y="2.032" drill="1"/>
-<pad name="BAR_DISPLAY4" x="-3.429" y="-0.508" drill="1"/>
-<pad name="BAR_DISPLAY5" x="-3.429" y="-3.048" drill="1"/>
-<pad name="BAR_DISPLAY6" x="-3.429" y="-5.588" drill="1"/>
-<pad name="BAR_DISPLAY7" x="-3.429" y="-8.128" drill="1"/>
-<pad name="BAR_DISPLAY8" x="-3.429" y="-10.668" drill="1"/>
-<pad name="BAR_DISPLAY9" x="-3.429" y="-13.208" drill="1"/>
-<pad name="BAR_DISPLAY10" x="4.191" y="-13.208" drill="1"/>
-<pad name="BAR_DISPLAY11" x="4.191" y="-10.668" drill="1"/>
-<pad name="BAR_DISPLAY12" x="4.191" y="-8.128" drill="1"/>
-<pad name="BAR_DISPLAY13" x="4.191" y="-5.588" drill="1"/>
-<pad name="BAR_DISPLAY14" x="4.191" y="-3.048" drill="1"/>
-<pad name="BAR_DISPLAY15" x="4.191" y="-0.508" drill="1"/>
-<pad name="BAR_DISPLAY16" x="4.191" y="2.032" drill="1"/>
-<pad name="BAR_DISPLAY17" x="4.191" y="4.572" drill="1"/>
-<pad name="BAR_DISPLAY18" x="4.191" y="7.112" drill="1"/>
-<pad name="BAR_DISPLAY19" x="4.191" y="9.652" drill="1"/>
+<pad name="BAR_DISPLAY0" x="-3.429" y="9.652" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY1" x="-3.429" y="7.112" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY2" x="-3.429" y="4.572" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY3" x="-3.429" y="2.032" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY4" x="-3.429" y="-0.508" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY5" x="-3.429" y="-3.048" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY6" x="-3.429" y="-5.588" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY7" x="-3.429" y="-8.128" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY8" x="-3.429" y="-10.668" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY9" x="-3.429" y="-13.208" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY10" x="4.191" y="-13.208" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY11" x="4.191" y="-10.668" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY12" x="4.191" y="-8.128" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY13" x="4.191" y="-5.588" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY14" x="4.191" y="-3.048" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY15" x="4.191" y="-0.508" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY16" x="4.191" y="2.032" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY17" x="4.191" y="4.572" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY18" x="4.191" y="7.112" drill="1" diameter="1.778"/>
+<pad name="BAR_DISPLAY19" x="4.191" y="9.652" drill="1" diameter="1.778"/>
 <text x="-4.937" y="11.45633125" size="1.778" layer="25">&gt;NAME</text>
 <text x="-4.937" y="-16.79033125" size="1.778" layer="27">&gt;VALUE</text>
 <wire x1="-4.953" y1="10.795" x2="5.588" y2="10.795" width="0.1524" layer="21"/>
