@@ -14066,8 +14066,8 @@ shrink quad flat pack, square</description>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
 <package name="BUTTON_K12A">
-<pad name="P$1" x="-1.3081" y="0" drill="0.6"/>
-<pad name="P$2" x="1.30301875" y="0" drill="0.6"/>
+<pad name="P$1" x="-1.3081" y="0" drill="1" diameter="1.8796"/>
+<pad name="P$2" x="1.30301875" y="0" drill="1" diameter="1.8796"/>
 <hole x="-3.7465" y="-2.4892" drill="1"/>
 <hole x="3.7465" y="2.4892" drill="1"/>
 <text x="-3.81" y="6.35" size="1.651" layer="21" font="vector" ratio="15">&gt;NAME</text>
