@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -53,6 +53,8 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -78,8 +80,12 @@
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="114" name="Badge_Outline" color="11" fill="1" visible="no" active="no"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -89,15 +95,38 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="BGA_CORE_SUP" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="BGA_GND" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="BGA_NC" color="8" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="BGA_DED" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="mtTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="mbTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="mHoles" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="mMilling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -131,6 +160,8 @@
 <layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -2218,6 +2249,35 @@ chip</description>
 <pad name="PIN3" x="9.4996" y="2.1463" drill="1.0414" diameter="1.6764"/>
 <pad name="PIN4" x="11.5062" y="2.1463" drill="1.0414" diameter="1.6764" rot="R180"/>
 </package>
+<package name="2PIN_SCREW">
+<description>&lt;b&gt;2 Pin Screw Terminal&lt;/b&gt;</description>
+<wire x1="0" y1="0" x2="0.6" y2="0" width="0.127" layer="21"/>
+<wire x1="0.6" y1="0" x2="10.6" y2="0" width="0.127" layer="21"/>
+<wire x1="10.6" y1="0" x2="11.2" y2="0" width="0.127" layer="21"/>
+<wire x1="11.2" y1="0" x2="11.2" y2="7.5" width="0.127" layer="21"/>
+<wire x1="11.2" y1="7.5" x2="10.6" y2="7.5" width="0.127" layer="21"/>
+<wire x1="10.6" y1="7.5" x2="0.6" y2="7.5" width="0.127" layer="21"/>
+<wire x1="0.6" y1="7.5" x2="0" y2="7.5" width="0.127" layer="21"/>
+<wire x1="0" y1="7.5" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0.6" y1="0" x2="0.6" y2="7.5" width="0.127" layer="21"/>
+<wire x1="10.6" y1="7.5" x2="10.6" y2="0" width="0.127" layer="21"/>
+<pad name="P$1" x="3.1" y="3.3" drill="1" diameter="2.1844"/>
+<pad name="P$2" x="8.1" y="3.3" drill="1" diameter="2.1844"/>
+<wire x1="0.6" y1="0" x2="0.6" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="0.6" y1="-1.9" x2="3.2" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="3.2" y1="-1.9" x2="5.3" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="5.3" y1="-1.9" x2="7" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="7" y1="-1.9" x2="8.8" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="8.8" y1="-1.9" x2="10.6" y2="-1.9" width="0.127" layer="51"/>
+<wire x1="10.6" y1="-1.9" x2="10.6" y2="0" width="0.127" layer="51"/>
+<wire x1="8.8" y1="-1.9" x2="8.8" y2="0" width="0.127" layer="51"/>
+<wire x1="7" y1="-1.9" x2="7" y2="0" width="0.127" layer="51"/>
+<wire x1="5.3" y1="-1.9" x2="5.3" y2="0" width="0.127" layer="51"/>
+<wire x1="3.2" y1="-1.9" x2="3.2" y2="0" width="0.127" layer="51"/>
+<wire x1="6" y1="-5" x2="6" y2="-3" width="0.127" layer="51"/>
+<wire x1="6" y1="-3" x2="5" y2="-4" width="0.127" layer="51"/>
+<wire x1="7" y1="-4" x2="6" y2="-3" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -2329,6 +2389,24 @@ chip</description>
 <text x="8.382" y="4.826" size="1.27" layer="94" font="vector" rot="R270">PIN2</text>
 <text x="0.762" y="4.826" size="1.27" layer="94" font="vector" rot="R270">PIN1</text>
 <text x="16.002" y="4.826" size="1.27" layer="94" font="vector" rot="R270">PIN4</text>
+</symbol>
+<symbol name="2PIN_SCREW_TERM">
+<description>&lt;b&gt;2 Pin Screw Terminal&lt;/b&gt;</description>
+<wire x1="0" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<pin name="P$1" x="-12.7" y="2.54" visible="off" length="middle" function="clk"/>
+<pin name="P$2" x="-12.7" y="-2.54" visible="off" length="middle" function="clk"/>
+<text x="-5.08" y="2.54" size="2.54" layer="94">X</text>
+<text x="-5.08" y="-2.54" size="2.54" layer="94">X</text>
+<text x="-5.08" y="10.16" size="2.54" layer="94">&gt;NAME</text>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3542,6 +3620,27 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="2PIN_SCREW" prefix="ST">
+<description>&lt;b&gt;2 Pin Screw Terminal&lt;/b&gt;
+
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/8432"&gt;Sparkfun Page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;5mm Pitch&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="2PIN_SCREW_TERM" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="2PIN_SCREW">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -3566,6 +3665,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="C1" library="pie" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="SUPPLY3" library="pie" deviceset="GND" device=""/>
 <part name="U$2" library="pie" deviceset="SP3T_SLIDE_SWITCH" device=""/>
+<part name="ST1" library="pie" deviceset="2PIN_SCREW" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3581,22 +3681,51 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="73.66" y1="58.42" x2="73.66" y2="0" width="0.4064" layer="94"/>
 <text x="10.16" y="177.8" size="2.54" layer="94" font="vector">USB to Switch Connections</text>
 <text x="22.86" y="109.22" size="2.54" layer="94" font="vector">LED Circuits</text>
-<text x="15.24" y="50.8" size="2.54" layer="94" font="vector">Decoupling Capacitor</text>
+<text x="17.78" y="50.8" size="2.54" layer="94" font="vector">Decoupling Capacitor</text>
+<text x="96.52" y="101.6" size="2.54" layer="94" font="vector">2-pin Screw Terminal</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0">
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="AUTHOR" x="0" y="0" size="1.778" layer="96" display="off"/>
 <attribute name="REVISION" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="LED1" gate="G$1" x="41.91" y="96.52"/>
-<instance part="LED2" gate="G$1" x="43.18" y="82.55"/>
-<instance part="R1" gate="G$1" x="26.67" y="96.52" rot="R180"/>
-<instance part="R2" gate="G$1" x="27.94" y="82.55" rot="R180"/>
-<instance part="SUPPLY2" gate="GND" x="52.07" y="76.2"/>
-<instance part="C1" gate="G$1" x="34.29" y="25.4" rot="R90"/>
-<instance part="SUPPLY3" gate="GND" x="34.29" y="15.24"/>
-<instance part="U$2" gate="G$1" x="16.51" y="127"/>
+<instance part="FRAME1" gate="G$2" x="147.32" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.7432" layer="94" font="vector"/>
+<attribute name="AUTHOR" x="148.59" y="6.985" size="2.7432" layer="94" font="vector"/>
+<attribute name="REVISION" x="236.22" y="6.985" size="2.7432" layer="94" font="vector"/>
+</instance>
+<instance part="LED1" gate="G$1" x="41.91" y="96.52" smashed="yes">
+<attribute name="NAME" x="38.1" y="99.06" size="1.778" layer="95"/>
+<attribute name="VALUE" x="38.1" y="90.17" size="1.778" layer="96"/>
+</instance>
+<instance part="LED2" gate="G$1" x="43.18" y="82.55" smashed="yes">
+<attribute name="NAME" x="39.37" y="85.09" size="1.778" layer="95"/>
+<attribute name="VALUE" x="39.37" y="76.2" size="1.778" layer="96"/>
+</instance>
+<instance part="R1" gate="G$1" x="26.67" y="96.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="31.75" y="93.98" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="31.75" y="100.33" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R2" gate="G$1" x="27.94" y="82.55" smashed="yes" rot="R180">
+<attribute name="NAME" x="33.02" y="80.01" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="33.02" y="86.36" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY2" gate="GND" x="52.07" y="76.2" smashed="yes">
+<attribute name="VALUE" x="50.8" y="72.39" size="1.778" layer="96"/>
+</instance>
+<instance part="C1" gate="G$1" x="34.29" y="25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="31.75" y="21.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="39.37" y="21.59" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY3" gate="GND" x="34.29" y="15.24" smashed="yes">
+<attribute name="VALUE" x="33.02" y="11.43" size="1.778" layer="96"/>
+</instance>
+<instance part="U$2" gate="G$1" x="16.51" y="127" smashed="yes"/>
+<instance part="ST1" gate="G$1" x="116.84" y="78.74" smashed="yes">
+<attribute name="NAME" x="111.76" y="88.9" size="2.54" layer="94"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3615,6 +3744,11 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <wire x1="34.29" y1="22.86" x2="34.29" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="ST1" gate="G$1" pin="P$2"/>
+<wire x1="104.14" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
+<label x="93.98" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -3641,6 +3775,11 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="U$2" gate="G$1" pin="PIN2"/>
 <wire x1="25.4" y1="137.16" x2="25.4" y2="142.24" width="0.1524" layer="91"/>
 <label x="25.4" y="144.78" size="1.778" layer="91" font="vector" ratio="6"/>
+</segment>
+<segment>
+<pinref part="ST1" gate="G$1" pin="P$1"/>
+<wire x1="104.14" y1="81.28" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
+<label x="93.98" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PIN4" class="0">
