@@ -3455,8 +3455,8 @@ Drawings &lt;/a&gt;</description>
 <text x="-0.5" y="-3.9" size="1.016" layer="21" font="vector">&gt;VALUE</text>
 </package>
 <package name="BUTTON_K12A">
-<pad name="P$1" x="-1.3081" y="0" drill="0.6"/>
-<pad name="P$2" x="1.30301875" y="0" drill="0.6"/>
+<pad name="P$1" x="-1.3081" y="0" drill="1" diameter="1.8796"/>
+<pad name="P$2" x="1.30301875" y="0" drill="1" diameter="1.8796"/>
 <hole x="-3.7465" y="-2.4892" drill="1"/>
 <hole x="3.7465" y="2.4892" drill="1"/>
 <text x="-3.81" y="6.35" size="1.651" layer="21" font="vector" ratio="15">&gt;NAME</text>
@@ -4218,6 +4218,26 @@ Drawings &lt;/a&gt;</description>
 <wire x1="-3.048" y1="0.889" x2="3.048" y2="0.889" width="0.2032" layer="21" curve="-147.479591"/>
 <wire x1="3.048" y1="-0.889" x2="-3.048" y2="-0.889" width="0.2032" layer="21" curve="-147.479591"/>
 </package>
+<package name="STAND-OFF">
+<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
+This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
+<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
+<hole x="0" y="0" drill="3.302"/>
+<circle x="0" y="0" radius="2.78821875" width="0.127" layer="39"/>
+</package>
+<package name="STAND-OFF-TIGHT">
+<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
+This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
+<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
+<hole x="0" y="0" drill="3.302"/>
+<circle x="0" y="0" radius="2.85396875" width="0.127" layer="39"/>
+</package>
 <package name="DNH0008A">
 <smd name="1" x="-1.55" y="0.975" dx="0.6096" dy="0.3048" layer="1" rot="R180" cream="no"/>
 <smd name="2" x="-1.55" y="0.325" dx="0.6096" dy="0.3048" layer="1" rot="R180" cream="no"/>
@@ -4462,6 +4482,281 @@ Drawings &lt;/a&gt;</description>
 <vertex x="0.9525" y="-1.2827"/>
 <vertex x="0.5937" y="-1.2827"/>
 </polygon>
+<polygon width="0.0254" layer="39">
+<vertex x="-2.1088" y="-1.3508"/>
+<vertex x="-2.1088" y="1.3508"/>
+<vertex x="-1.7526" y="1.3508"/>
+<vertex x="-1.7526" y="1.7526"/>
+<vertex x="1.7526" y="1.7526"/>
+<vertex x="1.7526" y="1.3508"/>
+<vertex x="2.1088" y="1.3508"/>
+<vertex x="2.1088" y="-1.3508"/>
+<vertex x="1.7526" y="-1.3508"/>
+<vertex x="1.7526" y="-1.7526"/>
+<vertex x="-1.7526" y="-1.7526"/>
+<vertex x="-1.7526" y="-1.3508"/>
+</polygon>
+<polygon width="0.0254" layer="39">
+<vertex x="-2.1088" y="-1.3508"/>
+<vertex x="-2.1088" y="1.3508"/>
+<vertex x="-1.7526" y="1.3508"/>
+<vertex x="-1.7526" y="1.7526"/>
+<vertex x="1.7526" y="1.7526"/>
+<vertex x="1.7526" y="1.3508"/>
+<vertex x="2.1088" y="1.3508"/>
+<vertex x="2.1088" y="-1.3508"/>
+<vertex x="1.7526" y="-1.3508"/>
+<vertex x="1.7526" y="-1.7526"/>
+<vertex x="-1.7526" y="-1.7526"/>
+<vertex x="-1.7526" y="-1.3508"/>
+</polygon>
+<wire x1="-2.2098" y1="0.9652" x2="-2.3622" y2="0.9652" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.3622" y1="0.9652" x2="-2.2098" y2="0.9652" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.2098" y1="0.9652" x2="-2.3622" y2="0.9652" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.3622" y1="0.9652" x2="-2.2098" y2="0.9652" width="0.1524" layer="21" curve="-180"/>
+<wire x1="1.4986" y1="1.4986" x2="0.3048" y2="1.4986" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="1.4986" x2="-1.4986" y2="1.4986" width="0.1524" layer="51"/>
+<wire x1="-1.1684" y1="0.9652" x2="-1.3208" y2="0.9652" width="0" layer="51" curve="-180"/>
+<wire x1="-1.3208" y1="0.9652" x2="-1.1684" y2="0.9652" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-1.1684" y1="0.9652" x2="-1.3208" y2="0.9652" width="0" layer="51" curve="-180"/>
+<wire x1="-1.3208" y1="0.9652" x2="-1.1684" y2="0.9652" width="0" layer="51" curve="-180"/>
+<wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0.1524" layer="51" curve="-180"/>
+<text x="-2.0066" y="3.175" size="1.27" layer="25" font="vector" ratio="15" rot="SR0">&gt;Name</text>
+<polygon width="0.0254" layer="31">
+<vertex x="-1.8548" y="1.1274"/>
+<vertex x="-1.8548" y="0.8226"/>
+<vertex x="-1.2452" y="0.8226"/>
+<vertex x="-1.2452" y="1.1274"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-1.8548" y="0.4774"/>
+<vertex x="-1.8548" y="0.1726"/>
+<vertex x="-1.2452" y="0.1726"/>
+<vertex x="-1.2452" y="0.4774"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-1.8548" y="-0.1726"/>
+<vertex x="-1.8548" y="-0.4774"/>
+<vertex x="-1.2452" y="-0.4774"/>
+<vertex x="-1.2452" y="-0.1726"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-1.8548" y="-0.8226"/>
+<vertex x="-1.8548" y="-1.1274"/>
+<vertex x="-1.2452" y="-1.1274"/>
+<vertex x="-1.2452" y="-0.8226"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="1.2452" y="-0.8226"/>
+<vertex x="1.2452" y="-1.1274"/>
+<vertex x="1.8548" y="-1.1274"/>
+<vertex x="1.8548" y="-0.8226"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="1.2452" y="-0.1726"/>
+<vertex x="1.2452" y="-0.4774"/>
+<vertex x="1.8548" y="-0.4774"/>
+<vertex x="1.8548" y="-0.1726"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="1.2452" y="0.4774"/>
+<vertex x="1.2452" y="0.1726"/>
+<vertex x="1.8548" y="0.1726"/>
+<vertex x="1.8548" y="0.4774"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="1.2452" y="1.1274"/>
+<vertex x="1.2452" y="0.8226"/>
+<vertex x="1.8548" y="0.8226"/>
+<vertex x="1.8548" y="1.1274"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.81406875" y="1.14426875"/>
+<vertex x="-0.81406875" y="0.8874"/>
+<vertex x="-0.635121875" y="0.8874"/>
+<vertex x="-0.4937" y="1.028821875"/>
+<vertex x="-0.4937" y="1.14426875"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.81406875" y="0.6874"/>
+<vertex x="-0.81406875" y="0.1"/>
+<vertex x="-0.635121875" y="0.1"/>
+<vertex x="-0.4937" y="0.241421875"/>
+<vertex x="-0.4937" y="0.545978125"/>
+<vertex x="-0.635121875" y="0.6874"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.81406875" y="-0.1"/>
+<vertex x="-0.81406875" y="-0.6874"/>
+<vertex x="-0.635121875" y="-0.6874"/>
+<vertex x="-0.4937" y="-0.545978125"/>
+<vertex x="-0.4937" y="-0.241421875"/>
+<vertex x="-0.635121875" y="-0.1"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.81406875" y="-0.8874"/>
+<vertex x="-0.81406875" y="-1.14426875"/>
+<vertex x="-0.4937" y="-1.14426875"/>
+<vertex x="-0.4937" y="-1.028821875"/>
+<vertex x="-0.635121875" y="-0.8874"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.2937" y="1.14426875"/>
+<vertex x="-0.2937" y="1.028821875"/>
+<vertex x="-0.152278125" y="0.8874"/>
+<vertex x="0.152278125" y="0.8874"/>
+<vertex x="0.2937" y="1.028821875"/>
+<vertex x="0.2937" y="1.14426875"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.152278125" y="0.6874"/>
+<vertex x="-0.2937" y="0.545978125"/>
+<vertex x="-0.2937" y="0.241421875"/>
+<vertex x="-0.152278125" y="0.1"/>
+<vertex x="0.152278125" y="0.1"/>
+<vertex x="0.2937" y="0.241421875"/>
+<vertex x="0.2937" y="0.545978125"/>
+<vertex x="0.152278125" y="0.6874"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.152278125" y="-0.1"/>
+<vertex x="-0.2937" y="-0.241421875"/>
+<vertex x="-0.2937" y="-0.545978125"/>
+<vertex x="-0.152278125" y="-0.6874"/>
+<vertex x="0.152278125" y="-0.6874"/>
+<vertex x="0.2937" y="-0.545978125"/>
+<vertex x="0.2937" y="-0.241421875"/>
+<vertex x="0.152278125" y="-0.1"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-0.152278125" y="-0.8874"/>
+<vertex x="-0.2937" y="-1.028821875"/>
+<vertex x="-0.2937" y="-1.14426875"/>
+<vertex x="0.2937" y="-1.14426875"/>
+<vertex x="0.2937" y="-1.028821875"/>
+<vertex x="0.152278125" y="-0.8874"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.4937" y="1.14426875"/>
+<vertex x="0.4937" y="1.028821875"/>
+<vertex x="0.635121875" y="0.8874"/>
+<vertex x="0.81406875" y="0.8874"/>
+<vertex x="0.81406875" y="1.14426875"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.635121875" y="0.6874"/>
+<vertex x="0.4937" y="0.545978125"/>
+<vertex x="0.4937" y="0.241421875"/>
+<vertex x="0.635121875" y="0.1"/>
+<vertex x="0.81406875" y="0.1"/>
+<vertex x="0.81406875" y="0.6874"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.635121875" y="-0.1"/>
+<vertex x="0.4937" y="-0.241421875"/>
+<vertex x="0.4937" y="-0.545978125"/>
+<vertex x="0.635121875" y="-0.6874"/>
+<vertex x="0.81406875" y="-0.6874"/>
+<vertex x="0.81406875" y="-0.1"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.635121875" y="-0.8874"/>
+<vertex x="0.4937" y="-1.028821875"/>
+<vertex x="0.4937" y="-1.14426875"/>
+<vertex x="0.81406875" y="-1.14426875"/>
+<vertex x="0.81406875" y="-0.8874"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.8548" y="1.1274"/>
+<vertex x="-1.8548" y="0.8226"/>
+<vertex x="-1.2452" y="0.8226"/>
+<vertex x="-1.2452" y="1.1274"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.8548" y="0.4774"/>
+<vertex x="-1.8548" y="0.1726"/>
+<vertex x="-1.2452" y="0.1726"/>
+<vertex x="-1.2452" y="0.4774"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.8548" y="-0.1726"/>
+<vertex x="-1.8548" y="-0.4774"/>
+<vertex x="-1.2452" y="-0.4774"/>
+<vertex x="-1.2452" y="-0.1726"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-1.8548" y="-0.8226"/>
+<vertex x="-1.8548" y="-1.1274"/>
+<vertex x="-1.2452" y="-1.1274"/>
+<vertex x="-1.2452" y="-0.8226"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="1.2452" y="-0.8226"/>
+<vertex x="1.2452" y="-1.1274"/>
+<vertex x="1.8548" y="-1.1274"/>
+<vertex x="1.8548" y="-0.8226"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="1.2452" y="-0.1726"/>
+<vertex x="1.2452" y="-0.4774"/>
+<vertex x="1.8548" y="-0.4774"/>
+<vertex x="1.8548" y="-0.1726"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="1.2452" y="0.4774"/>
+<vertex x="1.2452" y="0.1726"/>
+<vertex x="1.8548" y="0.1726"/>
+<vertex x="1.8548" y="0.4774"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="1.2452" y="1.1274"/>
+<vertex x="1.2452" y="0.8226"/>
+<vertex x="1.8548" y="0.8226"/>
+<vertex x="1.8548" y="1.1274"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-0.9525" y="1.2827"/>
+<vertex x="0.9525" y="1.2827"/>
+<vertex x="0.9525" y="0.9874"/>
+<vertex x="-0.9525" y="0.9874"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-0.9525" y="0.5874"/>
+<vertex x="0.9525" y="0.5874"/>
+<vertex x="0.9525" y="0.2"/>
+<vertex x="-0.9525" y="0.2"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-0.9525" y="-0.2"/>
+<vertex x="0.9525" y="-0.2"/>
+<vertex x="0.9525" y="-0.5874"/>
+<vertex x="-0.9525" y="-0.5874"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-0.9525" y="-0.9874"/>
+<vertex x="0.9525" y="-0.9874"/>
+<vertex x="0.9525" y="-1.2827"/>
+<vertex x="-0.9525" y="-1.2827"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="-0.9525" y="1.2827"/>
+<vertex x="-0.5937" y="1.2827"/>
+<vertex x="-0.5937" y="-1.2827"/>
+<vertex x="-0.9525" y="-1.2827"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="0.1937" y="1.2827"/>
+<vertex x="-0.1937" y="1.2827"/>
+<vertex x="-0.1937" y="-1.2827"/>
+<vertex x="0.1937" y="-1.2827"/>
+</polygon>
+<polygon width="0.0254" layer="29">
+<vertex x="0.5937" y="1.2827"/>
+<vertex x="0.9525" y="1.2827"/>
+<vertex x="0.9525" y="-1.2827"/>
+<vertex x="0.5937" y="-1.2827"/>
+</polygon>
 <wire x1="-2.1082" y1="-1.3462" x2="-2.1082" y2="1.3462" width="0.1524" layer="39"/>
 <wire x1="-2.1082" y1="1.3462" x2="-1.7526" y2="1.3462" width="0.1524" layer="39"/>
 <wire x1="2.1082" y1="1.3462" x2="1.7526" y2="1.3462" width="0.1524" layer="39"/>
@@ -4514,9 +4809,7 @@ Drawings &lt;/a&gt;</description>
 <wire x1="-2.3622" y1="0.9652" x2="-2.2098" y2="0.9652" width="0.1524" layer="21" curve="-180"/>
 <wire x1="-1.4986" y1="-1.4986" x2="1.4986" y2="-1.4986" width="0.1524" layer="51"/>
 <wire x1="1.4986" y1="-1.4986" x2="1.4986" y2="1.4986" width="0.1524" layer="51"/>
-<wire x1="1.4986" y1="1.4986" x2="0.3048" y2="1.4986" width="0.1524" layer="51"/>
 <wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="1.4986" x2="-1.4986" y2="1.4986" width="0.1524" layer="51"/>
 <wire x1="-1.4986" y1="1.4986" x2="-1.4986" y2="-1.4986" width="0.1524" layer="51"/>
 <wire x1="-1.1684" y1="0.9652" x2="-1.3208" y2="0.9652" width="0" layer="51" curve="-180"/>
 <wire x1="-1.3208" y1="0.9652" x2="-1.1684" y2="0.9652" width="0" layer="51" curve="-180"/>
@@ -4526,27 +4819,6 @@ Drawings &lt;/a&gt;</description>
 <wire x1="0.3048" y1="1.4986" x2="-0.3048" y2="1.4986" width="0.1524" layer="51" curve="-180"/>
 <wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
 <wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
-<text x="-2.0066" y="3.175" size="1.27" layer="25" font="vector" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-<package name="STAND-OFF">
-<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
-This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
-<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
-<hole x="0" y="0" drill="3.302"/>
-<circle x="0" y="0" radius="2.78821875" width="0.127" layer="39"/>
-</package>
-<package name="STAND-OFF-TIGHT">
-<description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
-This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
-<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
-<hole x="0" y="0" drill="3.302"/>
-<circle x="0" y="0" radius="2.85396875" width="0.127" layer="39"/>
 </package>
 </packages>
 <packages3d>
@@ -5025,54 +5297,32 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <pin name="+" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="-" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="N-MOSFET">
-<pin name="G" x="-7.62" y="-2.54" visible="off" length="point" direction="pas"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S@2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<wire x1="0" y1="1.905" x2="-2.0066" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-2.032" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.905" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.032" y1="0" x2="-0.762" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="-0.508" x2="-0.762" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="0.508" x2="-2.032" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="0.254" x2="-1.778" y2="0" width="0.3048" layer="94"/>
-<wire x1="-1.778" y1="0" x2="-0.889" y2="-0.254" width="0.3048" layer="94"/>
-<wire x1="-0.889" y1="-0.254" x2="-0.889" y2="0" width="0.3048" layer="94"/>
-<wire x1="-0.889" y1="0" x2="-1.143" y2="0" width="0.3048" layer="94"/>
-<wire x1="2.54" y1="1.905" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0.762" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0.762" x2="1.905" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="-0.635" x2="3.175" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="-0.635" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="0.762" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0.762" x2="3.175" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="3.175" y1="0.762" x2="3.429" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="0.762" x2="1.651" y2="0.508" width="0.1524" layer="94"/>
-<circle x="0" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
-<circle x="0" y="1.905" radius="0.127" width="0.4064" layer="94"/>
-<text x="5.08" y="0" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-1.27" y="2.54" size="0.8128" layer="93">D</text>
-<text x="-1.27" y="-3.556" size="0.8128" layer="93">S</text>
-<text x="-5.08" y="-3.81" size="0.8128" layer="93">G</text>
-<rectangle x1="-2.794" y1="-2.54" x2="-2.032" y2="-1.27" layer="94"/>
-<rectangle x1="-2.794" y1="1.27" x2="-2.032" y2="2.54" layer="94"/>
-<rectangle x1="-2.794" y1="-0.889" x2="-2.032" y2="0.889" layer="94"/>
-<polygon width="0.1524" layer="94">
-<vertex x="2.54" y="0.508"/>
-<vertex x="2.032" y="-0.508"/>
-<vertex x="3.048" y="-0.508"/>
-</polygon>
-<wire x1="-3.556" y1="2.54" x2="-3.556" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-3.556" y2="-2.54" width="0.1524" layer="94"/>
-</symbol>
 <symbol name="STAND-OFF">
 <circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+</symbol>
+<symbol name="CSD17579Q3A">
+<pin name="DRAIN_2" x="3.81" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="GATE" x="-3.81" y="0" visible="off" length="short" direction="pas"/>
+<pin name="SOURCE_2" x="3.81" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="-3.81" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="2.032" x2="1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.016" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-2.032" x2="1.016" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.032" x2="1.016" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="0" x2="3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.032" x2="3.556" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="2.54" x2="1.016" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-2.032" x2="3.81" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="0" x2="2.286" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="1.27" x2="2.286" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="0" x2="2.286" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.27" x2="1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="7.62" x2="3.81" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-2.032" x2="3.81" y2="-7.62" width="0.1524" layer="94"/>
+<text x="-7.2644" y="6.5786" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-7.8994" y="4.0386" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -7097,25 +7347,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </device>
 </devices>
 </deviceset>
-<deviceset name="NMOS_CSD17579Q3A" prefix="M">
-<gates>
-<gate name="A" symbol="N-MOSFET" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DNH0008A">
-<connects>
-<connect gate="A" pin="D" pad="5 6 7 8 9"/>
-<connect gate="A" pin="G" pad="4"/>
-<connect gate="A" pin="S@2" pad="1 2 3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PART_NO" value="CSD17579Q3A" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="STAND-OFF" prefix="STANDOFF">
 <description>&lt;b&gt;#4 Stand Off&lt;/b&gt;&lt;p&gt;
 This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
@@ -7134,6 +7365,26 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <technologies>
 <technology name="">
 <attribute name="PIE-INT-REF-NUM" value="DNL"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NMOS_CSD17579Q3A">
+<gates>
+<gate name="A" symbol="CSD17579Q3A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DNH0008A">
+<connects>
+<connect gate="A" pin="DRAIN_2" pad="5"/>
+<connect gate="A" pin="GATE" pad="4"/>
+<connect gate="A" pin="SOURCE_2" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="CSD17579Q3A" constant="no"/>
+<attribute name="VENDOR" value="Texas Instruments" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7356,7 +7607,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C11" library="pie" deviceset="CAP_POL" device="RADIAL" value="10uF"/>
 <part name="C14" library="pie" deviceset="CAP_POL" device="RADIAL" value="10uF"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="USB_B" device="_PTH"/>
-<part name="M1" library="pie" deviceset="NMOS_CSD17579Q3A" device=""/>
 <part name="STANDOFF1" library="pie" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="STANDOFF2" library="pie" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="STANDOFF3" library="pie" deviceset="STAND-OFF" device="TIGHT"/>
@@ -7364,6 +7614,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="STANDOFF5" library="pie" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="STANDOFF7" library="pie" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="C17" library="pie" deviceset="CAP" device="0603-CAP" value="2.2uF"/>
+<part name="M1" library="pie" deviceset="NMOS_CSD17579Q3A" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7472,10 +7723,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="-64.77" y="76.2" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-73.66" y="76.2" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="M1" gate="A" x="76.2" y="22.86" smashed="yes">
-<attribute name="NAME" x="81.28" y="22.86" size="1.778" layer="95"/>
-<attribute name="VALUE" x="81.28" y="20.32" size="1.778" layer="96"/>
-</instance>
 <instance part="STANDOFF1" gate="G$1" x="-109.22" y="86.36" smashed="yes"/>
 <instance part="STANDOFF2" gate="G$1" x="-99.06" y="86.36" smashed="yes"/>
 <instance part="STANDOFF3" gate="G$1" x="-106.68" y="76.2" smashed="yes"/>
@@ -7485,6 +7732,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="C17" gate="G$1" x="-76.2" y="-17.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="-78.74" y="-21.59" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-71.12" y="-21.59" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="M1" gate="A" x="71.12" y="25.4" smashed="yes">
+<attribute name="NAME" x="63.8556" y="31.9786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="63.2206" y="29.4386" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
 </instances>
 <busses>
@@ -7635,12 +7886,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-12.7" y1="15.24" x2="-20.32" y2="15.24" width="0.1524" layer="91"/>
 <label x="-20.32" y="15.24" size="1.778" layer="95"/>
 <wire x1="-20.32" y1="25.4" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="25.4" x2="68.58" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="25.4" x2="66.04" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="66.04" y="25.4"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="M1" gate="A" pin="G"/>
-<wire x1="68.58" y1="25.4" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="M1" gate="A" pin="GATE"/>
+<wire x1="66.04" y1="25.4" x2="67.31" y2="25.4" width="0.1524" layer="91"/>
+<junction x="66.04" y="25.4"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -7713,7 +7963,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="76.2" y="7.62" size="1.778" layer="95"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <junction x="76.2" y="7.62"/>
-<pinref part="M1" gate="A" pin="S@2"/>
+<pinref part="M1" gate="A" pin="SOURCE_2"/>
+<wire x1="76.2" y1="17.78" x2="74.93" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -7783,9 +8034,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="73.66" y1="38.1" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
 <label x="71.12" y="38.1" size="1.778" layer="95"/>
-<pinref part="M1" gate="A" pin="D"/>
-<wire x1="73.66" y1="33.02" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="33.02" x2="76.2" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="M1" gate="A" pin="DRAIN_2"/>
+<wire x1="73.66" y1="33.02" x2="74.93" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CONN1" gate="G$1" pin="OUTA"/>
