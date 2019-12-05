@@ -16,18 +16,16 @@ void setup() {
 void loop() {
   
   Serial.print("Time: ");
-  Serial.println("random time");
+  Serial.println(millis());
       
   Serial.println("Cells: ");
-  Serial.println("random voltage 1");
-  Serial.println("random voltage 2");
-  Serial.println("random voltage 5");
+  Serial.print("Cell 1 "); Serial.println(1000);
+  Serial.print("Cell 2 "); Serial.println(2000);
+  Serial.print("Cell 5 "); Serial.println(5000);
   Serial.println();
 
-  Serial.print("Current: ");
-  Serial.println("some battery current");
+  Serial.print("Current: "); Serial.println(1000);
   Serial.println();
-
   
   delay(500);
 
