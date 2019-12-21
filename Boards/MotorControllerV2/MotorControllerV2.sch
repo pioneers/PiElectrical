@@ -6881,20 +6881,6 @@ USB_B
 </net>
 <net name="B1" class="0">
 <segment>
-<pinref part="ENC1" gate="G$1" pin="4"/>
-<label x="15.24" y="25.4" size="1.778" layer="95"/>
-<pinref part="R8" gate="G$1" pin="7"/>
-<wire x1="15.24" y1="25.4" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="25.4" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="(ADC7/TDI)PF7"/>
-<wire x1="-25.4" y1="-33.02" x2="-17.78" y2="-33.02" width="0.1524" layer="91"/>
-<label x="-22.86" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="A2" class="0">
-<segment>
 <pinref part="ENC2" gate="G$1" pin="3"/>
 <wire x1="15.24" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
 <label x="15.24" y="40.64" size="1.778" layer="95"/>
@@ -6905,6 +6891,20 @@ USB_B
 <pinref part="U2" gate="G$1" pin="(SDA/INT1)PD1"/>
 <wire x1="-25.4" y1="7.62" x2="-20.32" y2="7.62" width="0.1524" layer="91"/>
 <label x="-22.86" y="7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A2" class="0">
+<segment>
+<pinref part="ENC1" gate="G$1" pin="4"/>
+<label x="15.24" y="25.4" size="1.778" layer="95"/>
+<pinref part="R8" gate="G$1" pin="7"/>
+<wire x1="15.24" y1="25.4" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="25.4" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="(ADC7/TDI)PF7"/>
+<wire x1="-25.4" y1="-33.02" x2="-17.78" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-22.86" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B2" class="0">
