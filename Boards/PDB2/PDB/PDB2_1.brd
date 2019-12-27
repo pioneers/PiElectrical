@@ -1993,13 +1993,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="pie *">
+<designrules name="pie">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für
-die meisten Anwendungen passen. Sollte ihre Platine
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
 besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter
+Einstellungen hier und speichern die Design Rules unter 
 einem neuen Namen ab.</description>
 <description language="en">&lt;b&gt;PiE's EAGLE Design Rules&lt;/b&gt;
 
@@ -2008,21 +2008,21 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="2mil 2mil 2mil 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 2mil"/>
 <param name="mtIsolate" value="9mil 40mil 9mil 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
-<param name="mdWireWire" value="0.19811875mm"/>
-<param name="mdWirePad" value="0.19811875mm"/>
-<param name="mdWireVia" value="0.19811875mm"/>
-<param name="mdPadPad" value="0.19811875mm"/>
-<param name="mdPadVia" value="0.19811875mm"/>
-<param name="mdViaVia" value="0.19811875mm"/>
-<param name="mdSmdPad" value="0.19811875mm"/>
-<param name="mdSmdVia" value="0.19811875mm"/>
-<param name="mdSmdSmd" value="0.19811875mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="30mil"/>
+<param name="mdCopperDimension" value="25mil"/>
 <param name="mdDrill" value="7mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="8mil"/>
+<param name="msWidth" value="6mil"/>
 <param name="msDrill" value="15mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.125"/>
@@ -2906,7 +2906,6 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="62.951" y1="22.52" x2="62.865" y2="22.606" width="0.3048" layer="1"/>
 <wire x1="64.251" y1="20.6248" x2="64.251" y2="22.363" width="0.3048" layer="1"/>
 <wire x1="64.251" y1="22.363" x2="64.135" y2="22.479" width="0.3048" layer="1"/>
-<wire x1="65.786" y1="25.527" x2="63.601" y2="26.3652" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAP1">
 <contactref element="U1" pad="7"/>
@@ -2918,9 +2917,9 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <contactref element="U1" pad="5"/>
 <contactref element="R3" pad="1"/>
 <contactref element="U3" pad="18"/>
-<wire x1="62.301" y1="26.3652" x2="62.301" y2="27.884" width="0.254" layer="1"/>
-<wire x1="62.301" y1="27.884" x2="63.1988" y2="28.7818" width="0.254" layer="1"/>
-<wire x1="63.1988" y1="28.7818" x2="70.0178" y2="28.7818" width="0.254" layer="1"/>
+<wire x1="62.301" y1="26.3652" x2="62.301" y2="28.138" width="0.254" layer="1"/>
+<wire x1="62.301" y1="28.138" x2="62.9448" y2="28.7818" width="0.254" layer="1"/>
+<wire x1="62.9448" y1="28.7818" x2="70.0178" y2="28.7818" width="0.254" layer="1"/>
 <wire x1="70.0178" y1="28.7818" x2="70.2115" y2="28.9755" width="0.254" layer="1"/>
 <wire x1="70.2115" y1="28.9755" x2="72.39" y2="31.154" width="0.254" layer="1"/>
 <wire x1="70.2115" y1="28.9755" x2="71.2665" y2="28.9755" width="0.254" layer="1"/>
@@ -2940,10 +2939,10 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <contactref element="U1" pad="4"/>
 <contactref element="R4" pad="1"/>
 <contactref element="U3" pad="19"/>
-<wire x1="62.951" y1="26.3652" x2="62.951" y2="27.518" width="0.254" layer="1"/>
-<wire x1="62.951" y1="27.518" x2="63.627" y2="28.194" width="0.254" layer="1"/>
+<wire x1="62.951" y1="26.3652" x2="62.951" y2="27.772" width="0.254" layer="1"/>
+<wire x1="62.951" y1="27.772" x2="63.373" y2="28.194" width="0.254" layer="1"/>
 <wire x1="73.4734" y1="30.03026875" x2="73.4734" y2="30.8014" width="0.254" layer="1"/>
-<wire x1="63.627" y1="28.194" x2="71.63713125" y2="28.194" width="0.254" layer="1"/>
+<wire x1="63.373" y1="28.194" x2="71.63713125" y2="28.194" width="0.254" layer="1"/>
 <wire x1="71.63713125" y1="28.194" x2="73.4734" y2="30.03026875" width="0.254" layer="1"/>
 <wire x1="73.826" y1="31.154" x2="75.311" y2="31.154" width="0.254" layer="1"/>
 <wire x1="73.4734" y1="30.8014" x2="73.826" y2="31.154" width="0.254" layer="1"/>
@@ -3933,10 +3932,20 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <approved hash="23,1,dd1493eb6d2f23d0"/>
 <approved hash="23,1,fc0d03f30392fc6c"/>
 <approved hash="23,1,fd1503eafd2e03d1"/>
-<approved hash="23,1,ab6127cec5509072"/>
-<approved hash="23,1,bb704d42046145f6"/>
-<approved hash="23,1,33e3419d40a332dd"/>
-<approved hash="23,1,e5b203cc0323e55d"/>
+<approved hash="19,1,271a27703a323a58"/>
+<approved hash="19,1,2b5cedff087af48f"/>
+<approved hash="19,1,6f4dabba65859b24"/>
+<approved hash="19,1,9cca9e39e1fbe308"/>
+<approved hash="19,1,4f5468b927cd18e1"/>
+<approved hash="19,1,cf5385ffcb69ee2e"/>
+<approved hash="19,1,8306bef7fda671b9"/>
+<approved hash="19,1,b92abe32fbf2fcea"/>
+<approved hash="19,1,942c933d237d246c"/>
+<approved hash="19,1,951d9571c633c65f"/>
+<approved hash="19,1,aa58a835f9f7fb9a"/>
+<approved hash="19,1,251a2575b637b658"/>
+<approved hash="19,1,195a1b2b88698a18"/>
+<approved hash="19,1,a95dab2ff86dfa1f"/>
 </errors>
 </board>
 </drawing>
