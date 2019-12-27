@@ -1263,8 +1263,8 @@ Probably Obsolete</description>
 <text x="-3.81" y="2.54" size="1.778" layer="25" font="vector" ratio="15">&gt;NAME</text>
 </package>
 <package name="BUZZER_3.3V">
-<pad name="P1" x="-3.81" y="0" drill="0.6"/>
-<pad name="P2" x="3.79" y="0" drill="0.6"/>
+<pad name="P1" x="-3.81" y="0" drill="1"/>
+<pad name="P2" x="3.79" y="0" drill="1"/>
 <text x="-3.648" y="2.589665625" size="1.27" layer="25">&gt;NAME</text>
 <circle x="0" y="0" radius="7.40530625" width="0.127" layer="21"/>
 <text x="-5.08" y="-2.54" size="1.4224" layer="21" font="vector" ratio="15">+</text>
@@ -2599,8 +2599,8 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="NOTES" value="Cut Tape" x="89.027" y="10.922" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="89.027" y="10.922" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LS2" library="pie" package="BUZZER_3.3V" value="" x="101.981" y="53.721" smashed="yes">
-<attribute name="NAME" x="100.111" y="53.262665625" size="1.6764" layer="25" font="vector" ratio="15"/>
+<element name="BUZ1" library="pie" package="BUZZER_3.3V" value="" x="101.981" y="53.721" smashed="yes">
+<attribute name="NAME" x="98.841" y="56.056665625" size="1.6764" layer="25" font="vector" ratio="15"/>
 </element>
 <element name="J2" library="pie" package="MA03-2" value="AVR_SPI_PRG_6MA03-2" x="97.409" y="3.683" smashed="yes">
 <attribute name="NAME" x="100.965" y="6.604" size="1.651" layer="25" font="vector" ratio="15"/>
@@ -2647,8 +2647,8 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <attribute name="NAME" x="49.149" y="29.845" size="1.6764" layer="25" font="vector" ratio="15"/>
 <attribute name="PIE-INT-REF-NUM" value="CAPACITOR-GENERIC" x="54.102" y="30.861" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="M1" library="pie" package="DNH0008A" value="NMOS_CSD17579Q3A" x="33.782" y="23.114" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER_PART_NUMBER" value="CSD17579Q3A" x="33.782" y="23.114" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="M1" library="pie" package="DNH0008A" value="" x="33.782" y="23.114" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER_PART_NUMBER" value="CSD16401Q5" x="33.782" y="23.114" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="28.7274" y="22.479" size="1.27" layer="25" font="vector" ratio="15" rot="SR0"/>
 <attribute name="VENDOR" value="Texas Instruments" x="33.782" y="23.114" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -2877,7 +2877,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <via x="58.166" y="33.147" extent="1-16" drill="0.4572" alwaysstop="yes"/>
 <via x="61.087" y="32.639" extent="1-16" drill="0.4572" alwaysstop="yes"/>
 <via x="63.881" y="32.639" extent="1-16" drill="0.4572" alwaysstop="yes"/>
-<contactref element="LS2" pad="P2"/>
+<contactref element="BUZ1" pad="P2"/>
 <contactref element="J2" pad="6"/>
 <via x="88.519" y="21.336" extent="1-16" drill="0.4572" alwaysstop="yes"/>
 <via x="74.803" y="7.874" extent="1-16" drill="0.4572" alwaysstop="yes"/>
@@ -3075,8 +3075,6 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <wire x1="63.600996875" y1="20.6248" x2="63.600996875" y2="17.841996875" width="0.3048" layer="1"/>
 <wire x1="63.600996875" y1="17.841996875" x2="62.269" y2="16.51" width="0.3048" layer="1"/>
 <contactref element="M1" pad="1"/>
-<wire x1="34.544" y1="15.748" x2="33.4264" y2="15.748" width="0" layer="19" extent="1-1"/>
-<wire x1="32.807" y1="21.564" x2="33.4264" y2="15.748" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="R3" pad="2"/>
@@ -3185,8 +3183,8 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <contactref element="CONN1" pad="PIN2"/>
 <contactref element="CONN2" pad="PIN1"/>
 <via x="21.971" y="42.926" extent="1-16" drill="0.4572" alwaysstop="yes"/>
-<via x="33.782" y="26.162" extent="1-16" drill="0.4572" alwaysstop="yes"/>
-<via x="35.687" y="26.162" extent="1-16" drill="0.4572" alwaysstop="yes"/>
+<via x="35.687" y="27.051" extent="1-16" drill="0.4572" alwaysstop="yes"/>
+<via x="38.227" y="27.559" extent="1-16" drill="0.4572" alwaysstop="yes"/>
 <via x="20.447" y="23.622" extent="1-16" drill="0.4572" alwaysstop="yes"/>
 <via x="15.748" y="37.338" extent="1-16" drill="0.4572" alwaysstop="yes"/>
 <via x="19.304" y="35.56" extent="1-16" drill="0.4572" alwaysstop="yes"/>
@@ -3267,8 +3265,8 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <via x="33.147" y="38.862" extent="1-16" drill="0.4572" alwaysstop="yes"/>
 <via x="29.972" y="38.862" extent="1-16" drill="0.4572" alwaysstop="yes"/>
 <via x="26.924" y="38.989" extent="1-16" drill="0.4572" alwaysstop="yes"/>
-<via x="37.211" y="25.019" extent="1-16" drill="0.4572" alwaysstop="yes"/>
-<via x="30.607" y="25.4" extent="1-16" drill="0.4572" alwaysstop="yes"/>
+<via x="41.275" y="26.797" extent="1-16" drill="0.4572" alwaysstop="yes"/>
+<via x="28.956" y="26.924" extent="1-16" drill="0.4572" alwaysstop="yes"/>
 <via x="32.766" y="23.876" extent="1-16" drill="0.4"/>
 <via x="33.782" y="23.876" extent="1-16" drill="0.4"/>
 <via x="34.798" y="23.876" extent="1-16" drill="0.4"/>
@@ -3276,74 +3274,6 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <via x="32.766" y="22.86" extent="1-16" drill="0.4"/>
 <via x="34.798" y="22.86" extent="1-16" drill="0.4"/>
 <contactref element="M1" pad="5"/>
-<wire x1="47.752" y1="74.422" x2="55.245" y2="72.754" width="0" layer="19" extent="1-1"/>
-<wire x1="39.497" y1="72.754" x2="47.752" y2="74.422" width="0" layer="19" extent="1-1"/>
-<wire x1="37.592" y1="63.373" x2="39.497" y2="72.754" width="0" layer="19" extent="1-1"/>
-<wire x1="37.719" y1="61.341" x2="37.592" y2="63.373" width="0" layer="19" extent="1-1"/>
-<wire x1="37.719" y1="59.309" x2="37.719" y2="61.341" width="0" layer="19" extent="1-1"/>
-<wire x1="37.719" y1="57.15" x2="37.719" y2="59.309" width="0" layer="19" extent="1-1"/>
-<wire x1="37.846" y1="55.372" x2="37.719" y2="57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="40.524" y1="51.435" x2="37.846" y2="55.372" width="0" layer="19" extent="1-1"/>
-<wire x1="42.037" y1="51.943" x2="40.524" y2="51.435" width="0" layer="19" extent="1-1"/>
-<wire x1="42.037" y1="50.927" x2="42.037" y2="51.943" width="0" layer="19" extent="1-1"/>
-<wire x1="41.148" y1="49.022" x2="42.037" y2="50.927" width="0" layer="19" extent="1-1"/>
-<wire x1="40.132" y1="49.022" x2="41.148" y2="49.022" width="0" layer="19" extent="1-1"/>
-<wire x1="39.116" y1="49.022" x2="40.132" y2="49.022" width="0" layer="19" extent="1-1"/>
-<wire x1="38.1" y1="49.022" x2="39.116" y2="49.022" width="0" layer="19" extent="1-1"/>
-<wire x1="40.64" y1="47.382" x2="41.148" y2="49.022" width="0" layer="19" extent="1-1"/>
-<wire x1="38.608" y1="47.382" x2="39.116" y2="49.022" width="0" layer="19" extent="1-1"/>
-<wire x1="45.386" y1="47.33" x2="41.148" y2="49.022" width="0" layer="19" extent="1-1"/>
-<wire x1="49.149" y1="48.387" x2="45.386" y2="47.33" width="0" layer="19" extent="1-1"/>
-<wire x1="50.8" y1="48.221" x2="49.149" y2="48.387" width="0" layer="19" extent="1-1"/>
-<wire x1="51.65" y1="43.561" x2="50.8" y2="48.221" width="0" layer="19" extent="1-1"/>
-<wire x1="53.594" y1="43.561" x2="51.65" y2="43.561" width="0" layer="19" extent="1-1"/>
-<wire x1="44.577" y1="61.468" x2="37.719" y2="61.341" width="0" layer="19" extent="1-1"/>
-<wire x1="48.26" y1="62.611" x2="44.577" y2="61.468" width="0" layer="19" extent="1-1"/>
-<wire x1="48.768" y1="56.134" x2="48.26" y2="62.611" width="0" layer="19" extent="1-1"/>
-<wire x1="57.912" y1="52.197" x2="50.8" y2="48.221" width="0" layer="19" extent="1-1"/>
-<wire x1="57.785" y1="54.61" x2="57.912" y2="52.197" width="0" layer="19" extent="1-1"/>
-<wire x1="57.658" y1="56.642" x2="57.785" y2="54.61" width="0" layer="19" extent="1-1"/>
-<wire x1="57.785" y1="59.182" x2="57.658" y2="56.642" width="0" layer="19" extent="1-1"/>
-<wire x1="60.452" y1="52.451" x2="57.912" y2="52.197" width="0" layer="19" extent="1-1"/>
-<wire x1="60.452" y1="54.356" x2="60.452" y2="52.451" width="0" layer="19" extent="1-1"/>
-<wire x1="57.912" y1="61.849" x2="57.785" y2="59.182" width="0" layer="19" extent="1-1"/>
-<wire x1="60.579" y1="61.722" x2="57.912" y2="61.849" width="0" layer="19" extent="1-1"/>
-<wire x1="60.579" y1="59.436" x2="60.579" y2="61.722" width="0" layer="19" extent="1-1"/>
-<wire x1="60.706" y1="57.023" x2="60.579" y2="59.436" width="0" layer="19" extent="1-1"/>
-<wire x1="42.037" y1="39.116" x2="40.64" y2="47.382" width="0" layer="19" extent="1-1"/>
-<wire x1="39.116" y1="38.735" x2="42.037" y2="39.116" width="0" layer="19" extent="1-1"/>
-<wire x1="36.068" y1="38.735" x2="39.116" y2="38.735" width="0" layer="19" extent="1-1"/>
-<wire x1="33.147" y1="38.862" x2="36.068" y2="38.735" width="0" layer="19" extent="1-1"/>
-<wire x1="29.972" y1="38.862" x2="33.147" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="26.924" y1="38.989" x2="29.972" y2="38.862" width="0" layer="19" extent="1-1"/>
-<wire x1="22.098" y1="38.227" x2="26.924" y2="38.989" width="0" layer="19" extent="1-1"/>
-<wire x1="19.304" y1="35.56" x2="22.098" y2="38.227" width="0" layer="19" extent="1-1"/>
-<wire x1="15.748" y1="37.338" x2="19.304" y2="35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="21.971" y1="42.926" x2="22.098" y2="38.227" width="0" layer="19" extent="1-1"/>
-<wire x1="16.637" y1="42.418" x2="15.748" y2="37.338" width="0" layer="19" extent="1-1"/>
-<wire x1="16.383" y1="29.083" x2="19.304" y2="35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="20.447" y1="23.622" x2="16.383" y2="29.083" width="0" layer="19" extent="1-1"/>
-<wire x1="30.607" y1="25.4" x2="20.447" y2="23.622" width="0" layer="19" extent="1-1"/>
-<wire x1="32.766" y1="23.876" x2="30.607" y2="25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="33.782" y1="23.876" x2="32.766" y2="23.876" width="0" layer="19" extent="1-1"/>
-<wire x1="34.798" y1="23.876" x2="33.782" y2="23.876" width="0" layer="19" extent="1-1"/>
-<wire x1="33.782" y1="22.86" x2="33.782" y2="23.876" width="0" layer="19" extent="1-1"/>
-<wire x1="34.798" y1="22.86" x2="34.798" y2="23.876" width="0" layer="19" extent="1-1"/>
-<wire x1="32.766" y1="22.86" x2="32.766" y2="23.876" width="0" layer="19" extent="1-1"/>
-<wire x1="33.782" y1="26.162" x2="33.782" y2="23.876" width="0" layer="19" extent="1-1"/>
-<wire x1="35.687" y1="26.162" x2="33.782" y2="26.162" width="0" layer="19" extent="1-1"/>
-<wire x1="37.211" y1="25.019" x2="35.687" y2="26.162" width="0" layer="19" extent="1-1"/>
-<wire x1="16.51" y1="54.864" x2="16.637" y2="42.418" width="0" layer="19" extent="1-1"/>
-<wire x1="17.272" y1="62.484" x2="16.51" y2="54.864" width="0" layer="19" extent="1-1"/>
-<wire x1="17.018" y1="66.167" x2="17.272" y2="62.484" width="0" layer="19" extent="1-1"/>
-<wire x1="17.018" y1="70.485" x2="17.018" y2="66.167" width="0" layer="19" extent="1-1"/>
-<wire x1="17.399" y1="75.057" x2="17.018" y2="70.485" width="0" layer="19" extent="1-1"/>
-<wire x1="24.638" y1="72.754" x2="17.399" y2="75.057" width="0" layer="19" extent="1-1"/>
-<wire x1="9.017" y1="72.754" x2="17.018" y2="70.485" width="0" layer="19" extent="1-1"/>
-<wire x1="4.445" y1="67.056" x2="9.017" y2="72.754" width="0" layer="19" extent="1-1"/>
-<wire x1="3.175" y1="62.484" x2="4.445" y2="67.056" width="0" layer="19" extent="1-1"/>
-<wire x1="8.509" y1="62.484" x2="3.175" y2="62.484" width="0" layer="19" extent="1-1"/>
-<wire x1="34.757" y1="24.664" x2="20.447" y2="23.622" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BOOT">
 <contactref element="R2" pad="2"/>
@@ -3551,7 +3481,7 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <signal name="BUZZ">
 <contactref element="U3" pad="29"/>
 <wire x1="87.719" y1="39.328" x2="87.719" y2="44.793" width="0.4064" layer="1"/>
-<contactref element="LS2" pad="P1"/>
+<contactref element="BUZ1" pad="P1"/>
 <wire x1="96.647" y1="53.721" x2="98.171" y2="53.721" width="0.4064" layer="1"/>
 <wire x1="87.719" y1="44.793" x2="96.647" y2="53.721" width="0.4064" layer="1"/>
 </signal>
@@ -3997,16 +3927,21 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <approved hash="23,1,dd1493eb6d2f23d0"/>
 <approved hash="23,1,fc0d03f30392fc6c"/>
 <approved hash="23,1,fd1503eafd2e03d1"/>
-<approved hash="5,1,5aa86f22fe3de2e3"/>
-<approved hash="5,1,c134d67413e0b618"/>
-<approved hash="5,1,16628f4a260ac189"/>
-<approved hash="5,1,12120448514cae52"/>
-<approved hash="19,1,4070471a6f7fbf18"/>
-<approved hash="19,1,763680d88c5e8244"/>
-<approved hash="19,1,e341b9effcc4215b"/>
-<approved hash="19,1,4658b8f4c77b3b0f"/>
-<approved hash="19,1,8c7a8e10ebeae980"/>
-<approved hash="19,1,2a60d616da1924b7"/>
+<approved hash="5,1,74e16857f67d6ec8"/>
+<approved hash="5,1,68641cd202c1da75"/>
+<approved hash="5,1,f9127ff5eebc8c17"/>
+<approved hash="5,1,c83c542515ab3955"/>
+<approved hash="5,1,53f7c5ab910daff0"/>
+<approved hash="5,1,5be771518d4647f2"/>
+<approved hash="5,1,943e860ba940c79b"/>
+<approved hash="19,1,8a7c88161e1e1c74"/>
+<approved hash="19,1,4025be89376fc31b"/>
+<approved hash="19,1,91b1ff17a10971ae"/>
+<approved hash="19,1,9e7df7a9acac949f"/>
+<approved hash="19,1,47a356ac3c307a1f"/>
+<approved hash="19,1,2c67d01123f1d55f"/>
+<approved hash="23,1,33e3419d40a332dd"/>
+<approved hash="23,1,e5b203cc0323e55d"/>
 </errors>
 </board>
 </drawing>
