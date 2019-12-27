@@ -24269,9 +24269,9 @@ Crimper: http://www.digikey.com/product-detail/en/molex-llc/0640160204/WM17553-N
 <devices>
 <device name="" package="DNH0008A">
 <connects>
-<connect gate="A" pin="DRAIN_2" pad="5"/>
+<connect gate="A" pin="DRAIN_2" pad="5 6 7 8 9"/>
 <connect gate="A" pin="GATE" pad="4"/>
-<connect gate="A" pin="SOURCE_2" pad="1"/>
+<connect gate="A" pin="SOURCE_2" pad="1 2 3"/>
 </connects>
 <technologies>
 <technology name="">
