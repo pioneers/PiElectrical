@@ -2902,10 +2902,6 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <via x="88.265" y="7.112" extent="1-16" drill="0.4572" diameter="0.762" alwaysstop="yes"/>
 <via x="89.789" y="6.223" extent="1-16" drill="0.4572" diameter="0.762" alwaysstop="yes"/>
 <contactref element="C17" pad="1"/>
-<wire x1="62.951" y1="20.6248" x2="62.951" y2="22.52" width="0.3048" layer="1"/>
-<wire x1="62.951" y1="22.52" x2="62.865" y2="22.606" width="0.3048" layer="1"/>
-<wire x1="64.251" y1="20.6248" x2="64.251" y2="22.363" width="0.3048" layer="1"/>
-<wire x1="64.251" y1="22.363" x2="64.135" y2="22.479" width="0.3048" layer="1"/>
 </signal>
 <signal name="CAP1">
 <contactref element="U1" pad="7"/>
