@@ -1996,10 +1996,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <designrules name="pie">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
+Die Standard-Design-Rules sind so gewählt, dass sie für
+die meisten Anwendungen passen. Sollte ihre Platine
 besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
+Einstellungen hier und speichern die Design Rules unter
 einem neuen Namen ab.</description>
 <description language="en">&lt;b&gt;PiE's EAGLE Design Rules&lt;/b&gt;
 
@@ -2902,8 +2902,6 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 <via x="88.265" y="7.112" extent="1-16" drill="0.4572" diameter="0.762" alwaysstop="yes"/>
 <via x="89.789" y="6.223" extent="1-16" drill="0.4572" diameter="0.762" alwaysstop="yes"/>
 <contactref element="C17" pad="1"/>
-<wire x1="62.951" y1="20.6248" x2="62.951" y2="22.52" width="0.3048" layer="1"/>
-<wire x1="64.251" y1="20.6248" x2="64.251" y2="22.363" width="0.3048" layer="1"/>
 </signal>
 <signal name="CAP1">
 <contactref element="U1" pad="7"/>
