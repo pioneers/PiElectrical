@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14803,7 +14803,7 @@ shrink quad flat pack, square</description>
 <wire x1="-1" y1="15" x2="-1" y2="-13" width="0.127" layer="21"/>
 <wire x1="-1" y1="-13" x2="27" y2="-13" width="0.127" layer="21"/>
 <wire x1="27" y1="-13" x2="27" y2="15" width="0.127" layer="21"/>
-<text x="6.19" y="16" size="1.27" layer="25" font="vector">COLOR SENSOR</text>
+<text x="1.11" y="19.81" size="3.81" layer="25" font="vector">COLOR SENSOR</text>
 </package>
 </packages>
 <packages3d>
