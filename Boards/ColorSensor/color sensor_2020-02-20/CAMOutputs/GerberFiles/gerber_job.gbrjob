@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-02-20T05:38:31Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.4.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 0.3302,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "color sensor"
+        },
+        "Owner": "Kaitlyn Chan <kaitlynjchan@berkeley.edu>",
+        "Size": {
+            "X": 53.34,
+            "Y": 57.404
+        }
+    }
+}
