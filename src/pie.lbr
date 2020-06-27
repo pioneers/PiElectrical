@@ -9,7 +9,7 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -14804,6 +14804,38 @@ shrink quad flat pack, square</description>
 <wire x1="-1" y1="-13" x2="27" y2="-13" width="0.127" layer="21"/>
 <wire x1="27" y1="-13" x2="27" y2="15" width="0.127" layer="21"/>
 <text x="1.11" y="19.81" size="3.81" layer="25" font="vector">COLOR SENSOR</text>
+</package>
+<package name="PWP0028C_N">
+<smd name="1" x="-2.95" y="4.225" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="2" x="-2.95" y="3.575" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="3" x="-2.95" y="2.925" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="4" x="-2.95" y="2.275" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="5" x="-2.95" y="1.625" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="6" x="-2.95" y="0.975" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="7" x="-2.95" y="0.325" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="8" x="-2.95" y="-0.325" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="9" x="-2.95" y="-0.975" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="10" x="-2.95" y="-1.625" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="11" x="-2.95" y="-2.275" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="12" x="-2.95" y="-2.925" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="13" x="-2.95" y="-3.575" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="14" x="-2.95" y="-4.225" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="15" x="2.950003125" y="-4.225" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="16" x="2.950003125" y="-3.575" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="17" x="2.950003125" y="-2.925" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="18" x="2.950003125" y="-2.275" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="19" x="2.950003125" y="-1.625" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="20" x="2.950003125" y="-0.975" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="21" x="2.950003125" y="-0.325" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="22" x="2.950003125" y="0.325" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="23" x="2.950003125" y="0.975" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="24" x="2.950003125" y="1.625" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="25" x="2.950003125" y="2.275" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="26" x="2.950003125" y="2.925" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="27" x="2.950003125" y="3.575" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="28" x="2.950003125" y="4.225" dx="0.45" dy="1.4" layer="1" rot="R90"/>
+<smd name="29" x="0" y="0" dx="3.1" dy="5.18" layer="1"/>
+<smd name="V" x="0.000003125" y="0" dx="0.5" dy="0.5" layer="1" roundness="100"/>
 </package>
 </packages>
 <packages3d>

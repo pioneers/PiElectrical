@@ -171,18 +171,18 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="78" y2="0" width="0" layer="20"/>
-<wire x1="78" y1="0" x2="78" y2="50.5" width="0" layer="20"/>
-<wire x1="78" y1="50.5" x2="0" y2="50.5" width="0" layer="20"/>
-<wire x1="0" y1="50.5" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="78" y1="0" x2="78" y2="45.5" width="0" layer="20"/>
+<wire x1="78" y1="45.5" x2="0" y2="45.5" width="0" layer="20"/>
+<wire x1="0" y1="45.5" x2="0" y2="0" width="0" layer="20"/>
 <text x="10" y="42.5" size="1.778" layer="25" font="vector" rot="R180">OUT</text>
 <text x="24.5" y="42.5" size="1.778" layer="25" font="vector" rot="R180">VCC</text>
 <text x="16.5" y="34.5" size="1.778" layer="25" font="vector" rot="R90">GND</text>
-<text x="38.585" y="1.142" size="1.27" layer="22" font="vector" rot="MR0">(c) Pioneers In Engineering
+<text x="35.585" y="3.142" size="1.27" layer="22" font="vector" rot="MR0">(c) Pioneers In Engineering
 Design by: Kaitlyn, Erica, Aryaman
 This design is open source hardware.
 For more information, visit
 pioneers.berkeley.edu/opensource</text>
-<text x="73" y="48" size="1.778" layer="21" font="vector" rot="R270">ULTRASONIC + IR BREAKOUT</text>
+<text x="75" y="34" size="1.778" layer="21" font="vector" rot="R270">ULTRASONIC + IR BREAKOUT</text>
 </plain>
 <libraries>
 <library name="pie">
@@ -311,43 +311,6 @@ Drawings &lt;/a&gt;</description>
 <vertex x="3.81" y="30.48"/>
 <vertex x="15.24" y="30.48"/>
 <vertex x="15.24" y="36.83"/>
-</polygon>
-</package>
-<package name="OSHW-LOGO-S">
-<polygon width="0.15" layer="21">
-<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
-<vertex x="0.5465" y="-0.8746"/>
-<vertex x="0.9235" y="-1.182"/>
-<vertex x="1.182" y="-0.9235"/>
-<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
-<vertex x="1.0049" y="-0.232"/>
-<vertex x="1.4888" y="-0.1828"/>
-<vertex x="1.4888" y="0.1828"/>
-<vertex x="1.0049" y="0.232" curve="19.000773"/>
-<vertex x="0.8746" y="0.5465"/>
-<vertex x="1.182" y="0.9235"/>
-<vertex x="0.9235" y="1.182"/>
-<vertex x="0.5465" y="0.8746" curve="19.000773"/>
-<vertex x="0.232" y="1.0049"/>
-<vertex x="0.1828" y="1.4888"/>
-<vertex x="-0.1828" y="1.4888"/>
-<vertex x="-0.232" y="1.0049" curve="19.000773"/>
-<vertex x="-0.5465" y="0.8746"/>
-<vertex x="-0.9235" y="1.182"/>
-<vertex x="-1.182" y="0.9235"/>
-<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
-<vertex x="-1.0049" y="0.232"/>
-<vertex x="-1.4888" y="0.1828"/>
-<vertex x="-1.4888" y="-0.1828"/>
-<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
-<vertex x="-0.8746" y="-0.5465"/>
-<vertex x="-1.182" y="-0.9235"/>
-<vertex x="-0.9235" y="-1.182"/>
-<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
-<vertex x="-0.3947" y="-0.9528"/>
-<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
-<vertex x="-0.4688" y="0" curve="-247.473915"/>
-<vertex x="0.1794" y="-0.4331"/>
 </polygon>
 </package>
 <package name="PIE-LOGO-SMALL">
@@ -776,6 +739,52 @@ Drawings &lt;/a&gt;</description>
 <vertex x="-1.3969" y="-3.6717"/>
 </polygon>
 </package>
+<package name="LED-1206">
+<wire x1="-1" y1="1" x2="-2.4" y2="1" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="1" x2="-2.4" y2="-1" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1" x2="-1" y2="-1" width="0.2032" layer="21"/>
+<wire x1="1" y1="1" x2="2.4" y2="1" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="1" x2="2.4" y2="-1" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1" x2="1" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="0.7" x2="0.3" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="0" x2="0.3" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="0" x2="-0.3" y2="0.6" width="0.2032" layer="21"/>
+<wire x1="-0.3" y1="0.6" x2="-0.3" y2="-0.6" width="0.2032" layer="21"/>
+<wire x1="-0.3" y1="-0.6" x2="0.3" y2="0" width="0.2032" layer="21"/>
+<smd name="A" x="-1.5" y="0" dx="1.2" dy="1.4" layer="1" cream="no"/>
+<smd name="C" x="1.5" y="0" dx="1.2" dy="1.4" layer="1" cream="no"/>
+<text x="-2.54" y="1.905" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-2.794" y1="-1.397" x2="2.794" y2="1.397" layer="39"/>
+<text x="-3.683" y="-0.635" size="1.27" layer="21" font="vector">+</text>
+<rectangle x1="-2.1" y1="-0.7" x2="-0.8" y2="0.7" layer="31"/>
+<rectangle x1="0.8" y1="-0.7" x2="2.1" y2="0.7" layer="31"/>
+</package>
+<package name="4X-0603">
+<smd name="8" x="0" y="1.65" dx="0.65" dy="0.8" layer="1" rot="R180" cream="no"/>
+<smd name="7" x="0.875" y="1.65" dx="0.55" dy="0.8" layer="1" rot="R180" cream="no"/>
+<smd name="6" x="1.675" y="1.65" dx="0.55" dy="0.8" layer="1" rot="R180" cream="no"/>
+<smd name="1" x="0" y="-0.05" dx="0.65" dy="0.8" layer="1" rot="R180" cream="no"/>
+<smd name="2" x="0.875" y="-0.05" dx="0.55" dy="0.8" layer="1" rot="R180" cream="no"/>
+<smd name="5" x="2.55" y="1.65" dx="0.65" dy="0.8" layer="1" rot="R180" cream="no"/>
+<smd name="3" x="1.675" y="-0.05" dx="0.55" dy="0.8" layer="1" cream="no"/>
+<smd name="4" x="2.55" y="-0.05" dx="0.65" dy="0.8" layer="1" rot="R180" cream="no"/>
+<wire x1="-0.3" y1="1.25" x2="2.85" y2="1.25" width="0.0762" layer="21"/>
+<wire x1="2.85" y1="1.25" x2="2.85" y2="0.35" width="0.0762" layer="21"/>
+<wire x1="2.85" y1="0.35" x2="-0.3" y2="0.35" width="0.0762" layer="21"/>
+<wire x1="-0.3" y1="0.35" x2="-0.3" y2="1.25" width="0.0762" layer="21"/>
+<text x="0.4" y="0.65" size="0.3048" layer="21" font="vector">4x 0603</text>
+<text x="-0.45" y="2.15" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.4" y="-1.15" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-0.2" y1="1.35" x2="0.2" y2="1.95" layer="31"/>
+<rectangle x1="0.7" y1="1.35" x2="1.05" y2="1.95" layer="31"/>
+<rectangle x1="1.5" y1="1.35" x2="1.85" y2="1.95" layer="31"/>
+<rectangle x1="2.35" y1="1.35" x2="2.75" y2="1.95" layer="31"/>
+<rectangle x1="2.35" y1="-0.35" x2="2.75" y2="0.25" layer="31"/>
+<rectangle x1="1.5" y1="-0.35" x2="1.85" y2="0.25" layer="31"/>
+<rectangle x1="0.7" y1="-0.35" x2="1.05" y2="0.25" layer="31"/>
+<rectangle x1="-0.2" y1="-0.35" x2="0.2" y2="0.25" layer="31"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -969,94 +978,125 @@ The &lt;a href=&quot;http://www.4pcb.com/&quot;&gt;Advanced Circuits'&lt;/a&gt; 
 </autorouter>
 <elements>
 <element name="J_ULTRASONIC_1" library="pie" package="HC-SR04_FOOTPRINT" value="HC-SR04" x="52" y="15" smashed="yes" rot="R270">
-<attribute name="NAME" x="65.968" y="9.42" size="1.27" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="58.968" y="3.42" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="U$1" library="pie" package="1X03" value="IR" x="15.66" y="42" smashed="yes" rot="R180">
-<attribute name="VALUE" x="16.97" y="48.675" size="2.54" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="37.97" y="43.675" size="2.54" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="IC1" library="pie" package="ARDUINO_PRO_MICRO" value="ARDUINO_PRO_MICRO" x="29.5" y="45.5" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Arduino Pro Micro" x="29.5" y="45.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DISTRIBUTOR" value="AliExpress" x="29.5" y="45.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DISTRIBUTOR_PART_NUMBER" value="32284746884" x="29.5" y="45.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Feiyang electronics" x="29.5" y="45.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="" x="29.5" y="45.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NOTES" value="https://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5" x="29.5" y="45.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" x="29.5" y="45.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" x="29.5" y="45.5" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="IC1" library="pie" package="ARDUINO_PRO_MICRO" value="ARDUINO_PRO_MICRO" x="36.5" y="36.5" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Arduino Pro Micro" x="36.5" y="36.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="AliExpress" x="36.5" y="36.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR_PART_NUMBER" value="32284746884" x="36.5" y="36.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Feiyang electronics" x="36.5" y="36.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="36.5" y="36.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NOTES" value="https://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5" x="36.5" y="36.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" x="36.5" y="36.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" x="36.5" y="36.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$2" library="pie" package="OSHW-LOGO-S" value="" x="3.5" y="3" smashed="yes"/>
-<element name="U$3" library="pie" package="PIE-LOGO-SMALL" value="" x="7.5" y="14.5" smashed="yes"/>
+<element name="U$3" library="pie" package="PIE-LOGO-SMALL" value="" x="69.5" y="4.5" smashed="yes"/>
+<element name="LED1" library="pie" package="LED-1206" value="RED" x="58" y="41" smashed="yes" rot="R90">
+<attribute name="NAME" x="56.095" y="38.46" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="PIE-INT-REF-NUM" value="LED" x="42" y="41" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="61.175" y="38.46" size="1.27" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="LED2" library="pie" package="LED-1206" value="YELLOW" x="74" y="41" smashed="yes" rot="R90">
+<attribute name="NAME" x="72.095" y="38.46" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="PIE-INT-REF-NUM" value="LED" x="82" y="41" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="77.175" y="38.46" size="1.27" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="LED3" library="pie" package="LED-1206" value="GREEN" x="66" y="41" smashed="yes" rot="R90">
+<attribute name="NAME" x="64.095" y="38.46" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="PIE-INT-REF-NUM" value="LED" x="74" y="41" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="69.175" y="38.46" size="1.27" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R2" library="pie" package="4X-0603" value="330" x="52" y="40" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.85" y="38.55" size="0.6096" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="53.15" y="38.6" size="0.6096" layer="27" font="vector" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="OUT">
 <contactref element="U$1" pad="3"/>
 <contactref element="IC1" pad="10"/>
-<wire x1="13.12" y1="42" x2="13.12" y2="34.38" width="0.3048" layer="1"/>
-<wire x1="19.018" y1="28.482" x2="31.278" y2="28.482" width="0.3048" layer="1"/>
-<wire x1="13.12" y1="34.38" x2="16" y2="31.5" width="0.3048" layer="1"/>
-<wire x1="16" y1="31.5" x2="19.018" y2="28.482" width="0.3048" layer="1"/>
+<wire x1="13.12" y1="42" x2="38.278" y2="19.482" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="J_ULTRASONIC_1" pad="GND"/>
 <polygon width="0.1524" layer="1">
-<vertex x="0" y="50.5"/>
+<vertex x="0" y="45.5"/>
 <vertex x="0" y="0"/>
 <vertex x="77.5" y="0"/>
 <vertex x="78" y="0.5"/>
-<vertex x="78" y="50.5"/>
+<vertex x="78" y="45.5"/>
 </polygon>
 <polygon width="0.1524" layer="16">
-<vertex x="0" y="50.5"/>
+<vertex x="0" y="45.5"/>
 <vertex x="0" y="0"/>
 <vertex x="77.5" y="0"/>
 <vertex x="78" y="0.5"/>
-<vertex x="78" y="50.5"/>
+<vertex x="78" y="45.5"/>
 </polygon>
-<via x="69" y="15" extent="1-16" drill="1"/>
 <contactref element="U$1" pad="2"/>
 <contactref element="IC1" pad="GND@0"/>
 <contactref element="IC1" pad="GND@2"/>
 <contactref element="IC1" pad="GND@1"/>
+<contactref element="R2" pad="3"/>
+<contactref element="R2" pad="2"/>
+<contactref element="R2" pad="4"/>
+<wire x1="58.598" y1="34.722" x2="61.138" y2="34.722" width="0" layer="19" extent="1-1"/>
+<wire x1="63.678" y1="19.482" x2="61.138" y2="34.722" width="0" layer="19" extent="1-1"/>
+<wire x1="55.81" y1="15" x2="63.678" y2="19.482" width="0" layer="19" extent="1-1"/>
+<wire x1="15.66" y1="42" x2="58.598" y2="34.722" width="0" layer="19" extent="1-1"/>
+<wire x1="52.05" y1="42.55" x2="55.81" y2="15" width="0" layer="19" extent="1-1"/>
+<wire x1="52.05" y1="41.675" x2="52.05" y2="42.55" width="0" layer="19" extent="1-1"/>
+<wire x1="52.05" y1="40.875" x2="52.05" y2="41.675" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="U$1" pad="1"/>
 <contactref element="J_ULTRASONIC_1" pad="VCC"/>
 <contactref element="IC1" pad="VCC"/>
-<wire x1="48.19" y1="15" x2="48.19" y2="11.5" width="0.3048" layer="1"/>
-<wire x1="48.19" y1="11.5" x2="48.19" y2="11.31" width="0.3048" layer="1"/>
-<wire x1="48.19" y1="11.31" x2="51" y2="8.5" width="0.3048" layer="1"/>
-<wire x1="51" y1="8.5" x2="61" y2="8.5" width="0.3048" layer="1"/>
-<wire x1="61" y1="8.5" x2="62" y2="9.5" width="0.3048" layer="1"/>
-<wire x1="62" y1="9.5" x2="62" y2="18" width="0.3048" layer="1"/>
-<wire x1="62" y1="18" x2="55.5" y2="24.5" width="0.3048" layer="1"/>
-<wire x1="55.5" y1="24.5" x2="53" y2="24.5" width="0.3048" layer="1"/>
-<wire x1="53" y1="24.5" x2="51.598" y2="25.902" width="0.3048" layer="1"/>
-<wire x1="51.598" y1="25.902" x2="51.598" y2="28.482" width="0.3048" layer="1"/>
-<wire x1="18.2" y1="42" x2="18.2" y2="31.8" width="0.3048" layer="1"/>
-<wire x1="18.2" y1="31.8" x2="20" y2="30" width="0.3048" layer="1"/>
-<via x="20" y="30" extent="1-16" drill="0.381"/>
-<wire x1="20" y1="30" x2="20" y2="26.5" width="0.3048" layer="16"/>
-<wire x1="20" y1="26.5" x2="35" y2="11.5" width="0.3048" layer="16"/>
-<wire x1="35" y1="11.5" x2="35.5" y2="11.5" width="0.3048" layer="16"/>
-<via x="35.5" y="11.5" extent="1-16" drill="0.381"/>
-<wire x1="35.5" y1="11.5" x2="48.19" y2="11.5" width="0.3048" layer="1"/>
+<wire x1="48.19" y1="15" x2="58.598" y2="19.482" width="0" layer="19" extent="1-1"/>
+<wire x1="18.2" y1="42" x2="58.598" y2="19.482" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ECHO">
 <contactref element="J_ULTRASONIC_1" pad="ECHO"/>
 <contactref element="IC1" pad="14"/>
-<wire x1="36.358" y1="28.482" x2="36.358" y2="25.642" width="0.3048" layer="1"/>
-<wire x1="37.5" y1="24.5" x2="45" y2="24.5" width="0.3048" layer="1"/>
-<wire x1="45" y1="24.5" x2="53.27" y2="16.23" width="0.3048" layer="1"/>
-<wire x1="53.27" y1="16.23" x2="53.27" y2="15" width="0.3048" layer="1"/>
-<wire x1="36.358" y1="25.642" x2="37.5" y2="24.5" width="0.3048" layer="1"/>
+<wire x1="43.358" y1="19.482" x2="53.27" y2="15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TRIG">
 <contactref element="J_ULTRASONIC_1" pad="TRIG"/>
 <contactref element="IC1" pad="16"/>
-<wire x1="50.73" y1="15" x2="42.73" y2="23" width="0.3048" layer="1"/>
-<wire x1="42.73" y1="23" x2="36" y2="23" width="0.3048" layer="1"/>
-<wire x1="36" y1="23" x2="33.818" y2="25.182" width="0.3048" layer="1"/>
-<wire x1="33.818" y1="25.182" x2="33.818" y2="28.482" width="0.3048" layer="1"/>
+<wire x1="40.818" y1="19.482" x2="50.73" y2="15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED1">
+<contactref element="LED1" pad="A"/>
+<contactref element="IC1" pad="A1"/>
+<wire x1="58" y1="39.5" x2="50.978" y2="19.482" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED2">
+<contactref element="LED2" pad="A"/>
+<contactref element="IC1" pad="A0"/>
+<wire x1="74" y1="39.5" x2="48.438" y2="19.482" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED3">
+<contactref element="LED3" pad="A"/>
+<contactref element="IC1" pad="15"/>
+<wire x1="66" y1="39.5" x2="45.898" y2="19.482" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="LED1" pad="C"/>
+<contactref element="R2" pad="5"/>
+<wire x1="50.35" y1="42.55" x2="58" y2="42.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="LED3" pad="C"/>
+<contactref element="R2" pad="7"/>
+<wire x1="66" y1="42.5" x2="50.35" y2="40.875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="LED2" pad="C"/>
+<contactref element="R2" pad="6"/>
+<wire x1="74" y1="42.5" x2="50.35" y2="41.675" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
