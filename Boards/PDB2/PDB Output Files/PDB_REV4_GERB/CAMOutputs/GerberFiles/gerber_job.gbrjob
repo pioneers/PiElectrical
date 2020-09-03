@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-11-28T05:43:59Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 0.3302,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "PDB2_1"
+        },
+        "Owner": "Sherwin Afshar <sherwina210@berkeley.edu>",
+        "Size": {
+            "X": 112.141,
+            "Y": 89.916
+        }
+    }
+}

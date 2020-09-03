@@ -1,0 +1,9 @@
+1) visual inspection under microscope
+2) apply 12V to andersons and test 5V regulator
+	-make sure output doesn't go below 4.8V when current set to 2.9A
+3) burn arduino bootloader
+4) solder 1k resistors for bar display
+5) connect cell tap and 12V
+6) upload test code
+7) check outputs of serial monitor
+8) test 12V current output	
