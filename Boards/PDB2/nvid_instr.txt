@@ -1,0 +1,62 @@
+Chat   
+Status: Connected
+ Santosh (Listening)
+ Santosh: Hi, my name is Santosh. How may I help you?
+ Sherwin Afshar: Hi Santosh. I'm using a Sager Notebook that has a 144Hz monitor, and connected an ASUS VS278 monitor that runs at 165Hz. And they're both stuck running at 60Hz 
+ Sherwin Afshar: I can detail what I've tried so far
+ Sherwin Afshar: I've tried setting the refresh rate in the NVIDIA control panel and Windows Display Settings, which didn't work. I've also tried uninstalling  the graphics driver completely, and installing the latest version from the website
+ Sherwin Afshar: Tthat didn't work either 
+ Santosh: Let me assist you on your query. 
+ Santosh: May i know the make and model of the Graphics card you have ?
+ Santosh: Please let me know the operating system that you have installed ( like windows 10  or windows 7 32 bit or 64 bit
+ Sherwin Afshar: Yeah. Graphics card is Geforce RTX 2070. OS is Windows 10 64-bit.
+ Santosh: Right click on the desktop>Go to NVIDIA control panel > under 3D settings click on set PhysX configuration  and send me the screen shot. 
+ 
+ Sherwin Afshar: Device ID is 10DE 1F 10 95E11558
+ Sherwin Afshar: sure
+ File attachment upload has started.
+ The file nvid.PNG (67.93KB) was received.
+ Santosh: Are you using any adapter or converter  ?
+ Sherwin Afshar: No. Just mini Display Port
+ Sherwin Afshar: And the other monitor is just the build in laptop monitor
+ Santosh:  Does the monitor supports 144 hz refresh rate  ? 
+ Sherwin Afshar: yes
+ Santosh: Right click on the desktop>Go to NVIDIA control panel > under 3D settings click on configure surround  PhysX  option and send me the screen shot.   
+ File attachment upload has started.
+ The file screenshot.PNG (67.85KB) was received.
+ Sherwin Afshar: sent
+ Sherwin Afshar: Also an update on the issue, now it seems to be capping out at 128Hz
+ Sherwin Afshar: both monitors
+ Sherwin Afshar: One is configured for 165Hz, the other for 144Hz
+ Santosh: May i know the current driver version you installed ?
+ Sherwin Afshar: 27.21.14.5206
+ Santosh: Please go to windows search option and type as  Update and security > Go to Advanced option. Please help me with the screen shot of the same.   
+ Santosh: Is it the first time you are using an external monitor  ? 
+ File attachment upload has started.
+ The file update security.PNG (158.11KB) was received.
+ Sherwin Afshar: I don't see an Advanced option, but heres the update and security settings
+ Sherwin Afshar: and yes I've used an external monitor before
+ Santosh: Please, reboot the computer to safe mode with networking and download NVIDIA Display Driver Uninstaller from the below link.   
+http://www.guru3d.com/files-details/display-driver-uninstaller-download.html   
+  
+How to go in safe mode with networking in windows 10: https://www.youtube.com/watch?v=xnbi_bT2pE4   
+  
+How to perform DDU: https://www.youtube.com/watch?v=n06-9SRHR3M      
+  
+After the download, install it and follow the below steps.   
+-> Select the Graphics Driver as NVIDIA on top   
+-> Click on Clean and Restart   
+  
+Once you download it. Run the tool and remove all the NVIDIA Files with the above steps and the computer will restart automatically.   
+  
+Now download the driver from the below link with the same instructions and see if that works   
+Here is the link https://www.nvidia.com/download/driverResults.aspx/162981/en-us 
+﷟b) Click on "Drivers". On the next page click "Agree and Download".   
+c) After the download has finished, install the file using custom installation.   
+d) Tick mark "Perform Clean Install" and go ahead with the installation process.   
+e) Restart the computer after finishing the installation.   
+  
+Please uninstall the driver using DDU in safe mode with networking and install the driver in normal mode 
+ Santosh: Please take your time try the above mentioned steps and check if that helps 
+ Santosh: You will receive a copy of the chat transcript along with the case number to your email once you close the session. 
+So you can respond back through the same email we will assist you further. 
