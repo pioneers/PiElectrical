@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-11-07T22:32:07Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.4.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 0.3302,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "diffamp"
+        },
+        "Owner": "Kaitlyn Chan <kaitlynjchan@berkeley.edu>",
+        "Size": {
+            "X": 41.91,
+            "Y": 52.07
+        }
+    }
+}
