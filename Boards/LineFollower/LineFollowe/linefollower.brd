@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="4" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -190,6 +190,9 @@
 <wire x1="120" y1="0" x2="120" y2="52" width="0" layer="20"/>
 <wire x1="120" y1="52" x2="0" y2="52" width="0" layer="20"/>
 <wire x1="0" y1="52" x2="0" y2="0" width="0" layer="20"/>
+<text x="5" y="43" size="3.81" layer="25" font="vector">Line Follower V2</text>
+<dimension x1="0" y1="52" x2="120" y2="52" x3="60" y3="56" textsize="1.778" layer="25"/>
+<dimension x1="120" y1="52" x2="120" y2="0" x3="135" y3="26" textsize="1.778" layer="25"/>
 </plain>
 <libraries>
 <library name="pie" urn="urn:adsk.eagle:library:21250946">
@@ -736,29 +739,29 @@ design rules under a new name.
 </autorouter>
 <elements>
 <element name="C1" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="0402-CAP" package3d_urn="urn:adsk.eagle:package:21251423/2" value="10mF" x="96.27" y="20.63" smashed="yes">
-<attribute name="NAME" x="95" y="21.9" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="99" y="20.65" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="PIE-INT-REF-NUM" value="CAPACITOR-GENERIC" x="126.75" y="-35.25" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="95" y="18.09" size="1.27" layer="27" font="vector"/>
+<attribute name="VALUE" x="101.75" y="20.59" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="C2" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="0402-CAP" package3d_urn="urn:adsk.eagle:package:21251423/2" value="1mF" x="96.11" y="23.38" smashed="yes">
-<attribute name="NAME" x="94.84" y="24.65" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="99.09" y="23.15" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="PIE-INT-REF-NUM" value="CAPACITOR-GENERIC" x="136.75" y="-32.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="94.84" y="20.84" size="1.27" layer="27" font="vector"/>
+<attribute name="VALUE" x="101.84" y="23.09" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="C3" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="0402-CAP" package3d_urn="urn:adsk.eagle:package:21251423/2" value="10nF" x="96.19" y="26.38" smashed="yes">
-<attribute name="NAME" x="94.92" y="27.65" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="98.92" y="25.9" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="PIE-INT-REF-NUM" value="CAPACITOR-GENERIC" x="131.75" y="-29.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="94.92" y="23.84" size="1.27" layer="27" font="vector"/>
+<attribute name="VALUE" x="101.42" y="25.84" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="C4" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="0402-CAP" package3d_urn="urn:adsk.eagle:package:21251423/2" value="100nF" x="91.77" y="20.53" smashed="yes">
-<attribute name="NAME" x="90.5" y="21.8" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="89.75" y="21.55" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="PIE-INT-REF-NUM" value="CAPACITOR-GENERIC" x="154" y="-29" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="90.5" y="17.99" size="1.27" layer="27" font="vector"/>
+<attribute name="VALUE" x="92.75" y="21.74" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="C5" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="0402-CAP" package3d_urn="urn:adsk.eagle:package:21251423/2" value="0.1uF" x="90.12" y="18.63" smashed="yes" rot="R180">
-<attribute name="NAME" x="91.39" y="17.36" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="90.89" y="17.86" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="PIE-INT-REF-NUM" value="CAPACITOR-GENERIC" x="65.99" y="74.51" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="91.39" y="21.17" size="1.27" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="92.39" y="16.17" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="IC1" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="ARDUINO_PRO_MICRO" package3d_urn="urn:adsk.eagle:package:21251604/1" value="ARDUINO_PRO_MICRO" x="46.45" y="46.62" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Arduino Pro Micro" x="45.18" y="14.87" size="1.778" layer="27" rot="R270" display="off"/>
@@ -766,7 +769,6 @@ design rules under a new name.
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="32284746884" x="45.18" y="14.87" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Feiyang electronics" x="45.18" y="14.87" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="45.18" y="14.87" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="54.578" y="37.222" size="1.27" layer="21" font="vector" align="center"/>
 <attribute name="NOTES" value="https://www.aliexpress.com/item/Mini-Leonardo-Pro-Micro-ATmega32U4-5V-16MHz-Module-For-Arduino-Best-Quality/32284746884.html?ws_ab_test=searchweb201556_8,searchweb201602_2_10057_10056_10065_10055_10054_10067_10069_10059_10058_10017_10070_10060_10061_10052_10062_10053_10050_10051,searchweb201603_1&amp;btsid=45993952-29ca-4de4-a0fb-c7fb72b8e1a5" x="45.18" y="14.87" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="ARDUINO_PRO_MICRO" x="45.18" y="14.87" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="REFERENCE_DEST" value="ARDUINO_PRO_MICRO" x="45.18" y="14.87" size="1.778" layer="27" rot="R270" display="off"/>
@@ -778,7 +780,6 @@ design rules under a new name.
 <attribute name="MANUFACTURER_PART_NUMBER" value="QRE1113" x="68.882" y="-58.587" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="6.5504" y="14.057" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="ON_Semiconudctor_2020-04-15" x="68.882" y="-58.587" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="5.0998" y="6.247" size="1.27" layer="21" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="ON Semiconductor" x="68.882" y="-58.587" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q2" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="DIP4_100AQ_ONS" value="QRE1113" x="27.955" y="9.993" smashed="yes">
@@ -788,7 +789,6 @@ design rules under a new name.
 <attribute name="MANUFACTURER_PART_NUMBER" value="QRE1113" x="49.545" y="-64.937" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="25.3134" y="14.057" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="ON_Semiconudctor_2020-04-15" x="49.545" y="-64.937" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="26.1328" y="6.247" size="1.27" layer="21" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="ON Semiconductor" x="49.545" y="-64.937" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q3" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="DIP4_100AQ_ONS" value="QRE1113" x="47.783" y="9.866" smashed="yes">
@@ -798,7 +798,6 @@ design rules under a new name.
 <attribute name="MANUFACTURER_PART_NUMBER" value="QRE1113" x="80.803" y="-65.064" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="48.1414" y="13.85" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="ON_Semiconudctor_2020-04-15" x="80.803" y="-65.064" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="44.9608" y="6.12" size="1.27" layer="21" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="ON Semiconductor" x="80.803" y="-65.064" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q4" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="DIP4_100AQ_ONS" value="QRE1113" x="68.176" y="9.984" smashed="yes">
@@ -806,9 +805,8 @@ design rules under a new name.
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="112.626" y="-64.946" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF" x="112.626" y="-64.946" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="QRE1113" x="112.626" y="-64.946" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="66.8044" y="14.238" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="NAME" x="68.8044" y="7.238" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="ON_Semiconudctor_2020-04-15" x="112.626" y="-64.946" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="66.8138" y="5.778" size="1.27" layer="21" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="ON Semiconductor" x="112.626" y="-64.946" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q5" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="DIP4_100AQ_ONS" value="QRE1113" x="88.008" y="10.136" smashed="yes">
@@ -816,9 +814,8 @@ design rules under a new name.
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="143.888" y="-64.794" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF" x="143.888" y="-64.794" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="QRE1113" x="143.888" y="-64.794" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="87.6364" y="14.39" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="NAME" x="89.1364" y="6.89" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="ON_Semiconudctor_2020-04-15" x="143.888" y="-64.794" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="85.2658" y="6.2" size="1.27" layer="21" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="ON Semiconductor" x="143.888" y="-64.794" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q6" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="DIP4_100AQ_ONS" value="QRE1113" x="107.819" y="10.136" smashed="yes">
@@ -826,9 +823,8 @@ design rules under a new name.
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="129.409" y="-71.144" size="1.778" layer="27" display="off"/>
 <attribute name="DATASHEET" value="https://www.onsemi.com/pub/Collateral/QRE1113-D.PDF" x="129.409" y="-71.144" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="QRE1113" x="129.409" y="-71.144" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="107.7174" y="14.2" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="NAME" x="108.9674" y="7.2" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="ON_Semiconudctor_2020-04-15" x="129.409" y="-71.144" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="106.9968" y="6.39" size="1.27" layer="21" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="ON Semiconductor" x="129.409" y="-71.144" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R1" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="R0603" package3d_urn="urn:adsk.eagle:package:21251426/2" value="1k" x="78.7" y="21.08" smashed="yes">
@@ -840,7 +836,7 @@ design rules under a new name.
 <attribute name="NAME" x="77.43" y="22.35" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="NOTES" value="Cut Tape" x="97.75" y="-47.5" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="97.75" y="-47.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="77.43" y="18.54" size="1.27" layer="27" font="vector"/>
+<attribute name="VALUE" x="77.43" y="24.04" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="R2" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="R0603" package3d_urn="urn:adsk.eagle:package:21251426/2" value="10k" x="75.44" y="17.23" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="13.21" y="-18.33" size="1.778" layer="27" rot="R270" display="off"/>
@@ -859,10 +855,10 @@ design rules under a new name.
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="91" y="-54.25" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="91" y="-54.25" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="91" y="-54.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="66.87" y="15.6" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="70.37" y="15.6" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="NOTES" value="Cut Tape" x="91" y="-54.25" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="91" y="-54.25" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="66.87" y="11.79" size="1.27" layer="27" font="vector"/>
+<attribute name="VALUE" x="70.62" y="13.79" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="R4" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="R0603" package3d_urn="urn:adsk.eagle:package:21251426/2" value="10k" x="78.61" y="14.23" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="37.97" y="76.46" size="1.778" layer="27" rot="R180" display="off"/>
@@ -870,10 +866,10 @@ design rules under a new name.
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="37.97" y="76.46" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="37.97" y="76.46" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="37.97" y="76.46" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="79.88" y="12.96" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="78.38" y="12.96" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTES" value="Cut Tape" x="37.97" y="76.46" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="37.97" y="76.46" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="79.88" y="16.77" size="1.27" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="79.38" y="11.27" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R5" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="R0603" package3d_urn="urn:adsk.eagle:package:21251426/2" value="330" x="74.18" y="21.73" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="11.95" y="1.41" size="1.778" layer="27" rot="R270" display="off"/>
@@ -881,7 +877,7 @@ design rules under a new name.
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="11.95" y="1.41" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="11.95" y="1.41" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="11.95" y="1.41" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="75.45" y="23" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="73.2" y="24" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="NOTES" value="Cut Tape" x="11.95" y="1.41" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="11.95" y="1.41" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="71.64" y="23" size="1.27" layer="27" font="vector" rot="R270"/>
@@ -892,10 +888,10 @@ design rules under a new name.
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="108" y="-39" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="108" y="-39" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="108" y="-39" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="61.01" y="24.5" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="58.01" y="24.5" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="NOTES" value="Cut Tape" x="108" y="-39" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="108" y="-39" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="61.01" y="20.69" size="1.27" layer="27" font="vector"/>
+<attribute name="VALUE" x="58.01" y="22.94" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="RF2" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="R0603" package3d_urn="urn:adsk.eagle:package:21251426/2" value="1K" x="63.2" y="14.23" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="12.4" y="76.46" size="1.778" layer="27" rot="R180" display="off"/>
@@ -903,10 +899,10 @@ design rules under a new name.
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="12.4" y="76.46" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="12.4" y="76.46" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="12.4" y="76.46" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="64.47" y="12.96" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="64.22" y="16.71" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTES" value="Cut Tape" x="12.4" y="76.46" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="12.4" y="76.46" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="64.47" y="16.77" size="1.27" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="63.47" y="10.52" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R_GND" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="R0603" package3d_urn="urn:adsk.eagle:package:21251426/2" value="100K" x="86.12" y="20.53" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="30.24" y="70.06" size="1.778" layer="27" rot="R180" display="off"/>
@@ -914,10 +910,10 @@ design rules under a new name.
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="30.24" y="70.06" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="30.24" y="70.06" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="30.24" y="70.06" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="87.39" y="19.26" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="87.89" y="22.51" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTES" value="Cut Tape" x="30.24" y="70.06" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="30.24" y="70.06" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="87.39" y="23.07" size="1.27" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="86.89" y="19.32" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R_LED1" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="R0603" package3d_urn="urn:adsk.eagle:package:21251426/2" value="100" x="19.945" y="12.164" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="-39.745" y="54.074" size="1.778" layer="27" rot="R180" display="off"/>
@@ -925,10 +921,10 @@ design rules under a new name.
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="-39.745" y="54.074" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="-39.745" y="54.074" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="-39.745" y="54.074" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="21.215" y="10.894" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="20.965" y="16.894" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTES" value="Cut Tape" x="-39.745" y="54.074" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="-39.745" y="54.074" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="21.215" y="14.704" size="1.27" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="18.215" y="14.704" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R_LED2" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="R0603" package3d_urn="urn:adsk.eagle:package:21251426/2" value="100" x="19.95" y="9.181" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="0.9" y="58.711" size="1.778" layer="27" rot="R180" display="off"/>
@@ -939,7 +935,7 @@ design rules under a new name.
 <attribute name="NAME" x="21.22" y="7.911" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTES" value="Cut Tape" x="0.9" y="58.711" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="0.9" y="58.711" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="21.22" y="11.721" size="1.27" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="18.22" y="5.721" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R_LED3" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="R0603" package3d_urn="urn:adsk.eagle:package:21251426/2" value="100" x="40.965" y="12.054" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="14.295" y="61.584" size="1.778" layer="27" rot="R180" display="off"/>
@@ -950,7 +946,7 @@ design rules under a new name.
 <attribute name="NAME" x="41.485" y="14.784" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTES" value="Cut Tape" x="14.295" y="61.584" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="14.295" y="61.584" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="46.235" y="14.594" size="1.27" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="38.235" y="12.594" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R_LED4" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="R0603" package3d_urn="urn:adsk.eagle:package:21251426/2" value="100" x="40.949" y="9.096" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="6.659" y="58.626" size="1.778" layer="27" rot="R180" display="off"/>
@@ -961,7 +957,7 @@ design rules under a new name.
 <attribute name="NAME" x="41.219" y="7.826" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTES" value="Cut Tape" x="6.659" y="58.626" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="6.659" y="58.626" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="37.969" y="10.386" size="1.27" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="38.219" y="5.886" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R_LED5" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="R0603" package3d_urn="urn:adsk.eagle:package:21251426/2" value="100" x="83.937" y="15.223" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="42.027" y="64.753" size="1.778" layer="27" rot="R180" display="off"/>
@@ -969,10 +965,10 @@ design rules under a new name.
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="42.027" y="64.753" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="42.027" y="64.753" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="42.027" y="64.753" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="85.207" y="13.953" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="87.207" y="13.953" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTES" value="Cut Tape" x="42.027" y="64.753" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="42.027" y="64.753" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="85.207" y="17.763" size="1.27" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="84.207" y="11.763" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R_LED6" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="R0603" package3d_urn="urn:adsk.eagle:package:21251426/2" value="100" x="94.978" y="15.183" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="45.448" y="64.713" size="1.778" layer="27" rot="R180" display="off"/>
@@ -980,10 +976,10 @@ design rules under a new name.
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="45.448" y="64.713" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="45.448" y="64.713" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="45.448" y="64.713" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="98.248" y="13.913" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="103.248" y="15.913" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="NOTES" value="Cut Tape" x="45.448" y="64.713" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="45.448" y="64.713" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="96.248" y="17.723" size="1.27" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="102.498" y="14.223" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="R_VCC" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="R0603" package3d_urn="urn:adsk.eagle:package:21251426/2" value="100K" x="88.22" y="24.88" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="RESISTOR, American symbol" x="144.1" y="42.66" size="1.778" layer="27" rot="R90" display="off"/>
@@ -991,27 +987,26 @@ design rules under a new name.
 <attribute name="DISTRIBUTOR_PART_NUMBER" value="" x="144.1" y="42.66" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="144.1" y="42.66" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="144.1" y="42.66" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="86.95" y="23.61" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="88.7" y="27.61" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="NOTES" value="Cut Tape" x="144.1" y="42.66" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="R0603" x="144.1" y="42.66" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="90.76" y="23.61" size="1.27" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="90.51" y="27.86" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="U1" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="RU_14_ADI" value="AD8630ARUZ-REEL" x="67.08" y="19.35" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_Christopher" x="116.61" y="15.54" size="1.778" layer="27" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2016 Accelerated Designs. All rights reserved" x="116.61" y="15.54" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="AD8630ARUZ-REEL" x="116.61" y="15.54" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="63.8034" y="18.715" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="NAME" x="67.0534" y="23.215" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="Analog_Devices_2018-07-13" x="116.61" y="15.54" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="65.3528" y="23.795" size="1.27" layer="21" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Analog Devices Inc" x="116.61" y="15.54" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U4" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="TSSOP16B_TOS" value="74VHC153FT(BJ)" x="58.13" y="11.16" smashed="yes" rot="R90">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="58.13" y="11.16" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="58.13" y="11.16" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="74VHC153FT(BJ)" x="58.13" y="11.16" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="58.765" y="7.8834" size="1.27" layer="25" ratio="6" rot="SR90"/>
+<attribute name="NAME" x="54.765" y="12.8834" size="1.27" layer="25" ratio="6" rot="SR90"/>
 <attribute name="SOURCELIBRARY" value="Toshiba_2019-12-10" x="58.13" y="11.16" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="62.845" y="7.9728" size="1.27" layer="21" ratio="6" rot="SR90"/>
+<attribute name="VALUE" x="45.345" y="5.2228" size="1.27" layer="21" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Toshiba" x="58.13" y="11.16" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="LED1" library="pie" library_urn="urn:adsk.eagle:library:21250946" package="LED-0603" package3d_urn="urn:adsk.eagle:package:21251532/1" value="RED" x="83.5" y="24.25" smashed="yes" rot="R270">
@@ -1023,7 +1018,6 @@ design rules under a new name.
 <attribute name="NAME" x="82.23" y="25.139" size="0.8128" layer="25" font="vector" ratio="10"/>
 <attribute name="NOTES" value="" x="83.5" y="24.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PACKAGE" value="LED0603" x="83.5" y="24.25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="82.23" y="22.599" size="0.8128" layer="27" font="vector"/>
 </element>
 </elements>
 <signals>
@@ -1444,9 +1438,9 @@ design rules under a new name.
 <contactref element="IC1" pad="10"/>
 <via x="56" y="19" extent="1-16" drill="0.35"/>
 <wire x1="56" y1="19" x2="53" y2="19" width="0.3048" layer="16"/>
-<wire x1="53" y1="19" x2="48" y2="24" width="0.3048" layer="16"/>
-<wire x1="48" y1="24" x2="48" y2="29.374" width="0.3048" layer="16"/>
-<wire x1="48" y1="29.374" x2="48.228" y2="29.602" width="0.3048" layer="16"/>
+<wire x1="53" y1="19" x2="48.313" y2="23.687" width="0.3048" layer="16"/>
+<wire x1="48.313" y1="23.687" x2="48.228" y2="23.602" width="0.3048" layer="16"/>
+<wire x1="48.228" y1="23.602" x2="48.228" y2="29.602" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$4">
 <via x="93" y="26" extent="1-16" drill="0.35"/>
