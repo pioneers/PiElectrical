@@ -7175,11 +7175,11 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <part name="R1" library="pie" library_urn="urn:adsk.eagle:library:21250946" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:21251426/2" value="10k"/>
 <part name="R2" library="pie" library_urn="urn:adsk.eagle:library:21250946" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:21251426/2" value="10k"/>
 <part name="J2" library="pie" library_urn="urn:adsk.eagle:library:21250946" deviceset="AVR_SPI_PRG_6" device="MA03-2" package3d_urn="urn:adsk.eagle:package:21251416/1"/>
-<part name="CONN1" library="pie" library_urn="urn:adsk.eagle:library:21250946" deviceset="ANDERSON" device="VERTICAL" package3d_urn="urn:adsk.eagle:package:21251578/2"/>
 <part name="CONN2" library="pie" library_urn="urn:adsk.eagle:library:21250946" deviceset="ANDERSON" device="VERTICAL" package3d_urn="urn:adsk.eagle:package:21251578/2"/>
 <part name="CONN3" library="pie" library_urn="urn:adsk.eagle:library:21250946" deviceset="ANDERSON" device="VERTICAL" package3d_urn="urn:adsk.eagle:package:21251578/2"/>
 <part name="GND11" library="pie" library_urn="urn:adsk.eagle:library:21250946" deviceset="GND" device=""/>
 <part name="U$1" library="pie" library_urn="urn:adsk.eagle:library:21250946" deviceset="ATMEGA32U4" device="QFN" package3d_urn="urn:adsk.eagle:package:38954/1" value="32U4"/>
+<part name="CONN1" library="pie" library_urn="urn:adsk.eagle:library:21250946" deviceset="ANDERSON" device="VERTICAL" package3d_urn="urn:adsk.eagle:package:21251578/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -7330,9 +7330,6 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <attribute name="NAME" x="53.34" y="166.37" size="1.778" layer="95"/>
 <attribute name="VALUE" x="53.34" y="152.4" size="1.778" layer="96"/>
 </instance>
-<instance part="CONN1" gate="G$1" x="-40.64" y="137.16" smashed="yes">
-<attribute name="NAME" x="-48.26" y="143.256" size="1.778" layer="95"/>
-</instance>
 <instance part="CONN2" gate="G$1" x="-43.18" y="93.98" smashed="yes">
 <attribute name="NAME" x="-50.8" y="100.076" size="1.778" layer="95"/>
 </instance>
@@ -7345,6 +7342,9 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <instance part="U$1" gate="G$1" x="139.7" y="116.84" smashed="yes">
 <attribute name="NAME" x="124.46" y="154.94" size="1.778" layer="95"/>
 <attribute name="VALUE" x="124.46" y="73.66" size="1.778" layer="96"/>
+</instance>
+<instance part="CONN1" gate="G$1" x="-40.64" y="137.16" smashed="yes">
+<attribute name="NAME" x="-48.26" y="143.256" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -7454,10 +7454,6 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <label x="71.12" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONN1" gate="G$1" pin="OUTB"/>
-<pinref part="GND11" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="GND" pin="GND"/>
 <wire x1="104.14" y1="114.3" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
@@ -7493,6 +7489,10 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <pinref part="U$1" gate="G$1" pin="PE2/!HWB"/>
 <wire x1="121.92" y1="96.52" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
 <junction x="104.14" y="96.52"/>
+</segment>
+<segment>
+<pinref part="GND11" gate="GND" pin="GND"/>
+<pinref part="CONN1" gate="G$1" pin="OUTB"/>
 </segment>
 </net>
 <net name="FAULT_N" class="0">
@@ -7919,9 +7919,9 @@ http://www.alliedelec.com/images/products/datasheets/bm/ANDERSON_POWER_PRODUCTS/
 <label x="-2.54" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="CONN1" gate="G$1" pin="OUTA"/>
 <wire x1="-33.02" y1="139.7" x2="-30.48" y2="139.7" width="0.1524" layer="91"/>
 <label x="-33.02" y="139.7" size="1.778" layer="95"/>
+<pinref part="CONN1" gate="G$1" pin="OUTA"/>
 </segment>
 </net>
 <net name="N$1" class="0">
