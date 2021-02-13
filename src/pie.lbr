@@ -19360,8 +19360,6 @@ a TI sourced LI-ion, Lipo, Li-FE battery protection chip</description>
 <pin name="6" x="2.54" y="27.94" visible="pad" length="short" direction="pas" function="dot" rot="R90"/>
 <pin name="7" x="5.08" y="27.94" visible="pad" length="short" direction="pas" function="dot" rot="R90"/>
 </symbol>
-
-<symbol>
 <symbol name="TPS563200">
 <wire x1="-15.24" y1="17.78" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
@@ -19389,7 +19387,6 @@ a TI sourced LI-ion, Lipo, Li-FE battery protection chip</description>
 <pin name="P" x="0" y="-7.62" visible="off" length="middle" rot="R90"/>
 <text x="-5.08" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
-
 <symbol name="DRV8842_PWP_28">
 <pin name="CP1" x="2.54" y="0" length="middle"/>
 <pin name="CP2" x="2.54" y="-2.54" length="middle"/>
@@ -19444,7 +19441,6 @@ a TI sourced LI-ion, Lipo, Li-FE battery protection chip</description>
 <text x="-4.7244" y="1.4986" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-5.3594" y="-1.0414" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-5.3594" y="-1.0414" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
->>>>>>> 4a2a0742d90f210f52b780756a0fbeabe4550b83
 </symbol>
 </symbols>
 <devicesets>
