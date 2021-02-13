@@ -1,7 +1,7 @@
 ******************************************************************************
                   MSP430 Linker PC v18.1.2                     
 ******************************************************************************
->> Linked Thu May  9 19:15:31 2019
+>> Linked Tue Dec  1 19:56:29 2020
 
 OUTPUT FILE NAME:   <BQ76920 Prototype.out>
 ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 000044e0
@@ -448,8 +448,6 @@ address   name
 00000156  CRCRESR_L                      
 00010dfe  CopyArray                      
 00000510  DMA0CTL                        
-00000511  DMA0CTL_H                      
-00000510  DMA0CTL_L                      
 00000516  DMA0DA                         
 00000518  DMA0DAH                        
 00000516  DMA0DAL                        
@@ -458,8 +456,6 @@ address   name
 00000512  DMA0SAL                        
 0000051a  DMA0SZ                         
 00000520  DMA1CTL                        
-00000521  DMA1CTL_H                      
-00000520  DMA1CTL_L                      
 00000526  DMA1DA                         
 00000528  DMA1DAH                        
 00000526  DMA1DAL                        
@@ -468,8 +464,6 @@ address   name
 00000522  DMA1SAL                        
 0000052a  DMA1SZ                         
 00000530  DMA2CTL                        
-00000531  DMA2CTL_H                      
-00000530  DMA2CTL_L                      
 00000536  DMA2DA                         
 00000538  DMA2DAH                        
 00000536  DMA2DAL                        
@@ -478,23 +472,11 @@ address   name
 00000532  DMA2SAL                        
 0000053a  DMA2SZ                         
 00000500  DMACTL0                        
-00000501  DMACTL0_H                      
-00000500  DMACTL0_L                      
 00000502  DMACTL1                        
-00000503  DMACTL1_H                      
-00000502  DMACTL1_L                      
 00000504  DMACTL2                        
-00000505  DMACTL2_H                      
-00000504  DMACTL2_L                      
 00000506  DMACTL3                        
-00000507  DMACTL3_H                      
-00000506  DMACTL3_L                      
 00000508  DMACTL4                        
-00000509  DMACTL4_H                      
-00000508  DMACTL4_L                      
 0000050e  DMAIV                          
-0000050f  DMAIV_H                        
-0000050e  DMAIV_L                        
 00000140  FCTL1                          
 00000141  FCTL1_H                        
 00000140  FCTL1_L                        
@@ -1620,26 +1602,12 @@ address   name
 000004ec  MPY32CTL0_L                    
 000004ed  MPY32CTL0_H                    
 00000500  DMACTL0                        
-00000500  DMACTL0_L                      
-00000501  DMACTL0_H                      
 00000502  DMACTL1                        
-00000502  DMACTL1_L                      
-00000503  DMACTL1_H                      
 00000504  DMACTL2                        
-00000504  DMACTL2_L                      
-00000505  DMACTL2_H                      
 00000506  DMACTL3                        
-00000506  DMACTL3_L                      
-00000507  DMACTL3_H                      
 00000508  DMACTL4                        
-00000508  DMACTL4_L                      
-00000509  DMACTL4_H                      
 0000050e  DMAIV                          
-0000050e  DMAIV_L                        
-0000050f  DMAIV_H                        
 00000510  DMA0CTL                        
-00000510  DMA0CTL_L                      
-00000511  DMA0CTL_H                      
 00000512  DMA0SA                         
 00000512  DMA0SAL                        
 00000514  DMA0SAH                        
@@ -1648,8 +1616,6 @@ address   name
 00000518  DMA0DAH                        
 0000051a  DMA0SZ                         
 00000520  DMA1CTL                        
-00000520  DMA1CTL_L                      
-00000521  DMA1CTL_H                      
 00000522  DMA1SA                         
 00000522  DMA1SAL                        
 00000524  DMA1SAH                        
@@ -1658,8 +1624,6 @@ address   name
 00000528  DMA1DAH                        
 0000052a  DMA1SZ                         
 00000530  DMA2CTL                        
-00000530  DMA2CTL_L                      
-00000531  DMA2CTL_H                      
 00000532  DMA2SA                         
 00000532  DMA2SAL                        
 00000534  DMA2SAH                        
@@ -2108,4 +2072,4 @@ ffffffff  __TI_prof_data_size
 ffffffff  __TI_prof_data_start           
 ffffffff  __c_args__                     
 
-[883 symbols]
+[865 symbols]
