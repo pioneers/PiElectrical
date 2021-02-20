@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-02-18T05:07:49Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 0.3302,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "mc"
+        },
+        "Owner": "Sherwin Afshar <sherwina210@berkeley.edu>",
+        "Size": {
+            "X": 128.905,
+            "Y": 108.585
+        }
+    }
+}
