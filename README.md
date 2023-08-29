@@ -45,6 +45,11 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
 
 ## Setup
 
+<details>
+  <summary>When you see an arrow like this... (click me)</summary>
+    ...it indicates an expandable section. We usually include images in here as a better reference for you to follow along.
+</details>
+
 ### Initial Setup of PiElectrical repo on your computer
 
 1. Copy the URL for pioneers/PiElectrical to your clipboard: (Or here: https://github.com/pioneers/PiElectrical.git)
@@ -53,13 +58,18 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
 
 ### Installation of KiCad on your computer
 1. Download the latest version of KiCad here: https://www.kicad.org/download/
-2. Run installer. Use all default settings on installer. <br>
-<img src="img/KiCad_Setup/Default_Settings.png" height="250"/>
+2. <details>
+    <summary>Run installer. Use all default settings on installer. (Click to see default settings)<br></summary>
+    <img src="img/KiCad_Setup/Default_Settings.png"/>
+    </details>
 
 ### Setting up KiCad
 1. Open KiCad.
-2. Depending on whether you've used KiCad before, select the appropriate option on the pop-up. (Default settings if you're new to KiCad). <br>
-<img src="img/KiCad_Setup/setup1.png" height="150">
+2. <details>
+    <summary>Depending on whether you've used KiCad before, select the appropriate option on the pop-up. (Default settings if you're new to KiCad). <br></summary>
+    <img src="img/KiCad_Setup/setup1.png">
+  </details>
+
 
 
 ### Initial Setup of PiElectrical repo on your computer
