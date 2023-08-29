@@ -12,11 +12,7 @@ This is the working repo for PiElectrical teams
 8. [Useful Links](#useful-links)
 9. [Standards](#standards)
 
-<details>
-  <summary> 
-  
-  ## ToDo: <h2></summary> 
-  
+## ToDo:
 * Widen `keep clear` for USB connection on Thru Hole APM and SMD APM
 * Make `keep clear` on mounting holes bigger
 * Find a solution to breaking USB connections
@@ -26,8 +22,6 @@ This is the working repo for PiElectrical teams
     * However this is defined, make it so that they can jump right in after learning Eagle
 * Board Specific Fixes (See each README)
 * Auto BOM database project
-
-</details>
 
 [Back to Top](#pielectrical)
 
