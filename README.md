@@ -54,7 +54,7 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
 ### Installation of KiCad on your computer
 1. Download the latest version of KiCad here: https://www.kicad.org/download/
 2. Run installer. Use all default settings on installer. <br>
-<img src="img/KiCad_Setup/default_settings.png" height="250"/>
+<img src="img/KiCad_Setup/Default_Settings.png" height="250"/>
 
 ### Setting up KiCad
 1. Open KiCad.
