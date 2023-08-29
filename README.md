@@ -45,10 +45,21 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
 
 ## Setup
 
+### Initial Setup of PiElectrical repo on your computer
+
+1. Copy the URL for pioneers/PiElectrical to your clipboard: (Or here: https://github.com/pioneers/PiElectrical.git)
+2. In Terminal (Mac, GNU/Linux) or Git Bash (windows), navigate to your working directory (that is, the directory that you want to keep PiElectrical in.)
+3. Clone PiElectrical by running this command: `git clone https://github.com/pioneers/PiElectrical.git`
+
 ### Installation of KiCad on your computer
 1. Download the latest version of KiCad here: https://www.kicad.org/download/
 2. Run installer. Use all default settings on installer. <br>
-<img src="img/KiCad_Setup/default_settings.png" alt="drawing" height="250"/>
+<img src="img/KiCad_Setup/default_settings.png" height="250"/>
+
+### Setting up KiCad
+1. Open KiCad.
+2. Depending on whether you've used KiCad before, select the appropriate option on the pop-up. (Default settings if you're new to KiCad). <br>
+<img src="img/KiCad_Setup/setup1.png" height="150">
 
 
 ### Initial Setup of PiElectrical repo on your computer
