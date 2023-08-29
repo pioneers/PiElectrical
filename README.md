@@ -90,7 +90,7 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
 
 #### Adding Footprints
 1. <details>
-    <summary>Go to the <i>Preferences</i> tab, and select <i>Manage Footprint Libraries...</summary>
+    <summary>Go to the <i>Preferences</i> tab, and select <i>Manage Footprint Libraries...</i></summary>
     <img src="">
    </details>
 
