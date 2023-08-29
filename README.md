@@ -66,26 +66,33 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
 ### Setting up KiCad
 1. Open KiCad.
 2. <details>
-    <summary>Depending on whether you've used KiCad before, select the appropriate option on the pop-up. (Default settings if you're new to KiCad). <br></summary>
+    <summary>Depending on whether you've used KiCad before, select the appropriate option on the pop-up. (Default settings if you're new to KiCad).</summary>
     <img src="img/KiCad_Setup/setup1.png">
-  </details>
+   </details>
 
+#### Adding Symbols
+1. <details>
+    <summary>Go to the <i>Preferences</i> tab, and select <i>Manage Symbol Libraries...</i></summary>
+    <img src="img/KiCad_Setup/symbol_setup1.png">
+   </details>
+2. <details>
+    <summary>If this is your first time using KiCad, it will prompt you to configure the <i>Global Symbol Library</i>. It is highly recommended that you select "Copy default global symbol library table".</summary>
+    <img src="img/KiCad_Setup/symbol_setup2.png">
+   </details>
+3. <details>
+    <summary>Select the folder icon near the bottom left and navigate to the <i>PiE_Symbols.kicad_sym</i> file in the <i>src</i> folder.</summary>
+    <img src="img/KiCad_Setup/symbol_setup3.png">
+   </details>
+4. <details>
+    <summary>You should now see the <i>PiE_Symbols</i> in your Symbol Libraries.</summary>
+    <img src="img/KiCad_Setup/symbol_setup4.png">
+   </details>
 
-
-### Initial Setup of PiElectrical repo on your computer
-
-1. Copy the URL for pioneers/PiElectrical to your clipboard: (Or here: https://github.com/pioneers/PiElectrical.git)
-2. In Terminal (Mac, GNU/Linux) or GitBash (windows), navigate to your working directory (that is, the directory that you want to keep PiElectrical in.)
-3. Clone PiElectrical by running this command: `git clone https://github.com/pioneers/PiElectrical.git`
-4. Do your work in Eagle.
-
-### Setting up Eagle
-
-1. Open up Eagle. The version number shouldn't be an issue, besides generating docu packets. Google is your friend.
-2. Go to Options -> Directories
-3. For Libraries, Design Rules, CAM Jobs, and Projects, add the PiElectrical directory by clicking on each box and hitting browse, until you find the PiElectrical directory. It should look something like this: ![directories](img/eagle-directories.PNG)
-4. Enable the pie.lbr by going back to the Control Panel, expanding Libraries, finding pie.lbr, right clicking on it, and check off `Use`. You can find it at PiElectrical/src/pie.lbr
-5. You are ready to use Eagle!
+#### Adding Footprints
+1. <details>
+    <summary>Go to the <i>Preferences</i> tab, and select <i>Manage Footprint Libraries...</summary>
+    <img src="">
+   </details>
 
 [Back to Top](#pielectrical)
 
