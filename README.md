@@ -27,15 +27,15 @@ This is the working repo for PiElectrical teams
 
 ## Repo Structure:
 
-**Boards**: Contains all the Eagle files, Arduino test files, and board specific internal documentation
+**Boards**: Contains all necessary information about each board, including KiCad (and old Eagle) files, arduino test files, and board specific documentation.
 
-**Docu**: All docu packets and scripts. Fragile! Do not touch!
+**Docu**: All docu packets and scripts. *Fragile! Do not touch!*
 
-**gerbs**: Finalized gerbs sent out to fabrication
+**prod**: Finalized gerbs and other necessary production files (BOM, CPL, etc...) sent out to fabrication
 
 **img**: Place all your images in here to enhance your READMEs.
 
-**src**: Necessary Eagle files to work on PiElectrical
+**src**: Necessary KiCad files to work on PiElectrical
 
 **Makefile**: Runs scripts to make life easy
 
@@ -44,6 +44,12 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
 [Back to Top](#pielectrical)
 
 ## Setup
+
+### Installation of KiCad on your computer
+1. Download the latest version of KiCad here: https://www.kicad.org/download/
+2. Run installer. Use all default settings on installer. <br>
+<img src="img/KiCad_Setup/default_settings.png" alt="drawing" height="250"/>
+
 
 ### Initial Setup of PiElectrical repo on your computer
 
