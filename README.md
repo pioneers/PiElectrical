@@ -16,6 +16,7 @@ This is the working repo for PiElectrical teams
   <summary> 
   
   ## ToDo: <h2></summary> 
+  
 * Widen `keep clear` for USB connection on Thru Hole APM and SMD APM
 * Make `keep clear` on mounting holes bigger
 * Find a solution to breaking USB connections
