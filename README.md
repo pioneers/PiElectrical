@@ -12,7 +12,9 @@ This is the working repo for PiElectrical teams
 8. [Useful Links](#useful-links)
 9. [Standards](#standards)
 
-## ToDo:
+<details>
+  <summary><h3>ToDo:<h3></summary>
+
 * Widen `keep clear` for USB connection on Thru Hole APM and SMD APM
 * Make `keep clear` on mounting holes bigger
 * Find a solution to breaking USB connections
@@ -22,6 +24,8 @@ This is the working repo for PiElectrical teams
     * However this is defined, make it so that they can jump right in after learning Eagle
 * Board Specific Fixes (See each README)
 * Auto BOM database project
+
+</details>
 
 [Back to Top](#pielectrical)
 
@@ -46,8 +50,8 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
 ## Setup
 
 <details>
-  <summary>When you see an arrow like this... (click me)</summary>
-    ...it indicates an expandable section. We usually include images in here as a better reference for you to follow along.
+    <summary>When you see an arrow like this... (click me)</summary>
+        ...it indicates an expandable section. We usually include images in here as a better reference for you to follow along.
 </details>
 
 ### Initial Setup of PiElectrical repo on your computer
@@ -61,7 +65,7 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
 2. <details>
     <summary>Run installer. Use all default settings on installer. (Click to see default settings)<br></summary>
     <img src="img/KiCad_Setup/Default_Settings.png"/>
-    </details>
+</details>
 
 ### Setting up KiCad
 1. Open KiCad.
