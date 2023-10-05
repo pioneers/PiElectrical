@@ -29,15 +29,16 @@ This is the working repo for PiElectrical teams
 
 **Boards**: Contains all necessary information about each board, including KiCad (and old Eagle) files, arduino test files, and board specific documentation.
 
-**Docu**: All docu packets and scripts. *Fragile! Do not touch!*
+**Bootloaders**: Contains the files necessary to burn the bootloader for boards identifying as Leonardo (Atmega32u4).
 
-**prod**: Finalized gerbs and other necessary production files (BOM, CPL, etc...) sent out to fabrication
+**Documentation**: All docu packets and scripts. *Fragile! Do not touch!*
 
-**img**: Place all your images in here to enhance your READMEs.
+**Production_Files**: Finalized gerbs and other necessary production files (BOM, CPL, etc...) sent out for fabrication.
 
-**src**: Necessary KiCad files to work on PiElectrical
+**Images**: Place all your images in here to enhance your READMEs.
 
-**Makefile**: Runs scripts to make life easy
+**Libraries**: Necessary KiCad files to work on PiElectrical
+
 
 ToDo is on the README to keep things easier to see at first glance. GitHub issues tracker can be used as well.
 
