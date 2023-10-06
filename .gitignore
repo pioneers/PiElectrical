@@ -189,3 +189,28 @@ eagle.epf
 *.crc
 *.cmp
 *.bor
+
+#########
+# KICAD #
+########
+
+# lbr temp files
+*.l#*
+
+# dru temp files
+*.d#*
+
+# epf file
+eagle.epf
+
+# save
+*.*.*.lck
+*.lck
+.*.*.lck
+
+# backup sch/brd files
+fp-info-cache
+[a-zA-Z0-9]*-backups
+_autosave-[a-zA-Z0-9]*.kicad_pcb
+
+
