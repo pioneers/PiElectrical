@@ -61,32 +61,32 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
 1. Download the latest version of KiCad here: https://www.kicad.org/download/
 2. <details>
     <summary>Run installer. Use all default settings on installer. (Click to see default settings)<br></summary>
-    <img src="img/KiCad_Setup/Default_Settings.png"/>
+    <img src="Images/KiCad_Setup/Default_Settings.png"/>
 </details>
 
 ### Setting up KiCad
 1. Open KiCad.
 2. <details>
     <summary>Depending on whether you've used KiCad before, select the appropriate option on the pop-up. (Default settings if you're new to KiCad).</summary>
-    <img src="img/KiCad_Setup/setup1.png">
+    <img src="Images/KiCad_Setup/setup1.png">
    </details>
 
 #### Adding Symbols
 1. <details>
     <summary>Go to the <i>Preferences</i> tab, and select <i>Manage Symbol Libraries...</i></summary>
-    <img src="img/KiCad_Setup/symbol_setup1.png">
+    <img src="Images/KiCad_Setup/symbol_setup1.png">
    </details>
 2. <details>
     <summary>If this is your first time using KiCad, it will prompt you to configure the <i>Global Symbol Library</i>. It is highly recommended that you select "Copy default global symbol library table".</summary>
-    <img src="img/KiCad_Setup/symbol_setup2.png">
+    <img src="Images/KiCad_Setup/symbol_setup2.png">
    </details>
 3. <details>
     <summary>Select the folder icon near the bottom left and navigate to the <i>PiE_Symbols.kicad_sym</i> file in the <i>src</i> folder.</summary>
-    <img src="img/KiCad_Setup/symbol_setup3.png">
+    <img src="Images/KiCad_Setup/symbol_setup3.png">
    </details>
 4. <details>
     <summary>You should now see the <i>PiE_Symbols</i> in your Symbol Libraries.</summary>
-    <img src="img/KiCad_Setup/symbol_setup4.png">
+    <img src="Images/KiCad_Setup/symbol_setup4.png">
    </details>
 
 #### Adding Footprints
