@@ -54,7 +54,7 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
 ### Initial Setup of PiElectrical repo on your computer
 
 1. Copy the URL for pioneers/PiElectrical to your clipboard: (Or here: https://github.com/pioneers/PiElectrical.git)
-2. In Terminal (Mac, GNU/Linux) or Git Bash (windows), navigate to your working directory (that is, the directory that you want to keep PiElectrical in.)
+2. In Terminal (Mac, GNU/Linux) or Git Bash (windows), navigate to your working directory (the directory that you want to keep PiElectrical in.)
 3. Clone PiElectrical by running this command: `git clone https://github.com/pioneers/PiElectrical.git`
 
 ### Installation of KiCad on your computer
@@ -85,14 +85,26 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
     <img src="Images/KiCad_Setup/symbol_setup3.png">
    </details>
 4. <details>
-    <summary>You should now see the <i>PiE_Symbols</i> in your Symbol Libraries.</summary>
+    <summary>You should now see the <i>PiE_Symbols</i> in your Symbol Libraries. Make sure the "active" box is checked, and click "OK".</summary>
     <img src="Images/KiCad_Setup/symbol_setup4.png">
    </details>
 
 #### Adding Footprints
 1. <details>
     <summary>Go to the <i>Preferences</i> tab, and select <i>Manage Footprint Libraries...</i></summary>
-    <img src="">
+    <img src="Images/KiCad_Setup/footprint_setup1.png">
+   </details>
+2. <details>
+    <summary>If this is your first time using KiCad, it will prompt you to configure the <i>Global Footprint Library</i>. It is highly recommended that you select "Copy default global footprint library table".</summary>
+    <img src="Images/KiCad_Setup/footprint_setup2.png">
+   </details>
+3. <details>
+    <summary>Select the folder icon near the bottom left and navigate to the <i>PiE_Footprints.pretty</i> file in the <i>src</i> folder.</summary>
+    <img src="Images/KiCad_Setup/footprint_setup3.png">
+   </details>
+4. <details>
+    <summary>You should now see the <i>PiE_Footprints</i> in your Footprint Libraries. Make sure the "active" box is checked, and click "OK".</summary>
+    <img src="Images/KiCad_Setup/footprint_setup4.png">
    </details>
 
 [Back to Top](#pielectrical)
