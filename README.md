@@ -107,32 +107,34 @@ ToDo is on the README to keep things easier to see at first glance. GitHub issue
     <img src="Images/KiCad_Setup/footprint_setup4.png">
    </details>
 
+Note that this setup instruction is based on KiCad 7.0.7, but it should still work for other versions.
+
 [Back to Top](#pielectrical)
 
 ## Work Flow
 
-Protocol when working on Eagle files
+Protocol when working on KiCad files
 
-The revision number should be *REV 10A* for Revision A Year 10
+The revision number should be *REV \<year\>\<revision\>*. E.g. **REV 16A** for year 16 revision A.
 
 If you are not quite familiar with git, see [Useful Links](#useful-links) for the PiE Github tutorial
 
-**WARNING**: Do not modify pie.lbr, pie.dru, or pie.cam without discussing it with PMs
+**WARNING**: Do not modify PiE_Symbols.kicad_sym or PiE_Footprints.pretty without discussing it with PMs.
 
-### Steps when working on EAGLE files:
+### Steps when working on KiCad files:
 
 1. In Terminal (mac, GNU/Linux) or GitBash (windows), navigate to your working directory (wherever you have PiElectrical).
 2. Make sure your working directory is clean: git status
 3. If you haven't started your sub project: git checkout -b YOURNAME-SUBPROJECT
   3. YOUR\_NAME/SUBPROJECT is now the name of your branch
-4. Do your work in EAGLE.
-5. Once you are at a good stopping point in your EAGLE work, commit your progress:
-  5. git add path/to/your/file
-  5. git commit -m "Make your commit message short and with this format"
-  5. **NOTE**: Commiting is like saving your file, but for all of PiE as well as your personal computer. And just like saving, Commit Early & Commit Often!
-6. Repeat Steps 4 and 5 until you are finished with your EAGLE work.
+4. Do your work in KiCad.
+5. Once you are at a good stopping point in your KiCad work, commit your progress:
+    1. git add path/to/your/file
+    2. git commit -m "Make your commit message short and with this format"
+    3. **NOTE**: Commiting is like saving your file, but for all of PiE as well as your personal computer. And just like saving, Commit Early & Commit Often!
+6. Repeat Steps 5 and 6 until you are finished with your EAGLE work.
 7. Once you have made your last commit, push your files to the PiElectrical github repo: git push origin YOUR\_BRANCH
-    7.. If you get a merge conflict, contact the PMs for help.
+    - If you get a merge conflict, contact the PMs for help.
 8. If **completely** done, submit a Pull Request
 
 ### Commit Message Format Conventions
@@ -141,7 +143,7 @@ If you are not quite familiar with git, see [Useful Links](#useful-links) for th
 * No period at the end: ("Reroute power traces on team flag", not "Reroute power traces on team flag.")
 * Keep your message length to about one sentence.
 
-### Merge Conflicts: What Do??
+### Merge Conflicts: What should I do?
 
 Don't try to fix it yourself: Eagle files are finicky and you might break all your work!
 
@@ -149,7 +151,24 @@ Ask someone who knows how to deal with this, i.e. your PM or something
 
 [Back to Top](#pielectrical)
 
-## How to Create a Gerber
+## Generating Fabrication Outputs
+
+1. <details>
+    <summary>Go to files -> </summary>
+    <img src="Images/KiCad_Setup/gerbs.png">
+   </details>
+2. <details>
+    <summary>If this is your first time using KiCad, it will prompt you to configure the <i>Global Symbol Library</i>. It is highly recommended that you select "Copy default global symbol library table".</summary>
+    <img src="Images/KiCad_Setup/symbol_setup2.png">
+   </details>
+3. <details>
+    <summary>Select the folder icon near the bottom left and navigate to the <i>PiE_Symbols.kicad_sym</i> file in the <i>src</i> folder.</summary>
+    <img src="Images/KiCad_Setup/symbol_setup3.png">
+   </details>
+4. <details>
+    <summary>You should now see the <i>PiE_Symbols</i> in your Symbol Libraries. Make sure the "active" box is checked, and click "OK".</summary>
+    <img src="Images/KiCad_Setup/symbol_setup4.png">
+   </details>
 
 1. Open the brd file
 2. Click Cam Job
@@ -161,23 +180,6 @@ Ask someone who knows how to deal with this, i.e. your PM or something
 
 [Back to Top](#pielectrical)
 
-## Docu Packets
-
-**ONLY WORKS IN EAGLE VERSION 7.6, 7.7**
-
-Make sure that `eagle xvfb pdftk` are all installed.
-
-If you don't have the proper directories loaded into Eagle, the first script will hang forever. Both should take only a moment.
-
-The `Docu/all_docu.sh` script will run the following for all boards:
-
-```shell
-python generate_bom.py ../Boards/BOARD_NAME/BOARD_NAME.sch BOARD_NAME.csv
-
-python docu-packet-gen.py ../Boards/BOARD_NAME/BOARD_NAME.sch ../Boards/BOARD_NAME/BOARD_NAME.brd BOARD_NAME.csv BOARD_NAME.pdf
-```
-
-[Back to Top](#pielectrical)
 
 ## FAQ
 
@@ -197,38 +199,38 @@ A: This is to keep track of pull request and board reviews on a per board basis
 
 ## Useful Links
 
-Read up on the [PiE Electrical Style Rules and Guidelines](https://staff.pierobotics.org/wiki/Electrical_style_guidelines)
-
 PiE's own [Github Tutorial](https://docs.google.com/a/pioneers.berkeley.edu/presentation/d/1ef5zSDMbE7dCu4XAC4dXhSV5iUd7gjCyXPjRrRvtbQI/edit?usp=sharing)
 
 [PiElectrical Wiki](https://github.com/pioneers/PiElectrical/wiki)
 
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-Arduino Pro Micro [Pinouts](https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png)
+[Arduino Pro Micro Pinouts](https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png)
 
 [BAC DFM](http://instantdfm.bayareacircuits.com/)
 
+Read up on the [PiE Electrical Style Rules and Guidelines](https://staff.pierobotics.org/wiki/Electrical_style_guidelines) (This is a good resource, but outdated)
+
 [Back to Top](#pielectrical)
 
-## Standards
+## Design Rules
 
-Traces **must** be multiples of 45 degrees
+You can find JLC's design rules here: https://jlcpcb.com/capabilities/pcb-capabilities. Please review this before ordering a PCB.
 
-Rigiht angle connections must have polygon traces to alleviate fabrication errors
+#### Some of our general rules:
+- Traces **must** be multiples of 45 degrees
+- Standard Pin Distance: 100 mils (2.54 mm)
 
-Vias: 0.086 inch Diameter, 0.03937008 inch Drill
-
-Standard Pin Distance: 0.1 inch
-
-Make sure to annotate your boards:
+#### Make sure to annotate your boards:
 
 ```
-(c) Pioneers In Engineering
-Design by: YOUR_NAMES_HERE
+Copyright (c) 2023, Pioneers in Engineering
+All rights reserved.
+
+Design by: Justin H
 This design is open source hardware.
-For more information, visit:
-https://github.com/pioneers/PiElectrical
+For more information, visit 
+github.com/pioneers/PiElectrical
 ```
 
 [Back to Top](#pielectrical)
