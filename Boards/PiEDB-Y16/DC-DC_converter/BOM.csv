@@ -1,0 +1,12 @@
+Comment,Designator,Footprint
+TPS56637,U1,TPS56637RPAR
+100k,Rpg1,R_0805_2012Metric
+20k,Rff1,R_0805_2012Metric
+73.2k,Rfbt1,R_0805_2012Metric
+10k,Rfbb1,R_0805_2012Metric
+Anderson_Horizontal,"Out,In",anderson_horizontal
+3.3u,L1,TMPC1707HP-3R3MG-D
+47u,Cout1,C_1210_3225Metric
+100n,"Cinx1,Cboot1",C_0805_2012Metric
+10u,"Cin2,Cin1",C_0805_2012Metric
+100p,Cff1,C_0805_2012Metric

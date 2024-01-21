@@ -1,0 +1,7 @@
+Comment,Designator,Footprint
+12MHz,Y1,Crystal_HC49-U_Vertical
+USB_Type_A_903-331A1011D10100,USB1,USB-A_female
+CH340G,U1,SOIC-16_3.9x9.9mm_P1.27mm
+Conn_01x04,J1,PinHeader_1x04_P2.54mm_Vertical
+22pF,"C4,C3",C_0603_1608Metric
+0.1uF,"C2,C1",C_0603_1608Metric
