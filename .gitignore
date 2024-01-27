@@ -212,5 +212,8 @@ eagle.epf
 fp-info-cache
 [a-zA-Z0-9]*-backups
 _autosave-[a-zA-Z0-9]*.kicad_pcb
+*.bak
+
+
 
 
