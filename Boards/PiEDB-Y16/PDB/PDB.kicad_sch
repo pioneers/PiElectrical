@@ -2642,7 +2642,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4df25882-1507-4909-b7c4-1108093cb7c9)
   )
-  (label "Vout" (at 254 85.09 0) (fields_autoplaced)
+  (label "5v" (at 254 85.09 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 50af9c42-e275-4481-a3a3-cbcb55ac5cc2)
   )
