@@ -13,15 +13,10 @@ This is the working repo for PiElectrical teams
 9. [Standards](#standards)
 
 ## ToDo:
-* Widen `keep clear` for USB connection on Thru Hole APM and SMD APM
-* Make `keep clear` on mounting holes bigger
-* Find a solution to breaking USB connections
-* Keep enclosures in mind from Rev A
-* Get repo ready for new staff
-    * This means creating board directories ready to be worked on
-    * However this is defined, make it so that they can jump right in after learning Eagle
-* Board Specific Fixes (See each README)
-* Auto BOM database project
+* The stuff in PDB-Y16
+* Convert motor controller design to KiCad
+* Add and test current regulation for motor controller
+* Talk to runtime and potentially use cheaper MCU for motor controller
 
 [Back to Top](#pielectrical)
 
@@ -153,19 +148,20 @@ Ask someone who knows how to deal with this, i.e. your PM or something
 
 ## Generating Fabrication Outputs
 
-1. <details>
-    <summary>Go to files -> </summary>
-    <img src="Images/KiCad_Setup/gerbs.png">
-   </details>
+1. Make sure you run the Electrical Rules Check (ERC) in the schematic and the Design Rules Checker (DRC) in the layout, and have no *red* errors. Feel free to ask PMs if you have any questions.
 2. <details>
+    <summary>Go to File -> Fabrication Outputs -> Gerbers (.gbr)...</summary>
+    <img src="Images/KiCad_Setup/gerbs1.png">
+   </details>
+3. <details>
     <summary>If this is your first time using KiCad, it will prompt you to configure the <i>Global Symbol Library</i>. It is highly recommended that you select "Copy default global symbol library table".</summary>
     <img src="Images/KiCad_Setup/symbol_setup2.png">
    </details>
-3. <details>
+4. <details>
     <summary>Select the folder icon near the bottom left and navigate to the <i>PiE_Symbols.kicad_sym</i> file in the <i>src</i> folder.</summary>
     <img src="Images/KiCad_Setup/symbol_setup3.png">
    </details>
-4. <details>
+5. <details>
     <summary>You should now see the <i>PiE_Symbols</i> in your Symbol Libraries. Make sure the "active" box is checked, and click "OK".</summary>
     <img src="Images/KiCad_Setup/symbol_setup4.png">
    </details>
