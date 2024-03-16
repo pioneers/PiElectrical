@@ -1,0 +1,9 @@
+Id,Designator,Package,Quantity,Designation,Supplier and ref
+1,SW1,XKB Connectivity SS13D75L3,1,,
+2,J1,OST_USB-B1HSB6,1,,
+3,C1,C_0603_1608Metric,1,,
+4,"REF**,REF**,REF**,REF**",screw_hole_.125,4,,
+5,LED2,LED_D5.0mm,1,,
+6,R1,R_0603_1608Metric,1,,
+7,LED1,LED_D5.0mm,1,,
+8,R2,R_0603_1608Metric,1,,

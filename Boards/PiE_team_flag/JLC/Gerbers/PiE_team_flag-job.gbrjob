@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.7"
+      "Version": "6.0.9-8da3e8f707~117~ubuntu20.04.1"
     },
-    "CreationDate": "2024-03-14T02:32:26-07:00"
+    "CreationDate": "2023-02-01T20:13:31-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "PDB",
-      "GUID": "5044422e-6b69-4636-9164-5f7063625858",
+      "Name": "PiE_team_flag",
+      "GUID": "5069455f-7465-4616-9d5f-666c61672e6b",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 112.2,
-      "Y": 88.35
+      "X": 45.82,
+      "Y": 50.9
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -24,57 +24,57 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.1971,
-      "PadToTrack": 0.1971,
-      "TrackToTrack": 0.1971,
-      "MinLineWidth": 0.15,
-      "TrackToRegion": 0.1971,
-      "RegionToRegion": 0.1971
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.25,
+      "TrackToRegion": 0.508,
+      "RegionToRegion": 0.508
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "PDB-F_Cu.gbr",
+      "Path": "PiE_team_flag-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PDB-B_Cu.gbr",
+      "Path": "PiE_team_flag-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PDB-F_Paste.gbr",
+      "Path": "PiE_team_flag-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PDB-B_Paste.gbr",
+      "Path": "PiE_team_flag-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PDB-F_Silkscreen.gbr",
+      "Path": "PiE_team_flag-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PDB-B_Silkscreen.gbr",
+      "Path": "PiE_team_flag-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PDB-F_Mask.gbr",
+      "Path": "PiE_team_flag-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "PDB-B_Mask.gbr",
+      "Path": "PiE_team_flag-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "PDB-Edge_Cuts.gbr",
+      "Path": "PiE_team_flag-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -90,29 +90,24 @@
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {

@@ -1,14 +1,12 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
-    "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.6,
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
@@ -38,7 +36,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -64,11 +61,11 @@
       35,
       36
     ],
-    "visible_layers": "f8fffff_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "PDB.kicad_prl",
+    "filename": "PiE_team_flag.kicad_prl",
     "version": 3
   },
   "project": {

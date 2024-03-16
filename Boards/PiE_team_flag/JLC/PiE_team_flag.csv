@@ -1,0 +1,9 @@
+Comment,Designator,Footprint
+SW_SP3T,SW1,XKB Connectivity SS13D75L3
+USB_B,J1,OST_USB-B1HSB6
+.1uF,C1,C_0603_1608Metric
+screw_hole_.125,"REF**,REF**,REF**,REF**",screw_hole_.125
+BLU,LED2,LED_D5.0mm
+145,R1,R_0603_1608Metric
+YEL,LED1,LED_D5.0mm
+100,R2,R_0603_1608Metric
