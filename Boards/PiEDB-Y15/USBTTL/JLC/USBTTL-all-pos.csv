@@ -1,0 +1,12 @@
+Designator,Mid X,Mid Y,Layer,Rotation
+C1,62,-42,Top,-90
+C2,78,-42,Top,90
+C3,77,-61,Top,-90
+C4,63,-61,Top,90
+J1,59,-61,Top,180
+J2,81,-43,Top,0
+R1,71,-43,Top,-90
+R2,69,-43,Top,-90
+U1,70,-50,Top,0
+USB1,70,-38.36,Top,180
+Y1,70.05,-59.5,Top,180
