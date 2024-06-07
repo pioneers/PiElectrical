@@ -3741,7 +3741,7 @@
     (property "Value" "CH340G" (at 45.1994 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "PiE_Footprints:CH340g" (at 44.45 125.73 0)
+    (property "Footprint" "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" (at 44.45 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://www.datasheet5.com/pdf-local-2195953" (at 34.29 91.44 0)
