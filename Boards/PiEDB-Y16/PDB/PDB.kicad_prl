@@ -64,8 +64,8 @@
       35,
       36
     ],
-    "visible_layers": "f8fffff_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "f8ffca0_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "PDB.kicad_prl",
