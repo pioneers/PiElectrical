@@ -1,30 +1,32 @@
-Comment,Designator,Footprint
-200,"R11,R7,R12,R10,R14,R9,R13,R8",R_0603_1608Metric
-10u,"C2,C1",CP_Radial_D5.0mm_P2.00mm
-Conn_01x02,J1,PinHeader_1x02_P2.54mm_Vertical
-USB,"USB2,USB3,USB1,DATA1",USB-A_female
-10000,"R6,R2,R4",R_0603_1608Metric
-JST-XH_4-pin,Jst1,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical
-4_digit_7_segment_display,D3,LED-SEG-TH_12P-L30.0-W13.7-P2.54-S10.16-BL
-0.1uF,"C3,C4",C_0603_1608Metric
-Buzzer,B1,Buzzer
-12MHz,Y1,JYJE S1C12000VWFAC
-22pF,"C5,C6",C_0603_1608Metric
-Anderson_Horizontal,"A2,A4,A5,A3,A1",anderson_horizontal
-30000,"R5,R3,R1",R_0603_1608Metric
-ProMicro,Pro1,ProMicro-EnforcedTop
-Fuseholder,F1,Fuse Holder SMD
-PCF8574,U3,PCF8574T
-4700,"R20,R19",R_0603_1608Metric
-22,"R17,R18",R_0603_1608Metric
-Hole_R1.62mm,"REF**,REF**,REF**,REF**",Hole_R1.62mm
-s8050_JSMSEMI,Q1,s8050 JSMSEMI
-0.1u,C7,C_0603_1608Metric
-SW_SPDT,SW2,DEALON SS-12D01-G3
-BUCK_CONVERTER_5V,Converter1,5v_converter
-3300,R15,R_0603_1608Metric
-D-SWITCH_MR5-111-C5N-BB,Sw1,Rocker Switch
-CH340G,U2,CH340g
-1000,R16,R_0603_1608Metric
-XT60_F,Batt1,AMASS_XT60-M_1x02_P7.20mm_Vertical
-Conn_01x04,J2,PinHeader_1x04_P2.54mm_Vertical
+Comment,Designator,Footprint,JLCPCB Part #（optional）
+200,"R11,R7,R12,R10,R14,R9,R13,R8",R_0603_1608Metric,
+10u,"C2,C1",CP_Radial_D5.0mm_P2.00mm,
+Conn_01x02,"J1,J3",PinHeader_1x02_P2.54mm_Vertical,
+USB,"USB2,USB3,USB1,DATA1",USB-A_female,
+10000,"R6,R2,R4",R_0603_1608Metric,
+JST-XH_4-pin,Jst1,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,
+4_digit_7_segment_display,D3,LED-SEG-TH_12P-L30.0-W13.7-P2.54-S10.16-BL,
+0.1uF,"C3,C4",C_0603_1608Metric,
+Buzzer,B1,Buzzer,
+12MHz,Y1,JYJE S1C12000VWFAC,
+22pF,"C5,C6",C_0603_1608Metric,
+Anderson_Horizontal,"A2,A4,A5,A3,A1",anderson_horizontal,
+30000,"R5,R3,R1",R_0603_1608Metric,
+10k,R21,R_0402_1005Metric,
+ProMicro,Pro1,ProMicro-EnforcedTop,
+Fuseholder,F1,Fuse Holder SMD,
+PCF8574,U3,PCF8574T,
+4700,"R20,R19",R_0603_1608Metric,
+22,"R17,R18",R_0603_1608Metric,
+Hole_R1.62mm,"REF**,REF**,REF**,REF**",Hole_R1.62mm,
+s8050_JSMSEMI,Q1,s8050 JSMSEMI,
+0.1u,C7,C_0603_1608Metric,
+SW_SPDT,SW2,DEALON SS-12D01-G3,
+SW_MEC_5E,SW3,SW_PUSH_6mm,
+BUCK_CONVERTER_5V,Converter1,5v_converter,
+3300,R15,R_0603_1608Metric,
+D-SWITCH_MR5-111-C5N-BB,Sw1,Rocker Switch,
+CH340G,U2,CH340g,
+1000,R16,R_0603_1608Metric,
+XT60_F,Batt1,AMASS_XT60-M_1x02_P7.20mm_Vertical,
+Conn_01x04,J2,PinHeader_1x04_P2.54mm_Vertical,
