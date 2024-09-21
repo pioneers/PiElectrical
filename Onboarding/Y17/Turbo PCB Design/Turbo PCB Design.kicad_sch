@@ -1072,6 +1072,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:VDD"
 			(power)
 			(pin_numbers hide)
@@ -1194,10 +1290,22 @@
 		)
 	)
 	(junction
+		(at 133.35 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2880c20e-9dd1-4bce-bd37-b006f034d917")
+	)
+	(junction
 		(at 129.54 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30804305-e78f-4492-b2a0-394dce88d91b")
+	)
+	(junction
+		(at 129.54 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fa9ccef-1357-47e3-88ab-3420980dc89e")
 	)
 	(junction
 		(at 118.11 80.01)
@@ -1206,10 +1314,24 @@
 		(uuid "78ca787f-9fb1-4f95-964c-e3c5311aaf9a")
 	)
 	(junction
+		(at 129.54 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4c1a305-ffa0-46ec-82bb-96eda6e83bae")
+	)
+	(junction
 		(at 118.11 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbf580c1-acbf-4bcc-8d6c-2fcec61df51c")
+	)
+	(no_connect
+		(at 134.62 90.17)
+		(uuid "05ffc554-52f0-4d2f-855b-ebe38d2ea6e4")
+	)
+	(no_connect
+		(at 134.62 105.41)
+		(uuid "abe9cb72-00d0-4ca8-8bc4-8f917591cc56")
 	)
 	(wire
 		(pts
@@ -1240,6 +1362,26 @@
 			(type default)
 		)
 		(uuid "0598d498-5143-4666-af3e-b36b245322eb")
+	)
+	(wire
+		(pts
+			(xy 198.12 106.68) (xy 198.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aece321-144f-4556-bc7b-c91449cbf045")
+	)
+	(wire
+		(pts
+			(xy 129.54 66.04) (xy 129.54 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "134bec8d-7bf5-4f43-ada5-693fde8d14d7")
 	)
 	(wire
 		(pts
@@ -1293,16 +1435,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 77.47) (xy 186.69 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33a2fe5b-afea-4ae8-b09c-ae0086dbae31")
-	)
-	(wire
-		(pts
 			(xy 118.11 85.09) (xy 118.11 87.63)
 		)
 		(stroke
@@ -1310,6 +1442,16 @@
 			(type default)
 		)
 		(uuid "37b83d0b-0548-4a05-8203-debf5d9aa2a3")
+	)
+	(wire
+		(pts
+			(xy 223.52 93.98) (xy 223.52 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394397fe-ba99-457e-ba3a-e439d55af615")
 	)
 	(wire
 		(pts
@@ -1333,6 +1475,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 85.09) (xy 175.26 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f7bfca-8c8d-4034-b338-306afa1dece7")
+	)
+	(wire
+		(pts
+			(xy 186.69 77.47) (xy 186.69 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ef48b1-bedf-416a-808d-4f5e646f306e")
+	)
+	(wire
+		(pts
 			(xy 118.11 78.74) (xy 118.11 80.01)
 		)
 		(stroke
@@ -1343,7 +1505,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 85.09) (xy 181.61 85.09)
+			(xy 170.18 85.09) (xy 175.26 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1353,7 +1515,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 110.49) (xy 134.62 110.49)
+			(xy 132.08 110.49) (xy 133.35 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1370,6 +1532,26 @@
 			(type default)
 		)
 		(uuid "58f08a90-a02e-4efc-b187-8c1abc128aeb")
+	)
+	(wire
+		(pts
+			(xy 129.54 67.31) (xy 129.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d34753-4a4b-47ad-b033-06035cfac148")
+	)
+	(wire
+		(pts
+			(xy 186.69 88.9) (xy 198.12 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b0363e-7aa1-486b-b0fe-20a71da542a2")
 	)
 	(wire
 		(pts
@@ -1393,13 +1575,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 96.52) (xy 181.61 96.52)
+			(xy 175.26 106.68) (xy 175.26 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2201586-2622-48b4-87d8-236b886c5a5b")
+		(uuid "cd9a1988-48ea-4eaf-ad96-fee6145853c2")
 	)
 	(wire
 		(pts
@@ -1413,13 +1595,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 96.52) (xy 181.61 85.09)
+			(xy 133.35 110.49) (xy 134.62 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df583323-daf2-4e0b-8429-8c86aa8ea6a3")
+		(uuid "de175433-e89d-4655-93f9-161e4ae218b2")
 	)
 	(wire
 		(pts
@@ -1451,58 +1633,36 @@
 		)
 		(uuid "f290f0b5-baf6-46e7-835a-9ba6443f365c")
 	)
-	(label "VDD"
-		(at 129.54 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d680135-4f1a-4a9b-9140-66914a9a74a4")
-	)
-	(label "NOTE: A bunch of connections are supposed to be here"
-		(at 186.69 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c19f7bbe-4711-4ffd-b001-01fe40da2e37")
-	)
 	(symbol
-		(lib_id "Device:D")
-		(at 186.69 92.71 90)
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 175.26 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0f8bcdd6-28a9-4772-bc87-a5e081bab3da")
-		(property "Reference" "D1"
-			(at 189.23 91.4399 90)
+		(uuid "0a26d414-9cab-4d28-bc20-593d96a2854a")
+		(property "Reference" "J6"
+			(at 176.53 112.3949 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED_GREEN"
-			(at 189.23 93.9799 90)
+		(property "Value" "Conn_01x01_Socket"
+			(at 176.53 114.9349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 92.71 0)
+			(at 175.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1511,7 +1671,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 92.71 0)
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40569201-fe07-4095-89f9-f447346718ec")
+		)
+		(instances
+			(project "Turbo PCB Design"
+				(path "/b3d267c7-536c-4f0c-928e-44255ab66a36"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 223.52 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f8bcdd6-28a9-4772-bc87-a5e081bab3da")
+		(property "Reference" "D1"
+			(at 226.06 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_GREEN"
+			(at 226.06 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 223.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1520,7 +1747,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 186.69 92.71 0)
+			(at 223.52 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +1756,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 186.69 92.71 0)
+			(at 223.52 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1765,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 186.69 92.71 0)
+			(at 223.52 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,6 +1783,73 @@
 			(project ""
 				(path "/b3d267c7-536c-4f0c-928e-44255ab66a36"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 223.52 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "128a18ef-a65d-4af6-91b9-72e310e6c00b")
+		(property "Reference" "J5"
+			(at 224.79 107.3149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 224.79 109.8549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 223.52 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7105e782-a2fb-4bf6-8cfb-c786e5812184")
+		)
+		(instances
+			(project "Turbo PCB Design"
+				(path "/b3d267c7-536c-4f0c-928e-44255ab66a36"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1587,7 +1881,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PiE_Footprints:TLC555_SCHE"
 			(at 146.05 78.74 0)
 			(effects
 				(font
@@ -1714,6 +2008,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 129.54 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57b0b8ed-e8df-4749-9c95-95198c4196e4")
+		(property "Reference" "#PWR06"
+			(at 129.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 129.54 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "952adc9e-0001-4482-a708-5deb6d13b53f")
+		)
+		(instances
+			(project "Turbo PCB Design"
+				(path "/b3d267c7-536c-4f0c-928e-44255ab66a36"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PiE_Symbols:BS-7")
 		(at 87.63 88.9 270)
 		(unit 1)
@@ -1741,7 +2101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PiE_Footprints:BAT_BS-7"
 			(at 87.63 88.9 0)
 			(effects
 				(font
@@ -1785,7 +2145,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 198.12 86.36 270)
+		(at 198.12 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1794,7 +2154,7 @@
 		(fields_autoplaced yes)
 		(uuid "74e4019f-e037-4938-9a95-bd9fedbd6424")
 		(property "Reference" "J1"
-			(at 199.39 84.4549 90)
+			(at 199.39 92.0749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,7 +2163,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 199.39 86.9949 90)
+			(at 199.39 94.6149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,7 +2172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 86.36 0)
+			(at 198.12 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,7 +2181,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 86.36 0)
+			(at 198.12 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,7 +2190,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 198.12 86.36 0)
+			(at 198.12 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,6 +2205,140 @@
 			(project ""
 				(path "/b3d267c7-536c-4f0c-928e-44255ab66a36"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 129.54 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79779e98-5a1e-4aeb-b795-9e6f00b9f6ed")
+		(property "Reference" "#FLG03"
+			(at 131.445 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 133.35 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 129.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31f08124-2837-4140-ac13-f55ba48803cc")
+		)
+		(instances
+			(project "Turbo PCB Design"
+				(path "/b3d267c7-536c-4f0c-928e-44255ab66a36"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 198.12 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "798f0bea-799a-4a40-ab4f-0b58d699b3bb")
+		(property "Reference" "J3"
+			(at 199.39 112.3949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 199.39 114.9349 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 198.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "185977b2-4fa2-434e-9e30-fdb10a4f522d")
+		)
+		(instances
+			(project "Turbo PCB Design"
+				(path "/b3d267c7-536c-4f0c-928e-44255ab66a36"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1878,7 +2372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 103.8352 93.98 0)
 			(effects
 				(font
@@ -2054,6 +2548,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 133.35 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae5a5649-cf4b-446e-a61e-21110869e2fb")
+		(property "Reference" "#FLG04"
+			(at 133.35 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 133.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 133.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ff07b84-e57b-4172-a1d6-d24c1b3b7899")
+		)
+		(instances
+			(project ""
+				(path "/b3d267c7-536c-4f0c-928e-44255ab66a36"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 118.11 74.93 0)
 		(unit 1)
@@ -2081,7 +2641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 116.332 74.93 90)
 			(effects
 				(font
@@ -2118,6 +2678,73 @@
 			(project ""
 				(path "/b3d267c7-536c-4f0c-928e-44255ab66a36"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 175.26 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6837188-c195-4f03-82f0-4daadf87a339")
+		(property "Reference" "J8"
+			(at 176.53 94.6149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 176.53 97.1549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a3e5a09-6ae5-407c-bc59-c4a470fc2905")
+		)
+		(instances
+			(project "Turbo PCB Design"
+				(path "/b3d267c7-536c-4f0c-928e-44255ab66a36"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2217,7 +2844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 116.332 91.44 90)
 			(effects
 				(font
@@ -2254,6 +2881,207 @@
 			(project "Turbo PCB Design"
 				(path "/b3d267c7-536c-4f0c-928e-44255ab66a36"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 223.52 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de2ae6fd-34f1-463c-9835-40a1301eb9bf")
+		(property "Reference" "J4"
+			(at 224.79 88.2649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 224.79 90.8049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5340433e-8c05-4747-bf3f-759c9f97f88e")
+		)
+		(instances
+			(project "Turbo PCB Design"
+				(path "/b3d267c7-536c-4f0c-928e-44255ab66a36"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 198.12 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9a56388-7332-4c38-aee1-535add2b401a")
+		(property "Reference" "J2"
+			(at 199.39 100.9649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 199.39 103.5049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f458f7bb-3d42-4796-826a-59d00e0116c9")
+		)
+		(instances
+			(project "Turbo PCB Design"
+				(path "/b3d267c7-536c-4f0c-928e-44255ab66a36"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 175.26 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebd46733-5faa-4f41-b51b-5169b39b9f5a")
+		(property "Reference" "J7"
+			(at 176.53 100.9649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 176.53 103.5049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e614078-f89a-44a0-b5b5-4ce139cea04e")
+		)
+		(instances
+			(project "Turbo PCB Design"
+				(path "/b3d267c7-536c-4f0c-928e-44255ab66a36"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2353,7 +3181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 184.912 85.09 90)
 			(effects
 				(font
