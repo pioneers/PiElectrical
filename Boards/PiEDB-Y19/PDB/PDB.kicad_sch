@@ -1,0 +1,702 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ceb83560-0246-40d0-a32b-c39f34a9d8be")
+	(paper "A5")
+	(title_block
+		(title "Power Distribution Board")
+		(rev "1")
+		(company "Pioneers in Engineering")
+		(comment 1 "Design By: Gabriel L.")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 86.36 64.77) (xy 83.82 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e572754-afa2-4945-bd58-53011b7a64d3")
+	)
+	(wire
+		(pts
+			(xy 86.36 57.15) (xy 83.82 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3317da3d-d64b-451b-a50d-80b5a8e751ed")
+	)
+	(wire
+		(pts
+			(xy 81.28 91.44) (xy 93.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb47436-08d0-4c40-b32e-ffcb479bdd7d")
+	)
+	(wire
+		(pts
+			(xy 189.23 87.63) (xy 193.04 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4627cf60-0da0-4004-a70f-f480f955b50c")
+	)
+	(wire
+		(pts
+			(xy 86.36 54.61) (xy 83.82 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "758f2b47-ed87-4745-ac21-044954031061")
+	)
+	(wire
+		(pts
+			(xy 86.36 62.23) (xy 83.82 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794beaf6-9da2-45ec-ab74-0ac2d49ae6c9")
+	)
+	(wire
+		(pts
+			(xy 81.28 93.98) (xy 93.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a87e36-66ac-4d86-bd51-9c9177250d60")
+	)
+	(wire
+		(pts
+			(xy 86.36 52.07) (xy 83.82 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a593414-7288-4c06-aaa8-cd264aa81ce6")
+	)
+	(wire
+		(pts
+			(xy 86.36 59.69) (xy 83.82 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac13452-7d6b-458d-9b29-17273d760aae")
+	)
+	(wire
+		(pts
+			(xy 158.75 22.86) (xy 156.21 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1f82e8-d913-4b4d-8d6b-c016eb92bdc5")
+	)
+	(wire
+		(pts
+			(xy 81.28 88.9) (xy 93.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa79ec68-14f9-4dd7-b951-649c403e5bcb")
+	)
+	(wire
+		(pts
+			(xy 189.23 85.09) (xy 193.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faaa48c0-2175-45c8-bf76-fea268478083")
+	)
+	(label "Tx"
+		(at 193.04 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03f22646-0721-443f-92a3-3ac07f0ea5e3")
+	)
+	(label "Cell1+2+3_s"
+		(at 93.98 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0681f1c3-7d2e-4a79-b94f-1bf0a1ea39ac")
+	)
+	(label "Cell1_s"
+		(at 93.98 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64147ab4-1a33-4716-bce3-c9c55bbf49b6")
+	)
+	(label "Cell1+2_s"
+		(at 83.82 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f15235a-0b9a-4f63-9b4a-516ee67338d0")
+	)
+	(label "Cell1_s"
+		(at 83.82 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71f6365d-e876-44ab-bbc6-20e7da864720")
+	)
+	(label "Cell1+2+3_s"
+		(at 83.82 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7cdc118b-988f-4074-b879-02d4ea7a8c0a")
+	)
+	(label "Buzzer"
+		(at 83.82 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "952f983b-6389-4ac9-b8ea-fa48c6719d34")
+	)
+	(label "Rx"
+		(at 83.82 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9782e5a9-123a-4ce2-aac0-ca6086b88c8c")
+	)
+	(label "Buzzer"
+		(at 156.21 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b110f00d-2b26-46b2-bb41-a13dc2c793ef")
+	)
+	(label "Rx"
+		(at 193.04 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6a0fcf7-69f4-4252-863c-e064da1f70ec")
+	)
+	(label "Cell1+2_s"
+		(at 93.98 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df6423ad-ce94-4d8e-a12e-c8e866cd36fd")
+	)
+	(label "Tx"
+		(at 83.82 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1fc785d-c6f2-44bd-bfdc-404d8fefc1d2")
+	)
+	(sheet
+		(at 86.36 49.53)
+		(size 30.48 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "103395df-199e-464c-b6a7-422d39a61d31")
+		(property "Sheetname" "GPIO"
+			(at 86.36 48.895 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPIO.kicad_sch"
+			(at 86.36 75.565 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Tx" output
+			(at 86.36 52.07 180)
+			(uuid "cc1f6867-2c29-4db3-b042-843d71ede668")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rx" input
+			(at 86.36 54.61 180)
+			(uuid "96c01a09-5e17-448c-ab73-6dd4506eb6df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Cell1_s" input
+			(at 86.36 57.15 180)
+			(uuid "b7e74c43-a733-47ca-851d-b9c4744aa845")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Cell1+2_s" input
+			(at 86.36 59.69 180)
+			(uuid "5b3bf513-029c-4c1f-a89f-f57fabec2d7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Cell1+2+3_s" input
+			(at 86.36 62.23 180)
+			(uuid "24a6b673-ca42-4e51-bd45-30f7013ffb4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Buzzer" output
+			(at 86.36 64.77 180)
+			(uuid "1a241b84-572c-4e8d-a80c-c4bb1c06723e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 41.91)
+		(size 30.48 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4b5b0951-c8bc-4c7d-829c-b221ccfb5c07")
+		(property "Sheetname" "USB Power"
+			(at 158.75 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_Power.kicad_sch"
+			(at 158.75 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 82.55)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "53d7ecf5-8b58-488f-9b3a-64fed93730cc")
+		(property "Sheetname" "USB Data"
+			(at 158.75 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_Data.kicad_sch"
+			(at 158.75 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Tx" input
+			(at 189.23 85.09 0)
+			(uuid "9dc509fb-e6ba-49ff-872e-82cc8d1bbbad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Rx" output
+			(at 189.23 87.63 0)
+			(uuid "821ded51-24cd-46c3-97e6-0030af061d8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 16.51)
+		(size 30.48 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "572f6d45-70c0-4d20-865e-c7bb056a3d0b")
+		(property "Sheetname" "Buck Converter"
+			(at 86.36 15.875 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 86.36 32.385 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 16.51)
+		(size 26.67 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9ae14c75-b35b-4192-9355-d1dd7c0cd00e")
+		(property "Sheetname" "12V Outputs"
+			(at 15.24 15.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Outputs_12V.kicad_sch"
+			(at 15.24 79.3246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 86.36)
+		(size 66.04 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a5ce303d-301b-4c6e-abbe-512c01e3b243")
+		(property "Sheetname" "Battery"
+			(at 15.24 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 15.24 132.6646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Cell1_s" output
+			(at 81.28 88.9 0)
+			(uuid "b6b2ee14-70de-4745-97f1-03be1b2b09d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Cell1+2_s" output
+			(at 81.28 91.44 0)
+			(uuid "b8686be2-10b3-4020-a966-290396744ff3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Cell1+2+3_s" output
+			(at 81.28 93.98 0)
+			(uuid "bf2edaaa-e900-40e5-b08d-eecfcca2bd4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 20.32)
+		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b0f737c6-e3ac-445f-9468-6414c13e2ca3")
+		(property "Sheetname" "Buzzer"
+			(at 158.75 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Buzzer.kicad_sch"
+			(at 158.75 31.0646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Buzzer" input
+			(at 158.75 22.86 180)
+			(uuid "caf5b155-55e8-4e7c-b045-108a99a4f196")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

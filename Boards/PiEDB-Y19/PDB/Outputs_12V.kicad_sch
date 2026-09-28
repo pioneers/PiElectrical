@@ -1,0 +1,1798 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e1f6bedb-f625-4b1f-82f2-4fbb9d8cc187")
+	(paper "A5")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PiE_Symbols:Anderson_Horizontal"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 4.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Anderson_Horizontal"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 3.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 3.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Anderson_Horizontal_0_1"
+				(rectangle
+					(start 0 0)
+					(end -8 -8)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 0)
+					(end 8 -8)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Anderson_Horizontal_1_1"
+				(pin passive line
+					(at -4 -4 0)
+					(length 1)
+					(name "ground"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 4 -4 0)
+					(length 1)
+					(name "power"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+12V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 46.28 61.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ae030f5-b7bd-4d81-8fe2-a4f9b49907cd")
+	)
+	(junction
+		(at 88.28 61.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ae96e96-34a6-4b2b-9653-aed267f482eb")
+	)
+	(junction
+		(at 131.28 61.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74103a62-4929-4112-8f8c-0d4b53a8378a")
+	)
+	(junction
+		(at 40.03 61.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c896cb08-38f0-43ce-9ae1-8424aff468a1")
+	)
+	(junction
+		(at 67.28 61.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f07f8360-7baa-4384-a2c8-8885d31e6a68")
+	)
+	(junction
+		(at 109.78 61.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe39f485-b412-4929-a6a3-78bc1eea047b")
+	)
+	(wire
+		(pts
+			(xy 46.28 61.58) (xy 67.28 61.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07faaecd-39e9-4e37-9c83-8c18e9865043")
+	)
+	(wire
+		(pts
+			(xy 131.28 61.58) (xy 131.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eac8486-533a-4758-b94f-e79d2f20c06f")
+	)
+	(wire
+		(pts
+			(xy 109.78 61.58) (xy 109.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11bef697-77de-4e6f-b232-78bbac37f25a")
+	)
+	(wire
+		(pts
+			(xy 46.28 61.58) (xy 46.28 62.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf07716-6675-4e50-a455-96b671ad93d1")
+	)
+	(wire
+		(pts
+			(xy 109.78 61.58) (xy 131.28 61.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3831a1f3-33c3-4500-9806-008d6065a925")
+	)
+	(wire
+		(pts
+			(xy 131.28 61.58) (xy 152.78 61.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c292781-b600-4ce0-8546-d7d18180c8cf")
+	)
+	(wire
+		(pts
+			(xy 123.28 68.58) (xy 123.28 74.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4311f68a-d71e-44fa-9552-21e86d107820")
+	)
+	(wire
+		(pts
+			(xy 88.28 61.58) (xy 109.78 61.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee04e91-bb83-4302-a3cb-5cd0fcf19ce2")
+	)
+	(wire
+		(pts
+			(xy 88.28 61.58) (xy 88.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a478eed-63af-460d-8754-892464131048")
+	)
+	(wire
+		(pts
+			(xy 67.28 61.58) (xy 67.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e91a7a4-7d1a-4370-9a8b-9e8ac1cf8f00")
+	)
+	(wire
+		(pts
+			(xy 152.78 61.58) (xy 152.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e84af2-a30d-467b-a382-2b75f947a2b9")
+	)
+	(wire
+		(pts
+			(xy 37.78 61.58) (xy 40.03 61.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72afe5a0-97c2-40d5-8981-19df79da8115")
+	)
+	(wire
+		(pts
+			(xy 144.78 68.58) (xy 144.78 74.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca18aa1-552d-46cd-ac5d-db7eb089d01e")
+	)
+	(wire
+		(pts
+			(xy 40.03 61.58) (xy 46.28 61.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c66eb4-dd26-47ea-ae48-f858e92dac11")
+	)
+	(wire
+		(pts
+			(xy 46.28 70.2) (xy 46.28 70.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acaa1d35-272d-45b5-9378-859fa6cf92fa")
+	)
+	(wire
+		(pts
+			(xy 40.03 61.46) (xy 40.03 61.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86329f3-91db-4f21-a662-c152eaaca6f6")
+	)
+	(wire
+		(pts
+			(xy 101.78 68.58) (xy 101.78 74.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e337ab-e88c-4a73-9696-6266c4d48135")
+	)
+	(wire
+		(pts
+			(xy 67.28 61.58) (xy 88.28 61.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec316a09-a0c4-473d-b11d-8916612681b6")
+	)
+	(wire
+		(pts
+			(xy 59.28 68.58) (xy 59.28 74.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed031330-0f0b-4df4-be3e-9b37d06ee945")
+	)
+	(wire
+		(pts
+			(xy 80.28 68.58) (xy 80.28 74.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d0a148-0368-4475-9084-71bc250b0050")
+	)
+	(symbol
+		(lib_id "PiE_Symbols:Anderson_Horizontal")
+		(at 63.28 64.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03ab427d-9f50-42d0-b6ca-55c8d0625243")
+		(property "Reference" "A1"
+			(at 72.99 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Anderson_Horizontal"
+			(at 72.99 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PiE_Footprints:anderson_horizontal"
+			(at 63.28 61.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.28 61.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.28 64.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74ddb1a6-6a99-4f99-af68-69a8d0ae72a6")
+		)
+		(pin "2"
+			(uuid "3d3d2d33-2829-453e-bfa4-0d79494034a8")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/9ae14c75-b35b-4192-9355-d1dd7c0cd00e"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.28 66.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0642e7e7-e5e2-411c-9872-63b068ede0fe")
+		(property "Reference" "C1"
+			(at 49.328 65.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 49.328 67.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 47.2452 70.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.28 66.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 46.28 66.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62bd32c9-519b-435f-acfb-33eec9372cf2")
+		)
+		(pin "2"
+			(uuid "c4601b67-bb8a-4aee-ac85-9810072be68b")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/9ae14c75-b35b-4192-9355-d1dd7c0cd00e"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.28 74.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3190adf4-70a2-4227-bb43-17fb7314d242")
+		(property "Reference" "#PWR0106"
+			(at 123.28 80.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.28 79.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.28 74.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.28 74.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 123.28 74.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3106a370-6599-409d-b121-35cc6df54515")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/9ae14c75-b35b-4192-9355-d1dd7c0cd00e"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.28 74.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e89fa55-718c-41d4-b747-fb0d0e41fb1f")
+		(property "Reference" "#PWR0102"
+			(at 59.28 80.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.28 79.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.28 74.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.28 74.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 59.28 74.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e31c8fb0-9114-4625-8102-dc50b1457cc3")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/9ae14c75-b35b-4192-9355-d1dd7c0cd00e"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PiE_Symbols:Anderson_Horizontal")
+		(at 84.28 64.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43b8e0c1-ec13-426f-9120-8119b11fd365")
+		(property "Reference" "A2"
+			(at 93.31 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Anderson_Horizontal"
+			(at 93.31 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PiE_Footprints:anderson_horizontal"
+			(at 84.28 61.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 84.28 61.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 84.28 64.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "957e8175-f9e1-424a-8b52-ae2faae2dc85")
+		)
+		(pin "2"
+			(uuid "589a6053-43ca-4bb4-b1b9-40a99061ae3f")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/9ae14c75-b35b-4192-9355-d1dd7c0cd00e"
+					(reference "A2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.28 70.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50b39f7c-9cfc-4a1a-ae8d-350ea25505f4")
+		(property "Reference" "#PWR0108"
+			(at 46.28 76.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.28 74.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.28 70.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.28 70.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 46.28 70.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39d09f8c-f97c-4832-97e1-0ae4d385bc6f")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/9ae14c75-b35b-4192-9355-d1dd7c0cd00e"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PiE_Symbols:Anderson_Horizontal")
+		(at 148.78 64.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9154fcc3-378b-4a94-8d46-e8950d52487f")
+		(property "Reference" "A5"
+			(at 158.08 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Anderson_Horizontal"
+			(at 158.08 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PiE_Footprints:anderson_horizontal"
+			(at 148.78 61.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.78 61.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 148.78 64.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5fe893c4-cd8c-477a-b8c0-d82d745083a1")
+		)
+		(pin "2"
+			(uuid "505043ea-ec0f-4503-af72-f90b16d07280")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/9ae14c75-b35b-4192-9355-d1dd7c0cd00e"
+					(reference "A5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PiE_Symbols:Anderson_Horizontal")
+		(at 127.28 64.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "933c9e8a-29d0-4214-8b36-21eee0dadca5")
+		(property "Reference" "A4"
+			(at 136.49 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Anderson_Horizontal"
+			(at 136.49 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PiE_Footprints:anderson_horizontal"
+			(at 127.28 61.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127.28 61.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127.28 64.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f88394e0-3abb-4de3-a0a4-2f4946a6511c")
+		)
+		(pin "2"
+			(uuid "b9064ce6-2eeb-40e1-9ed5-45f9847956a2")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/9ae14c75-b35b-4192-9355-d1dd7c0cd00e"
+					(reference "A4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 74.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4b2abb8-2f3f-4df4-8b10-964256c29a21")
+		(property "Reference" "#PWR0105"
+			(at 144.78 80.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 79.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 74.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 74.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 74.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d55127e-345b-4a2a-aac7-b66ac2a0e355")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/9ae14c75-b35b-4192-9355-d1dd7c0cd00e"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.28 74.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc05f313-d46c-4bc1-82e4-645ce9182e22")
+		(property "Reference" "#PWR0104"
+			(at 80.28 80.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.28 79.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.28 74.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.28 74.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 80.28 74.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99261c4f-74aa-4990-846d-de21becdc72e")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/9ae14c75-b35b-4192-9355-d1dd7c0cd00e"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.78 74.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d37643dd-0578-428b-9a63-1ed6f3df1bbc")
+		(property "Reference" "#PWR0103"
+			(at 101.78 80.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.78 79.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.78 74.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.78 74.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.78 74.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ce78472-6242-4737-a1d6-b14024f55a65")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/9ae14c75-b35b-4192-9355-d1dd7c0cd00e"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PiE_Symbols:Anderson_Horizontal")
+		(at 105.78 64.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc2a73a6-3237-47c5-bed1-a05247051fa3")
+		(property "Reference" "A3"
+			(at 114.9 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Anderson_Horizontal"
+			(at 114.9 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PiE_Footprints:anderson_horizontal"
+			(at 105.78 61.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.78 61.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.78 64.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a225cb1-179a-4c03-b263-ae24acdbdaa5")
+		)
+		(pin "2"
+			(uuid "cca7e7df-28e2-49fc-ae5f-f2c13322def0")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/9ae14c75-b35b-4192-9355-d1dd7c0cd00e"
+					(reference "A3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 37.78 61.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de8d797e-bded-4fab-8a05-3081310c26f0")
+		(property "Reference" "#PWR016"
+			(at 37.78 65.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12v"
+			(at 37.78 58.024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 37.78 61.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 37.78 61.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 37.78 61.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c687f87-53db-49df-a6c1-1f179133bae8")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/9ae14c75-b35b-4192-9355-d1dd7c0cd00e"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
