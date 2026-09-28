@@ -2373,7 +2373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "PCM_JLCPCB:C_1206"
 			(at 223.52 129.54 0)
 			(effects
 				(font
@@ -2509,7 +2509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "PCM_JLCPCB:R_1206"
 			(at 106.172 105.41 90)
 			(effects
 				(font
@@ -2579,7 +2579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "PCM_JLCPCB:C_1206"
 			(at 93.98 100.33 0)
 			(effects
 				(font
@@ -2648,7 +2648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "PCM_JLCPCB:C_1206"
 			(at 189.5348 128.27 0)
 			(effects
 				(font
@@ -2786,7 +2786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "PCM_JLCPCB:R_1206"
 			(at 207.772 128.27 90)
 			(effects
 				(font
@@ -2922,7 +2922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "PCM_JLCPCB:C_1206"
 			(at 121.6152 104.14 0)
 			(effects
 				(font
@@ -2992,7 +2992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "PCM_JLCPCB:R_1206"
 			(at 174.752 104.14 90)
 			(effects
 				(font
@@ -3191,7 +3191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "PCM_JLCPCB:C_1206"
 			(at 201.93 124.7648 0)
 			(effects
 				(font
@@ -3258,7 +3258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "PCM_JLCPCB:R_1206"
 			(at 168.91 102.108 90)
 			(effects
 				(font
@@ -3328,7 +3328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "PCM_JLCPCB:R_1206"
 			(at 207.772 139.7 90)
 			(effects
 				(font
@@ -3759,7 +3759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "PCM_JLCPCB:R_1206"
 			(at 184.15 127.508 90)
 			(effects
 				(font
@@ -3895,7 +3895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "PCM_JLCPCB:C_1206"
 			(at 160.02 81.28 0)
 			(effects
 				(font
@@ -4318,7 +4318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "PCM_JLCPCB:C_1206"
 			(at 167.64 96.8248 0)
 			(effects
 				(font
@@ -4452,7 +4452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "PCM_JLCPCB:R_1206"
 			(at 196.85 121.158 90)
 			(effects
 				(font
