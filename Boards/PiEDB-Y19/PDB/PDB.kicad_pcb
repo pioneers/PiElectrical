@@ -204,12 +204,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/84331e1c-9ebf-4aee-bb95-13e09ddee052")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -370,12 +364,6 @@
 		(path "/4b5b0951-c8bc-4c7d-829c-b221ccfb5c07/775eafb5-95f0-4bc4-869f-e19a3f827e19")
 		(sheetname "/USB Power/")
 		(sheetfile "USB_Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1727,12 +1715,6 @@
 		(path "/b0f737c6-e3ac-445f-9468-6414c13e2ca3/32c1f9e5-acdc-4be9-a340-439d4b28ba2f")
 		(sheetname "/Buzzer/")
 		(sheetfile "Buzzer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2005,12 +1987,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/cd4b3665-d276-44bf-8d6d-262beb410306")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2395,12 +2371,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/92d42adb-d3e8-464d-9e6a-72cc056f341a")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "4" "2" "6" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2765,12 +2735,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/aa5e8479-aa8f-437a-a390-29c5578fb592")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "6" "1" "4" "3" "5")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3079,12 +3043,6 @@
 		(path "/4b5b0951-c8bc-4c7d-829c-b221ccfb5c07/9cef3161-b970-4d3c-994e-e735104c8279")
 		(sheetname "/USB Power/")
 		(sheetfile "USB_Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "6" "4" "3" "2" "1" "5")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3511,12 +3469,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/9147e4e1-3baa-4dc6-802b-bea4e56f2174")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3677,12 +3629,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/a239d52b-242b-4e32-8a24-29b27698d9f0")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3843,12 +3789,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/b6e06eea-9e1a-40d6-a1cf-b63f59e51efc")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4009,12 +3949,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/a06d8520-bfae-4d2e-a28c-760c792579cd")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4399,12 +4333,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/6d698557-77fe-4c3b-a6ba-5a0ee20d1029")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4551,12 +4479,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/ccf582ef-b077-4d91-af7d-a1acb62f0888")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5029,12 +4951,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/acdc9855-c7fc-4877-a74b-8b810c2f3357")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "12" "1" "11" "2" "10" "3" "9" "4" "8" "5" "7" "6")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7231,12 +7147,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/de21b040-cb2b-4fdc-9461-1dc9fce3c606")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7385,12 +7295,6 @@
 		(path "/b0f737c6-e3ac-445f-9468-6414c13e2ca3/a5da7182-e8ce-4e31-909f-a0a20b7b40f7")
 		(sheetname "/Buzzer/")
 		(sheetfile "Buzzer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -7536,12 +7440,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/df254311-8ba8-48ab-8ef1-1387fd3748c0")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7940,12 +7838,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/d6f2e9a2-2fd1-407b-a140-1639b586e259")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8157,12 +8049,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/184c2856-31ab-419f-b515-3734b59cdf26")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8323,12 +8209,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/571da0be-b602-4810-9d0f-25fc98c8ca05")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8489,12 +8369,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/13f8ae0d-f009-41fb-aa9f-da30432b16ee")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8655,12 +8529,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/62895429-4b7d-4e6b-b7a3-f2159dff0a33")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8821,12 +8689,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/ade78405-fbb8-4b06-8744-6f35ee30dbea")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8988,12 +8850,6 @@
 		(path "/4b5b0951-c8bc-4c7d-829c-b221ccfb5c07/3644926e-85ab-4b79-a007-897b5ab9aa09")
 		(sheetname "/USB Power/")
 		(sheetfile "USB_Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "6" "4" "3" "2" "1" "5")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9407,12 +9263,6 @@
 		(path "/9ae14c75-b35b-4192-9355-d1dd7c0cd00e/43b8e0c1-ec13-426f-9120-8119b11fd365")
 		(sheetname "/12V Outputs/")
 		(sheetfile "Outputs_12V.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -9638,12 +9488,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/f6d0d1a0-fc40-43a3-8fb2-1a26529a0920")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9803,12 +9647,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/58ca80c8-5f73-4f16-96e7-738562cbc4e6")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9969,12 +9807,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/2d80f6f2-26ad-4513-aba8-9a135ceb406f")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10135,12 +9967,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/db447c56-803f-4fef-bbdd-870601a6fb98")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10301,12 +10127,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/33ca583c-5699-4693-92e5-a51424a3e486")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10691,12 +10511,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/ed81e80e-9fac-43c9-a86b-db182d72b93b")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10871,12 +10685,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/9bc96769-f6fe-4c6c-babf-9ae99b3c8faa")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11074,12 +10882,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/b80fd784-82d5-4e9f-8b63-4d6d1ff36bfc")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11308,12 +11110,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/d808ef3e-70fa-48de-b18c-5440cee84fc7")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11474,12 +11270,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/349db6b4-ceee-4e42-aa32-b1f591062e91")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11640,12 +11430,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/d11380e4-d554-403c-9e2b-1d9e92a8faa3")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11806,12 +11590,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/ce2b72c3-72cb-4157-a3fd-bcaa7921c8d3")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11971,12 +11749,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/1bad664a-225a-4801-b395-ce0699b1378f")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12148,12 +11920,6 @@
 		(path "/9ae14c75-b35b-4192-9355-d1dd7c0cd00e/933c9e8a-29d0-4214-8b36-21eee0dadca5")
 		(sheetname "/12V Outputs/")
 		(sheetfile "Outputs_12V.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -12386,12 +12152,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/5bc3d068-205e-4a9c-a9a0-813907c7fc8d")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12776,12 +12536,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/323a448d-b6c3-40ce-873d-cdafd13c981a")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12930,12 +12684,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/0e98bf6b-94af-4671-96a0-2e4131c13f4a")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13301,12 +13049,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/8377f187-870d-44e6-be18-9bbf4d9ec6ff")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13468,12 +13210,6 @@
 		(path "/4b5b0951-c8bc-4c7d-829c-b221ccfb5c07/278710b0-da00-4058-bb54-dc271d023da9")
 		(sheetname "/USB Power/")
 		(sheetfile "USB_Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "6" "4" "3" "2" "1" "5")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13900,12 +13636,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/4c33c334-6b12-42e7-b64a-e88049b9d729")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14080,12 +13810,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/77f091e0-1080-43ae-af21-186fb66589d7")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14297,12 +14021,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/07d0a157-f7dc-48ef-926b-33a08f76e90f")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14463,12 +14181,6 @@
 		(path "/9ae14c75-b35b-4192-9355-d1dd7c0cd00e/0642e7e7-e5e2-411c-9872-63b068ede0fe")
 		(sheetname "/12V Outputs/")
 		(sheetfile "Outputs_12V.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15833,12 +15545,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/356548d5-6a71-4d5d-8f44-e30f83fb0f7f")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15999,12 +15705,6 @@
 		(path "/53d7ecf5-8b58-488f-9b3a-64fed93730cc/3e0b5d8f-ab99-4cb2-a9b3-5bda0e0c9733")
 		(sheetname "/USB Data/")
 		(sheetfile "USB_Data.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16165,12 +15865,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/48773266-5b78-4a24-917a-9d312e6d17d8")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16555,12 +16249,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/b6ca53df-deb1-42dc-986e-386b8afb2bc1")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16817,12 +16505,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/efb0aab1-19ac-4b5d-8d72-548388a245aa")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16983,12 +16665,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/8aa7b55b-1bf1-4ca4-b68b-eb76ab075210")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17149,12 +16825,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/4b533e84-6c9c-4509-8ecf-14cbf24b4fc5")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17315,12 +16985,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/a43c66c0-e813-4a84-9945-f81c4bdfefc9")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17692,12 +17356,6 @@
 		(path "/b0f737c6-e3ac-445f-9468-6414c13e2ca3/f3d8a3bc-c3e7-484d-8a69-072d28898f78")
 		(sheetname "/Buzzer/")
 		(sheetfile "Buzzer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17885,12 +17543,6 @@
 		(path "/9ae14c75-b35b-4192-9355-d1dd7c0cd00e/9154fcc3-378b-4a94-8d46-e8950d52487f")
 		(sheetname "/12V Outputs/")
 		(sheetfile "Outputs_12V.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -18110,12 +17762,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/6594f40c-4b8a-4e8f-88e1-2610a93ddf5b")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1" "3")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18431,12 +18077,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/3b72b880-e7a7-41c5-80c1-1548fe0aa540")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18584,12 +18224,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/bb1a2ae1-0009-4dcd-8ce0-c720c47b7163")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19098,12 +18732,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/debd5aa4-f524-42d4-b377-56414a772917")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19265,12 +18893,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/630a4144-2ba0-4ab8-b756-b56e2bea7f49")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19431,12 +19053,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/0cd890a3-0d6b-483b-b7bc-0f1d6a69090e")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19583,12 +19199,6 @@
 		(path "/9ae14c75-b35b-4192-9355-d1dd7c0cd00e/dc2a73a6-3237-47c5-bed1-a05247051fa3")
 		(sheetname "/12V Outputs/")
 		(sheetfile "Outputs_12V.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -19821,12 +19431,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/aca7bdae-5b4f-4993-96ca-1d5bc5b94d98")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19931,7 +19535,7 @@
 				)
 			)
 		)
-		(property "Value" "5v_converter"
+		(property "Value" "BUCK_CONVERTER_5V"
 			(at 0 -26 0)
 			(layer "F.Fab")
 			(uuid "22b965d4-3e54-4fc9-9d23-8fe5b4651abd")
@@ -19972,12 +19576,6 @@
 		(path "/572f6d45-70c0-4d20-865e-c7bb056a3d0b/cd531909-e985-4cbc-a926-2cf610278fb2")
 		(sheetname "/Buck Converter/")
 		(sheetfile "Power.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "3" "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20264,12 +19862,6 @@
 		(path "/b0f737c6-e3ac-445f-9468-6414c13e2ca3/c56d4c59-5371-4930-b0db-b56fd09178ae")
 		(sheetname "/Buzzer/")
 		(sheetfile "Buzzer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20430,12 +20022,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/c9f0d7f0-2ede-4975-9f20-63164883423b")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20583,12 +20169,6 @@
 		(path "/9ae14c75-b35b-4192-9355-d1dd7c0cd00e/03ab427d-9f50-42d0-b6ca-55c8d0625243")
 		(sheetname "/12V Outputs/")
 		(sheetfile "Outputs_12V.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -20821,12 +20401,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/f7233f8b-3644-4af7-af0c-80745f7de93e")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21211,12 +20785,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/20c82b27-a91a-4285-a307-a8d12169ffcd")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21377,12 +20945,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/ed75a344-4cdc-485a-82aa-e95f58002e30")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21543,12 +21105,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/63fbbd65-0aaf-41dc-b5e2-0fd90882c698")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21709,12 +21265,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/4718f423-206d-4826-a2b5-74a6141a459e")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21861,12 +21411,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/bdc01539-b74d-4e93-a7a5-3846f4cc72a8")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -22015,12 +21559,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/6152dfd9-2df4-461b-b661-27c540947778")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22246,12 +21784,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/4ee931d7-c0ca-4c76-868f-06fa23b56e30")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22463,12 +21995,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/1c9a30a3-d26f-4325-a793-8ceedef5f1df")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22629,12 +22155,6 @@
 		(path "/b0f737c6-e3ac-445f-9468-6414c13e2ca3/18305b16-a353-476e-bbcf-d1561bc23447")
 		(sheetname "/Buzzer/")
 		(sheetfile "Buzzer.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22781,12 +22301,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/b4615856-8e18-4f0a-8344-1522426d2933")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23090,12 +22604,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/10153cfc-a020-498f-93e1-88d02b683c06")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23256,12 +22764,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/6b35a108-8d72-486d-9f60-8f4bc82dc82f")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23422,12 +22924,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/408a26fe-374c-4dd0-a9e6-a6546bbb7171")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23588,12 +23084,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/cf11e205-0e0a-45ce-8bcf-4c24d418c770")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "4" "2" "6" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23951,16 +23441,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/a3f46513-1c9d-430d-888d-5bd3784d5aa6")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "13" "17" "16" "42" "7" "4" "3" "6" "2" "5" "14" "34" "45" "43"
-					"15" "23" "35" "44" "24" "8" "9" "10" "11" "28" "29" "30" "12" "31"
-					"32" "18" "19" "20" "21" "25" "22" "26" "27" "33" "1" "41" "40" "39"
-					"38" "37" "36"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24927,12 +24407,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/10840a1e-c5fe-41d2-9f7b-819dc3f98ef3")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25592,12 +25066,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/142b58ff-c9c3-430e-afae-695250f076c2")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25892,12 +25360,6 @@
 		(path "/53d7ecf5-8b58-488f-9b3a-64fed93730cc/8fd2b2e7-2412-4660-97db-5678b7355fc0")
 		(sheetname "/USB Data/")
 		(sheetfile "USB_Data.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26043,12 +25505,6 @@
 		(path "/53d7ecf5-8b58-488f-9b3a-64fed93730cc/9b320d72-fd6d-4b3a-9ab3-a957dc7815f9")
 		(sheetname "/USB Data/")
 		(sheetfile "USB_Data.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "SH" "4" "1" "3" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26310,15 +25766,15 @@
 			(uuid "8300a7e5-8c8a-4fcc-9faf-c560451e32ab")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3DModels/USB-B1HSxx.step"
+		(model "${KIPRJMOD}/3DModels/USB-B-S-S-B-TH.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 15 -1.25 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -26395,12 +25851,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/dd6d277f-2644-4128-98da-66360ad0fe57")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26561,12 +26011,6 @@
 		(path "/53d7ecf5-8b58-488f-9b3a-64fed93730cc/f7ae2e93-3253-4471-9908-a53fa0c98a66")
 		(sheetname "/USB Data/")
 		(sheetfile "USB_Data.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "5" "2" "6" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26945,12 +26389,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/32b2f912-8ec5-4e50-a97d-0a007cdf74db")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27162,12 +26600,6 @@
 		(path "/103395df-199e-464c-b6a7-422d39a61d31/ae4be263-8462-4608-8759-2190b39b154e")
 		(sheetname "/GPIO/")
 		(sheetfile "GPIO.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27328,12 +26760,6 @@
 		(path "/a5ce303d-301b-4c6e-abbe-512c01e3b243/18db1d64-366a-4e67-9481-835383718ceb")
 		(sheetname "/Battery/")
 		(sheetfile "battery.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
