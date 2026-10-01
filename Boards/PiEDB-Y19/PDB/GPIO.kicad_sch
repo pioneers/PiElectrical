@@ -4736,6 +4736,12 @@
 		(uuid "d53c190b-921c-4737-accc-52ed2bb8174b")
 	)
 	(junction
+		(at 208.28 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e92ef9e8-ba41-444f-b407-f52e26efdc56")
+	)
+	(junction
 		(at 163.83 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4746,10 +4752,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc6725f9-db46-4aba-b86e-cc928e6084d8")
-	)
-	(no_connect
-		(at 265.43 118.11)
-		(uuid "39116b9a-5b98-4868-82a4-48c8ae181957")
 	)
 	(wire
 		(pts
@@ -5143,6 +5145,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 59.69) (xy 209.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c98ad97-c023-4e34-a0e1-1c6899d4a0e5")
+	)
+	(wire
+		(pts
 			(xy 160.02 172.72) (xy 163.83 172.72)
 		)
 		(stroke
@@ -5170,6 +5182,16 @@
 			(type default)
 		)
 		(uuid "3f3b51b7-b44d-4ce9-95a4-74f38e9eba63")
+	)
+	(wire
+		(pts
+			(xy 265.43 118.11) (xy 267.97 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3edbf2-20ea-48f1-aad5-27ab655da4ab")
 	)
 	(wire
 		(pts
@@ -5600,6 +5622,16 @@
 			(type default)
 		)
 		(uuid "6c0ea11f-31e2-4a3c-aaab-19844ecd96ca")
+	)
+	(wire
+		(pts
+			(xy 208.28 59.69) (xy 208.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce11159-f427-47f1-9e6b-7c0c7cb8e472")
 	)
 	(wire
 		(pts
@@ -6403,7 +6435,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 59.69) (xy 209.55 59.69)
+			(xy 201.93 59.69) (xy 208.28 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6601,6 +6633,26 @@
 		)
 		(uuid "fc22011b-5fd9-4e6a-8f1c-799a0ae739f7")
 	)
+	(label "Cell1+2+3_s"
+		(at 267.97 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0351a914-429c-4db9-a824-a53871354534")
+	)
+	(label "BatCal"
+		(at 267.97 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "054a4f37-3348-4dec-9701-f439a3c30bf8")
+	)
 	(label "GND"
 		(at 267.97 123.19 0)
 		(effects
@@ -6631,6 +6683,16 @@
 		)
 		(uuid "0b4c972e-cbce-483e-9c95-87df8698f22b")
 	)
+	(label "BatCal"
+		(at 156.21 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "104db6b4-1513-4084-8e06-dffeb12967bb")
+	)
 	(label "DP"
 		(at 64.77 115.57 270)
 		(effects
@@ -6640,16 +6702,6 @@
 			(justify right bottom)
 		)
 		(uuid "1054830a-b130-4580-a954-4f03f5d4becf")
-	)
-	(label "LED_GREEN"
-		(at 267.97 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "19a6b438-23bd-4efb-bb82-c1dbc1fa5a8c")
 	)
 	(label "Dig4"
 		(at 99.06 162.56 0)
@@ -6671,16 +6723,6 @@
 		)
 		(uuid "1c0846b6-a698-400c-b82e-fb6131a4ee0a")
 	)
-	(label "Buzzer"
-		(at 267.97 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e0466c6-6038-426b-b8c5-bad4f5dd68c3")
-	)
 	(label "LED_GREEN"
 		(at 134.62 165.1 180)
 		(effects
@@ -6691,15 +6733,15 @@
 		)
 		(uuid "1e5a2b66-bce4-427d-bf45-85fbb7920229")
 	)
-	(label "toggle"
-		(at 267.97 125.73 0)
+	(label "ISP_SCK"
+		(at 156.21 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "24457d7d-5547-4711-b088-7ea51839b281")
+		(uuid "1e7a6493-2e88-430b-be75-6029ae9005d0")
 	)
 	(label "USB_VBUS"
 		(at 35.56 55.88 0)
@@ -6751,6 +6793,16 @@
 		)
 		(uuid "2de06dd5-aeab-47a6-92c8-563dd8c71cf8")
 	)
+	(label "F"
+		(at 267.97 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "327407c7-4431-4861-a457-10c65afe2428")
+	)
 	(label "D"
 		(at 60.96 115.57 270)
 		(effects
@@ -6781,16 +6833,6 @@
 		)
 		(uuid "36151519-32b3-40e4-8765-83fb82a4dfe8")
 	)
-	(label "A"
-		(at 267.97 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3973e041-b80c-475c-882f-57c07589100c")
-	)
 	(label "DIG1_N"
 		(at 24.13 130.81 180)
 		(effects
@@ -6810,16 +6852,6 @@
 			(justify right bottom)
 		)
 		(uuid "40fa26c9-b54e-450f-8808-77be49b3cb84")
-	)
-	(label "DIG3_N"
-		(at 267.97 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "435cac25-a061-4721-824e-52e7a19fb57d")
 	)
 	(label "G"
 		(at 71.12 115.57 270)
@@ -6851,35 +6883,35 @@
 		)
 		(uuid "46bbb374-3502-4b1e-9258-02ec78503da8")
 	)
-	(label "G"
-		(at 156.21 30.48 0)
+	(label "DIG3_N"
+		(at 267.97 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "49576106-e49a-4b18-b4b3-d233c6f8255c")
+		(uuid "471b8f9d-0e91-4a7a-8c87-cf8ebb0dd8f4")
 	)
-	(label "DP"
-		(at 267.97 77.47 0)
+	(label "DIG4_N"
+		(at 267.97 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4b5351cf-8326-4e84-a6e6-93f51ebe5fba")
+		(uuid "48df8bb5-fc40-454b-8043-511d6c5ab59c")
 	)
-	(label "LED_RED"
-		(at 267.97 135.89 0)
+	(label "LED_HEARTBEAT"
+		(at 267.97 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4d611407-516b-4586-aaa8-a31203868de3")
+		(uuid "4a9928b8-d095-400b-8fe2-401c23abcd85")
 	)
 	(label "LED_HEARTBEAT"
 		(at 134.62 172.72 180)
@@ -6891,6 +6923,16 @@
 		)
 		(uuid "5116dba0-77e6-4b40-bf49-8fb4f9bdd84a")
 	)
+	(label "D"
+		(at 267.97 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5313d927-0d6b-4e4f-9f50-c8ed9be33ea2")
+	)
 	(label "LED_RX"
 		(at 267.97 69.85 0)
 		(effects
@@ -6901,26 +6943,6 @@
 		)
 		(uuid "54fa6e9a-18d2-4ac3-914d-3ea47a5bd389")
 	)
-	(label "B"
-		(at 267.97 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a6914e6-0bd7-4712-8c51-ea88fe8d88a8")
-	)
-	(label "F"
-		(at 267.97 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5bf84551-b0aa-4417-9d38-84f384190ad9")
-	)
 	(label "RESET"
 		(at 156.21 35.56 0)
 		(effects
@@ -6930,6 +6952,16 @@
 			(justify left bottom)
 		)
 		(uuid "5d74b8ad-6030-4be3-aed9-f8f6eedbfc24")
+	)
+	(label "toggle"
+		(at 267.97 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5eb869d2-8155-4173-ab37-6cd5a6ce7a89")
 	)
 	(label "MCU_5V"
 		(at 140.97 17.78 0)
@@ -6951,15 +6983,15 @@
 		)
 		(uuid "62effe9c-0f60-4cb1-a18d-e4baa4440c40")
 	)
-	(label "DP"
-		(at 156.21 27.94 0)
+	(label "Buzzer"
+		(at 267.97 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "68d3d930-139d-401b-a227-9f75c9fbaa14")
+		(uuid "64b8b4d1-04e9-4a64-a2e5-f98be47aad01")
 	)
 	(label "USB_VBUS"
 		(at 243.84 27.94 180)
@@ -6970,16 +7002,6 @@
 			(justify right bottom)
 		)
 		(uuid "691b7b57-5285-4489-9b91-a935d5fb62f3")
-	)
-	(label "DIG4_N"
-		(at 267.97 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "693d7d11-6a9c-42ee-bd11-d4bfb7078219")
 	)
 	(label "XTAL1"
 		(at 232.41 74.93 180)
@@ -7011,6 +7033,26 @@
 		)
 		(uuid "718171be-2cda-4598-b610-363d48ab2dc9")
 	)
+	(label "B"
+		(at 267.97 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75927b07-01f4-4079-904e-78ca4555ad17")
+	)
+	(label "ISP_SCK"
+		(at 267.97 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77f77a1c-4fbc-409b-89b6-b91ccf53e936")
+	)
 	(label "MCU_5V"
 		(at 270.51 27.94 0)
 		(effects
@@ -7041,25 +7083,25 @@
 		)
 		(uuid "7c54d007-7492-4f38-a924-159c85c3a776")
 	)
-	(label "Cell1+2_s"
-		(at 267.97 140.97 0)
+	(label "E"
+		(at 267.97 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "85cb25b0-a330-4d17-9ec6-47cab3d8c915")
+		(uuid "7ec3f264-b16b-4eb5-8dd5-59396685d209")
 	)
-	(label "Cell1+2+3_s"
-		(at 267.97 110.49 0)
+	(label "G"
+		(at 267.97 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "85f3fc46-3c3c-4030-98ce-69ac69c66370")
+		(uuid "7f5cad0d-c0d4-42aa-9ac3-420b78fdabbd")
 	)
 	(label "USB_VBUS"
 		(at 201.93 38.1 270)
@@ -7080,16 +7122,6 @@
 			(justify left bottom)
 		)
 		(uuid "88fecbca-574b-486e-919c-55e98b586156")
-	)
-	(label "Cell1_s"
-		(at 267.97 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b46154f-77a3-4da2-84e8-0e7061ed82b3")
 	)
 	(label "Dig2"
 		(at 48.26 162.56 0)
@@ -7121,16 +7153,6 @@
 		)
 		(uuid "8c483bb4-a003-4ad8-841c-a27a71753e72")
 	)
-	(label "LED_HEARTBEAT"
-		(at 267.97 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "98dfcaa8-fd5b-4969-886d-14bf19ee5d77")
-	)
 	(label "USB_D-"
 		(at 35.56 30.48 0)
 		(effects
@@ -7141,25 +7163,25 @@
 		)
 		(uuid "9bf48d9b-046c-44d1-9be4-c33f23281ab0")
 	)
-	(label "LED_YELLOW"
-		(at 267.97 133.35 0)
+	(label "LED_GREEN"
+		(at 267.97 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9cd99110-0671-480e-b33b-9b9c523fe82c")
+		(uuid "9f40fd1a-6814-48c7-b217-90fe98cd6e17")
 	)
-	(label "G"
-		(at 267.97 74.93 0)
+	(label "DIG1_N"
+		(at 267.97 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9e0381aa-1ec0-4c85-91bf-9f8530b85fae")
+		(uuid "a78755d4-7439-4d94-85fc-5d5141f49cf6")
 	)
 	(label "MCU_5V"
 		(at 209.55 59.69 0)
@@ -7171,25 +7193,15 @@
 		)
 		(uuid "a81c0a45-214b-4127-baef-781e7dfa2b92")
 	)
-	(label "D"
-		(at 267.97 115.57 0)
+	(label "Cell1_s"
+		(at 267.97 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b07f95e8-f4a3-4b6e-9ae1-b94182bafa2c")
-	)
-	(label "E"
-		(at 267.97 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b4338b25-1f22-4359-841f-51ffcb63e0ea")
+		(uuid "b1a10e97-b4ee-4816-9259-975fa05d3d9e")
 	)
 	(label "Dig4"
 		(at 74.93 106.68 0)
@@ -7201,15 +7213,25 @@
 		)
 		(uuid "b4b0f283-5e11-434f-8df3-ca91b9ef6615")
 	)
-	(label "DIG2_N"
-		(at 267.97 102.87 0)
+	(label "Buzzer"
+		(at 156.21 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b651fc67-d3ac-4ed3-9985-ce3127ac1f4f")
+		(uuid "b4feac42-3c80-41e2-9358-6531a863d3f4")
+	)
+	(label "Cell1+2_s"
+		(at 267.97 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b58f060e-bebc-4edc-bea4-a761c8024e6d")
 	)
 	(label "C"
 		(at 67.31 115.57 270)
@@ -7231,7 +7253,7 @@
 		)
 		(uuid "b8b07cda-389e-40e4-87b2-a7c7770d79d0")
 	)
-	(label "DIG1_N"
+	(label "LED_RED"
 		(at 267.97 100.33 0)
 		(effects
 			(font
@@ -7239,7 +7261,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bad5e763-ed15-4234-a28d-1f3ab1237080")
+		(uuid "bc65c107-196d-427f-b082-93d8f6c6e069")
 	)
 	(label "Cell1_s"
 		(at 35.56 35.56 0)
@@ -7251,15 +7273,15 @@
 		)
 		(uuid "bec4fb3a-1d7e-4d6d-b260-e8ccffccf94a")
 	)
-	(label "C"
-		(at 267.97 87.63 0)
+	(label "DIG2_N"
+		(at 267.97 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c12a44bd-3924-4447-b382-ae7ff1e70728")
+		(uuid "c261d4b3-322c-4c56-8a0f-ab82859b0522")
 	)
 	(label "DIG4_N"
 		(at 74.93 170.18 180)
@@ -7270,16 +7292,6 @@
 			(justify right bottom)
 		)
 		(uuid "c5b8e727-37a2-4656-84ba-d8c69cb5db6f")
-	)
-	(label "BatCal"
-		(at 267.97 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5e1224b-87ed-4884-b5a1-1137361a00a8")
 	)
 	(label "LED_RX"
 		(at 134.62 180.34 180)
@@ -7300,16 +7312,6 @@
 			(justify right bottom)
 		)
 		(uuid "dbbb8a08-2216-48ae-8959-cf3aaa7196c1")
-	)
-	(label "F"
-		(at 156.21 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de3bcc3b-3a44-43b1-8c61-815634234b03")
 	)
 	(label "LED_TX"
 		(at 267.97 113.03 0)
@@ -7440,6 +7442,46 @@
 			(justify left bottom)
 		)
 		(uuid "f2b1010f-e865-455c-944b-2c06be9d235e")
+	)
+	(label "A"
+		(at 267.97 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f37b8fb0-320c-4465-9f53-c8e8cbc88d7a")
+	)
+	(label "LED_YELLOW"
+		(at 267.97 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4ce2a74-7b1b-415a-bf46-b9bbffc33381")
+	)
+	(label "C"
+		(at 267.97 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbd24564-e986-4854-8096-4518a1179dcd")
+	)
+	(label "DP"
+		(at 267.97 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd9204f1-023e-45fe-9131-28daff7f512b")
 	)
 	(hierarchical_label "USB_VBUS"
 		(shape input)
@@ -8841,7 +8883,7 @@
 				)
 			)
 		)
-		(property "Function" "LED_GREEN (PF0 / A5)"
+		(property "Function" "BATT OK (PD2 / D0)"
 			(at 140.97 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -10059,7 +10101,7 @@
 				)
 			)
 		)
-		(property "Function" "LED_YELLOW (PF1 / A4)"
+		(property "Function" "BATT LOW (PD1 / D2)"
 			(at 140.97 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10408,6 +10450,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 208.28 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f09d89d-4cf6-4c1f-b888-13bad2a9788d")
+		(property "Reference" "#PWR034"
+			(at 208.28 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49446ca0-9462-4b62-8fce-63cd2ec8aa00")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/103395df-199e-464c-b6a7-422d39a61d31"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 171.45 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -10547,7 +10666,7 @@
 				)
 			)
 		)
-		(property "Function" "HEARTBEAT (PF5 / A2)"
+		(property "Function" "HB (PD3 / D1)"
 			(at 140.97 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11499,7 +11618,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm"
+		(property "Footprint" "PiE_Footprints:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm"
 			(at 250.19 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13306,7 +13425,7 @@
 				)
 			)
 		)
-		(property "Function" "LED_RED (PF4 / A3)"
+		(property "Function" "BATT CRIT (PD0 / D3)"
 			(at 140.97 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -14117,6 +14236,87 @@
 			(project "PDB"
 				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/103395df-199e-464c-b6a7-422d39a61d31"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6d0d1a0-fc40-43a3-8fb2-1a26529a0920")
+		(property "Reference" "C19"
+			(at 208.915 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 208.915 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 208.28 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf9d9ca9-0821-48b7-a9bd-9f691f55238e")
+		)
+		(pin "2"
+			(uuid "443f49ea-aa9a-4987-8f42-17b8e1480144")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/103395df-199e-464c-b6a7-422d39a61d31"
+					(reference "C19")
 					(unit 1)
 				)
 			)

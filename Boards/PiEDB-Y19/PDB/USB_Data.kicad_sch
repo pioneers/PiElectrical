@@ -2555,7 +2555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal"
+		(property "Footprint" "PiE_Footprints:USB_B_OST_USB-B1HSxx_Horizontal"
 			(at 110.49 72.39 0)
 			(hide yes)
 			(show_name no)
