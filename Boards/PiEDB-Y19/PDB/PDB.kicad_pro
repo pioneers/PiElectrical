@@ -699,7 +699,7 @@
         "uuid": "ceb83560-0246-40d0-a32b-c39f34a9d8be"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP1-4,#PWR35,USB_VBUS1,5V1,GND1,MCU_5V1",
     "variants": []
   },
   "sheets": [

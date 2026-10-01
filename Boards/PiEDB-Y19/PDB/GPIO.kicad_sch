@@ -282,6 +282,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -4646,6 +4769,12 @@
 		(uuid "3a59e4cb-cf55-4b14-974e-690bcedc1fb6")
 	)
 	(junction
+		(at 269.24 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "418f6847-d3ab-4f06-8245-8459e85fb3fc")
+	)
+	(junction
 		(at 196.85 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4662,6 +4791,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4edc2958-22e2-40da-bbab-ee7685949e2f")
+	)
+	(junction
+		(at 198.12 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59b66861-43aa-46e6-b7ef-2fae63d588aa")
 	)
 	(junction
 		(at 163.83 172.72)
@@ -4728,6 +4863,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b555f4f5-2a5f-4974-80d1-4b90659813f2")
+	)
+	(junction
+		(at 248.92 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb0038c3-620b-4a79-8618-5eebbaaf1684")
 	)
 	(junction
 		(at 179.07 59.69)
@@ -4852,6 +4993,16 @@
 			(type default)
 		)
 		(uuid "11aa1f81-92ab-46fe-b229-ab8e62ae151f")
+	)
+	(wire
+		(pts
+			(xy 248.92 27.94) (xy 245.11 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b402c0-f07b-4fe7-9210-a1fb68816595")
 	)
 	(wire
 		(pts
@@ -5012,6 +5163,16 @@
 			(type default)
 		)
 		(uuid "29d0a36a-e66d-4914-8c16-e49e83730bbb")
+	)
+	(wire
+		(pts
+			(xy 248.92 20.32) (xy 248.92 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa178df-ed0e-4771-a66e-245ba3eb20cf")
 	)
 	(wire
 		(pts
@@ -5215,7 +5376,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 27.94) (xy 196.85 27.94)
+			(xy 201.93 27.94) (xy 198.12 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5325,6 +5486,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 27.94) (xy 196.85 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50bf00a7-c42e-4b70-a898-20f045bb41a2")
+	)
+	(wire
+		(pts
 			(xy 38.1 144.78) (xy 48.26 144.78)
 		)
 		(stroke
@@ -5375,7 +5546,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 27.94) (xy 245.11 27.94)
+			(xy 252.73 27.94) (xy 248.92 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5505,6 +5676,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 27.94) (xy 270.51 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62195639-3516-41b5-9cf2-b97707863682")
+	)
+	(wire
+		(pts
 			(xy 64.77 80.01) (xy 64.77 81.28)
 		)
 		(stroke
@@ -5512,6 +5693,16 @@
 			(type default)
 		)
 		(uuid "62d9995f-1c5b-4ecf-9da5-53671ad25191")
+	)
+	(wire
+		(pts
+			(xy 198.12 20.32) (xy 198.12 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6313201c-97ad-42c1-a579-25ddbe565b99")
 	)
 	(wire
 		(pts
@@ -5855,6 +6046,26 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 21.59) (xy 231.14 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd109b9-ff6c-4874-894c-a7bb60e0c67a")
+	)
+	(wire
+		(pts
+			(xy 269.24 20.32) (xy 269.24 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f84f29e-3794-4b98-92ac-c2ee374a7deb")
+	)
+	(wire
+		(pts
 			(xy 265.43 95.25) (xy 267.97 95.25)
 		)
 		(stroke
@@ -5875,7 +6086,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 27.94) (xy 270.51 27.94)
+			(xy 267.97 27.94) (xy 269.24 27.94)
 		)
 		(stroke
 			(width 0)
@@ -8345,6 +8556,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 248.92 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1621909b-693d-4ea4-a745-29330ca63808")
+		(property "Reference" "USB_VBUS1"
+			(at 251.46 15.7479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 251.46 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
+			(at 254 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 248.92 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce3d9170-482c-47b8-97e9-02fb03fdcd6c")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/103395df-199e-464c-b6a7-422d39a61d31"
+					(reference "USB_VBUS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 106.68 60.96 90)
 		(unit 1)
@@ -8504,6 +8794,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 198.12 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "194c4d53-dfee-4fd3-95c6-e7d366d95f4b")
+		(property "Reference" "5V1"
+			(at 200.66 15.7479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 200.66 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
+			(at 203.2 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 198.12 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bde230fd-5a88-484d-b4a4-2c09ee284f58")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/103395df-199e-464c-b6a7-422d39a61d31"
+					(reference "5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 185.42 100.33 180)
 		(unit 1)
@@ -8577,6 +8946,83 @@
 			(project "PDB"
 				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/103395df-199e-464c-b6a7-422d39a61d31"
 					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20507d67-83c9-44a6-bee9-7929f3ef394d")
+		(property "Reference" "#PWR035"
+			(at 231.14 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7069acd0-1166-4092-9e6a-b3039c1726a3")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/103395df-199e-464c-b6a7-422d39a61d31"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9792,6 +10238,85 @@
 			(project "PDB"
 				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/103395df-199e-464c-b6a7-422d39a61d31"
 					(reference "#PWR005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 269.24 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55e537f9-72f5-4e83-bf7a-d4e81c16a071")
+		(property "Reference" "MCU_5V1"
+			(at 271.78 15.7479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 271.78 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
+			(at 274.32 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 269.24 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7b39afc-c80c-4367-b111-5f160728e152")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/103395df-199e-464c-b6a7-422d39a61d31"
+					(reference "MCU_5V1")
 					(unit 1)
 				)
 			)
@@ -12468,6 +12993,85 @@
 			(project "PDB"
 				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/103395df-199e-464c-b6a7-422d39a61d31"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 231.14 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b29cf880-be3a-46c2-8452-2dde15c4ba86")
+		(property "Reference" "GND1"
+			(at 233.68 15.7479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 233.68 18.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
+			(at 236.22 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 231.14 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63992a58-a15d-4aac-b5b7-676615c1a705")
+		)
+		(instances
+			(project "PDB"
+				(path "/ceb83560-0246-40d0-a32b-c39f34a9d8be/103395df-199e-464c-b6a7-422d39a61d31"
+					(reference "GND1")
 					(unit 1)
 				)
 			)
