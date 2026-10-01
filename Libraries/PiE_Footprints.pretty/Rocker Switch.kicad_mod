@@ -1,20 +1,105 @@
-(footprint "Rocker Switch" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 0)
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -11.15 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 884c3a9b-9a5a-4224-83f5-38b2ea477593)
-  )
-  (fp_text value "Rocker Switch" (at -0.025 -9.15 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp fdc80587-9c07-4850-b8db-7a47e55fdb2d)
-  )
-  (fp_text user "${REFERENCE}" (at 0 -7.075 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 74d88525-63f6-4581-87ff-0f5c92c5f86a)
-  )
-  (fp_rect (start 11.5 5.05) (end -3.6 -5.05) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 3b334408-3b22-40b1-96ec-a1beaf9978c9))
-  (pad "1" thru_hole oval (at 0 0) (size 2.2 5.5) (drill oval 1.2 4.5) (layers *.Cu *.Mask) (tstamp 239f694c-d437-4d12-9053-e763a6a47911))
-  (pad "2" thru_hole oval (at 5 0) (size 2.2 5.5) (drill oval 1.2 4.5) (layers *.Cu *.Mask) (tstamp 833cb373-df5a-4c50-82d2-fde21dfb0761))
+(footprint "Rocker Switch"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -11.15 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d7c2b841-e518-4574-91d7-1db2b5fbebb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Rocker Switch"
+		(at -0.025 -9.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ade1d74c-1033-4a27-9f17-0970574da65b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b0f0b9a-cf5c-4e5f-9085-f3090a3c7d71")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5c87605-65a6-4707-adff-1bc0c7657647")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start 11.5 5.05)
+		(end -3.6 -5.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6a7f719f-a350-4310-aed4-c573c709394e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7.075 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8000a510-6dd3-4951-9e0d-026f0b9ca3c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 2.2 5.5)
+		(drill oval 1.2 4.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aec73ae8-6963-4cbb-9629-55f820d7092e")
+	)
+	(pad "2" thru_hole oval
+		(at 5 0)
+		(size 2.2 5.5)
+		(drill oval 1.2 4.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "19324b63-f436-4361-9d9d-6f9841105510")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3DModels/SW-R3-1A-A-XX-0_black.step"
+		(offset
+			(xyz 5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
